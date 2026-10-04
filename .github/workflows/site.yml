@@ -1,0 +1,76 @@
+name: Site
+
+# Validates the data, builds the site, runs the tests, and keeps the built site as a downloadable
+# artifact. It is published to GitHub Pages only when the repository variable PAGES is "true"
+# (Pages needs a public repository on the free plan).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install
+        run: |
+          pip install -e '.[dev]'
+          npm ci --prefix site
+
+      - name: Validate the data
+        run: ps2ktxpak validate
+
+      - name: Build the site
+        working-directory: site
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io
+        run: npm run build
+
+      - name: Test
+        run: pytest -q
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site/dist
+          retention-days: 14
+
+      - uses: actions/upload-pages-artifact@v3
+        if: vars.PAGES == 'true'
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    if: vars.PAGES == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

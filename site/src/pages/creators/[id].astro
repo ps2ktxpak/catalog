@@ -1,0 +1,56 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import PackTable from '../../components/PackTable.astro';
+import { linkLabel, loadCatalog } from '../../lib/catalog';
+import { href } from '../../lib/url';
+
+export function getStaticPaths() {
+  const { byCreator, creators } = loadCatalog();
+  return [...byCreator.keys()].map((id) => ({ params: { id }, props: { creator: creators.get(id)!, rows: byCreator.get(id)! } }));
+}
+
+const { creator, rows } = Astro.props;
+const hosted = rows.filter((r) => r.kind === 'hosted').length;
+const listed = rows.length - hosted;
+const links = [
+  ...(creator.links.page ? [{ label: 'Profile', url: creator.links.page }] : []),
+  ...(creator.links.distribution ? [{ label: 'Preferred download page', url: creator.links.distribution }] : []),
+  ...creator.links.tip.map((l) => ({ label: `Tip: ${linkLabel(l.kind)}`, url: l.url })),
+  ...creator.links.socials.map((l) => ({ label: linkLabel(l.kind), url: l.url })),
+];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: creator.name,
+    description: `Packs listed under the name ${creator.name}.`,
+    tableOfContents: false,
+  }}
+>
+  <p class="pk-count">
+    {hosted} hosted · {listed} listed · <a href={href('/creators/')}>Creators</a> · <a href={href('/')}>Packs</a>
+  </p>
+  {creator.aliases.length > 0 && <p class="pk-muted">Also listed as: {creator.aliases.join(', ')}</p>}
+
+  {
+    links.length > 0 && (
+      <>
+        <h2>Links</h2>
+        <ul class="pk-links">
+          {links.map((l) => (
+            <li><a href={l.url} rel="noopener noreferrer" target="_blank">{l.label}</a></li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+
+  <h2>Packs</h2>
+  <PackTable rows={rows} showCreators={rows.some((r) => r.creators.length > 1)} />
+
+  <p>Corrections, claims and removals: <a href={href('/corrections/')}>Corrections</a>.</p>
+</StarlightPage>
+
+<style is:global>
+  :root { --sl-content-width: 80rem; }
+</style>

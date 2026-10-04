@@ -1,0 +1,127 @@
+---
+import { completenessLabel, formatSize, typeLabel, type Row } from '../lib/catalog';
+import { href } from '../lib/url';
+
+interface Props {
+  rows: Row[];
+  /** Hide the creator column on a creator's own page, where it would repeat their name. */
+  showCreators?: boolean;
+}
+const { rows, showCreators = true } = Astro.props;
+
+const searchText = (r: Row) =>
+  [r.title, r.packName ?? '', ...r.serials, ...r.creators.map((c) => c.name)].join(' ').toLowerCase();
+const details = (r: Row) =>
+  [
+    r.type !== 'unknown' ? typeLabel(r.type) : null,
+    r.completeness !== 'unknown' ? completenessLabel(r.completeness) : null,
+    r.sizeBytes ? formatSize(r.sizeBytes) : null,
+  ].filter(Boolean).join(' · ');
+---
+
+<div class="pk-root" data-pk-root>
+  <div class="pk-controls">
+    <label class="pk-field">
+      <span>Search</span>
+      <input type="search" data-pk-search autocomplete="off" placeholder={showCreators ? 'Game, creator or serial' : 'Game or serial'} />
+    </label>
+    <label class="pk-field">
+      <span>Show</span>
+      <select data-pk-kind>
+        <option value="all">Everything</option>
+        <option value="hosted">Hosted</option>
+        <option value="listed">Listed</option>
+      </select>
+    </label>
+    <p class="pk-count" data-pk-count aria-live="polite"></p>
+  </div>
+
+  <div class="pk-wrap">
+    <table class="pk-table">
+      <thead>
+        <tr>
+          <th>Game</th>
+          {showCreators && <th>Creator</th>}
+          <th>Status</th>
+          <th>Details</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr data-kind={r.kind} data-search={searchText(r)}>
+            <td>
+              <strong>{r.title}</strong>
+              {r.packName && <div class="pk-muted">{r.packName}</div>}
+              <div class="pk-muted">{r.serials.length ? r.serials.join(', ') : r.regions.join(', ')}</div>
+            </td>
+            {showCreators && (
+              <td>
+                {r.creators.length === 0 ? (
+                  <span class="pk-muted">Not named</span>
+                ) : (
+                  r.creators.map((c, i) => (
+                    <>
+                      {i > 0 && ', '}
+                      <a href={href(`/creators/${c.id}/`)}>{c.name}</a>
+                    </>
+                  ))
+                )}
+              </td>
+            )}
+            <td>
+              <span class={`pk-chip pk-${r.kind}`}>{r.kind === 'hosted' ? 'Hosted' : 'Listed'}</span>
+              {r.paid && (
+                <span class="pk-chip pk-paid" title="Listed as sold by its creator in the Texture Packs Archive.">
+                  Listed as paid
+                </span>
+              )}
+              {r.archiveOnly.length > 0 && (
+                <span class="pk-chip pk-review" title="The Texture Packs Archive credits this name; the credit here does not.">
+                  Archive credits {r.archiveOnly.map((c) => c.name).join(', ')}
+                </span>
+              )}
+              {r.credit === 'review' && (
+                <span class="pk-chip pk-review" title="Credit not confirmed as complete or correct.">
+                  Credit being checked
+                </span>
+              )}
+            </td>
+            <td class="pk-details">{details(r)}</td>
+            <td>
+              {r.source ? (
+                <a href={r.source.url} rel="noopener noreferrer" target="_blank">{r.source.label}</a>
+              ) : (
+                <span class="pk-muted">None</span>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-pk-root]')) {
+    const input = root.querySelector<HTMLInputElement>('[data-pk-search]')!;
+    const kind = root.querySelector<HTMLSelectElement>('[data-pk-kind]')!;
+    const count = root.querySelector<HTMLElement>('[data-pk-count]')!;
+    const rows = [...root.querySelectorAll<HTMLTableRowElement>('tbody tr')];
+    const apply = () => {
+      const words = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      for (const tr of rows) {
+        const ok = (kind.value === 'all' || tr.dataset.kind === kind.value) && words.every((w) => tr.dataset.search!.includes(w));
+        tr.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = `${shown} of ${rows.length} shown`;
+    };
+    input.addEventListener('input', apply);
+    kind.addEventListener('change', apply);
+    const initial = new URLSearchParams(location.search).get('q');
+    if (initial) input.value = initial;
+    apply();
+  }
+</script>

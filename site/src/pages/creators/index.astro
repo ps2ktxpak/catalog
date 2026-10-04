@@ -1,0 +1,60 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { loadCatalog } from '../../lib/catalog';
+import { href } from '../../lib/url';
+
+const { creators, byCreator } = loadCatalog();
+const people = [...byCreator.keys()]
+  .map((id) => ({ c: creators.get(id)!, rows: byCreator.get(id)! }))
+  .sort((a, b) => a.c.name.localeCompare(b.c.name, 'en', { sensitivity: 'base' }));
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Creators',
+    description: 'Creators of PS2 texture packs.',
+    tableOfContents: false,
+  }}
+>
+  <p class="pk-count">{people.length} creators · <a href={href('/')}>Packs</a></p>
+
+  <div class="pk-controls" data-pk-people-root>
+    <label class="pk-field">
+      <span>Find a name</span>
+      <input type="search" data-pk-find autocomplete="off" placeholder="Name or former name" />
+    </label>
+    <p class="pk-count" data-pk-count aria-live="polite"></p>
+  </div>
+
+  <ul class="pk-people" data-pk-people>
+    {
+      people.map(({ c, rows }) => (
+        <li data-search={[c.name, ...c.aliases].join(' ').toLowerCase()}>
+          <a href={href(`/creators/${c.id}/`)}>{c.name}</a>
+          <span class="pk-muted">{rows.length} {rows.length === 1 ? 'pack' : 'packs'}</span>
+        </li>
+      ))
+    }
+  </ul>
+</StarlightPage>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-pk-people-root]');
+  if (root) {
+    const input = root.querySelector<HTMLInputElement>('[data-pk-find]')!;
+    const count = root.querySelector<HTMLElement>('[data-pk-count]')!;
+    const items = [...document.querySelectorAll<HTMLLIElement>('[data-pk-people] li')];
+    const apply = () => {
+      const q = input.value.toLowerCase().replace(/\s+/g, ' ').trim();
+      let shown = 0;
+      for (const li of items) {
+        const ok = !q || li.dataset.search!.includes(q);
+        li.hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = `${shown} of ${items.length} shown`;
+    };
+    input.addEventListener('input', apply);
+    apply();
+  }
+</script>

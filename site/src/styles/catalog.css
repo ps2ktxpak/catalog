@@ -1,0 +1,57 @@
+/* The pack list and creator pages. Colours come from Starlight's own variables so light and dark both work. */
+
+.pk-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: end;
+  margin: 1rem 0;
+}
+.pk-field { display: grid; gap: 0.25rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
+.pk-field input, .pk-field select {
+  font: inherit;
+  padding: 0.5rem 0.7rem;
+  min-width: 14rem;
+  color: var(--sl-color-white);
+  background: var(--sl-color-black);
+  border: 1px solid var(--sl-color-gray-4);
+  border-radius: 0.4rem;
+}
+.pk-controls > * { margin: 0 !important; }
+.pk-count { margin: 0 !important; font-size: var(--sl-text-sm); color: var(--sl-color-gray-3); }
+
+.pk-wrap { overflow-x: auto; }
+.pk-table { width: 100%; border-collapse: collapse; font-size: var(--sl-text-sm); }
+.pk-table th {
+  text-align: left; background: var(--sl-color-bg-nav);
+  padding: 0.55rem 0.7rem; border-bottom: 2px solid var(--sl-color-gray-5);
+}
+.pk-table td { padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--sl-color-gray-6); vertical-align: top; }
+.pk-table tr[hidden] { display: none; }
+.pk-details { color: var(--sl-color-gray-2); white-space: normal; }
+.pk-muted { color: var(--sl-color-gray-3); font-size: var(--sl-text-xs); }
+
+.pk-chip {
+  display: inline-block; margin: 0 0.3rem 0.25rem 0; padding: 0.05rem 0.55rem;
+  border-radius: 999px; border: 1px solid var(--sl-color-gray-4);
+  font-size: var(--sl-text-xs); line-height: 1.6; white-space: nowrap;
+}
+.pk-hosted { background: var(--sl-color-accent-low); border-color: var(--sl-color-accent); color: var(--sl-color-white); }
+.pk-listed { color: var(--sl-color-gray-2); }
+.pk-paid { background: var(--sl-color-orange-low); border-color: var(--sl-color-orange); color: var(--sl-color-white); }
+.pk-review { border-style: dashed; color: var(--sl-color-gray-2); }
+
+.pk-legend { display: grid; gap: 0.4rem; padding-left: 0; list-style: none; }
+.pk-legend li { margin: 0 !important; }
+
+.pk-people { list-style: none; padding: 0; columns: 16rem; column-gap: 2rem; }
+.pk-people li { margin: 0 0 0.35rem !important; break-inside: avoid; }
+.pk-people li[hidden] { display: none; }
+.pk-people .pk-muted { margin-left: 0.4rem; }
+
+.pk-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; padding: 0; list-style: none; }
+.pk-links li { margin: 0 !important; }
+
+.pk-table td > * { margin: 0 !important; }
+.pk-table td > .pk-muted { margin-top: 0.15rem !important; }
+.pk-wrap { overflow-x: auto; overflow-y: visible; }

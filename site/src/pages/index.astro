@@ -1,0 +1,41 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import PackTable from '../components/PackTable.astro';
+import { loadCatalog } from '../lib/catalog';
+import { href } from '../lib/url';
+
+const { rows, counts } = loadCatalog();
+const archive = 'https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6Hke9V6GUFs/edit';
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Packs',
+    description: 'PS2 texture packs.',
+    tableOfContents: false,
+  }}
+>
+  <p class="pk-count">{counts.hosted} hosted · {counts.listed} listed · <a href={href('/creators/')}>Creators</a></p>
+
+  <PackTable rows={rows} />
+
+  <h2>Key</h2>
+  <ul class="pk-legend">
+    <li><span class="pk-chip pk-hosted">Hosted</span> A converted copy is available.</li>
+    <li>
+      <span class="pk-chip pk-listed">Listed</span> Present in the{' '}
+      <a href={archive} rel="noopener noreferrer">Texture Packs Archive</a>. Not hosted.
+    </li>
+    <li><span class="pk-chip pk-paid">Listed as paid</span> Listed as sold by its creator in the Archive.</li>
+    <li><span class="pk-chip pk-review">Credit being checked</span> Credit not confirmed as complete or correct.</li>
+    <li><span class="pk-chip pk-review">Archive credits &lt;name&gt;</span> The Archive names a creator that the credit here does not.</li>
+    <li><span class="pk-muted">Not named</span> No creator has been named.</li>
+  </ul>
+  {/* TODO: confirm with Sad Origami how the Archive is named and linked here. */}
+
+  <p>Corrections, claims and removals: <a href={href('/corrections/')}>Corrections</a>.</p>
+</StarlightPage>
+
+<style is:global>
+  :root { --sl-content-width: 80rem; }
+</style>
