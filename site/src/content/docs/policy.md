@@ -51,5 +51,8 @@ Every link is https. Link shorteners are flagged, because they hide where a link
 
 ## License of this data
 
-{/* TODO: to be decided with Sad Origami: license for the data, and how the Archive is credited. */}
-Not yet chosen.
+The repository, data included, is under the MIT license (`LICENSE`). That covers the files in this
+repository: the catalog records, schemas, tools and site. It does not cover texture pack files,
+pictures or names, which belong to their creators and are neither relicensed nor transferred by it.
+
+{/* TODO: how the Texture Packs Archive is credited, to be decided with Sad Origami. */}

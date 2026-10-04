@@ -12,6 +12,7 @@ A plan, not a promise. Order matters more than dates.
 - The 517 inherited packs imported, with the old catalog's text kept for the record.
 - A compiler that rebuilds today's published catalog byte for byte.
 - A tool that follows each listing's source page to the real download.
+- MIT license for the repository, data included.
 
 ## Next
 
@@ -29,6 +30,6 @@ A plan, not a promise. Order matters more than dates.
 
 ## Undecided
 
-- The license for the data, and how the Archive is credited.
+- How the Archive is credited.
 - What to do about packs already hosted that their creators sell.
 - Whether packs that are only listed, because they are paid, appear in the app as link-outs.

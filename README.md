@@ -3,8 +3,7 @@
 The data, tooling and site behind ARMSX2's PS2 texture pack browser: which packs exist, who made
 them, where each is announced, what it costs, and whether we may host a copy.
 
-> **Status: draft, local only.** Not pushed anywhere yet. The license for the data is undecided
-> (it waits on agreement with Sad Origami, whose Texture Packs Archive this is built on).
+The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 
 ## What is in here
 
@@ -78,3 +77,8 @@ ps2ktxpak media-fetch                  # seed each hosted pack's pictures and Yo
 It only records addresses, only for a thread that belongs to one hosted pack, and never touches a pack
 that already has `media`. The pictures are mirrored to our storage later (resized, credited); they are
 never committed.
+
+## License
+
+MIT (`LICENSE`), data included. Texture pack files, pictures and names belong to their creators and are
+not covered by it.
