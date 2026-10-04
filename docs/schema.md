@@ -1,7 +1,6 @@
----
-title: Schema reference
-description: Every file type under data/, its fields, and who may edit it.
----
+# Schema reference
+
+Every file type under data/, its fields, and who may edit it.
 
 The source of truth is the JSON Schema files in `schema/`. `ps2ktxpak validate` checks every file
 against them, then checks the files against each other. This page explains them in plain terms.
@@ -60,7 +59,7 @@ Which listing is the same work as which hosted pack, by what method (`thread`, `
 ## Resolution: `data/resolution/<hash>.json`
 
 What following one source page found: candidate links with context, any YouTube videos (with the game
-title they sit under, in a library thread) and their uploader's links, and a decision per listing. See [resolving sources](../resolving-sources/).
+title they sit under, in a library thread) and their uploader's links, and a decision per listing. See [resolving sources](resolving-sources.md).
 
 ## Hand corrections: `data/overrides/hand-corrections.yaml`
 

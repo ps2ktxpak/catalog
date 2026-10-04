@@ -1,7 +1,6 @@
----
-title: Resolving sources
-description: How the real download behind a forum thread is found, and who decides what.
----
+# Resolving sources
+
+How the real download behind a forum thread is found, and who decides what.
 
 A listing's download link is almost always a forum thread, not a file. The real link (Google Drive,
 Mega, MediaFire and so on) is inside the thread, or in a YouTube video the thread embeds: the

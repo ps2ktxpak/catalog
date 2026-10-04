@@ -5,7 +5,7 @@ opening post and the creator's own follow-ups, and for each embedded YouTube vid
 uploader's description and pinned or own comments with yt-dlp. Record every candidate with a short
 context snippet. Decide only the unambiguous cases.
 
-Layer 2 (an agent, see site/src/content/docs/resolving-sources.md): judge what is left (library threads that cover
+Layer 2 (an agent, see docs/resolving-sources.md): judge what is left (library threads that cover
 many games, several candidate links, none) from the evidence this layer wrote.
 
 Rules: public pages only, no login, no downloads, nothing behind a paywall. Pages and video data are

@@ -15,9 +15,10 @@ The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 | `data/overrides/` | Hand corrections and title aliases, each with a reason | people |
 | `schema/` | JSON Schema for every file type | people |
 | `tools/ps2ktxpak/` | The command line: import, validate, report, compile, resolve | |
-| `site/` | The documentation site (Astro Starlight) | people |
+| `site/` | The published pack list and creator pages (Astro Starlight) | people |
+| `docs/` | How the model, hosting policy and source resolution work; the roadmap | people |
 
-The pages in `site/src/content/docs/` (schema, policy, resolving sources) describe the model.
+`docs/` (schema, policy, resolving sources, roadmap) describes the model.
 
 ## Setup
 
@@ -66,7 +67,7 @@ ps2ktxpak resolve-brief NAME --url ... # evidence file for an agent to judge
 ps2ktxpak resolve-apply decisions.json # merge the agent's decisions
 ```
 
-See *Resolving sources* on the site for the rules (public pages only, no downloads, nothing paid).
+See `docs/resolving-sources.md` for the rules (public pages only, no downloads, nothing paid).
 
 ## Pictures and videos for the site
 

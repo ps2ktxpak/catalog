@@ -1,7 +1,6 @@
----
-title: Roadmap
-description: What is done, what is next, and what is still undecided.
----
+# Roadmap
+
+What is done, what is next, and what is still undecided.
 
 A plan, not a promise. Order matters more than dates.
 
@@ -12,6 +11,7 @@ A plan, not a promise. Order matters more than dates.
 - The 517 inherited packs imported, with the old catalog's text kept for the record.
 - A compiler that rebuilds today's published catalog byte for byte.
 - A tool that follows each listing's source page to the real download.
+- The pack list and creator pages as a static site, public on GitHub Pages.
 - MIT license for the repository, data included.
 
 ## Next
@@ -24,9 +24,12 @@ A plan, not a promise. Order matters more than dates.
 4. **Bring in more packs.** A bulk handoff from the Archive's maintainer, converted to ASTC by a
    container image that can run anywhere (a Cloudflare container, a rented machine, or a desktop).
    Free packs only.
-5. **Creator web service.** Accounts, uploads and edits, with D1 as the store and the same compile
+5. **Browser editor.** Forms on the site for adding and changing creators and packs, which open a
+   pull request from the visitor's GitHub account, so no one has to learn git. The repository stays
+   the source of truth and the validator is the gate.
+6. **Creator web service.** Accounts, uploads and edits, with D1 as the store and the same compile
    step in front of it. The static files stay what the app reads.
-6. **Signed metadata**, so a compromised host cannot redirect everyone's links.
+7. **Signed metadata**, so a compromised host cannot redirect everyone's links.
 
 ## Undecided
 

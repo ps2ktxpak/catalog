@@ -16,9 +16,6 @@ export default defineConfig({
       sidebar: [
         { label: 'Packs', link: '/' },
         { label: 'Creators', link: '/creators/' },
-        { label: 'Corrections', slug: 'corrections' },
-        { label: 'Reference', items: [{ slug: 'schema' }, { slug: 'policy' }, { slug: 'resolving-sources' }] },
-        { label: 'Project', items: [{ slug: 'roadmap' }] },
       ],
     }),
   ],

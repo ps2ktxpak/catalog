@@ -1,9 +1,8 @@
----
-title: Hosting policy
-description: What is hosted, what is not, and what happens on a request to stop.
----
+# Hosting policy
 
-{/* TODO: draft of the project's rules. The owner and Sad Origami should agree it before the site is public. */}
+What is hosted, what is not, and what happens on a request to stop.
+
+<!-- TODO: draft of the project's rules. The owner and Sad Origami should agree it. -->
 
 ## Hosted packs
 
@@ -55,4 +54,4 @@ The repository, data included, is under the MIT license (`LICENSE`). That covers
 repository: the catalog records, schemas, tools and site. It does not cover texture pack files,
 pictures or names, which belong to their creators and are neither relicensed nor transferred by it.
 
-{/* TODO: how the Texture Packs Archive is credited, to be decided with Sad Origami. */}
+<!-- TODO: how the Texture Packs Archive is credited, to be decided with Sad Origami. -->

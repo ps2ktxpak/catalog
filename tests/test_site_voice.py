@@ -25,8 +25,8 @@ def test_the_detector_flags_pronouns_and_ignores_todo_comments():
 
 
 def test_no_first_or_second_person_in_published_pages():
-    files = [*(SITE / "src" / "content" / "docs").glob("*.md*"), *(SITE / "src" / "pages").rglob("*.astro"),
-             *(SITE / "src" / "components").glob("*.astro"), SITE / "astro.config.mjs"]
+    files = [*(SITE / "src" / "pages").rglob("*.astro"), *(SITE / "src" / "components").glob("*.astro"),
+             SITE / "astro.config.mjs"]
     assert files
     found = {}
     for f in files:

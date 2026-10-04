@@ -1,6 +1,6 @@
 # ps2ktxpak: conventions
 
-This repo will be **public**. Write every file as if a creator, a forum moderator and a lawyer will
+This repo is **public**. Write every file as if a creator, a forum moderator and a lawyer will
 read it, because they may.
 
 ## Never put in this tree
