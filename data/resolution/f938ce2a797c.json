@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/sega-classics-collection-pcsx2-hd-texture.671704/",
+  "listings": [
+    "l-e7afb8560f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Sega Classics Collection PCSX2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "s4eazz0lQhM",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/folder/AIJTxQjQ#z4j1SdK0SnISFGuYOfYhWw",
+          "host": "mega",
+          "kind": "folder",
+          "where": "video_pinned_comment",
+          "context": "Pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI SERIAL: SLUS-21009 CRC: 497DBC3C SIZE: ??? a"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e7afb8560f",
+      "status": "resolved",
+      "base_url": "https://mega.nz/folder/AIJTxQjQ#z4j1SdK0SnISFGuYOfYhWw",
+      "host": "mega",
+      "kind": "folder",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

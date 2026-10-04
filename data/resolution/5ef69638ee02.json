@@ -1,0 +1,49 @@
+{
+  "source_url": "https://gbatemp.net/threads/x-men-the-official-game-full-hd-texture-mod-2k-4k-textures.665964/",
+  "listings": [
+    "l-a3a81fb77e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "X MEN THE OFFICIAL GAME - FULL FAITHFUL HD TEXTURE MOD [4k textures]"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/fUB1SQCS#3LfPtrhH_SQm6r9kiJgwBheCnAMw6AhYR7kNZRjX2n8",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "mance recommendations and tweak settings (try multiple renderers) until things look good. Simple. DOWNLOAD: https://mega.nz/file/fUB1SQCS#3LfPtrhH_SQm6r9kiJgw"
+    },
+    {
+      "url": "https://ko-fi.com/gvngnir",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "heart and enjoy the pack, consider donating a coffee to the cause (Or not, its up to you!) Have a good one https://ko-fi.com/GVNGNIR"
+    },
+    {
+      "url": "https://ko-fi.com/GVNGNIR",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "heart and enjoy the pack, consider donating a coffee to the cause (Or not, its up to you!) Have a good one https://ko-fi.com/GVNGNIR"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-a3a81fb77e",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/fUB1SQCS#3LfPtrhH_SQm6r9kiJgwBheCnAMw6AhYR7kNZRjX2n8",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

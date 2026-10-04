@@ -1,0 +1,58 @@
+{
+  "source_url": "https://gbatemp.net/threads/naruto-uzumaki-chronicles-2-slus-21594-upscaled-texture-pack.664299/",
+  "listings": [
+    "l-802e3836e7"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Naruto: Uzumaki Chronicles 2 (SLUS-21594) AI Upscaled Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "B6ZSRweERsA",
+      "uploader": "Sal9im",
+      "links": [
+        {
+          "url": "https://ko-fi.com/sal9im",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "Naruto Uzumaki Chronicle 2 PCSX2 (AI Upscaled ) Texture Pack  DownloSupport me if like My work ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1k13gL1V1Nl0sez5tiwSTfetTg-bhrTWn/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "US-21594 Upscale Model Used: 4xHDcube4 & Real Esrgan Plus (Anime) PCSX2 VERSION: 2.1.121 Texture Format: DDS DOWNLOAD TEXTUR PACK >>> (Size 1.15gb) >>> 4.65gb"
+    },
+    {
+      "url": "https://ko-fi.com/sal9im",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "s and replace the existing. Spoiler: PCSX2 Settings Support me if you like my work https://ko-fi.com/sal9im Spoiler: Scree"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-802e3836e7",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1k13gL1V1Nl0sez5tiwSTfetTg-bhrTWn/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

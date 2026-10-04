@@ -1,0 +1,67 @@
+key: sles-54171-panda-venom
+catalog_id: panda-venom-yakuza-slus-21348-sles-54171-20260728
+name: Yakuza HD Texture Pack
+game:
+  title: Yakuza
+  serials:
+  - SLUS-21348
+  - SLES-54171
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: A North American and undub-compatible pack with completed UI, story cutscenes and main battle stages plus broad Kamurocho, character and NPC coverage; the author notes optional PAL folder renaming.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/yakuza-usa-hd-remaster.624509/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/yakuza_slus-21348_20230110101600-jpg.346913/
+    thumb_url: https://gbatemp.net/data/attachments/346/346301-6ce6b9e31ebcec31e6648c5ebd9a0828.jpg?hash=bOa54x687D
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza_slus-21348_20230110101730-jpg.346914/
+    thumb_url: https://gbatemp.net/data/attachments/346/346302-c2cbda496877d8bb4b0995fdeaf263a8.jpg?hash=wsvaSWh32L
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza_slus-21348_20230110101921-jpg.346915/
+    thumb_url: https://gbatemp.net/data/attachments/346/346303-6db70db8ef56fa74c42405a184bdf2dd.jpg?hash=bbcNuO9W-n
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/yakuza-usa-hd-remaster.624509/
+  version: Public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

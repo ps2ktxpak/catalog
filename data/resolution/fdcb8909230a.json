@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/mx-unleashed-hd-texture-pcsx2.664321/",
+  "listings": [
+    "l-05e6912147"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "MX Unleashed HD TEXTURE PCSX2"
+  },
+  "videos": [
+    {
+      "id": "OM0yUwvm4nM",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/file/hpVS0YIK#0gZl3AervKCGdMpU951lNLPBZn0hs1bKwObdTG6623s",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "MX Unleashed SERIAL: SLUS-20767 CRC: 9866FE54 STATUS: in process Ko-Fi: donation"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-05e6912147",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/hpVS0YIK#0gZl3AervKCGdMpU951lNLPBZn0hs1bKwObdTG6623s",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

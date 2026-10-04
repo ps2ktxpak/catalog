@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source resolution",
+  "description": "What we found when we followed one source page (usually a GBAtemp thread, sometimes a YouTube video behind it) to the real download. One file per distinct source page at data/resolution/<hash>.json, because many listings share a page. Written by `resolve-fetch` (deterministic pass) and `resolve-apply` (agent or human decisions). Stores links and short context only, never page text.",
+  "type": "object",
+  "required": ["source_url", "listings", "fetched", "candidates", "decisions"],
+  "additionalProperties": false,
+  "properties": {
+    "source_url": {"type": "string", "pattern": "^https://[^\\s]+$"},
+    "listings": {"type": "array", "items": {"type": "string", "pattern": "^l-[0-9a-f]{10}$"}},
+    "fetched": {
+      "type": "object", "additionalProperties": false, "required": ["at", "status"],
+      "properties": {
+        "at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "status": {"enum": ["ok", "http_error", "unreachable", "skipped_paid", "skipped_unsupported"]},
+        "http": {"type": "integer"},
+        "title": {"type": "string"},
+        "note": {"type": "string"}
+      }
+    },
+    "videos": {
+      "description": "YouTube videos embedded in the opening post, with the links found in their description and top or pinned comments.",
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["id"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{11}$"},
+          "title": {"description": "The spoiler label the video sits under in a library thread: the game it is for.", "type": "string", "maxLength": 120},
+          "uploader": {"type": "string"},
+          "links": {"type": "array", "items": {"$ref": "#/$defs/found"}}
+        }
+      }
+    },
+    "candidates": {"type": "array", "items": {"$ref": "#/$defs/found"}},
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["listing", "status", "decided_by"],
+        "properties": {
+          "listing": {"type": "string", "pattern": "^l-[0-9a-f]{10}$"},
+          "status": {"enum": ["resolved", "ambiguous", "gated", "paid", "dead", "not_found"]},
+          "base_url": {"type": ["string", "null"], "pattern": "^https://[^\\s]+$"},
+          "host": {"enum": ["gdrive", "mega", "mediafire", "terabox", "dropbox", "github", "archive_org", "pixeldrain", "gofile", "kofi", "patreon", "direct", "other"]},
+          "kind": {"enum": ["file", "folder", "shop", "page", "unknown"]},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "reason": {"type": "string", "maxLength": 400},
+          "decided_by": {
+            "type": "object", "additionalProperties": false, "required": ["method"],
+            "properties": {
+              "method": {"enum": ["deterministic", "agent", "human"]},
+              "model": {"type": "string"},
+              "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "found": {
+      "type": "object", "additionalProperties": false, "required": ["url", "host", "where"],
+      "properties": {
+        "url": {"type": "string", "pattern": "^https://[^\\s]+$"},
+        "host": {"enum": ["gdrive", "mega", "mediafire", "terabox", "dropbox", "github", "archive_org", "pixeldrain", "gofile", "kofi", "patreon", "youtube", "discord", "imgur", "other"]},
+        "kind": {"enum": ["file", "folder", "shop", "page", "unknown"]},
+        "where": {"enum": ["op", "op_followup", "reply_by_other", "video_description", "video_pinned_comment", "video_comment"]},
+        "by_uploader": {"description": "For video links: posted by the channel owner.", "type": "boolean"},
+        "context": {"description": "Up to 160 characters of surrounding text, to tell a pack from a patch or a donation link.", "type": "string", "maxLength": 160}
+      }
+    }
+  }
+}

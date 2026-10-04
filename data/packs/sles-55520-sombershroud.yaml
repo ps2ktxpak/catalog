@@ -1,0 +1,88 @@
+key: sles-55520-sombershroud
+catalog_id: kevinmi-upscales-sombershroud-transformers-revenge-of-the-fallen-sles-55520-20260728
+name: 'Transformers: Revenge of the Fallen Texture Pack'
+game:
+  title: 'Transformers: Revenge of the Fallen'
+  serials:
+  - SLES-55520
+credits:
+- creator: sombershroud
+- creator: kevinmi-upscales
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/transformers-revenge-of-the-fallen-pal-ntsc-u-hd-texture-pack.646613/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/transformers-revenge-of-the-fallen-pal-hd-texture-pack.646613/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/transformers-revenge-of-the-fallen-jpg.414993/
+    thumb_url: https://gbatemp.net/data/attachments/414/414381-7c6db53a73bef06c4731aef501b4ffd8.jpg?hash=fG21OnO-8G
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/p2config-jpg.414998/
+    thumb_url: https://gbatemp.net/data/attachments/414/414386-91eba75887ce965e56ac9dcc6797fdff.jpg?hash=keunWIfOll
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/p2commandsbuttons-jpg.415000/
+    thumb_url: https://gbatemp.net/data/attachments/414/414388-2b7cabbf8af645cee2e69eeeb5c066c2.jpg?hash=K3yrv4r2Rc
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/300-eeoverclock-jpg.415001/
+    thumb_url: https://gbatemp.net/data/attachments/414/414389-1d609207a8d1d2ce92ef6ebfbf29a8a6.jpg?hash=ryQno53JWj
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/1before-png.415026/
+    thumb_url: https://gbatemp.net/data/attachments/414/414414-ff2df320bf7bbd529e487d439d8b637e.jpg?hash=_y3zIL97vV
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/2after-png.415027/
+    thumb_url: https://gbatemp.net/data/attachments/414/414415-44c277deeb3bcc6ebe9ea2a7b3f7f6c7.jpg?hash=RMJ33us7zG
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/3before-png.415286/
+    thumb_url: https://gbatemp.net/data/attachments/414/414674-01d4d9a4c4820df77fb001cfe54ac0ff.jpg?hash=AdTZpMSCDf
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/4after-png.415287/
+    thumb_url: https://gbatemp.net/data/attachments/414/414675-0970419aea6576d33d75361aeb4bde0e.jpg?hash=CXBBmupldt
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- co_credit_unconfirmed
+legacy:
+  authors:
+  - 'KevinMI Upscales: SomberShroud'
+  credits: 'HD texture pack credited by the source to Dumps: KevinMI Upscales: SomberShroud; normalized and mirrored by EmuCoreX.'
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/transformers-revenge-of-the-fallen-pal-hd-texture-pack.646613/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/pac-man-world-rally-pcsx2-hd-texture.669000/",
+  "listings": [
+    "l-4d51b92125"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Pac-Man World Rally PCSX2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "XcAOuPbUW48",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/file/HPRiwJIb#JcBh51Q_6uk5-mIHqucn77FC4L_jDGo7Ja4ggpDsZjg",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI SERIAL: SLUS-21328 CRC: 99BD2C0C SIZE: 304mb"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4d51b92125",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/HPRiwJIb#JcBh51Q_6uk5-mIHqucn77FC4L_jDGo7Ja4ggpDsZjg",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

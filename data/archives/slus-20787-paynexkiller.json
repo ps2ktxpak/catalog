@@ -1,0 +1,24 @@
+{
+  "key": "slus-20787-paynexkiller",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/paynexkiller-wwe-here-comes-the-pain-championships-slus-20787-20260726.tar.zst",
+      "sha256": "fa21645c95202a3e0f8dc659806d9f178db3ac12b723b850665b666912bc5fcb",
+      "size_bytes": 12280744,
+      "decompressed_size_bytes": 15892480,
+      "file_count": 24,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "B7469903B95B443E515CD192A68AFEC052386D8AA63A159ED574D1EB307CAEB3",
+        "size_bytes": 32753626
+      }
+    }
+  ]
+}

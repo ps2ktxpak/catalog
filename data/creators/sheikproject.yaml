@@ -1,0 +1,20 @@
+id: sheikproject
+name: sheikproject
+links:
+  page: https://github.com/sheikproject
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@sheikproject8414
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

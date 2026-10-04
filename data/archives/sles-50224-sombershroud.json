@@ -1,0 +1,24 @@
+{
+  "key": "sles-50224-sombershroud",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombershroud-adventures-cookie-cream-slus-20170-sles-50224-slps-25013-20260726.tar.zst",
+      "sha256": "eeafe87f286130209bae0b349725a42cfc687a9f3bed450d68f831298dae088e",
+      "size_bytes": 49806190,
+      "decompressed_size_bytes": 77066240,
+      "file_count": 1293,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "77F60778C84236A97079555BEA3631A0E34CF38AEE3CD49EF7132CEFD339B4B9",
+        "size_bytes": 138359587
+      }
+    }
+  ]
+}

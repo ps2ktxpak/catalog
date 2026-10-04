@@ -1,0 +1,127 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-hd-textures-pack-god-of-war-scus-97399-usa-sces-53133-pal.683822/",
+  "listings": [
+    "l-6417d4e888"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "PS2 HD Textures Pack┃God of War (SCUS-97399) (NTSC) &amp; (SCES-53133) (PAL)"
+  },
+  "videos": [
+    {
+      "id": "r_2ypLT_J88",
+      "uploader": "Huekage",
+      "links": [
+        {
+          "url": "https://youtu.be/ESZJgv8rfdA",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "s.   📺 *If you want, watch the video about my PS1, PS2 & PSP project below:*   - Link to the video: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://linktr.ee/Huekage",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "scus-97399-usa-sces-53133-pal.683822/     💬 *My social media*   - All my social media in one place: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.patreon.com/cw/Huekage",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "/invite/DMrRYDxyu  🤝 *If you wish to support me (Any help is appreciated - Thank you)*   - Patreon: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ko-fi.com/huekage",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "elp is appreciated - Thank you)*   - Patreon: https://www.patreon.com/cw/Huekage - Buy Me a Coffee: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://delicate-bienenstitch-416f64.netlify.app/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": " Patreon: https://www.patreon.com/cw/Huekage - Buy Me a Coffee: https://ko-fi.com/huekage - PayPal: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ESZJgv8rfdA&t=2s",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_pinned_comment",
+          "context": "If you wish, watch the video about my PS1, PS2 & PSP project below:  \r Video: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://linktr.ee/Huekage",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "favor, informe sobre quaisquer texturas corrompidas e/ou faltando. Obrigado. All my social media (English): https://linktr.ee/Huekage Todas as minhas redes s"
+    },
+    {
+      "url": "https://linktr.ee/huecracias",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "l my social media (English): https://linktr.ee/Huekage Todas as minhas redes sociais (Português Brasileiro): https://linktr.ee/huecracias - If you'd like to s"
+    },
+    {
+      "url": "https://delicate-bienenstitch-416f64.netlify.app/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "inhas redes sociais (Português Brasileiro): https://linktr.ee/huecracias - If you'd like to support my work: https://delicate-bienenstitch-416f64.netlify.app/"
+    },
+    {
+      "url": "https://pix-huecracia.netlify.app/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ke to support my work: https://delicate-bienenstitch-416f64.netlify.app/ - Caso queira apoiar meu trabalho: https://pix-huecracia.netlify.app/ Link to downl"
+    },
+    {
+      "url": "https://www.mediafire.com/file/wv1njjz5dolcql1/PS2_HD_Textures_-_God_of_War_%2528SCUS-97399%2529_%2528NTSC%2529_%2526_%2528SCES-53133%2529_%2528PAL%2529.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "app/ - Caso queira apoiar meu trabalho: https://pix-huecracia.netlify.app/ Link to download/para baixar: https://www.mediafire.com/file/wv1n...SC%29_%26_%2"
+    },
+    {
+      "url": "https://mediafire.com/file/wv1n...SC%29_%26_%28SCES-53133%29_%28PAL%29.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "app/ - Caso queira apoiar meu trabalho: https://pix-huecracia.netlify.app/ Link to download/para baixar: https://www.mediafire.com/file/wv1n...SC%29_%26_%2"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-6417d4e888",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/wv1njjz5dolcql1/PS2_HD_Textures_-_God_of_War_%2528SCUS-97399%2529_%2528NTSC%2529_%2526_%2528SCES-53133%2529_%2528PAL%2529.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator's opening post explicitly provides MediaFire download link.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

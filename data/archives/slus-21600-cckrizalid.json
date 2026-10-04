@@ -1,0 +1,24 @@
+{
+  "key": "slus-21600-cckrizalid",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-spider-man-friend-or-foe-hd-remaster-community-archive-slus-21600-20260728.tar.zst",
+      "sha256": "04a4251e4c13810471aef3bc327b453a6f085b828d53a5efb867640659b02844",
+      "size_bytes": 199000697,
+      "decompressed_size_bytes": 406056960,
+      "file_count": 2751,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F4CBB8732DB6271330D8DF1BEA2DAF5D38041693A27B5E9006AE9256CE84EDBC",
+        "size_bytes": 325084121
+      }
+    }
+  ]
+}

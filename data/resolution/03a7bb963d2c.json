@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-galactic-wrestling-featuring-ultimate-muscle-slus-20822-usa.683404/",
+  "listings": [
+    "l-6485d3c090"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] Galactic Wrestling: Featuring Ultimate Muscle [SLUS-20822/USA]"
+  },
+  "candidates": [
+    {
+      "url": "https://meskh4h4.github.io/Galactic-Wrestling-Featuring-Ultimate-Muscle/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "is is a 4x AI upscale of Galactic Wrestling: Featuring Ultimate Muscle, made using HDCube4Plus. Screenshots: https://meskh4h4.github.io/Galactic-Wrestling-Feat"
+    },
+    {
+      "url": "https://github.com/MESKH4H4/Galactic-Wrestling-Featuring-Ultimate-Muscle",
+      "host": "github",
+      "kind": "page",
+      "where": "op",
+      "context": "4Plus. Screenshots: https://meskh4h4.github.io/Galactic-Wrestling-Featuring-Ultimate-Muscle/ Download link: https://github.com/MESKH4H4/Galactic-Wrestling-Fea"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-6485d3c090",
+      "status": "resolved",
+      "base_url": "https://github.com/MESKH4H4/Galactic-Wrestling-Featuring-Ultimate-Muscle",
+      "host": "github",
+      "kind": "page",
+      "confidence": "high",
+      "reason": "Creator explicitly labels GitHub repository as download link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

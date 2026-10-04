@@ -1,0 +1,24 @@
+{
+  "key": "slus-20214-retrogenerica",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/retrogenerica-state-of-emergency-slus-20214-20260728.tar.zst",
+      "sha256": "f814b8f12aab4d7809bdc6b0d2ffbb75aaba738e4b5c370e05666baf8552c342",
+      "size_bytes": 1188444589,
+      "decompressed_size_bytes": 3392972800,
+      "file_count": 8763,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "C7D315BECBD0FD546E27380D23253EE1AA891CA77DC55484D0E5236509258B45",
+        "size_bytes": 5496347806
+      }
+    }
+  ]
+}

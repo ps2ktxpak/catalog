@@ -1,0 +1,72 @@
+key: slus-21168-panda-venom
+catalog_id: panda-venom-castlevania-curse-of-darkness-20260722
+name: 'Castlevania: Curse of Darkness HD Remaster'
+game:
+  title: 'Castlevania: Curse of Darkness'
+  serials:
+  - SLUS-21168
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: Completed high-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/castlevania-curse-of-darkness-usa-hd-remaster.619688/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-30-22-at-08-35-pm-jpg.329474/
+    thumb_url: https://gbatemp.net/data/attachments/328/328862-b89fcd35bb7524bb50d2ab2655a01374.jpg?hash=uJ_NNbt1JL
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-30-22-at-08-35-pm-002-jpg.329472/
+    thumb_url: https://gbatemp.net/data/attachments/328/328860-f735dfcddf5c1e745542b5d7eb939ac4.jpg?hash=9zXfzd9cHn
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-30-22-at-08-35-pm-001-jpg.329473/
+    thumb_url: https://gbatemp.net/data/attachments/328/328861-517c3b708feb0d34980fb7d894eb8bd1.jpg?hash=UXw7cI_rDT
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-30-22-at-08-36-pm-jpg.329471/
+    thumb_url: https://gbatemp.net/data/attachments/328/328859-3cc5816952e7bc4a5fde02e0fb509654.jpg?hash=PMWBaVLnvE
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-30-22-at-08-37-pm-jpg.329470/
+    thumb_url: https://gbatemp.net/data/attachments/328/328858-db0f09c89c945cc5ff6312c1386f2d5b.jpg?hash=2w8JyJyUXM
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/castlevania-curse-of-darkness-usa-hd-remaster.619688/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

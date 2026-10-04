@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/the-godfather-the-game-pcsx2-hd-texture.666483/",
+  "listings": [
+    "l-e59a219a9c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "The GodfatherPCSX2 HD TEXTURE UPDATE 1.1"
+  },
+  "videos": [
+    {
+      "id": "krz9AHAwmgA",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/15oN8o6vrqPYSfTWEkJpUz68V_9ZtLCGC/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "The Godfather Ko-Fi SERIAL: SLUS-21385 CRC: D850707E STATUS: in"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e59a219a9c",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/15oN8o6vrqPYSfTWEkJpUz68V_9ZtLCGC/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-21224-callofcthuloo-2",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-guitar-hero-desktop-slus-21224-20260728.tar.zst",
+      "sha256": "9def5d75826bc6cb430f7d9dc0646f30cda0fc20a5cae28a407ceae4f23e4ed5",
+      "size_bytes": 138124012,
+      "decompressed_size_bytes": 206960640,
+      "file_count": 846,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "704CADCBE113EE4D1FA9F73DC3E86D9FD47E8469DA62766124454CA3BED8791B",
+        "size_bytes": 424300345
+      }
+    }
+  ]
+}

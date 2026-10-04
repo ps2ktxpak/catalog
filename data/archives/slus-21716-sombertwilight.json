@@ -1,0 +1,24 @@
+{
+  "key": "slus-21716-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-spiderwick-chronicles-slus-21716-20260726.tar.zst",
+      "sha256": "5bd6b8b6b3c4522ad9c3d5d9c69aa77b71118c16449108ffec40011edf15b168",
+      "size_bytes": 103258257,
+      "decompressed_size_bytes": 162273280,
+      "file_count": 1076,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E9178EFE54DDAE8FC83AB7F5A11AA971B76D020F2E59671C67D7714F1DDEB394",
+        "size_bytes": 628242233
+      }
+    }
+  ]
+}

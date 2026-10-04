@@ -1,0 +1,28 @@
+id: cckrizalid
+name: CCKrizalid
+aliases:
+- cckrizalid
+links:
+  page: https://gbatemp.net/members/cckrizalid.606805/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/channel/UCeF_Mc7b6bQEdGs9mIk6IaQ
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/606/606805.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

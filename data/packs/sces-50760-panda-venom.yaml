@@ -1,0 +1,60 @@
+key: sces-50760-panda-venom
+catalog_id: panda-venom-ico-20260722
+name: ICO HD Remaster
+game:
+  title: ICO
+  serials:
+  - SCES-50760
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: High-resolution texture remaster for the European PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ico-usa-eu-hd-remaster.630164/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/ico_sces-50760_20230402215337-jpg.362774/
+    thumb_url: https://gbatemp.net/data/attachments/362/362162-9c6be53fdd835dc521d294b6d31dbbfe.jpg?hash=nGvlP92DXc
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/ico-usa-eu-hd-remaster.630164/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

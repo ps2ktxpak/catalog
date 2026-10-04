@@ -1,0 +1,22 @@
+id: toolatenate
+name: TooLateNate
+aliases:
+- toolatenate
+links:
+  page: https://gbatemp.net/members/toolatenate.590440/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/c/TooLateNate
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

@@ -1,0 +1,84 @@
+key: sces-51607-texmaster
+catalog_id: andritgames20-ratchet-clank-going-commando-sces-51607-20260728
+name: 'Ratchet & Clank: Going Commando Texture Pack'
+game:
+  title: 'Ratchet & Clank: Going Commando'
+  serials:
+  - SCES-51607
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-2-locked-loaded-texture-pack-hd.661598/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/6-jpg.462771/
+    thumb_url: https://gbatemp.net/data/attachments/462/462159-78f670ad9ed65695b39cf9e2369c815b.jpg?hash=fm-rgqlnQv
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/1-png.462783/
+    thumb_url: https://gbatemp.net/data/attachments/462/462171-6bfdbd4891ec861593f4c2ca14d687c5.jpg?hash=a_29SJHshh
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/2-png.462784/
+    thumb_url: https://gbatemp.net/data/attachments/462/462172-acf9bf9e42bace4f963ea45829098ec8.jpg?hash=rPm_nkK6zk
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/3-png.462785/
+    thumb_url: https://gbatemp.net/data/attachments/462/462173-08b49bb841520c798fdaeb503f47d366.jpg?hash=CLSbuEFSDH
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/4-png.462786/
+    thumb_url: https://gbatemp.net/data/attachments/462/462174-d4101d2ba191d0f67a5021cd4cf794c1.jpg?hash=1BAdK6GR0P
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/5-png.462787/
+    thumb_url: https://gbatemp.net/data/attachments/462/462175-2863522f0680f8dfb5d1f95b70406fbf.jpg?hash=KGNSLwaA-N
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/6-png.462788/
+    thumb_url: https://gbatemp.net/data/attachments/462/462176-5ddc21e6300f6dc6919175a7d6325001.jpg?hash=Xdwh5jAPbc
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/7-png.462789/
+    thumb_url: https://gbatemp.net/data/attachments/462/462177-05bc6d08a0a8501ba1038495f8f91ec4.jpg?hash=BbxtCKCoUB
+    credit: texmaster
+  videos:
+  - provider: youtube
+    id: Vt2nKHMs_To
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Andritgames20
+  credits: HD texture pack credited by the source to Andritgames20; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ratchet-clank-2-locked-loaded-texture-pack-hd.661598/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

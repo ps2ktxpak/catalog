@@ -1,0 +1,24 @@
+{
+  "key": "slus-20315-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-spyro-enter-the-dragonfly-slus-20315-20221202.tar.zst",
+      "sha256": "52b45d50707390f21070c72ad4fd90cc1d030747bdce7da22eb8b37865bf31af",
+      "size_bytes": 63975751,
+      "decompressed_size_bytes": 91883520,
+      "file_count": 2010,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "B68647BAC3DF076EB6B05871BAE83F442CCB9EAEB6F9D8E79989E847AF8F8F90",
+        "size_bytes": 72784006
+      }
+    }
+  ]
+}

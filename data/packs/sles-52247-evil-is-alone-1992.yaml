@@ -1,0 +1,80 @@
+key: sles-52247-evil-is-alone-1992
+catalog_id: evil-is-alone-the-hobbit-slus-20655-sles-52247-20260726
+name: The Hobbit HD Texture Pack
+game:
+  title: The Hobbit
+  serials:
+  - SLUS-20655
+  - SLES-52247
+credits:
+- creator: evil-is-alone-1992
+- creator: oldycrowdy
+type: ai_upscale
+completeness: complete
+description: A 100%-complete texture pack for the North American release and the author-confirmed Russian European release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-hobbit-usa-rus-hd-texture-pack.646235/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/thehobbit-1654102888352-jpg.413893/
+    thumb_url: https://gbatemp.net/data/attachments/413/413281-70ed2745fde3a0ef5f9351f9d3518e4c.jpg?hash=j_4BedJ9Zr
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hobbit_sles-52247_20240113220138-png.413885/
+    thumb_url: https://gbatemp.net/data/attachments/413/413273-84fff6a99d6270ba88ef9f6f0f34922a.jpg?hash=UDVAXsWMaG
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hobbit-the-prelude-to-the-lord-of-the-rings_slus-20655_20240113185129-png.413888/
+    thumb_url: https://gbatemp.net/data/attachments/413/413276-e3178ab4f4ebbc6d300c083bdff09661.jpg?hash=4xeKtPTrvG
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hobbit-the-prelude-to-the-lord-of-the-rings_slus-20655_20240114210042-png.413883/
+    thumb_url: https://gbatemp.net/data/attachments/413/413271-b7a07de61eb5ee479a12409fbf79943c.jpg?hash=t6B95h617k
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hobbit-the-prelude-to-the-lord-of-the-rings_slus-20655_20240114015448-png.413882/
+    thumb_url: https://gbatemp.net/data/attachments/413/413270-f2edb8d202451084194a5bb60f574cf5.jpg?hash=8u240gJFEI
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hobbit-the-prelude-to-the-lord-of-the-rings_slus-20655_20240114210332-png.413889/
+    thumb_url: https://gbatemp.net/data/attachments/413/413277-27c013432d5142c5b17824cecd57cba2.jpg?hash=J8ATQy1RQs
+    credit: evil-is-alone-1992
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- co_credit_unconfirmed
+legacy:
+  authors:
+  - Evil_Is_Alone_1992
+  - OldyCrowdy
+  credits: Complete HD texture pack created by Evil_Is_Alone_1992, also known as OldyCrowdy, using Topaz AI Gigapixel and Photoshop; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/the-hobbit-usa-rus-hd-texture-pack.646235/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

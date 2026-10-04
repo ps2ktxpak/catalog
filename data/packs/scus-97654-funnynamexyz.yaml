@@ -1,0 +1,81 @@
+key: scus-97654-funnynamexyz
+catalog_id: funnynamexyz-motorstorm-arctic-edge-v2-scus-97654-20260726
+name: 'MotorStorm: Arctic Edge AI 4x UI Upscale'
+game:
+  title: 'MotorStorm: Arctic Edge'
+  serials:
+  - SCUS-97654
+credits:
+- creator: funnynamexyz
+type: ai_upscale
+completeness: complete
+description: PNG-format 4x upscale focused on the interface and presentation textures of the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/motorstorm-arctic-edge-ai-4x-ui-upscale-scus-97654.678639/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507070828-png.571781/
+    thumb_url: https://gbatemp.net/data/attachments/571/571169-bfabc49aa14485051c9e497deb3823b8.jpg?hash=yT6P50OtnE
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507071145-png.571782/
+    thumb_url: https://gbatemp.net/data/attachments/571/571170-e87ad77f2b49e6be7cf3c96779f73a41.jpg?hash=e5WdJXWuVq
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507070903-png.571783/
+    thumb_url: https://gbatemp.net/data/attachments/571/571171-593b48687c69bfa1609c6d5e150d9e43.jpg?hash=_sYrRzp0fg
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507071221-png.571784/
+    thumb_url: https://gbatemp.net/data/attachments/571/571172-201b44fcc2e8345702853d76081ae637.jpg?hash=Y1-zQzzbfS
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507070911-png.571786/
+    thumb_url: https://gbatemp.net/data/attachments/571/571174-4ae57b56f309b6aa7671cbe365ac429e.jpg?hash=SYwO8NdhNS
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507071234-png.571787/
+    thumb_url: https://gbatemp.net/data/attachments/571/571175-907ded417f5e38d1dc08058d306ef451.jpg?hash=eNUGWcKFN_
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507070940-png.571789/
+    thumb_url: https://gbatemp.net/data/attachments/571/571177-586b052cd3eb1516dd6e2dde7153fa53.jpg?hash=agEbWb2d__
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507071302-png.571790/
+    thumb_url: https://gbatemp.net/data/attachments/571/571178-09da3d572aac2e75d44332ff0b9950a8.jpg?hash=lK2T8YxEp0
+    credit: funnynamexyz
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - FunnyNameXYZ
+  credits: Version 2.0 AI 4x UI upscale created by FunnyNameXYZ; normalized to a texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/motorstorm-arctic-edge-ai-4x-ui-upscale-scus-97654.678639/
+  version: 2.0 (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

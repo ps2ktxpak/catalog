@@ -1,0 +1,81 @@
+key: slus-20328-sombershroud
+catalog_id: sombershroud-tekken-4-slus-20328-20260722
+name: Tekken 4 HD Texture Pack
+game:
+  title: Tekken 4
+  serials:
+  - SLUS-20328
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+description: Extensive HD character, arena, effects and interface texture replacement pack for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tekken-4-usa-hd-textures.652872/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/tekken4_hd-png.429354/
+    thumb_url: https://gbatemp.net/data/attachments/428/428742-3dd35192ac8b6eff4dcb35a78a545cdb.jpg?hash=H5sQscXZyK
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240401233250-png.429355/
+    thumb_url: https://gbatemp.net/data/attachments/428/428743-7ab275b1a56fbbec7a6963895645cdb6.jpg?hash=erJ1saVvu-
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240401233652-png.429358/
+    thumb_url: https://gbatemp.net/data/attachments/428/428746-953e2ecd85b888a57218cf69e31e76fa.jpg?hash=lT4uzYW4iK
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240401234317-png.429359/
+    thumb_url: https://gbatemp.net/data/attachments/428/428747-cbe26045827b0a37f4f61882f7486090.jpg?hash=y-JgRYJ7Cj
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240402000806-png.429363/
+    thumb_url: https://gbatemp.net/data/attachments/428/428751-3afe9c54aceb528a931e25e0b3542ba5.jpg?hash=Ov6cVKzrUo
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240402000325-png.429364/
+    thumb_url: https://gbatemp.net/data/attachments/428/428752-bf5f99c7f33203b2ddadfe6a3662f277.jpg?hash=v1-Zx_MyA7
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240402001537-png.429366/
+    thumb_url: https://gbatemp.net/data/attachments/428/428754-4259d4e11505d1703d61d90c3bdc0855.jpg?hash=QlnU4RUF0X
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/tekken-4_slus-20328_20240402002023-png.429367/
+    thumb_url: https://gbatemp.net/data/attachments/428/428755-8f674469eb32d135b713abcd392cd5ca.jpg?hash=j2dEaesy0T
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack created by SomberShroud; preserved from the Internet Archive collection and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/tekken-4-usa-hd-textures.652872/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

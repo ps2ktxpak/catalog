@@ -1,0 +1,24 @@
+{
+  "key": "slus-21084-retrogenerica",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/retrogenerica-winnie-the-pooh-rumbly-tumbly-slus-21084-20260726.tar.zst",
+      "sha256": "6eaff1beb9fde5aa318b09a8425902020bb3ac1528955b4f161912c713fd8cfc",
+      "size_bytes": 119259922,
+      "decompressed_size_bytes": 151664640,
+      "file_count": 625,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F3AA8639AF6A93467379101526BE37E39BD04E43761F0A43D8EB02E9DD0784C7",
+        "size_bytes": 244157898
+      }
+    }
+  ]
+}

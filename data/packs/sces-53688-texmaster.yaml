@@ -1,0 +1,88 @@
+key: sces-53688-texmaster
+catalog_id: andritgames20-urban-reign-sces-53688-20260728
+name: Urban Reign Texture Pack
+game:
+  title: Urban Reign
+  serials:
+  - SCES-53688
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/urban-reign-ps2-texture-pack-hd.658947/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/urban-reign-ps2-texture-pack-hd.658947
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/2-jpg.450039/
+    thumb_url: https://gbatemp.net/data/attachments/449/449427-a24c71eac8bf2f1e93dfbd80b77a9b64.jpg?hash=tpNNSW7s0w
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730131902-png.450101/
+    thumb_url: https://gbatemp.net/data/attachments/449/449489-dabfc36e33f103f2c0ebdfda5295798f.jpg?hash=2r_DbjPxA_
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730132014-png.450102/
+    thumb_url: https://gbatemp.net/data/attachments/449/449490-5d0903a9571fc72a4231ec15f6e0c65c.jpg?hash=XQkDqVcfxy
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730132413-png.450103/
+    thumb_url: https://gbatemp.net/data/attachments/449/449491-28bb7e1ee358011a87d67eff84481113.jpg?hash=KLt-HuNYAR
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730132451-png.450104/
+    thumb_url: https://gbatemp.net/data/attachments/449/449492-90e59d11e30f726f0cb063da4d578c12.jpg?hash=kOWdEeMPcm
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730132416-png.450106/
+    thumb_url: https://gbatemp.net/data/attachments/449/449494-3df23be0fe3bcb896bc6ec52b03503bb.jpg?hash=PfI74P47y4
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730132453-png.450107/
+    thumb_url: https://gbatemp.net/data/attachments/449/449495-e23fab1a7f219e85967662d36e38280e.jpg?hash=4j-rGn8hno
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/urban-reign_sces-53688_20240730132418-png.450109/
+    thumb_url: https://gbatemp.net/data/attachments/449/449497-bb76130181c9c564dece6ca0e71c8049.jpg?hash=u3YTAYHJxW
+    credit: texmaster
+  videos:
+  - provider: youtube
+    id: MsHa2HI-fB4
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Andritgames20
+  credits: HD texture pack credited by the source to Andritgames20; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/urban-reign-ps2-texture-pack-hd.658947
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

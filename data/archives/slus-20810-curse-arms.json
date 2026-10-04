@@ -1,0 +1,24 @@
+{
+  "key": "slus-20810-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-nightshade-hd-remaster-community-archive-slus-20810-20260728.tar.zst",
+      "sha256": "332abeec952e420f0e32c35f43af8bc794463f7abff6ea30e0bfebbf657dd297",
+      "size_bytes": 263663998,
+      "decompressed_size_bytes": 342568960,
+      "file_count": 1940,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "322A718B1331C5ACA2C35F62D284F74EEB6A551723D15E2276D15F2BCE9191D1",
+        "size_bytes": 241885673
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-20138-flooffluff",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/flooffluff-rayman-2-revolution-slus-20138-20260728.tar.zst",
+      "sha256": "bfb982f1ec11b3a2eb5fb5f0038b9fa1bc1ff05ea767e94abc1a63bf2ca6a8d4",
+      "size_bytes": 356790733,
+      "decompressed_size_bytes": 538163200,
+      "file_count": 1405,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "CC4031EA3FFAB98A65ADC58EB251FBB9525E4F729A0CE803BA177B340B6C853F",
+        "size_bytes": 719506114
+      }
+    }
+  ]
+}

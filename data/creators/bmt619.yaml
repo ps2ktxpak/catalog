@@ -1,0 +1,35 @@
+id: bmt619
+name: BMT619
+aliases:
+- bmt619
+links:
+  page: https://gbatemp.net/members/bmt619.731979/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/bmt619
+  socials:
+  - kind: website
+    url: https://beacons.ai/bmt619
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/731/731979.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

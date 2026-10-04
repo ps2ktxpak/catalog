@@ -1,0 +1,37 @@
+id: texmaster
+name: TexMaster
+aliases:
+- andritgames20
+- texmaster
+- Andritgames20
+links:
+  page: https://gbatemp.net/members/andritgames20.710267/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/texmaster
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@zaffycartoon4511/videos
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/710/710267.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

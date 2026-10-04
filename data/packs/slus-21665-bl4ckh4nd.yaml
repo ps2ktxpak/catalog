@@ -1,0 +1,54 @@
+key: slus-21665-bl4ckh4nd
+catalog_id: bl4ckh4nd-the-simpsons-game-slus-21665-20260722
+name: The Simpsons Game HD Texture Pack
+game:
+  title: The Simpsons Game
+  serials:
+  - SLUS-21665
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+description: Large AI-upscaled character, level, effects and interface texture replacement pack for the North American PS2 release; source texture dumps are excluded from this install archive.
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+- kind: mirror
+  url: https://www.mediafire.com/file/giykzb4zriuovko/The_Simpsons_Game.7z/file
+  primary: false
+  note: the catalog's original link
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Bl4ckH4nd
+  credits: HD texture pack created by Bl4ckH4nd; preserved and repackaged to ZIP by EmuCoreX with the original source retained. Source texture dumps are excluded. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://www.mediafire.com/file/giykzb4zriuovko/The_Simpsons_Game.7z/file
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

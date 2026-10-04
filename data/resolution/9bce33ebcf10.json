@@ -1,0 +1,56 @@
+{
+  "source_url": "https://gbatemp.net/threads/resident-evil-code-veronica-x-hd-texture-pack-1-1-by-juanchotexhd.611760/",
+  "listings": [
+    "l-1f12352bd1"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Resident Evil Code: Veronica X HD Texture Pack 1.1 by JuanchoTexHD"
+  },
+  "candidates": [
+    {
+      "url": "https://www.lugerdorada.com.es",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "t be loaded, not compatible) UPDATE 1.1 Oct 20 : just a lil update to support the spanish dubbing patch from http://www.lugerdorada.com.es the font, inventory"
+    },
+    {
+      "url": "https://drive.google.com/file/d/17J87t5Yjg1nB1IDgGWfIvJlORUUfBGao/view?usp=share_link",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "in this case. 3-Optimal configurations inside READ ME! (dont be a fool and read it) DOWNLOAD 1.1: h ttps://drive.google.com/file/d/17J87t5Yjg1nB1IDgGWfIvJlOR"
+    },
+    {
+      "url": "https://retroachievements.org/linkedhashes.php?g=2606",
+      "host": "other",
+      "kind": "unknown",
+      "where": "reply_by_other",
+      "context": "ering that it's built into PCSX2 now? That being said, for me, the bigger deal is RetroAchievement support. https://retroachievements.org/linkedhashes.php?g=2"
+    },
+    {
+      "url": "https://github.com/SentaiBrad/Graphical-Enancement-Repository",
+      "host": "github",
+      "kind": "page",
+      "where": "reply_by_other",
+      "context": "Oh I know patches can fix everything, I run a Github trying to compile as much as I can to enhan"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-1f12352bd1",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/17J87t5Yjg1nB1IDgGWfIvJlORUUfBGao/view?usp=share_link",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

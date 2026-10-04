@@ -1,0 +1,15 @@
+id: nordbo
+name: Nordbo
+aliases:
+- nordbo
+links:
+  page: https://gbatemp.net/members/nordbo.767899/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

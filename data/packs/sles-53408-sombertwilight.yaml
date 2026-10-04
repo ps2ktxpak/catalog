@@ -1,0 +1,66 @@
+key: sles-53408-sombertwilight
+catalog_id: sombertwilight-fighting-angels-sles-53408-20260726
+name: Fighting Angels HD Texture Pack
+game:
+  title: Fighting Angels
+  serials:
+  - SLES-53408
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: High-resolution replacement textures for the European PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/fighting-angels.661275/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/fighting-angels_sles-53408_20240925173931-png.460751/
+    thumb_url: https://gbatemp.net/data/attachments/460/460139-3c058ff136e0e3d8a4dcbca6636d37e2.jpg?hash=PAWP8Tbg49
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fighting-angels_sles-53408_20240925174002-png.460752/
+    thumb_url: https://gbatemp.net/data/attachments/460/460140-cce8dbdcaffa7ec34c84dd374707aabb.jpg?hash=zOjb3K_6fs
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fighting-angels_sles-53408_20240925173823-png.460753/
+    thumb_url: https://gbatemp.net/data/attachments/460/460141-9ad3d7946c32744858d5ad9d03a3b448.jpg?hash=mtPXlGwydE
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/fighting-angels.661275/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

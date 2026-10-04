@@ -1,0 +1,63 @@
+key: slus-21075-teodor-max
+catalog_id: teodor-max-haunting-ground-slus-21075-20260728
+name: Haunting Ground HD Texture Pack
+game:
+  title: Haunting Ground
+  serials:
+  - SLUS-21075
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: unknown
+description: A complete North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/haunting-ground-hd-texture-pack.667771/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/1026e07a-f48a-428a-9bac-3c72a8c37537-png.488620/
+    thumb_url: https://gbatemp.net/data/attachments/488/488008-db26f2e182f54bb777bb16e3444eed70.jpg?hash=ZSs9pthGIO
+    credit: teodor-max
+  videos:
+  - provider: youtube
+    id: Tt48rf9bLzc
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TEODOR_MAX
+  credits: HD texture pack created by TEODOR_MAX; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/haunting-ground-hd-texture-pack.667771/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

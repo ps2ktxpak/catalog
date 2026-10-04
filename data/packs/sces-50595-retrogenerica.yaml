@@ -1,0 +1,82 @@
+key: sces-50595-retrogenerica
+catalog_id: retrogenerica-monsters-inc-scare-island-sces-50595-20260726
+name: 'Disney/Pixar Monsters, Inc.: Scare Island HD Texture Pack'
+game:
+  title: 'Disney/Pixar Monsters, Inc.: Scare Island'
+  serials:
+  - SCES-50595
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+description: Complete HD character, environment, effects, interface and remade text texture replacements for the SCES-50595 PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/disney-pixar-monsters-inc-scare-island-ps2-hd-remaster-xbox-and-ps5-button-texture-pack-100-complete.660943/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/660943/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-16-202526-png.458829/
+    thumb_url: https://gbatemp.net/data/attachments/458/458217-6ebb7493a3eae5cd75f92fe4dc014efd.jpg?hash=brt0k6Pq5c
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-17-142046-png.458836/
+    thumb_url: https://gbatemp.net/data/attachments/458/458224-dc707f7c5918ea7b00415230292387d0.jpg?hash=3HB_fFkY6n
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-17-140940-png.458832/
+    thumb_url: https://gbatemp.net/data/attachments/458/458220-c0260c97743b24b4a7597a4761ed311d.jpg?hash=wCYMl3Q7JL
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-17-141817-png.458835/
+    thumb_url: https://gbatemp.net/data/attachments/458/458223-54e8fafcd0aee27b273d2b9c929b5aaf.jpg?hash=VOj6_NCu4n
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-17-141255-png.458833/
+    thumb_url: https://gbatemp.net/data/attachments/458/458221-a4194b5cedb73ababbaee6114de2180e.jpg?hash=pBlLXO23Or
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-17-141908-png.458834/
+    thumb_url: https://gbatemp.net/data/attachments/458/458222-8cf33ed4989d0ff80e1ece4d8dd9ebf9.jpg?hash=jPM-1JidD_
+    credit: retrogenerica
+  videos:
+  - provider: youtube
+    id: mgMkc8EAD08
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - RetroGenerica
+  credits: HD texture pack created by RetroGenerica (formerly DerekGeneric831); normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/660943/
+  version: 2024 complete release (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

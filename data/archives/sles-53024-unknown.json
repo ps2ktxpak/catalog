@@ -1,0 +1,24 @@
+{
+  "key": "sles-53024-unknown",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-altered-beast-hd-remaster-community-archive-sles-53024-20260728.tar.zst",
+      "sha256": "3feaa3fc21b0057bed1bf4eb3e243853c3db41d8857ff2eb27955b41e160c114",
+      "size_bytes": 780940704,
+      "decompressed_size_bytes": 1020866560,
+      "file_count": 4402,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "13863A9EBF00E984679B04E502816C64B5B4A3FB5A38F73627B36A3622F366E1",
+        "size_bytes": 2961863069
+      }
+    }
+  ]
+}

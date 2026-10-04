@@ -1,0 +1,82 @@
+{
+  "source_url": "https://gbatemp.net/threads/pac-man-world-rally-hd-pack-and-remap.681371/",
+  "listings": [
+    "l-9d964b891e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Pac-Man World Rally HD Pack and Remap"
+  },
+  "videos": [
+    {
+      "id": "rj_q1tYJ87Y",
+      "uploader": "ironhulk33",
+      "links": [
+        {
+          "url": "https://www.patreon.com/c/ironhulk33",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "nating to the Patreon for full access to my packs for free and notifications when more are dropped! ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz",
+          "host": "mediafire",
+          "kind": "folder",
+          "where": "video_description",
+          "context": " game is fire. Its just Mario Kart Pac Man. I ALSO added remaps! Enjoy  Where to Find the Downloads:",
+          "by_uploader": true
+        },
+        {
+          "url": "https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q",
+          "host": "terabox",
+          "kind": "file",
+          "where": "video_description",
+          "context": "Where to Find the Downloads:https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.patreon.com/c/ironhulk33",
+      "host": "patreon",
+      "kind": "page",
+      "where": "op",
+      "context": "nsider Donating to the Patreon for full access to my packs for free and notifications when more are dropped! https://www.patreon.com/c/ironhulk33 MANNNNNNNN t"
+    },
+    {
+      "url": "https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz",
+      "host": "mediafire",
+      "kind": "folder",
+      "where": "op",
+      "context": "NNNN this game is fire. Its just Mario Kart Pac Man. I ALSO added remaps! Enjoy Where to Find the Downloads: https://www.mediafire.com/folder/k8yncbpnlckw3/iro"
+    },
+    {
+      "url": "https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q",
+      "host": "terabox",
+      "kind": "file",
+      "where": "op",
+      "context": "! Enjoy Where to Find the Downloads: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9d964b891e",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz",
+      "host": "mediafire",
+      "kind": "folder",
+      "confidence": "medium",
+      "reason": "Creator provided MediaFire folder and TeraBox as public download sources.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

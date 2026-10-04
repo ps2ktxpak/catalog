@@ -1,0 +1,24 @@
+{
+  "key": "sles-54952-sombershroud-2",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/kevinmi-sombershroud-ben-10-protector-of-earth-mobile-sles-54952-20260726.tar.zst",
+      "sha256": "ee28afa5b084da6d4f1f9dd889c79c791ec95e684525f72a8c2307b1045d1a72",
+      "size_bytes": 192946470,
+      "decompressed_size_bytes": 364533760,
+      "file_count": 3113,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A70961491319FC0E81D890C7D92E315C89E63D1F1CD5554D1885C8F1410BD76F",
+        "size_bytes": 342159728
+      }
+    }
+  ]
+}

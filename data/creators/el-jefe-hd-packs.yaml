@@ -1,0 +1,27 @@
+id: el-jefe-hd-packs
+name: el_jefe_hd_packs
+links:
+  page: https://gbatemp.net/members/el_jefe_hd_packs.794363/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/eljefegaming
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@elj3fegaming
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

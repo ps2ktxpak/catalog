@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/the-thing-ps2-hd-texture-pack.641635/",
+  "listings": [
+    "l-18f2bc1764"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "The Thing PS2 HD Texture pack"
+  },
+  "candidates": [
+    {
+      "url": "https://archive.org/details/replacements.7z_20231021",
+      "host": "archive_org",
+      "kind": "file",
+      "where": "op",
+      "context": "2 directory. Enjoy! P.S. keep an eye out for John Carpenter Himself to make a cameo in this game Files: https://archive.org/details/replacements.7z_202310"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-18f2bc1764",
+      "status": "resolved",
+      "base_url": "https://archive.org/details/replacements.7z_20231021",
+      "host": "archive_org",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

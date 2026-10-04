@@ -1,0 +1,25 @@
+{
+  "source_url": "https://gbatemp.net/threads/need-for-speed-underground-hd-by-m.663098/",
+  "listings": [
+    "l-8dcc6a8fdd"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Need for Speed: Underground HD by M"
+  },
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-8dcc6a8fdd",
+      "status": "not_found",
+      "confidence": "high",
+      "reason": "Text mentions a download with an obfuscated URL (buzzheavier.com with spaces) but the actual working link is unverifiable in the evidence.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

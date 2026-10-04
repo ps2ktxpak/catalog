@@ -1,0 +1,85 @@
+key: slus-20552-funnynamexyz
+catalog_id: funnynamexyz-gta-vice-city-upscaled-slus-20552-2.0
+name: GTA Vice City 4X AI Upscaled Texture Pack
+game:
+  title: 'Grand Theft Auto: Vice City'
+  serials:
+  - SLUS-20552
+credits:
+- creator: funnynamexyz
+type: ai_upscale
+completeness: complete
+description: 'Updated PNG-based 4X texture replacement pack for the North American PS2 release of Grand Theft Auto: Vice City.'
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grand-theft-auto-vice-city-multiple-resolution-upscaled-texture-pack-slus-20552.675410/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grand-theft-auto-vice-city-4x-ai-upscaled-texture-pack-slus-20552.675410/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city_slus-20552_20260520041113-png.573913/
+    thumb_url: https://gbatemp.net/data/attachments/573/573301-a247ebf5f91b799d4861f538b645ed3b.jpg?hash=OX8QPZca02
+    alt: vanilla
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city_slus-20552_20260520041045-png.573914/
+    thumb_url: https://gbatemp.net/data/attachments/573/573302-276471eec8c041c2c2d169dfb249f9b6.jpg?hash=F5IcEy5-op
+    alt: upscaled
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city_slus-20552_20260520042202-png.573915/
+    thumb_url: https://gbatemp.net/data/attachments/573/573303-ee24fb5eb9af0e6ef6d5c0511b29717e.jpg?hash=ADNcDhcAX5
+    alt: vanilla
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city_slus-20552_20260520042124-png.573916/
+    thumb_url: https://gbatemp.net/data/attachments/573/573304-2248776edfff4d37d5d9ee1b88214b19.jpg?hash=n-iO6NGMRz
+    alt: upscaled
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city_slus-20552_20260520041920-png.573918/
+    thumb_url: https://gbatemp.net/data/attachments/573/573306-3ca68a79d1f0b79283b5cb4dd9be23c5.jpg?hash=PMrA3zIM8h
+    alt: vanilla
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city_slus-20552_20260520041852-png.573919/
+    thumb_url: https://gbatemp.net/data/attachments/573/573307-38f5c0d3b292e39c634a87d8b702e039.jpg?hash=hqwNDUFdEG
+    alt: upscaled
+    credit: funnynamexyz
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - FunnyNameXYZ
+  credits: 4X AI-upscaled texture pack created by FunnyNameXYZ; mirrored by EmuCoreX with the original source retained.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/grand-theft-auto-vice-city-4x-ai-upscaled-texture-pack-slus-20552.675410/
+  version: '2.0'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

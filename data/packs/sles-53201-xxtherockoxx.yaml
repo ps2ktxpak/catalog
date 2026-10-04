@@ -1,0 +1,76 @@
+key: sles-53201-xxtherockoxx
+catalog_id: xxtherockoxx-saint-seiya-sanctuary-sles-53201-slps-25476-20260726
+name: 'Saint Seiya: Chapter Sanctuary HD Texture Pack'
+game:
+  title: 'Saint Seiya: Chapter Sanctuary'
+  serials:
+  - SLES-53201
+  - SLPS-25476
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: unknown
+description: Multilingual HD replacement textures for the European and author-confirmed Japanese releases; the game menu is excluded because its dumps are unsuitable.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/saint-seiya-chapter-sanctuary-hd.626880/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.355988/
+    thumb_url: https://gbatemp.net/data/attachments/355/355376-19d5fb3d4e242e64bbb3b91ba49890bb.jpg?hash=GdX7PU4kLm
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/323223-png.355989/
+    thumb_url: https://gbatemp.net/data/attachments/355/355377-d6eb27a01cb33c1df015fb4b1e9b0b0c.jpg?hash=1usnoByzPB
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/343443-png.355990/
+    thumb_url: https://gbatemp.net/data/attachments/355/355378-944d70837ca6e869bc895662fc9888b0.jpg?hash=lE1wg3ym6G
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/333443-png.355993/
+    thumb_url: https://gbatemp.net/data/attachments/355/355381-b535d27052a8524fa5edd21420890203.jpg?hash=tTXScFKoUk
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/34434-png.355992/
+    thumb_url: https://gbatemp.net/data/attachments/355/355380-eeaf298c721d8d349528d4466c11145e.jpg?hash=7q8pjHIdjT
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.355994/
+    thumb_url: https://gbatemp.net/data/attachments/355/355382-ae214df0504469745c6a359efd6b91a6.jpg?hash=riFN8FBEaX
+    credit: xxtherockoxx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: Multi-region HD texture pack created by xXtherockoXx; normalized to a texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/saint-seiya-chapter-sanctuary-hd.626880/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

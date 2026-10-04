@@ -1,0 +1,21 @@
+id: zazamastro
+name: ZazaMastro
+aliases:
+- zazamastro
+links:
+  page: https://gbatemp.net/members/zazamastro.601946/
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/601/601946.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

@@ -1,0 +1,22 @@
+# The same game spelled two ways: the hosted pack's title and the sheet's. Both sides are title keys
+# (lower-case letters and digits, no accents, no "the"). Used when matching listings to hosted packs.
+# Checked by hand and carried over from jpolo1224's texture-pack-links.py (2026-10-02).
+
+- pack: breathoffiredragonquarter
+  listing: breathoffirevdragonquarter
+- pack: 007nightfire
+  listing: jamesbond007nightfire
+- pack: disneyspkoutofshadows
+  listing: pkoutofshadows
+- pack: disneystarzanuntamed
+  listing: tarzanuntamed
+- pack: jakii
+  listing: jak2renegade
+- pack: jakxcombatracing
+  listing: jakx
+- pack: magnacartatearsofblood
+  listing: magnacarta
+- pack: mastersofuniversehemandefenderofgrayskull
+  listing: hemandefenderofgrayskull
+- pack: silenthill4room
+  listing: silenthillroom

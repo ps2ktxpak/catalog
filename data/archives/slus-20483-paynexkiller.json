@@ -1,0 +1,24 @@
+{
+  "key": "slus-20483-paynexkiller",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/paynexkiller-wwe-shut-your-mouth-championships-slus-20483-20260726.tar.zst",
+      "sha256": "0c223378e708e1acc8ce58740c4706c2337c99e4e7676e1e7cc1fa92e15b0d83",
+      "size_bytes": 3289431,
+      "decompressed_size_bytes": 4577280,
+      "file_count": 19,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "4452BEBB57C613E27BD6A09D757710A750FA33B4DA80D9DD30F5A92231C0ADA9",
+        "size_bytes": 9963444
+      }
+    }
+  ]
+}

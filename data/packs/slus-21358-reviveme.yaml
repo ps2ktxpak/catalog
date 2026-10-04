@@ -1,0 +1,74 @@
+key: slus-21358-reviveme
+catalog_id: texture-pack-credited-to-reviveme-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-naruto-ultimate-ninja-hd-remaster-community-archive-slus-21358-20260728
+name: Naruto Ultimate Ninja HD Remaster - Community Archive Texture Pack
+game:
+  title: Naruto Ultimate Ninja
+  serials:
+  - SLUS-21358
+credits:
+- creator: reviveme
+type: ai_upscale
+completeness: in_progress
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/naruto-ultimate-ninja-1-slus-21358-hd-texture-pack.667335/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/xbsx2-2025-02-20-21-29-31-png.487298/
+    thumb_url: https://gbatemp.net/data/attachments/486/486686-7225df0965d41dfb511337f70729a749.jpg?hash=ciXfCWXUHf
+    credit: reviveme
+  - source_url: https://gbatemp.net/attachments/xbsx2-2025-02-20-21-40-57-png.487308/
+    thumb_url: https://gbatemp.net/data/attachments/486/486696-b9da378f6e6ec1252aff80e72b74e4ec.jpg?hash=udo3j25uwS
+    credit: reviveme
+  - source_url: https://gbatemp.net/attachments/xbsx2-2025-02-20-21-40-29-png.487313/
+    thumb_url: https://gbatemp.net/data/attachments/486/486701-c6d743aa6de76e33e7ea0fae79c1db93.jpg?hash=xtdDqm3nbj
+    credit: reviveme
+  - source_url: https://gbatemp.net/attachments/xbsx2-2025-02-20-21-30-36-png.487307/
+    thumb_url: https://gbatemp.net/data/attachments/486/486695-b3b0fbe353c087582187b9fb72c71725.jpg?hash=s7D741PAh1
+    credit: reviveme
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to ReviveMe by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to ReviveMe by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

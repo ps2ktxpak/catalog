@@ -1,0 +1,88 @@
+key: slus-20932-psxrestore
+catalog_id: psxrestore-mercenaries-remastered-v2-slus-20932-20260728
+name: 'Mercenaries: Playground of Destruction Remastered HD Pack V2'
+game:
+  title: 'Mercenaries: Playground of Destruction'
+  serials:
+  - SLUS-20932
+credits:
+- creator: psxrestore
+type: mixed
+completeness: complete
+description: The North American V2 remastered pack using restored developer textures and AI-upscaled replacements.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mercenaries-playground-of-destruction-hd-textures-work-in-progress.638463/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mercenaries-playground-of-destruction-hd-textures-v2-slus-20932.638463/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628143134-jpg.513707/
+    thumb_url: https://gbatemp.net/data/attachments/513/513095-e32c0584e8561edf1474c10f32fb1644.jpg?hash=iwS4aB52e8
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628122711-jpg.513677/
+    thumb_url: https://gbatemp.net/data/attachments/513/513065-2c50752f467a35de135c4b2c47319051.jpg?hash=hvg6TcSVz9
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628134522-jpg.513697/
+    thumb_url: https://gbatemp.net/data/attachments/513/513085-078768ecaff87bc303f94a7b304b06d4.jpg?hash=URKrKUc9lX
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628122740-jpg.513678/
+    thumb_url: https://gbatemp.net/data/attachments/513/513066-fe6a8787c7f8bc3c893f77e4c64e39fa.jpg?hash=7j-fxTNhYq
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628122831-jpg.513679/
+    thumb_url: https://gbatemp.net/data/attachments/513/513067-5f92e01ea5da335771945fbf519c4e95.jpg?hash=9nHm95nveW
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628122936-jpg.513680/
+    thumb_url: https://gbatemp.net/data/attachments/513/513068-a1701b557ee27ef880c70d68cdf4cb0a.jpg?hash=8YeezlXxJl
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628131717-jpg.513681/
+    thumb_url: https://gbatemp.net/data/attachments/513/513069-f287dc9c9e35586eaff5233b92b2aa1e.jpg?hash=qcA78wT04y
+    credit: psxrestore
+  - source_url: https://gbatemp.net/attachments/mercenaries-playground-of-destruction_slus-20932_20250628131837-jpg.513682/
+    thumb_url: https://gbatemp.net/data/attachments/513/513070-617f1ef72f63b2eaf79224c8b92db89b.jpg?hash=ukCDjJkaCN
+    credit: psxrestore
+  videos:
+  - provider: youtube
+    id: RoIyW6MBUgw
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - PsxRestore
+  credits: Remastered HD texture pack, matching and mipmapping work created by PsxRestore; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/mercenaries-playground-of-destruction-hd-textures-v2-slus-20932.638463/
+  version: Remastered HD Pack V2 public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,24 @@
+{
+  "key": "scus-97113-c0meg3ts0me",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-c0meg3ts0me-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ico-hd-remaster-community-archive-scus-97113-20260728.tar.zst",
+      "sha256": "96178f84c91e9390b7117326af24b9b0f8ecee8cc4763cf511e27c7816fc4b89",
+      "size_bytes": 229705493,
+      "decompressed_size_bytes": 311951360,
+      "file_count": 1425,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "569935EF94E9A53EDD3D7518300B2DBBB71DE48C8F527E0EDBF7BF080CE93E61",
+        "size_bytes": 228309305
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-guitar-hero-ntsc-u-slus-21224.673261/",
+  "listings": [
+    "l-b416549641"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] Guitar Hero [NTSC-U] [SLUS-21224]"
+  },
+  "videos": [
+    {
+      "id": "idNWyjnpYKA",
+      "uploader": "Sad Origami",
+      "links": [
+        {
+          "url": "https://www.patreon.com/sadorigami",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "🟣 Updates: https://twitter.com/Sad_Origami 🟣 Patreon: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ko-fi.com/sadorigami/shop",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "Updates: https://twitter.com/Sad_Origami 🟣 Patreon: https://www.patreon.com/sadorigami  💾 Download: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6Hke9V6GUFs/",
+          "host": "gdrive",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "atreon.com/sadorigami  💾 Download: https://ko-fi.com/sadorigami/shop  🟣 Browse +1,000 TexturePacks: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/sadorigami/shop",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Download​"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-b416549641",
+      "status": "resolved",
+      "base_url": "https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6Hke9V6GUFs/",
+      "host": "gdrive",
+      "kind": "unknown",
+      "confidence": "medium",
+      "reason": "the only file-host link in video description; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

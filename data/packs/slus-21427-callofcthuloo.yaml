@@ -1,0 +1,85 @@
+key: slus-21427-callofcthuloo
+catalog_id: callofcthuloo-wwe-smackdown-vs-raw-2007-slus-21427-20260727
+name: WWE SmackDown! vs. RAW 2007 HD Texture Pack
+game:
+  title: WWE SmackDown! vs. RAW 2007
+  serials:
+  - SLUS-21427
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: The author's 4K North American replacement variant, selected from the separately published HD and 4K archives.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wwe-smackdown-vs-raw-2007-slus-21427-hd-texture-pack-upscale.681105/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-14-49-png.568128/
+    thumb_url: https://gbatemp.net/data/attachments/567/567516-9665fb93624454e9d77a4e293697fbb6.jpg?hash=x4wJNZ0qRL
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-18-11-png.568129/
+    thumb_url: https://gbatemp.net/data/attachments/567/567517-443cbd78ab23f18db104ba5727432b19.jpg?hash=nx1KJwurDH
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-30-19-png.568130/
+    thumb_url: https://gbatemp.net/data/attachments/567/567518-62de8464c49042c7918e9a12c3ec8965.jpg?hash=Kn89T6rpw_
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-35-22-png.568132/
+    thumb_url: https://gbatemp.net/data/attachments/567/567520-8aa391c735163b07bd2d7ca0bb4119fb.jpg?hash=6tqU5zcD44
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-41-28-png.568133/
+    thumb_url: https://gbatemp.net/data/attachments/567/567521-ac359f84a76e314841c75ed96b67121f.jpg?hash=wEagnoo4Rm
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-47-10-png.568134/
+    thumb_url: https://gbatemp.net/data/attachments/567/567522-fd27dbc41f5130e5fddf4ed368e0eb0b.jpg?hash=UHgXLC_t4A
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-13-20-48-45-png.568135/
+    thumb_url: https://gbatemp.net/data/attachments/567/567523-8eea2909e06df883ba0ac3ab048a9d1b.jpg?hash=xOfe-lbtCR
+    credit: callofcthuloo
+  videos:
+  - provider: youtube
+    id: 691uBMP9KRw
+  - provider: youtube
+    id: BzvwrHbfV6w
+  - provider: youtube
+    id: YBdziDsgOhw
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: 4K AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/wwe-smackdown-vs-raw-2007-slus-21427-hd-texture-pack-upscale.681105/
+  version: 4K public source variant
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

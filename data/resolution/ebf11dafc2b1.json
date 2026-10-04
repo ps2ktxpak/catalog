@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/mobile-suit-gundam-gundam-vs-zeta-gundam-hd-texture-pack.666725/",
+  "listings": [
+    "l-06bd8c3b54"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mobile Suit Gundam - Gundam vs. Zeta Gundam HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/h73qm4iuyw7jrbl/SLUS-20821.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Pack Covers : Mobile Suits UI Characters Maps and Stages Backgrounds Title I will update soon the HD pack. Download"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-06bd8c3b54",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/h73qm4iuyw7jrbl/SLUS-20821.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

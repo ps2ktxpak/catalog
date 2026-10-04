@@ -1,0 +1,36 @@
+{
+  "source_url": "https://gbatemp.net/threads/metal-gear-solid-2-substance-slus-20554-ps3-hd-collection-interface-hud-port.654623/",
+  "listings": [
+    "l-5494eac14e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Metal Gear Solid 2: Substance (SLUS-20554) - PS3 HD Collection Interface &amp; HUD Port"
+  },
+  "candidates": [
+    {
+      "url": "https://github.com/NathanHigley/MGS2-HD-UI/releases",
+      "host": "github",
+      "kind": "page",
+      "where": "op",
+      "context": "in of manually finding each and every hash and figuring out how to put them together, so please enjoy. :^) Download Here EDIT: Pack is now considered com"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-5494eac14e",
+      "status": "resolved",
+      "base_url": "https://github.com/NathanHigley/MGS2-HD-UI/releases",
+      "host": "github",
+      "kind": "page",
+      "confidence": "high",
+      "reason": "Creator linked to GitHub releases page where texture pack is distributed.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

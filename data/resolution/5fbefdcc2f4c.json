@@ -1,0 +1,127 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-hd-textures-pack-black-slus-21376-usa-sles-53886-pal.683983/",
+  "listings": [
+    "l-174392f67c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "PS2 HD Textures Pack┃Black (SLUS-21376) (NTSC) &amp; (SLES-53886) (PAL)"
+  },
+  "videos": [
+    {
+      "id": "iaOsdlXOQUs",
+      "uploader": "Huekage",
+      "links": [
+        {
+          "url": "https://youtu.be/ESZJgv8rfdA",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "PS2 & PSP games.   📺 *If you want, watch the video about the project below:*   - Link to the video: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://linktr.ee/Huekage",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "ck-slus-21376-usa-sles-53886-pal.683983/  💬 *My social media*   - All my social media in one place: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.patreon.com/cw/Huekage",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "/invite/DMrRYDxyu  🤝 *If you wish to support me (Any help is appreciated - Thank you)*   - Patreon: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ko-fi.com/huekage",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "elp is appreciated - Thank you)*   - Patreon: https://www.patreon.com/cw/Huekage - Buy Me a Coffee: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://delicate-bienenstitch-416f64.netlify.app/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": " Patreon: https://www.patreon.com/cw/Huekage - Buy Me a Coffee: https://ko-fi.com/huekage - PayPal: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ESZJgv8rfdA&t=2s",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_pinned_comment",
+          "context": "If you wish, watch the video about my PS1, PS2 & PSP project below:  \r Video: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://linktr.ee/Huekage",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "favor, informe sobre quaisquer texturas corrompidas e/ou faltando. Obrigado. All my social media (English): https://linktr.ee/Huekage Todas as minhas redes s"
+    },
+    {
+      "url": "https://linktr.ee/huecracias",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "l my social media (English): https://linktr.ee/Huekage Todas as minhas redes sociais (Português Brasileiro): https://linktr.ee/huecracias - If you'd like to"
+    },
+    {
+      "url": "https://delicate-bienenstitch-416f64.netlify.app/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "nhas redes sociais (Português Brasileiro): https://linktr.ee/huecracias - If you'd like to support my work: https://delicate-bienenstitch-416f64.netlify.app/"
+    },
+    {
+      "url": "https://pix-huecracia.netlify.app/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ke to support my work: https://delicate-bienenstitch-416f64.netlify.app/ - Caso queira apoiar meu trabalho: https://pix-huecracia.netlify.app/ Link to downlo"
+    },
+    {
+      "url": "https://www.mediafire.com/file/y8zw7tg98m3t7zb/PS2_HD_Textures_-_Black_%2528SLUS-21376%2529_%2528NTSC%2529_%2526_%2528SLES-53886%2529_%2528PAL%2529.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": ".app/ - Caso queira apoiar meu trabalho: https://pix-huecracia.netlify.app/ Link to download/para baixar: https://www.mediafire.com/file/y8zw...SC%29_%26_%2"
+    },
+    {
+      "url": "https://mediafire.com/file/y8zw...SC%29_%26_%28SLES-53886%29_%28PAL%29.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": ".app/ - Caso queira apoiar meu trabalho: https://pix-huecracia.netlify.app/ Link to download/para baixar: https://www.mediafire.com/file/y8zw...SC%29_%26_%2"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-174392f67c",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/y8zw7tg98m3t7zb/PS2_HD_Textures_-_Black_%2528SLUS-21376%2529_%2528NTSC%2529_%2526_%2528SLES-53886%2529_%2528PAL%2529.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provides direct MediaFire link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

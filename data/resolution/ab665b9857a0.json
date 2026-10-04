@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/ben-10-protector-of-earth-hd-texture.650213/",
+  "listings": [
+    "l-838a5c0f16"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Ben 10 Protector of Earth HD Texture"
+  },
+  "videos": [
+    {
+      "id": "BysJij40DSg",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://fir3.net/9kIYpUjXHG",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": ";;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  Texture Pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/zHZWiBAa#i7J1nOO4CQbL9us6iOUQfyML-d2nRggxSXjBsce1Fss",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "DOWNLAOD PAYPAL SLUS-21661"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-838a5c0f16",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/zHZWiBAa#i7J1nOO4CQbL9us6iOUQfyML-d2nRggxSXjBsce1Fss",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

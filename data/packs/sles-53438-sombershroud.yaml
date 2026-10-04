@@ -1,0 +1,80 @@
+key: sles-53438-sombershroud
+catalog_id: sombershroud-taito-legends-slus-21122-sles-53438-slka-15056-20260726
+name: Taito Legends HD Menu Texture Pack
+game:
+  title: Taito Legends
+  serials:
+  - SLUS-21122
+  - SLES-53438
+  - SLKA-15056
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: partial
+description: A deliberately partial upscale preserving the arcade games' original pixel art while replacing front-end menus, cabinets and selected interface graphics for three author-confirmed regions.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/taito-legends-1-2-usa-hd-textures-menu-only.639603/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029070310-png.401673/
+    thumb_url: https://gbatemp.net/data/attachments/401/401061-6dd069d0b0abf4bffcac2ad40f49350f.jpg?hash=bdBp0LCr9L
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029070335-png.401674/
+    thumb_url: https://gbatemp.net/data/attachments/401/401062-9b93f692b77df56830b492b58994e960.jpg?hash=m5P2krd99W
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029070402-png.401675/
+    thumb_url: https://gbatemp.net/data/attachments/401/401063-066cebd20852ed1dbdcb183d2396b0e4.jpg?hash=Bmzr0ghS7R
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029070428-png.401676/
+    thumb_url: https://gbatemp.net/data/attachments/401/401064-02cf26b2a841bf0f9d6506b1e354e1ef.jpg?hash=As8msqhBvw
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029070452-png.401677/
+    thumb_url: https://gbatemp.net/data/attachments/401/401065-c45b1080454cd7e368d4afedcfaf9c46.jpg?hash=xFsQgEVM1-
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029052237-png.401678/
+    thumb_url: https://gbatemp.net/data/attachments/401/401066-957e7e485021eed0bbf9c13e906717b7.jpg?hash=lX5-SFAh7t
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/taito-legends_slus-21122_20231029070550-png.401679/
+    thumb_url: https://gbatemp.net/data/attachments/401/401067-5f0de9a9e109eb483880cac38779ceb9.jpg?hash=Xw3pqeEJ60
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: Partial HD menu pack created by SomberShroud using HDCube4-B, Waifu2x Extension GUI and selected source captures; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/taito-legends-1-2-usa-hd-textures-menu-only.639603/
+  version: Updated partial multi-region snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

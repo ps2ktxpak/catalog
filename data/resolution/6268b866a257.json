@@ -1,0 +1,128 @@
+{
+  "source_url": "https://gbatemp.net/threads/ratchet-clank-hd-pack-100.681374/",
+  "listings": [
+    "l-9f24ec4a42"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Ratchet &amp; Clank HD Pack 100%"
+  },
+  "videos": [
+    {
+      "id": "2DGNkr2LfsY",
+      "uploader": "ironhulk33",
+      "links": [
+        {
+          "url": "https://www.patreon.com/c/ironhulk33",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "nating to the Patreon for full access to my packs for free and notifications when more are dropped! ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz",
+          "host": "mediafire",
+          "kind": "folder",
+          "where": "video_description",
+          "context": "theres any issues, please shoot me a message here or on the discord.   Where to Find the Downloads: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q",
+          "host": "terabox",
+          "kind": "file",
+          "where": "video_description",
+          "context": "here to Find the Downloads: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz ",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "GC9diQYK3fU",
+      "uploader": "SnowAngel 05",
+      "links": [
+        {
+          "url": "https://www.patreon.com/c/ironhulk33/posts",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "🔰 HD Texture Pack 2026 by ironhulk33 https://gbatemp.net/threads/my-texture-packs.661159/ ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file_premium/xg8rjb0it7sp0v5/Ratchet_%2526_Clank_PCSX2_HD_Pack.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_description",
+          "context": "gbatemp.net/threads/my-texture-packs.661159/ https://www.patreon.com/c/ironhulk33/posts ➤ Download: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ibb.co/Kjmm7tvQ",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "ture Loading (✔) Post-Processing ➝ FXAA (✔) Shade Boost (✔) ➝ Brightness ➝ 55  Widescreen Hack OFF: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ibb.co/pjGSSq7n",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "ing ➝ FXAA (✔) Shade Boost (✔) ➝ Brightness ➝ 55  Widescreen Hack OFF: https://ibb.co/Kjmm7tvQ  ON: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://t.me/+h7jdeQvO8N1jZGNl",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "jmm7tvQ  ON: https://ibb.co/pjGSSq7n   🔸 Cheats: Widescreen Hack (✔) 👉 Telegram (More information): ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.patreon.com/c/ironhulk33",
+      "host": "patreon",
+      "kind": "page",
+      "where": "op",
+      "context": "onsider Donating to the Patreon for full access to my packs for free and notifications when more are dropped! https://www.patreon.com/c/ironhulk33 HERE IS TH"
+    },
+    {
+      "url": "https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz",
+      "host": "mediafire",
+      "kind": "folder",
+      "where": "op",
+      "context": "e fun. If theres any issues, please shoot me a message here or on the discord. Where to Find the Downloads: https://www.mediafire.com/folder/k8yncbpnlckw3/iro"
+    },
+    {
+      "url": "https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q",
+      "host": "terabox",
+      "kind": "file",
+      "where": "op",
+      "context": "scord. Where to Find the Downloads: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9f24ec4a42",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz",
+      "host": "mediafire",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator provides direct MediaFire folder link as primary download location.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-20316-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-wwf-just-bring-it-slus-20316-20260722.tar.zst",
+      "sha256": "6359114613f52ffffe5d18f316e95af55ce72fb252c78ea7648abc9f25647c3f",
+      "size_bytes": 109254431,
+      "decompressed_size_bytes": 157521920,
+      "file_count": 1387,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "641DEEAF0E9ED681EEA47B130BD8F47A0C8A88EB09D96779915A391EE08C3C76",
+        "size_bytes": 219550342
+      }
+    }
+  ]
+}

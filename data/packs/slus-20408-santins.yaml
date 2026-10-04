@@ -1,0 +1,86 @@
+key: slus-20408-santins
+catalog_id: texture-pack-credited-to-santins-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-pitfall-the-lost-expedition-hd-remaster-community-archive-slus-20408-20260728
+name: Pitfall The Lost Expedition HD Remaster - Community Archive Texture Pack
+game:
+  title: Pitfall The Lost Expedition
+  serials:
+  - SLUS-20408
+credits:
+- creator: santins
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pitfall-the-lost-expedition-hd-remaster-usa-slus-20408.650513/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123231-png.424970/
+    thumb_url: https://gbatemp.net/data/attachments/424/424358-16740ec6359d7a726ea87f1cc33a8871.jpg?hash=FnQOxjWden
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/image-png.424971/
+    thumb_url: https://gbatemp.net/data/attachments/424/424359-f9fafcaacd50b650225b65dc7f5b99b5.jpg?hash=WvhImn4lQh
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123242-png.424974/
+    thumb_url: https://gbatemp.net/data/attachments/424/424362-c794997df0aa52c4eed334d05119c080.jpg?hash=x5SZffCqUs
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123255-png.424975/
+    thumb_url: https://gbatemp.net/data/attachments/424/424363-943c2c40e0721d6bb7f28eac54f51bd8.jpg?hash=lDwsQOByHW
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123318-png.424976/
+    thumb_url: https://gbatemp.net/data/attachments/424/424364-343dc3af566e276a66cc10516e98f4b4.jpg?hash=ND3Dr1ZuJ2
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123349-png.424979/
+    thumb_url: https://gbatemp.net/data/attachments/424/424367-328b3ac218a2376b92207a2a39a7be65.jpg?hash=Mos6whiiN2
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123326-png.424978/
+    thumb_url: https://gbatemp.net/data/attachments/424/424366-7c07833d33373afb28cbafbecf7d7dae.jpg?hash=fAeDPTM3Ov
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123403-png.424980/
+    thumb_url: https://gbatemp.net/data/attachments/424/424368-d19c99d0d21311b52f88b4cf0b63732e.jpg?hash=0ZyZ0NITEb
+    credit: santins
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Santins by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Santins by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

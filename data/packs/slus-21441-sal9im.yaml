@@ -1,0 +1,84 @@
+key: slus-21441-sal9im
+catalog_id: sal9im-dragon-ball-z-budokai-tenkaichi-2-slus-21441-20260728
+name: 'Dragon Ball Z: Budokai Tenkaichi 2 Texture Pack'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 2'
+  serials:
+  - SLUS-21441
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-tenkaichi-budokai-2-slus-21441-hd-texture-pack.658938/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/001-png.473345/
+    thumb_url: https://gbatemp.net/data/attachments/472/472733-aab4d44c09316f5f40743bae7c71a41d.jpg?hash=qrTUTAkxb1
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-png.455474/
+    thumb_url: https://gbatemp.net/data/attachments/454/454862-761c178a478e7521c558ba3c444eb0b5.jpg?hash=dhwXikeOdS
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/05-png.455475/
+    thumb_url: https://gbatemp.net/data/attachments/454/454863-c229af0ddd1680117b0251d7f1a7f3a3.jpg?hash=wimvDd0WgB
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/06-png.455476/
+    thumb_url: https://gbatemp.net/data/attachments/454/454864-0596dc4e2b1bbc6789fced56b6c32a68.jpg?hash=BZbcTisbvG
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/07-png.455477/
+    thumb_url: https://gbatemp.net/data/attachments/454/454865-bfc4a54e68056af481e6109c4a468277.jpg?hash=v8SlTmgFav
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/08-png.455478/
+    thumb_url: https://gbatemp.net/data/attachments/454/454866-24c0d1d7687aa6227843bd346cbcd166.jpg?hash=JMDR12h6pi
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-png.449997/
+    thumb_url: https://gbatemp.net/data/attachments/449/449385-f5f9abb300325e44c3f9791d7892d6a7.jpg?hash=gPUvcb-cR7
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/06-png.450000/
+    thumb_url: https://gbatemp.net/data/attachments/449/449388-39142fe387b9020f81c023337c51601c.jpg?hash=TcTs3ZlpHm
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: SalkehtvQGc
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Sal9im
+  credits: HD texture pack credited by the source to Sal9im; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/dragon-ball-z-tenkaichi-budokai-2-slus-21441-hd-texture-pack.658938/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

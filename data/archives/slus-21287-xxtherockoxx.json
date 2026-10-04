@@ -1,0 +1,24 @@
+{
+  "key": "slus-21287-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/xxtherockoxx-prince-of-persia-two-thrones-slus-21287-20260722.tar.zst",
+      "sha256": "a57f1f0cbc1d15e0639bb90a73cda85fb7fc38269aa079bc74ca8b9f16e99a1a",
+      "size_bytes": 924632373,
+      "decompressed_size_bytes": 1103964160,
+      "file_count": 2128,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "25A4C2925CB80387155F1EBE14EF18F64445A6BBB5D205758575B4CB55002758",
+        "size_bytes": 1516733130
+      }
+    }
+  ]
+}

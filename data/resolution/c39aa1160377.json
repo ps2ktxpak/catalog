@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/enthusia-professional-racing-subaru-impreza-wrx-sti-pcsx2-hd-texture.668993/",
+  "listings": [
+    "l-b654c8c8a0"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "ENTHUSIA PROFESSIONAL Racing SUBARU IMPREZA WRX STI PCSX2 HD TEXTURE"
+  },
+  "videos": [
+    {
+      "id": "TYYYYrpT5Zo",
+      "uploader": "Mvp899",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI SERIAL: SLPM-68519 CRC: C6AEDBCB SIZE: 252mb"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-b654c8c8a0",
+      "status": "paid",
+      "base_url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "high",
+      "reason": "Creator explicitly mentions Ko-Fi; pack distributed through shop platform.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

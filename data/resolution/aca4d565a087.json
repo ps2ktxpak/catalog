@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/mortal-kombat-armageddon-premium-edition-pcsx2-hd-texture.668966/",
+  "listings": [
+    "l-e9b899d9e2"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mortal Kombat Armageddon Premium Edition PCSX2 HD TEXTURE"
+  },
+  "videos": [
+    {
+      "id": "oH_UOkhON14",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://ko-fi.com/s/24444fe379",
+          "host": "kofi",
+          "kind": "shop",
+          "where": "video_pinned_comment",
+          "context": "pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI Mortal Kombat Armageddon Premium Edition SER"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e9b899d9e2",
+      "status": "resolved",
+      "base_url": "https://ko-fi.com/s/24444fe379",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

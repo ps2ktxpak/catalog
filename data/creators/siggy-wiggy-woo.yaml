@@ -1,0 +1,15 @@
+id: siggy-wiggy-woo
+name: Siggy_Wiggy_Woo
+aliases:
+- siggy_wiggy_woo
+links:
+  page: https://gbatemp.net/members/siggy_wiggy_woo.711777/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

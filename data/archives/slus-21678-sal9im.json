@@ -1,0 +1,24 @@
+{
+  "key": "slus-21678-sal9im",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sal9im-dragon-ball-z-budokai-tenkaichi-3-slus-21678-20260728.tar.zst",
+      "sha256": "8aa7016562728e7819bfeb20ba97d44d2dc95690d9736d90ca5b678a1562ad87",
+      "size_bytes": 1689969365,
+      "decompressed_size_bytes": 5004840960,
+      "file_count": 18704,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "641E49232F5A953EA3D6AB0B00AD3F5886FC7B0AD1E21699411EB90ACE8831B3",
+        "size_bytes": 2108398211
+      }
+    }
+  ]
+}

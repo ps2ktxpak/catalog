@@ -1,0 +1,72 @@
+key: slus-20893-mvp899
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-way-of-the-samurai-2-hd-remaster-community-archive-slus-20893-20260728
+name: Way of the Samurai 2 HD Remaster - Community Archive Texture Pack
+game:
+  title: Way of the Samurai 2
+  serials:
+  - SLUS-20893
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/way-of-the-samurai-2-pcsx2-hd-texture.681391/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/way-of-the-samurai-2_slus-20893_20260428133632-png.570521/
+    thumb_url: https://gbatemp.net/data/attachments/569/569909-0151805e2fe751cd8218574e51a5207e.jpg?hash=3QcZ81nHSK
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/way-of-the-samurai-2_slus-20893_20260428214359-png.570520/
+    thumb_url: https://gbatemp.net/data/attachments/569/569908-4b0d5d89c3ea9b08c25ac7171baf455f.jpg?hash=F43nnI1hSl
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: po39Y6uU_5Q
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

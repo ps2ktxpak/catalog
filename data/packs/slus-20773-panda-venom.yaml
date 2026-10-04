@@ -1,0 +1,72 @@
+key: slus-20773-panda-venom
+catalog_id: panda-venom-legacy-of-kain-defiance-slus-20773-20260728
+name: 'Legacy of Kain: Defiance HD Texture Pack'
+game:
+  title: 'Legacy of Kain: Defiance'
+  serials:
+  - SLUS-20773
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A playable North American high-resolution replacement pack covering the full game with documented emulator limitations.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/legacy-of-kain-defiance-us-hd-textures.659800/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/legacy-of-kain-defiance_slus-20773_20240819091508-jpg.453507/
+    thumb_url: https://gbatemp.net/data/attachments/452/452895-d98994fb581c1992e108f5daa1c25de3.jpg?hash=2YmU-1gcGZ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/legacy-of-kain-defiance_slus-20773_20240819110613-jpg.453509/
+    thumb_url: https://gbatemp.net/data/attachments/452/452897-faa28721722c266f768dd7649d91aefb.jpg?hash=-qKHIXIsJm
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/legacy-of-kain-defiance_slus-20773_20240819091541-jpg.453508/
+    thumb_url: https://gbatemp.net/data/attachments/452/452896-71531575f87fafdc16a0540477dab6e8.jpg?hash=cVMVdfh_r9
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/legacy-of-kain-defiance_slus-20773_20240819110720-jpg.453510/
+    thumb_url: https://gbatemp.net/data/attachments/452/452898-951958f7b61f95e2ca47b5f9520ddde2.jpg?hash=lRlY97Yfle
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/legacy-of-kain-defiance_slus-20773_20240819110738-jpg.453511/
+    thumb_url: https://gbatemp.net/data/attachments/452/452899-5750ae8b7d53d0859458e94629cb6ea0.jpg?hash=V1Cui31T0I
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/legacy-of-kain-defiance-us-hd-textures.659800/
+  version: Version 1 public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

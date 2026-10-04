@@ -1,0 +1,24 @@
+{
+  "key": "slus-20974-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-digital-devil-saga-20260722.tar.zst",
+      "sha256": "9fa426d470f9cc0e5aed005267ac9eb0c25f49173144cc5d491d5111364a4beb",
+      "size_bytes": 743123244,
+      "decompressed_size_bytes": 1122426880,
+      "file_count": 3051,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "AE30F79540287C192BEC30110DD93E277BBA9E21E81F58776611E890319925C1",
+        "size_bytes": 575737914
+      }
+    }
+  ]
+}

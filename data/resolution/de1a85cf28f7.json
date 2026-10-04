@@ -1,0 +1,36 @@
+{
+  "source_url": "https://gbatemp.net/threads/arthur-and-the-invisibles-arthur-and-the-minimoys-slus-21305-sles-54420-hd-texture-pack.670125/",
+  "listings": [
+    "l-cfbe2b6868"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Arthur and the Invisibles / Arthur and the Minimoys [NTSC/PAL] HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://cloud.mail.ru/public/Z2rf/myhv2f5qE",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ions (for PAL you will need rename SLUS-21305 folder to SLES-54420) 4GB RAM recommend for Pre-cache Textures Download Spoiler: Comparison"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-cfbe2b6868",
+      "status": "resolved",
+      "base_url": "https://cloud.mail.ru/public/Z2rf/myhv2f5qE",
+      "host": "other",
+      "kind": "unknown",
+      "confidence": "high",
+      "reason": "Creator provided Mail.ru cloud link labeled Download in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

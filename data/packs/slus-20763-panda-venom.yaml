@@ -1,0 +1,75 @@
+key: slus-20763-panda-venom
+catalog_id: panda-venom-beyond-good-and-evil-test-slus-20763-20260726
+name: Beyond Good & Evil HD Texture Pack (Test Version)
+game:
+  title: Beyond Good & Evil
+  serials:
+  - SLUS-20763
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: An explicitly experimental DDS replacement set for the North American PS2 release; the source author notes emulator-related issues, so this entry remains labeled as a test version.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/beyond-good-evil-usa-hd-textures-test-version.625848/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/beyond-good-and-evil_slus-20763_20230207161022-jpg.352026/
+    thumb_url: https://gbatemp.net/data/attachments/351/351414-dddb3b4fd7c64011588c87d1c75d459a.jpg?hash=3ds7T9fGQB
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/beyond-good-and-evil_slus-20763_20230207172315-jpg.352027/
+    thumb_url: https://gbatemp.net/data/attachments/351/351415-7e33fbe7ca7bab3d37e78ecbc269fb47.jpg?hash=fjP758p7qz
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/beyond-good-and-evil_slus-20763_20230207174235-jpg.352028/
+    thumb_url: https://gbatemp.net/data/attachments/351/351416-199fe3e6a14fe0065954cae64d8d537a.jpg?hash=GZ_j5qFP4A
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/beyond-good-and-evil_slus-20763_20230207174940-jpg.352029/
+    thumb_url: https://gbatemp.net/data/attachments/351/351417-bc3014fe69029fc14c09945dba0d6882.jpg?hash=vDAU_mkCn8
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/beyond-good-and-evil_slus-20763_20230207174958-jpg.352030/
+    thumb_url: https://gbatemp.net/data/attachments/351/351418-3e9f3eb240399f2956679bf3e6126cda.jpg?hash=Pp8-skA5ny
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/beyond-good-and-evil_slus-20763_20230207175259-jpg.352031/
+    thumb_url: https://gbatemp.net/data/attachments/351/351419-28dd5bc5d49226a009a5ba305ba0fb5c.jpg?hash=KN1bxdSSJq
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Test-version HD texture pack created by Panda_Venom; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/beyond-good-evil-usa-hd-textures-test-version.625848/
+  version: Test/beta public release (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,24 @@
+{
+  "key": "scus-97213-flooffluff",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/flooffluff-dark-cloud-2-scus-97213-20260728.tar.zst",
+      "sha256": "bdcf01745a2453d3ac85c0007b5cc321043f2d7490be041a631fc4eac0e5c42e",
+      "size_bytes": 2042548384,
+      "decompressed_size_bytes": 3167272960,
+      "file_count": 6578,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "4FC39402CD5C96D18E191BB87D52E1FADC6CA8EE6F57A64363C7F063E298D812",
+        "size_bytes": 6637492703
+      }
+    }
+  ]
+}

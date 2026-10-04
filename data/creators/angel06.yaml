@@ -1,0 +1,22 @@
+id: angel06
+name: AngeL06
+aliases:
+- angel06
+links:
+  page: https://gbatemp.net/members/angel06.756652/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@AngeL06-p7v/videos
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/jak-2-hd-hud-pcsx2-open-goal.645980/",
+  "listings": [
+    "l-7bb0684b69"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "JAK 2 HD HUD PCSX2/Open Goal"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1zbCZofBzgUX1hTzvpC4ikZrTLnDsKPcG/view?pli=1",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "ff but in HD is it much visible. Hope you like it. Used tools : Gimp, Zoner Photo Studio, Cupscale/HdCube DOWNLOAD"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-7bb0684b69",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1zbCZofBzgUX1hTzvpC4ikZrTLnDsKPcG/view?pli=1",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

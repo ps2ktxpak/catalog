@@ -1,0 +1,24 @@
+{
+  "key": "slus-20706-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/xxtherockoxx-kill-switch-slus-20706-20260726.tar.zst",
+      "sha256": "7f1cd5b428ed78e737b25377b3bfc4820f68d6165071b736685bd48d08a07d84",
+      "size_bytes": 129672656,
+      "decompressed_size_bytes": 199710720,
+      "file_count": 938,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "43C6532131EF0DBB8D363A2C704A192EBC4390468DC10046CECC7F897FAA24DA",
+        "size_bytes": 120809719
+      }
+    }
+  ]
+}

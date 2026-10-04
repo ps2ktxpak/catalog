@@ -1,0 +1,24 @@
+{
+  "key": "slus-21644-ironhulk33",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-spongebob-s-atlantis-squarepantis-hd-remaster-community-archive-slus-21644-20260728.tar.zst",
+      "sha256": "5ea2c10a911cf8986a88b722029653f139c4fd8ca44fbe136d1ca58f176012ad",
+      "size_bytes": 235828208,
+      "decompressed_size_bytes": 348979200,
+      "file_count": 2021,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "45BFD3D1397AD1DA2CE0EB0687015BF6D7FF1249FC5D10A88AD3C557925AAA70",
+        "size_bytes": 477857558
+      }
+    }
+  ]
+}

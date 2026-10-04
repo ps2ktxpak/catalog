@@ -1,0 +1,83 @@
+{
+  "source_url": "https://gbatemp.net/threads/scarface-the-world-is-yours-remaster-ps2-hd-pack-overhaul-final-edition.681914/",
+  "listings": [
+    "l-752b0c145e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Scarface: The World Is Yours  remaster PS2 HD pack Overhaul – Final Edition"
+  },
+  "videos": [
+    {
+      "id": "fT1Pt5x61SQ",
+      "uploader": "el jefe",
+      "links": []
+    },
+    {
+      "id": "xuYGxEMSXVc",
+      "uploader": "el jefe",
+      "links": []
+    },
+    {
+      "id": "89B6UhG9D8g",
+      "uploader": "SnowAngel 05",
+      "links": [
+        {
+          "url": "https://ko-fi.com/s/d34bd2f0dd",
+          "host": "kofi",
+          "kind": "shop",
+          "where": "video_description",
+          "context": "threads/scarface-the-world-is-yours-remaster-ps2-hd-pack-overhaul-final-edition.681914/ ➤ Download: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://t.me/+h7jdeQvO8N1jZGNl",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": " (✔) Shade Boost (✔) ➝ Brightness ➝ 55 🔹 Patches:  ‣ 50/60 FPS (✔)  ‣ 480p Mode (✔)    🏡 Telegram : ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/s/d34bd2f0dd",
+      "host": "kofi",
+      "kind": "shop",
+      "where": "op",
+      "context": "​downloads pcs: https://ko-fi.com/s/d34bd2f0dd nethersx2 1.8 or 1."
+    },
+    {
+      "url": "https://ko-fi.com/s/91247a816a",
+      "host": "kofi",
+      "kind": "shop",
+      "where": "op",
+      "context": "​downloads pcs: https://ko-fi.com/s/d34bd2f0dd nethersx2 1.8 or 1.9 https://ko-fi.com/s/91247a816a compatible version"
+    },
+    {
+      "url": "https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5557",
+      "host": "github",
+      "kind": "file",
+      "where": "op",
+      "context": "pcs: https://ko-fi.com/s/d34bd2f0dd nethersx2 1.8 or 1.9 https://ko-fi.com/s/91247a816a compatible version https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-752b0c145e",
+      "status": "resolved",
+      "base_url": "https://ko-fi.com/s/d34bd2f0dd",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "medium",
+      "reason": "the only file-host link in video description; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

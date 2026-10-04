@@ -1,0 +1,83 @@
+key: sles-54162-xxtherockoxx
+catalog_id: texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-saint-seiya-the-hades-hd-remaster-community-archive-sles-54162-20260728
+name: Saint Seiya The Hades HD Remaster - Community Archive Texture Pack
+game:
+  title: Saint Seiya The Hades
+  serials:
+  - SLES-54162
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/saint-seiya-the-hades-hd.626985/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.356377/
+    thumb_url: https://gbatemp.net/data/attachments/355/355765-965d6aa298811d8739cd35cdbb17cc33.jpg?hash=ll1qopiBHY
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.356379/
+    thumb_url: https://gbatemp.net/data/attachments/355/355767-dd786e7a0d82abeb05016cf733b15f94.jpg?hash=3Xhueg2Cq-
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.356385/
+    thumb_url: https://gbatemp.net/data/attachments/355/355773-78e329a64312cd4694fc8321f05d55b9.jpg?hash=eOMppkMSzU
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_5-png.356380/
+    thumb_url: https://gbatemp.net/data/attachments/355/355768-7fc645477046999333edc974bca9455d.jpg?hash=f8ZFR3BGmZ
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/34424-png.356381/
+    thumb_url: https://gbatemp.net/data/attachments/355/355769-a2d2582b7c49b6e51f5062533ef8308f.jpg?hash=otJYK3xJtu
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/w232332-png.356382/
+    thumb_url: https://gbatemp.net/data/attachments/355/355770-5ed04ece9631260770985717ba165b7c.jpg?hash=XtBOzpYxJg
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/23656-png.356383/
+    thumb_url: https://gbatemp.net/data/attachments/355/355771-d1981d5c0b67af6dd9bcc5dae815eefa.jpg?hash=0ZgdXAtnr2
+    credit: xxtherockoxx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

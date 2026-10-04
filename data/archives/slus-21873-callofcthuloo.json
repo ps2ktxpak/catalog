@@ -1,0 +1,24 @@
+{
+  "key": "slus-21873-callofcthuloo",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-dynasty-warriors-gundam-2-slus-21873-20260727.tar.zst",
+      "sha256": "06d0c1172ce060a023b842310e5756d75b759e064232cf5a5110a2107d2652c0",
+      "size_bytes": 1151877406,
+      "decompressed_size_bytes": 3992002560,
+      "file_count": 7312,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "8D65EA9D479622A7D1BC255EAED0B790AF60B28A11345149A76C24C7A089648D",
+        "size_bytes": 6993006502
+      }
+    }
+  ]
+}

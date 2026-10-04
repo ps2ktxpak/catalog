@@ -1,0 +1,87 @@
+{
+  "source_url": "https://gbatemp.net/threads/xbox-buttons-for-burnout-1-dominator-3-and-revenge-already-exist-for-ps2.683198/",
+  "listings": [
+    "l-15e358fd2c",
+    "l-164ed752b2",
+    "l-79504f2ffb"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Xbox Buttons for Burnout 1 - Dominator (3 and Revenge already exist) for PS2"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/qbyx07daxy3jq85/SLUS-20307.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "ox controller. To install, simply drag the SLUS-##### folders into your PCSX2 \"textures\" folder. Burnout 1: https://www.mediafire.com/file/qbyx07daxy3jq85/SLU"
+    },
+    {
+      "url": "https://www.mediafire.com/file/exovkmj65di02pz/SLUS-20497.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": ". Burnout 1: https://www.mediafire.com/file/qbyx07daxy3jq85/SLUS-20307.zip/file Burnout 2 - Point of Impact: https://www.mediafire.com/file/exovkmj65di02pz/SLU"
+    },
+    {
+      "url": "https://www.mediafire.com/file/oxzaup9g4o5ksyn/SLUS-21050.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Point of Impact: https://www.mediafire.com/file/exovkmj65di02pz/SLUS-20497.zip/file Burnout 3 - Takedown Fix: https://www.mediafire.com/file/oxzaup9g4o5ksyn/SLU"
+    },
+    {
+      "url": "https://www.mediafire.com/file/ek77s1ybth8ln1d/SLUS-21596.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "rnout 3 - Takedown Fix: https://www.mediafire.com/file/oxzaup9g4o5ksyn/SLUS-21050.zip/file Burnout Dominator: https://www.mediafire.com/file/ek77s1ybth8ln1d/SLU"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-15e358fd2c",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/qbyx07daxy3jq85/SLUS-20307.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The opening post labels this Mediafire file Burnout 1; the zip is named for the NTSC-U serial SLUS-20307.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-164ed752b2",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/exovkmj65di02pz/SLUS-20497.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The opening post labels this Mediafire file Burnout 2 - Point of Impact; the zip is named for the NTSC-U serial SLUS-20497.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-79504f2ffb",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/ek77s1ybth8ln1d/SLUS-21596.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The opening post labels this Mediafire file Burnout Dominator; the zip is named for the NTSC-U serial SLUS-21596.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

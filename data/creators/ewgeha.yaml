@@ -1,0 +1,26 @@
+id: ewgeha
+name: ewgeha
+links:
+  page: https://gbatemp.net/members/ewgeha.731198/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@evgesha_jk/videos
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/731/731198.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

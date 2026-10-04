@@ -1,0 +1,66 @@
+key: slus-20795-panda-venom
+catalog_id: panda-venom-bloody-roar-4-20260722
+name: Bloody Roar 4 HD Remaster
+game:
+  title: Bloody Roar 4
+  serials:
+  - SLUS-20795
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: Completed high-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bloody-roar-4-usa-hd-remaster.609659/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-19-22-at-12-12-am-jpg.302695/
+    thumb_url: https://gbatemp.net/data/attachments/302/302083-a25391650af5d550d513caa9def3beed.jpg?hash=olORZQr11V
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-19-22-at-12-12-am-002-jpg.302696/
+    thumb_url: https://gbatemp.net/data/attachments/302/302084-a7d0b32845aaa5a25bdb708106911237.jpg?hash=p9CzKEWqpa
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-19-22-at-12-13-am-001-jpg.302697/
+    thumb_url: https://gbatemp.net/data/attachments/302/302085-3ede757be3760dad38c64b66bd6bf284.jpg?hash=Pt51e-N2Da
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; ZIP mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/bloody-roar-4-usa-hd-remaster.609659/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

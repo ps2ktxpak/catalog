@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/dragon-ball-z-budokai-tenkachi-4-mod-repack-hd-beta-8.661087/",
+  "listings": [
+    "l-937082ac7e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dragon Ball Z Budokai Tenkachi 4 (mod) repack HD /beta 8/"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/folder/f280rgro4m4ch/BT4_ULTIMATE",
+      "host": "mediafire",
+      "kind": "folder",
+      "where": "op",
+      "context": "se you are interested (both characters and scenery, as well as the HUD and renders) 1-installation repack- link mediafire download replacements -unzip replac"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1vhtEtTmRFaea7mASd1vgNzSlDDnYDcVL?usp=sharing",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op",
+      "context": "\"Properties\" in \"Graphics\" go to the \"Texture Replacement\" part and click on \"Load Textures\" -play 2-extras link drive -screenshots *forgive me if the"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-937082ac7e",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/folder/f280rgro4m4ch/BT4_ULTIMATE",
+      "host": "mediafire",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator provided both MediaFire and Google Drive links; MediaFire chosen as primary.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

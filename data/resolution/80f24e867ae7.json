@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-energy-airforce-aim-strike-pal-completed.681488/",
+  "listings": [
+    "l-3ec5c597e8"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] Energy Airforce - Aim Strike! [PAL] Completed"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/cmay96dlmloddo6/replacements.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Hello friends, i have upscaled the textures of this amazing sim! https://www.mediafire.com/file/cmay96dlmloddo6/rep"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-3ec5c597e8",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/cmay96dlmloddo6/replacements.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

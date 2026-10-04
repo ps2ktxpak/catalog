@@ -1,0 +1,68 @@
+key: scus-97112-c0meg3ts0me
+catalog_id: texture-pack-credited-to-c0meg3ts0me-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-extermination-hd-remaster-community-archive-scus-97112-20260728
+name: Extermination HD Remaster - Community Archive Texture Pack
+game:
+  title: Extermination
+  serials:
+  - SCUS-97112
+credits:
+- creator: c0meg3ts0me
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/extermination-hd-sces-50240.659615/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/extermination-png.452771/
+    thumb_url: https://gbatemp.net/data/attachments/452/452159-32f4d84ccd25b8c2bba441029e8c0f7e.jpg?hash=MvTYTM0luM
+    credit: c0meg3ts0me
+  videos:
+  - provider: youtube
+    id: pTOzxeQeTM4
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to C0meg3ts0me by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to C0meg3ts0me by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

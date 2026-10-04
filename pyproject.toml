@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ps2ktxpak"
+version = "0.1.0"
+description = "Metadata, tooling and site for the ARMSX2 PS2 texture pack catalog"
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6", "jsonschema>=4.18"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+resolve = ["yt-dlp"]
+
+[project.scripts]
+ps2ktxpak = "ps2ktxpak.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["tools"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tools"]

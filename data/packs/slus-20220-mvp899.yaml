@@ -1,0 +1,73 @@
+key: slus-20220-mvp899
+catalog_id: texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-dead-to-rights-hd-remaster-community-archive-slus-20220-20260728
+name: Dead to Rights HD Remaster - Community Archive Texture Pack
+game:
+  title: Dead to Rights
+  serials:
+  - SLUS-20220
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dead-to-rights-pcsx2-hd-texture.660637/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/dead-to-rights_slus-20220_20251105223431-png.537196/
+    thumb_url: https://gbatemp.net/data/attachments/536/536584-0be719b27fd79a95fa22d9f4b9852fc5.jpg?hash=F_vuTIQPhj
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/dead-to-rights_slus-20220_20251105223417-png.537195/
+    thumb_url: https://gbatemp.net/data/attachments/536/536583-c2dfd35f0a7fc4547c750ec1063068ee.jpg?hash=8LveYF1QV4
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: aqxK8YQ4Upo
+  - provider: youtube
+    id: gK2dvu5wDjE
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/the-mark-of-kri-texture-pack.635390/",
+  "listings": [
+    "l-73080e31d1"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "The Mark of Kri Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://archive.org/details/replacements.7z",
+      "host": "archive_org",
+      "kind": "file",
+      "where": "op",
+      "context": "o come through smooth (they are beautifully hand drawn art) I hope Y'all can do something with this. Enjoy! https://archive.org/details/replacements.7z"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-73080e31d1",
+      "status": "resolved",
+      "base_url": "https://archive.org/details/replacements.7z",
+      "host": "archive_org",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+key: slus-20738-teodor-max
+catalog_id: teodor-max-van-helsing-slus-20738-20260728
+name: Van Helsing HD Texture Pack
+game:
+  title: Van Helsing
+  serials:
+  - SLUS-20738
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: complete
+description: A complete North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/van-helsing-hd-texture-pack.640479/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/logo-png-realesrgan-x4plus-png.396431/
+    thumb_url: https://gbatemp.net/data/attachments/395/395819-e8485a9ff7f71ddcd6a8b1753fe3b1f1.jpg?hash=bbi04jbN2n
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929012603-png.396432/
+    thumb_url: https://gbatemp.net/data/attachments/395/395820-9d411e4604fe6e9be210503e2a965d83.jpg?hash=nUEeRgT-bp
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929012559-png.396434/
+    thumb_url: https://gbatemp.net/data/attachments/395/395822-38e8f53ea90a614b849e4c7f647cd8b4.jpg?hash=OOj1PqkKYU
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929011950-png.396435/
+    thumb_url: https://gbatemp.net/data/attachments/395/395823-a532233ea2a86f1a5b9eb735c0aa538a.jpg?hash=pTIjPqKobx
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929011952-png.396436/
+    thumb_url: https://gbatemp.net/data/attachments/395/395824-eb8672a5ed995d263e0834dea3575bcd.jpg?hash=64Zype2ZXS
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929010528-png.396437/
+    thumb_url: https://gbatemp.net/data/attachments/395/395825-83af9cbedbf08ebe2666c16cfb79849f.jpg?hash=g6-cvtvwjr
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929010533-png.396438/
+    thumb_url: https://gbatemp.net/data/attachments/395/395826-22859a8d2f280b0cafcf92a905cca384.jpg?hash=IoWajS8oCw
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929012653-png.396440/
+    thumb_url: https://gbatemp.net/data/attachments/395/395828-88d76a6aafa68fa0644fd51e7fa2998b.jpg?hash=iNdqaq-mj6
+    credit: teodor-max
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TEODOR_MAX
+  credits: HD texture pack created by TEODOR_MAX; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/van-helsing-hd-texture-pack.640479/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

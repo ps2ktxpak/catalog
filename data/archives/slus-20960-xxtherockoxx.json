@@ -1,0 +1,24 @@
+{
+  "key": "slus-20960-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-mega-man-x8-hd-remaster-community-archive-slus-20960-20260728.tar.zst",
+      "sha256": "21879913a0c9a385113d7dbc84077ac73ba9cf6aa908b2887ed569fff0031040",
+      "size_bytes": 956315764,
+      "decompressed_size_bytes": 1490247680,
+      "file_count": 954,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6185F6A32EC75C860A2F0373C6CC5BBABA5D93D62AEAF77174591836D556E20C",
+        "size_bytes": 845229046
+      }
+    }
+  ]
+}

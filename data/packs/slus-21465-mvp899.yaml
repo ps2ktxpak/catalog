@@ -1,0 +1,70 @@
+key: slus-21465-mvp899
+catalog_id: mvp899-raiden-iii-2025-update-slus-21465-20260726
+name: Raiden III HD Texture Pack
+game:
+  title: Raiden III
+  serials:
+  - SLUS-21465
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: unknown
+description: The public 2025 DDS/PNG replacement-texture update for the North American PS2 release of Raiden III.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/raiden-iii-hd-texture-slus-21465.645062/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/raiden-iii-pcsx2-hd-texture-update-2025.645062/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/raiden-iii_slus-21465_20250113171155-png.480377/
+    thumb_url: https://gbatemp.net/data/attachments/479/479765-8c20f4991fe88f55d72797ba139f3a17.jpg?hash=jCD0mR_oj1
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/raiden-iii_slus-21465_20250113171151-png.480378/
+    thumb_url: https://gbatemp.net/data/attachments/479/479766-b587a83971c87e1e39a1cf0c54f14364.jpg?hash=tYeoOXHIfh
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: L7OAdF0Q2-Q
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - mvp899
+  credits: HD texture update created by mvp899; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/raiden-iii-pcsx2-hd-texture-update-2025.645062/
+  version: 2025 update (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

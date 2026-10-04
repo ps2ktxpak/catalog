@@ -1,0 +1,24 @@
+{
+  "key": "slus-20194-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-grandia-ii-20260722.tar.zst",
+      "sha256": "4a4f362a1873f4277c5006e448393235fa9b7bc747c9e6a37af691b54a720dce",
+      "size_bytes": 307392716,
+      "decompressed_size_bytes": 730501120,
+      "file_count": 7468,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "7FF97EB92A4AD6C1C921A6B01D391F1017362DD6B8F5C9A029592F11A86384FD",
+        "size_bytes": 589071190
+      }
+    }
+  ]
+}

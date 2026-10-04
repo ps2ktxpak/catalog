@@ -1,0 +1,48 @@
+{
+  "source_url": "https://gbatemp.net/threads/ratatouille-4k-hd-remastered-textures.646406/",
+  "listings": [
+    "l-a56668b59b"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Ratatouille 4K | HD Remastered Textures"
+  },
+  "videos": [
+    {
+      "id": "dguNDkD6xaQ",
+      "uploader": "Moataz",
+      "links": [
+        {
+          "url": "https://ko-fi.com/moatazmoadi",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_pinned_comment",
+          "context": "d subscribe) its free🤗\r https://gbatemp.net/threads/ratatouille-4k-hd-remastered-textures.646406/\r \r",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ouo.io/GAG4CT",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "res upscaled 4x menu & Shop &story mode (all completed) UI and fonts and story missions The download link in download HD Pack (please give it a sup and if you"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-a56668b59b",
+      "status": "gated",
+      "reason": "Primary download link goes through ouo.io, a link shortener with ad walls.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

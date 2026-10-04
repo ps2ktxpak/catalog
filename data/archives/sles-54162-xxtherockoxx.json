@@ -1,0 +1,24 @@
+{
+  "key": "sles-54162-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-saint-seiya-the-hades-hd-remaster-community-archive-sles-54162-20260728.tar.zst",
+      "sha256": "8696418360aaf0d1f3021215429b5442d4a6d0a9f65a506063b63050b599f4a7",
+      "size_bytes": 774527662,
+      "decompressed_size_bytes": 1465292800,
+      "file_count": 1067,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "C14C25B24C0A4B6EA9407A2A2C8D4A57B7A4AC2AFAD6F36942C267CB4C50B264",
+        "size_bytes": 929711895
+      }
+    }
+  ]
+}

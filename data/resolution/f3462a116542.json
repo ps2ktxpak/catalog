@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/bloody-roar-4-slus-20795-hd-texture-pack.684165/",
+  "listings": [
+    "l-1111d2d8a0"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "BLOODY ROAR 4 [SLUS-20795] HD TEXTURE PACK"
+  },
+  "videos": [
+    {
+      "id": "8WlW5zdmFpo",
+      "uploader": "Yami",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1h0G13wpWswZw8ASzHulm1b0YlwiqWV7h/view?usp=drive_link",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_description",
+          "context": "nálisis. ¡Tu apoyo ayuda muchísimo al canal!  Pack de texturas HD creado por Yamijpg (osea yo xdd): ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1h0G13wpWswZw8ASzHulm1b0YlwiqWV7h/view?usp=drive_link",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "th AI. I hope you like it. If you do, please like and reply; I'd really appreciate it. SIZE: 657 MB LINK: GOOGLE DRIVE"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-1111d2d8a0",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1h0G13wpWswZw8ASzHulm1b0YlwiqWV7h/view?usp=drive_link",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video description; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

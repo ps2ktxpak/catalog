@@ -1,0 +1,24 @@
+{
+  "key": "slus-20422-evil-is-alone-1992",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/evil-is-alone-the-hulk-slus-20422-20260726.tar.zst",
+      "sha256": "ad7b72710b7ab6ac70f3c9dc0a92202d5a94d0242c71cc2d0dfbf18bc23e1a5f",
+      "size_bytes": 125105759,
+      "decompressed_size_bytes": 217774080,
+      "file_count": 1961,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "166EB43F7C063499640F9EB8899D4A8C17EF568FF0717286B824BE31E8E1734C",
+        "size_bytes": 480762387
+      }
+    }
+  ]
+}

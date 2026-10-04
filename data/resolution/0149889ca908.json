@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/maximo-ghosts-to-glory-ultimate-remaster-texture-pack.677505/",
+  "listings": [
+    "l-fb1bfaf6bc"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "MAXIMO Ghosts to Glory Ultimate Remaster Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "KyG8X1_6ah0",
+      "uploader": "MAXIMO Capcom Videos",
+      "links": [
+        {
+          "url": "https://archive.org/details/maximo-ghosts-to-glory-remastered",
+          "host": "archive_org",
+          "kind": "file",
+          "where": "video_description",
+          "context": "omgames #playstation #ps2 #ghostsandgoblins @johndoe47100 @davidsiller9078 @ScottRogersMightyBedbug ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-fb1bfaf6bc",
+      "status": "resolved",
+      "base_url": "https://archive.org/details/maximo-ghosts-to-glory-remastered",
+      "host": "archive_org",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video description; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

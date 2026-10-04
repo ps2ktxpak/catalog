@@ -1,0 +1,24 @@
+{
+  "key": "slpm-66280-paul-bury",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/high-resolution-16-9-ui-texture-pack-created-by-paul-bury-monster-hunter-2-dos-hd-ui-16-9-16x-texture-pack-slpm-66280-20260728.tar.zst",
+      "sha256": "b67ed23b8ed155ce96fa8b1db18090918b62050d8a3419454416cf0c31302ac0",
+      "size_bytes": 8683200,
+      "decompressed_size_bytes": 8464015360,
+      "file_count": 427,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DF1974FEE381196E9952A2C70CD940E5334D82F2EC135D87D7C688E9E91C12DA",
+        "size_bytes": 452138960
+      }
+    }
+  ]
+}

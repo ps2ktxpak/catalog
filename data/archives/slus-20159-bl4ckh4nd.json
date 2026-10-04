@@ -1,0 +1,24 @@
+{
+  "key": "slus-20159-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-dave-mirra-freestyle-bmx-2-slus-20159-20260728.tar.zst",
+      "sha256": "55db2cb566caaf7a636818d1f00e7470e0ade47eb99e816565021d4b365ac510",
+      "size_bytes": 263089473,
+      "decompressed_size_bytes": 410408960,
+      "file_count": 4468,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "D38BF3FE3975AB8D6AACE7912F847AA1462298BA333CE73A2DC2B0B4BE265A8B",
+        "size_bytes": 631120975
+      }
+    }
+  ]
+}

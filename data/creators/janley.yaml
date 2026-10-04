@@ -1,0 +1,35 @@
+id: janley
+name: Janley
+aliases:
+- janley
+links:
+  page: https://gbatemp.net/members/janley.619222/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/janley
+  socials:
+  - kind: x
+    url: https://twitter.com/JanleyX
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/619/619222.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

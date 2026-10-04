@@ -1,0 +1,24 @@
+{
+  "key": "slus-21574-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-dawn-of-mana-slus-21574-20260726.tar.zst",
+      "sha256": "31118d3f13fa8d1b7efceb992664c7c947de2a1269a839848f82ee4652dcdb6d",
+      "size_bytes": 633615755,
+      "decompressed_size_bytes": 925542400,
+      "file_count": 1736,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "5CB490FB584256BA591B32B4E3582A3CA26865E0B6FA8AF04A5F679961C5C0F2",
+        "size_bytes": 551648224
+      }
+    }
+  ]
+}

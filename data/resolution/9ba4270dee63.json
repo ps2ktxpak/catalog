@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/dreamworks-shrek-the-third-pcsx2-hd-texture.662286/",
+  "listings": [
+    "l-2d6e6de0c6"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "DreamWorks Shrek the Third PCSX2 HD TEXTURE"
+  },
+  "videos": [
+    {
+      "id": "rAuVniTkuUQ",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/file/1xNBATiZ#hcepVfC96uknUt2V8BwWCn3l7XHMUx0awfOfVaNiHpM",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "DreamWorks Shrek the Third SERIAL: SLUS-21454 CRC: 90A9963E Donation: KO-FI"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-2d6e6de0c6",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/1xNBATiZ#hcepVfC96uknUt2V8BwWCn3l7XHMUx0awfOfVaNiHpM",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

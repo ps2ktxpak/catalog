@@ -1,0 +1,81 @@
+key: sces-53326-panda-venom
+catalog_id: panda-venom-shadow-of-the-colossus-20260722
+name: Shadow of the Colossus HD Remaster
+game:
+  title: Shadow of the Colossus
+  serials:
+  - SCES-53326
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: High-resolution texture remaster for the European PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shadow-of-the-colossus-eu-hd-remaster.624038/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221230235732-jpg.345299/
+    thumb_url: https://gbatemp.net/data/attachments/344/344687-966092bb1b4ccd19370f8ed99e006925.jpg?hash=lmCSuxtMzR
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221230235740-jpg.345300/
+    thumb_url: https://gbatemp.net/data/attachments/344/344688-61a857a886f3603f07ff72bd68192d67.jpg?hash=YahXqIbzYD
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221231000211-jpg.345301/
+    thumb_url: https://gbatemp.net/data/attachments/344/344689-f550751b4028ff668f179e0d44ad045f.jpg?hash=9VB1G0Ao_2
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221231000244-jpg.345302/
+    thumb_url: https://gbatemp.net/data/attachments/344/344690-9dfaa11fb757cecc791e420ff825ba90.jpg?hash=nfqhH7dXzs
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221231000355-jpg.345303/
+    thumb_url: https://gbatemp.net/data/attachments/344/344691-218b6294f2603c86c9b7d7ac8bafdeed.jpg?hash=IYtilPJgPI
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221231001700-jpg.345304/
+    thumb_url: https://gbatemp.net/data/attachments/344/344692-0f6349effd353891990ba06abfd8eb41.jpg?hash=D2NJ7_01OJ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221231011513-jpg.345305/
+    thumb_url: https://gbatemp.net/data/attachments/344/344693-7b02436ab32c1e56f8fe5981f0d78116.jpg?hash=ewJDarMsHl
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-of-the-colossus_sces-53326_20221231040405-jpg.345306/
+    thumb_url: https://gbatemp.net/data/attachments/344/344694-76841bab45db8d5985c27fab429996f2.jpg?hash=doQbq0XbjV
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/shadow-of-the-colossus-eu-hd-remaster.624038/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,75 @@
+key: slus-20212-xxtherockoxx
+catalog_id: xxtherockoxx-bloody-roar-3-v1-slus-20212-20260726
+name: Bloody Roar 3 HD Texture Pack
+game:
+  title: Bloody Roar 3
+  serials:
+  - SLUS-20212
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: incomplete
+description: HD replacement textures for fighters, arenas, effects and interface elements in the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bloody-roar-3-hd-v1-0.622872/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.343096/
+    thumb_url: https://gbatemp.net/data/attachments/342/342484-158c731de7c8ea8ac978b9ee78fc97d6.jpg?hash=FYxzHefI6o
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.341951/
+    thumb_url: https://gbatemp.net/data/attachments/341/341339-1cda074bfbc66b98bef35247b859a14d.jpg?hash=HNoHS_vGa5
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.341952/
+    thumb_url: https://gbatemp.net/data/attachments/341/341340-45ee4101029811ef53398ec52515009a.jpg?hash=Re5BAQKYEe
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.341953/
+    thumb_url: https://gbatemp.net/data/attachments/341/341341-ac934532a91b079f1f7d3932a53050a7.jpg?hash=rJNFMqkbB5
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/33423434-png.341954/
+    thumb_url: https://gbatemp.net/data/attachments/341/341342-50a2ee94b984b023e58a6a8170f76786.jpg?hash=UKLulLmEsC
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: Fv9xaQpDIvk
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public v1.0 source. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/bloody-roar-3-hd-v1-0.622872/
+  version: v1.0 (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

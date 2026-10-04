@@ -1,0 +1,22 @@
+id: hitorihoshi
+name: HitoriHoshi
+aliases:
+- hitorihoshi
+links:
+  page: https://gbatemp.net/members/hitorihoshi.597718/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@Hitori_Hoshi/videos
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

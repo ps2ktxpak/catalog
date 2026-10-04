@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/the-great-escape-usa-slus-20670-texture-pack-hd.675645/",
+  "listings": [
+    "l-2f66085d6c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "The Great Escape (USA) (SLUS-20670) Texture Pack HD"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/lirgz0kr42mm6cr/The_Great_Escape.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "escape high-resolution textures for sharper visuals and improved clarity Spoiler: Download https://www.mediafire.com/file/lirgz0kr42mm6cr/The"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-2f66085d6c",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/lirgz0kr42mm6cr/The_Great_Escape.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

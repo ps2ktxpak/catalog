@@ -1,0 +1,24 @@
+{
+  "key": "slus-20024-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-the-legacy-of-kain-series-blood-omen-2-hd-remaster-community-archive-slus-20024-20260728.tar.zst",
+      "sha256": "57b3514ad46214d0bf5371b44a4f03e3f091123c8d54c489f1058d5ed0685d21",
+      "size_bytes": 660764386,
+      "decompressed_size_bytes": 1575055360,
+      "file_count": 45995,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "46EF909DF4803C8D39834E20AA541FFE1FE0257D7EB8A914F01C4CC4820A7529",
+        "size_bytes": 2207694817
+      }
+    }
+  ]
+}

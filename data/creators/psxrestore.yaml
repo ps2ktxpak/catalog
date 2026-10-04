@@ -1,0 +1,28 @@
+id: psxrestore
+name: PsxRestore
+aliases:
+- psxrestore
+links:
+  page: https://gbatemp.net/members/psxrestore.669754/
+  socials:
+  - kind: x
+    url: https://twitter.com/PsxRestore
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/669/669754.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

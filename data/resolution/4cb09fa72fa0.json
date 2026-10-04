@@ -1,0 +1,81 @@
+{
+  "source_url": "https://gbatemp.net/threads/evil-dead-a-fistful-of-boomstick-slus-20403-hd-pack.660046/",
+  "listings": [
+    "l-9b9223c03a"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Evil Dead A Fistful Of Boomstick SLUS-20403 HD PACK"
+  },
+  "videos": [
+    {
+      "id": "HMax_mVK-rY",
+      "uploader": "el jefe",
+      "links": [
+        {
+          "url": "https://mega.nz/file/4j8izRIb#e7RoVgHyDEn8Y2235pVDUXA2-kZUZjqvMOdRSMpb9L8",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_description",
+          "context": "://gbatemp.net/threads/evil-dead-a-fistful-of-boomstick-slus-20403-hd-pack.660046/ links pnach file ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://mega.nz/file/gqVUgZjJ#CtqtWdEtRjsrFtz091YvudJOGryjHKG1eFkf5YCxXcg",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_description",
+          "context": "0046/ links pnach file https://mega.nz/file/4j8izRIb#e7RoVgHyDEn8Y2235pVDUXA2-kZUZjqvMOdRSMpb9L8 pc ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/Vy90QbxA#B3Gnc5NXTUvHE7hW1Mmm0ma0WMG9yHoowzCq_ko7R4M",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": ", native gamma is at 90 , i recommend lowering it to 65-55 for better experience NEW LOGO OPTION LINKS AND https://mega.nz/file/Vy90QbxA#B3Gnc5NXTUvHE7hW1Mmm"
+    },
+    {
+      "url": "https://mega.nz/file/NrUkGAYL#3cd-Fo3gNMVOgw3haiNM09pFPp45oidwQ-9oKj0oa2o",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "nce NEW LOGO OPTION LINKS AND https://mega.nz/file/Vy90QbxA#B3Gnc5NXTUvHE7hW1Mmm0ma0WMG9yHoowzCq_ko7R4M PC https://mega.nz/file/NrUkGAYL#3cd-Fo3gNMVOgw3haiNM"
+    },
+    {
+      "url": "https://mega.nz/file/4j8izRIb#e7RoVgHyDEn8Y2235pVDUXA2-kZUZjqvMOdRSMpb9L8",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "ick SLUS-20403 Spoiler: YOUTUBE recommended pcsx2 version 1.7.5980 links pnach file https://mega.nz/file/4j8izRIb#e7RoVgHyDEn8Y2235pVD"
+    },
+    {
+      "url": "https://mega.nz/file/gqVUgZjJ#CtqtWdEtRjsrFtz091YvudJOGryjHKG1eFkf5YCxXcg",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "ersion 1.7.5980 links pnach file https://mega.nz/file/4j8izRIb#e7RoVgHyDEn8Y2235pVDUXA2-kZUZjqvMOdRSMpb9L8 pc https://mega.nz/file/gqVUgZjJ#CtqtWdEtRjsrFtz091Yv"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9b9223c03a",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/gqVUgZjJ#CtqtWdEtRjsrFtz091YvudJOGryjHKG1eFkf5YCxXcg",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Thread starter provided Mega link for PC texture pack version in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

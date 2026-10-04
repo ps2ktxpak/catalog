@@ -1,0 +1,24 @@
+{
+  "key": "slus-21661-ironhulk33",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/ironhulk33-ben-10-protector-of-earth-slus-21661-20260728.tar.zst",
+      "sha256": "1fbd8f4349f0cf2503b3c6fbdd6179cb3e1e9225de3155f01f62d5104e8823af",
+      "size_bytes": 167316328,
+      "decompressed_size_bytes": 260536320,
+      "file_count": 1754,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A5B0109478EC703293DCFF3499629E802AC2A318003FF882790BF55D920880EC",
+        "size_bytes": 335583309
+      }
+    }
+  ]
+}

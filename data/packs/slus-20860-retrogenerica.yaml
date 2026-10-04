@@ -1,0 +1,76 @@
+key: slus-20860-retrogenerica
+catalog_id: retrogenerica-nightmare-before-christmas-oogies-revenge-slus-20860-20260726
+name: 'The Nightmare Before Christmas: Oogie''s Revenge HD Texture Pack'
+game:
+  title: 'The Nightmare Before Christmas: Oogie''s Revenge'
+  serials:
+  - SLUS-20860
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+description: HD character, environment, effects and interface texture replacements for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-nightmare-before-christmas-oogies-revenge-ps2-hd-remaster-xbox-button-texture-pack-100-complete.623200/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/623200/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/1670997023000-png.342811/
+    thumb_url: https://gbatemp.net/data/attachments/342/342199-974a5da640a4700a596bf72abe4b524d.jpg?hash=l0pdpkCkcA
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1670998394974-png.342816/
+    thumb_url: https://gbatemp.net/data/attachments/342/342204-be664a22cde324ceb7aaee419abfa880.jpg?hash=vmZKIs3jJM
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1670998451686-png.342819/
+    thumb_url: https://gbatemp.net/data/attachments/342/342207-dae7be6f8a50d32c46f53e258b46a780.jpg?hash=2ue-b4pQ0y
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1724589105279-jpeg.454543/
+    thumb_url: https://gbatemp.net/data/attachments/453/453931-951679bf8f58ab8e7d4724942288f754.jpg?hash=lRZ5v49Yq4
+    credit: retrogenerica
+  videos:
+  - provider: youtube
+    id: 1Cn1KAAb0RM
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - RetroGenerica
+  credits: HD texture pack created by RetroGenerica (formerly DerekGeneric831); normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/623200/
+  version: 2024 update (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

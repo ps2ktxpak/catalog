@@ -1,0 +1,78 @@
+key: slus-20132-tylermods
+catalog_id: tylermods-army-men-sarges-heroes-2-slus-20132-20260726
+name: 'Army Men: Sarge''s Heroes 2 HD Texture Pack'
+game:
+  title: 'Army Men: Sarge''s Heroes 2'
+  serials:
+  - SLUS-20132
+credits:
+- creator: tylermods
+type: ai_upscale
+completeness: incomplete
+description: A partial 810-texture AI-enhanced replacement set covering every level the author sampled in the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/army-men-sarges-heroes-2-slus-20132.658781/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/slus-20132-jpg.449577/
+    thumb_url: https://gbatemp.net/data/attachments/448/448965-3da8cd1a48a6cb86bba1f8f2e1db298d.jpg?hash=VI8nbheokK
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/image-png.449236/
+    thumb_url: https://gbatemp.net/data/attachments/448/448624-9660ae3b822791e3b8f6fd19ba0a9122.jpg?hash=5kLmquSQn_
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722115630292-png.449552/
+    thumb_url: https://gbatemp.net/data/attachments/448/448940-a076fde326ef2318806ffb989be6c241.jpg?hash=oHb94ybvIx
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/image-png.449240/
+    thumb_url: https://gbatemp.net/data/attachments/448/448628-5d59e0288df6018d66c93717e70e48e9.jpg?hash=cWggCnb78A
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/image2-png.449241/
+    thumb_url: https://gbatemp.net/data/attachments/448/448629-0d7754863e2167daaa27bba283fafb1b.jpg?hash=NlFmBgAOyp
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/image22-png.449238/
+    thumb_url: https://gbatemp.net/data/attachments/448/448626-648c02f9fce27848dd159621b9983962.jpg?hash=JACZiOrLm5
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722115665524-png.449553/
+    thumb_url: https://gbatemp.net/data/attachments/448/448941-cb3051dff8353b6076dd13cd1b0e0787.jpg?hash=yzBR3_g1O2
+    credit: tylermods
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TylerMods
+  credits: Partial HD texture pack created by TylerMods; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/army-men-sarges-heroes-2-slus-20132.658781/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

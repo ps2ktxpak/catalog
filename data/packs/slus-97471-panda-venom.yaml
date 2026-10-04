@@ -1,0 +1,66 @@
+key: slus-97471-panda-venom
+catalog_id: panda-venom-genji-ui-characters-slus-97471-20260726
+name: 'Genji: Dawn of the Samurai HD UI & Character Pack'
+game:
+  title: 'Genji: Dawn of the Samurai'
+  serials:
+  - SLUS-97471
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: Partial pack containing all menu and UI assets plus roughly 80% of character and enemy textures; backgrounds and fonts are intentionally absent.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/genji-usa-hd-remaster-ui-and-characters-only.619838/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-03-22-at-07-29-pm-jpg.329942/
+    thumb_url: https://gbatemp.net/data/attachments/329/329330-d811be812c6ce2b5961e72c0dcd410f3.jpg?hash=2BG-gSxs4r
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-03-22-at-07-29-pm-001-jpg.329941/
+    thumb_url: https://gbatemp.net/data/attachments/329/329329-25be7d5ccabb126ba674219778ab9175.jpg?hash=Jb59XMq7Em
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-03-22-at-07-30-pm-jpg.329940/
+    thumb_url: https://gbatemp.net/data/attachments/329/329328-f8f932233b6ef3185a258f65fe651cd3.jpg?hash=-PkyIztu8x
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Partial UI and character remaster created by Panda_Venom using Cupscale, ESRGAN, Waifu-caffe and Adobe Photoshop; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/genji-usa-hd-remaster-ui-and-characters-only.619838/
+  version: Partial public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,56 @@
+{
+  "source_url": "https://gbatemp.net/threads/namco-x-capcom-ps2-hd-texture-pack-wip-full-release-this-month.624236/",
+  "listings": [
+    "l-2355ae249c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Namco X Capcom (PS2) HD Texture Pack - WIP, full release this month"
+  },
+  "candidates": [
+    {
+      "url": "https://www.romhacking.net/translations/1270/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Namco X Capcom (Japan-only release - fan translation patch available) PCSX2 info: https"
+    },
+    {
+      "url": "https://wiki.pcsx2.net/Namco_X_Capcom",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Namco X Capcom (Japan-only release - fan translation patch available) PCSX2 info: https://wiki.pcsx2.net/Namco_X_Capcom Upscaling so"
+    },
+    {
+      "url": "https://www.mediafire.com/file/qzlf1ny5gu3bar5/Namco_X_Capcom_HD_Textures_WIP.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "le (General GUI), realesrgan-x4plus (Environmental textures), 4x-AnimeSharp (Everything else) Download link: https://www.mediafire.com/file/qzlf1ny5gu3bar5/Nam"
+    },
+    {
+      "url": "https://ko-fi.com/behonart",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "pack and want to leave some goodwill, consider donating to my Ko-fi! I also take art commissions on there. ko-fi.com/behonart More sample screenshots: P"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-2355ae249c",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/qzlf1ny5gu3bar5/Namco_X_Capcom_HD_Textures_WIP.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

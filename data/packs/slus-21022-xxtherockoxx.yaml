@@ -1,0 +1,78 @@
+key: slus-21022-xxtherockoxx
+catalog_id: xxtherockoxx-prince-of-persia-warrior-within-slus-21022-20260722
+name: 'Prince of Persia: Warrior Within HD Texture Pack'
+game:
+  title: 'Prince of Persia: Warrior Within'
+  serials:
+  - SLUS-21022
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: High-resolution 1024/2048 BC7 environment, character and interface texture replacements for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-warrior-within-hd.622976/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/prince-of-persia-trilogy-png.482948/
+    thumb_url: https://gbatemp.net/data/attachments/482/482336-e30ba92f7296b6726c7c1de1ffd264d5.jpg?hash=4wupL3KWtn
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.482949/
+    thumb_url: https://gbatemp.net/data/attachments/482/482337-6d89ca0d3021d52d07a5a7437921d527.jpg?hash=bYnKDTAh1S
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.482950/
+    thumb_url: https://gbatemp.net/data/attachments/482/482338-72bd5b10638caebc50d5c1c9efbba69e.jpg?hash=cr1bEGOMrr
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.482955/
+    thumb_url: https://gbatemp.net/data/attachments/482/482343-29c8c258979447a1dce12fc59f25f5bd.jpg?hash=KcjCWJeUR6
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.482956/
+    thumb_url: https://gbatemp.net/data/attachments/482/482344-da7844776b23a0e631864170a0e0e5ef.jpg?hash=2nhEd2sjoO
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/pop-3-png.482957/
+    thumb_url: https://gbatemp.net/data/attachments/482/482345-da45f802637287e9d9f1268386c790ef.jpg?hash=2kX4AmNyh-
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.482958/
+    thumb_url: https://gbatemp.net/data/attachments/482/482346-d19721d1b0fd81f673145013078a38c8.jpg?hash=0Zch0bD9gf
+    credit: xxtherockoxx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; preserved from the original release and repackaged to a clean runtime ZIP by EmuCoreX with the original source and author attribution retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/prince-of-persia-warrior-within-hd.622976/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

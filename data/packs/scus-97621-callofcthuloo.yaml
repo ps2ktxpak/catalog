@@ -1,0 +1,82 @@
+key: scus-97621-callofcthuloo
+catalog_id: callofcthuloo-twisted-metal-head-on-scus-97621-20260728
+name: 'Twisted Metal: Head-On — Extra Twisted Edition HD Texture Pack'
+game:
+  title: 'Twisted Metal: Head-On — Extra Twisted Edition'
+  serials:
+  - SCUS-97621
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: A North American desktop-oriented replacement pack prepared for PCSX2 texture loading.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/twisted-metal-head-on-extra-twisted-edition-scus-97621-hd-texture-pack-upscale.679783/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/main-title-upscale-png.557486/
+    thumb_url: https://gbatemp.net/data/attachments/556/556874-08889f53c2d7b2b555f41c217635e62c.jpg?hash=QBJQ9UwjQd
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/head-on-gameplay-upscale-jpg.557487/
+    thumb_url: https://gbatemp.net/data/attachments/556/556875-6e5a1e051813d140470495e8c6859a93.jpg?hash=65lUmfCKEM
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/tower-tooth-challenge-upscale-jpg.557488/
+    thumb_url: https://gbatemp.net/data/attachments/556/556876-5073ae29c093a4326248f85071461131.jpg?hash=3S42G-Q8yO
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/sweet-tour-upscale-jpg.557490/
+    thumb_url: https://gbatemp.net/data/attachments/556/556878-9e14f30413b567db3d7fb150e2a38172.jpg?hash=b_xHncRV7y
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/lost-character-select-upscale-jpg.557491/
+    thumb_url: https://gbatemp.net/data/attachments/556/556879-106e3e757631be408799668a15bca0e6.jpg?hash=qBBhJxc4qy
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/lost-gameplay-upscale-jpg.557492/
+    thumb_url: https://gbatemp.net/data/attachments/556/556880-f1cffa78e24903a8e8ccaa9de0457b05.jpg?hash=GdDU-t7lV2
+    credit: callofcthuloo
+  videos:
+  - provider: youtube
+    id: U5qf8N6ZF9o
+  - provider: youtube
+    id: 691uBMP9KRw
+  - provider: youtube
+    id: BzvwrHbfV6w
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: High-resolution AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/twisted-metal-head-on-extra-twisted-edition-scus-97621-hd-texture-pack-upscale.679783/
+  version: Desktop high-resolution public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

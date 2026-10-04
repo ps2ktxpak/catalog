@@ -1,0 +1,86 @@
+key: slus-20414-plaidray
+catalog_id: texture-pack-credited-to-plaidray-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-legaia-2-duel-saga-hd-remaster-community-archive-slus-20414-20260728
+name: Legaia 2 Duel Saga HD Remaster - Community Archive Texture Pack
+game:
+  title: Legaia 2 Duel Saga
+  serials:
+  - SLUS-20414
+credits:
+- creator: plaidray
+type: ai_upscale
+completeness: incomplete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/legaia-2-hd-textures.645984/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-33-png.412990/
+    thumb_url: https://gbatemp.net/data/attachments/412/412378-5257a35946c25341ebb026f8da17b1ee.jpg?hash=UlejWUbCU0
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-34-png.412991/
+    thumb_url: https://gbatemp.net/data/attachments/412/412379-80cca93169a4bef470fb6e554290879c.jpg?hash=gMypMWmkvv
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-24-png.412992/
+    thumb_url: https://gbatemp.net/data/attachments/412/412380-7c72870cdcdd4c6d8239308d56b57a59.jpg?hash=fHKHDNzdTG
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-25-png.412993/
+    thumb_url: https://gbatemp.net/data/attachments/412/412381-22601b65a32c20d9ff60abc12c9fe648.jpg?hash=ImAbZaMsIN
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-41-png.413000/
+    thumb_url: https://gbatemp.net/data/attachments/412/412388-28adfbd18871a15baad905cbde54fdcc.jpg?hash=KK370YhxoV
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-40-png.413001/
+    thumb_url: https://gbatemp.net/data/attachments/412/412389-eb4cd7dc013e56015b553b70f1b461f7.jpg?hash=60zX3AE-Vg
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-23-png.412996/
+    thumb_url: https://gbatemp.net/data/attachments/412/412384-834c680eea1056311046384f82f14754.jpg?hash=g0xoDuoQVj
+    credit: plaidray
+  - source_url: https://gbatemp.net/attachments/screenshot-22-png.412997/
+    thumb_url: https://gbatemp.net/data/attachments/412/412385-376d6d684b14a566c8a3bca50a8baa22.jpg?hash=N21taEsUpW
+    credit: plaidray
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Plaidray by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Plaidray by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

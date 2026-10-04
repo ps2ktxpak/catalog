@@ -1,0 +1,80 @@
+{
+  "source_url": "https://gbatemp.net/threads/ape-escape-3-pcsx2-hd-texture.662423/",
+  "listings": [
+    "l-39ecf649bb"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Ape Escape 3 PCSX2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "w5kTmE0rzho",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/folder/ogdXmSLJ#Nu-NLuwlY5kjYzPV7Ita3Q",
+          "host": "mega",
+          "kind": "folder",
+          "where": "video_pinned_comment",
+          "context": "Pack:",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "QaNd3OO9P0w",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1zWRHM6d2Dv7-Ge84vXb5c5tK_TBN_KkU/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "UPDATE:",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "vRpzoHIi8Gs",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/105Hv9Qzf-x-UMTPy7hgupHAPCQRX8W8o/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "UPDATE 2.0:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "ure in development. With no time to finish, the game has many duplicate images. STATUS: 90% complete donation KO-FI SERIAL: SCUS-97501 CRC: 7571AAEE YOUTUBE pa"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-39ecf649bb",
+      "status": "resolved",
+      "base_url": "https://mega.nz/folder/ogdXmSLJ#Nu-NLuwlY5kjYzPV7Ita3Q",
+      "host": "mega",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator's pinned YouTube comment provides MEGA folder link for texture pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

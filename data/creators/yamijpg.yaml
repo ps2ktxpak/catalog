@@ -1,0 +1,13 @@
+id: yamijpg
+name: yamijpg
+links:
+  page: https://gbatemp.net/members/yamijpg.628098/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

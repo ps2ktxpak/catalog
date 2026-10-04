@@ -1,0 +1,24 @@
+{
+  "key": "sles-50044-icup321",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/icup321-rayman-2-revolution-multiregion-20241017.tar.zst",
+      "sha256": "cda2a834fdcc8d4fdc285473dcd402059dd8d6c693835e50442baf79f997138c",
+      "size_bytes": 6680363,
+      "decompressed_size_bytes": 10598400,
+      "file_count": 1261,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "BA0D0E00CBB0216C0D1C1F008A83B5059A70B8ADB3D268180C75F59C511F2C0E",
+        "size_bytes": 78770722
+      }
+    }
+  ]
+}

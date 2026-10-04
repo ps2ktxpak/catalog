@@ -1,0 +1,75 @@
+key: slus-21615-panda-venom
+catalog_id: panda-venom-wild-arms-5-slus-21615-20260726
+name: Wild Arms 5 HD Widescreen Texture Pack
+game:
+  title: Wild Arms 5
+  serials:
+  - SLUS-21615
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: An incomplete North American widescreen pack covering interface, maps, portraits and selected game textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wild-arms-5-usa-hd-remaster-widescreen-texture-pack.611320/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-24-22-at-04-54-pm-002-jpg.307376/
+    thumb_url: https://gbatemp.net/data/attachments/306/306764-f674f80ac1c04c1227684be2ff594f5c.jpg?hash=9nT4CsHATB
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-24-22-at-04-55-pm-001-jpg.307375/
+    thumb_url: https://gbatemp.net/data/attachments/306/306763-bcab7c067528344d42f2c99e9e06fe7c.jpg?hash=vKt8BnUoNE
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-24-22-at-04-54-pm-jpg.307377/
+    thumb_url: https://gbatemp.net/data/attachments/306/306765-03889a05969e5197417f2b7c1ce20f2b.jpg?hash=A4iaBZaeUZ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-24-22-at-04-56-pm-002-jpg.307374/
+    thumb_url: https://gbatemp.net/data/attachments/306/306762-7035f0bd2cd0bbd98283fb4ee37f6cd9.jpg?hash=cDXwvSzQu9
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-24-22-at-04-25-pm-jpg.307373/
+    thumb_url: https://gbatemp.net/data/attachments/306/306761-c700ab630ee10715b3e7aafde12bb80b.jpg?hash=xwCrYw7hBx
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-18-22-at-12-25-am-jpg.307371/
+    thumb_url: https://gbatemp.net/data/attachments/306/306759-378cd1641649579c7850131bb075d1ef.jpg?hash=N4zRZBZJV5
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: AI-upscaled widescreen texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/wild-arms-5-usa-hd-remaster-widescreen-texture-pack.611320/
+  version: v0.8 incomplete public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

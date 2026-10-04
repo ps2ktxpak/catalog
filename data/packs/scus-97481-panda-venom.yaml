@@ -1,0 +1,72 @@
+key: scus-97481-panda-venom
+catalog_id: panda-venom-god-of-war-ii-20260722
+name: God of War II HD Remaster
+game:
+  title: God of War II
+  serials:
+  - SCUS-97481
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: Near-complete high-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/god-of-war-2-usa-hd-remaster.621196/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-24-22-at-06-20-pm-jpg.335111/
+    thumb_url: https://gbatemp.net/data/attachments/334/334499-61c4c8793d5afddc0eec47bcec9bdbff.jpg?hash=YcTIeT1a_d
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-31-22-at-12-18-pm-jpg.335108/
+    thumb_url: https://gbatemp.net/data/attachments/334/334496-cbc576d930d16fd38f5c9af4f8da8f66.jpg?hash=y8V22TDRb9
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-31-22-at-11-11-pm-jpg.335107/
+    thumb_url: https://gbatemp.net/data/attachments/334/334495-66fe04db0b7a88b2feaadc604c7bb7df.jpg?hash=Zv4E2wt6iL
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-31-22-at-11-13-pm-jpg.335106/
+    thumb_url: https://gbatemp.net/data/attachments/334/334494-8aee81a5aa001b2c5737fcb46d742d03.jpg?hash=iu6BpaoAGy
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-31-22-at-03-44-am-001-jpg.335109/
+    thumb_url: https://gbatemp.net/data/attachments/334/334497-12d2ad139e7a606ad63ae6514b0735a8.jpg?hash=EtKtE556YG
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/god-of-war-2-usa-hd-remaster.621196/
+  version: 2 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

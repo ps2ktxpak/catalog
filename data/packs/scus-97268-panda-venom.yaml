@@ -1,0 +1,75 @@
+key: scus-97268-panda-venom
+catalog_id: panda-venom-ratchet-going-commando-scus-97268-20260722
+name: 'Ratchet & Clank: Going Commando HD Texture Pack'
+game:
+  title: 'Ratchet & Clank: Going Commando'
+  serials:
+  - SCUS-97268
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: in_progress
+description: Extensive environment, character, weapon, effects and interface texture replacement pack for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-going-commando-usa-hd-remaster.635325/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/going_commando_front_cover_29-jpg.379884/
+    thumb_url: https://gbatemp.net/data/attachments/379/379272-8f8b78d117860ece7a86baf4f232885f.jpg?hash=j4t40ReGDs
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/ratchet-clank-2-going-commando_scus-97268_20230625223927-jpg.379878/
+    thumb_url: https://gbatemp.net/data/attachments/379/379266-620225c484ca08b35a514ffa96091d25.jpg?hash=YgIlxITKCL
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/ratchet-clank-2-going-commando_scus-97268_20230625223941-jpg.379879/
+    thumb_url: https://gbatemp.net/data/attachments/379/379267-15b53e3a76b09a0a256f067eefc929d1.jpg?hash=FbU-Onawmg
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/ratchet-clank-2-going-commando_scus-97268_20230625223944-jpg.379880/
+    thumb_url: https://gbatemp.net/data/attachments/379/379268-ac0042417ec858985f5a7e6f88abdc68.jpg?hash=rABCQX7IWJ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/ratchet-clank-2-going-commando_scus-97268_20230625223949-jpg.379881/
+    thumb_url: https://gbatemp.net/data/attachments/379/379269-7749aad2483cb9cb310cf1e0767dc9ab.jpg?hash=d0mq0kg8uc
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/ratchet-clank-2-going-commando_scus-97268_20230625223952-jpg.379882/
+    thumb_url: https://gbatemp.net/data/attachments/379/379270-1bf946a7122f03ccf318a3ba7dbffb6a.jpg?hash=G_lGpxIvA8
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster texture pack created by Panda_Venom; preserved from the original GBAtemp release and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ratchet-clank-going-commando-usa-hd-remaster.635325/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,145 @@
+{
+  "source_url": "https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-4-slus-21978-ai-upscaled-texture-pack.672379/",
+  "listings": [
+    "l-93650c088f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dragon Ball Z - Budokai Tenkaichi 4 (SLUS-21978) AI Upscaled Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "pGKHt9-PfV0",
+      "uploader": "AngeL06",
+      "links": [
+        {
+          "url": "https://angel06a.github.io/BT4-HD/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": " hara HD a Dragon Ball Budokai Tenkaichi 4 para PCSX2 🐉🉑🉑🉑🉑🉑🉑🉑  Link de descarga del texture pack🐉: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://angel06a.github.io/Angel06Web/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "opea  -ChatGPT Peso de las texturas⚖️:  -Pack HD(3.8gb)  -Pack Lite(1.7gb)  Link de mi página Web😎: ",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "kfnl8ueIVF4",
+      "uploader": "AngeL06",
+      "links": [
+        {
+          "url": "https://angel06a.github.io/BT4-HD/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "exture pack que hara HD a Dragon Ball Budokai Tenkaichi 4 para PCSX2 🐉🉑🉑🉑🉑🉑🉑🉑  Link de descarga☝️🤓: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://angel06a.github.io/Angel06Web/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "ra PCSX2 🐉🉑🉑🉑🉑🉑🉑🉑  Link de descarga☝️🤓: https://angel06a.github.io/BT4-HD/  Link de mi página Web😎: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/folder/lzczm9acrx44q/dbz+bt4+texture+pack+hd",
+          "host": "mediafire",
+          "kind": "folder",
+          "where": "video_pinned_comment",
+          "context": "Suscríbete para más contenido como este 😎 \r Link de descarga 🤫: ",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "q16rCigR5rM",
+      "uploader": "AngeL06",
+      "links": [
+        {
+          "url": "https://angel06a.github.io/BT4-HD/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_pinned_comment",
+          "context": "ance de texturas de pantalla de carga de dbz bt4 texture pack hd. Web de descarga del texture pack: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://teambt4.wixsite.com/teambt4projects/descarga",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Info: Game: Dragon Ball Z - Budokai Tenkaichi 4 serial number:"
+    },
+    {
+      "url": "https://unlimited.waifu2x.net/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Info: Game: Dragon Ball Z - Budokai Tenkaichi 4 serial number: SLUS-21978 Tools used: unlimited:waifu2x, upscayl, Photopea, ChatGPT test"
+    },
+    {
+      "url": "https://upscayl.org/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Info: Game: Dragon Ball Z - Budokai Tenkaichi 4 serial number: SLUS-21978 Tools used: unlimited:waifu2x, upscayl, Photopea, ChatGPT tested on pcsx2 pc. DBZ"
+    },
+    {
+      "url": "https://www.photopea.com/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": ": Game: Dragon Ball Z - Budokai Tenkaichi 4 serial number: SLUS-21978 Tools used: unlimited:waifu2x, upscayl, Photopea, ChatGPT tested on pcsx2 pc. DBZ BT4 Text"
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "agon Ball Z - Budokai Tenkaichi 4 serial number: SLUS-21978 Tools used: unlimited:waifu2x, upscayl, Photopea, ChatGPT tested on pcsx2 pc. DBZ BT4 Texturepack, d"
+    },
+    {
+      "url": "https://angel06a.github.io/BT4-HD/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "x, upscayl, Photopea, ChatGPT tested on pcsx2 pc. DBZ BT4 Texturepack, dbzbt4 texturepack Texture Format: PNG Texture Pack Download Website HD Pack(Size 3.4gb)("
+    },
+    {
+      "url": "https://github.com/Angel06a/BT4-HD",
+      "host": "github",
+      "kind": "page",
+      "where": "op",
+      "context": "the game ID (e.g., SLUS-XXXXX) containing the textures inside. That's it. Demonstration videos: GitHub project for the texture pack website"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-93650c088f",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/folder/lzczm9acrx44q/dbz+bt4+texture+pack+hd",
+      "host": "mediafire",
+      "kind": "folder",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

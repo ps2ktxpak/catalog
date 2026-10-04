@@ -1,0 +1,71 @@
+key: slus-21739-mvp899
+catalog_id: texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-iron-man-hd-remaster-community-archive-slus-21739-20260728
+name: Iron Man HD Remaster - Community Archive Texture Pack
+game:
+  title: Iron Man
+  serials:
+  - SLUS-21739
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/iron-man-pcsx2-hd-textere.667014/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/iron-man_slus-21739_20250213234008-png.485945/
+    thumb_url: https://gbatemp.net/data/attachments/485/485333-b09318fad88220a2f3602ac87a4e4d8c.jpg?hash=sJMY-tiCIK
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/iron-man_slus-21739_20250207000754-png.485947/
+    thumb_url: https://gbatemp.net/data/attachments/485/485335-afbdbc89e2e9a29b69c4cf15cab1f6ad.jpg?hash=r728ieLpop
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: BTkOLf89dYM
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

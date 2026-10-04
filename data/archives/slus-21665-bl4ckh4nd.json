@@ -1,0 +1,24 @@
+{
+  "key": "slus-21665-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-the-simpsons-game-slus-21665-20260722.tar.zst",
+      "sha256": "a0e7b3090aa23167559f1177672fd93710d3379a22ff415643cb889cb2efac0b",
+      "size_bytes": 415149230,
+      "decompressed_size_bytes": 2042664960,
+      "file_count": 16408,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "05109FBC24E33705C74F9159DA3A1718D573A0AB97AEA1D6D6CA8A18960EC1B5",
+        "size_bytes": 739499766
+      }
+    }
+  ]
+}

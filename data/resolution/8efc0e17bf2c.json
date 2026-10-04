@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/samurai-warriors-2-xtreme-legends-empires-hd-textures.640323/",
+  "listings": [
+    "l-ba896a2942"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Samurai Warriors 2 + Xtreme Legends + Empires HD textures"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3BmHPPLTWcSIkbia8",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "arriors 2 Empires ps2 (usa) BeforeAfter Programs used - ChaiNNer, HDcube3. UI not included Download link - mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3B"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-ba896a2942",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3BmHPPLTWcSIkbia8",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

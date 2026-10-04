@@ -1,0 +1,51 @@
+key: slus-20109-unknown
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-rune-viking-warlord-hd-remaster-community-archive-slus-20109-20260728
+name: Rune Viking Warlord HD Remaster - Community Archive Texture Pack
+game:
+  title: Rune Viking Warlord
+  serials:
+  - SLUS-20109
+credits: []
+type: unknown
+completeness: unknown
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_unknown
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

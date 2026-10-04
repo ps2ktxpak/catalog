@@ -1,0 +1,65 @@
+key: sles-54677-sombershroud
+catalog_id: sombershroud-metal-slug-anthology-sles-54677-20260728
+name: Metal Slug Anthology Texture Pack
+game:
+  title: Metal Slug Anthology
+  serials:
+  - SLES-54677
+  - SLPS-25762
+  - SLUS-21550
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: partial
+description: A multi-region high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/metal-slug-anthology-usa-hd-textures-menu-only.639873/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/metal-slug-anthology_slus-21550_20230917205536-png.394494/
+    thumb_url: https://gbatemp.net/data/attachments/393/393882-e78a47484e1ed70b39f2b98910fab043.jpg?hash=54pHSE4e1w
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/metal-slug-anthology_slus-21550_20230917205555-png.394495/
+    thumb_url: https://gbatemp.net/data/attachments/393/393883-2887fe3dae923accc495776a7a887e84.jpg?hash=KIf-Pa6SOs
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack credited by the source to SomberShroud; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/metal-slug-anthology-usa-hd-textures-menu-only.639873/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

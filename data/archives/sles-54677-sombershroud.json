@@ -1,0 +1,24 @@
+{
+  "key": "sles-54677-sombershroud",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombershroud-metal-slug-anthology-sles-54677-20260728.tar.zst",
+      "sha256": "cf38c3445fb1a101cd4db834b7eb6322b0b90a8376c58d187ab366c9f740d11c",
+      "size_bytes": 6918108,
+      "decompressed_size_bytes": 28119040,
+      "file_count": 12,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "264881B18573B59F230EC34A619DEB214F070B02E509390A792A7528DDD66BDF",
+        "size_bytes": 13729525
+      }
+    }
+  ]
+}

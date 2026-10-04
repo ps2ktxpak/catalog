@@ -1,0 +1,24 @@
+{
+  "key": "slus-20716-sal9im",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sal9im-teenage-mutant-ninja-turtles-slus-20716-20260726.tar.zst",
+      "sha256": "930b27e07480e90d620287b75116a539343019e524d77e2ad4e978665337552a",
+      "size_bytes": 541750334,
+      "decompressed_size_bytes": 3335127040,
+      "file_count": 1900,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "807DA8E98E39FA8A1A1A8AEACDED7ABAD9C6370F0E511F7AC8F37BA296C2765F",
+        "size_bytes": 597761049
+      }
+    }
+  ]
+}

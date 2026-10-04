@@ -1,0 +1,84 @@
+key: slus-20770-teodor-max
+catalog_id: teodor-max-lord-of-the-rings-return-of-the-king-slus-20770-20260727
+name: 'The Lord of the Rings: The Return of the King HD Texture Pack'
+game:
+  title: 'The Lord of the Rings: The Return of the King'
+  serials:
+  - SLUS-20770
+credits:
+- creator: teodor-max
+type: unknown
+completeness: complete
+description: A complete North American HD texture replacement pack.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-lord-of-the-rings-the-return-of-the-king-hd-texture-pack.653386/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/lotr_return_of_the_king-new-png.430743/
+    thumb_url: https://gbatemp.net/data/attachments/430/430131-315c330e86963c83151e9bfc0105d72a.jpg?hash=EmpEjhx_rR
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030323-png.430744/
+    thumb_url: https://gbatemp.net/data/attachments/430/430132-c07cbad5e0338349397ad8e1f5cf994a.jpg?hash=wHy61eAzg0
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030314-png.430746/
+    thumb_url: https://gbatemp.net/data/attachments/430/430134-b1bb34eec7e18920fdae89a75a7c5250.jpg?hash=sbs07sfhiS
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030814-png.430747/
+    thumb_url: https://gbatemp.net/data/attachments/430/430135-27ba399c59c3ff9e31919d98d16ff3b7.jpg?hash=J7o5nFnD_5
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030811-png.430748/
+    thumb_url: https://gbatemp.net/data/attachments/430/430136-91d7519d9049161f737f816abffd622b.jpg?hash=kddRnZBJFh
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030554-png.430749/
+    thumb_url: https://gbatemp.net/data/attachments/430/430137-e69c57360d1a4392a33390fae0e2b79d.jpg?hash=5pxXNg0aQ5
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030552-png.430751/
+    thumb_url: https://gbatemp.net/data/attachments/430/430139-6c23af057f67ee6139beb746bc6d400e.jpg?hash=bCOvBX9n7m
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/the-lord-of-the-rings-the-return-of-the-king_slus-20770_20240409030926-png.430752/
+    thumb_url: https://gbatemp.net/data/attachments/430/430140-8e85cdf146499e5d2b74f5c109b387e6.jpg?hash=joXN8UZJnl
+    credit: teodor-max
+  videos:
+  - provider: youtube
+    id: w66SXkL5STU
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TEODOR_MAX
+  credits: HD texture pack created by TEODOR_MAX; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/the-lord-of-the-rings-the-return-of-the-king-hd-texture-pack.653386/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

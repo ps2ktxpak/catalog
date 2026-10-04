@@ -1,0 +1,24 @@
+{
+  "key": "slus-21258-mvp899",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-dot-hack-g-u-vol-1-rebirth-hd-remaster-community-archive-slus-21258-20260728.tar.zst",
+      "sha256": "bc39f064a73a2c2ae76dea422b8cf5b41386d0e06f9bd7caff4975e2d493e5c0",
+      "size_bytes": 331425131,
+      "decompressed_size_bytes": 463482880,
+      "file_count": 2141,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "765550C5DD0B410709B9B2404F8DB3EC70A3F6CC3BF3CBE758A1BB0D106DD617",
+        "size_bytes": 1154795553
+      }
+    }
+  ]
+}

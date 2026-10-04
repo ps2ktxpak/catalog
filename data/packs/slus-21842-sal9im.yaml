@@ -1,0 +1,89 @@
+key: slus-21842-sal9im
+catalog_id: texture-pack-credited-to-sal9im-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-dragon-ball-z-infinite-world-hd-remaster-community-archive-slus-21842-20260728
+name: Dragon Ball Z Infinite World HD Remaster - Community Archive Texture Pack
+game:
+  title: Dragon Ball Z Infinite World
+  serials:
+  - SLUS-21842
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: in_progress
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-infinite-world-slus-21842.658483/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-05-011948-png.456228/
+    thumb_url: https://gbatemp.net/data/attachments/455/455616-a6c4db12cb584b8c8fcd3bd1d6be39d6.jpg?hash=psTbEstYS4
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-png.456230/
+    thumb_url: https://gbatemp.net/data/attachments/455/455618-16b9a7b2813f26d86898dc0fd73887e0.jpg?hash=HsJ31h9xeP
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-png.456231/
+    thumb_url: https://gbatemp.net/data/attachments/455/455619-5c79197bd7d3602f6233618296a4e708.jpg?hash=XHkZe9fTYC
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-png.456232/
+    thumb_url: https://gbatemp.net/data/attachments/455/455620-9ad3ae1ebdc2094b9c604f5924261917.jpg?hash=mtOuHr3CCU
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-png.456233/
+    thumb_url: https://gbatemp.net/data/attachments/455/455621-7302a81fd1f27c6048fcca197a866c6e.jpg?hash=NmISEyCRx_
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/05-png.456234/
+    thumb_url: https://gbatemp.net/data/attachments/455/455622-24909e9d6df0c276384c8d2e053b9cd0.jpg?hash=JJCenW3wwn
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/06-png.456235/
+    thumb_url: https://gbatemp.net/data/attachments/455/455623-3d5d6eca6a95e54f9e001bf85a3430dd.jpg?hash=CDngC0MAMe
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/07-png.456236/
+    thumb_url: https://gbatemp.net/data/attachments/455/455624-fb235fb988e6a8e1e6bb9ed29c33401e.jpg?hash=p8-LCtArie
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: cHg9UDjoUr4
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Sal9im by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Sal9im by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,35 @@
+id: xxtherockoxx
+name: xXtherockoXx
+aliases:
+- xxtherockoxx
+links:
+  page: https://gbatemp.net/members/xxtherockoxx.602827/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/xxtherockoxx
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/channel/UCvpn5tBt7ymHwNK1n5jUjRg/videos
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/602/602827.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

@@ -1,0 +1,24 @@
+{
+  "key": "sles-53408-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-fighting-angels-sles-53408-20260726.tar.zst",
+      "sha256": "d9ea1714a1231e1fc1952c8eb6f735ddaed466d50cb1b1f1f4d23708367ff2b8",
+      "size_bytes": 66306352,
+      "decompressed_size_bytes": 155965440,
+      "file_count": 294,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E529DCE65DBDD97DC8FE0A39B43890D6E93886B71980EEE92B07BBB5E2ECE355",
+        "size_bytes": 76448408
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+key: slus-21258-mvp899
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-dot-hack-g-u-vol-1-rebirth-hd-remaster-community-archive-slus-21258-20260728
+name: Dot Hack G.U. Vol. 1 Rebirth HD Remaster - Community Archive Texture Pack
+game:
+  title: Dot Hack G.U. Vol. 1 Rebirth
+  serials:
+  - SLUS-21258
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/hack-g-u-vol-1-rebirth-pcsx2-hd-texture.667492/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/hack__g-u-vol-1-rebirth_slus-21258_20250223232700-png.487721/
+    thumb_url: https://gbatemp.net/data/attachments/487/487109-f603bf3a1a49960ca835499017e51e2c.jpg?hash=9gO_OhpJlg
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/hack__g-u-vol-1-rebirth_slus-21258_20250219225213-png.487722/
+    thumb_url: https://gbatemp.net/data/attachments/487/487110-cb5826969af9dfeb6b09eebe8040a8c7.jpg?hash=y1gmlpr53-
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: OfOb7YykO9o
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

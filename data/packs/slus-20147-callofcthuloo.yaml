@@ -1,0 +1,50 @@
+key: slus-20147-callofcthuloo
+catalog_id: callofcthuloo-avp-extinction-android-slus-20147-20260726
+name: 'Aliens versus Predator: Extinction HD Upscale — Android 1080p Edition'
+game:
+  title: 'Aliens versus Predator: Extinction'
+  serials:
+  - SLUS-20147
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: Mobile-compatible upscale covering all units, maps, tutorials, menus and UI elements across the three campaigns; FMVs and non-rendered cutscenes are omitted.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/aliens-vs-predator-extinction-slus-20147-hd-texture-pack-upscale.678805/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: Android-compatible AI upscale created by callofcthuloo with Upscayl's Ultramix x4/x6 profiles; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/aliens-vs-predator-extinction-slus-20147-hd-texture-pack-upscale.678805/
+  version: Android 1080p edition (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

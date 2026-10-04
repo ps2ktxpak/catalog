@@ -1,0 +1,24 @@
+{
+  "key": "slus-20080-callofcthuloo",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-gungriffon-blaze-android-slus-20080-20260726.tar.zst",
+      "sha256": "db1a926e60e2c5abd1e2e886ff8d71a63aadc725c59f7af50249b97b14e91ca8",
+      "size_bytes": 205436354,
+      "decompressed_size_bytes": 785059840,
+      "file_count": 951,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "07DE33AA693AA1BD2538FC7F87582C87CA3312BB3893926CE018138C14619241",
+        "size_bytes": 810729866
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/battlefield-2-modern-combat-texture-pack-v0-8-work-in-progress.665562/",
+  "listings": [
+    "l-1fe8fa2028"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Battlefield 2 Modern Combat Texture Pack v0.8 (Work in Progress)"
+  },
+  "videos": [
+    {
+      "id": "cw8rjPu2H_Q",
+      "uploader": "RoBin",
+      "links": [
+        {
+          "url": "https://youtu.be/6vWRMjBbtMA",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "The Complete Texture Pack: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file/sr8nbh3oy44npm1/Texture_Pack_v0.8_WIP_Battlefield_2_Modern_Combat%2528SLUS-21026%2529.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_description",
+          "context": "jBbtMA  Texture Pack v0.8 (Work in Progress) Battlefield 2 Modern Combat Link for the texture pack  ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-1fe8fa2028",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/sr8nbh3oy44npm1/Texture_Pack_v0.8_WIP_Battlefield_2_Modern_Combat%2528SLUS-21026%2529.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video description; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

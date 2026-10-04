@@ -1,0 +1,81 @@
+key: slus-20483-paynexkiller
+catalog_id: paynexkiller-wwe-shut-your-mouth-championships-slus-20483-20260726
+name: WWE SmackDown! Shut Your Mouth Championship Pack
+game:
+  title: WWE SmackDown! Shut Your Mouth
+  serials:
+  - SLUS-20483
+credits:
+- creator: paynexkiller
+type: handcrafted
+completeness: partial
+description: A focused pack replacing all championship belts and their season-mode renders for the North American release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wwe-smackdown-shut-your-mouth-hd-championship-pack-usa-recreated-by-hand.653223/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/smackdown-sym-jpg.430305/
+    thumb_url: https://gbatemp.net/data/attachments/429/429693-c5add88ec3acede4ecbe3f2bcab358b7.jpg?hash=xa3YjsOs7e
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-shut-your-mouth_slus-20483_20240406002813-png.430306/
+    thumb_url: https://gbatemp.net/data/attachments/429/429694-c75670f67f8f2fa56451e5ca254001de.jpg?hash=x1Zw9n-PL6
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-shut-your-mouth_slus-20483_20240406000710-png.430307/
+    thumb_url: https://gbatemp.net/data/attachments/429/429695-4072036ff9e71fd97e21e0b49f62104c.jpg?hash=QHIDb_nnH9
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-shut-your-mouth_slus-20483_20240405223543-png.430308/
+    thumb_url: https://gbatemp.net/data/attachments/429/429696-a789c3142b5b939e3b4ff7463351cba3.jpg?hash=p4nDFCtbk5
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-shut-your-mouth_slus-20483_20240405224823-png.430309/
+    thumb_url: https://gbatemp.net/data/attachments/429/429697-80617b4f8120f219125e9982199aaf9b.jpg?hash=gGF7T4Eg8h
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240405042224-png.430310/
+    thumb_url: https://gbatemp.net/data/attachments/429/429698-76786120869bba3d3942d257fd87cd9f.jpg?hash=dnhhIIabuj
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-shut-your-mouth_slus-20483_20240406000107-png.430311/
+    thumb_url: https://gbatemp.net/data/attachments/429/429699-bb34c0b4e7093b9aea2a93c5435277d6.jpg?hash=uzTAtOcJO5
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-shut-your-mouth_slus-20483_20240406074808-png.430315/
+    thumb_url: https://gbatemp.net/data/attachments/429/429703-cb9dba15d0a8c3137c93809210a0b49e.jpg?hash=y526FdCowx
+    credit: paynexkiller
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - paynexkiller
+  credits: Hand-recreated championship title and render replacements created by paynexkiller; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/wwe-smackdown-shut-your-mouth-hd-championship-pack-usa-recreated-by-hand.653223/
+  version: Partial public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

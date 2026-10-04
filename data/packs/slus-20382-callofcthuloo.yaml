@@ -1,0 +1,50 @@
+key: slus-20382-callofcthuloo
+catalog_id: callofcthuloo-gundam-federation-vs-zeon-android-slus-20382-20260726
+name: 'Mobile Suit Gundam: Federation vs. Zeon HD Upscale — Android Edition'
+game:
+  title: 'Mobile Suit Gundam: Federation vs. Zeon'
+  serials:
+  - SLUS-20382
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: Mobile-oriented 1080p upscale containing all maps, mobile suits, portraits and core UI plus roughly 99% of both campaigns; some campaign UI is omitted from this smaller Android variant.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mobile-suit-gundam-federation-vs-zeon-slus-20382-hd-texture-pack-upscale.667248/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: Android-oriented AI upscale created by callofcthuloo with Upscayl's Standard x4 profile; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/mobile-suit-gundam-federation-vs-zeon-slus-20382-hd-texture-pack-upscale.667248/
+  version: Android edition (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

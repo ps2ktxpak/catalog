@@ -1,0 +1,76 @@
+key: slus-21194-panda-venom
+catalog_id: panda-venom-phantasy-star-universe-20260722
+name: Phantasy Star Universe HD Remaster (WIP)
+game:
+  title: Phantasy Star Universe
+  serials:
+  - SLUS-21194
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: Work-in-progress high-resolution texture remaster for the North American PS2 release; the author's PNACH display patch is intentionally excluded from this texture archive.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/phantasy-star-universe-usa-hd-remaster.622913/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/phantasy-star-universe-usa-hd-remaster-work-in-progress-30-done.622913/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-08-41-pm-jpg.342049/
+    thumb_url: https://gbatemp.net/data/attachments/341/341437-b4575a1bb8815140be5b249b4326354e.jpg?hash=tFdaG7iBUU
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-08-40-pm-jpg.342050/
+    thumb_url: https://gbatemp.net/data/attachments/341/341438-3c04ab24f93191e620ca3fea5c5219d7.jpg?hash=PASrJPkxke
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-08-29-pm-jpg.342051/
+    thumb_url: https://gbatemp.net/data/attachments/341/341439-47c0f54afde3abd4c7dea3b1395c40fb.jpg?hash=R8D1Sv3jq9
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-03-53-pm-jpg.342052/
+    thumb_url: https://gbatemp.net/data/attachments/341/341440-3495a728f4fa635cfbf5adf0e68fb3e6.jpg?hash=NJWnKPT6Y1
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-03-50-pm-002-jpg.342053/
+    thumb_url: https://gbatemp.net/data/attachments/341/341441-a3b457018329274cd96737aa8115ecdf.jpg?hash=o7RXAYMpJ0
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Work-in-progress HD remaster created and maintained by Panda_Venom; repacked to a texture-only ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/phantasy-star-universe-usa-hd-remaster-work-in-progress-30-done.622913/
+  version: 30% WIP mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

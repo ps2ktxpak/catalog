@@ -1,0 +1,24 @@
+{
+  "key": "slus-20864-v01dxix",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/v01dxix-the-punisher-slus-20864-20260728.tar.zst",
+      "sha256": "6293712d6240b0d5e180fb95fb2183645c9e0992b10063b996b00b86cd289a10",
+      "size_bytes": 3608885366,
+      "decompressed_size_bytes": 6585425920,
+      "file_count": 10086,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "2E261892054E5CE2C512D843D945F67CE086A342D2A44B83E6F200AEAC9D8361",
+        "size_bytes": 4021418145
+      }
+    }
+  ]
+}

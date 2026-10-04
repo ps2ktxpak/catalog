@@ -1,0 +1,78 @@
+key: slus-21690-mvp899
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-alone-in-the-dark-hd-remaster-community-archive-slus-21690-20260728
+name: Alone in the Dark HD Remaster - Community Archive Texture Pack
+game:
+  title: Alone in the Dark
+  serials:
+  - SLUS-21690
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/alone-in-the-dark-pcsx2-hd-texture.676788/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/alone-in-the-dark_slus-21690_20250823115309-png.536573/
+    thumb_url: https://gbatemp.net/data/attachments/535/535961-255687e997d021c3d6789f37ed661f93.jpg?hash=RmlaUQkfLe
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/alone-in-the-dark_slus-21690_20251101230223-png.536574/
+    thumb_url: https://gbatemp.net/data/attachments/535/535962-f1acac55de16d5f3de36561be01d8583.jpg?hash=k-mzqUGA61
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/alone-in-the-dark_slus-21690_20251101230232-png.536576/
+    thumb_url: https://gbatemp.net/data/attachments/535/535964-81aa7b751528c5de57636464d7ad6e55.jpg?hash=HLlNrMfU6Y
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/alone-in-the-dark_slus-21690_20250917094425-png.536575/
+    thumb_url: https://gbatemp.net/data/attachments/535/535963-f66136b5bd8f2c279aa5dc2c95569411.jpg?hash=zt1ooqzchN
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: fBazwMvOnF0
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

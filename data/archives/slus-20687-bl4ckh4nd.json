@@ -1,0 +1,24 @@
+{
+  "key": "slus-20687-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-roadkill-slus-20687-20260728.tar.zst",
+      "sha256": "41293303955d83994cc316f4026a2242e9321f98ed0f3749e6c49dedb5e874af",
+      "size_bytes": 129549709,
+      "decompressed_size_bytes": 170987520,
+      "file_count": 842,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "2C0670DFC885160E9D6465EC7CEC454AB9EDD19F1A1F5D7667CAD5FF41710206",
+        "size_bytes": 143959557
+      }
+    }
+  ]
+}

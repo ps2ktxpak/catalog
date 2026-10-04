@@ -1,0 +1,15 @@
+id: teslax2105
+name: TeslaX2105
+aliases:
+- teslax2105
+links:
+  page: https://gbatemp.net/members/teslax2105.634687/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

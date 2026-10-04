@@ -1,0 +1,70 @@
+key: slus-20492-retrogamemaster
+catalog_id: texture-pack-credited-to-retrogamemaster-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ninja-assault-hd-remaster-community-archive-slus-20492-20260728
+name: Ninja Assault HD Remaster - Community Archive Texture Pack
+game:
+  title: Ninja Assault
+  serials:
+  - SLUS-20492
+credits:
+- creator: retrogamemaster
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/retrogamemaster-texture-packs.671391/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-143-png.506016/
+    thumb_url: https://gbatemp.net/data/attachments/505/505404-1e88aabe0c43a2644f08fef9cea7cf22.jpg?hash=HoiqvgxDom
+    credit: retrogamemaster
+  videos:
+  - provider: youtube
+    id: wj3b7VHT9UA
+  - provider: youtube
+    id: Um01Ecxa-UY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to RetroGameMaster by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to RetroGameMaster by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

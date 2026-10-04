@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/ssx-3-slus-20772.624220/",
+  "listings": [
+    "l-5d89113a43"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "SSX 3 [SLUS-20772]"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/11SmRcMvqJK24rC0Dey4bSuNArAjcVoDk/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "e_sidebar\": \"Toggle sidebar\" } After ------- v1.1 added more files Files =>"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-5d89113a43",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/11SmRcMvqJK24rC0Dey4bSuNArAjcVoDk/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "source_url": "https://gbatemp.net/threads/dragon-ball-xenoverse-2-pcsx2-hd-texture.670595/",
+  "listings": [
+    "l-81063a2dc5"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "dragon ball xenoverse 2 PCSX2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "LrNSSOUJJNk",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mpago.la/1vrS47b",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "doação:",
+          "by_uploader": true
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UQPaf9DQJnSl_R_rettcC3X9nMbfgF6c/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI SERIAL: SLUS-21678 CRC: 428113C2 SIZE: 1,99g"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-81063a2dc5",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1UQPaf9DQJnSl_R_rettcC3X9nMbfgF6c/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

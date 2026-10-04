@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creator",
+  "description": "A texture pack artist. One file per creator at data/creators/<id>.yaml. Human-owned: importers fill empty fields but never overwrite a field listed in `locked`.",
+  "type": "object",
+  "required": ["id", "name"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "Immutable handle, equal to the file name. Derived from the first display name; a rename changes `name`, never `id`.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]{0,47}$"
+    },
+    "name": {"description": "Display name, spelled as the creator spells it.", "type": "string", "minLength": 1, "maxLength": 80},
+    "aliases": {
+      "description": "Other spellings and former names (forum renames included). Used to match listings and credits to this creator.",
+      "type": "array", "items": {"type": "string", "minLength": 1, "maxLength": 80}, "uniqueItems": true
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {"description": "The page the app opens for the creator (usually their forum profile).", "$ref": "#/$defs/url"},
+        "distribution": {"description": "A page the creator asked us to send people to instead of a mirror or thread.", "$ref": "#/$defs/url"},
+        "tip": {"type": "array", "items": {"$ref": "#/$defs/kindUrl"}},
+        "socials": {"type": "array", "items": {"$ref": "#/$defs/kindUrl"}}
+      }
+    },
+    "avatar": {
+      "description": "Profile picture. The image itself is never in git: storage_key names our mirrored copy, source_url is where it was found.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {"$ref": "#/$defs/url"},
+        "storage_key": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "retrieved": {"$ref": "#/$defs/date"}
+      }
+    },
+    "identity": {
+      "description": "Who may edit this record. Set by a maintainer after verifying the claim out of band; the claimant's public GitHub username only, no contact details.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "claimed_by": {"type": ["string", "null"], "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$"},
+        "verified": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["method", "date"],
+          "properties": {
+            "method": {"enum": ["gbatemp_message", "discord", "github_gist", "forum_profile_link", "other"]},
+            "date": {"$ref": "#/$defs/date"},
+            "by": {"type": "string"}
+          }
+        }
+      }
+    },
+    "status": {"enum": ["active", "withdrawn"], "default": "active"},
+    "provenance": {"$ref": "#/$defs/provenance"},
+    "locked": {"description": "Field paths a human has set; importers must not overwrite them.", "type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "$defs": {
+    "url": {"type": "string", "pattern": "^https://[^\\s]+$", "maxLength": 2048},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "kindUrl": {
+      "type": "object", "additionalProperties": false, "required": ["kind", "url"],
+      "properties": {
+        "kind": {"enum": ["gbatemp", "youtube", "patreon", "kofi", "github", "discord", "x", "bluesky", "facebook", "twitch", "paypal", "buymeacoffee", "mediafire", "website", "other"]},
+        "url": {"$ref": "#/$defs/url"}
+      }
+    },
+    "provenance": {
+      "description": "Where each field came from: field path -> origin.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false, "required": ["source", "date"],
+        "properties": {
+          "source": {"type": "string", "minLength": 1},
+          "date": {"$ref": "#/$defs/date"},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

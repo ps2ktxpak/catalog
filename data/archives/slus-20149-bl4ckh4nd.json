@@ -1,0 +1,24 @@
+{
+  "key": "slus-20149-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-tribes-aerial-assault-slus-20149-20260728.tar.zst",
+      "sha256": "9515d223f951659c678de6788ba2e07ccd2354f02f1269f0d958b91c0ec628c2",
+      "size_bytes": 35397279,
+      "decompressed_size_bytes": 52848640,
+      "file_count": 212,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "45C5E736DE0E54D58C47AC44F9E88F594015E1E67A3BE1D65A324272949673DC",
+        "size_bytes": 119093695
+      }
+    }
+  ]
+}

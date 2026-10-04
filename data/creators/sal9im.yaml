@@ -1,0 +1,35 @@
+id: sal9im
+name: Sal9im
+aliases:
+- sal9im
+links:
+  page: https://gbatemp.net/members/sal9im.672099/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/sal9im
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@Sal9im/videos
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/672/672099.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

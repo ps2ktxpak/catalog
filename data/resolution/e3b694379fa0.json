@@ -1,0 +1,84 @@
+{
+  "source_url": "https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-2-dx-mod-slus-21441-ai-upscaled-texture-pack.679462/",
+  "listings": [
+    "l-ba0703b696"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dragon Ball Z: Budokai Tenkaichi 2 DX (MOD - SLUS-21441) AI Upscaled Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "95p83apY2LI",
+      "uploader": "Deelseton",
+      "links": [
+        {
+          "url": "https://github.com/ViveTheModder/bomber-dfix",
+          "host": "github",
+          "kind": "page",
+          "where": "video_pinned_comment",
+          "context": "ls I listed in the description.  Bomber D'fix (Use this to patch out some issues before you play!): ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://drive.google.com/file/d/1WjqjpxzdMk0_dkrZht5ZC0s8R9O9H-Hn/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "tps://github.com/ViveTheModder/bomber-dfix \r Dragon Ball Z Budokai Tenkaichi 2 DX v1.04 (PS2 ONLY): ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://mega.nz/file/L94mlB5D#SVj58g_oOeFSkKB_iY91spXVwyFF7NIOfSQoq9CTlYM",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "1.04 (PS2 ONLY): https://drive.google.com/file/d/1WjqjpxzdMk0_dkrZht5ZC0s8R9O9H-Hn/view?usp=sharing ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file/snivog1cpc6uf8j/Dragon+Ball+Z+Budokai+Tenkaichi+2+DX+V1.04.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "R9O9H-Hn/view?usp=sharing https://mega.nz/file/L94mlB5D#SVj58g_oOeFSkKB_iY91spXVwyFF7NIOfSQoq9CTlYM ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file/fe77tfdvam3mzhn/JP+OST+Patch.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "ing occurs try updating your emulator to the most recent build for Nightly PCSX2.) \r JP OST Patch:\r ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/7khrpvzlv1trwai/BT2_DX_HD_Textures.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "might have been missed. I didn't find any issues during my testing, and I hope you have the same experience! DOWNLOAD LINK >>>(Size 190mb) Android Installa"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-ba0703b696",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/7khrpvzlv1trwai/BT2_DX_HD_Textures.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provides direct Mediafire download link (190MB) in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

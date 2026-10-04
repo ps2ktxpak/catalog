@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-4-pcsx2-hd-texture-update.660760/",
+  "listings": [
+    "l-1bc6bd6002"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dragon Ball Z Budokai Tenkaichi 4 PCSX2 HD TEXTURE Beta 13 Rev 5"
+  },
+  "videos": [
+    {
+      "id": "gpcMfSsokjw",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1lXqLNVn1UqKiUPwUXhyaulEa5S9GtNdb/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Dragon Ball Z Budokai Tenkaichi 4 Update Beta 13 Rev 5 SERIAL: SLUS-21978 CRC: 428113C2 Ko-Fi"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-1bc6bd6002",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1lXqLNVn1UqKiUPwUXhyaulEa5S9GtNdb/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

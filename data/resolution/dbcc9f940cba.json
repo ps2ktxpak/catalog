@@ -1,0 +1,67 @@
+{
+  "source_url": "https://gbatemp.net/threads/gun-hd-texture-pack.642091/",
+  "listings": [
+    "l-5c87a58908"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Gun HD Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "-CHNo54VAZQ",
+      "uploader": "TEODOR_MAX",
+      "links": [
+        {
+          "url": "https://drive.google.com/drive/folders/1fuauuUbk2OhAibUrIg3Xr824G2wdSeId?usp=sharing",
+          "host": "gdrive",
+          "kind": "folder",
+          "where": "video_description",
+          "context": "2 nightly build v1.7.5156. ________________________________ HD TEXTURE PACK DOWNLOAD: Google drive: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://mega.nz/folder/ZsswmQxb#cTOdlGWVL3mTOZOegAbBEQ",
+          "host": "mega",
+          "kind": "folder",
+          "where": "video_description",
+          "context": "e drive: https://drive.google.com/drive/folders/1fuauuUbk2OhAibUrIg3Xr824G2wdSeId?usp=sharing Mega: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/drive/folders/1fuauuUbk2OhAibUrIg3Xr824G2wdSeId?usp=sharing",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op",
+      "context": "es for the USA version (SLUS-21139) of Gun. Spoiler: Gameplay video Download Link: Here Mirror: Here Extract the the files with 7-Zip"
+    },
+    {
+      "url": "https://mega.nz/folder/ZsswmQxb#cTOdlGWVL3mTOZOegAbBEQ",
+      "host": "mega",
+      "kind": "folder",
+      "where": "op",
+      "context": "A version (SLUS-21139) of Gun. Spoiler: Gameplay video Download Link: Here Mirror: Here Extract the the files with 7-Zip, WinRAR or a"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-5c87a58908",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/drive/folders/1fuauuUbk2OhAibUrIg3Xr824G2wdSeId?usp=sharing",
+      "host": "gdrive",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator provided Google Drive folder in opening post and YouTube video.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

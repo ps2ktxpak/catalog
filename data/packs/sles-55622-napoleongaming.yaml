@@ -1,0 +1,86 @@
+key: sles-55622-napoleongaming
+catalog_id: texture-pack-credited-to-napoleongaming-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-toy-story-3-hd-remaster-community-archive-sles-55622-20260728
+name: Toy Story 3 HD Remaster - Community Archive Texture Pack
+game:
+  title: Toy Story 3
+  serials:
+  - SLES-55622
+credits:
+- creator: napoleongaming
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/texture-hd-pcsx2-toy-story-3-sles-55622-by-me.677067/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/x01-png.538293/
+    thumb_url: https://gbatemp.net/data/attachments/537/537681-dca9be0e784f03a909c36cfad1c9c21a.jpg?hash=iJZmj7J_rs
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/0x1-png.538294/
+    thumb_url: https://gbatemp.net/data/attachments/537/537682-981e91adac469b944c372b0e91af67b0.jpg?hash=031I-rrwkm
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/x02-jpg.538295/
+    thumb_url: https://gbatemp.net/data/attachments/537/537683-29cc49c353a8ad90cbeb18d983ac2222.jpg?hash=bnEIEYSnPv
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/ox2-png.538296/
+    thumb_url: https://gbatemp.net/data/attachments/537/537684-84570a493ed208926e6f7e129a730594.jpg?hash=wAcSnMH5M7
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/disney_pixar-toy-story-3_sles-55622_20251113203618-png.539155/
+    thumb_url: https://gbatemp.net/data/attachments/538/538543-499085624ccf817296fc329fab43071a.jpg?hash=0VrSAAtvVT
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/disney_pixar-toy-story-3_sles-55622_20251113203417-png.539158/
+    thumb_url: https://gbatemp.net/data/attachments/538/538546-ed39a6c5fc3d32d0fdbf54244ff8183b.jpg?hash=hzQqFWLpP7
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/disney_pixar-toy-story-3_sles-55622_20251113203133-png.539160/
+    thumb_url: https://gbatemp.net/data/attachments/538/538548-e5f9a44dfc3bbcfea3c4b5c7df386835.jpg?hash=6g04xwCHMa
+    credit: napoleongaming
+  - source_url: https://gbatemp.net/attachments/disney_pixar-toy-story-3_sles-55622_20251113203153-png.539161/
+    thumb_url: https://gbatemp.net/data/attachments/538/538549-379e20b003e260ffb174b0c8c78f18b2.jpg?hash=OldSl5BnTh
+    credit: napoleongaming
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to NapoleonGaming by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to NapoleonGaming by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

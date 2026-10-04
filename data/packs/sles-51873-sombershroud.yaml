@@ -1,0 +1,75 @@
+key: sles-51873-sombershroud
+catalog_id: sombershroud-medal-of-honor-rising-sun-sles-51873-20260728
+name: 'Medal of Honor: Rising Sun Texture Pack'
+game:
+  title: 'Medal of Honor: Rising Sun'
+  serials:
+  - SLES-51873
+  - SLPM-65469
+  - SLPM-67004
+  - SLUS-20753
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: partial
+description: A multi-region high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/medal-of-honor-rising-sun-usa-hd-textures-multiplayer-only.639594/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun_slus-20753_20230917184016-png.394500/
+    thumb_url: https://gbatemp.net/data/attachments/393/393888-34faf1bd02210652ec2ab1f4be98b1bc.jpg?hash=NPrxvQIhBl
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun_slus-20753_20230917182733-png.394501/
+    thumb_url: https://gbatemp.net/data/attachments/393/393889-5ca2634c451776ddaa9a9cb8e5401072.jpg?hash=XKJjTEUXdt
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun_slus-20753_20230917183659-png.394502/
+    thumb_url: https://gbatemp.net/data/attachments/393/393890-75c8ab52c00e8f06ce0e39a26991ca34.jpg?hash=dcirUsAOjw
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun_slus-20753_20230917184247-png.394503/
+    thumb_url: https://gbatemp.net/data/attachments/393/393891-083b8e0172e4cbe77d388744a9fbf31d.jpg?hash=CDuOAXLky-
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun_slus-20753_20230917184559-png.394504/
+    thumb_url: https://gbatemp.net/data/attachments/393/393892-e9bfdc9281850e106b72eb6b76869259.jpg?hash=6b_ckoGFDh
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack credited by the source to SomberShroud; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/medal-of-honor-rising-sun-usa-hd-textures-multiplayer-only.639594/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

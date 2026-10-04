@@ -1,0 +1,56 @@
+key: slus-20499-curse-arms
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-breath-of-fire-dragon-quarter-hd-remaster-community-archive-slus-20499-20260728
+name: Breath of Fire Dragon Quarter HD Remaster - Community Archive Texture Pack
+game:
+  title: Breath of Fire Dragon Quarter
+  serials:
+  - SLUS-20499
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

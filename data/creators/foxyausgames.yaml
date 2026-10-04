@@ -1,0 +1,22 @@
+id: foxyausgames
+name: Foxyausgames
+aliases:
+- foxyausgames
+links:
+  page: https://gbatemp.net/members/foxyausgames.730905/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@foxyaus/videos
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

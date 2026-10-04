@@ -1,0 +1,15 @@
+id: tylermods
+name: TylerMods
+aliases:
+- tylermods
+links:
+  page: https://gbatemp.net/members/tylermods.478205/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

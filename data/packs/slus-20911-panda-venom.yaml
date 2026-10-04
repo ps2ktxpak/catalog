@@ -1,0 +1,81 @@
+key: slus-20911-panda-venom
+catalog_id: panda-venom-shin-megami-tensei-nocturne-slus-20911-20260728
+name: 'Shin Megami Tensei: Nocturne Texture Pack'
+game:
+  title: 'Shin Megami Tensei: Nocturne'
+  serials:
+  - SLUS-20911
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shin-megami-tensei-nocturne-usa-hd-remaster.610781/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-02-47-pm-jpg.305928/
+    thumb_url: https://gbatemp.net/data/attachments/305/305316-f96bf30849bfc1bd704e607e64c8a23f.jpg?hash=-WvzCEm_wb
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-04-36-pm-jpg.305930/
+    thumb_url: https://gbatemp.net/data/attachments/305/305318-84a673559a535f39b35188853813fb82.jpg?hash=hKZzVZpTXz
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-02-48-pm-jpg.305927/
+    thumb_url: https://gbatemp.net/data/attachments/305/305315-dc4cf23cf8242e498be9472c89e6382f.jpg?hash=3EzyPPgkLk
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-02-52-pm-jpg.305926/
+    thumb_url: https://gbatemp.net/data/attachments/305/305314-1bc0d4ffda0c8aa5bcaf213cfda1b0b7.jpg?hash=G8DU_9oMiq
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-04-21-pm-jpg.305925/
+    thumb_url: https://gbatemp.net/data/attachments/305/305313-ecab334eea039c6b124f432254be4018.jpg?hash=7KszTuoDnG
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-04-23-pm-jpg.305924/
+    thumb_url: https://gbatemp.net/data/attachments/305/305312-48dde1b903f9382a3b9192c75fbb0d26.jpg?hash=SN3huQP5OC
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-04-36-pm-004-jpg.305921/
+    thumb_url: https://gbatemp.net/data/attachments/305/305309-45b4d0e48362d79757faee01621ffd0d.jpg?hash=RbTQ5INi15
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-04-47-pm-001-jpg.305920/
+    thumb_url: https://gbatemp.net/data/attachments/305/305308-ad22a00ec4c4a5540bcb6ca45657e2cf.jpg?hash=rSKgDsTEpV
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack credited by the source to Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/shin-megami-tensei-nocturne-usa-hd-remaster.610781/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

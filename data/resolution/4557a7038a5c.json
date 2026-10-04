@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/chulip-ntsc-hd-textures.639567/",
+  "listings": [
+    "l-4b1e87a75b"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Chulip NTSC HD Textures"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/kBciRAxD#TXEQPhtoe0RAH3-nWCDy1DCuV3k2wNVLmL6omcAL5hw",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "have what it takes to win her over? or are you just some ugly little poor boy living in the hood? DOWNLOAD https://mega.nz/file/kBciRAxD#TXEQPhtoe0RAH3-nWCDy"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4b1e87a75b",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/kBciRAxD#TXEQPhtoe0RAH3-nWCDy1DCuV3k2wNVLmL6omcAL5hw",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

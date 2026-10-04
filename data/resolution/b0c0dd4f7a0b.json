@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/crash-tag-team-racing-pal-hd-textures.659225/",
+  "listings": [
+    "l-3427936c8a"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Crash Tag Team Racing (PAL) - HD Textures"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1z6ph_CllSbkOWQFj_qZpMup_15zCPsTk/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "Here's an upscale of the textures from Crash Tag Team Racing (PAL). Just place the folder SLES-53439 from the zip fil"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-3427936c8a",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1z6ph_CllSbkOWQFj_qZpMup_15zCPsTk/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

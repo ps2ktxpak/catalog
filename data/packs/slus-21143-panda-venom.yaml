@@ -1,0 +1,66 @@
+key: slus-21143-panda-venom
+catalog_id: panda-venom-star-wars-episode-iii-20260722
+name: 'Star Wars: Episode III HD Remaster'
+game:
+  title: 'Star Wars: Episode III - Revenge of the Sith'
+  serials:
+  - SLUS-21143
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: High-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/star-wars-episode-iii-revenge-of-the-sith-usa-hd-remaster.622914/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-08-53-pm-jpg.342058/
+    thumb_url: https://gbatemp.net/data/attachments/341/341446-8e46432fc3758854d6281edc57d15e37.jpg?hash=jkZDL8N1iF
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-08-54-pm-jpg.342057/
+    thumb_url: https://gbatemp.net/data/attachments/341/341445-51b5772352eb51d7bd8cb24578aeb631.jpg?hash=UbV3I1LrUd
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-08-59-pm-001-jpg.342056/
+    thumb_url: https://gbatemp.net/data/attachments/341/341444-c18e9c620a1dd746a6947054cf01368f.jpg?hash=wY6cYgod10
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/star-wars-episode-iii-revenge-of-the-sith-usa-hd-remaster.622914/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

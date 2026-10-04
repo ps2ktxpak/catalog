@@ -1,0 +1,50 @@
+key: slus-20694-murad58
+catalog_id: murad58-onimusha-3-demon-siege-slus-20694-20260728
+name: 'Onimusha 3: Demon Siege Texture Pack'
+game:
+  title: 'Onimusha 3: Demon Siege'
+  serials:
+  - SLUS-20694
+credits:
+- creator: murad58
+type: unknown
+completeness: unknown
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: other
+  url: https://www.onihdrp.com/oni3
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Murad58
+  credits: HD texture pack credited by the source to Murad58; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://www.onihdrp.com/oni3
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

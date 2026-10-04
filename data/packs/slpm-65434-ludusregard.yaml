@@ -1,0 +1,50 @@
+key: slpm-65434-ludusregard
+catalog_id: ludusregard-battle-gear-3-english-v1
+name: Battle Gear 3 English Texture Pack
+game:
+  title: Battle Gear 3
+  serials:
+  - SLPM-65434
+credits:
+- creator: ludusregard
+type: unknown
+completeness: unknown
+description: English-language interface and text replacements for the Japanese PS2 release.
+sources:
+- kind: repository
+  url: https://github.com/ludusregard/Battle-Gear-3-PS2-Translation-Project
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - ludusregard
+  credits: English texture translation created and published by ludusregard.
+  license: See source repository terms
+  source_url: https://github.com/ludusregard/Battle-Gear-3-PS2-Translation-Project
+  version: '1'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

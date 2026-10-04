@@ -1,0 +1,70 @@
+key: slpm-65885-sombertwilight
+catalog_id: sombertwilight-rumble-roses-slpm-65885-slus-20970-20260726
+name: Rumble Roses HD Texture Pack
+game:
+  title: Rumble Roses
+  serials:
+  - SLPM-65885
+  - SLUS-20970
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: HD replacements made for the definitive Japanese release and confirmed by the author for the North American release by serial-folder rename.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/rumble-roses-jp-na-releases.661252/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/rumble-roses_slpm-65885_20240925074031-png.460656/
+    thumb_url: https://gbatemp.net/data/attachments/460/460044-fa949c436b1924070a4e01a80413acd7.jpg?hash=-pScQ2sZJA
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/rumble-roses_slpm-65885_20240925073808-png.460657/
+    thumb_url: https://gbatemp.net/data/attachments/460/460045-049faabb6061db1e9aa4dea2ccb3b055.jpg?hash=BJ-qu2Bh2x
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/rumble-roses_slpm-65885_20240925073559-png.460658/
+    thumb_url: https://gbatemp.net/data/attachments/460/460046-6aeb77cb81cddb16d4cacb2dfa0f9601.jpg?hash=aut3y4HN2x
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/rumble-roses_slpm-65885_20240925073522-png.460659/
+    thumb_url: https://gbatemp.net/data/attachments/460/460047-0818e105de75fb6c4f06bc153b51bfb5.jpg?hash=CBjhBd51-2
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: Multi-region HD texture pack created by SomberTwilight; normalized for both author-confirmed serials and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/rumble-roses-jp-na-releases.661252/
+  version: Multi-region public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

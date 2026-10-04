@@ -1,0 +1,24 @@
+{
+  "key": "slus-20639-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-def-jam-vendetta-slus-20639-20260728.tar.zst",
+      "sha256": "80690cb3631dd0325d275c591baf63f98246379b097bb919a76d878384443543",
+      "size_bytes": 186459804,
+      "decompressed_size_bytes": 258181120,
+      "file_count": 1506,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "1CD8F4451CAA97C8BCF4DDAD1A371945FDAFFFD4F468A37036BAE48314BA8958",
+        "size_bytes": 376081075
+      }
+    }
+  ]
+}

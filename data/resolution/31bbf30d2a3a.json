@@ -1,0 +1,80 @@
+{
+  "source_url": "https://gbatemp.net/threads/gran-turismo-4-spec-ii-pcsx2-hd-texture.662899/",
+  "listings": [
+    "l-51f3b2ead1"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Gran Turismo 4 Spec II Pcsx2 Hd Texture update 5.0"
+  },
+  "videos": [
+    {
+      "id": "tA4Jy3WhAt0",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=mdhOsYI0QM0",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_pinned_comment",
+          "context": "Pack:",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "mdhOsYI0QM0",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/folder/NglkFJxI#fGIYj0S7otRVNR61ju0Nxw",
+          "host": "mega",
+          "kind": "folder",
+          "where": "video_pinned_comment",
+          "context": "HD Texture:",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "2LMInb8Gr7M",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://ko-fi.com/s/93e28d7235",
+          "host": "kofi",
+          "kind": "shop",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Gran Turismo 4 Spec II Version: 1.10 SERIAL: SCUS-97436 CRC: 4CE521F2 STATUS: in progress Ko-Fi UPDATE 1.0 New update for version 1"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-51f3b2ead1",
+      "status": "resolved",
+      "base_url": "https://mega.nz/folder/NglkFJxI#fGIYj0S7otRVNR61ju0Nxw",
+      "host": "mega",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator's pinned YouTube comment provides MEGA folder link labeled as HD texture pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

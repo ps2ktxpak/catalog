@@ -1,0 +1,24 @@
+{
+  "key": "slus-21197-retrogenerica",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/retrogenerica-shrek-superslam-slus-21197-20260727.tar.zst",
+      "sha256": "6a79b9cd2004e75b1a7fe7c1a5f88798f08dad744416cc1b3d873aa15d9b3c44",
+      "size_bytes": 1532698984,
+      "decompressed_size_bytes": 2080768000,
+      "file_count": 26108,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "1AC2C854E8132B8004378C65B65C1B86C60B55F974E4DB4635350C11FA63A6AF",
+        "size_bytes": 3508240399
+      }
+    }
+  ]
+}

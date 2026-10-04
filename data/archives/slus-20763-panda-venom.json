@@ -1,0 +1,24 @@
+{
+  "key": "slus-20763-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-beyond-good-and-evil-test-slus-20763-20260726.tar.zst",
+      "sha256": "3ed4be4c5cbc8b21763d21f0d4b9be1500894769645aa93185a3fad810ea4e52",
+      "size_bytes": 54128226,
+      "decompressed_size_bytes": 74086400,
+      "file_count": 633,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "4B25CE3C7BB6607948E2BED1E9C9E528646ED118ED7059229130432CB88CC51D",
+        "size_bytes": 47047060
+      }
+    }
+  ]
+}

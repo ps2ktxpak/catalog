@@ -1,0 +1,78 @@
+key: sles-53703-texmaster
+catalog_id: texmaster-peter-jackson-king-kong-sles-53703-20260726
+name: Peter Jackson's King Kong HD Texture Pack
+game:
+  title: Peter Jackson's King Kong
+  serials:
+  - SLES-53703
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+description: A 1,425-texture PNG remaster for the Italian-capable European PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/king-kong-peter-jacksons-the-official-game-of-the-movie-sles-53703.659015/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/3-jpg.450364/
+    thumb_url: https://gbatemp.net/data/attachments/449/449752-46fffa4c00c595d76bc2e1f3199598a6.jpg?hash=CeyvJSAwPq
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/1-png.450365/
+    thumb_url: https://gbatemp.net/data/attachments/449/449753-67cff4e9d4e4e68023335a69c0932597.jpg?hash=Z8_06dTk5o
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/2-png.450366/
+    thumb_url: https://gbatemp.net/data/attachments/449/449754-e321877f07bf39d9464a80cebbdf1c9b.jpg?hash=4yGHfwe_Od
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/3-png.450367/
+    thumb_url: https://gbatemp.net/data/attachments/449/449755-2a9a5a917502f316861de3188476f7f6.jpg?hash=KppakXUC8x
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/4-png.450368/
+    thumb_url: https://gbatemp.net/data/attachments/449/449756-35b2a6233b41a71991e1b017770e0bf4.jpg?hash=NbKmIztBpx
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/5-png.450369/
+    thumb_url: https://gbatemp.net/data/attachments/449/449757-7fd6ae537e22072e54fa90ca25297f3e.jpg?hash=f9auU34iBy
+    credit: texmaster
+  videos:
+  - provider: youtube
+    id: qRebLJGrmqg
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TexMaster
+  credits: HD texture pack created by TexMaster; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/king-kong-peter-jacksons-the-official-game-of-the-movie-sles-53703.659015/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

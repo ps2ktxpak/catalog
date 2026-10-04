@@ -1,0 +1,50 @@
+key: slus-20864-v01dxix
+catalog_id: v01dxix-the-punisher-slus-20864-20260728
+name: The Punisher Texture Pack
+game:
+  title: The Punisher
+  serials:
+  - SLUS-20864
+credits:
+- creator: v01dxix
+type: unknown
+completeness: unknown
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: other
+  url: https://www.moddb.com/addons/punisher-premastered-for-pcsx2-ps2-emulator
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - V01DXIX
+  credits: HD texture pack credited by the source to V01DXIX; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://www.moddb.com/addons/punisher-premastered-for-pcsx2-ps2-emulator
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

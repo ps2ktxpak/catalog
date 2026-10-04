@@ -1,0 +1,24 @@
+{
+  "key": "slus-20071-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-dead-or-alive-2-hardcore-slus-20071-20260726.tar.zst",
+      "sha256": "5280304ad1a86abf7e4a76ddaf64f9cfe41ef74ee280b5c897d0e3eb39c9ad9b",
+      "size_bytes": 468185561,
+      "decompressed_size_bytes": 651816960,
+      "file_count": 5942,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "13F6A6A07EFC05AEE5142D88EDD1D736F1055C1F354C3A0996520BC881CDC855",
+        "size_bytes": 405987454
+      }
+    }
+  ]
+}

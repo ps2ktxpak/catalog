@@ -1,0 +1,15 @@
+id: bnz94
+name: BNZ94
+aliases:
+- bnz94
+links:
+  page: https://gbatemp.net/members/bnz94.690851/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

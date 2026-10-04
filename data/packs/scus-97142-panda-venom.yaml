@@ -1,0 +1,77 @@
+key: scus-97142-panda-venom
+catalog_id: texture-pack-credited-to-panda-venom-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-primal-hd-remaster-community-archive-scus-97142-20260728
+name: Primal HD Remaster - Community Archive Texture Pack
+game:
+  title: Primal
+  serials:
+  - SCUS-97142
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/primal-usa-hd-remaster.621578/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-10-22-at-12-04-pm-jpg.336621/
+    thumb_url: https://gbatemp.net/data/attachments/336/336009-70f67d10377e1b22beac18eab3b5721e.jpg?hash=cPZ9EDd-Gy
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-10-22-at-12-05-pm-jpg.336620/
+    thumb_url: https://gbatemp.net/data/attachments/336/336008-4a77c4a7673e23aad5a29c7cdf9eed44.jpg?hash=SnfEp2c-I6
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-10-22-at-12-05-pm-001-jpg.336619/
+    thumb_url: https://gbatemp.net/data/attachments/336/336007-aa623b6de3c30782c8fe023530ee204a.jpg?hash=qmI7bePDB4
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-10-22-at-12-06-pm-jpg.336618/
+    thumb_url: https://gbatemp.net/data/attachments/336/336006-6d9c9b249a86ccb0c46cf91b82479ba8.jpg?hash=bZybJJqGzL
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-10-22-at-12-11-pm-jpg.336616/
+    thumb_url: https://gbatemp.net/data/attachments/336/336004-b8f578b64197d7d812e3f468707060da.jpg?hash=uPV4tkGX19
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Panda_Venom by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Panda_Venom by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

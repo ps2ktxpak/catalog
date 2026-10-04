@@ -1,0 +1,92 @@
+key: slus-20821-callofcthuloo
+catalog_id: callofcthuloo-gundam-vs-zeta-gundam-slus-20821-20260727
+name: 'Mobile Suit Gundam: Gundam vs. Zeta Gundam HD Texture Pack'
+game:
+  title: 'Mobile Suit Gundam: Gundam vs. Zeta Gundam'
+  serials:
+  - SLUS-20821
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: A complete North American HD texture replacement pack prepared for PCSX2 texture loading.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gundam-vs-zeta-gundam-slus-20821-hd-upscale.666702/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mobile-suit-gundam-gundam-vs-zeta-gundam-slus-20821-hd-texture-pack-upscale.666702/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-07-22-36-05-png.484860/
+    thumb_url: https://gbatemp.net/data/attachments/484/484248-a067a636bf37d7bc8b9d1d91b56a94ae.jpg?hash=oGemNr8317
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-08-11-08-16-png.484935/
+    thumb_url: https://gbatemp.net/data/attachments/484/484323-c2f48fcccf53e33f5cc189ec65ce18e5.jpg?hash=wvSPzM9T4z
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-07-22-33-07-png.484864/
+    thumb_url: https://gbatemp.net/data/attachments/484/484252-e53b63e7ee797cc662b6f9fd82725a74.jpg?hash=5Ttj5-55fM
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-07-23-04-23-png.484861/
+    thumb_url: https://gbatemp.net/data/attachments/484/484249-f118e6fb81ddce86de5e78031624ac12.jpg?hash=8Rjm-4Hdzo
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-07-22-46-50-png.484862/
+    thumb_url: https://gbatemp.net/data/attachments/484/484250-b8fc1aed2b38ac297537694259f6fc87.jpg?hash=uPwa7Ss4rC
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-07-22-56-13-png.484863/
+    thumb_url: https://gbatemp.net/data/attachments/484/484251-6796eba299f56289fe3cfef4af6d9894.jpg?hash=Z5bropn1Yo
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-09-00-50-28-png.485054/
+    thumb_url: https://gbatemp.net/data/attachments/484/484442-d865b6ebf7277cee1c49847fec79c247.jpg?hash=2GW26_cnfO
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2025-02-09-00-49-17-png.485055/
+    thumb_url: https://gbatemp.net/data/attachments/484/484443-2e127cba588c83ef557d84a2b94fe121.jpg?hash=LhJ8uliMg-
+    credit: callofcthuloo
+  videos:
+  - provider: youtube
+    id: BzvwrHbfV6w
+  - provider: youtube
+    id: d55XFW2UuDc
+  - provider: youtube
+    id: 1bYB9kYSizI
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/mobile-suit-gundam-gundam-vs-zeta-gundam-slus-20821-hd-texture-pack-upscale.666702/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

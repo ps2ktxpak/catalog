@@ -1,0 +1,24 @@
+{
+  "key": "scus-97623-unknown",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-secret-agent-clank-hd-remaster-community-archive-scus-97623-20260728.tar.zst",
+      "sha256": "a2c11ece1071bb7212f0a5f59db2de04bab9cc6b58191395c3c48c31614f62bc",
+      "size_bytes": 2175450399,
+      "decompressed_size_bytes": 6262292480,
+      "file_count": 2525,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "20D0402433BE6835B1E407A372FC035B1902D4CA302DFCF892F61C7F135EDC81",
+        "size_bytes": 4399001030
+      }
+    }
+  ]
+}

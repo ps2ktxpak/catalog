@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/pro-evolution-soccer-2014-pcsx2-hd-texture.664989/",
+  "listings": [
+    "l-25ea0ad20f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Pro Evolution Soccer 2014 PCSX2 HD TEXTURE"
+  },
+  "videos": [
+    {
+      "id": "eleX4bkXS0E",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://www.mediafire.com/file/3erh23oq001cw4x/Pro_Evolution_Soccer_2014.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "Pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Pro Evolution Soccer 2014 Ko-Fi SERIAL: SLES-55673 CRC: 30C013A3 STATUS: in"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-25ea0ad20f",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/3erh23oq001cw4x/Pro_Evolution_Soccer_2014.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

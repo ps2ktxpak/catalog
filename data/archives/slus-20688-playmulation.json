@@ -1,0 +1,24 @@
+{
+  "key": "slus-20688-playmulation",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/playmulation-psi-ops-slus-20688-20260726.tar.zst",
+      "sha256": "82e9dc601221a03ed71eb804b1de2511b3f30d287e891ccf03bd6945e6d7cdf5",
+      "size_bytes": 727454900,
+      "decompressed_size_bytes": 953753600,
+      "file_count": 4599,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "EB8C8B0042448A3E9FB5F7A3776830B94777987617E839F8664466C8335647B3",
+        "size_bytes": 583982407
+      }
+    }
+  ]
+}

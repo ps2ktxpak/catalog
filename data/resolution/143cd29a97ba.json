@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/nascar-09-pcsx2-hd-texture.661048/",
+  "listings": [
+    "l-f0820360dc"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "NASCAR &#039;09 PCSX2 HD TEXTURE"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/uehkyKCb#69gD59JxA3KNiXhiVGy6uhS6bT1QlbDgpXgMIJ46ptc",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "NASCAR '09 SERIAL: SLUS-21744 CRC: 1B6C22B9 PAYPAL DOWNLOAD"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-f0820360dc",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/uehkyKCb#69gD59JxA3KNiXhiVGy6uhS6bT1QlbDgpXgMIJ46ptc",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

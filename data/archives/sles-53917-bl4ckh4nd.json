@@ -1,0 +1,24 @@
+{
+  "key": "sles-53917-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-g1-jockey-4-sles-53917-20260728.tar.zst",
+      "sha256": "e7eeb24e31cd4967400733d8e4e76fb4355e10ffe6abc68faaecc999aa66b3ba",
+      "size_bytes": 108173329,
+      "decompressed_size_bytes": 257413120,
+      "file_count": 2142,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6899CF2ED135C1BFFB7939B84B6B8BC734A56325913CF9C100E221C4C39AA7A5",
+        "size_bytes": 142088616
+      }
+    }
+  ]
+}

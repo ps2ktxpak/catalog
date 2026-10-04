@@ -1,0 +1,84 @@
+key: sles-53725-texmaster
+catalog_id: texmaster-asterix-obelix-xxl2-sles-53725-20260726
+name: 'Asterix & Obelix XXL 2: Mission Las Vegum HD Texture Pack'
+game:
+  title: 'Asterix & Obelix XXL 2: Mission Las Vegum'
+  serials:
+  - SLES-53725
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+description: High-definition environment, character and interface replacements for the Italian-capable European PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/asterix-obelix-xxl-2-mission-las-vegum-hd-ps2.659291/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/4-jpg.451447/
+    thumb_url: https://gbatemp.net/data/attachments/450/450835-534d692638c4a745ff43eddfaf835564.jpg?hash=cWdQ9bxfYe
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/1-png.451448/
+    thumb_url: https://gbatemp.net/data/attachments/450/450836-d79d53a0977d53b57f7dbe64d7509a98.jpg?hash=151ToJd9U7
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/2-png.451449/
+    thumb_url: https://gbatemp.net/data/attachments/450/450837-cb1064d9bbfebcc9004ad4e8ac5761f4.jpg?hash=yxBk2bv-vM
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/3-png.451450/
+    thumb_url: https://gbatemp.net/data/attachments/450/450838-20a28e55728f9145b4f64498436abbe9.jpg?hash=IKKOVXKPkU
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/4-png.451451/
+    thumb_url: https://gbatemp.net/data/attachments/450/450839-324b34a0caa92768c035c5ba874ba606.jpg?hash=Mks0oMqpJ2
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/5-png.451452/
+    thumb_url: https://gbatemp.net/data/attachments/450/450840-3197da90efb7e74838d2346e0e5e322c.jpg?hash=MZfakO-350
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/6-png.451453/
+    thumb_url: https://gbatemp.net/data/attachments/450/450841-70323df3b78e5f9ced7172d7facc1cb2.jpg?hash=cDI987eOX5
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/7-png.451454/
+    thumb_url: https://gbatemp.net/data/attachments/450/450842-060ffb46d995a3df78e998d2d9fdb249.jpg?hash=Bg_7RtmVo9
+    credit: texmaster
+  videos:
+  - provider: youtube
+    id: 7gR6Sv8GFbI
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TexMaster
+  credits: Italian-localized HD remaster created by TexMaster; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/asterix-obelix-xxl-2-mission-las-vegum-hd-ps2.659291/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

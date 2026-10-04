@@ -1,0 +1,24 @@
+{
+  "key": "slus-21118-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-nfl-street-2-slus-21118-20260728.tar.zst",
+      "sha256": "ab7d845b667c960e6014e8d2398947cdbe0a1f1235d283113e5cc6535aabe8c2",
+      "size_bytes": 928455603,
+      "decompressed_size_bytes": 1327421440,
+      "file_count": 9062,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "BDFE6C950273AE55E468F0370FD398A3DEFA9D7791B983D9AEA48927C571236E",
+        "size_bytes": 1390835761
+      }
+    }
+  ]
+}

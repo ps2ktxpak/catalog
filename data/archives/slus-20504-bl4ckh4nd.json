@@ -1,0 +1,24 @@
+{
+  "key": "slus-20504-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-tony-hawk-s-pro-skater-4-slus-20504-20260728.tar.zst",
+      "sha256": "ea5a446ffb5dfec3112b6ef1f034d2a5879d0a1b23ab8fdc0fa44e0c61c70ef3",
+      "size_bytes": 368116360,
+      "decompressed_size_bytes": 472084480,
+      "file_count": 6161,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "590AD4980B2B8288BAA4851622505E17B2778A0148E5FB081CAAC52C86B02703",
+        "size_bytes": 429114240
+      }
+    }
+  ]
+}

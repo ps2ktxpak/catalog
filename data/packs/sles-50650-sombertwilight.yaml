@@ -1,0 +1,73 @@
+key: sles-50650-sombertwilight
+catalog_id: sombertwilight-resident-evil-survivor-2-code-veronica-sles-50650-20260728
+name: 'Resident Evil Survivor 2 РІР‚вЂњ Code: Veronica Texture Pack'
+game:
+  title: 'Resident Evil Survivor 2 РІР‚вЂњ Code: Veronica'
+  serials:
+  - SLES-50650
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-survivor-2-code-veronica-hd-textures-cheats-extra-costumes.659128/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-survivor-2-code-veronica-hd-textures-cheats-extra-costumes.659128
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/resident-evil-gun-survivor-2-code-veronica_sles-50650_20240802225244-png.450806/
+    thumb_url: https://gbatemp.net/data/attachments/450/450194-ae9cd5c9801ff59417a37f3619a4b4fa.jpg?hash=rpzVyYAf9Z
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/resident-evil-gun-survivor-2-code-veronica_sles-50650_20240802233124-png.450807/
+    thumb_url: https://gbatemp.net/data/attachments/450/450195-0fa6e93e639f400e7f98eb7a2a0d89e7.jpg?hash=D6bpPmOfQA
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/resident-evil-gun-survivor-2-code-veronica_sles-50650_20240802233256-png.450808/
+    thumb_url: https://gbatemp.net/data/attachments/450/450196-496a1bf1200414d08ff5e81daf7a9014.jpg?hash=SWob8SAEFN
+    credit: sombertwilight
+  videos:
+  - provider: youtube
+    id: cGCzPqIHNyo
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD texture pack credited by the source to SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/resident-evil-survivor-2-code-veronica-hd-textures-cheats-extra-costumes.659128
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

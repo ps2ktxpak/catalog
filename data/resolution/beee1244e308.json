@@ -1,0 +1,57 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-ape-escape-2-hd-slus-20685.655822/",
+  "listings": [
+    "l-7480365bcc"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] Ape Escape 2 HD (SLUS-20685)"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/gzw8an2h11d519w/SLUS-20685.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "bled. - Put the downloaded settings .ini file in the \"PCSX2\\gamesettings\" folder. Download textures (PNG): https://www.mediafire.com/file/gzw8an2h11d519w/SLU"
+    },
+    {
+      "url": "https://www.mediafire.com/file/hckdyr5h23603hh/SLUS-20685_BDD9F5E1.ini/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "ad textures (PNG): https://www.mediafire.com/file/gzw8an2h11d519w/SLUS-20685.7z/file Download settings (INI): https://www.mediafire.com/file/hckdyr5h23603hh/SLU"
+    },
+    {
+      "url": "https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5605",
+      "host": "github",
+      "kind": "file",
+      "where": "op",
+      "context": "NI): https://www.mediafire.com/file/hckdyr5h23603hh/SLUS-20685_BDD9F5E1.ini/file Download PCSX2 (March 2024): Github | Mirror Models and programs used... - R"
+    },
+    {
+      "url": "https://www.mediafire.com/file/dsu9xkkc9u5gtwf/pcsx2-v1.7.5605-windows-x64-Qt.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "s://www.mediafire.com/file/hckdyr5h23603hh/SLUS-20685_BDD9F5E1.ini/file Download PCSX2 (March 2024): Github | Mirror Models and programs used... - Real-ESRGA"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-7480365bcc",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/gzw8an2h11d519w/SLUS-20685.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator's explicit 'Download textures' link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+key: slus-20776-panda-venom
+catalog_id: panda-venom-spider-man-2-ui-font-slus-20776-20260722
+name: Spider-Man 2 HD UI & Font Pack
+game:
+  title: Spider-Man 2
+  serials:
+  - SLUS-20776
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: partial
+description: Partial pack containing upgraded user-interface and font textures only for the North American PS2 release; it does not replace the game's world or character textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spider-man-2-usa-hd-textures-ui-font-only.625622/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/spider-man-2_slus-20776_20230203203121-jpg.350926/
+    thumb_url: https://gbatemp.net/data/attachments/350/350314-0d6139b9bc81b81cc495f19b55c6b257.jpg?hash=DWE5ubyBuB
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spider-man-2_slus-20776_20230203200923-jpg.350925/
+    thumb_url: https://gbatemp.net/data/attachments/350/350313-e7b37fdaee0c41bdbb5ff72b62d8ed4b.jpg?hash=57N_2u4MQb
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spider-man-2_slus-20776_20230203204346-jpg.350927/
+    thumb_url: https://gbatemp.net/data/attachments/350/350315-244517e17640122275feaf26576d65d3.jpg?hash=JEUX4XZAEi
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spider-man-2_slus-20776_20230203204351-jpg.350928/
+    thumb_url: https://gbatemp.net/data/attachments/350/350316-863ceb681c26169b3e23436ec5afce2d.jpg?hash=hjzraBwmFp
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Partial HD interface and font texture pack created by Panda_Venom; preserved from the original GBAtemp release and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/spider-man-2-usa-hd-textures-ui-font-only.625622/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

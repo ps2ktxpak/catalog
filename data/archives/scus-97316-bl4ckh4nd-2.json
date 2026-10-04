@@ -1,0 +1,24 @@
+{
+  "key": "scus-97316-bl4ckh4nd-2",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-sly-2-scus-97316-20260722.tar.zst",
+      "sha256": "62a4f44c511196e6b5e02536dbe1b2514ccbea26677a393f4844af9a1a99a353",
+      "size_bytes": 377235403,
+      "decompressed_size_bytes": 647587840,
+      "file_count": 8181,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "D5F680DC478E2F38C65D083CEEDA1114F69AAE218C97EF87D8B1A1801FAC587B",
+        "size_bytes": 357635814
+      }
+    }
+  ]
+}

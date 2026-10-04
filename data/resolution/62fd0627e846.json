@@ -1,0 +1,82 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-wwe-smackdown-here-comes-the-pain-2-1-usa-slus-20787-hd-textures.656740/",
+  "listings": [
+    "l-3989cb4c0c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] WWE SmackDown Here Comes The Pain 2.1 [USA] [SLUS-20787] HD Textures"
+  },
+  "videos": [
+    {
+      "id": "hxFaFiydvoM",
+      "uploader": "Moataz",
+      "links": [
+        {
+          "url": "https://www.youtube.com/paynexkillerreviews",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "ds/wwe-smackdown-here-comes-the-pain-usa-championship-replacement-pack.653224/) his youtube channel ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC20tJkGU7lDW_PnZY-nTk6Q",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "om/paynexkillerreviews support him  https://discord.gg/J6Wnve3rYz my discord to find guides and etc ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ko-fi.com/moatazmoadi",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "ube.com/channel/UC20tJkGU7lDW_PnZY-nTk6Q My youtube channel my ko-fi (donate with anything please) (",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/ge2ody92sajn0d3/WWE_SmackDown%2521_Here_Comes_the_Pain_HD_2.1.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "https://gbatemp.net/members/paynexkiller.696693/ HERE it is DOWNLOAD ( delete the old pack and install this (https://www.mediafire.com/file/ge2ody92sajn0d3/WWE"
+    },
+    {
+      "url": "https://ko-fi.com/moatazmoadi",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "file) https://discord.gg/J6Wnve3rYz my discord to find guides and etc my ko-fi (donate with anything please) (https://ko-fi.com/moatazmoadi) HERE SOME PREVIEW"
+    },
+    {
+      "url": "https://mediafire.com/file/ge2ody92sajn0d3/WWE_SmackDown%21_Here_Comes_the_Pain_HD_2.1.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "https://gbatemp.net/members/paynexkiller.696693/ HERE it is DOWNLOAD ( delete the old pack and install this (https://www.mediafire.com/file/ge2ody92sajn0d3/WWE"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-3989cb4c0c",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/ge2ody92sajn0d3/WWE_SmackDown%2521_Here_Comes_the_Pain_HD_2.1.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provides direct MediaFire download link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

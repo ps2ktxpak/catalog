@@ -1,0 +1,89 @@
+key: slus-20939-sal9im
+catalog_id: texture-pack-credited-to-sal9im-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-viewtiful-joe-2-hd-remaster-community-archive-slus-20939-20260728
+name: Viewtiful Joe 2 HD Remaster - Community Archive Texture Pack
+game:
+  title: Viewtiful Joe 2
+  serials:
+  - SLUS-20939
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/viewtiful-joe-2-usa-slus-20939-upscaled-texture-pack.665151/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/10-png.478742/
+    thumb_url: https://gbatemp.net/data/attachments/478/478130-84937282a65075ebbaf416853d148388.jpg?hash=hJNygqZQde
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-png.478752/
+    thumb_url: https://gbatemp.net/data/attachments/478/478140-60b1906d72b0a4889d0f26128e920c76.jpg?hash=YLGQbXKwpI
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-png.478753/
+    thumb_url: https://gbatemp.net/data/attachments/478/478141-3de16ca181eb83bf30624db9ecbc8203.jpg?hash=PeFsoYHrg7
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-png.478754/
+    thumb_url: https://gbatemp.net/data/attachments/478/478142-484feeb4d71bececef910910937c97b7.jpg?hash=SE_utNcb7O
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-png.478755/
+    thumb_url: https://gbatemp.net/data/attachments/478/478143-93e6a383fc6e8a9481578631208948d0.jpg?hash=k-ajg_xuip
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/05-png.478756/
+    thumb_url: https://gbatemp.net/data/attachments/478/478144-f96782012c63620e2ed3a30e8e79e9ed.jpg?hash=-WeCASxjYg
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-before-png.478743/
+    thumb_url: https://gbatemp.net/data/attachments/478/478131-7203497f897bf4d663c3418267f7ade4.jpg?hash=Uno-7wChCF
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-after-png.478744/
+    thumb_url: https://gbatemp.net/data/attachments/478/478132-e4715c941b2df33c74d931749ca72737.jpg?hash=8MdnpmCHd2
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: pd2LMZld7Nk
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Sal9im by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Sal9im by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

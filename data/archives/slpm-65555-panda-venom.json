@@ -1,0 +1,24 @@
+{
+  "key": "slpm-65555-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-dragon-quest-v-slpm-65555-20260728.tar.zst",
+      "sha256": "edd147d070ae5ffae587c63adbbc28143d976e6391205aa664a9722f05a3d43b",
+      "size_bytes": 1644739984,
+      "decompressed_size_bytes": 2234634240,
+      "file_count": 9042,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "751651519E2BEDCFCEE553E1235EC85B005523EB2A9F639FBFDB1C284C1DCF07",
+        "size_bytes": 1317084681
+      }
+    }
+  ]
+}

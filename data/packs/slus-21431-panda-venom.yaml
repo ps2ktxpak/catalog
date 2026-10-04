@@ -1,0 +1,69 @@
+key: slus-21431-panda-venom
+catalog_id: panda-venom-raidou-soulless-army-slus-21431-20260726
+name: 'Devil Summoner: Raidou Kuzunoha vs. the Soulless Army HD Texture Pack'
+game:
+  title: 'Devil Summoner: Raidou Kuzunoha vs. the Soulless Army'
+  serials:
+  - SLUS-21431
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A work-in-progress North American pack replacing interface, character and selected world textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/raidou-kuzunoha-vs-the-soulless-army-usa-hd-remaster-incomplete.622223/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-23-22-at-07-50-pm-jpg.339522/
+    thumb_url: https://gbatemp.net/data/attachments/338/338910-ccafd137bb01ff788450e8361001fa61.jpg?hash=zK_RN7sB_3
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-23-22-at-07-50-pm-001-jpg.339521/
+    thumb_url: https://gbatemp.net/data/attachments/338/338909-16aae9ce71f3ff5d2ca1eea009f7752a.jpg?hash=FqrpznHz_1
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-23-22-at-07-50-pm-002-jpg.339520/
+    thumb_url: https://gbatemp.net/data/attachments/338/338908-d88fab4eb575165ce89389ce2ccc90dd.jpg?hash=2I-rTrV1Fl
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-23-22-at-07-51-pm-jpg.339519/
+    thumb_url: https://gbatemp.net/data/attachments/338/338907-9dcd437faffd004792c834b17562c8cd.jpg?hash=nc1Df6_9AE
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Incomplete AI-upscaled texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/raidou-kuzunoha-vs-the-soulless-army-usa-hd-remaster-incomplete.622223/
+  version: Incomplete public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

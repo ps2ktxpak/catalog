@@ -1,0 +1,76 @@
+key: sles-55242-panda-venom
+catalog_id: panda-venom-yakuza-2-slus-21769-sles-55242-20260728
+name: Yakuza 2 HD Texture Pack
+game:
+  title: Yakuza 2
+  serials:
+  - SLUS-21769
+  - SLES-55242
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: A North American pack with completed UI, story cutscenes and main battle stages plus extensive Kamurocho, character and NPC coverage; the author notes optional PAL folder renaming.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/yakuza-2-usa-hd-remaster.624885/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230118220511-jpg.348086/
+    thumb_url: https://gbatemp.net/data/attachments/347/347474-9bba4373f1fdb4319576a6e1ba164f49.jpg?hash=m7pDc_H9tD
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230111070920-jpg.348080/
+    thumb_url: https://gbatemp.net/data/attachments/347/347468-9473a51ca94d0e5fa35ea60c36497bd5.jpg?hash=lHOlHKlNDl
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230111071045-jpg.348081/
+    thumb_url: https://gbatemp.net/data/attachments/347/347469-1257afeec0b9b2ebabc1df8df7fce744.jpg?hash=Elev7sC5su
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230111071159-jpg.348082/
+    thumb_url: https://gbatemp.net/data/attachments/347/347470-92a862039f4af915ce2733bee8dad641.jpg?hash=kqhiA59K-R
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230111071826-jpg.348084/
+    thumb_url: https://gbatemp.net/data/attachments/347/347472-a009e0f08599b02b11d2abb5693c4ccb.jpg?hash=oAng8IWZsC
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230115163528_-3-jpg.348085/
+    thumb_url: https://gbatemp.net/data/attachments/347/347473-8d7fc0be742fe951c9920cfd19c87b65.jpg?hash=jX_AvnQv6V
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/yakuza-2-usa-hd-remaster.624885/
+  version: Public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

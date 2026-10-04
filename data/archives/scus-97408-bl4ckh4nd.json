@@ -1,0 +1,24 @@
+{
+  "key": "scus-97408-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-the-getaway-black-monday-scus-97408-20260728.tar.zst",
+      "sha256": "fcd7fafb43f24a2d58f29169362c9bba293f02821502446caa9f5b5505ed5893",
+      "size_bytes": 2009457706,
+      "decompressed_size_bytes": 2488268800,
+      "file_count": 32574,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "31C56325E7B0CA9E05B6B9F412537FF9F2ABD8263BFB4F097900FC68919A4BE3",
+        "size_bytes": 4117905009
+      }
+    }
+  ]
+}

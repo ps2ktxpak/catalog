@@ -1,0 +1,24 @@
+{
+  "key": "slus-20327-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-aggressive-inline-slus-20327-20260728.tar.zst",
+      "sha256": "badcbfe8453f0329ba39a41908bca9bfccd87fdca72097ea3bd5a7c12a028ae4",
+      "size_bytes": 144948814,
+      "decompressed_size_bytes": 191385600,
+      "file_count": 1755,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A4440A784131D1CB7A4C738F52C52D54C9818DA8ED61667FED2FF00055E45A20",
+        "size_bytes": 319615935
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-21642-sal9im",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sal9im-sonic-riders-zero-gravity-slus-21642-20260728.tar.zst",
+      "sha256": "f4ae1ccb562e8ee7e9b3049da45dc212fd95434f7ccef33c94c0f201199857e5",
+      "size_bytes": 74439283,
+      "decompressed_size_bytes": 154787840,
+      "file_count": 2436,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "667D458185BACFD54D245D1A30D1928DD90F07C6063E014EB36C3257B2569932",
+        "size_bytes": 96614536
+      }
+    }
+  ]
+}

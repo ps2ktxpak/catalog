@@ -1,0 +1,52 @@
+key: sles-53439-crasharki
+catalog_id: crasharki-crash-tag-team-racing-6c2445ee
+name: Crash Tag Team Racing Texture Pack
+game:
+  title: Crash Tag Team Racing
+  serials:
+  - SLUS-21191
+  - SLES-53439
+  - SLPM-66090
+credits:
+- creator: crasharki
+type: mixed
+completeness: complete
+description: Extensive frontend, characters, tracks, maps, icons, fonts, prompts and multilingual on-screen text.
+sources:
+- kind: repository
+  url: https://github.com/CRASHARKI/cttr-tp
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - CRASHARKI
+  credits: Created and maintained by CRASHARKI.
+  license: See source repository terms
+  source_url: https://github.com/CRASHARKI/cttr-tp
+  version: 6c2445ee
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

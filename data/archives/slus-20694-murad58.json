@@ -1,0 +1,24 @@
+{
+  "key": "slus-20694-murad58",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/murad58-onimusha-3-demon-siege-slus-20694-20260728.tar.zst",
+      "sha256": "d5ebbead9a531397878bd0ee851dd2e96118dd1c43431b3e45d19469ed4a5c06",
+      "size_bytes": 1741633125,
+      "decompressed_size_bytes": 2308976640,
+      "file_count": 5234,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E42250B62FB21FFB768C4E5581594054D51D676E5A0A2ECBDA9F3C8981499ABA",
+        "size_bytes": 5549101956
+      }
+    }
+  ]
+}

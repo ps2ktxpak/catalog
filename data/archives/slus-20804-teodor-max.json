@@ -1,0 +1,24 @@
+{
+  "key": "slus-20804-teodor-max",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/teodor-max-forgotten-realms-demon-stone-slus-20804-20260727.tar.zst",
+      "sha256": "30e0531972fb2a966be61a7f499fe9ef241f5b5a50ceda098456feee9d780141",
+      "size_bytes": 759828426,
+      "decompressed_size_bytes": 1502740480,
+      "file_count": 3842,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "59AE9BF3B9EDD7E123BEC3F48321D077D37B6B913214E8934153643BB772CD0A",
+        "size_bytes": 1934674744
+      }
+    }
+  ]
+}

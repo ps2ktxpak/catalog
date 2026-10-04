@@ -1,0 +1,81 @@
+key: slus-21326-panda-venom
+catalog_id: panda-venom-shadow-hearts-from-the-new-world-slus-21326-20260728
+name: 'Shadow Hearts: From the New World HD Texture Pack'
+game:
+  title: 'Shadow Hearts: From the New World'
+  serials:
+  - SLUS-21326
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack covering backgrounds, monsters and characters, with the source author's documented UI dumping limitation.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shadow-hearts-from-the-new-world-usa-hd-textures.646711/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121191649-jpg.415543/
+    thumb_url: https://gbatemp.net/data/attachments/414/414931-3563515195cc04cfa52c44dddc1eb619.jpg?hash=NWNRUZXMBM
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121191752-jpg.415544/
+    thumb_url: https://gbatemp.net/data/attachments/414/414932-1574581737b67b129489fe205a76db18.jpg?hash=FXRYFze2ex
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121191810-jpg.415545/
+    thumb_url: https://gbatemp.net/data/attachments/414/414933-d35e704cfdf8810aa3c0d96bfc2de114.jpg?hash=015wTP34gQ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121191940-jpg.415546/
+    thumb_url: https://gbatemp.net/data/attachments/414/414934-856394fc0d338e99ba624fb7e15f7833.jpg?hash=hWOU_A0zjp
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121191956-jpg.415547/
+    thumb_url: https://gbatemp.net/data/attachments/414/414935-b5a670a7baff4a5a66c5b7fd61fd9676.jpg?hash=taZwp7r_Sl
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121192026-jpg.415548/
+    thumb_url: https://gbatemp.net/data/attachments/414/414936-7e2b8e327f602ffeba79a5ee39db575b.jpg?hash=fiuOMn9gL_
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240121192342-jpg.415549/
+    thumb_url: https://gbatemp.net/data/attachments/414/414937-990ea460bef8e9fb3b6409b35b9544ef.jpg?hash=mQ6kYL746f
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240122074058-jpg.415550/
+    thumb_url: https://gbatemp.net/data/attachments/414/414938-190cd908ec459ae78e73f9957718ed97.jpg?hash=GQzZCOxFmu
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD background, monster and character texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/shadow-hearts-from-the-new-world-usa-hd-textures.646711/
+  version: Version 1 public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,78 @@
+key: slus-21845-panda-venom
+catalog_id: panda-venom-raidou-king-abaddon-slus-21845-20260726
+name: 'Devil Summoner 2: Raidou Kuzunoha vs. King Abaddon HD Texture Pack'
+game:
+  title: 'Devil Summoner 2: Raidou Kuzunoha vs. King Abaddon'
+  serials:
+  - SLUS-21845
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A work-in-progress North American texture pack covering the interface and a substantial selection of characters, monsters and environments.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/raidou-kuzunoha-vs-king-abaddon-usa-hd-remaster-work-in-progress.626832/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022615-jpg.355741/
+    thumb_url: https://gbatemp.net/data/attachments/355/355129-b8f80a9622720113a72c7319496135a1.jpg?hash=uPgKliJyAR
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022615-jpg.355742/
+    thumb_url: https://gbatemp.net/data/attachments/355/355130-f3079c7ffec484ff244549eced1e3cee.jpg?hash=8wecf_7EhP
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022615-jpg.355743/
+    thumb_url: https://gbatemp.net/data/attachments/355/355131-5bdaad0a5ba9c68e86206c061ede889d.jpg?hash=W9qtClupxo
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022521-jpg.355740/
+    thumb_url: https://gbatemp.net/data/attachments/355/355128-f2fc388bf4f780828c625582b767cd4a.jpg?hash=8vw4i_T3gI
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022615-jpg.355744/
+    thumb_url: https://gbatemp.net/data/attachments/355/355132-187ef0e386382f8475210764627ba579.jpg?hash=GH7w44Y4L4
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022515-jpg.355738/
+    thumb_url: https://gbatemp.net/data/attachments/355/355126-51da6444fe8d468ac235ab5fac6f9fff.jpg?hash=UdpkRP6NRo
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022515-jpg.355739/
+    thumb_url: https://gbatemp.net/data/attachments/355/355127-92c32ba5e58fcf8f71c98a87c8e51861.jpg?hash=ksMrpeWPz4
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Incomplete AI-upscaled texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/raidou-kuzunoha-vs-king-abaddon-usa-hd-remaster-work-in-progress.626832/
+  version: v0.5 incomplete public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

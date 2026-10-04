@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/bmx-xxx-pcsx2-hd-texture.665814/",
+  "listings": [
+    "l-e3beee705e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "BMX XXX PCSX2 HD TEXTURE"
+  },
+  "videos": [
+    {
+      "id": "tySGByMaJ2I",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://www.mediafire.com/file/lvo6ysmivj73nf8/BMX_XXX.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "BMX XXX Ko-Fi SERIAL: SLUS-20415 CRC: 2999BCF9 SIZE: 628"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e3beee705e",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/lvo6ysmivj73nf8/BMX_XXX.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

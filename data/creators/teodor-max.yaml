@@ -1,0 +1,28 @@
+id: teodor-max
+name: TEODOR_MAX
+aliases:
+- teodor_max
+links:
+  page: https://gbatemp.net/members/teodor_max.672319/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/channel/UCX3LvFqKeiivzvuUIJ42--A
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/672/672319.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

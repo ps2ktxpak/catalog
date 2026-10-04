@@ -1,0 +1,24 @@
+{
+  "key": "slus-21427-callofcthuloo",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-wwe-smackdown-vs-raw-2007-slus-21427-20260727.tar.zst",
+      "sha256": "0c7867805625312a249bb21a15b3a84bd6706017b9f74f6f1029b7c9223e6810",
+      "size_bytes": 1354357215,
+      "decompressed_size_bytes": 2106705920,
+      "file_count": 9767,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "179E122D83F3BC8ADCAB8F75A9E278B6B5CA15488615AFA821E69060833AB7F7",
+        "size_bytes": 3761198870
+      }
+    }
+  ]
+}

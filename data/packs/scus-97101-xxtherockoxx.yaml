@@ -1,0 +1,75 @@
+key: scus-97101-xxtherockoxx
+catalog_id: xxtherockoxx-twisted-metal-black-scus-97101-20260722
+name: 'Twisted Metal: Black HD Texture Pack'
+game:
+  title: 'Twisted Metal: Black'
+  serials:
+  - SCUS-97101
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: High-resolution vehicle, arena, effects and interface texture replacements for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/twisted-metal-black-hd.626499/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.354458/
+    thumb_url: https://gbatemp.net/data/attachments/353/353846-24dd9daff4b2679d6957a5ecebca9692.jpg?hash=JN2dr_SyZ5
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/555-png.354465/
+    thumb_url: https://gbatemp.net/data/attachments/353/353853-06dda9340f686c083d07574759af247b.jpg?hash=Bt2pNA9obA
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.354466/
+    thumb_url: https://gbatemp.net/data/attachments/353/353854-381626415a5353ae789ebb857c6969af.jpg?hash=OBYmQVpTU6
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.354468/
+    thumb_url: https://gbatemp.net/data/attachments/353/353856-38c027cdfd92d4cd0f58a9f9b2a1e035.jpg?hash=OMAnzf2S1M
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.354469/
+    thumb_url: https://gbatemp.net/data/attachments/353/353857-1cc872bf21f3cffc63352565f7b8ae24.jpg?hash=HMhyvyHzz_
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: aghiEZEGMm8
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; preserved from the original GBAtemp release and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/twisted-metal-black-hd.626499/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

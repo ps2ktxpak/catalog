@@ -1,0 +1,50 @@
+key: sces-52456-texmaster
+catalog_id: andritgames20-ratchet-clank-up-your-arsenal-sces-52456-20260728
+name: 'Ratchet & Clank: Up Your Arsenal Texture Pack'
+game:
+  title: 'Ratchet & Clank: Up Your Arsenal'
+  serials:
+  - SCES-52456
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-3-texture-pack-hd.661786/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Andritgames20
+  credits: HD texture pack credited by the source to Andritgames20; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ratchet-clank-3-texture-pack-hd.661786/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

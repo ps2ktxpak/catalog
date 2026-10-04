@@ -1,0 +1,89 @@
+key: slus-21108-curse-arms
+catalog_id: texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-hitman-blood-money-hd-remaster-community-archive-slus-21108-20260728
+name: Hitman Blood Money HD Remaster - Community Archive Texture Pack
+game:
+  title: Hitman Blood Money
+  serials:
+  - SLUS-21108
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/hitman-blood-money-hd-textures.668211/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.490185/
+    thumb_url: https://gbatemp.net/data/attachments/489/489573-c48bb0f9075d559e378c378c939ce7ba.jpg?hash=xIuw-QddVZ
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.490186/
+    thumb_url: https://gbatemp.net/data/attachments/489/489574-584e1061d67918c147db7263532b57e2.jpg?hash=WE4QYdZ5GM
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.490187/
+    thumb_url: https://gbatemp.net/data/attachments/489/489575-0625dace22f3d4bd5b389e8839768fc9.jpg?hash=BiXaziLz1L
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_5-png.490188/
+    thumb_url: https://gbatemp.net/data/attachments/489/489576-fe1053dcdf849dedcf855679778d2e0a.jpg?hash=_hBT3N-Ene
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_6-png.490189/
+    thumb_url: https://gbatemp.net/data/attachments/489/489577-56deb4611e4566ef1c0dbb9b7f7b08b6.jpg?hash=Vt60YR5FZu
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_7-png.490190/
+    thumb_url: https://gbatemp.net/data/attachments/489/489578-2ddd6bf2736f3bea79ef1249fab89460.jpg?hash=Ld1r8nNvO-
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_8-png.490191/
+    thumb_url: https://gbatemp.net/data/attachments/489/489579-ab3c5e09223ea210bcdf2e4a66255c4d.jpg?hash=qzxeCSI-oh
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_9-png.490192/
+    thumb_url: https://gbatemp.net/data/attachments/489/489580-d427e0843dafa168d1fe92fb057ed082.jpg?hash=1CfghD2voW
+    credit: curse-arms
+  videos:
+  - provider: youtube
+    id: Kz9h2yQ5DLY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Curse_Arms by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Curse_Arms by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

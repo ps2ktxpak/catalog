@@ -1,0 +1,84 @@
+key: slus-20787-paynexkiller
+catalog_id: paynexkiller-wwe-here-comes-the-pain-championships-slus-20787-20260726
+name: WWE SmackDown! Here Comes the Pain Championship Pack
+game:
+  title: WWE SmackDown! Here Comes the Pain
+  serials:
+  - SLUS-20787
+credits:
+- creator: paynexkiller
+type: unknown
+completeness: partial
+description: A focused replacement pack containing championship title graphics and their season-mode renders for the North American release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wwe-smackdown-here-comes-the-pain-usa-championship-replacement-pack.653224/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/smackdownpain-1650654206596-jpg.430331/
+    thumb_url: https://gbatemp.net/data/attachments/429/429719-5bde5dc2b92d027fa576a6b3c7f74086.jpg?hash=W95dwrktAn
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/herecomesthepainseasonmoderenders-png.430333/
+    thumb_url: https://gbatemp.net/data/attachments/429/429721-c66a041ed00a1298fc115f6305ae1a37.jpg?hash=jpk5cWuOnh
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240404202547-png.430339/
+    thumb_url: https://gbatemp.net/data/attachments/429/429727-500cf5a659d25aa67e4d496633721b3f.jpg?hash=UAz1plnSWq
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240406035425-png.430338/
+    thumb_url: https://gbatemp.net/data/attachments/429/429726-a61fa7febf821549a71053da08202471.jpg?hash=ph-n_r-CFU
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240406040016-png.430334/
+    thumb_url: https://gbatemp.net/data/attachments/429/429722-284bdf04c67b2dcae32030e547c5caea.jpg?hash=KEvfBMZ7Lc
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240406035852-png.430335/
+    thumb_url: https://gbatemp.net/data/attachments/429/429723-61ab00d6879a0ebcd45bafc542acb794.jpg?hash=YasA1oeaDr
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240406035827-png.430341/
+    thumb_url: https://gbatemp.net/data/attachments/429/429729-baed3b8de092c9e8fe32834837df18f3.jpg?hash=uu07jeCSye
+    credit: paynexkiller
+  - source_url: https://gbatemp.net/attachments/wwe-smackdown-here-comes-the-pain_slus-20787_20240405033552-png.430340/
+    thumb_url: https://gbatemp.net/data/attachments/429/429728-bc7908f0937ebb25f0312259aa7efeb3.jpg?hash=vHkI8JN-uy
+    credit: paynexkiller
+  videos:
+  - provider: youtube
+    id: NP5MMiyikAo
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - paynexkiller
+  credits: Championship title and season-mode render replacement pack created by paynexkiller; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/wwe-smackdown-here-comes-the-pain-usa-championship-replacement-pack.653224/
+  version: Partial public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

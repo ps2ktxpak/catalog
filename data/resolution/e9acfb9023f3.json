@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-3-16-9-hd-texture-pack.642510/",
+  "listings": [
+    "l-e655d8cfe7"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dragon Ball Z: Budokai Tenkaichi 3  16:9 HD texture pack"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1MyUzpU7D_4HiP3szxK8YhkkF--YSGZnd/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "example). The pack is still not completely done, will finish when i have the time Download links: 16:9 4:3 (older version, some less important textures"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1ifbxB4RFNFqQhXMNxlWe5nLIl9iil3rm/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "ave the time Download links: 16:9 4:3 (older version, some less important textures weren't upscaled):"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e655d8cfe7",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1MyUzpU7D_4HiP3szxK8YhkkF--YSGZnd/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator lists Google Drive link for 16:9 version in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

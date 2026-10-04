@@ -1,0 +1,33 @@
+id: mvp899
+name: mvp899
+links:
+  page: https://gbatemp.net/members/mvp899.614826/
+  tip:
+  - kind: paypal
+    url: https://www.paypal.com/donate/?hosted_button_id=NZDH7VR653YKC
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@omegagame8653
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/614/614826.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

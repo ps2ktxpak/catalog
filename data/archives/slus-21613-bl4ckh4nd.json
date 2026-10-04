@@ -1,0 +1,24 @@
+{
+  "key": "slus-21613-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-manhunt-2-hd-remaster-community-archive-slus-21613-20260728.tar.zst",
+      "sha256": "53abc6151d553095c9127c8d6eb38784631a66625fe90091d81943b2040edc55",
+      "size_bytes": 673840344,
+      "decompressed_size_bytes": 879319040,
+      "file_count": 4082,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "74FC6F6A0375D02C06FAE5676302FD5659BBC32C8944229EABFE298E2DC4C213",
+        "size_bytes": 1415634681
+      }
+    }
+  ]
+}

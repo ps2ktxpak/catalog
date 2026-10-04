@@ -1,0 +1,24 @@
+{
+  "key": "sles-53725-texmaster",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texmaster-asterix-obelix-xxl2-sles-53725-20260726.tar.zst",
+      "sha256": "3683c7866688c15c3d755da5817255687e3958cc44dd6ba4653ddba5c5626f1d",
+      "size_bytes": 134122312,
+      "decompressed_size_bytes": 187678720,
+      "file_count": 2349,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "569996DF4C962525F966F51017A7A3DD305437C06A4F463CA4523C76F385ED83",
+        "size_bytes": 557452255
+      }
+    }
+  ]
+}

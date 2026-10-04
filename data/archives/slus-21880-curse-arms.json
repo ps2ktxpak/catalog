@@ -1,0 +1,24 @@
+{
+  "key": "slus-21880-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/curse-arms-x-men-origins-wolverine-slus-21880-20260726.tar.zst",
+      "sha256": "b8cffd4aa34746f8ef92d61af829e86070d7cea71a3aeda57ea7c80f32fd31d6",
+      "size_bytes": 54336140,
+      "decompressed_size_bytes": 84848640,
+      "file_count": 1502,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "0819666174F611D203E950A14BDBC38546BD71DD2858FE3ABD13D1D8E8041051",
+        "size_bytes": 47148257
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+key: slus-20923-sombertwilight
+catalog_id: sombertwilight-kof-maximum-impact-slus-20923-20260727
+name: 'The King of Fighters: Maximum Impact HD Texture Pack'
+game:
+  title: 'The King of Fighters: Maximum Impact'
+  serials:
+  - SLUS-20923
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+description: A complete North American HD texture replacement pack for the first Maximum Impact game.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kof-maximum-impact-ntsc.645076/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/king-of-fighters-maximum-impact_slus-20923_20231225042313-png.410251/
+    thumb_url: https://gbatemp.net/data/attachments/409/409639-02a7e5081ddeac68ccbdb5c2cb360ae5.jpg?hash=AqflCB3erG
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/king-of-fighters-maximum-impact_slus-20923_20231225042307-png.410257/
+    thumb_url: https://gbatemp.net/data/attachments/409/409645-efbe44ca14eb644f09cd8bfe059b7177.jpg?hash=775EyhTrZE
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: Complete HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/kof-maximum-impact-ntsc.645076/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

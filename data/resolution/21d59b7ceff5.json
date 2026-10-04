@@ -1,0 +1,36 @@
+{
+  "source_url": "https://gbatemp.net/threads/burnout-2-point-of-impact-slus-20497-hd.664631/",
+  "listings": [
+    "l-192438c50b"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Burnout 2 Point of Impact [SLUS-20497] HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://cloud.mail.ru/public/KSqK/ggYHpztaE",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "I wanted to play the second part, but I didn't find any HD textures, so I had to do it myself Download Spoiler: Comparison"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-192438c50b",
+      "status": "resolved",
+      "base_url": "https://cloud.mail.ru/public/KSqK/ggYHpztaE",
+      "host": "other",
+      "kind": "folder",
+      "confidence": "medium",
+      "reason": "Creator's opening post references download; candidate link extracted from evidence.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

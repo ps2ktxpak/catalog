@@ -1,0 +1,24 @@
+{
+  "key": "sces-53326-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-shadow-of-the-colossus-20260722.tar.zst",
+      "sha256": "93cc9cc43f474a7f2b5519b158b0f69047149d4b2e2450877358fc3afcac60e1",
+      "size_bytes": 373802223,
+      "decompressed_size_bytes": 601917440,
+      "file_count": 2244,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "5145952B5B3A3C94FD523EAE0FCC44F0BA61204193E4006E3B835AA935BD77D2",
+        "size_bytes": 423085270
+      }
+    }
+  ]
+}

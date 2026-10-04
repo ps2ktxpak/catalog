@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-lego-batman-the-videogame-sles-55135-hd-textures.664769/",
+  "listings": [
+    "l-45cbf545a6"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] LEGO Batman: The Videogame [SLES-55135] | HD Textures [1.0]"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1Ez-JzJuSiFGI3SlI5uVNh6Fq9j3pTqsv/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "Thread: HD Texture Pack for Lego Batman (PS2) Download Here: Hey everyone! I’m mzzvxm, a Brazilian fan of re"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-45cbf545a6",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1Ez-JzJuSiFGI3SlI5uVNh6Fq9j3pTqsv/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

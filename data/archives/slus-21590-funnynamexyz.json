@@ -1,0 +1,24 @@
+{
+  "key": "slus-21590-funnynamexyz",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/funnynamexyz-vice-city-stories-wip-slus-21590-20260726.tar.zst",
+      "sha256": "8336c4eb1f2d3c1887005064959431ce68b29691335966e7eb7702a464535b75",
+      "size_bytes": 183504669,
+      "decompressed_size_bytes": 229826560,
+      "file_count": 3055,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F1C632DAAA773374D6209AE2F0FEEFC6C3888B23DCEDCD082DCF5F43702D4A84",
+        "size_bytes": 484521894
+      }
+    }
+  ]
+}

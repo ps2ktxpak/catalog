@@ -1,0 +1,24 @@
+{
+  "key": "slus-20147-callofcthuloo",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-avp-extinction-android-slus-20147-20260726.tar.zst",
+      "sha256": "8e2b92fa009e79d0f63fe3e2efbd7117d168f3d420e6b7fb0ce58e920495c16b",
+      "size_bytes": 92521966,
+      "decompressed_size_bytes": 163450880,
+      "file_count": 523,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "661C639909817BE0B08A9E157F9519771493FAEBBA7FF1A4A81BFF8E1DE8E98D",
+        "size_bytes": 373551004
+      }
+    }
+  ]
+}

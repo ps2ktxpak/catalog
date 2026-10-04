@@ -1,0 +1,81 @@
+key: slus-21351-sombershroud
+catalog_id: sombershroud-nfs-most-wanted-black-edition-slus-21351
+name: 'Need for Speed: Most Wanted Black Edition HD Textures'
+game:
+  title: 'Need for Speed: Most Wanted Black Edition'
+  serials:
+  - SLUS-21351
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+description: Extensive upscaled building, vehicle, road, frontend and world texture pack for the North American Black Edition.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/need-for-speed-most-wanted-black-edition-usa-hd-textures.650550/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310230050-png.425164/
+    thumb_url: https://gbatemp.net/data/attachments/424/424552-af7c16c42e0cb4ff2f8d0d3612e68098.jpg?hash=r3wWxC4MtP
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310230824-png.425165/
+    thumb_url: https://gbatemp.net/data/attachments/424/424553-e62e58b7863f3fbf91aa38f47d10e8e7.jpg?hash=5i5Yt4Y_P7
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310230249-png.425166/
+    thumb_url: https://gbatemp.net/data/attachments/424/424554-87ec9d186f2ee5fea881c319a49227ae.jpg?hash=h-ydGG8u5f
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310225930-png.425167/
+    thumb_url: https://gbatemp.net/data/attachments/424/424555-4afd3d93e35a694c48f50240a4e6c544.jpg?hash=Sv09k-NaaU
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310225410-png.425169/
+    thumb_url: https://gbatemp.net/data/attachments/424/424557-db93553780a905f787f2b29d0fc5f31e.jpg?hash=25NVN4CpBf
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310225342-png.425170/
+    thumb_url: https://gbatemp.net/data/attachments/424/424558-ba3dd53f007928ecdb25ce98f137d06e.jpg?hash=uj3VPwB5KO
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/need-for-speed-most-wanted-black-edition-_slus-21351_20240310225748-png.441583/
+    thumb_url: https://gbatemp.net/data/attachments/440/440971-8ff2062f75eadf1e31b209d1dbe7d563.jpg?hash=j_IGL3Xq3x
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/305f2010f351c57e-ca52252708df779d-000059d3-png.425160/
+    thumb_url: https://gbatemp.net/data/attachments/424/424548-4833f6391230e4beeb6ac29bc13c625a.jpg?hash=SDP2ORIw5L
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack created by SomberShroud using 4xHDCube 4; mirrored by EmuCoreX with the original source retained.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/need-for-speed-most-wanted-black-edition-usa-hd-textures.650550/
+  version: '1.0'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/rygar-the-legendary-adventure-pcsx2-hd-texture.673766/",
+  "listings": [
+    "l-1789378b73"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Rygar The Legendary Adventure PCSX2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "ytSpapo_jq0",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://ko-fi.com/s/9711bdaa96",
+          "host": "kofi",
+          "kind": "shop",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI SERIAL: SLUS-20471 CRC: 3E2A42FA SIZE: 3,13g"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-1789378b73",
+      "status": "resolved",
+      "base_url": "https://ko-fi.com/s/9711bdaa96",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

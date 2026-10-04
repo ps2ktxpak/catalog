@@ -1,0 +1,70 @@
+key: sles-53747-sombershroud
+catalog_id: sombershroud-ed-edd-n-eddy-the-mis-edventures-sles-53747-20260728
+name: 'Ed, Edd, n Eddy: The Mis-Edventures Texture Pack'
+game:
+  title: 'Ed, Edd, n Eddy: The Mis-Edventures'
+  serials:
+  - SLES-53747
+  - SLUS-21260
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: incomplete
+description: A multi-region high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ed-edd-n-eddy-the-mis-edventures-usa-hd-textures.643611/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/ed-edd-n-eddy-the-mis-edventures_slus-21260_20231125171457-png.406165/
+    thumb_url: https://gbatemp.net/data/attachments/405/405553-10c7ea4e4b3bd989cdf5cb8fe94999a0.jpg?hash=EMfqTks72Y
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/ed-edd-n-eddy-the-mis-edventures_slus-21260_20231125171857-png.406166/
+    thumb_url: https://gbatemp.net/data/attachments/405/405554-6bbe82503c4dc90bcca2f4111b0c56f3.jpg?hash=a76CUDxNyQ
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/ed-edd-n-eddy-the-mis-edventures_slus-21260_20231125171616-png.406167/
+    thumb_url: https://gbatemp.net/data/attachments/405/405555-ccdbe03f8e6c36ce39ac6780cd5fb4eb.jpg?hash=zNvgP45sNs
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/ed-edd-n-eddy-the-mis-edventures_slus-21260_20231125171932-png.406168/
+    thumb_url: https://gbatemp.net/data/attachments/405/405556-2869d82234579ea3b0f22b09e93edf37.jpg?hash=KGnYIjRXnq
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack credited by the source to SomberShroud; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ed-edd-n-eddy-the-mis-edventures-usa-hd-textures.643611/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

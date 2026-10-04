@@ -1,0 +1,24 @@
+{
+  "key": "slus-20382-callofcthuloo-2",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-gundam-federation-vs-zeon-desktop-slus-20382-20260728.tar.zst",
+      "sha256": "82212eca4ddfeaccc3d860a7f139f0451c965f24844eea9965f628a11453a547",
+      "size_bytes": 551490783,
+      "decompressed_size_bytes": 1760665600,
+      "file_count": 3686,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "C1F6951511336F032CE7C4FE005D2C54FBFA9A21CF2BE767E6466594470CE062",
+        "size_bytes": 1837649246
+      }
+    }
+  ]
+}

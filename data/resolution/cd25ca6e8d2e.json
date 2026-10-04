@@ -1,0 +1,42 @@
+{
+  "source_url": "https://gbatemp.net/threads/god-of-war-2-20-years-pcsx2-hd-texture.668193/",
+  "listings": [
+    "l-01181aa053"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "God of War 2 20 years Pcsx2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "rUNs5GXxLDs",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "God of War 2 20 years Ko-Fi SERIAL: SCUS-97481 CRC: 2F123FD8 SIZE: 6.27G"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-01181aa053",
+      "status": "paid",
+      "base_url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "high",
+      "reason": "Pack available through Ko-fi shop; Portuguese text mentions prior deletion.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+id: beto818
+name: Beto818
+aliases:
+- beto818
+links:
+  page: https://gbatemp.net/members/beto818.762970/
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/762/762970.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

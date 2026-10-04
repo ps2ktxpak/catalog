@@ -1,0 +1,22 @@
+id: irvinsmith
+name: IrvinSmith
+aliases:
+- irvinsmith
+links:
+  page: https://gbatemp.net/members/irvinsmith.700802/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@irvinsmith5344/videos
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

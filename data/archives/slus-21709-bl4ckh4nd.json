@@ -1,0 +1,24 @@
+{
+  "key": "slus-21709-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-obscure-the-aftermath-hd-remaster-community-archive-slus-21709-20260728.tar.zst",
+      "sha256": "03b28e70f9ea89809ee169317ef981d9604928e7983c8fe4293c2a93e13ec991",
+      "size_bytes": 972963548,
+      "decompressed_size_bytes": 1328087040,
+      "file_count": 3109,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "82D5EBFBF5C417DBCEDE21AF807C2B843F217587EF07C0C26A2E7DC570D2C1BC",
+        "size_bytes": 2088206158
+      }
+    }
+  ]
+}

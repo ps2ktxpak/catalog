@@ -1,0 +1,24 @@
+{
+  "key": "slus-20820-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-tom-clancy-s-ghost-recon-jungle-storm-slus-20820-20260728.tar.zst",
+      "sha256": "bac9d401f8e2da7def1d9fd12400cc515cfe00930f4804030d92c0fa1a587517",
+      "size_bytes": 754185692,
+      "decompressed_size_bytes": 1129308160,
+      "file_count": 2136,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "9F5B16B3DB926AD4F65A6B7431E0260C9A7EEBA992676B0E594296F2FFFFD70E",
+        "size_bytes": 927458101
+      }
+    }
+  ]
+}

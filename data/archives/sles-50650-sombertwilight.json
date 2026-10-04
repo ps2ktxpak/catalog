@@ -1,0 +1,24 @@
+{
+  "key": "sles-50650-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-resident-evil-survivor-2-code-veronica-sles-50650-20260728.tar.zst",
+      "sha256": "dbdaca1273b18de864902a573e49080ae9f658d3befcf903890cc09b2494196e",
+      "size_bytes": 878159047,
+      "decompressed_size_bytes": 1401896960,
+      "file_count": 3001,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "28A4D06957CAC128648D8EAA2DCE89BB3D20AC8858DE969054C919F246888422",
+        "size_bytes": 973982946
+      }
+    }
+  ]
+}

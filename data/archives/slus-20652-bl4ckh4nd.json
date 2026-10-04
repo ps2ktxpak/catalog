@@ -1,0 +1,24 @@
+{
+  "key": "slus-20652-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-tom-clancy-s-splinter-cell-hd-remaster-community-archive-slus-20652-20260728.tar.zst",
+      "sha256": "bc77dfb3b266c7fef74ef6602e714d5e7dd75a66ea53ff764ef4abda507d61f5",
+      "size_bytes": 647614269,
+      "decompressed_size_bytes": 895324160,
+      "file_count": 3080,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "12ACE0AEAD099610335BD469D2A937C27DAC5889644A2627D6E7035F9F62E2F4",
+        "size_bytes": 1330502527
+      }
+    }
+  ]
+}

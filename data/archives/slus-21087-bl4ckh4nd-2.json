@@ -1,0 +1,24 @@
+{
+  "key": "slus-21087-bl4ckh4nd-2",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-mortal-kombat-shaolin-monks-slus-21087-20260728.tar.zst",
+      "sha256": "41ede11f5ad14d39ea3209a7bc93c85fb918328f42d062fffc846739a02ac5e9",
+      "size_bytes": 413968129,
+      "decompressed_size_bytes": 680048640,
+      "file_count": 1550,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DF6A87671F4335B43205766DAA102E56CBC5111FAE2D8A26539D8D0EBA5952BD",
+        "size_bytes": 873138342
+      }
+    }
+  ]
+}

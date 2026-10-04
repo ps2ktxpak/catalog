@@ -1,0 +1,24 @@
+{
+  "key": "slus-21108-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-hitman-blood-money-hd-remaster-community-archive-slus-21108-20260728.tar.zst",
+      "sha256": "16507ed2b10d7bbbf0df551ea10db90dd68ad8a5ce7ca48a51cea2fe6b96ebbe",
+      "size_bytes": 303639727,
+      "decompressed_size_bytes": 459827200,
+      "file_count": 3368,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "7EBBBE262DEECCBECCB978A369383ED8C4B5BF7B05A0955553A94DF2BF43F6EE",
+        "size_bytes": 922910595
+      }
+    }
+  ]
+}

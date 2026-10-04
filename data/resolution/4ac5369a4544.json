@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/rumble-roses-hd-texture-pack.615568/",
+  "listings": [
+    "l-b69b051677"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Rumble Roses HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/vmtz18ezvrlh35w/replacements.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "If I discover any more that I have missed, then I will update the texture pack at a later date. Mediafire: https://www.mediafire.com/file/vmtz18ezvrlh35w/rep"
+    },
+    {
+      "url": "https://mega.nz/file/nBAWgL7Q#z_vTx1Q4gIu4Epptw_FQ8Y4TG66_5YxmnidQhLixmps",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "ck at a later date. Mediafire: https://www.mediafire.com/file/vmtz18ezvrlh35w/replacements.7z/file MegaNZ: https://mega.nz/file/nBAWgL7Q#z_vTx1Q4gIu4Epptw_FQ"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-b69b051677",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/vmtz18ezvrlh35w/replacements.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided MediaFire link as primary download in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

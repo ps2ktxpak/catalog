@@ -1,0 +1,76 @@
+key: slus-21278-bl4ckh4nd
+catalog_id: bl4ckh4nd-ssx-on-tour-slus-21278-20260728
+name: SSX On Tour HD Texture Pack
+game:
+  title: SSX On Tour
+  serials:
+  - SLUS-21278
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+description: The North American SSX On Tour HD remaster prepared for current PCSX2 builds.
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ssx-on-tour-ps2-xbox-button-texture-replacement-pack-bl4ckh4nds-hd-remaster.660312/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-02-144049-png.455815/
+    thumb_url: https://gbatemp.net/data/attachments/455/455203-3319019bf7b40e5f777d42d286f0ebdd.jpg?hash=MxkBm_e0Dl
+    credit: bl4ckh4nd
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-02-143952-png.455816/
+    thumb_url: https://gbatemp.net/data/attachments/455/455204-fa66d2049c13d7567ba405fcfb2f8528.jpg?hash=-mbSBJwT11
+    credit: bl4ckh4nd
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-02-143842-png.455817/
+    thumb_url: https://gbatemp.net/data/attachments/455/455205-a00bdca3a8f3f427b01928584abde1ab.jpg?hash=oAvco6jz9C
+    credit: bl4ckh4nd
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-02-143906-png.455818/
+    thumb_url: https://gbatemp.net/data/attachments/455/455206-a99cdfd5896c3844f2c7987ff0b6ecaa.jpg?hash=qZzf1YlsOE
+    credit: bl4ckh4nd
+  videos:
+  - provider: youtube
+    id: tJF3RKA5yXQ
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Bl4ckH4nd
+  credits: HD texture pack created by Bl4ckH4nd; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ssx-on-tour-ps2-xbox-button-texture-replacement-pack-bl4ckh4nds-hd-remaster.660312/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

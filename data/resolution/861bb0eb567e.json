@@ -1,0 +1,31 @@
+{
+  "source_url": "https://gbatemp.net/threads/prince-of-persia-the-two-thrones-texture-remaster-hd-pack-sles-53777.669458/",
+  "listings": [
+    "l-d59706f763"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Prince of Persia: The Two Thrones - Texture Remaster HD Pack (SLES-53777)"
+  },
+  "videos": [
+    {
+      "id": "KxRmTeUtm3E",
+      "links": []
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-d59706f763",
+      "status": "not_found",
+      "confidence": "high",
+      "reason": "Evidence contains minimal opening post text and no candidate download links.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

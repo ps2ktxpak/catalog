@@ -1,0 +1,83 @@
+key: scus-97465-skyfighterzx
+catalog_id: skyfighterzx-ratchet-deadlocked-scus-97465-v02
+name: 'Ratchet: Deadlocked HD Texture Pack'
+game:
+  title: 'Ratchet: Deadlocked'
+  serials:
+  - SCUS-97465
+credits:
+- creator: skyfighterzx
+type: ai_upscale
+completeness: in_progress
+description: A compact alternative HD environment, character, weapon, effects and interface replacement pack for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-gladiator-deadlocked-upscaled-textures-scus-97465.633419/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/ratchet-deadlocked_scus-97465_20230523220559-png.373465/
+    thumb_url: https://gbatemp.net/data/attachments/372/372853-2f0c424590efd073566d26d6208ed0b3.jpg?hash=LwxCRZDv0H
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/ratchet-deadlocked_scus-97465_20230523220630-png.373466/
+    thumb_url: https://gbatemp.net/data/attachments/372/372854-82305249df24881d22fe72851bc79bb4.jpg?hash=gjBSSd8kiB
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/example-2-1-png.373467/
+    thumb_url: https://gbatemp.net/data/attachments/372/372855-c026d48d3b15cde4beb0d7f5b0641ee1.jpg?hash=wCbUjTsVze
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/example-2-2-png.373468/
+    thumb_url: https://gbatemp.net/data/attachments/372/372856-feaf1ab5b99e8368e0d87024197af44f.jpg?hash=_q8atbmeg2
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/ratchet-deadlocked_scus-97465_20230523221225-png.373469/
+    thumb_url: https://gbatemp.net/data/attachments/372/372857-a80ae1004fa484a4f3320fc9b0ac0d1f.jpg?hash=qArhAE-khK
+    alt: Original
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/ratchet-deadlocked_scus-97465_20230523221229-png.373470/
+    thumb_url: https://gbatemp.net/data/attachments/372/372858-26e7f9899961add53b2ae076249fdeb9.jpg?hash=Juf5iZlhrd
+    alt: upscaled
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/ratchet-deadlocked_scus-97465_20230523221022-png.373471/
+    thumb_url: https://gbatemp.net/data/attachments/372/372859-70790657f47d329e18cfd37fe33a65ac.jpg?hash=cHkGV_R9Mp
+    credit: skyfighterzx
+  - source_url: https://gbatemp.net/attachments/ratchet-deadlocked_scus-97465_20230523221030-png.373472/
+    thumb_url: https://gbatemp.net/data/attachments/372/372860-9a296cab37e4711cc62cc0b0e62b4317.jpg?hash=milsqzfkcR
+    credit: skyfighterzx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SkyfighterZX
+  credits: HD texture pack created by SkyfighterZX; preserved from the original GBAtemp release and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ratchet-gladiator-deadlocked-upscaled-textures-scus-97465.633419/
+  version: v0.2
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,24 @@
+{
+  "key": "slus-21423-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-grand-theft-auto-liberty-city-stories-slus-21423-20260728.tar.zst",
+      "sha256": "482d48f5d59c27b47609784fa43cbad368eb765c8f22183321a3502707a6f674",
+      "size_bytes": 150810969,
+      "decompressed_size_bytes": 222023680,
+      "file_count": 4648,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "3480B4E82EBE3691594924856677E6A9B8871901EF73C9C34B3383A053300CBD",
+        "size_bytes": 291091031
+      }
+    }
+  ]
+}

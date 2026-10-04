@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/dead-to-rights-ii-pcsx2-hd-texture.679477/",
+  "listings": [
+    "l-b02b6ee1a2"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dead to Rights II Pcsx2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "aPoUWnktTc4",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://ko-fi.com/s/ff85340856",
+          "host": "kofi",
+          "kind": "shop",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-b02b6ee1a2",
+      "status": "resolved",
+      "base_url": "https://ko-fi.com/s/ff85340856",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

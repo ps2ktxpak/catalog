@@ -1,0 +1,24 @@
+{
+  "key": "scus-97399-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-god-of-war-20260722.tar.zst",
+      "sha256": "7282444619320102bcd5c3dc5bb08065a473cd2f4b10f64bf1ddb9dfc5cfa7ef",
+      "size_bytes": 376497477,
+      "decompressed_size_bytes": 481433600,
+      "file_count": 2218,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "396535CD0164AE4B3266F8EC33EAD538DD24D40D2C4825FA3812535547BD3030",
+        "size_bytes": 1405635132
+      }
+    }
+  ]
+}

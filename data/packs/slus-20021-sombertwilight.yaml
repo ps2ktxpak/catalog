@@ -1,0 +1,69 @@
+key: slus-20021-sombertwilight
+catalog_id: sombertwilight-kengo-master-bushido-slus-20021-20260727
+name: 'Kengo: Master of Bushido HD Texture Pack'
+game:
+  title: 'Kengo: Master of Bushido'
+  serials:
+  - SLUS-20021
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: A complete North American texture replacement pack with upgraded stage and game textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kengo-master-of-bushido-ntsc.666413/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/kengo-master-of-bushido_slus-20021_20250201095444-png.483791/
+    thumb_url: https://gbatemp.net/data/attachments/483/483179-c9018f7f6b3b847adf32658839214581.jpg?hash=yQGPf2s7hH
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/kengo-master-of-bushido_slus-20021_20250201095432-png.483792/
+    thumb_url: https://gbatemp.net/data/attachments/483/483180-30070ff62602ee96763f3f629d9a2ea7.jpg?hash=MAcP9iYC7p
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/kengo-master-of-bushido_slus-20021_20250201095414-png.483793/
+    thumb_url: https://gbatemp.net/data/attachments/483/483181-6715ab7191f678f682cfe48e16158dc7.jpg?hash=ZxWrcZH2eP
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/kengo-master-of-bushido_slus-20021_20250201095402-png.483794/
+    thumb_url: https://gbatemp.net/data/attachments/483/483182-12445f7c810cb8a22f4cdf6b2561aa9e.jpg?hash=EkRffIEMuK
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: Complete HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/kengo-master-of-bushido-ntsc.666413/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

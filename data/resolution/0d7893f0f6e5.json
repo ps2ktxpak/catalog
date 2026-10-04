@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/devil-may-cry-3-special-edition-hd-textures-pack.672657/",
+  "listings": [
+    "l-992b00c2db"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Devil May Cry 3 Special Edition - HD Textures Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/vvmyv7pg3cc8aqj",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Emulator: PCSX2 v2.0 Disk: SLUS-21361 ️𝓓𝓞𝓦𝓝𝓛𝓞𝓐𝓓 www.mediafire.com/file/vvmyv7pg3cc8aqj archive si"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-992b00c2db",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/vvmyv7pg3cc8aqj",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

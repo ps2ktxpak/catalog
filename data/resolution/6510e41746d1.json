@@ -1,0 +1,33 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-silent-hill-3-ntsc-u-slus-20622.673892/",
+  "listings": [
+    "l-14a0ad4842"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] Silent Hill 3 [NTSC-U] [SLUS-20622]"
+  },
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/sadorigami/shop",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "ombinations, but drenched in blood! Cookie Monsters! Pack ─ All monsters are replaced with giant cookies! Download​"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-14a0ad4842",
+      "status": "ambiguous",
+      "confidence": "medium",
+      "reason": "Creator links Ko-fi shop with feature list and 'coming soon' language; free/paid status unclear.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

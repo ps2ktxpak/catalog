@@ -1,0 +1,51 @@
+key: sles-54151-nexxusdrakomultimedia-4
+catalog_id: realism-texture-mod-created-let-s-make-a-soccer-team-realism-mod-v1-5-texture-pack-sles-54151-20260728
+name: Let's Make a Soccer Team! Realism Mod V1.5 Texture Pack
+game:
+  title: Let's Make a Soccer Team!
+  serials:
+  - SLES-54151
+credits:
+- creator: nexxusdrakomultimedia
+type: unknown
+completeness: unknown
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: repository
+  url: https://github.com/NexxusDrakoMultimedia/LMAST-Realism/releases/tag/V1.5
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Realism texture mod created
+  - maintained by NexxusDrakoMultimedia.
+  credits: HD texture pack credited by the source to Realism texture mod created and maintained by NexxusDrakoMultimedia.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://github.com/NexxusDrakoMultimedia/LMAST-Realism/releases/tag/V1.5
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

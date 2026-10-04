@@ -1,0 +1,24 @@
+{
+  "key": "slus-21658-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-need-for-speed-prostreet-slus-21658-20260728.tar.zst",
+      "sha256": "157ed75993a8ae300ce8be297b1dd8751b14d10558f824e2fd8a161080937ddc",
+      "size_bytes": 334066492,
+      "decompressed_size_bytes": 599367680,
+      "file_count": 2298,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "39E1E450FF9C4F425C5CDDBFF3CA588AAF5B8C9E9F7A02E52391DDDD0F26D839",
+        "size_bytes": 669649556
+      }
+    }
+  ]
+}

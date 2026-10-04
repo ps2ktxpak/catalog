@@ -1,0 +1,72 @@
+key: slus-21291-panda-venom
+catalog_id: panda-venom-suikoden-v-20260722
+name: Suikoden V HD Remaster
+game:
+  title: Suikoden V
+  serials:
+  - SLUS-21291
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: Completed widescreen-oriented HD texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/suikoden-v-usa-hd-remaster-widescreen-texture-pack.609820/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/suikoden-v_slus-21291_20231118060219-jpg.404774/
+    thumb_url: https://gbatemp.net/data/attachments/404/404162-9a05b5387c4e095f849ff7954620f781.jpg?hash=mgW1OHxOCV
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/ugherix-1-jpeg.303176/
+    thumb_url: https://gbatemp.net/data/attachments/302/302564-a76b9c9f5a4a6383411d56019baeee45.jpg?hash=p2ucn1pKY4
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/vme10fr-1-jpeg.303177/
+    thumb_url: https://gbatemp.net/data/attachments/302/302565-6a8501f324621745cd00e07f4672f731.jpg?hash=aoUB8yRiF0
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/mv0cgqi-1-jpeg.303178/
+    thumb_url: https://gbatemp.net/data/attachments/302/302566-6f231d06a21549ad47f5eac439722055.jpg?hash=byMdBqIVSa
+    credit: panda-venom
+  videos:
+  - provider: youtube
+    id: sEdexZoCraA
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/suikoden-v-usa-hd-remaster-widescreen-texture-pack.609820/
+  version: 3.0 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

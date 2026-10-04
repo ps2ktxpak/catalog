@@ -1,0 +1,24 @@
+{
+  "key": "sces-50294-gtafanwrld",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/gtafan-gt3-retexture-mobile-dds-emucorex1.tar.zst",
+      "sha256": "418f64cd86b35aa6c6dc94edc89b30d9943cb276a1dd4960f5a0c68914c7be11",
+      "size_bytes": 561758159,
+      "decompressed_size_bytes": 1512642560,
+      "file_count": 13714,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "C0571B5695D6B497E30A7E73F8A4AA2974DAA4992F85C732E81BAB784FCC7DF1",
+        "size_bytes": 1138388845
+      }
+    }
+  ]
+}

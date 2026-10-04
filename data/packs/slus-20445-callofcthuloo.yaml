@@ -1,0 +1,79 @@
+key: slus-20445-callofcthuloo
+catalog_id: callofcthuloo-robot-alchemic-drive-slus-20445-20260727
+name: Robot Alchemic Drive HD Texture Pack
+game:
+  title: Robot Alchemic Drive
+  serials:
+  - SLUS-20445
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: A complete North American HD texture replacement pack prepared for PCSX2 texture loading.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/robot-alchemic-drive-rad-slus-20445-hd-texture-pack-upscale.682128/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-27-22-00-51-png.575869/
+    thumb_url: https://gbatemp.net/data/attachments/575/575257-3b408d2dba748e0927f8fd7ef985c0d8.jpg?hash=tk3f4lPRH9
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-27-22-01-25-jpeg.575870/
+    thumb_url: https://gbatemp.net/data/attachments/575/575258-d127bc365c992fa134d3698d9084cba5.jpg?hash=-SeGM6K8lP
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-27-22-03-13-jpeg.575871/
+    thumb_url: https://gbatemp.net/data/attachments/575/575259-9934c671a86df72488a72a02d027d21b.jpg?hash=6IpN7odRCd
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-27-22-04-21-jpeg.575872/
+    thumb_url: https://gbatemp.net/data/attachments/575/575260-949ee87144b170b21e1a218f6a665869.jpg?hash=Xmz6xpiE7C
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2026-04-27-22-06-28-jpeg.575873/
+    thumb_url: https://gbatemp.net/data/attachments/575/575261-d12699499266ef665f4882236b267fdc.jpg?hash=gly5sTOWfq
+    credit: callofcthuloo
+  videos:
+  - provider: youtube
+    id: 691uBMP9KRw
+  - provider: youtube
+    id: BzvwrHbfV6w
+  - provider: youtube
+    id: YBdziDsgOhw
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/robot-alchemic-drive-rad-slus-20445-hd-texture-pack-upscale.682128/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

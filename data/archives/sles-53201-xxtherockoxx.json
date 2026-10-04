@@ -1,0 +1,24 @@
+{
+  "key": "sles-53201-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/xxtherockoxx-saint-seiya-sanctuary-sles-53201-slps-25476-20260726.tar.zst",
+      "sha256": "99e3d2f1eaad5482a0dd7905224105061fddd79b28806a16c0ccc40cb48e9a26",
+      "size_bytes": 559976086,
+      "decompressed_size_bytes": 979599360,
+      "file_count": 1457,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "7D746A7DF33A5DAAA5FD1125BFB48F72C39427B8AA08A239799DF7C904A311B5",
+        "size_bytes": 586082822
+      }
+    }
+  ]
+}

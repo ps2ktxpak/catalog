@@ -1,0 +1,28 @@
+id: robin9608
+name: RoBin9608
+aliases:
+- robin9608
+links:
+  page: https://gbatemp.net/members/robin9608.735463/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@RoBin-9608
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/735/735463.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

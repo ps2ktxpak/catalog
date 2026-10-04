@@ -1,0 +1,35 @@
+id: spider-man
+name: Spider_Man
+aliases:
+- spider_man
+links:
+  page: https://gbatemp.net/members/spider_man.554449/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/retrojunkies
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@Retrojunkiesofficial/videos
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/554/554449.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

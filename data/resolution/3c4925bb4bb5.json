@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/gauntlet-seven-sorrows-hd-texture.643022/",
+  "listings": [
+    "l-4f93426812"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Gauntlet Seven Sorrows HD texture"
+  },
+  "videos": [
+    {
+      "id": "DyTGCu0b55s",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://encurtalink.online/XPTDZrKkSh",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Download part 01:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/yWByGQKQ#YQhbUatQ3fI-1yZpi2DaV01IRH9sXeyNkwh93T2sJpA",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "video: DOWNLOAD Post automatically merged: Nov 16, 20"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4f93426812",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/yWByGQKQ#YQhbUatQ3fI-1yZpi2DaV01IRH9sXeyNkwh93T2sJpA",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

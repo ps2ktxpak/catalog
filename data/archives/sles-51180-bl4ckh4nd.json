@@ -1,0 +1,24 @@
+{
+  "key": "sles-51180-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-the-sum-of-all-fears-sles-51180-20260728.tar.zst",
+      "sha256": "77a1bb9fd9b461330482f64cb268810c83b30af7b9c15e30d212f404a5fc4ea6",
+      "size_bytes": 385026736,
+      "decompressed_size_bytes": 527656960,
+      "file_count": 1575,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DAF847003A71DCF1927B5EDB60CE4F494A0FF1647C97A67D1D3E1ABE10C25D12",
+        "size_bytes": 436545902
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+key: slus-20725-xxtherockoxx
+catalog_id: xxtherockoxx-call-of-duty-finest-hour-slus-20725-20260726
+name: 'Call of Duty: Finest Hour HD Texture Pack'
+game:
+  title: 'Call of Duty: Finest Hour'
+  serials:
+  - SLUS-20725
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: High-resolution replacement textures for the SLUS-20725 North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/call-of-duty-finest-hour-hd.626654/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/112-jpg.354960/
+    thumb_url: https://gbatemp.net/data/attachments/354/354348-c13485822803c61a14643517a02d6c47.jpg?hash=wTSFgigDxh
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_7-png.354961/
+    thumb_url: https://gbatemp.net/data/attachments/354/354349-9768b81bf965c09e0a22c715673d28f0.jpg?hash=l2i4G_llwJ
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.354962/
+    thumb_url: https://gbatemp.net/data/attachments/354/354350-1826a4d3ba6e0b12f50dd86d0335fa4b.jpg?hash=GCak07puCx
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.354963/
+    thumb_url: https://gbatemp.net/data/attachments/354/354351-3f07b6d0a2f56d1acb4d91ca89b8430d.jpg?hash=Pwe20KL1bR
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.354964/
+    thumb_url: https://gbatemp.net/data/attachments/354/354352-dc8ef925a75c1490e70a154ddf06465e.jpg?hash=3I75JadcFJ
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_5-png.354965/
+    thumb_url: https://gbatemp.net/data/attachments/354/354353-60461d6c0ad3f38ac17ff7689656466c.jpg?hash=YEYdbArT84
+    credit: xxtherockoxx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; normalized to a texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/call-of-duty-finest-hour-hd.626654/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

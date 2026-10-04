@@ -1,0 +1,94 @@
+{
+  "source_url": "https://gbatemp.net/threads/tenchu-wrath-of-heaven-hd-texture-revisited-new-update-ntsc.613912/",
+  "listings": [
+    "l-ec4a28e9ba"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Tenchu Wrath of Heaven  HD TEXTURE REVISITED MOTION BLUR REMOVAL PATCH  {NTSC]"
+  },
+  "videos": [
+    {
+      "id": "E-BS6FQCqkQ",
+      "uploader": "SomberTwilight",
+      "links": [
+        {
+          "url": "https://www.mediafire.com/file/8wl1vczkw7m44d0/letterbox+patches.7z/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_description",
+          "context": "s and I love all of you   #tenchu #tenchufatalshadows #tenchuwrathofheaven   DOWNLOAD BOTH PATCHES: ",
+          "by_uploader": true
+        }
+      ]
+    },
+    {
+      "id": "ulmQu1_sqbo",
+      "uploader": "SomberTwilight",
+      "links": [
+        {
+          "url": "https://www.mediafire.com/file/ooraknk8f5q69vs/767E383D.pnach/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_description",
+          "context": "g the disgusting, dated motion blur that ruined all of the stealth kills in this game.   DOWNLOAD : ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://somberstenchuhub.my.canva.site/tenchumodpacks",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "have made a website dedicated to all of my tenchu projects, I suggest you visit there for all of your needs. https://somberstenchuhub.my.canva.site/tenchumodpa"
+    },
+    {
+      "url": "https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "rom it's original 2gigs to 500 mb corrects dds errors, and fixes texture placement problems DOWNLOAD: V1.7: https://www.mediafire.com/file/l3irashc4trv742/SLU"
+    },
+    {
+      "url": "https://www.mediafire.com/file/ekr4kt3l5cbw6fy/cheats.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "DOWNLOAD: V1.7: https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file QOL PATCHES AND CHEATS https://www.mediafire.com/file/ekr4kt3l5cbw6fy/che"
+    },
+    {
+      "url": "https://mediafire.com/file/ekr4kt3l5cbw6fy/cheats.7z/file​",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "DOWNLOAD: V1.7: https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file QOL PATCHES AND CHEATS https://www.mediafire.com/file/ekr4kt3l5cbw6fy/che"
+    },
+    {
+      "url": "https://mega.nz/file/5AURnToS#7OuoTBDr--Mc6tE12m42X1B_lt_NjyBAwP_VCXwZbG4",
+      "host": "mega",
+      "kind": "file",
+      "where": "op_followup",
+      "context": "LINK https://mega.nz/file/5AURnToS#7OuoTBDr--Mc6tE12m42"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-ec4a28e9ba",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator's opening post explicitly labels V1.7 as primary download for texture pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-21046-teodor-max",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/teodor-max-king-arthur-slus-21046-20260728.tar.zst",
+      "sha256": "bfc3cca0697b6dec5c614eb67bef2707f0f61e9bd14e130a43930f7fdfb14612",
+      "size_bytes": 339936750,
+      "decompressed_size_bytes": 479344640,
+      "file_count": 1052,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "934287F4047B3DEC737033C18B8463C98EB3A6DCE9C2EF79EA9AA7D42A995F0C",
+        "size_bytes": 1476985255
+      }
+    }
+  ]
+}

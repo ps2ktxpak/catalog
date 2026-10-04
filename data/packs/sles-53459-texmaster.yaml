@@ -1,0 +1,84 @@
+key: sles-53459-texmaster
+catalog_id: andritgames20-marc-ecko-s-getting-up-contents-under-pressure-sles-53459-20260728
+name: 'Marc Ecko''s Getting Up: Contents Under Pressure Texture Pack'
+game:
+  title: 'Marc Ecko''s Getting Up: Contents Under Pressure'
+  serials:
+  - SLES-53459
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/marc-eckos-getting-up-texture-pack-hd.658879/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/templeit-yotube-jpg.449567/
+    thumb_url: https://gbatemp.net/data/attachments/448/448955-e2aac37cf943cd8d57a945049758ab49.jpg?hash=anihUbt9lT
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132556-png.449677/
+    thumb_url: https://gbatemp.net/data/attachments/449/449065-10854c741d47a2c7fcb41e5166f99804.jpg?hash=EIVMdB1Hos
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132602-png.449678/
+    thumb_url: https://gbatemp.net/data/attachments/449/449066-a3b1619c8e1c3a89f8a828c59a563896.jpg?hash=o7FhnI4cOo
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132710-png.449680/
+    thumb_url: https://gbatemp.net/data/attachments/449/449068-0b2b32bb5dcafb7acc851c242e6b19de.jpg?hash=Cysyu13K-3
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132706-png.449681/
+    thumb_url: https://gbatemp.net/data/attachments/449/449069-9d26f5da5859174694050f9a1f419cc8.jpg?hash=nSb12lhZF0
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132720-png.449683/
+    thumb_url: https://gbatemp.net/data/attachments/449/449071-b784aa8d23dcdd1c590ff54b74fbce82.jpg?hash=t4SqjSPc3R
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132725-png.449684/
+    thumb_url: https://gbatemp.net/data/attachments/449/449072-069f052ea5abc1bb54a6bbb296d786b2.jpg?hash=Bp8FLqWrwb
+    credit: texmaster
+  - source_url: https://gbatemp.net/attachments/marc-eckos-getting-up-contents-under-pressure_sles-53459_20240728132739-png.449687/
+    thumb_url: https://gbatemp.net/data/attachments/449/449075-fd9256dd7ae27213683f1f75ba102d38.jpg?hash=_ZJW3Xrich
+    credit: texmaster
+  videos:
+  - provider: youtube
+    id: e3HQZThriaU
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Andritgames20
+  credits: HD texture pack credited by the source to Andritgames20; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/marc-eckos-getting-up-texture-pack-hd.658879/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

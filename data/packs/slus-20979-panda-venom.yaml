@@ -1,0 +1,72 @@
+key: slus-20979-panda-venom
+catalog_id: panda-venom-suikoden-iv-slus-20979-20260728
+name: Suikoden IV Texture Pack
+game:
+  title: Suikoden IV
+  serials:
+  - SLUS-20979
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/suikoden-iv-usa-hd-remaster-widescreen-texture-pack.610425/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-05-22-at-09-02-pm-jpg.304937/
+    thumb_url: https://gbatemp.net/data/attachments/304/304325-a1ed7f6d4baac8bac3777b4bcc9867fe.jpg?hash=oe1_bUuqyL
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-05-22-at-09-03-pm-jpg.304938/
+    thumb_url: https://gbatemp.net/data/attachments/304/304326-9c33e9d842eb3c66e5c77b6b278cf075.jpg?hash=nDPp2ELrPG
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-05-22-at-09-05-pm-jpg.304939/
+    thumb_url: https://gbatemp.net/data/attachments/304/304327-89d07e8cc90f03c7cc22972a95c74e30.jpg?hash=idB-jMkPA8
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-04-03-22-at-07-37-pm-jpg.304936/
+    thumb_url: https://gbatemp.net/data/attachments/304/304324-b7ed80fd8b1fe7bf24f38eb4273137cc.jpg?hash=t-2A_Ysf57
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-23-22-at-01-12-am-001-jpg.304935/
+    thumb_url: https://gbatemp.net/data/attachments/304/304323-3d60f83f3da2a7e397de09950ecda614.jpg?hash=PWD4Pz2ip-
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack credited by the source to Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/suikoden-iv-usa-hd-remaster-widescreen-texture-pack.610425/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

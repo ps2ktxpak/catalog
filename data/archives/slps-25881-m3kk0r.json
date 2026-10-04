@@ -1,0 +1,24 @@
+{
+  "key": "slps-25881-m3kk0r",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/m3kk0r-kinnikuman-muscle-grand-prix-2-slps-25881-20260728.tar.zst",
+      "sha256": "b6a2c375289ca3e5b6fa5452ab81f6b0007078b50551602121d5222084707b08",
+      "size_bytes": 738606523,
+      "decompressed_size_bytes": 1146081280,
+      "file_count": 4162,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "25061CC04790B69BDDEB866FB6CDCEB54A5851A202084F4D7D57F870A018178F",
+        "size_bytes": 2454292164
+      }
+    }
+  ]
+}

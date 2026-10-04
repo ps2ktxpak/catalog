@@ -1,0 +1,69 @@
+key: slus-21197-retrogenerica
+catalog_id: retrogenerica-shrek-superslam-slus-21197-20260727
+name: Shrek SuperSlam HD Texture Pack
+game:
+  title: Shrek SuperSlam
+  serials:
+  - SLUS-21197
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+description: A complete North American HD remaster pack covering the game's interface, characters, arenas and effects.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dreamworks-shrek-superslam-ps2-hd-remastered-100-complete.660607/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-09-203901-png.456918/
+    thumb_url: https://gbatemp.net/data/attachments/456/456306-bd0d02fc47e5d9afa5f68d3f4e880b77.jpg?hash=vQ0C_Efl2a
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-09-203847-png.456927/
+    thumb_url: https://gbatemp.net/data/attachments/456/456315-954b087767fd7531075e1ad777cb4eaf.jpg?hash=lUsId2f9dT
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-09-09-191121-png.456928/
+    thumb_url: https://gbatemp.net/data/attachments/456/456316-ac60e258ce51e3b94f875753621aca97.jpg?hash=rGDiWM5R47
+    credit: retrogenerica
+  videos:
+  - provider: youtube
+    id: 5SmnOHMu9Pw
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - RetroGenerica
+  credits: Complete HD texture pack created by RetroGenerica; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/dreamworks-shrek-superslam-ps2-hd-remastered-100-complete.660607/
+  version: 100% complete public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

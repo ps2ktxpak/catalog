@@ -1,0 +1,75 @@
+key: slus-21574-panda-venom
+catalog_id: panda-venom-dawn-of-mana-slus-21574-20260726
+name: Dawn of Mana HD Remaster
+game:
+  title: Dawn of Mana
+  serials:
+  - SLUS-21574
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A 90%-complete North American remaster covering most game textures; the ending, some maps and backgrounds remain missing.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dawn-of-mana-usa-hd-remaster.658957/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/dom7-jpg.450082/
+    thumb_url: https://gbatemp.net/data/attachments/449/449470-fa6c2bf7010a4f079c448aa26f7c24ea.jpg?hash=-mwr9wEKTw
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/dom1-jpg.450083/
+    thumb_url: https://gbatemp.net/data/attachments/449/449471-38b6d8862e520559c66be52177226341.jpg?hash=OLbYhi5SBV
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/dom2-jpg.450084/
+    thumb_url: https://gbatemp.net/data/attachments/449/449472-7a21bc46e9566c51a019e73dafa9a499.jpg?hash=eiG8RulWbF
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/dom4-jpg.450085/
+    thumb_url: https://gbatemp.net/data/attachments/449/449473-6fe65c0ebe3955e135adc4a0820174aa.jpg?hash=b-ZcDr45Ve
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/dom5-jpg.450086/
+    thumb_url: https://gbatemp.net/data/attachments/449/449474-02a342b9ca32083ea68dd425f8a3e091.jpg?hash=AqNCucoyCD
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/dom6-jpg.450087/
+    thumb_url: https://gbatemp.net/data/attachments/449/449475-1ca3f6ac5157353c93c8349e70940400.jpg?hash=HKP2rFFXNT
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: 90%-complete remaster created by Panda_Venom with chaiNNer and GIMP; HDcube model credited by the author to Venomalia; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/dawn-of-mana-usa-hd-remaster.658957/
+  version: v1 public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

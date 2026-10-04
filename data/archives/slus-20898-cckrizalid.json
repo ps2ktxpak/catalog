@@ -1,0 +1,24 @@
+{
+  "key": "slus-20898-cckrizalid",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-star-wars-battlefront-hd-remaster-community-archive-slus-20898-20260728.tar.zst",
+      "sha256": "3e482006c8caebeeed8fb82eb819b6b7b84fd841a6d914d35fb3589c8ab63786",
+      "size_bytes": 375038711,
+      "decompressed_size_bytes": 509829120,
+      "file_count": 3303,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "AE53D936C4775AA4733127E825F38732B7852B1E1CAE4990738B9DCF1AE45635",
+        "size_bytes": 412841876
+      }
+    }
+  ]
+}

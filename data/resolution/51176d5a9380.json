@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/rlh-run-like-hell-usa-slus-20037-upscaled-texture-pack.625667/",
+  "listings": [
+    "l-4928dd8c7a"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "RLH - Run Like Hell | USA | SLUS-20037 | Upscaled Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/0ksoky92nztxe6x/SLUS-20037.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Mediafire Download Link Game Title: RLH - Run Lik"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4928dd8c7a",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/0ksoky92nztxe6x/SLUS-20037.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

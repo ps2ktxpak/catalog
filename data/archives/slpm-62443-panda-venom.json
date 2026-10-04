@@ -1,0 +1,24 @@
+{
+  "key": "slpm-62443-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-virtua-racing-flatout-20260722.tar.zst",
+      "sha256": "751e28fb7634fe70b8d405e412811f58b6ddbc1e4b8abc6f40205dd0088a874c",
+      "size_bytes": 22734019,
+      "decompressed_size_bytes": 68536320,
+      "file_count": 43,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "B1193A206975057D0C16A54327029FDF8BCF46BAFD971CB8C4AC652EE076DED3",
+        "size_bytes": 21490744
+      }
+    }
+  ]
+}

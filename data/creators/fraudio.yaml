@@ -1,0 +1,22 @@
+id: fraudio
+name: Fraudio
+aliases:
+- fraudio
+links:
+  page: https://gbatemp.net/members/fraudio.623878/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@claudesing
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

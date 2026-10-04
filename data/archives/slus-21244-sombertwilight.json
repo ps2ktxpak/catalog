@@ -1,0 +1,24 @@
+{
+  "key": "slus-21244-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-sombertwilight-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-fatal-frame-iii-the-tormented-hd-remaster-community-archive-slus-21244-20260728.tar.zst",
+      "sha256": "d24aee256bbab749bbeee8f61db1acb741061c4f293d6d11bc08aab283a3d673",
+      "size_bytes": 572643220,
+      "decompressed_size_bytes": 835491840,
+      "file_count": 2578,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "48AF818129A7A4450428BCA958ED032C3257B3AE122B823504808BC30284E933",
+        "size_bytes": 483811595
+      }
+    }
+  ]
+}

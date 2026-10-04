@@ -1,0 +1,24 @@
+{
+  "key": "slus-21198-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-batman-begins-hd-remaster-community-archive-slus-21198-20260728.tar.zst",
+      "sha256": "50330c218298da6f1a2f1459d20397e357bd0c98d4439591114bb0f1cafbc6e9",
+      "size_bytes": 486285349,
+      "decompressed_size_bytes": 643840000,
+      "file_count": 11626,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "32B99CDD4AB61A8ED5541982DD534CF0388F7881FB17E34AB06982F67104557B",
+        "size_bytes": 491727989
+      }
+    }
+  ]
+}

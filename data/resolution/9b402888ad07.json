@@ -1,0 +1,42 @@
+{
+  "source_url": "https://gbatemp.net/threads/maximo-vs-army-of-zin-usa-uhd-remaster-definitive.639191/",
+  "listings": [
+    "l-307fb919f1"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Maximo vs. Army of Zin (USA) | UHD REMASTER DEFINITIVE"
+  },
+  "candidates": [
+    {
+      "url": "https://pcsx2.net/downloads/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Texture Pack create by me for PCSX2 Emulator. - I recommend the latest version of the emulator. https://pcsx2.net/downloads TEXTURES % : The enti"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1YjcCbiGvZAuyMHxlNvAsPKYGfsB_C5TE/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "red! Notes: NEW VERSION DEFINITIVE! Thanks Panda_Venom for the permission to remake the textures!​Download: ​"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-307fb919f1",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1YjcCbiGvZAuyMHxlNvAsPKYGfsB_C5TE/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

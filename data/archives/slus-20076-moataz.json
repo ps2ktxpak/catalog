@@ -1,0 +1,24 @@
+{
+  "key": "slus-20076-moataz",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-disney-s-tarzan-untamed-hd-remaster-community-archive-slus-20076-20260728.tar.zst",
+      "sha256": "facc6732b71449cec88880a31f5a6631817c61a08f0735483f9a286a91f0f324",
+      "size_bytes": 165148536,
+      "decompressed_size_bytes": 251525120,
+      "file_count": 1063,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "3E31ACFAB42B2DE4DAC2328BA28EDC58927A74542576ACF95269CA7C110FEE19",
+        "size_bytes": 441830988
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-20636-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-the-suffering-slus-20636-20260728.tar.zst",
+      "sha256": "c2360b8a29b2d92cf8618c910fbabef8a92cf9e3b8a0cba2dead4eb7133612e6",
+      "size_bytes": 566759741,
+      "decompressed_size_bytes": 761077760,
+      "file_count": 3272,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "2D6CA38BB31269645B1FE67839EE1FD97B0C9A23D15AF0217067F67CFC125DFD",
+        "size_bytes": 1180747342
+      }
+    }
+  ]
+}

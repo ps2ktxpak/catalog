@@ -1,0 +1,78 @@
+key: slus-20828-curse-arms
+catalog_id: curse-arms-shellshock-nam-67-slus-20828-20260726
+name: 'ShellShock: Nam ''67 HD Texture Pack'
+game:
+  title: 'ShellShock: Nam ''67'
+  serials:
+  - SLUS-20828
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+description: High-resolution replacement textures for the North American release, with the author's film-grain-disable treatment retained.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shellshock-nam-67-hd-textures.669316/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_32-png.496662/
+    thumb_url: https://gbatemp.net/data/attachments/496/496050-b99db36d509704804db489776883717c.jpg?hash=uZ2zbVCXBI
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_20-png.496213/
+    thumb_url: https://gbatemp.net/data/attachments/495/495601-7a36928b2b7bea6ee5076bb93af49a93.jpg?hash=ejaSiyt76m
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_21-png.496214/
+    thumb_url: https://gbatemp.net/data/attachments/495/495602-be6df39e1450b726e467862105f49027.jpg?hash=vm3znhRQty
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_22-png.496215/
+    thumb_url: https://gbatemp.net/data/attachments/495/495603-f514844bede313c69f13a7739d9f01e6.jpg?hash=9RSES-3jE8
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_29-png.496664/
+    thumb_url: https://gbatemp.net/data/attachments/496/496052-f4d4940bbc1eeaa1c5b85882aab7bcd6.jpg?hash=9NSUC7we6q
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_30-png.496665/
+    thumb_url: https://gbatemp.net/data/attachments/496/496053-8d15dd448d99c754c7691559a555d759.jpg?hash=jRXdRI2Zx1
+    credit: curse-arms
+  videos:
+  - provider: youtube
+    id: 0GmYfOvj0Ts
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Curse_Arms
+  credits: HD texture pack created by Curse_Arms; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/shellshock-nam-67-hd-textures.669316/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

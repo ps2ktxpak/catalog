@@ -1,0 +1,24 @@
+{
+  "key": "slus-21087-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-mk-shaolin-monks-slus-21087-20240327.tar.zst",
+      "sha256": "e2fdc8587d9a6152d48f0da883631e0234ae9dfff6404fdf494d54472db8e9dd",
+      "size_bytes": 413967237,
+      "decompressed_size_bytes": 680048640,
+      "file_count": 1550,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "00FBE97D99E398AE71B6A74E62E10B1B0D568BB5FB861023CE0DAF32D7BB88A9",
+        "size_bytes": 862037316
+      }
+    }
+  ]
+}

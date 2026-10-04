@@ -1,0 +1,89 @@
+key: sles-53481-curse-arms
+catalog_id: texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-10-000-bullets-hd-remaster-community-archive-sles-53481-20260728
+name: 10,000 Bullets HD Remaster - Community Archive Texture Pack
+game:
+  title: 10,000 Bullets
+  serials:
+  - SLES-53481
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/10000-bullets-hd-textures.674851/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/01-png.525338/
+    thumb_url: https://gbatemp.net/data/attachments/524/524726-6023e05037454502fbe6b13f9f710399.jpg?hash=d6seN7OJU3
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/03-png.525340/
+    thumb_url: https://gbatemp.net/data/attachments/524/524728-02704f347ddb6699287926c154d301cc.jpg?hash=FnAt2dlK7h
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/02-png.525339/
+    thumb_url: https://gbatemp.net/data/attachments/524/524727-348516bfcb103ccd554a2a3b759fdd79.jpg?hash=P7H0B2JbWo
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/04-png.525341/
+    thumb_url: https://gbatemp.net/data/attachments/524/524729-0bf04de7d103bef5b998cdcabf60d1bc.jpg?hash=_dYd4bXH_9
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/05-png.525342/
+    thumb_url: https://gbatemp.net/data/attachments/524/524730-0e2dbdfe99863fe88db078b1aab8f690.jpg?hash=dsCg4uQobv
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/06-png.525343/
+    thumb_url: https://gbatemp.net/data/attachments/524/524731-e1f02c85dcc791ed70d753af2f53bece.jpg?hash=K75P96Y3FN
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/07-png.525344/
+    thumb_url: https://gbatemp.net/data/attachments/524/524732-7ca2c06981fd078d04322134c5ab7a64.jpg?hash=Pp4vYKqJHT
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/08-png.525345/
+    thumb_url: https://gbatemp.net/data/attachments/524/524733-14de64dacc3bde030ab6233b4e147d4d.jpg?hash=p6jIuKVNoK
+    credit: curse-arms
+  videos:
+  - provider: youtube
+    id: I2X7OohvuUA
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Curse_Arms by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Curse_Arms by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

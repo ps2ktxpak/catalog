@@ -1,0 +1,21 @@
+id: funnynamexyz
+name: FunnyNameXYZ
+aliases:
+- funnynamexyz
+links:
+  page: https://gbatemp.net/members/funnynamexyz.768195/
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/768/768195.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

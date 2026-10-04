@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/rule-of-rose-hd-somber-edition.661962/",
+  "listings": [
+    "l-00ff86f113"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Rule of Rose HD Somber Edition"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/d2wcw3y2maan5m1/SLUS-21448.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "duplicates, I did sacrifice a text or 2. The only thing that will not be HD is some loading screen titles. ​ DOWNLOAD ​ ​"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-00ff86f113",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/d2wcw3y2maan5m1/SLUS-21448.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-21007-janley",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-janley-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-kuon-hd-remaster-community-archive-slus-21007-20260728.tar.zst",
+      "sha256": "a742725766d740869dc4d85b8ea8d6668d25e3e85793162167cab29f37221b23",
+      "size_bytes": 360695626,
+      "decompressed_size_bytes": 476334080,
+      "file_count": 1176,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "0B7E9EF5E2319F2F7BC7BC101B929234C60FBB96685A764CC94046AA78E78C85",
+        "size_bytes": 315330585
+      }
+    }
+  ]
+}

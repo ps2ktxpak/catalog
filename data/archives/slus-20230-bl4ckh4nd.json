@@ -1,0 +1,24 @@
+{
+  "key": "slus-20230-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-max-payne-hd-remaster-community-archive-slus-20230-20260728.tar.zst",
+      "sha256": "e0af94933e02b8997d8458fc422d46d996130972ff13cb58620a498af375e24d",
+      "size_bytes": 811969924,
+      "decompressed_size_bytes": 1103544320,
+      "file_count": 2962,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "7C14833F7FE25CEBD7975DF830B6D584D919FE79B96877CA0930AB2355A0929A",
+        "size_bytes": 1644640144
+      }
+    }
+  ]
+}

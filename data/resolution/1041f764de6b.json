@@ -1,0 +1,63 @@
+{
+  "source_url": "https://gbatemp.net/threads/midnight-club-3-dub-edition-remix-all-game-hd-remastered-textures.658120/",
+  "listings": [
+    "l-e84f70a701"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Midnight Club 3 DUB Edition Remix | All Game HD Remastered Textures 1.3"
+  },
+  "videos": [
+    {
+      "id": "9Rtr0Hz_-ow",
+      "uploader": "Moataz",
+      "links": [
+        {
+          "url": "https://www.youtube.com/channel/UC20tJkGU7lDW_PnZY-nTk6Q",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "ame-hd-remastered-textures.658120/) https://discord.gg/J6Wnve3rYz my discord to find guides and etc ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ko-fi.com/moatazmoadi",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "ube.com/channel/UC20tJkGU7lDW_PnZY-nTk6Q My youtube channel my ko-fi (donate with anything please) (",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.nexusmods.com/midnightclub3dubeditionremix/mods/3",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "st don't work only with my save) Menus and arcade and Tokyo races I used some car textures from almightypear Enhanced Car Pack mod pack Credits goes to him It"
+    },
+    {
+      "url": "https://ouo.io/ZPYTgT",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "redits goes to him It took me 2 game walkthroughs to complete it Rposting is welcome but give credit ✔ Link download HD Pack Sorry for the ads Here are so"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e84f70a701",
+      "status": "gated",
+      "reason": "Creator used ouo.io link shortener, an advert wall service that gates access.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

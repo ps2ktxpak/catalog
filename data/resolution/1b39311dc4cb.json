@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/lord-of-the-rings-the-two-towers-remastered-only-icons-and-characters.678338/",
+  "listings": [
+    "l-b6dd1f151d"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Lord of the Rings The Two Towers Remastered only Icons and Characters"
+  },
+  "candidates": [
+    {
+      "url": "https://archive.org/details/lord-of-the-rings-the-two-towers-remastered-icons-and-characters",
+      "host": "archive_org",
+      "kind": "file",
+      "where": "op",
+      "context": "spaña que es las version PAL, desconozco si funcionaran todas las texturas en otras versiones. Descargar aqui https://archive.org/details/lord-of-the-rings-the-"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-b6dd1f151d",
+      "status": "resolved",
+      "base_url": "https://archive.org/details/lord-of-the-rings-the-two-towers-remastered-icons-and-characters",
+      "host": "archive_org",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

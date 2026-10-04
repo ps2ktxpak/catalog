@@ -1,0 +1,54 @@
+key: slus-20795-meskh4h4-4
+catalog_id: meskh4h4-bloody-roar-4-png-vivid-slus-20795-v1
+name: Bloody Roar 4 HD Texture Pack — PNG Vivid
+game:
+  title: Bloody Roar 4
+  serials:
+  - SLUS-20795
+credits:
+- creator: meskh4h4
+type: ai_upscale
+completeness: complete
+description: Lossless PNG edition with vivid color treatment and 2,880 replacements for the North American PS2 release; independently verified as different from all other listed variants.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-bloody-roar-4-slus-20795-usa.683323/
+  primary: true
+- kind: repository
+  url: https://github.com/MESKH4H4/Bloody-Roar-4/releases/tag/1.0
+  primary: false
+  note: the catalog's original link
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - MESKH4H4
+  credits: Texture pack created by MESKH4H4; normalized from the author's GitHub release to a clean texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://github.com/MESKH4H4/Bloody-Roar-4/releases/tag/1.0
+  version: '1.0'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

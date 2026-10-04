@@ -1,0 +1,24 @@
+{
+  "key": "slus-20773-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-legacy-of-kain-defiance-slus-20773-20260728.tar.zst",
+      "sha256": "7b19341ff35058bdb14b7d7e228eb53679ffa0a2f457457bb2816b576bc8bbf1",
+      "size_bytes": 1173709425,
+      "decompressed_size_bytes": 1353707520,
+      "file_count": 11609,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DD7C8675AACC8BD809101B25CF818EF7B4E55185BE0066A661C0E1318C521DBD",
+        "size_bytes": 5328832476
+      }
+    }
+  ]
+}

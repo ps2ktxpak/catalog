@@ -1,0 +1,78 @@
+key: slus-20716-sal9im
+catalog_id: sal9im-teenage-mutant-ninja-turtles-slus-20716-20260726
+name: Teenage Mutant Ninja Turtles AI-Upscaled Texture Pack
+game:
+  title: Teenage Mutant Ninja Turtles
+  serials:
+  - SLUS-20716
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+description: High-resolution AI-upscaled replacement textures for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/teenage-mutant-ninja-turtles-usa-slus-20716-ai-upscaled-textures-pack.671943/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/01-png.509157/
+    thumb_url: https://gbatemp.net/data/attachments/508/508545-22114b0448fc1c42b0865a3473fec9b8.jpg?hash=IhFLBEj8HE
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-png.509158/
+    thumb_url: https://gbatemp.net/data/attachments/508/508546-bce7229ea4341e2b45948870c8be993f.jpg?hash=AB8lzR6EJR
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-png.509159/
+    thumb_url: https://gbatemp.net/data/attachments/508/508547-847af88a1f24070bf5f8c68cd25cb118.jpg?hash=VZ36b_qa6g
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-png.509160/
+    thumb_url: https://gbatemp.net/data/attachments/508/508548-91959cb4a485a8dcc3d62586bc84e909.jpg?hash=y07CQzFObY
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-png.509161/
+    thumb_url: https://gbatemp.net/data/attachments/508/508549-6c90111ec48b3e045cd69caf55fe67cd.jpg?hash=ngmvQrswch
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/05-png.509162/
+    thumb_url: https://gbatemp.net/data/attachments/508/508550-c94255c64d5b285ea6151b70e69152e1.jpg?hash=-Z3kWrZ93B
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: TNmlREk3M04
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Sal9im
+  credits: AI-upscaled texture pack created by Sal9im; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/teenage-mutant-ninja-turtles-usa-slus-20716-ai-upscaled-textures-pack.671943/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

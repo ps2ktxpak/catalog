@@ -1,0 +1,24 @@
+{
+  "key": "slus-20795-meskh4h4-4",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/meskh4h4-bloody-roar-4-png-vivid-slus-20795-v1.tar.zst",
+      "sha256": "bc96e3bb50adb6bc1904bf356ee658792e4afdb5fff35d14d06f6ec01f6a4479",
+      "size_bytes": 275089807,
+      "decompressed_size_bytes": 441651200,
+      "file_count": 2880,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6DFD180140B566F4DE4E537833BE5F9E51D44AA80B35F2C435EFAA2A697754A8",
+        "size_bytes": 895351380
+      }
+    }
+  ]
+}

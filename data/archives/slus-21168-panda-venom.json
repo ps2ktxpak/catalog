@@ -1,0 +1,24 @@
+{
+  "key": "slus-21168-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-castlevania-curse-of-darkness-20260722.tar.zst",
+      "sha256": "7c5e5a6c91130f677ac6b316fd2dc3e8713d01eccff6bd10dc03d14a12ca76b7",
+      "size_bytes": 1646184145,
+      "decompressed_size_bytes": 2475161600,
+      "file_count": 4991,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "45C09DA599FBC5BF2929B14D0097895D5E82B04EAC0E5E3D7CB9AC35291C2BBD",
+        "size_bytes": 1745544836
+      }
+    }
+  ]
+}

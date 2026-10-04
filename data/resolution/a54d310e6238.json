@@ -1,0 +1,59 @@
+{
+  "source_url": "https://gbatemp.net/threads/devil-kings-sengoku-basara-hd-texture-pack.640998/",
+  "listings": [
+    "l-4163f04efe"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Devil Kings(Sengoku Basara) HD Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "su8CzFZ0pmw",
+      "uploader": "I Emu Play",
+      "links": [
+        {
+          "url": "https://shrinke.me/Devil_kings",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "Download link - ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.donationalerts.com/r/HATTOR1",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "Download link - https://shrinke.me/Devil_kings  Support me: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/weJRHCBB#SWlEMnp0cO-ko6Ob6KqUA9cX5FEku-7ONPM62ATlgwo",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "Spoiler: Screenshots BeforeAfter Spoiler: Video Download link - mega.nz/file/weJRHCBB#SWlEMnp0cO-ko6Ob6KqUA9cX5FEk"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4163f04efe",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/weJRHCBB#SWlEMnp0cO-ko6Ob6KqUA9cX5FEku-7ONPM62ATlgwo",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

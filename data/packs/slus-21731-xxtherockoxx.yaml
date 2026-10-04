@@ -1,0 +1,78 @@
+key: slus-21731-xxtherockoxx
+catalog_id: xxtherockoxx-silent-hill-origins-slus-21731-20260726
+name: 'Silent Hill: Origins HD Texture Pack'
+game:
+  title: 'Silent Hill: Origins'
+  serials:
+  - SLUS-21731
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: Multilingual high-resolution replacement textures for the North American PS2 release; the author reports approximately 2.14 GB unpacked.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/silent-hill-origins-hd.626799/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/202-2025430_silent-hill-origins-logo-hd-png-download-png.355632/
+    thumb_url: https://gbatemp.net/data/attachments/355/355020-213563ca0fc1f5f4a911dc101ee7339b.jpg?hash=ITVjyg_B9f
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/5476787-3-png.355634/
+    thumb_url: https://gbatemp.net/data/attachments/355/355022-9628f948307c606cc8b2dbcab23bd302.jpg?hash=lij5SDB8YG
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/656656-1-png.355635/
+    thumb_url: https://gbatemp.net/data/attachments/355/355023-cb70fdfa35f44f35960ffe980ee6d6c7.jpg?hash=y3D9-jX0Tz
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/5476787-1-png.355636/
+    thumb_url: https://gbatemp.net/data/attachments/355/355024-77242767749a586abd3c7af307ee2a39.jpg?hash=dyQnZ3SaWG
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/656656-2-png.355637/
+    thumb_url: https://gbatemp.net/data/attachments/355/355025-732f097d8da2fdab1d3197f417182cf2.jpg?hash=cy8JfY2i_a
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.355638/
+    thumb_url: https://gbatemp.net/data/attachments/355/355026-acc0a3f289164d02b23ccac9bd4c8b37.jpg?hash=rMCj8okWTQ
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/5476787-2-png.355639/
+    thumb_url: https://gbatemp.net/data/attachments/355/355027-b2da63818ffacd338c9cca85379a6ed3.jpg?hash=stpjgY_6zT
+    credit: xxtherockoxx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: Multilingual HD texture pack created by xXtherockoXx; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/silent-hill-origins-hd.626799/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

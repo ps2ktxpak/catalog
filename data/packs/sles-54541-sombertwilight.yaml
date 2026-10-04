@@ -1,0 +1,63 @@
+key: sles-54541-sombertwilight
+catalog_id: sombertwilight-xena-warrior-princess-sles-54541-20260726
+name: 'Xena: Warrior Princess HD Texture Pack'
+game:
+  title: 'Xena: Warrior Princess'
+  serials:
+  - SLES-54541
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: 'DDS replacement textures prepared for the SLES-54541 PAL release of Xena: Warrior Princess.'
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/xena-warrior-princess-pal-hd-textures.646207/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/xena-warrior-princess_sles-54541_20240113221401-png.413809/
+    thumb_url: https://gbatemp.net/data/attachments/413/413197-040607a0f9c5d6a4d695a9731f8f9cda.jpg?hash=BAYHoPnF1q
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/xena-warrior-princess_sles-54541_20240113221527-png.413810/
+    thumb_url: https://gbatemp.net/data/attachments/413/413198-4b513e3c354627846226a7eef4c66776.jpg?hash=S1E-PDVGJ4
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD texture pack created by SomberTwilight; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/xena-warrior-princess-pal-hd-textures.646207/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

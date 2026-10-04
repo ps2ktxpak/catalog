@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/dynasty-warriors-2-enhanced-4k-texture-mod.668788/",
+  "listings": [
+    "l-866b679fbe"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "DYNASTY WARRIORS 2 ENHANCED 4K TEXTURE MOD"
+  },
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/gvngnir",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "coming months, so if possible please consider donating. These games deserve the attention! Thanks. Send a coffee to the cause. Enjoy and all the best!"
+    },
+    {
+      "url": "https://ko-fi.com/s/302ed408cf",
+      "host": "kofi",
+      "kind": "shop",
+      "where": "op",
+      "context": "already. Follow performance recommendations from the community and tweak to taste. Simple DOWNLOAD PAGE: DYNASTY WARRIORS 2 ENHANCED Updates: Increase"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-866b679fbe",
+      "status": "resolved",
+      "base_url": "https://ko-fi.com/s/302ed408cf",
+      "host": "kofi",
+      "kind": "shop",
+      "confidence": "medium",
+      "reason": "Creator provided Ko-fi shop link and explicitly states pack remains free forever.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

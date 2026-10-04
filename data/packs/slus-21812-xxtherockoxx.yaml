@@ -1,0 +1,78 @@
+key: slus-21812-xxtherockoxx
+catalog_id: xxtherockoxx-speed-racer-slus-21812-20260726
+name: 'Speed Racer: The Videogame HD Texture Pack — xXtherockoXx'
+game:
+  title: 'Speed Racer: The Videogame'
+  serials:
+  - SLUS-21812
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: An independently authored multilingual HD replacement set for the SLUS-21812 North American release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/speed-racer-hd-textures.636540/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_5-png.384161/
+    thumb_url: https://gbatemp.net/data/attachments/383/383549-71feee7f4ca3ef88a081e08b9a310d42.jpg?hash=cf7uf0yj74
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.384165/
+    thumb_url: https://gbatemp.net/data/attachments/383/383553-1e83eb949af2d800cc4651e33e5f08d8.jpg?hash=HoPrlJry2A
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_6-png.384166/
+    thumb_url: https://gbatemp.net/data/attachments/383/383554-1b6aa625e695281a13cb6d1a7364f765.jpg?hash=G2qmJeaVKB
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.384167/
+    thumb_url: https://gbatemp.net/data/attachments/383/383555-3bd6f5f63196ef965282e3fd9ba15030.jpg?hash=O9b19jGW75
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.384168/
+    thumb_url: https://gbatemp.net/data/attachments/383/383556-29f96d43824d50408006de136c2fe544.jpg?hash=KfltQ4JNUE
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.384169/
+    thumb_url: https://gbatemp.net/data/attachments/383/383557-b6d94b5701025ce17e1a42fece4b80b0.jpg?hash=ttlLVwECXO
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: kkEqvbEkeuk
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; normalized and mirrored by EmuCoreX after comparison with the existing BMT619 pack. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/speed-racer-hd-textures.636540/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

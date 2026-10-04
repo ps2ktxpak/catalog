@@ -1,0 +1,66 @@
+key: sles-54255-panda-venom
+catalog_id: panda-venom-kof-maximum-impact-2-20260722
+name: 'The King of Fighters: Maximum Impact 2 HD Remaster'
+game:
+  title: The King of Fighters - Maximum Impact 2
+  serials:
+  - SLES-54255
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: High-resolution texture remaster for the European PS2 release; the optional original loading-screen archive is excluded.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-king-of-fighters-2006-maximum-impact-2-eu-hd-remaster.609990/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-28-22-at-04-58-pm-jpg.303683/
+    thumb_url: https://gbatemp.net/data/attachments/303/303071-1cfcd9fc4740cd3646d7d7e72fd1f9f0.jpg?hash=HPzZ_EdAzT
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-27-22-at-11-19-pm-jpg.303684/
+    thumb_url: https://gbatemp.net/data/attachments/303/303072-38b09aaba99a194cc2a0509c8d7f79c7.jpg?hash=OLCaq6maGU
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-27-22-at-11-20-pm-jpg.303685/
+    thumb_url: https://gbatemp.net/data/attachments/303/303073-3eb6edbb9e4db9276b97ab135c2bafb6.jpg?hash=Prbtu55NuS
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to a clean ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/the-king-of-fighters-2006-maximum-impact-2-eu-hd-remaster.609990/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

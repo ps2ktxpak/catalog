@@ -1,0 +1,78 @@
+key: slus-21716-sombertwilight
+catalog_id: sombertwilight-spiderwick-chronicles-slus-21716-20260726
+name: The Spiderwick Chronicles HD Texture Pack
+game:
+  title: The Spiderwick Chronicles
+  serials:
+  - SLUS-21716
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: A complete North American texture replacement set; the author notes a PCSX2 journal-view rendering issue unrelated to the archive.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-spiderwick-chronicles-ntsc-hd-textures.646354/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/the-spiderwick-chronicles_slus-21716_20240116093238-png.414256/
+    thumb_url: https://gbatemp.net/data/attachments/413/413644-018698c694a242ad971a00ab9357e4c7.jpg?hash=AYaYxpSiQq
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-spiderwick-chronicles_slus-21716_20240116093242-png.414257/
+    thumb_url: https://gbatemp.net/data/attachments/413/413645-7758f5a4ff6fb2c10a3e7009f4e8ee1e.jpg?hash=d1j1pP9vss
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-spiderwick-chronicles_slus-21716_20240116085756-png.414258/
+    thumb_url: https://gbatemp.net/data/attachments/413/413646-46ed7dcf970cd6dbc65ceb1fb48e08ea.jpg?hash=Ru19z5cM1t
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-spiderwick-chronicles_slus-21716_20240116085801-png.414261/
+    thumb_url: https://gbatemp.net/data/attachments/413/413649-61981ee87ac3f322be8a20ea9795a228.jpg?hash=YZge6HrD8y
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-spiderwick-chronicles_slus-21716_20240116093131-png.414264/
+    thumb_url: https://gbatemp.net/data/attachments/413/413652-a28be312dfe208f6b30c4338ccf8b0b9.jpg?hash=oovjEt_iCP
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-spiderwick-chronicles_slus-21716_20240116093136-png.414265/
+    thumb_url: https://gbatemp.net/data/attachments/413/413653-a93aa0f87ec82db3ff54ef22b920a509.jpg?hash=qTqg-H7ILb
+    credit: sombertwilight
+  videos:
+  - provider: youtube
+    id: ic0MJeLvdCk
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: Complete HD texture pack created by SomberTwilight; normalized without the separate emulator patch and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/the-spiderwick-chronicles-ntsc-hd-textures.646354/
+  version: Complete public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

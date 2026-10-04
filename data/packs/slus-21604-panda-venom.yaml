@@ -1,0 +1,72 @@
+key: slus-21604-panda-venom
+catalog_id: panda-venom-grimgrimoire-20260722
+name: GrimGrimoire HD Remaster
+game:
+  title: GrimGrimoire
+  serials:
+  - SLUS-21604
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: High-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grimgrimoire-usa-hd-remaster-by-panda-venom.617592/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-08-19-22-at-11-10-pm-jpg.323370/
+    thumb_url: https://gbatemp.net/data/attachments/322/322758-ceb7e8f4af2ca6c8b91eb47b73a58d84.jpg?hash=zrfo9K8sps
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-08-19-22-at-11-11-pm-jpg.323369/
+    thumb_url: https://gbatemp.net/data/attachments/322/322757-49266dfdd5c7359df1a73777803e8111.jpg?hash=SSZt_dXHNZ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-08-19-22-at-11-11-pm-003-jpg.323368/
+    thumb_url: https://gbatemp.net/data/attachments/322/322756-a6d1a573cfdabfbf2e5ab19cc9005e65.jpg?hash=ptGlc8_av7
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-08-19-22-at-11-11-pm-004-jpg.323367/
+    thumb_url: https://gbatemp.net/data/attachments/322/322755-46d913d76cbe0d6838e1e12c38a8c1c3.jpg?hash=RtkT12y-DW
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-08-19-22-at-11-12-pm-001-jpg.323366/
+    thumb_url: https://gbatemp.net/data/attachments/322/322754-a660320889a759bb2ef46908d11bae9a.jpg?hash=pmAyCImnWb
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/grimgrimoire-usa-hd-remaster-by-panda-venom.617592/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

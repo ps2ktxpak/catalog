@@ -1,0 +1,72 @@
+key: slpm-62443-panda-venom
+catalog_id: panda-venom-virtua-racing-flatout-20260722
+name: Virtua Racing FlatOut HD Remaster
+game:
+  title: 'Virtua Racing: FlatOut'
+  serials:
+  - SLPM-62443
+credits:
+- creator: panda-venom
+type: unknown
+completeness: unknown
+description: High-resolution texture remaster for the Japanese PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/virtua-racing-flatout-j-hd-remaster.622541/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-30-22-at-06-25-pm-jpg.340849/
+    thumb_url: https://gbatemp.net/data/attachments/340/340237-15950157cbe36ae87e75560c8965bcde.jpg?hash=FZUBV8vjau
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-30-22-at-06-31-pm-jpg.340847/
+    thumb_url: https://gbatemp.net/data/attachments/340/340235-47048b4d4417d6e54b6a2f9adde29c5f.jpg?hash=RwSLTUQX1u
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-30-22-at-06-32-pm-jpg.340846/
+    thumb_url: https://gbatemp.net/data/attachments/340/340234-29ed7d19c7c86c5d64fd3bd28102d716.jpg?hash=Ke19GcfIbF
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-30-22-at-06-33-pm-001-jpg.340845/
+    thumb_url: https://gbatemp.net/data/attachments/340/340233-18ed83a56166be18dbfc0941f8144bd1.jpg?hash=GO2DpWFmvh
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-30-22-at-06-25-pm-001-jpg.340848/
+    thumb_url: https://gbatemp.net/data/attachments/340/340236-2109c5960b8a40bf06885147befec33c.jpg?hash=IQnFlguKQL
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/virtua-racing-flatout-j-hd-remaster.622541/
+  version: 2 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

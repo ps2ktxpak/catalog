@@ -1,0 +1,82 @@
+{
+  "source_url": "https://gbatemp.net/threads/manhunt-hd-pcsx2-pack.682367/",
+  "listings": [
+    "l-3c26aff302"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Manhunt HD PCSX2 Pack"
+  },
+  "videos": [
+    {
+      "id": "b8wFopE8g28",
+      "uploader": "ironhulk33",
+      "links": [
+        {
+          "url": "https://patreon.com/ironhulk33?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink",
+          "host": "patreon",
+          "kind": "page",
+          "where": "video_description",
+          "context": "ating to the Patreon for full access to my packs for free and notifications when more are dropped!  ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_description",
+          "context": "at hopefully, wont get taken down. Buy anyway, have fun making films with this HD pack!  Downloads: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q",
+          "host": "terabox",
+          "kind": "file",
+          "where": "video_description",
+          "context": "k!  Downloads: https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://patreon.com/ironhulk33?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink",
+      "host": "patreon",
+      "kind": "page",
+      "where": "op",
+      "context": "nsider Donating to the Patreon for full access to my packs for free and notifications when more are dropped! https://patreon.com/ironhulk33?utm_...ign=creators"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "pack, that hopefully, wont get taken down. Buy anyway, have fun making films with this HD pack! Downloads: https://www.mediafire.com/file_premium/c0c87ypx98u"
+    },
+    {
+      "url": "https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q",
+      "host": "terabox",
+      "kind": "file",
+      "where": "op",
+      "context": "is HD pack! Downloads: https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file https://1024terabox.com/s/1cq1iVjzKIvd1LZwfKnai2Q"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-3c26aff302",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided MediaFire download link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slus-20842-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-the-sims-bustin-out-slus-20842-20260726.tar.zst",
+      "sha256": "b614bf7ae7564be780a65ab0de75dbdffb34a4c73a8614305af32e39b4d80da9",
+      "size_bytes": 60671248,
+      "decompressed_size_bytes": 129812480,
+      "file_count": 1080,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "2EA90CA4C6E3A8BA877547CB546BB9018B6A8F2943B584DF05C913BCF88E7952",
+        "size_bytes": 288948333
+      }
+    }
+  ]
+}

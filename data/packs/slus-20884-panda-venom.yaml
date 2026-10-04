@@ -1,0 +1,81 @@
+key: slus-20884-panda-venom
+catalog_id: panda-venom-spyro-heros-tail-slus-20884-20260726
+name: 'Spyro: A Hero''s Tail HD Texture Pack by Panda_Venom'
+game:
+  title: 'Spyro: A Hero''s Tail'
+  serials:
+  - SLUS-20884
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: in_progress
+description: An in-progress North American texture pack from Panda_Venom, retained separately from the catalog's distinct CRASHARKI multi-region pack.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spyro-a-heros-tail-usa-hd-remaster.636814/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/spyro-a-heros-tail_slus-20884_20230723175307-jpg.384987/
+    thumb_url: https://gbatemp.net/data/attachments/384/384375-469da2a8e52a1fcb1cc0958e14340413.jpg?hash=Rp2iqOUqH8
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/sypro1-jpg.384982/
+    thumb_url: https://gbatemp.net/data/attachments/384/384370-015d1f833bea3d8b5f7b794714b456e2.jpg?hash=AV0fgzvqPY
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/sypro2-jpg.384981/
+    thumb_url: https://gbatemp.net/data/attachments/384/384369-a6e64731590ae5f9411564b6ed54bd5d.jpg?hash=puZHMVkK5f
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spyro-a-heros-tail_slus-20884_20230723175210-jpg.384984/
+    thumb_url: https://gbatemp.net/data/attachments/384/384372-b4be8c715f73b3e58b0d095f22339fc5.jpg?hash=tL6McV9zs-
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spyro-a-heros-tail_slus-20884_20230723174940-jpg.384983/
+    thumb_url: https://gbatemp.net/data/attachments/384/384371-e554a7c0d9b3513fa27e6db319da86d5.jpg?hash=5VSnwNmzUT
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spyro-a-heros-tail_slus-20884_20230723175226-jpg.384985/
+    thumb_url: https://gbatemp.net/data/attachments/384/384373-7dad4b8b7a586d5f2889e2bf71d5b275.jpg?hash=fa1Li3pYbV
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spyro-a-heros-tail_slus-20884_20230723175238-jpg.384986/
+    thumb_url: https://gbatemp.net/data/attachments/384/384374-1628d1b1414c3c298960fd1bcd6927c6.jpg?hash=FijRsUFMPC
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/spyro-a-heros-tail_slus-20884_20230723175323-jpg.384988/
+    thumb_url: https://gbatemp.net/data/attachments/384/384376-24c2208a1ae5bdde09ec976c1db3c1ec.jpg?hash=JMIgihrlvd
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Independent AI-upscaled texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/spyro-a-heros-tail-usa-hd-remaster.636814/
+  version: v0.1 in-progress public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

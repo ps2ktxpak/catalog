@@ -1,0 +1,35 @@
+id: playmulation
+name: Playmulation
+aliases:
+- playmulation
+links:
+  page: https://gbatemp.net/members/playmulation.671028/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/playmulation
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@Playmulation/featured
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/671/671028.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

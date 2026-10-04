@@ -1,0 +1,15 @@
+id: proxcore-2000
+name: proXcore_2000
+aliases:
+- proxcore_2000
+links:
+  page: https://gbatemp.net/members/proxcore_2000.670302/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

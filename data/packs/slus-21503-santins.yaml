@@ -1,0 +1,89 @@
+key: slus-21503-santins
+catalog_id: texture-pack-credited-to-santins-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-god-hand-hd-remaster-community-archive-slus-21503-20260728
+name: God Hand HD Remaster - Community Archive Texture Pack
+game:
+  title: God Hand
+  serials:
+  - SLUS-21503
+credits:
+- creator: santins
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/god-hand-usa-uhd-remaster-definitive-fixed-transparency-glitches.638847/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005502-png.391276/
+    thumb_url: https://gbatemp.net/data/attachments/390/390664-918701663379aef21d8d8c407c7eb8d1.jpg?hash=kYcBZjN5rv
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005520-png.391277/
+    thumb_url: https://gbatemp.net/data/attachments/390/390665-3cf158e9c8c3ab9c19ee06a76599eaf3.jpg?hash=PPFY6cjDq5
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005525-png.391278/
+    thumb_url: https://gbatemp.net/data/attachments/390/390666-29fda997b5348e2c322b79e352434645.jpg?hash=Kf2pl7U0ji
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005532-png.391279/
+    thumb_url: https://gbatemp.net/data/attachments/390/390667-ffe1eccd1de274b47190680f108d2e60.jpg?hash=_-HszR3idL
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005552-png.391280/
+    thumb_url: https://gbatemp.net/data/attachments/390/390668-380d679bd6d2fce9d00a697a439043a5.jpg?hash=OA1nm9bS_O
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005638-png.391281/
+    thumb_url: https://gbatemp.net/data/attachments/390/390669-2dc184fdc1c71643f8eba27864f1c09e.jpg?hash=LcGE_cHHFk
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005649-png.391282/
+    thumb_url: https://gbatemp.net/data/attachments/390/390670-32c4e67c59f50038f804ba8915455498.jpg?hash=MsTmfFn1AD
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/god-hand_slus-21503_20230831005701-png.391283/
+    thumb_url: https://gbatemp.net/data/attachments/390/390671-d3e3e6ddde81a9334846f7ece98baa50.jpg?hash=0-Pm3d6BqT
+    credit: santins
+  videos:
+  - provider: youtube
+    id: rwKW_DYEtCs
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Santins by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Santins by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

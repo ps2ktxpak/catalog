@@ -1,0 +1,64 @@
+{
+  "source_url": "https://gbatemp.net/threads/mystic-heroes-hd-incomplete.639387/",
+  "listings": [
+    "l-ccb6c8b9c6"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mystic Heroes HD (Incomplete)"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/drive/folders/1vbM-IUT2C0PDOTmxNT_1Sm2ZGyjGnMYy?usp=drive_link",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op_followup",
+      "context": "link is right below! MISSION MODE: 0% STORY MODE: 50% SURVIVAL: 75% MULTIPLAY: 100% Spoiler https://drive.google.com/drive/folders/1vbM-IUT2C0"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1CtSKkl8cti29_-c99v5Xvg5v0dQeNeBU?usp=sharing",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op_followup",
+      "context": "een working on some textures but I messed up..hehe.. But here's a enemy texture pack with a dark twist to it https://drive.google.com/drive/folders/1CtSKkl8cti"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1v6oMoulapjwOQrY9-oozmB5HKHzFNmsZ?usp=sharing",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op_followup",
+      "context": "D texture pack (the original HD textures will be inside if the new one isn't your taste) Download link below! https://drive.google.com/drive/folders/1v6oMoulapj"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1kfKnfcjeBpdxPLJk4MBbo9ZIIYjx60ZS?usp=drive_link",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op_followup",
+      "context": "ow) Original Enemy Textures Version.1 ----------------------------------------------------------------------- https://drive.google.com/drive/folders/1kfKnfcjeBp"
+    },
+    {
+      "url": "https://drive.google.com/drive/folders/1r2rPXUVTaQ0sNjlJmQ2uZ60aPgGuRs1J?usp=drive_link",
+      "host": "gdrive",
+      "kind": "folder",
+      "where": "op_followup",
+      "context": "link Dark Enemy Textures Version.2 ------------------------------------------------------------------------ https://drive.google.com/drive/folders/1r2rPXUVTaQ"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-ccb6c8b9c6",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/drive/folders/1v6oMoulapjwOQrY9-oozmB5HKHzFNmsZ?usp=sharing",
+      "host": "gdrive",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator provided latest character/boss texture pack link in follow-up post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

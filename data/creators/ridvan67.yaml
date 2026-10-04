@@ -1,0 +1,21 @@
+id: ridvan67
+name: Ridvan67
+aliases:
+- ridvan67
+links:
+  page: https://gbatemp.net/members/ridvan67.772714/
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/772/772714.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

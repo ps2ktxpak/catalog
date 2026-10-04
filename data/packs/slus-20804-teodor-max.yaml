@@ -1,0 +1,66 @@
+key: slus-20804-teodor-max
+catalog_id: teodor-max-forgotten-realms-demon-stone-slus-20804-20260727
+name: 'Forgotten Realms: Demon Stone HD Texture Pack'
+game:
+  title: 'Forgotten Realms: Demon Stone'
+  serials:
+  - SLUS-20804
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: complete
+description: A complete North American HD texture replacement pack.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/forgotten-realms-demon-stone-hd-texture-pack.667852/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/thumb-1920-749196-copy-jpg.488872/
+    thumb_url: https://gbatemp.net/data/attachments/488/488260-4a5eff48f72c16d3bfc2d26d79103883.jpg?hash=Ak5ylSDxOz
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/forgotten-realms-demon-stone_slus-20804_20250306214828-png.489372/
+    thumb_url: https://gbatemp.net/data/attachments/488/488760-20c6c0207b7e3eecc9653c39736b480c.jpg?hash=IMbAIHt-Pu
+    credit: teodor-max
+  videos:
+  - provider: youtube
+    id: zJg9aCBGgFI
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TEODOR_MAX
+  credits: HD texture pack created by TEODOR_MAX; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/forgotten-realms-demon-stone-hd-texture-pack.667852/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

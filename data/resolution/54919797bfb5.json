@@ -1,0 +1,25 @@
+{
+  "source_url": "https://gbatemp.net/threads/bloody-roar-3-texture-pack-hd-remaster-wip.629676/",
+  "listings": [
+    "l-50bbb925ef"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Bloody Roar 3 texture pack, HD remaster (WIP)"
+  },
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-50bbb925ef",
+      "status": "not_found",
+      "confidence": "high",
+      "reason": "Opening post describes pack development but contains no download link location.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

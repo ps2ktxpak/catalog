@@ -1,0 +1,91 @@
+key: slus-21359-spider-man
+catalog_id: texture-pack-credited-to-spider-man-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-metal-gear-solid-3-subsistence-hd-remaster-community-archive-slus-21359-20260728
+name: Metal Gear Solid 3 Subsistence HD Remaster - Community Archive Texture Pack
+game:
+  title: Metal Gear Solid 3 Subsistence
+  serials:
+  - SLUS-21359
+credits:
+- creator: spider-man
+type: handcrafted
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/metal-gear-solid-3-subsistence-remastered-sles-82042.666658/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/mgs3-jpeg.485505/
+    thumb_url: https://gbatemp.net/data/attachments/484/484893-a0a3a7f4ff6a6e2542fca608cf4a28d7.jpg?hash=oKOn9P9qbi
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/1d20d7543e9d5b6c-e1bdf6e2b55526d-r320x208-00002653-png.485364/
+    thumb_url: https://gbatemp.net/data/attachments/484/484752-2f7b2fbc96f98ab170db5640e8276e3c.jpg?hash=L3svvJb5ir
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/34241e6f493f0774-f7e9f57d21d176a1-r320x220-00002653-png.485365/
+    thumb_url: https://gbatemp.net/data/attachments/484/484753-2ba965855367c79efde521f312484849.jpg?hash=K6llhVNnx5
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/a8d91e6776eccd77-467411fdfcdb9c29-r320x160-00002653-png.485369/
+    thumb_url: https://gbatemp.net/data/attachments/484/484757-6a64f00b4717bbebb9134ea36b600617.jpg?hash=amTwC0cXu-
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/9def46ecb8788e40-83273c6b3a34d56c-r384x0-00001e53-png.485372/
+    thumb_url: https://gbatemp.net/data/attachments/484/484760-f7643aad834db4b6ecd71c89b040105d.jpg?hash=ZKhzwTz1CP
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/c7b0f83e335bd28e-ac21ffe52b768832-r384x128-00002253-png.485373/
+    thumb_url: https://gbatemp.net/data/attachments/484/484761-61c39bb3b4890e9cb2c28b6b701363ad.jpg?hash=YcObs7SJDp
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/ef18461c5e5c6e44-cfd927adc44ba8ad-r256x204-00002653-png.485375/
+    thumb_url: https://gbatemp.net/data/attachments/484/484763-05201565cc97a3cc166d9fc1cf5e1d3e.jpg?hash=BSAVZcyXo8
+    credit: spider-man
+  - source_url: https://gbatemp.net/attachments/992fee8988737050-dfbab59068d4eb5a-r100x40-00002653-png.485376/
+    thumb_url: https://gbatemp.net/data/attachments/484/484764-ef9392fb1dc5d22a21f1327119ef509d.jpg?hash=75OS-x3F0i
+    credit: spider-man
+  videos:
+  - provider: youtube
+    id: hnG9rU3C7zM
+  - provider: youtube
+    id: K_8gYfJHsLg
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Spider_Man by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Spider_Man by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

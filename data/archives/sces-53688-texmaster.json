@@ -1,0 +1,24 @@
+{
+  "key": "sces-53688-texmaster",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/andritgames20-urban-reign-sces-53688-20260728.tar.zst",
+      "sha256": "3c3e3c30920d053d8fc8d621bf6e2ee676d8d1085fe6163fd52e2e10f03fa384",
+      "size_bytes": 672329222,
+      "decompressed_size_bytes": 1069393920,
+      "file_count": 4891,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "1D70CC234735618F3E0CA7B1962F2088D5AA60A5CDB5965BC95A49E78DAAE1C9",
+        "size_bytes": 2807037016
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+key: slus-21543-mvp899
+catalog_id: texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-mortal-kombat-armageddon-premium-edition-hd-remaster-community-archive-slus-21543-20260728
+name: Mortal Kombat Armageddon Premium Edition HD Remaster - Community Archive Texture Pack
+game:
+  title: Mortal Kombat Armageddon Premium Edition
+  serials:
+  - SLUS-21543
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mortal-kombat-armageddon-premium-edition-hd-texture.676756/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/mortal-kombat-armageddon-premium-edition-_slus-21543_20251031221334-png.536442/
+    thumb_url: https://gbatemp.net/data/attachments/535/535830-9648aa6c54c38cd4b406bf37c477f9eb.jpg?hash=7ztm3rSi5x
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/mortal-kombat-armageddon-premium-edition-_slus-21543_20251031221445-png.536443/
+    thumb_url: https://gbatemp.net/data/attachments/535/535831-1645f471e44be6487ce59105fffed456.jpg?hash=3V8bl0LePP
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/mortal-kombat-armageddon-premium-edition-_slus-21543_20251031221525-png.536444/
+    thumb_url: https://gbatemp.net/data/attachments/535/535832-b6e3dea87528bfcdbb4d25d699528749.jpg?hash=H4Qdq6bWwV
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/mortal-kombat-armageddon-premium-edition-_slus-21543_20251031221609-png.536445/
+    thumb_url: https://gbatemp.net/data/attachments/535/535833-eabe4c7010c4de1e00a8d48c2dfa6e43.jpg?hash=6IL020YSJ2
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: QC4w9rBJNlY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,71 @@
+key: scus-97132-mvp899
+catalog_id: texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-kinetica-hd-remaster-community-archive-scus-97132-20260728
+name: Kinetica HD Remaster - Community Archive Texture Pack
+game:
+  title: Kinetica
+  serials:
+  - SCUS-97132
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kinetica-pcsx2-hd-texture.669715/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/kinetica_scus-97132_20250413223645-png.497845/
+    thumb_url: https://gbatemp.net/data/attachments/497/497233-2730c36649b7e3cc9be36f82621dacc2.jpg?hash=JzDDZkm348
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/kinetica_scus-97132_20250413223649-png.497846/
+    thumb_url: https://gbatemp.net/data/attachments/497/497234-12e423f8da076193bb92e4f2c367848a.jpg?hash=EuQj-NoHYZ
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: PJomlYdYIvM
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

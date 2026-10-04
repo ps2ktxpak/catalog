@@ -1,0 +1,24 @@
+{
+  "key": "slus-20770-teodor-max",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/teodor-max-lord-of-the-rings-return-of-the-king-slus-20770-20260727.tar.zst",
+      "sha256": "2f93cf800e9f47a84ef098fab38e2caa8d8132515e07971338f0ccf317f4adee",
+      "size_bytes": 435531799,
+      "decompressed_size_bytes": 541890560,
+      "file_count": 1811,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "336A4306A420E3AB309562989DE0E03D4394FE76AD54558D7FC2CEA9DFB6D929",
+        "size_bytes": 752522969
+      }
+    }
+  ]
+}

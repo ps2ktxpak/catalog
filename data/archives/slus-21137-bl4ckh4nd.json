@@ -1,0 +1,24 @@
+{
+  "key": "slus-21137-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-tom-clancy-s-splinter-cell-chaos-theory-hd-remaster-community-archive-slus-21137-20260728.tar.zst",
+      "sha256": "f82d1ad53237616ffac172c475ebe5f07e62a96138b3725d3dbb131ac7644a1c",
+      "size_bytes": 646255856,
+      "decompressed_size_bytes": 919531520,
+      "file_count": 3557,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A220C2191F362529623E3B9510573ABC60A578439B5EE505CBCD370B8AC777FE",
+        "size_bytes": 743604724
+      }
+    }
+  ]
+}

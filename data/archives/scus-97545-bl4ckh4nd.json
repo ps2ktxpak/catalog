@@ -1,0 +1,24 @@
+{
+  "key": "scus-97545-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-socom-u-s-navy-seals-combined-assault-scus-97545-20260728.tar.zst",
+      "sha256": "030eb778c9f036aa1bd61357adc01f323144e8315a8936937eef16062bb92619",
+      "size_bytes": 389707944,
+      "decompressed_size_bytes": 511293440,
+      "file_count": 3515,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "328204D53B6EB36EB0B166865004828262EDFF412BA3EA8A7FE056889AE34BC8",
+        "size_bytes": 445046721
+      }
+    }
+  ]
+}

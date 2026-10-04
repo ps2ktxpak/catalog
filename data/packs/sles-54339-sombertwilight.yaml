@@ -1,0 +1,69 @@
+key: sles-54339-sombertwilight
+catalog_id: sombertwilight-realm-of-the-dead-sles-54339-20260728
+name: Realm of the Dead Texture Pack
+game:
+  title: Realm of the Dead
+  serials:
+  - SLES-54339
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/realm-of-the-dead-pal-hd-textures.646221/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/realm-of-the-dead_sles-54339_20240114032817-png.413839/
+    thumb_url: https://gbatemp.net/data/attachments/413/413227-81c45cd7670de4b34d4d08d808f206bb.jpg?hash=gcRc12cN5L
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/realm-of-the-dead_sles-54339_20240114032901-png.413840/
+    thumb_url: https://gbatemp.net/data/attachments/413/413228-6a72aa54dfcfe299d0bc015fd501a3b0.jpg?hash=anKqVN_P4p
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/realm-of-the-dead_sles-54339_20240114050310-png.413842/
+    thumb_url: https://gbatemp.net/data/attachments/413/413230-92f37f2b06f62d7170f8d1a4bdf68b05.jpg?hash=kvN_Kwb2LX
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/realm-of-the-dead_sles-54339_20240114050259-png.413843/
+    thumb_url: https://gbatemp.net/data/attachments/413/413231-3f0357e7a9f0c57cc92e44a7d0253cba.jpg?hash=PwNX56nwxX
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD texture pack credited by the source to SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/realm-of-the-dead-pal-hd-textures.646221/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

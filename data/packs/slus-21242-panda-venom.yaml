@@ -1,0 +1,75 @@
+key: slus-21242-panda-venom
+catalog_id: panda-venom-burnout-revenge-20260722
+name: Burnout Revenge HD Remaster
+game:
+  title: Burnout Revenge
+  serials:
+  - SLUS-21242
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: High-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/burnout-revenge-usa-hd-remaster.621038/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-04-16-am-002-jpg.334528/
+    thumb_url: https://gbatemp.net/data/attachments/333/333916-db0b68878fd750c811a607f1c2da49b3.jpg?hash=2wtoh4_XUM
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-04-16-am-003-jpg.334527/
+    thumb_url: https://gbatemp.net/data/attachments/333/333915-b5fce1a0aa1f797d0fc286f8bbd62431.jpg?hash=tfzhoKofeX
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-04-16-am-004-jpg.334526/
+    thumb_url: https://gbatemp.net/data/attachments/333/333914-e38352d14686ddc72b1c2ccac9ff26d8.jpg?hash=44NS0UaG3c
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-04-17-am-jpg.334525/
+    thumb_url: https://gbatemp.net/data/attachments/333/333913-de876a38c7800fd451ed547d4fe2efc0.jpg?hash=3odqOMeAD9
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-04-14-am-jpg.334530/
+    thumb_url: https://gbatemp.net/data/attachments/333/333918-958196c87e45062298b2f9d178222540.jpg?hash=lYGWyH5FBi
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-04-14-am-001-jpg.334529/
+    thumb_url: https://gbatemp.net/data/attachments/333/333917-b907aebc0e585d47d8e4a53dc7560f92.jpg?hash=uQeuvA5YXU
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/burnout-revenge-usa-hd-remaster.621038/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,78 @@
+key: slus-21774-sombertwilight
+catalog_id: texture-pack-credited-to-sombertwilight-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-dynasty-warriors-6-hd-remaster-community-archive-slus-21774-20260728
+name: Dynasty Warriors 6 HD Remaster - Community Archive Texture Pack
+game:
+  title: Dynasty Warriors 6
+  serials:
+  - SLUS-21774
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dynasty-warriors-6-special-hd-textures-ntsc.645178/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/dynasty-warriors-6_slus-21774_20231227120335-png.410525/
+    thumb_url: https://gbatemp.net/data/attachments/409/409913-9e1bc495e3bf60f27ffd43e8637217c5.jpg?hash=nhvEleO_YP
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/dynasty-warriors-6_slus-21774_20231227120329-png.410526/
+    thumb_url: https://gbatemp.net/data/attachments/409/409914-d59109c1c3c3125aa9430ed169eb426b.jpg?hash=1ZEJwcPDEl
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/dynasty-warriors-6_slus-21774_20231227120703-png.410531/
+    thumb_url: https://gbatemp.net/data/attachments/409/409919-36804638f64ff66ae72129792fd845de.jpg?hash=NoBGOPZP9m
+    credit: sombertwilight
+  videos:
+  - provider: youtube
+    id: c0JBKkItgOg
+  - provider: youtube
+    id: OkrnrS51e2s
+  - provider: youtube
+    id: eR4ybcHC1hY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to SomberTwilight by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to SomberTwilight by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

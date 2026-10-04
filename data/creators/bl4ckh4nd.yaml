@@ -1,0 +1,31 @@
+id: bl4ckh4nd
+name: Bl4ckH4nd
+aliases:
+- bl4ckh4nd
+links:
+  page: https://gbatemp.net/members/bl4ckh4nd.609354/
+  tip:
+  - kind: patreon
+    url: https://www.patreon.com/Bl4ckH4nd
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/609/609354.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: hand-correction
+    date: '2026-10-02'
+    confidence: high
+    note: The Ko-fi page the sheet links to no longer exists; he takes support on Patreon.
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+locked:
+- links.tip

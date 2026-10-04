@@ -1,0 +1,60 @@
+key: slus-20152-ostrich
+catalog_id: ostrichmods-ace-combat-trilogy-hud-1.2.1
+name: Ace Combat PS2 Trilogy HD HUD
+game:
+  title: Ace Combat PS2 Trilogy
+  serials:
+  - SLUS-20152
+  - SLUS-20851
+  - SLUS-21346
+credits:
+- creator: ostrich
+- creator: roach-typografics
+- creator: zaku
+- creator: phantomphanatic
+- creator: stahl
+type: unknown
+completeness: unknown
+description: High-resolution in-mission HUD, aircraft icons and weapon graphics for Ace Combat 04, Ace Combat 5 and Ace Combat Zero.
+sources:
+- kind: other
+  url: https://ostrichmods.com/trilogy
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Ostrich
+  - Roach Typografics
+  - Zaku
+  - PhantomPhanatic
+  - Stahl
+  credits: Hand-made HUD textures by Ostrich with Roach Typografics, Zaku, PhantomPhanatic and Stahl; mirrored by EmuCoreX with the original source retained.
+  license: See source page terms
+  source_url: https://ostrichmods.com/trilogy
+  version: 1.2.1
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

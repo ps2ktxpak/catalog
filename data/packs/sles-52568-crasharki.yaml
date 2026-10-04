@@ -1,0 +1,52 @@
+key: sles-52568-crasharki
+catalog_id: crasharki-crash-twinsanity-1eca568f
+name: Crash Twinsanity Texture Pack
+game:
+  title: Crash Twinsanity
+  serials:
+  - SLUS-20909
+  - SLES-52568
+  - SLPM-65801
+credits:
+- creator: crasharki
+type: unknown
+completeness: in_progress
+description: Upscaled characters, world textures, galleries, regional fonts, level cards, icons and screens.
+sources:
+- kind: repository
+  url: https://github.com/CRASHARKI/ctwin-tp
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - CRASHARKI
+  credits: Created and maintained by CRASHARKI.
+  license: See source repository terms
+  source_url: https://github.com/CRASHARKI/ctwin-tp
+  version: 1eca568f
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

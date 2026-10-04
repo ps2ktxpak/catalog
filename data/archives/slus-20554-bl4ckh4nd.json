@@ -1,0 +1,24 @@
+{
+  "key": "slus-20554-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-metal-gear-solid-2-substance-slus-20554-20260728.tar.zst",
+      "sha256": "7e546a3f2f86264ae9ed0111216294ef6d0636e3a898d12083e4375312c3b98a",
+      "size_bytes": 735076034,
+      "decompressed_size_bytes": 1598791680,
+      "file_count": 28672,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "248CEA64BF6F27729342F452D8B96D54730516198A81FA447BEB088EA3502798",
+        "size_bytes": 1002918812
+      }
+    }
+  ]
+}

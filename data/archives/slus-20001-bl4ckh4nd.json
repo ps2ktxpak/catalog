@@ -1,0 +1,24 @@
+{
+  "key": "slus-20001-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-tekken-tag-tournament-slus-20001-20260722.tar.zst",
+      "sha256": "72436cc11f681c09cb8ddd9844c13066c98887ac5b99abc057f70d07c90cf4ea",
+      "size_bytes": 323679827,
+      "decompressed_size_bytes": 491284480,
+      "file_count": 5639,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6BB78DE3747C4D6DB35B035856DB7D1D873FFBCD2973BC8DACB3C3A142CEC4B6",
+        "size_bytes": 686333991
+      }
+    }
+  ]
+}

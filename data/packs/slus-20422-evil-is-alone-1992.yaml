@@ -1,0 +1,79 @@
+key: slus-20422-evil-is-alone-1992
+catalog_id: evil-is-alone-the-hulk-slus-20422-20260726
+name: The Hulk HD Texture Pack
+game:
+  title: The Hulk
+  serials:
+  - SLUS-20422
+credits:
+- creator: evil-is-alone-1992
+- creator: oldycrowdy
+type: mixed
+completeness: complete
+description: High-resolution replacement textures with reworked HUD, UI and fonts for the North American PS2 release; some loading screens remain missing.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-hulk-hd-texture-pack.649186/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/the-hulk-kopia-jpg.421842/
+    thumb_url: https://gbatemp.net/data/attachments/421/421230-214e3ebcc3b39bbceeaefc145c8db044.jpg?hash=16a3yMKOwU
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/base-profile-screenshot-2024-02-20-21-53-24-14-png.421840/
+    thumb_url: https://gbatemp.net/data/attachments/421/421228-5e06c647bf0cf4090b12427592b07cf5.jpg?hash=BI47WMMo9u
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hulk_slus-20422_20240223173006-png.421841/
+    thumb_url: https://gbatemp.net/data/attachments/421/421229-295ea3b401e042df4652ac85ca270d8b.jpg?hash=KV6jtAHgQt
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hulk_slus-20422_20240223173115-png.421843/
+    thumb_url: https://gbatemp.net/data/attachments/421/421231-fbd2861556309bcb15c173a5e93de71b.jpg?hash=-9KGFVYwm8
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hulk_slus-20422_20240223173648-png.421844/
+    thumb_url: https://gbatemp.net/data/attachments/421/421232-2f2ef495ab7ec8b449d0e6edd5ea2ce8.jpg?hash=Ly70lat-yL
+    credit: evil-is-alone-1992
+  - source_url: https://gbatemp.net/attachments/the-hulk_slus-20422_20240223175250-png.421847/
+    thumb_url: https://gbatemp.net/data/attachments/421/421235-b1ee392fa87f23daaa0f32c582b4403a.jpg?hash=se45L6h_I9
+    credit: evil-is-alone-1992
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- co_credit_unconfirmed
+legacy:
+  authors:
+  - Evil_Is_Alone_1992
+  - OldyCrowdy
+  credits: HD texture pack created by Evil_Is_Alone_1992, also known as OldyCrowdy, using Topaz AI Gigapixel and Photoshop; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/the-hulk-hd-texture-pack.649186/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

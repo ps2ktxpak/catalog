@@ -1,0 +1,81 @@
+key: slpm-66205-panda-venom
+catalog_id: panda-venom-front-mission-5-translated-slpm-66205-20260728
+name: Front Mission 5 (Translated) Texture Pack
+game:
+  title: Front Mission 5 (Translated)
+  serials:
+  - SLPM-66205
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/front-mission-v-jap-translated-hd-remaster.623392/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-02-19-pm-jpg.343229/
+    thumb_url: https://gbatemp.net/data/attachments/342/342617-1893d75320d1a812f4e11ddd93580367.jpg?hash=GJPXUyDRqB
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-02-19-pm-001-jpg.343228/
+    thumb_url: https://gbatemp.net/data/attachments/342/342616-3c4f848013268a4a0b4839b7c70b1500.jpg?hash=PE-EgBMmik
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-02-20-pm-jpg.343230/
+    thumb_url: https://gbatemp.net/data/attachments/342/342618-122f2449bb190ac9b6eef0125d875b72.jpg?hash=Ei8kSbsZCs
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-02-22-pm-jpg.343231/
+    thumb_url: https://gbatemp.net/data/attachments/342/342619-5a0de7c65ce93f3596c5667b8e8eaba6.jpg?hash=Wg3nxlzpPz
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-03-45-pm-001-jpg.343232/
+    thumb_url: https://gbatemp.net/data/attachments/342/342620-3f4f20e064c99ac86a295f2ebf96e816.jpg?hash=P08g4GTJms
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-03-47-pm-jpg.343233/
+    thumb_url: https://gbatemp.net/data/attachments/342/342621-9168bf5dc55a7705a5dff26a377f107a.jpg?hash=kWi_XcVadw
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-03-54-pm-jpg.343234/
+    thumb_url: https://gbatemp.net/data/attachments/342/342622-a577b79474bc7662ffa2abb53d1a4f4b.jpg?hash=pXe3lHS8dm
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-12-09-22-at-06-28-pm-jpg.343235/
+    thumb_url: https://gbatemp.net/data/attachments/342/342623-819d6d6939c4fe05fd188c244652e39a.jpg?hash=gZ1taTnE_g
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack credited by the source to Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/front-mission-v-jap-translated-hd-remaster.623392/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

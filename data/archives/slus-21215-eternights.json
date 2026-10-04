@@ -1,0 +1,24 @@
+{
+  "key": "slus-21215-eternights",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/eternights-the-warriors-release.tar.zst",
+      "sha256": "ff6a7cc340c1b28c2a94f5a62f594214c804f764e2084efc9c04fadff06250f0",
+      "size_bytes": 57259934,
+      "decompressed_size_bytes": 82882560,
+      "file_count": 4310,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "EF398C904AD159F352D7CCF466187BD5BAE535059B0154D16CC4FC4AEE4F5E13",
+        "size_bytes": 152878697
+      }
+    }
+  ]
+}

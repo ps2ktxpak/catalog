@@ -1,0 +1,21 @@
+id: skyfighterzx
+name: SkyfighterZX
+aliases:
+- skyfighterzx
+links:
+  page: https://gbatemp.net/members/skyfighterzx.656340/
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/656/656340.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

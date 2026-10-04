@@ -1,0 +1,51 @@
+key: slus-20483-bladdee
+catalog_id: hd-texture-upscaling-project-created-wwe-smackdown-shut-your-mouth-hd-texture-pack-slus-20483-20260728
+name: WWE SmackDown! Shut Your Mouth HD Texture Pack
+game:
+  title: WWE SmackDown! Shut Your Mouth
+  serials:
+  - SLUS-20483
+credits:
+- creator: bladdee
+type: unknown
+completeness: unknown
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: repository
+  url: https://github.com/Bladdee/SmackdownSYM/tree/6a85afe51a45937c4b2d31848044ac7c3943f87a
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - HD texture upscaling project created
+  - maintained by Bladdee.
+  credits: HD texture pack credited by the source to HD texture upscaling project created and maintained by Bladdee.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://github.com/Bladdee/SmackdownSYM/tree/6a85afe51a45937c4b2d31848044ac7c3943f87a
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

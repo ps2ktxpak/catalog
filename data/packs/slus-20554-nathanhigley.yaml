@@ -1,0 +1,50 @@
+key: slus-20554-nathanhigley
+catalog_id: nathanhigley-mgs2-hd-ui-2.2
+name: MGS2 HD UI
+game:
+  title: 'Metal Gear Solid 2: Substance'
+  serials:
+  - SLUS-20554
+credits:
+- creator: nathanhigley
+type: unknown
+completeness: unknown
+description: High-resolution user-interface texture replacement pack.
+sources:
+- kind: repository
+  url: https://github.com/NathanHigley/MGS2-HD-UI
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - NathanHigley
+  credits: Created and maintained by NathanHigley.
+  license: See source repository terms
+  source_url: https://github.com/NathanHigley/MGS2-HD-UI
+  version: '2.2'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

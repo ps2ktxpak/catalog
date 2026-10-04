@@ -1,0 +1,24 @@
+{
+  "key": "sles-55204-crasharki",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/crasharki-crash-mind-over-mutant-75b0d241.tar.zst",
+      "sha256": "6b9596169071e92e93f9e5ab89be707f5588d7cac7c3057fe3e745643d0e49ba",
+      "size_bytes": 209824462,
+      "decompressed_size_bytes": 1330739200,
+      "file_count": 2610,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "54DCB86BB589DCFF8561FB2FB8453BA676BD27FD1B0A686ED2493EF055353B04",
+        "size_bytes": 701550630
+      }
+    }
+  ]
+}

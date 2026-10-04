@@ -1,0 +1,24 @@
+{
+  "key": "slus-21150-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-beat-down-fists-of-vengeance-hd-remaster-community-archive-slus-21150-20260728.tar.zst",
+      "sha256": "34c0821b24af7b05d2195655d29e803fa3e7adee77435c0b5a14e5a66b5cca11",
+      "size_bytes": 682179314,
+      "decompressed_size_bytes": 941608960,
+      "file_count": 3691,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "629B9A97CED92A2C0EF5FC8C2BC1D5F10D50472E95AA755DF38EDD4B9E4DAF54",
+        "size_bytes": 2444529290
+      }
+    }
+  ]
+}

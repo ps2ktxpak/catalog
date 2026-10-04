@@ -1,0 +1,24 @@
+{
+  "key": "slus-20090-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-timesplitters-slus-20090-20260728.tar.zst",
+      "sha256": "03effac10da4a5c75e5f9d9ce9f85037a0e906264c6a5313a7879ac08162641d",
+      "size_bytes": 69783516,
+      "decompressed_size_bytes": 90429440,
+      "file_count": 1341,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A2A85AC03780D3A1392B27026932ABD805D59E6AF8A52128F808A8DC24E5707D",
+        "size_bytes": 76319147
+      }
+    }
+  ]
+}

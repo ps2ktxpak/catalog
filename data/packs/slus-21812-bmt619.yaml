@@ -1,0 +1,50 @@
+key: slus-21812-bmt619
+catalog_id: bmt619-speed-racer-v1.0
+name: Speed Racer HD Texture Pack
+game:
+  title: 'Speed Racer: The Videogame'
+  serials:
+  - SLUS-21812
+credits:
+- creator: bmt619
+type: unknown
+completeness: unknown
+description: High-resolution replacement pack for the North American PS2 release.
+sources:
+- kind: repository
+  url: https://github.com/BMT619/Speed-Racer-PCSX2-HD-Texture-Pack
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - BMT619
+  credits: Created and published by BMT619.
+  license: See source repository terms
+  source_url: https://github.com/BMT619/Speed-Racer-PCSX2-HD-Texture-Pack
+  version: '1.0'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

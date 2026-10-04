@@ -1,0 +1,24 @@
+{
+  "key": "slus-20297-sombershroud",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-sombershroud-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-return-to-castle-wolfenstein-operation-resurrection-hd-remaster-community-archive-slus-20297-20260728.tar.zst",
+      "sha256": "13fc242849ba0290825be45ed27fa28778c5417a5fa3b3dd36281c44cf81af24",
+      "size_bytes": 1219593375,
+      "decompressed_size_bytes": 1758218240,
+      "file_count": 12578,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "CF22E4629A594345BA2C3CFEE97DE4DB75D7F6A5FDD826A82A22A2CCCCAD7996",
+        "size_bytes": 2689762815
+      }
+    }
+  ]
+}

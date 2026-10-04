@@ -1,0 +1,81 @@
+key: slus-21142-teodor-max
+catalog_id: teodor-max-constantine-slus-21142-20260726
+name: Constantine HD Texture Pack
+game:
+  title: Constantine
+  serials:
+  - SLUS-21142
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: unknown
+description: DDS replacement textures prepared for the SLUS-21142 North American release of Constantine.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/constantine-hd-texture-pack.640519/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/595586-jpg.396665/
+    thumb_url: https://gbatemp.net/data/attachments/396/396053-eb3d1e7d752bc2da68c352bbdfef2a8a.jpg?hash=6z0efXUrwt
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930005349-png.396644/
+    thumb_url: https://gbatemp.net/data/attachments/396/396032-80d39ea3028a4f8a71f637cc91ed3763.jpg?hash=gNOeowKKT4
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930005352-png.396645/
+    thumb_url: https://gbatemp.net/data/attachments/396/396033-1b733e9f7b211ba03c9aeda863688f2e.jpg?hash=G3M-n3shG6
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930005952-png.396646/
+    thumb_url: https://gbatemp.net/data/attachments/396/396034-01450bdee8dbbaa8fc90ee9b86006b5a.jpg?hash=AUUL3ujbuq
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930005951-png.396647/
+    thumb_url: https://gbatemp.net/data/attachments/396/396035-da68369b28ade09f8b33fd1092a2c9ca.jpg?hash=2mg2myit4J
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930010357-png.396648/
+    thumb_url: https://gbatemp.net/data/attachments/396/396036-96c511ae17557fea7fe0f685be5988b6.jpg?hash=lsURrhdVf-
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930010359-png.396649/
+    thumb_url: https://gbatemp.net/data/attachments/396/396037-9ceec41b673f13ae14df3c7b95030c67.jpg?hash=nO7EG2c_E6
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/constantine_slus-21142_20230930011228-png.396650/
+    thumb_url: https://gbatemp.net/data/attachments/396/396038-d484b2fdc86fe252a4afaad52a9ab6d4.jpg?hash=1ISy_chv4l
+    credit: teodor-max
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TEODOR_MAX
+  credits: HD texture pack created by TEODOR_MAX; recovered from the preserved public source artifact, normalized to a texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/constantine-hd-texture-pack.640519/
+  version: Public source snapshot (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

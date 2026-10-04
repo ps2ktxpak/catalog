@@ -1,0 +1,73 @@
+key: slus-20355-retrogenerica
+catalog_id: retrogenerica-tom-and-jerry-war-of-the-whiskers-slus-20355-20260726
+name: Tom & Jerry in War of the Whiskers HD Texture Pack
+game:
+  title: Tom & Jerry in War of the Whiskers
+  serials:
+  - SLUS-20355
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+description: HD character, arena, effects and interface texture replacements for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tom-jerry-in-war-of-the-whiskers-ps2-hd-texture-pack-100-complete.661983/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/661983/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-10-15-185620-png.464910/
+    thumb_url: https://gbatemp.net/data/attachments/464/464298-ea800bbbb50899564e08909d0fa2c170.jpg?hash=6oALu7UImV
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-10-15-185643-png.464911/
+    thumb_url: https://gbatemp.net/data/attachments/464/464299-54613ad99509e345f1d1e67f0a2edb2d.jpg?hash=VGE62ZUJ40
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-10-15-185800-png.464912/
+    thumb_url: https://gbatemp.net/data/attachments/464/464300-298538e699f1160bd40ddbd8cd2ec8c7.jpg?hash=KYU45pnxFg
+    credit: retrogenerica
+  videos:
+  - provider: youtube
+    id: erAQ8BR5-nM
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - RetroGenerica
+  credits: HD texture pack created by RetroGenerica (formerly DerekGeneric831); normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/661983/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

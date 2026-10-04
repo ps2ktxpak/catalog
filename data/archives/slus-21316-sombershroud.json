@@ -1,0 +1,24 @@
+{
+  "key": "slus-21316-sombershroud",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombershroud-capcom-classics-collection-vol-1-slus-21316-20260728.tar.zst",
+      "sha256": "93f035930c5e9686507bfa411fac13fc11b7a5e494058c50d6650ecdf86843a9",
+      "size_bytes": 16372701,
+      "decompressed_size_bytes": 66652160,
+      "file_count": 264,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "8F511440DF76B16D18C2986842D895D3C2C3A16FD2A74085CA29FFEC2FF2C51D",
+        "size_bytes": 119621395
+      }
+    }
+  ]
+}

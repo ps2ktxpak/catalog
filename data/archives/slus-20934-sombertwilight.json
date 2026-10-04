@@ -1,0 +1,24 @@
+{
+  "key": "slus-20934-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-death-by-degrees-slus-20934-20260726.tar.zst",
+      "sha256": "dbf4eaf64400d48c2ff83ae5505f2baff296f79d0b119785fa061100161d4f72",
+      "size_bytes": 903246458,
+      "decompressed_size_bytes": 1459589120,
+      "file_count": 9693,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6641E079D9228DA773E4BB1EF4151C56C73628567D10EFEAC7B2EAF5D5AB4F6C",
+        "size_bytes": 1142002575
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+key: slus-21426-panda-venom
+catalog_id: panda-venom-call-of-duty-3-20260722
+name: Call of Duty 3 HD Remaster
+game:
+  title: Call of Duty 3
+  serials:
+  - SLUS-21426
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: Near-complete high-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/call-of-duty-3-usa-hd-remaster.622498/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-29-22-at-01-39-pm-jpg.340576/
+    thumb_url: https://gbatemp.net/data/attachments/339/339964-259a41003b951147733083d61cb5913b.jpg?hash=JZpBADuVEU
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-29-22-at-01-38-pm-001-jpg.340577/
+    thumb_url: https://gbatemp.net/data/attachments/339/339965-7466858dc021bb1d6e6af988066577ae.jpg?hash=dGaFjcAhux
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-29-22-at-01-39-pm-001-jpg.340575/
+    thumb_url: https://gbatemp.net/data/attachments/339/339963-a0fa993f50b90d3a286b678ba53625c5.jpg?hash=oPqZP1C5DT
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-29-22-at-01-41-pm-001-jpg.340573/
+    thumb_url: https://gbatemp.net/data/attachments/339/339961-f49a0d4504bed28dc9fd479fa880fac7.jpg?hash=9JoNRQS-0o
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-29-22-at-01-41-pm-jpg.340574/
+    thumb_url: https://gbatemp.net/data/attachments/339/339962-bc5913ba0bcc1e2778680194af882e8d.jpg?hash=vFkTugvMHi
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-28-22-at-05-10-pm-001-jpg.340581/
+    thumb_url: https://gbatemp.net/data/attachments/339/339969-cd01b108ce4538d73650bf3786afd8b1.jpg?hash=zQGxCM5FON
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-28-22-at-05-11-pm-jpg.340580/
+    thumb_url: https://gbatemp.net/data/attachments/339/339968-bee628532046fab9a5a89887cdcb6a22.jpg?hash=vuYoUyBG-r
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/call-of-duty-3-usa-hd-remaster.622498/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,20 @@
+id: killxua
+name: killxua
+links:
+  page: https://gbatemp.net/members/killxua.691699/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@alepc7480
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

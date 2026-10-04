@@ -1,0 +1,24 @@
+{
+  "key": "sces-50760-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-ico-20260722.tar.zst",
+      "sha256": "384f61281557c33dac6d5c6ac9f07ec94c52e51c2c5000b39eb19592d3e911b4",
+      "size_bytes": 229705035,
+      "decompressed_size_bytes": 311951360,
+      "file_count": 1425,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6A0C5DEB855DBAF89C5980FFFD32DAE1666AC9E87CE2CADF46E79AF1E7823355",
+        "size_bytes": 225768633
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "slpm-65885-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-rumble-roses-slpm-65885-slus-20970-20260726.tar.zst",
+      "sha256": "2b8446c23eaa7d70e58f7b7dc8aee39bb5872e212588b2a70d474e505701654d",
+      "size_bytes": 143896982,
+      "decompressed_size_bytes": 207728640,
+      "file_count": 1434,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "49653A67F684914EEEE012E9B6D63DEB96478E96525F29F18BE827AA19F0F16C",
+        "size_bytes": 151922331
+      }
+    }
+  ]
+}

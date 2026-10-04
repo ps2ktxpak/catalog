@@ -1,0 +1,24 @@
+{
+  "source_url": "https://gbatemp.net/threads/socom-ii-u-s-navy-seals.672304/",
+  "listings": [
+    "l-81991dca69"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "SOCOM II: U.S. Navy SEALS"
+  },
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-81991dca69",
+      "status": "not_found",
+      "reason": "Thread shows work-in-progress announcement; no download link provided.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

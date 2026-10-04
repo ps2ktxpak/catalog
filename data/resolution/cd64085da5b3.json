@@ -1,0 +1,33 @@
+{
+  "source_url": "https://gbatemp.net/threads/downhill-domination-ps2-scus-97177.626524/",
+  "listings": [
+    "l-99f73bf7e3"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Downhill domination ps2 (SCUS-97177)"
+  },
+  "candidates": [
+    {
+      "url": "https://seulink.digital/TexturasdownhillPS2",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ps2 texturas 100% Pix para ajuda o criador do pacote Chave aleatória ad1154c0-1645-4c69-8542-198fecdb5f33 https://seulink.digital/TexturasdownhillPS2"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-99f73bf7e3",
+      "status": "gated",
+      "confidence": "high",
+      "reason": "Link shortener (seulink.digital) obscures final destination; gated per policy.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

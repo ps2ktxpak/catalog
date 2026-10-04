@@ -1,0 +1,75 @@
+key: slus-21255-panda-venom
+catalog_id: panda-venom-trapt-20260722
+name: Trapt HD Remaster
+game:
+  title: Trapt
+  serials:
+  - SLUS-21255
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: High-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/trapt-usa-hd-remaster.625236/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/trapt_slus-21255_20230122232339-jpg.349532/
+    thumb_url: https://gbatemp.net/data/attachments/348/348920-6b52ec8481b50d7e18ae8b9af80a064d.jpg?hash=a1LshIG1DX
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/trapt_slus-21255_20230122160203-jpg.349529/
+    thumb_url: https://gbatemp.net/data/attachments/348/348917-254ddaab29742a07f752343b2cd74007.jpg?hash=JU3aqyl0Kg
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/trapt_slus-21255_20230122145944-jpg.349528/
+    thumb_url: https://gbatemp.net/data/attachments/348/348916-bfd6ff690db561fb853d0335617c4ab1.jpg?hash=v9b_aQ21Yf
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/trapt_slus-21255_20230122171542-jpg.349530/
+    thumb_url: https://gbatemp.net/data/attachments/348/348918-3c8f82573a15899c6083837542cf679e.jpg?hash=PI-CVzoViZ
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/trapt_slus-21255_20230123153234-jpg.349533/
+    thumb_url: https://gbatemp.net/data/attachments/348/348921-a8881a4ccc01b3f6ffad50cbaa5bbc54.jpg?hash=qIgaTMwBs_
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/trapt_slus-21255_20230122171610-jpg.349531/
+    thumb_url: https://gbatemp.net/data/attachments/348/348919-759bb520b26a3ce40216198619168809.jpg?hash=dZu1ILJqPO
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/trapt-usa-hd-remaster.625236/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

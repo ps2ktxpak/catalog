@@ -1,0 +1,24 @@
+{
+  "key": "slus-21503-santins",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-santins-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-god-hand-hd-remaster-community-archive-slus-21503-20260728.tar.zst",
+      "sha256": "67f44d815e6246863a9378517968ca4cd1a932a26c0c047129d82f82053446ea",
+      "size_bytes": 473250013,
+      "decompressed_size_bytes": 690329600,
+      "file_count": 3179,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "0D8EDC75B7D58C055560981DEFAA32BBECD79BFF4C2224E1E0DE8FC36C9C4146",
+        "size_bytes": 1798388266
+      }
+    }
+  ]
+}

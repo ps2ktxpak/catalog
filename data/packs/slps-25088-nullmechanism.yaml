@@ -1,0 +1,83 @@
+key: slps-25088-nullmechanism
+catalog_id: texture-pack-credited-to-nullmechanism-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-final-fantasy-x-international-hd-remaster-community-archive-slps-25088-20260728
+name: Final Fantasy X International HD Remaster - Community Archive Texture Pack
+game:
+  title: Final Fantasy X International
+  serials:
+  - SLPS-25088
+credits:
+- creator: nullmechanism
+type: ai_upscale
+completeness: complete
+description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/final-fantasy-x-international-ntsc-j-x4-texture-pack.626825/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://i.ibb.co/yqWs63x/pcsx2-qtx64-avx2-2023-02-26-13-18-57.jpg
+    thumb_url: https://i.ibb.co/yqWs63x/pcsx2-qtx64-avx2-2023-02-26-13-18-57.jpg
+    credit: nullmechanism
+  - source_url: https://i.ibb.co/5Tm8LdL/pcsx2-qtx64-avx2-2023-02-26-13-12-57.jpg
+    thumb_url: https://i.ibb.co/5Tm8LdL/pcsx2-qtx64-avx2-2023-02-26-13-12-57.jpg
+    credit: nullmechanism
+  - source_url: https://i.ibb.co/JdP2Ygz/pcsx2-qtx64-avx2-2023-02-26-13-17-20.jpg
+    thumb_url: https://i.ibb.co/JdP2Ygz/pcsx2-qtx64-avx2-2023-02-26-13-17-20.jpg
+    credit: nullmechanism
+  - source_url: https://i.ibb.co/NFDk066/pcsx2-qtx64-avx2-2023-02-26-13-11-34.jpg
+    thumb_url: https://i.ibb.co/NFDk066/pcsx2-qtx64-avx2-2023-02-26-13-11-34.jpg
+    credit: nullmechanism
+  - source_url: https://i.ibb.co/LdKmNrC/pcsx2-qtx64-avx2-2023-02-26-13-15-00.jpg
+    thumb_url: https://i.ibb.co/LdKmNrC/pcsx2-qtx64-avx2-2023-02-26-13-15-00.jpg
+    credit: nullmechanism
+  - source_url: https://i.ibb.co/qmSbSmG/pcsx2-qtx64-avx2-2023-02-26-13-17-59.jpg
+    thumb_url: https://i.ibb.co/qmSbSmG/pcsx2-qtx64-avx2-2023-02-26-13-17-59.jpg
+    credit: nullmechanism
+  videos:
+  - provider: youtube
+    id: 9UGXY8Pz2JU
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to NullMechanism by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to NullMechanism by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

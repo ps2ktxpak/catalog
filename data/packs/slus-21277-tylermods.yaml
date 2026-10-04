@@ -1,0 +1,75 @@
+key: slus-21277-tylermods
+catalog_id: tylermods-barnyard-slus-21277-20260726
+name: Barnyard HD Texture Pack
+game:
+  title: Barnyard
+  serials:
+  - SLUS-21277
+credits:
+- creator: tylermods
+type: ai_upscale
+completeness: complete
+description: Updated high-resolution replacement set for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/nickelodeon-barnyard-hd-texture-pack-slus-21277.658857/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/slus-21277-jpg.449575/
+    thumb_url: https://gbatemp.net/data/attachments/448/448963-835b5ca53c6e7363a85d3c119ca7e5d8.jpg?hash=g1tcpTxuc2
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722111092649-png.449533/
+    thumb_url: https://gbatemp.net/data/attachments/448/448921-8cc4840b3f7751ffcb6033d0d88e9645.jpg?hash=jMSECz93Uf
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722111103953-png.449534/
+    thumb_url: https://gbatemp.net/data/attachments/448/448922-97a6e3a660ec35863f28ed942e0bacbe.jpg?hash=l6bjpmDsNY
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722111134081-png.449535/
+    thumb_url: https://gbatemp.net/data/attachments/448/448923-eab649aeb61694fd6a12e64b31f7658c.jpg?hash=6rZJrrYWlP
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722111142926-png.449536/
+    thumb_url: https://gbatemp.net/data/attachments/448/448924-21695628e1a33f2b334a1da08a2b0b67.jpg?hash=IWlWKOGjPy
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722111428673-png.449538/
+    thumb_url: https://gbatemp.net/data/attachments/448/448926-1683f0359c08176fb979f5697e83890f.jpg?hash=FoPwNZwIF2
+    credit: tylermods
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TylerMods
+  credits: HD texture pack created and updated by TylerMods; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/nickelodeon-barnyard-hd-texture-pack-slus-21277.658857/
+  version: Updated public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/mafia-pcsx2-hd-texture.671514/",
+  "listings": [
+    "l-3c584bde83"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mafia PCSX2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "QkgmGdj3SEs",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://mega.nz/folder/tUJkEZBQ#SN2NuhZhb0IXEQmyrFwiyg",
+          "host": "mega",
+          "kind": "folder",
+          "where": "video_pinned_comment",
+          "context": "pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI STUTUS: in progress SEIRAL: SLUS-20671 CRC:"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-3c584bde83",
+      "status": "resolved",
+      "base_url": "https://mega.nz/folder/tUJkEZBQ#SN2NuhZhb0IXEQmyrFwiyg",
+      "host": "mega",
+      "kind": "folder",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

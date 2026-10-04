@@ -1,0 +1,35 @@
+id: moataz
+name: Moataz
+aliases:
+- moataz
+links:
+  page: https://gbatemp.net/members/moataz.683955/
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/moatazmoadi
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/channel/UC20tJkGU7lDW_PnZY-nTk6Q
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/683/683955.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

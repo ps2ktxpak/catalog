@@ -1,0 +1,82 @@
+key: slps-25881-m3kk0r
+catalog_id: m3kk0r-kinnikuman-muscle-grand-prix-2-slps-25881-20260728
+name: Kinnikuman Muscle Grand Prix 2 Texture Pack
+game:
+  title: Kinnikuman Muscle Grand Prix 2
+  serials:
+  - SLPS-25881
+credits:
+- creator: m3kk0r
+type: ai_upscale
+completeness: complete
+description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kinnikuman-muscle-grand-prix-2-slps-25881-hd-texture-pack.659419/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kinnikuman-muscle-grand-prix-2-slps-25881-hd-texture-pack.659419
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809021646-png.452035/
+    thumb_url: https://gbatemp.net/data/attachments/451/451423-f42449422be3175e16dd3b2859b0fcfb.jpg?hash=9CRJQivjF1
+    credit: m3kk0r
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809021534-png.452036/
+    thumb_url: https://gbatemp.net/data/attachments/451/451424-7793656f8819ac6db3a64674f58830dc.jpg?hash=d5Nlb4gZrG
+    credit: m3kk0r
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809021804-png.452037/
+    thumb_url: https://gbatemp.net/data/attachments/451/451425-03dcc9dbada8e4a7fe767c34e6869ea0.jpg?hash=A9zJ262o5K
+    credit: m3kk0r
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809022125-png.452038/
+    thumb_url: https://gbatemp.net/data/attachments/451/451426-a17a04621e796e50802bdc61874b319e.jpg?hash=oXoEYh55bl
+    credit: m3kk0r
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809021825-png.452039/
+    thumb_url: https://gbatemp.net/data/attachments/451/451427-52a8316b8ffd767266475a5c793f16a6.jpg?hash=Uqgxa4_9dn
+    credit: m3kk0r
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809022223-png.452040/
+    thumb_url: https://gbatemp.net/data/attachments/451/451428-926ec17d8cf6250b95c625d34e6283f8.jpg?hash=km7BfYz2JQ
+    credit: m3kk0r
+  - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809021547-png.452034/
+    thumb_url: https://gbatemp.net/data/attachments/451/451422-6cf826f078bd394abed0ff664f95dbee.jpg?hash=bPgm8Hi9OU
+    credit: m3kk0r
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - m3kk0r
+  credits: HD texture pack credited by the source to m3kk0r; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/kinnikuman-muscle-grand-prix-2-slps-25881-hd-texture-pack.659419
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

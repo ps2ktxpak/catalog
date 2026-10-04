@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/mr-mosquito-texture-pack.637319/",
+  "listings": [
+    "l-9c2b910706"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mr. Mosquito Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://archive.org/details/replacements.7z_202308",
+      "host": "archive_org",
+      "kind": "file",
+      "where": "op",
+      "context": "Used 4x ESRGAN and 2x realSR depending on the textures. ESRGAN doesn't like Japanese Writing lololol. Enjoy! https://archive.org/details/replacements.7z_202308"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9c2b910706",
+      "status": "resolved",
+      "base_url": "https://archive.org/details/replacements.7z_202308",
+      "host": "archive_org",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

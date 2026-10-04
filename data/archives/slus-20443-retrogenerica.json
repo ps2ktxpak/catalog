@@ -1,0 +1,24 @@
+{
+  "key": "slus-20443-retrogenerica",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/retrogenerica-rugrats-royal-ransom-slus-20443-20260726.tar.zst",
+      "sha256": "bc84851a3156170d9cbf20cbe9cfde97df6d5cdaae196b3f853d15d3a3bc63dc",
+      "size_bytes": 1041689103,
+      "decompressed_size_bytes": 1596129280,
+      "file_count": 3178,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "10127E6C961875AD0B6D8EF8814E13B24223502F23D9B927DCC9B0A2299A2330",
+        "size_bytes": 2133421757
+      }
+    }
+  ]
+}

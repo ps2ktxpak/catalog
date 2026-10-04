@@ -1,0 +1,24 @@
+{
+  "key": "scus-97134-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-socom-u-s-navy-seals-scus-97134-20260728.tar.zst",
+      "sha256": "7e2ddc80f7bd222dce82505f2963d73bca89f73b6598ef74b0147de843982b54",
+      "size_bytes": 210767482,
+      "decompressed_size_bytes": 272936960,
+      "file_count": 1817,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "B9C4E13D94B9541F2E6F7D793F321B4A5FBC51BA39A91A8084E5793033070949",
+        "size_bytes": 236717178
+      }
+    }
+  ]
+}

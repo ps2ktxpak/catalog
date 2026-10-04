@@ -1,0 +1,24 @@
+{
+  "key": "slus-21209-majidgaming",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/majidgaming-urban-reign-slus-21209-20260727.tar.zst",
+      "sha256": "ad16af30d8de288bdb7978c427116117e57a9e492e0a772ff078598f8ef74086",
+      "size_bytes": 1881405560,
+      "decompressed_size_bytes": 2263285760,
+      "file_count": 3631,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E717C454FBAE415BEF8BAEF3AFC408E6E90CCC7D71602914537F5BDC5DB0FD3A",
+        "size_bytes": 6216152982
+      }
+    }
+  ]
+}

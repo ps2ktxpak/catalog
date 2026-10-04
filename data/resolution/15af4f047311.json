@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/pcsx2-texture-hd-wacky-races-sles-50183-by-me.676426/",
+  "listings": [
+    "l-eef77f8d6f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "PCSX2 Texture HD Wacky Races (SLES-50183) (BIG UPDATE DECEMBER 2025)"
+  },
+  "candidates": [
+    {
+      "url": "https://gofile.io/d/XYqpHX",
+      "host": "gofile",
+      "kind": "file",
+      "where": "op",
+      "context": "eren't). I redumped and improved some textures. Now the entire game is at 1017 texture in 2K. Link 1.2GB : https://gofile.io/d/XYqpHX My texture for Wacky"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-eef77f8d6f",
+      "status": "resolved",
+      "base_url": "https://gofile.io/d/XYqpHX",
+      "host": "gofile",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

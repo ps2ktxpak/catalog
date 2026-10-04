@@ -1,0 +1,50 @@
+{
+  "source_url": "https://gbatemp.net/threads/harry-potter-and-the-prisoner-of-azkaban-upscale-texture-pack.649545/",
+  "listings": [
+    "l-6b684bb422"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Harry Potter and the Prisoner of Azkaban [Upscale Texture Pack]"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyHzKPHwvNKOXlH0rOXzRGkEoI",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": ", you could support my work, please USDT (BSC): 0x1b125537812bc463d0d25c233af495c75e416684​ DOWNLOAD LINK: https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyH"
+    },
+    {
+      "url": "https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyHzKPHwvNKOXlH0rOXzRGkEoI​",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": ", you could support my work, please USDT (BSC): 0x1b125537812bc463d0d25c233af495c75e416684​ DOWNLOAD LINK: https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyH"
+    },
+    {
+      "url": "https://archive.org/details/harry-potter-and-the-prisoner-of-azkaban-upscale-texture-pack",
+      "host": "archive_org",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "Here's my backup on the Internet Archive: https://archive.org/details/harry-potter-and-the-p"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-6b684bb422",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyHzKPHwvNKOXlH0rOXzRGkEoI",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator posted Mega link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

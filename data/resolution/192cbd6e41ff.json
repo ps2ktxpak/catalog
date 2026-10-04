@@ -1,0 +1,68 @@
+{
+  "source_url": "https://gbatemp.net/threads/bloody-roar-4-hd-textures.669898/",
+  "listings": [
+    "l-e47e58d39c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Bloody Roar 4 HD Textures"
+  },
+  "videos": [
+    {
+      "id": "vCqrciQlqnE",
+      "uploader": "xXtherockoXx",
+      "links": [
+        {
+          "url": "https://ko-fi.com/xxtherockoxx",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_pinned_comment",
+          "context": "-My ko-fi page if you want to support me\r ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file/h98esgu9klsmsxj/B.R.4.HD_Textures_xX.The.RockoXx.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "-My ko-fi page if you want to support me\r https://ko-fi.com/xxtherockoxx\r -Link Textures\r ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.mediafire.com/file/7a70flzho5sz1pp/bloody.r.4_wide.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "re.com/file/h98esgu9klsmsxj/B.R.4.HD_Textures_xX.The.RockoXx.rar/file -patch widescreen ( paul_met) ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/xxtherockoxx",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "nnel https://www.youtube.com/channel/UCvpn5tBt7ymHwNK1n5jUjRg/videos -My ko-fi page if you want to support me https://ko-fi.com/xxtherockoxx -SLUS-20795 -Size"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e47e58d39c",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/h98esgu9klsmsxj/B.R.4.HD_Textures_xX.The.RockoXx.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator's pinned YouTube comment provides direct mediafire download link.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

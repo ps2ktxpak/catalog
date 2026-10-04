@@ -1,0 +1,78 @@
+{
+  "source_url": "https://gbatemp.net/threads/fate-unlimited-codes-hd-textures.656407/",
+  "listings": [
+    "l-748ecffe90"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Fate Unlimited Codes/HD Textures update 2025"
+  },
+  "videos": [
+    {
+      "id": "VUHg9ZPbzsM",
+      "uploader": "Mvp899",
+      "links": []
+    },
+    {
+      "id": "PUw9YYrxxOo",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://www.mediafire.com/file/rnxr91a74w8uobh/Fate_Unlimited_Codes.rar/file",
+          "host": "mediafire",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "pack:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Fate Unlimited Codes serial: SLPM-55108 CRC: 3AF675BA Ko-Fi UPDATE 3.5 Status: GAME COMPLETED 96%"
+    },
+    {
+      "url": "https://mega.nz/file/TGpQwJqT#pKPSLKV9Cr5jnIozrIdVHB4NOFtfD9P0kjX0UO_bcG4",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "Fate Unlimited Codes serial: SLPM-55108 CRC: 3AF675BA Ko-Fi UPDATE 3.5 Status: GAME COMPLETED 96% DOWNLAOD"
+    },
+    {
+      "url": "https://mega.nz/file/eToy3LRL#Fjel2WK1POwX8wxWZ_1B64oof2hjsqnj6g0nAQUzDyQ",
+      "host": "mega",
+      "kind": "file",
+      "where": "op_followup",
+      "context": "https://mega.nz/file/eToy3LRL#Fjel2WK1POwX8wxWZ_1B"
+    },
+    {
+      "url": "https://mega.nz/file/iTRCyBiL#PodluoYidXLfYddu09ZECy_U04_DwwbcYeE2KKdsKE4",
+      "host": "mega",
+      "kind": "file",
+      "where": "op_followup",
+      "context": "DOWNLAOD"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-748ecffe90",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/rnxr91a74w8uobh/Fate_Unlimited_Codes.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided MediaFire link in video pinned comment (latest update).",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

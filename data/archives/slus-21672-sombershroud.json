@@ -1,0 +1,24 @@
+{
+  "key": "slus-21672-sombershroud",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombershroud-guitar-hero-3-slus-21672-20260727.tar.zst",
+      "sha256": "b1ef115a257dc5d3adc42ce5f7477a267f3ab37baeadafab869c82017900ef42",
+      "size_bytes": 421247853,
+      "decompressed_size_bytes": 627415040,
+      "file_count": 1566,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "4DAFB07570B1223ED2BB863B78C491CEEB9812640EA89FAFE12B5BBC558719CF",
+        "size_bytes": 822222991
+      }
+    }
+  ]
+}

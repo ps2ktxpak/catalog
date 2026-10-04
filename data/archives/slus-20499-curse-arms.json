@@ -1,0 +1,24 @@
+{
+  "key": "slus-20499-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-breath-of-fire-dragon-quarter-hd-remaster-community-archive-slus-20499-20260728.tar.zst",
+      "sha256": "f783649ec9c0d438d3e2d7317078e5997c4c0bbb2cafd5103f36e30429642db0",
+      "size_bytes": 864603906,
+      "decompressed_size_bytes": 1390100480,
+      "file_count": 5528,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "25F6B41F83D9A7B7818CBE89FD41047B1A697299EAA096C3A285BEA702723A7B",
+        "size_bytes": 1120854421
+      }
+    }
+  ]
+}

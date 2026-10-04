@@ -1,0 +1,24 @@
+{
+  "key": "slus-20212-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/xxtherockoxx-bloody-roar-3-v1-slus-20212-20260726.tar.zst",
+      "sha256": "f111d5c2b2d6a45fb4319a506b08b7fb959bea2eb1bee653cb08b78ac642d7f5",
+      "size_bytes": 192275842,
+      "decompressed_size_bytes": 267120640,
+      "file_count": 1806,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "557869F8E612B335B4FA8B82E733629E816E01BD37C889B79076D95C90F1188B",
+        "size_bytes": 245960119
+      }
+    }
+  ]
+}

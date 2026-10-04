@@ -1,0 +1,24 @@
+{
+  "key": "scka-30001-silentwarior112",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/silentwarior112-gt4-hd-hud-ui-japan-korea-emucorex1.tar.zst",
+      "sha256": "1172eba9f98b91d83783b3f146411d95a9d8bcf8b9a5f36ef0d4df33bcd63aee",
+      "size_bytes": 640414409,
+      "decompressed_size_bytes": 1691197440,
+      "file_count": 7050,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "9055B133AFB952C4704741194C8970A673E80CAFE0E0363ED8DD23A38C62F334",
+        "size_bytes": 2057807110
+      }
+    }
+  ]
+}

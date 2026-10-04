@@ -1,0 +1,85 @@
+key: slus-21672-sombershroud
+catalog_id: sombershroud-guitar-hero-3-slus-21672-20260727
+name: 'Guitar Hero III: Legends of Rock HD Texture Pack'
+game:
+  title: 'Guitar Hero III: Legends of Rock'
+  serials:
+  - SLUS-21672
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+description: A North American replacement pack covering characters, artwork, menus and other game textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sombershrouds-hd-textures-megamix.637948/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/guitar-hero-iii-legends-of-rock-usa-hd-textures.671388/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/ps2-jpeg.425854/
+    thumb_url: https://gbatemp.net/data/attachments/425/425242-3e4403c836c1a6d48e117622264d1a39.jpg?hash=PkQDyDbBpt
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/capcom-classics-collection-vol-1-jpg.410930/
+    thumb_url: https://gbatemp.net/data/attachments/410/410318-a739b5fd34bcecf3eae9cf528ddba880.jpg?hash=pzm1_TS87P
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/ed-edd-eddy-the-misadventures-jpg.406170/
+    thumb_url: https://gbatemp.net/data/attachments/405/405558-c88c19809b4d3d0489b3fc77745165a6.jpg?hash=yIwZgJtNPQ
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/guitarhero-1651280444183-jpg.505365/
+    thumb_url: https://gbatemp.net/data/attachments/504/504753-bcea1bccf25a7b1df66e6be8ceba22b0.jpg?hash=vOobzPJaex
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/guitar-hero-3-button-crop-1643411320660-jpg.506008/
+    thumb_url: https://gbatemp.net/data/attachments/505/505396-3caae0af68f210d2f2695ef843c58dda.jpg?hash=PKrgr2jyEN
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/james-bond-nightfire-jpg.389421/
+    thumb_url: https://gbatemp.net/data/attachments/388/388809-b56bcbc9134b62854f4929ca5ec9d035.jpg?hash=tWvLyRNLYo
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun-jpg.393805/
+    thumb_url: https://gbatemp.net/data/attachments/393/393193-0c6ff429032aec391fdb58a973296a29.jpg?hash=DG_0KQMq7D
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/metal-slug-anthology-jpg.394496/
+    thumb_url: https://gbatemp.net/data/attachments/393/393884-537463dbf82997aeb027e1b7675e3091.jpg?hash=U3Rj2_gpl6
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack created by SomberShroud using HDcube and RealisticRescaler models; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/guitar-hero-iii-legends-of-rock-usa-hd-textures.671388/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

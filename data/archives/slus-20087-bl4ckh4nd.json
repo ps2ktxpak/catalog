@@ -1,0 +1,24 @@
+{
+  "key": "slus-20087-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-army-men-green-rogue-hd-remaster-community-archive-slus-20087-20260728.tar.zst",
+      "sha256": "e2f2fd35e77eb939bbd1d1e11f3a834598a60002fa941d044316f2bde8d09f9c",
+      "size_bytes": 136551580,
+      "decompressed_size_bytes": 187463680,
+      "file_count": 621,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E4CB35D35C3009C4AF0BD4F78F62AA969CBB0D62AF7AA68EB6A1DF6038F36FC9",
+        "size_bytes": 295766418
+      }
+    }
+  ]
+}

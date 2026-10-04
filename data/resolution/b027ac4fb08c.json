@@ -1,0 +1,36 @@
+{
+  "source_url": "https://gbatemp.net/threads/guitar-hero-1-hd-remaster-wip.624353/",
+  "listings": [
+    "l-e11eccb493"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Guitar Hero 1 HD Remaster | WIP"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/kh5ijb85rn7k4r1/Guitar+Hero+1+HD+Remaster.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op_followup",
+      "context": "God i forgot to upload the link with all this time passed LOL The download link: https://www.mediafire.com/file/kh5ijb85rn7k4r1/Gui"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e11eccb493",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/kh5ijb85rn7k4r1/Guitar+Hero+1+HD+Remaster.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided MediaFire download link in followup post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

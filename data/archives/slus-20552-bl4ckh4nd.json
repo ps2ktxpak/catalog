@@ -1,0 +1,24 @@
+{
+  "key": "slus-20552-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-grand-theft-auto-vice-city-slus-20552-20260728.tar.zst",
+      "sha256": "fb08642cee8195794976fd1b38d2727463078f5d9b586cca115ca9685da2d1f9",
+      "size_bytes": 608461126,
+      "decompressed_size_bytes": 866693120,
+      "file_count": 6832,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F6DD33D7BC8AC055CAE956D61B0AE79B1222976F02AF46376549B69F2C029866",
+        "size_bytes": 1247174567
+      }
+    }
+  ]
+}

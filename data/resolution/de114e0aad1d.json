@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/god-of-war-2-kratos-god-armor.643454/",
+  "listings": [
+    "l-eb6c001e45"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "God of War 2 Kratos god armor"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/yIVAGZKZ#o3tzyKaqa8N4mwCs3waK4DDR61vwK4WVYgZHYvYjqCQ",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "texture increased by 16x DOWNLAOD"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-eb6c001e45",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/yIVAGZKZ#o3tzyKaqa8N4mwCs3waK4DDR61vwK4WVYgZHYvYjqCQ",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

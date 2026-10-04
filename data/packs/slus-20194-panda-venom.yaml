@@ -1,0 +1,78 @@
+key: slus-20194-panda-venom
+catalog_id: panda-venom-grandia-ii-20260722
+name: Grandia II HD Remaster
+game:
+  title: Grandia II
+  serials:
+  - SLUS-20194
+credits:
+- creator: panda-venom
+type: handcrafted
+completeness: complete
+description: Completed HD texture remaster with portraits, interface and text replacements.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grandia-ii-usa-hd-remaster.652072/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240325004328-jpg.427690/
+    thumb_url: https://gbatemp.net/data/attachments/427/427078-66ebf1fdba1469dfb3f3ea90ded4d3c1.jpg?hash=Zuvx_boUad
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240321224156-jpg.427686/
+    thumb_url: https://gbatemp.net/data/attachments/427/427074-57a215c9a0b6a94dfea7e12978f8b654.jpg?hash=V6IVyaC2qU
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240321224554-jpg.427687/
+    thumb_url: https://gbatemp.net/data/attachments/427/427075-2c520dff110425aba8a0fd1a59007f48.jpg?hash=LFIN_xEEJa
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240324010944-jpg.427688/
+    thumb_url: https://gbatemp.net/data/attachments/427/427076-0833ab88eab17f230720cc52ea4f0416.jpg?hash=CDOriOqxfy
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240325031201-jpg.427692/
+    thumb_url: https://gbatemp.net/data/attachments/427/427080-347ddff7838df719abbb56782e4dddc1.jpg?hash=NH3f94ON9x
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240325031153-jpg.427691/
+    thumb_url: https://gbatemp.net/data/attachments/427/427079-95bbb7c7bd7a6a78827c05725e7519b1.jpg?hash=lbu3x716an
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/grandia-ii_slus-20194_20240324041258-jpg.427689/
+    thumb_url: https://gbatemp.net/data/attachments/427/427077-1b7757ad50f982f6967d4d2b8c1d424a.jpg?hash=G3dXrVD5gv
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/grandia-ii-usa-hd-remaster.652072/
+  version: 1.0 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

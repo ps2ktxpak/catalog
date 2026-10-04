@@ -1,0 +1,69 @@
+key: slus-20214-retrogenerica
+catalog_id: retrogenerica-state-of-emergency-slus-20214-20260728
+name: State of Emergency HD Texture Pack
+game:
+  title: State of Emergency
+  serials:
+  - SLUS-20214
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+description: A complete North American high-resolution replacement pack covering the full game, published separately from the author's optional Xbox button pack.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/state-of-emergency-ps2-hd-remaster-xbox-button-texture-pack-100-complete.661457/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/maxresdefault-jpg.461757/
+    thumb_url: https://gbatemp.net/data/attachments/461/461145-cdf8056f912d3e3efd1c12d6924cfedf.jpg?hash=zfgFb5EtPj
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-10-01-003426-png.461758/
+    thumb_url: https://gbatemp.net/data/attachments/461/461146-71f36523d001c2570b11ca4762f6c0eb.jpg?hash=cfNlI9ABwl
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-10-01-003520-png.461759/
+    thumb_url: https://gbatemp.net/data/attachments/461/461147-d9060c215833c8c7a003bce9e6810f61.jpg?hash=2QYMIVgzyM
+    credit: retrogenerica
+  videos:
+  - provider: youtube
+    id: W0E_BP8aD9Q
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - RetroGenerica
+  credits: Complete HD texture pack created by RetroGenerica; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/state-of-emergency-ps2-hd-remaster-xbox-button-texture-pack-100-complete.661457/
+  version: 100% complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

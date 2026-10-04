@@ -1,0 +1,22 @@
+id: armm1998
+name: ArMM1998
+aliases:
+- armm1998
+links:
+  page: https://gbatemp.net/members/armm1998.388644/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/@Armm8991/videos
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

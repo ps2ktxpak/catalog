@@ -1,0 +1,70 @@
+key: slus-21423-mentraze
+catalog_id: mentraze-gta-lcs-hq-hud-slus-21423-emucorex1
+name: GTA Liberty City Stories HQ HUD
+game:
+  title: 'Grand Theft Auto: Liberty City Stories'
+  serials:
+  - SLUS-21423
+credits:
+- creator: mentraze
+- creator: ash-735
+- creator: djdarko
+- creator: nihilist
+- creator: rd4
+- creator: ryadica926
+- creator: sonofugly
+- creator: unitedmel
+- creator: tervel1337
+- creator: flentric
+- creator: matt1010
+type: unknown
+completeness: unknown
+description: Compact high-resolution frontend, map, font, weapon-icon and HUD texture pack for the North American PS2 release.
+sources:
+- kind: other
+  url: https://libertycity.net/files/gta-liberty-city-stories/239459-gta-liberti-siti-storis-hq-hud-dlya-pcsx2.html
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Mentraze
+  - Ash_735
+  - djdarko
+  - Nihilist.
+  - RD4
+  - Ryadica926
+  - SonofUgly
+  - UnitedMel
+  - Tervel1337
+  - Flentric
+  - Matt1010
+  credits: HQ frontend pack by Mentraze with credited community texture contributors; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See source page terms
+  source_url: https://libertycity.net/files/gta-liberty-city-stories/239459-gta-liberti-siti-storis-hq-hud-dlya-pcsx2.html
+  version: 1.0-emucorex1
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

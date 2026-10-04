@@ -1,0 +1,24 @@
+{
+  "key": "slus-21255-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-trapt-20260722.tar.zst",
+      "sha256": "9a695768498362f44d704e7397dc4538e96cb7586e8a58dd06876aa038e3fcfe",
+      "size_bytes": 396246703,
+      "decompressed_size_bytes": 607006720,
+      "file_count": 2098,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6D75268EB2D7243BFD42611694DAF37076A4E179C2805D5C2C3BC723E63D0883",
+        "size_bytes": 344948393
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+key: slpm-65395-panda-venom
+catalog_id: panda-venom-di-gi-charat-fantasy-excellent-slpm-65395-20260728
+name: Di Gi Charat Fantasy Excellent HD Texture Pack
+game:
+  title: Di Gi Charat Fantasy Excellent
+  serials:
+  - SLPM-65395
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: A Japanese high-resolution remaster covering backgrounds, events, sprites and effects, compatible with the public English patch.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/di-gi-charat-fantasy-excellent-english-patched-hd-remaster.678135/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025534x-jpg.546073/
+    thumb_url: https://gbatemp.net/data/attachments/545/545461-34ab19b462b0f54b0d558e4630ac4a2d.jpg?hash=nNvlOz9jcm
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025826-jpg.546074/
+    thumb_url: https://gbatemp.net/data/attachments/545/545462-c1c7251e4c1137a6dc66e9cb02e61196.jpg?hash=vNlFuJ11js
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025759-jpg.546075/
+    thumb_url: https://gbatemp.net/data/attachments/545/545463-aac6f2c37fe6e8cc1d5106d9e6085e1c.jpg?hash=nwlNdB-4BV
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025708-jpg.546076/
+    thumb_url: https://gbatemp.net/data/attachments/545/545464-c4030d68480c85c72fc3cd0cac258152.jpg?hash=9b0ZHfKhdF
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025649-jpg.546077/
+    thumb_url: https://gbatemp.net/data/attachments/545/545465-4af8d79b556c5b6e01808f0d5adf30d9.jpg?hash=MP6kRjjCQR
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025622-jpg.546079/
+    thumb_url: https://gbatemp.net/data/attachments/545/545467-18610fe91d52f45ee3782cfd0270be7a.jpg?hash=9E63YVF6sb
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025544-jpg.546080/
+    thumb_url: https://gbatemp.net/data/attachments/545/545468-95aa53928fbbb77411ab98e2a1545ebb.jpg?hash=_53C73K_qr
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/di-gi-charat-fantasy-excellent-english-patched-hd-remaster.678135/
+  version: English-patched compatible public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

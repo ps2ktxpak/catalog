@@ -1,0 +1,53 @@
+{
+  "source_url": "https://gbatemp.net/threads/shadows-of-the-colossus-hd-texture-pack-pcsx2-and-android-nethersx2-1-9.667144/",
+  "listings": [
+    "l-2a1dbe90c8"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Shadows Of The Colossus hd texture pack pcsx2 and android nethersx2 1.9"
+  },
+  "videos": [
+    {
+      "id": "R0Y6p7OgQAQ",
+      "links": []
+    },
+    {
+      "id": "sFeLj7g_ifg",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/HUFT1Bqa#-vei3Ho3pX9gz6r9wSR7PQWeejdK8lEP4ln61Ps92zw",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "EE,0134f2c0,word,03e00008 patch=1,EE,0134f2c4,word,ac62a3d4 settings pcsx2 nethersx2 links pc dds bc7 https://mega.nz/file/HUFT1Bqa#-vei3Ho3pX9gz6r9wSR7"
+    },
+    {
+      "url": "https://mega.nz/file/mQki3LxK#9i84erugKAsJ79Ur5BiznHWg83o98At5d0dJiC_pr1Q",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "mega.nz/file/HUFT1Bqa#-vei3Ho3pX9gz6r9wSR7PQWeejdK8lEP4ln61Ps92zw android dds bc3 25% smaller then pc version https://mega.nz/file/mQki3LxK#9i84erugKAsJ79Ur5Biz"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-2a1dbe90c8",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/HUFT1Bqa#-vei3Ho3pX9gz6r9wSR7PQWeejdK8lEP4ln61Ps92zw",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator posted Mega link for PC version in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

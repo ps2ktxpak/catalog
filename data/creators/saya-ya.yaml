@@ -1,0 +1,19 @@
+id: saya-ya
+name: Saya-ya
+links:
+  page: https://github.com/Saya-ya
+avatar:
+  source_url: https://avatars.githubusercontent.com/u/198421917?s=400&v=4
+status: active
+provenance:
+  name:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+  links.page:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

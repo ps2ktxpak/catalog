@@ -1,0 +1,66 @@
+key: slus-20974-panda-venom
+catalog_id: panda-venom-digital-devil-saga-20260722
+name: Digital Devil Saga HD Remaster
+game:
+  title: 'Shin Megami Tensei: Digital Devil Saga'
+  serials:
+  - SLUS-20974
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+description: Completed HD texture remaster with widescreen-oriented portraits and interface assets.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/digital-devil-saga-1-usa-hd-remaster.609662/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-15-22-at-12-25-am-jpg.302699/
+    thumb_url: https://gbatemp.net/data/attachments/302/302087-52edd54dfe73365eeca4b7f5366faed2.jpg?hash=Uu3VTf5zNl
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-15-22-at-12-11-am-001-jpg.302700/
+    thumb_url: https://gbatemp.net/data/attachments/302/302088-b3937dbd2ce89d7df0b81df6d0757ea5.jpg?hash=s5N9vSzonX
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-03-15-22-at-12-10-am-jpg.302701/
+    thumb_url: https://gbatemp.net/data/attachments/302/302089-916250a9223eac6c5a4052f0995da0f8.jpg?hash=kWJQqSI-rG
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/digital-devil-saga-1-usa-hd-remaster.609662/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

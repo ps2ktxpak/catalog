@@ -1,0 +1,82 @@
+key: slps-25450-panda-venom
+catalog_id: wickedclown285-panda-venom-tales-of-rebirth-slps-25450-20260726
+name: Tales of Rebirth HD Texture Pack
+game:
+  title: Tales of Rebirth
+  serials:
+  - SLPS-25450
+credits:
+- creator: panda-venom
+- creator: wickedclown285
+type: ai_upscale
+completeness: in_progress
+description: A Japanese-region beta pack with upgraded skit portraits and other selected game textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tales-of-rebirth-hd-work-in-progress.665201/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/e1d698bc89a5e115-r640x224-00002280-png.479047/
+    thumb_url: https://gbatemp.net/data/attachments/478/478435-ae91530d1be8647c3964df72a77ba585.jpg?hash=rpFTDRvoZH
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241225071221-jpg.479042/
+    thumb_url: https://gbatemp.net/data/attachments/478/478430-ac0d9edfb6c7acf8798f6ed3d23e6654.jpg?hash=aI2Rv8yOaf
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241219033950-jpg.479041/
+    thumb_url: https://gbatemp.net/data/attachments/478/478429-8da5172a9862abc888548226888d19d4.jpg?hash=MH8nJ3FohM
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241219033926-jpg.479040/
+    thumb_url: https://gbatemp.net/data/attachments/478/478428-4a47b832e667d3622f030cc220090766.jpg?hash=-qGpyWSbL-
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241225071643-jpg.479043/
+    thumb_url: https://gbatemp.net/data/attachments/478/478431-a3512b3d7cac4069eb2e5116e695da56.jpg?hash=u7KKUdesxn
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241225072823-jpg.479044/
+    thumb_url: https://gbatemp.net/data/attachments/478/478432-46dd4ae143885aadf8c16d2ea576ce38.jpg?hash=99rQELJat4
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241225072927-jpg.479045/
+    thumb_url: https://gbatemp.net/data/attachments/478/478433-e6cd17008fe08c7864ec969cb924988c.jpg?hash=dfq9a2p7VU
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- co_credit_unconfirmed
+legacy:
+  authors:
+  - WICKEDCLOWN285
+  - Panda_Venom
+  credits: Work-in-progress texture pack by WICKEDCLOWN285 and Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/tales-of-rebirth-hd-work-in-progress.665201/
+  version: v0.3 beta public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

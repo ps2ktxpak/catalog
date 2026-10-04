@@ -1,0 +1,89 @@
+key: slus-21134-xxtherockoxx
+catalog_id: texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-resident-evil-4-hd-remaster-community-archive-slus-21134-20260728
+name: Resident Evil 4 HD Remaster - Community Archive Texture Pack
+game:
+  title: Resident Evil 4
+  serials:
+  - SLUS-21134
+credits:
+- creator: xxtherockoxx
+type: port
+completeness: in_progress
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-4-hd-textures-update-2-2.615869/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/re4-png.343093/
+    thumb_url: https://gbatemp.net/data/attachments/342/342481-7db656a7e07d1faa81eb15fc12f62754.jpg?hash=fbZWp-B9H6
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.458000/
+    thumb_url: https://gbatemp.net/data/attachments/457/457388-07c0fdd0bec052efd78ba7edfa810f72.jpg?hash=B8D90L7AUu
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.339941/
+    thumb_url: https://gbatemp.net/data/attachments/339/339329-72b9abbf8e9d2a89063cc3ec59965aca.jpg?hash=crmrv46dKo
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.381963/
+    thumb_url: https://gbatemp.net/data/attachments/381/381351-51b482930487ead2675f97002139aab8.jpg?hash=UbSCkwSH6t
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-2023-03-16-21-38-51-png.359584/
+    thumb_url: https://gbatemp.net/data/attachments/358/358972-f62f380403b543110408fef91d4b1d5c.jpg?hash=9i84BAO1Qx
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.382130/
+    thumb_url: https://gbatemp.net/data/attachments/381/381518-c0264b2e6a5b51b01435876840393bd1.jpg?hash=wCZLLmpbUb
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.333181/
+    thumb_url: https://gbatemp.net/data/attachments/332/332569-0f991a6968f388cca6ebee180d661a86.jpg?hash=D5kaaWjziM
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-2023-03-16-21-44-05-png.359585/
+    thumb_url: https://gbatemp.net/data/attachments/358/358973-256002053056ce5c420a8136fd666cc9.jpg?hash=JWACBTBWzl
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: 8d9Dn7x2p-g
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

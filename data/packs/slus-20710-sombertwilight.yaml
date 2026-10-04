@@ -1,0 +1,75 @@
+key: slus-20710-sombertwilight
+catalog_id: sombertwilight-onimusha-blade-warriors-slus-20710-20260727
+name: Onimusha Blade Warriors HD Texture Pack
+game:
+  title: Onimusha Blade Warriors
+  serials:
+  - SLUS-20710
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: A complete North American pack covering every stage and organized character textures. Source dumps and the optional costume mod are intentionally excluded.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/onimusha-blade-warriors-pcsx2-2-7-0.681059/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412014338-png.567758/
+    thumb_url: https://gbatemp.net/data/attachments/567/567146-99e0914746ad75f61e6227d46fac61c2.jpg?hash=njGwJrCDnz
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412012632-png.567752/
+    thumb_url: https://gbatemp.net/data/attachments/567/567140-08452b928d7648b43ac1d3372be52c6e.jpg?hash=o1PyfWqOWC
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412012511-png.567753/
+    thumb_url: https://gbatemp.net/data/attachments/567/567141-8e2fe71e2d725f8b57de82dd6e32fecc.jpg?hash=LwQ6FK5y_4
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412012727-png.567754/
+    thumb_url: https://gbatemp.net/data/attachments/567/567142-8807503009ffa6917ce0e8b0ddebff63.jpg?hash=rV5mBxyX8S
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412012836-png.567755/
+    thumb_url: https://gbatemp.net/data/attachments/567/567143-5d961331702506d60b398080e351d712.jpg?hash=XGbO6Fj7fN
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412012943-png.567756/
+    thumb_url: https://gbatemp.net/data/attachments/567/567144-2ef404df8a12f597faa140395fd9b912.jpg?hash=TyvReCxpBp
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: Complete HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/onimusha-blade-warriors-pcsx2-2-7-0.681059/
+  version: Complete PCSX2 2.7-compatible public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

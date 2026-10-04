@@ -1,0 +1,24 @@
+{
+  "key": "slus-20964-cckrizalid",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-devil-may-cry-3-hd-remaster-community-archive-slus-20964-20260728.tar.zst",
+      "sha256": "ff7cc28c1513da6f7923b7a5646cc7ab98e6218799050885bfcd2d5d30dd25b4",
+      "size_bytes": 1536608741,
+      "decompressed_size_bytes": 2289541120,
+      "file_count": 4705,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "89EE145F99327792D73757174B80C94E252DBCA20AFB4F983336304B8B9E8031",
+        "size_bytes": 1303419796
+      }
+    }
+  ]
+}

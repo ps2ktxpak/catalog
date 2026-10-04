@@ -1,0 +1,54 @@
+key: slus-20743-xxtherockoxx
+catalog_id: xxtherockoxx-prince-of-persia-sands-of-time-slus-20743-20260722
+name: 'Prince of Persia: The Sands of Time HD Texture Pack'
+game:
+  title: 'Prince of Persia: The Sands of Time'
+  serials:
+  - SLUS-20743
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: High-resolution 1024/2048 BC7 environment, character and interface texture replacements for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-trilogy-hd-textures.622976/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-warrior-within-hd.622976/
+  primary: false
+  note: the catalog's original link
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; preserved from the original release and repackaged to a clean runtime ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/prince-of-persia-warrior-within-hd.622976/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

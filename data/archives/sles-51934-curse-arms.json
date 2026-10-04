@@ -1,0 +1,24 @@
+{
+  "key": "sles-51934-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/curse-arms-curse-eye-of-isis-sles-51934-20260726.tar.zst",
+      "sha256": "8c8d0b2d16eecfecd589caf65c0f8ce9320af9367e8a56e8f513d97b7b7acf79",
+      "size_bytes": 58880493,
+      "decompressed_size_bytes": 88412160,
+      "file_count": 611,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A9F659AF2C898887A6C8F99A03DB4EE80D3CA6B5D9AEE73EC823C60A7C7424F4",
+        "size_bytes": 57025274
+      }
+    }
+  ]
+}

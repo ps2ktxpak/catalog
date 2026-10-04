@@ -1,0 +1,50 @@
+key: slpm-66280-paul-bury
+catalog_id: high-resolution-16-9-ui-texture-pack-created-by-paul-bury-monster-hunter-2-dos-hd-ui-16-9-16x-texture-pack-slpm-66280-20260728
+name: Monster Hunter 2 Dos HD UI 16:9 16x Texture Pack
+game:
+  title: Monster Hunter 2 (Dos)
+  serials:
+  - SLPM-66280
+credits:
+- creator: paul-bury
+type: unknown
+completeness: unknown
+description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: repository
+  url: https://github.com/PaulBury/MH2Dos-HDUI/releases/tag/releases
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - High-resolution 16:9 UI texture pack created by Paul Bury.
+  credits: HD texture pack credited by the source to High-resolution 16:9 UI texture pack created by Paul Bury.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://github.com/PaulBury/MH2Dos-HDUI/releases/tag/releases
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

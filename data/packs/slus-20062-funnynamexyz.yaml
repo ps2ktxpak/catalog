@@ -1,0 +1,81 @@
+key: slus-20062-funnynamexyz
+catalog_id: funnynamexyz-gta-iii-upscaled-slus-20062-1.0
+name: GTA III AI Upscaled Texture Pack
+game:
+  title: Grand Theft Auto III
+  serials:
+  - SLUS-20062
+credits:
+- creator: funnynamexyz
+type: ai_upscale
+completeness: complete
+description: Large AI-upscaled replacement pack for the North American PS2 release of Grand Theft Auto III.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grand-theft-auto-3-upscaled-texture-pack-slus-20062-ps2.675726/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-iii_slus-20062_20250929221930-png.530435/
+    thumb_url: https://gbatemp.net/data/attachments/529/529823-b64404707e4f7f8e2c0cbdd25eef2659.jpg?hash=YYvlsThjYC
+    alt: before
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-iii_slus-20062_20250929221657-png.530436/
+    thumb_url: https://gbatemp.net/data/attachments/529/529824-33f4b803137916310d4b41b264df847e.jpg?hash=yS18q-y8Vg
+    alt: after
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-iii_slus-20062_20250929221759-png.530438/
+    thumb_url: https://gbatemp.net/data/attachments/529/529826-4160dd07ff0f4956a1536ab8f84aa485.jpg?hash=77Stnxui4x
+    alt: before
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-iii_slus-20062_20250929222156-png.530439/
+    thumb_url: https://gbatemp.net/data/attachments/529/529827-193f3fc3435243aa137170816cf28d6d.jpg?hash=glUKuP3jV1
+    alt: after
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-iii_slus-20062_20250929222120-png.530441/
+    thumb_url: https://gbatemp.net/data/attachments/529/529829-30674c50e6dd819bb779fa8447a27473.jpg?hash=k7twVaBbpZ
+    alt: before
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-iii_slus-20062_20250929222509-png.530442/
+    thumb_url: https://gbatemp.net/data/attachments/529/529830-8651606590f7f12fcede7e98ebee5610.jpg?hash=3hRofPR1gh
+    alt: after
+    credit: funnynamexyz
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - FunnyNameXYZ
+  credits: AI-upscaled texture pack created by FunnyNameXYZ; mirrored by EmuCoreX with the original source retained.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/grand-theft-auto-3-upscaled-texture-pack-slus-20062-ps2.675726/
+  version: '1.0'
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

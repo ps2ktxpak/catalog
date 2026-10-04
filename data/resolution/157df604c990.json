@@ -1,0 +1,36 @@
+{
+  "source_url": "https://gbatemp.net/threads/test-drive-unlimited-ntsc-pal-hd-texture-pack.670592/",
+  "listings": [
+    "l-9f6d15c8d9"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Test Drive Unlimited [NTSC/PAL] HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://cloud.mail.ru/public/pRv5/Jv6AJ9QJd",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ks with all versions (just rename SLES-54466 folder to your serial) 8GB RAM recommend for Pre-cache Textures Download Spoiler: Comparison"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9f6d15c8d9",
+      "status": "resolved",
+      "base_url": "https://cloud.mail.ru/public/pRv5/Jv6AJ9QJd",
+      "host": "other",
+      "kind": "unknown",
+      "confidence": "high",
+      "reason": "Creator provided Mail.ru cloud storage link in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

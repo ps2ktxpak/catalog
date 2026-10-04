@@ -1,0 +1,24 @@
+{
+  "key": "sces-53285-knuckles-didintdied",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/knuckles-ratchet-deadlocked-4k-multiregion-20240917.tar.zst",
+      "sha256": "8a493a21e6c7206b0e83468984feffdeecd5041f8b8f0b58fd8d814b82fce9d9",
+      "size_bytes": 299720052,
+      "decompressed_size_bytes": 621066240,
+      "file_count": 1336,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "76441F4D37C4C732FB6330ED689B06D2D5686A7E70EA5CC8A384027870C86CD2",
+        "size_bytes": 1497267530
+      }
+    }
+  ]
+}

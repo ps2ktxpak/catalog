@@ -1,0 +1,24 @@
+{
+  "key": "slps-25088-nullmechanism",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-nullmechanism-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-final-fantasy-x-international-hd-remaster-community-archive-slps-25088-20260728.tar.zst",
+      "sha256": "83ed2c53b90cef8ea65889185c84eb8ac89655c4ddf1f7fdd1bd37bd0ba1951b",
+      "size_bytes": 3855548382,
+      "decompressed_size_bytes": 5050726400,
+      "file_count": 14811,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "C32FD970A75CD1384DE6DD29E1E95A11B9A8EBACA4F090CAF5AF2845FFE3F352",
+        "size_bytes": 3472183489
+      }
+    }
+  ]
+}

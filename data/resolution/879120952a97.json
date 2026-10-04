@@ -1,0 +1,25 @@
+{
+  "source_url": "https://gbatemp.net/threads/rumbe-racing-ps2-hd-texturas-slus-20174.626938/",
+  "listings": [
+    "l-c5a6b1938f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "http_error",
+    "http": 404
+  },
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-c5a6b1938f",
+      "status": "dead",
+      "base_url": null,
+      "reason": "the source page returns 404",
+      "confidence": "high",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

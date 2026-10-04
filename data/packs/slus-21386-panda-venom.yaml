@@ -1,0 +1,66 @@
+key: slus-21386-panda-venom
+catalog_id: pandavenom-tales-of-the-abyss-slus-21386-20260728
+name: Tales of the Abyss Texture Pack
+game:
+  title: Tales of the Abyss
+  serials:
+  - SLUS-21386
+credits:
+- creator: panda-venom
+- creator: yonko
+- creator: guardianrandy
+- creator: pegi
+- creator: wolfie
+- creator: kisa-seira
+- creator: mine
+- creator: dragonbleapiece
+type: ai_upscale
+completeness: in_progress
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tales-of-the-abyss-usa-hd-texture-pack-wip.610735/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- co_credit_unconfirmed
+legacy:
+  authors:
+  - Pandavenom
+  - Yonko
+  - GuardianRandy
+  - Pegi
+  - Wolfie
+  - Kisa Seira
+  - Mine
+  - DRAGONBLEAPIECE
+  credits: 'HD texture pack credited by the source to Texture upscalers: Pandavenom, Yonko. Texture redrawers: Yonko, GuardianRandy, Pegi, Wolfie, Kisa Seira and Mine. Texture dumping and testing: DRAGONBLEAPIECE; normalized and mirrored by EmuCoreX.'
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/tales-of-the-abyss-usa-hd-texture-pack-wip.610735/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

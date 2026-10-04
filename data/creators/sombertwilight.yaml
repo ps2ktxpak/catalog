@@ -1,0 +1,35 @@
+id: sombertwilight
+name: SomberTwilight
+aliases:
+- sombertwilight
+links:
+  page: https://gbatemp.net/members/sombertwilight.598523/
+  tip:
+  - kind: website
+    url: https://cash.app/$EnticingAgony
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/channel/UCCk-2bCfJYIDUlndx08Av8w
+avatar:
+  source_url: https://gbatemp.net/data/avatars/h/598/598523.jpg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.tip:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  avatar.source_url:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: medium

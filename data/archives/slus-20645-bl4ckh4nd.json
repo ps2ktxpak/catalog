@@ -1,0 +1,24 @@
+{
+  "key": "slus-20645-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-time-crisis-3-hd-remaster-community-archive-slus-20645-20260728.tar.zst",
+      "sha256": "017b60196292ffb626257ac5e15c72f61612c48f4538d4d87d673ec1edbb7252",
+      "size_bytes": 201341020,
+      "decompressed_size_bytes": 317173760,
+      "file_count": 3378,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "28588787E30702B82AC35C95B83D0457CFBEC25061383070FA723E5F7E878C87",
+        "size_bytes": 451308867
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "scus-97621-callofcthuloo",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/callofcthuloo-twisted-metal-head-on-scus-97621-20260728.tar.zst",
+      "sha256": "3fc3d42a526933baacde76452f411ad2098aeb32e39429ba9fddc8a47f1241e9",
+      "size_bytes": 1134795221,
+      "decompressed_size_bytes": 1615984640,
+      "file_count": 4392,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "263547BCB7512980E54412AD145C9727A2EBEA236F31532586DB1D17D4CE40BE",
+        "size_bytes": 3241997428
+      }
+    }
+  ]
+}

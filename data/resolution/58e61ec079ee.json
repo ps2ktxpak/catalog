@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/prisoner-of-war-europe-sles-50397-texture-pack-hd.675613/",
+  "listings": [
+    "l-fdb5351a27"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Prisoner of War (Europe) (SLES-50397) Texture Pack HD"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/0c9h7jx67ax4oa6/SLES-50397.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "r prisoner of war It improves the game with high resolution textures while keeping the original atmosphere. Download if you find any issues with the textures"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-fdb5351a27",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/0c9h7jx67ax4oa6/SLES-50397.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

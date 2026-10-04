@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/fatal-frame-3-the-tormented-hd-remaster.669533/",
+  "listings": [
+    "l-9612c5521f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Fatal Frame 3 - The Tormented HD Remaster"
+  },
+  "videos": [
+    {
+      "id": "NtgU2ECHWRc",
+      "uploader": "TEODOR_MAX",
+      "links": [
+        {
+          "url": "https://store.steampowered.com/app/993090/Lossless_Scaling/",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "). Playing it on PS2 emulator PCSX2 nightly build v2.3.257.  To play in 60fps use Lossless scaling: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/11P_XS0TH_XHgUVj9WKgElkqeCJERvX53/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "Original​Remaster​​​​​​​​​​​​​ ​ ​ Spoiler: Gameplay video Download Link: Google drive Extract the files with 7-Zip, WinRAR"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9612c5521f",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/11P_XS0TH_XHgUVj9WKgElkqeCJERvX53/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

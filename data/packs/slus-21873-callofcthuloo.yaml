@@ -1,0 +1,88 @@
+key: slus-21873-callofcthuloo
+catalog_id: callofcthuloo-dynasty-warriors-gundam-2-slus-21873-20260727
+name: 'Dynasty Warriors: Gundam 2 HD Texture Pack'
+game:
+  title: 'Dynasty Warriors: Gundam 2'
+  serials:
+  - SLUS-21873
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+description: A North American 1080p replacement pack prepared for PCSX2 texture loading.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dynasty-warriors-gundam-2-slus-21873-hd-texture-pack-upscale.675885/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-16-04-png.531376/
+    thumb_url: https://gbatemp.net/data/attachments/530/530764-636143002c3c6175581308f4a6650397.jpg?hash=Al2RBWtwlY
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-24-00-png.531377/
+    thumb_url: https://gbatemp.net/data/attachments/530/530765-febeb30a5a8ff686ab8d438110ded354.jpg?hash=689xbidFIX
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-43-26-png.531378/
+    thumb_url: https://gbatemp.net/data/attachments/530/530766-f00d6b1edac3e3d57953ef121e8959cb.jpg?hash=av-aIdTJHg
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-47-35-png.531379/
+    thumb_url: https://gbatemp.net/data/attachments/530/530767-681722cdc7f4f6e0fb29284706aa281a.jpg?hash=Lq3w_ETgOn
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-42-24-png.531381/
+    thumb_url: https://gbatemp.net/data/attachments/530/530769-a99efced3d4870b9b11e70482ae93747.jpg?hash=Vw0aZ33rkf
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-26-37-png.531382/
+    thumb_url: https://gbatemp.net/data/attachments/530/530770-af7f170a06b255bda834d89ea412b9c5.jpg?hash=AGSrNOdtL0
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-22-21-png.531383/
+    thumb_url: https://gbatemp.net/data/attachments/530/530771-5c3df0284d2ff982a50c898a906cec6c.jpg?hash=_g5Gyx6JBQ
+    credit: callofcthuloo
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-20-20-31-19-png.531385/
+    thumb_url: https://gbatemp.net/data/attachments/530/530773-7fe617010b9fc092b760df8abaeac510.jpg?hash=JIsODQLXWi
+    credit: callofcthuloo
+  videos:
+  - provider: youtube
+    id: 691uBMP9KRw
+  - provider: youtube
+    id: BzvwrHbfV6w
+  - provider: youtube
+    id: YBdziDsgOhw
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - callofcthuloo
+  credits: 1080p AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/dynasty-warriors-gundam-2-slus-21873-hd-texture-pack-upscale.675885/
+  version: 1080p AI-upscaled public snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

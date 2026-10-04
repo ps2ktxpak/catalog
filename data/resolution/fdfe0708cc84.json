@@ -1,0 +1,94 @@
+{
+  "source_url": "https://gbatemp.net/threads/star-ocean-till-the-end-of-time-usa-hd-remaster-work-in-progress.611779/",
+  "listings": [
+    "l-08218ed939"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Star Ocean: Till the End of Time (USA) | HD Remaster 1.0"
+  },
+  "videos": [
+    {
+      "id": "uw1LkE83yp0",
+      "uploader": "Pandupscale",
+      "links": [
+        {
+          "url": "https://ko-fi.com/pandavenom",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_description",
+          "context": "-panda_venom-wip.611779/  Credits: Panda Venom If you want to support me, please buy me a coffe! :) ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://wiki.pcsx2.net/Star_Ocean:_Till_the_End_of_Time",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "esolution menu and portraits, optimised for widescreen. Compatible: USA / Undub Version 1.0 Beta Pcsx2 wiki: https://wiki.pcsx2.net/Star_Ocean:_Till_the_End_of"
+    },
+    {
+      "url": "https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3_HD_Remaster_1.0beta.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "sion 0.7: Bug fixes. Version 1.0: New textures, bugfixes, Disc 1+2 almost completed! ----- Download 1.0beta: https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3"
+    },
+    {
+      "url": "https://www.mediafire.com/file/qsafbaxyieyvupm/SO3_Optional_1.0.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "oad 1.0beta: https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3_HD_Remaster_1.0beta.7z/file Optional add-ons: https://www.mediafire.com/file/qsafbaxyieyvupm/SO3"
+    },
+    {
+      "url": "https://www.mediafire.com/file/p4ls4ylg1dangj5/SLUS-20488.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "ww.mediafire.com/file/qsafbaxyieyvupm/SO3_Optional_1.0.7z/file Download! Version 0.7. OLD! Disc 1 completed: https://www.mediafire.com/file/p4ls4ylg1dangj5/SLU"
+    },
+    {
+      "url": "https://www.mediafire.com/file/dr3xkendqnq5jq2/SLUS-20891.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": ". OLD! Disc 1 completed: https://www.mediafire.com/file/p4ls4ylg1dangj5/SLUS-20488.7z/file Disc 2 incomplete: https://www.mediafire.com/file/dr3xkendqnq5jq2/SLU"
+    },
+    {
+      "url": "https://ko-fi.com/pandavenom",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "rams used: Cupscale - ESRGAN, Waifu-caffe, Adobe Photoshop If you want to support me, please buy me a coffe! https://ko-fi.com/pandavenom Video:"
+    },
+    {
+      "url": "https://mega.nz/file/FJETUZKB#iQi_p-7Y34v5im4mecnrdJw_3F008cUHczoxxDks-V0",
+      "host": "mega",
+      "kind": "file",
+      "where": "op_followup",
+      "context": "Updated! Please delete the old folder! Disc 1 completed. Download V.6: mega.nz/file/FJETUZKB#iQi_p-7Y34v5im4mecnrdJw_3F00"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-08218ed939",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3_HD_Remaster_1.0beta.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator explicitly marked version 1.0 as latest; MediaFire link labeled 'Download 1.0beta'.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

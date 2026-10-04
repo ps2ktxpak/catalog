@@ -1,0 +1,24 @@
+{
+  "key": "sces-51607-texmaster",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/andritgames20-ratchet-clank-going-commando-sces-51607-20260728.tar.zst",
+      "sha256": "a29aa5188e2458e42f2eed66784484f79e802a70f68e8db980e88eb5e5a41c41",
+      "size_bytes": 1074435803,
+      "decompressed_size_bytes": 1759180800,
+      "file_count": 20497,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DDFF806C6C45E9E751896979CFD034A09117A8D08BF79A8E028F780AB5422E9B",
+        "size_bytes": 3194573429
+      }
+    }
+  ]
+}

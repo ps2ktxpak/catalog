@@ -1,0 +1,32 @@
+{
+  "source_url": "https://gbatemp.net/threads/black-texturas-pack-100-slus-21376.626084/",
+  "listings": [
+    "l-5fd5ac4a90"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Black texturas pack 100% (SLUS-21376)"
+  },
+  "candidates": [
+    {
+      "url": "https://seulink.digital/Blackps2texturas100",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "a para o emulador em rendering / midmapping : off Pix. Chave aleatória ad1154c0-1645-4c69-8542-198fecdb5f33 https://seulink.digital/Blackps2texturas100"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-5fd5ac4a90",
+      "status": "gated",
+      "reason": "Creator provided seulink.digital link, which is an advert wall / link shortener.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

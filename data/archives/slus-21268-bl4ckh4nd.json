@@ -1,0 +1,24 @@
+{
+  "key": "slus-21268-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-24-the-game-slus-21268-20260728.tar.zst",
+      "sha256": "f34774ac6ef687497c62b1aa9fbd2b3d4b73f470b8f2c7bb06149a338a376e9a",
+      "size_bytes": 600595980,
+      "decompressed_size_bytes": 995563520,
+      "file_count": 6084,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "739CE40C4F3AB5769A0820716CD4474A7D08CFE4769E811AF716F0F887490382",
+        "size_bytes": 1238347743
+      }
+    }
+  ]
+}

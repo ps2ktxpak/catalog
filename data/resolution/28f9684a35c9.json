@@ -1,0 +1,42 @@
+{
+  "source_url": "https://gbatemp.net/threads/headhunter-redemption-hd-texture-pack.668024/",
+  "listings": [
+    "l-72f345010d"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Headhunter - Redemption HD Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "qy3t60wJ1Gs",
+      "uploader": "TEODOR_MAX",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1L5e1vwURjzwB5LWgmOXbSQU_6-7654gM/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "er - Redemption. PCSX2 nightly build v2.3.205. Spoiler: Gameplay Video Download Link: Google drive Extract the the files with 7-Zip, Wi"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-72f345010d",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1L5e1vwURjzwB5LWgmOXbSQU_6-7654gM/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "key": "sles-53403-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-demolition-girl-sles-53403-20260728.tar.zst",
+      "sha256": "0be12e3967f1e016cdbd945e06910d6410c74f4cf6bd613d87f870d598f25e54",
+      "size_bytes": 107589678,
+      "decompressed_size_bytes": 234905600,
+      "file_count": 503,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E0BC8FD31BCD50C33F230EE5CB5661FAEB10E668DCE019C9FF2A844276C52A1D",
+        "size_bytes": 226789498
+      }
+    }
+  ]
+}

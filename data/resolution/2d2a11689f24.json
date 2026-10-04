@@ -1,0 +1,778 @@
+{
+  "source_url": "https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/",
+  "listings": [
+    "l-152f80cb94",
+    "l-1fca7bb44a",
+    "l-22f3363537",
+    "l-2508aa4e0b",
+    "l-26d1d66b92",
+    "l-40f52751b4",
+    "l-4640cf20ca",
+    "l-49cddab413",
+    "l-4b6648f71a",
+    "l-4b6fe540ee",
+    "l-4cb7490767",
+    "l-5af91d08d5",
+    "l-6170225cf9",
+    "l-6d89a204b8",
+    "l-7140ba40cb",
+    "l-7226759018",
+    "l-88743ddec1",
+    "l-89579fc7d2",
+    "l-8d8ea185d1",
+    "l-97ac3f9d66",
+    "l-9dc61fadb9",
+    "l-a088ca155b",
+    "l-a5a268b7ca",
+    "l-bc91326607",
+    "l-c0813fca28",
+    "l-dc4022c2a8",
+    "l-ea09026244",
+    "l-f142d52c1a",
+    "l-fa579f6427"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "PCSX2 HD texture upscale service (Free)"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file_premium/6l0b8ca2axm8nt5/SLUS-21268.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "G's to DDS at a later date if you don't export to DDS). Upscales for requested Games: 24: The Game (US) https://www.mediafire.com/file_premium/6l0b8ca2axm"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/1yitc2potpmxddz/SLES-52367.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "(US) https://www.mediafire.com/file_premium/6l0b8ca2axm8nt5/SLUS-21268.zip/file America's 10 Most Wanted (EU) https://www.mediafire.com/file_premium/1yitc2potpm"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kHerIYC-c6gIc9yG?e=B4TJ0x",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "t Wanted (EU) https://www.mediafire.com/file_premium/1yitc2potpmxddz/SLES-52367.zip/file Capcom vs SNK 2 (US) https://1drv.ms/u/s!ApJOQlD7y1v-kHerIYC-c6gIc9yG?e"
+    },
+    {
+      "url": "https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "52367.zip/file Capcom vs SNK 2 (US) https://1drv.ms/u/s!ApJOQlD7y1v-kHerIYC-c6gIc9yG?e=B4TJ0x Chaos Wars (US) https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCi"
+    },
+    {
+      "url": "https://1drv.ms/u/c/fe5bcbfb50424e92/ERNVJKCE74RCgZuTf7t9wMIBWdb0q8rjAGpYWsOd3jlKpg?e=M73ihy",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Wars (US) https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m Mirror SLUS-21722.zip Cold Winter (US) https://www.mediaf"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/0dr9yadp0vi72q7/SLUS-20845.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m Mirror SLUS-21722.zip Cold Winter (US) https://www.mediafire.com/file_premium/0dr9yadp0vi"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQt6geUpBAx2HccT?e=3gv30c",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "d Winter (US) https://www.mediafire.com/file_premium/0dr9yadp0vi72q7/SLUS-20845.zip/file Digimon World 4 (US) https://1drv.ms/u/s!ApJOQlD7y1v-kQt6geUpBAx2HccT?e"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQU8HEPKh60zfU84?e=fHqSO8",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Digimon World 4 (US) https://1drv.ms/u/s!ApJOQlD7y1v-kQt6geUpBAx2HccT?e=3gv30c Digimon World Data Squad (US) https://1drv.ms/u/s!ApJOQlD7y1v-kQU8HEPKh60zfU84?e"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/37wfnjb6kxo8bwb/SLUS-20439.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "=3gv30c Digimon World Data Squad (US) https://1drv.ms/u/s!ApJOQlD7y1v-kQU8HEPKh60zfU84?e=fHqSO8 Futurama (US) https://www.mediafire.com/file_premium/37wfnjb6kxo"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/8g67wye8bxjqa1q/SCES-50500.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "qSO8 Futurama (US) https://www.mediafire.com/file_premium/37wfnjb6kxo8bwb/SLUS-20439.zip/file Headhunter (EU) https://www.mediafire.com/file_premium/8g67wye8bxj"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/qks2kdks0f8v8ob/SLPM-65268.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": ".mediafire.com/file_premium/8g67wye8bxjqa1q/SCES-50500.zip/file Initial D Special Stage (English Patch) (JP) https://www.mediafire.com/file_premium/qks2kdks0f8"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/4nuuebgqbqzstcb/SCUS-97558.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "s://www.mediafire.com/file_premium/qks2kdks0f8v8ob/SLPM-65268.zip/file Jak and Daxter: The Lost Frontier (US) https://www.mediafire.com/file_premium/4nuuebgqbqz"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/2k5ukbe621edbaw/SLUS-20265.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "s://www.mediafire.com/file_premium/4nuuebgqbqzstcb/SCUS-97558.zip/file James Bond 007: Agent Under Fire (US) https://www.mediafire.com/file_premium/2k5ukbe621e"
+    },
+    {
+      "url": "https://mega.nz/file/ZrNwyRJT#2f8InukW7GiEDs8yVkAU0v-vaA6PISO9HyeUIerCerM",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "/www.mediafire.com/file_premium/2k5ukbe621edbaw/SLUS-20265.zip/file Mana Khemia: Alchemists of Al-Revis (US) https://mega.nz/file/ZrNwyRJT#2f8InukW7GiEDs8yVkAU"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/16nxl332eye3f1h/SLES-53959.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "l-Revis (US) https://mega.nz/file/ZrNwyRJT#2f8InukW7GiEDs8yVkAU0v-vaA6PISO9HyeUIerCerM Pac-Man World 3 (EU) https://www.mediafire.com/file_premium/16nxl332eye"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kHYKTix4M4GkleJO?e=Mhj8LZ",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "U) https://www.mediafire.com/file_premium/16nxl332eye3f1h/SLES-53959.zip/file Predator: Concrete Jungle (US) https://1drv.ms/u/s!ApJOQlD7y1v-kHYKTix4M4GkleJO?e"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/12rgic4i7brhl3i/SLUS-20442.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Predator: Concrete Jungle (US) https://1drv.ms/u/s!ApJOQlD7y1v-kHYKTix4M4GkleJO?e=Mhj8LZ Red Faction II (US) https://www.mediafire.com/file_premium/12rgic4i7br"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/g1ank70fsmvqnep/SLUS-20297.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "om/file_premium/12rgic4i7brhl3i/SLUS-20442.zip/file Return to Castle Wolfenstein: Operation Resurrection (US) https://www.mediafire.com/file_premium/g1ank70fsmv"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/p2gfm7ga54j9j31/SLUS-20957.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "tion Resurrection (US) https://www.mediafire.com/file_premium/g1ank70fsmvqnep/SLUS-20297.zip/file Scaler (US) https://www.mediafire.com/file_premium/p2gfm7ga54j"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/wj4ys283a2wyhdm/SLUS-20146.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Scaler (US) https://www.mediafire.com/file_premium/p2gfm7ga54j9j31/SLUS-20957.zip/file Shadow of Destiny (US) https://www.mediafire.com/file_premium/wj4ys283a2w"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kH9FqUG8UZUCO8yO?e=3s9sgc",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "estiny (US) https://www.mediafire.com/file_premium/wj4ys283a2wyhdm/SLUS-20146.zip/file Shining Force EXA (US) https://1drv.ms/u/s!ApJOQlD7y1v-kH9FqUG8UZUCO8yO?e"
+    },
+    {
+      "url": "https://1drv.ms/u/c/f4ce8a5d6475446d/ERKyXgYcGI5Po2faUq0JUQQB8fAqyP0CIKpSjYbpg24Dsw?e=Fbjtdk",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "/file Shining Force EXA (US) https://1drv.ms/u/s!ApJOQlD7y1v-kH9FqUG8UZUCO8yO?e=3s9sgc Shining Force NEO (US) https://1drv.ms/u/c/f4ce8a5d6475446d/ERKyXgYcGI5Po"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/74afjmd4npvxs1t/SCUS-97464.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "/u/c/f4ce8a5d6475446d/ERKyXgYcGI5Po2faUq0JUQQB8fAqyP0CIKpSjYbpg24Dsw?e=Fbjtdk Sly 3: Honor Among Thieves (US) https://www.mediafire.com/file_premium/74afjmd4npv"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/h08pjvmu1uvwqnp/SLUS-20686.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "https://www.mediafire.com/file_premium/74afjmd4npvxs1t/SCUS-97464.zip/file Splashdown: Rides Gone Wild (US) https://www.mediafire.com/file_premium/h08pjvmu1uv"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/oha7r5jmydkac6e/SLUS-20293.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "8pjvmu1uvwqnp/SLUS-20686.zip/file Star Wars: Jedi Starfighter (US) (use PNYRCADE level skip cheat on level 7) https://www.mediafire.com/file_premium/oha7r5jmydk"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQNglYuqcNA0YjBQ?e=OMDflX",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "n level 7) https://www.mediafire.com/file_premium/oha7r5jmydkac6e/SLUS-20293.zip/file Street Fighter EX3 (US) https://1drv.ms/u/s!ApJOQlD7y1v-kQNglYuqcNA0YjBQ?e"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/nk5g33jy4fd9omp/SLUS-21341.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "EX3 (US) https://1drv.ms/u/s!ApJOQlD7y1v-kQNglYuqcNA0YjBQ?e=OMDflX Stuart Little 3: Big Photo Adventure (US) https://www.mediafire.com/file_premium/nk5g33jy4fd"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/btgjg54zl6x3fv1/SCUS-97133.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "to Adventure (US) https://www.mediafire.com/file_premium/nk5g33jy4fd9omp/SLUS-21341.zip/file The Getaway (US) https://www.mediafire.com/file_premium/btgjg54zl6x"
+    },
+    {
+      "url": "https://1drv.ms/u/c/f4ce8a5d6475446d/EaNC-gaxq_xHg5Z9zMvQPysBrktZ58km6pGHeCi1SGKjhA?e=BJa6PQ",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "he Getaway (US) https://www.mediafire.com/file_premium/btgjg54zl6x3fv1/SCUS-97133.zip/file The Godfather (US) https://1drv.ms/u/c/f4ce8a5d6475446d/EaNC-gaxq_xHg"
+    },
+    {
+      "url": "https://www.mediafire.com/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "//1drv.ms/u/c/f4ce8a5d6475446d/EaNC-gaxq_xHg5Z9zMvQPysBrktZ58km6pGHeCi1SGKjhA?e=BJa6PQ The Simpsons Game (US) https://www.mediafire.com/file_premium/l3j7zmt7412"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kRi0G3NXqn9juqAK?e=DRjQDC",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ame (US) https://www.mediafire.com/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file TMNT 2: Battle Nexus (US) SLUS-20981.zip Urban Reign (US?) https://www.media"
+    },
+    {
+      "url": "https://www.mediafire.com/file/q045y4vfjj696tp/SLUS-21209.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "m/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file TMNT 2: Battle Nexus (US) SLUS-20981.zip Urban Reign (US?) https://www.mediafire.com/file/q045y4vfjj696tp/SLU"
+    },
+    {
+      "url": "https://mega.nz/file/bGhChD5S#d3jO_hkrlUnV8OSXlByGr-U3BuXaagvf0EI-EEkInSw",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "h t t p s : / / mega.nz/file/bGhChD5S#d3jO_hkrlUnV8OSXlByGr-U3BuXa"
+    },
+    {
+      "url": "https://mega.nz/file/3S5lmJII#ezUGIMzn4PqSk6GtzVx1BkLJ6rrt-A-P7IRytHo5soQ",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "oncrete Jungle I thank you very much in advance! Post automatically merged: Nov 17, 2023 h t t p s : / / mega.nz/file/3S5lmJII#ezUGIMzn4PqSk6GtzVx1BkLJ6rrt"
+    },
+    {
+      "url": "https://mega.nz/file/y3ogVDpS#Zqs3b3XOZivIAYUBaWNqYudigOy8IPZYLMDgzI54lnM",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "can you become friend of mine because I am poor and not have good computer so can you make these textures hd https://mega.nz/file/y3ogVDpS#Zqs3b3XOZivIAYUBaWNq"
+    },
+    {
+      "url": "https://mega.nz/file/r2x2BQTJ#ttCBbfWa54eVZ7FOQUckk-MKPM6BgZG8Fd5EWVZ3pQY",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "of shining force exa that are not dump and upscale here it is upscale them so we go to the next game texture https://mega.nz/file/r2x2BQTJ#ttCBbfWa54eVZ7FOQUck"
+    },
+    {
+      "url": "https://mega.nz/file/qyBj2LKD#zMGY5p6sXaZ8s4yv7FNF0xVt9WPVqsVI7cKS1znMrYo",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "pscaled some games textures so I ask did you have these games upscale textures By the way here it is the link https://mega.nz/file/qyBj2LKD#zMGY5p6sXaZ8s4yv7FNF"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kH4sGgPCqypk0l_h?e=r124UH",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op_followup",
+      "context": "alright, I merged the old dumps folder with the new one and made a new replacement folder here: https://1drv.ms/u/s!ApJOQlD7y1v-kH4sGgPCqypk0l_h?e"
+    },
+    {
+      "url": "https://mega.nz/file/GyZlHZBb#UU_H1Aji7Hya964rp2Ha3_kFxIFGN5iyAP_VevoTqT8",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "Here it is the link to next game chaos wars upscale this game so we go next game https://mega.nz/file/GyZlHZBb#UU_H1Aji7Hya964rp2Ha"
+    },
+    {
+      "url": "https://mega.nz/file/L6J0RBaQ#i1MRPmPj9e090whEyJtJ_Iq5Q3aH35LfByhTeAaGKCA",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "t are not upscale and I also provide screenshot of textures that are not upscale here is the link to the dump https://mega.nz/file/L6J0RBaQ#i1MRPmPj9e090whEyJtJ"
+    },
+    {
+      "url": "https://mega.nz/file/eyoDzbTZ#tj-oZhAhogpEd5AHOf6QVrsVIDp4sjTNmoFMQU2ZYI4",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "https://mega.nz/file/L6J0RBaQ#i1MRPmPj9e090whEyJtJ_Iq5Q3aH35LfByhTeAaGKCA And here is the screenshot zip link https://mega.nz/file/eyoDzbTZ#tj-oZhAhogpEd5AHOf6Q"
+    },
+    {
+      "url": "https://mega.nz/file/GjBwXAzZ#R7dtNXeQKRDPUVbpMPfUdGzm3vjKjP0KHxpjPBFkMt8",
+      "host": "mega",
+      "kind": "file",
+      "where": "reply_by_other",
+      "context": "ady upscaled ok if you find some that you already upscale delete them Here toma save picture upscale this too https://mega.nz/file/GjBwXAzZ#R7dtNXeQKRDPUVbpMPfU"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQFLSXaOOc1CxWBv?e=JJ7Ev0",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op_followup",
+      "context": "ard this statement). Shining Force EXA: https://1drv.ms/u/s!ApJOQlD7y1v-kH9FqUG8UZUCO8yO?e=3s9sgc Chaos Wars: https://1drv.ms/u/s!ApJOQlD7y1v-kQFLSXaOOc1CxWBv?e"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQfblyv006dQiK3R?e=bH4RrY",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op_followup",
+      "context": "Done, and Done: https://1drv.ms/u/s!ApJOQlD7y1v-kQfblyv006dQiK3R?e"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQ5vezluln2p5O2H?e=TcX4D2",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op_followup",
+      "context": "space. Just share the links to the zip files on this thread and I'll replace the links in my post with yours. https://1drv.ms/u/s!ApJOQlD7y1v-kQ5vezluln2p5O2H?e"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQ83KdLpUF_J5hjs?e=lFc2uY",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op_followup",
+      "context": "he number trick and manually scrolling is the only way to save those textures, that would take about 45 mins. https://1drv.ms/u/s!ApJOQlD7y1v-kQ83KdLpUF_J5hjs?e"
+    },
+    {
+      "url": "https://1drv.ms/u/s!ApJOQlD7y1v-kRIy8jc_-zhx6QQJ?e=GGhnm4",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op_followup",
+      "context": "ad exists and sometimes I pull all-nighters and sleep the whole day so I'm not on. Here is Shining Force NEO: https://1drv.ms/u/s!ApJOQlD7y1v-kRIy8jc_-zhx6QQJ?e"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-152f80cb94",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQNglYuqcNA0YjBQ?e=OMDflX",
+      "host": "other",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's list of upscaled requested games in the opening post puts this OneDrive link beside Street Fighter EX3 (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-1fca7bb44a",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/1yitc2potpmxddz/SLES-52367.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLES-52367) for America's 10 Most Wanted (EU).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-22f3363537",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/p2gfm7ga54j9j31/SLUS-20957.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20957) for Scaler (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-2508aa4e0b",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/c/f4ce8a5d6475446d/EaNC-gaxq_xHg5Z9zMvQPysBrktZ58km6pGHeCi1SGKjhA?e=BJa6PQ",
+      "host": "other",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list puts this OneDrive link beside The Godfather (US); it is the only link given for that game.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-26d1d66b92",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/h08pjvmu1uvwqnp/SLUS-20686.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20686) for Splashdown: Rides Gone Wild (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-40f52751b4",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/12rgic4i7brhl3i/SLUS-20442.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20442) for Red Faction II (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-4640cf20ca",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/16nxl332eye3f1h/SLES-53959.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLES-53959) for Pac-Man World 3 (EU).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-49cddab413",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m",
+      "host": "other",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "Primary link in the creator's opening-post list; the list also labels a mirror, and a later creator post gives a different OneDrive link, so which is newest is unclear.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-4b6648f71a",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQU8HEPKh60zfU84?e=fHqSO8",
+      "host": "other",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list puts this OneDrive link beside Digimon World Data Squad (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-4b6fe540ee",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/2k5ukbe621edbaw/SLUS-20265.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20265) for James Bond 007: Agent Under Fire (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-4cb7490767",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/qks2kdks0f8v8ob/SLPM-65268.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLPM-65268) for Initial D Special Stage (English Patch, JP).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-5af91d08d5",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/74afjmd4npvxs1t/SCUS-97464.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SCUS-97464) for Sly 3: Honor Among Thieves (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-6170225cf9",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/nk5g33jy4fd9omp/SLUS-21341.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-21341) for Stuart Little 3: Big Photo Adventure (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-6d89a204b8",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/8g67wye8bxjqa1q/SCES-50500.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SCES-50500) for Headhunter (EU).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-7140ba40cb",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/s!ApJOQlD7y1v-kRi0G3NXqn9juqAK?e=DRjQDC",
+      "host": "other",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "In the creator's opening-post list this OneDrive link is the SLUS-20981.zip entry listed for TMNT 2: Battle Nexus (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-7226759018",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/37wfnjb6kxo8bwb/SLUS-20439.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20439) for Futurama (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-88743ddec1",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/ZrNwyRJT#2f8InukW7GiEDs8yVkAU0v-vaA6PISO9HyeUIerCerM",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this Mega file link for Mana Khemia: Alchemists of Al-Revis (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-89579fc7d2",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-21665) for The Simpsons Game (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-8d8ea185d1",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/c/f4ce8a5d6475446d/ERKyXgYcGI5Po2faUq0JUQQB8fAqyP0CIKpSjYbpg24Dsw?e=Fbjtdk",
+      "host": "other",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "Link in the creator's opening-post list for Shining Force NEO (US); a separate creator follow-up post gives a different OneDrive link and its order is unclear.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-97ac3f9d66",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/btgjg54zl6x3fv1/SCUS-97133.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SCUS-97133) for The Getaway (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-9dc61fadb9",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/s!ApJOQlD7y1v-kQt6geUpBAx2HccT?e=3gv30c",
+      "host": "other",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list puts this OneDrive link beside Digimon World 4 (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-a088ca155b",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/wj4ys283a2wyhdm/SLUS-20146.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20146) for Shadow of Destiny (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-a5a268b7ca",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/4nuuebgqbqzstcb/SCUS-97558.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SCUS-97558) for Jak and Daxter: The Lost Frontier (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-bc91326607",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/0dr9yadp0vi72q7/SLUS-20845.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20845) for Cold Winter (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-c0813fca28",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/s!ApJOQlD7y1v-kHerIYC-c6gIc9yG?e=B4TJ0x",
+      "host": "other",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list puts this OneDrive link beside Capcom vs SNK 2 (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-dc4022c2a8",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/q045y4vfjj696tp/SLUS-21209.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-21209) for Urban Reign, marked (US?) by the creator.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-ea09026244",
+      "status": "resolved",
+      "base_url": "https://1drv.ms/u/s!ApJOQlD7y1v-kH9FqUG8UZUCO8yO?e=3s9sgc",
+      "host": "other",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "Link in the opening-post list, repeated by a creator follow-up; another unattributed creator link mentions merged dumps, so a newer replacement is possible.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-f142d52c1a",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/6l0b8ca2axm8nt5/SLUS-21268.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-21268) for 24: The Game (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-fa579f6427",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file_premium/oha7r5jmydkac6e/SLUS-20293.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "The creator's opening-post list gives this MediaFire zip (SLUS-20293) for Star Wars: Jedi Starfighter (US).",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

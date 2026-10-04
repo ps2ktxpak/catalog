@@ -1,0 +1,60 @@
+{
+  "source_url": "https://gbatemp.net/threads/kings-field-iv-the-ancient-city-hd-texture-pack.653789/",
+  "listings": [
+    "l-7ec6e56ffe"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "King&#039;s Field IV - The Ancient City HD Texture Pack"
+  },
+  "videos": [
+    {
+      "id": "TrJ2EP1ZvwQ",
+      "uploader": "Irvin Smith",
+      "links": []
+    },
+    {
+      "id": "GLF15z5YJVI",
+      "uploader": "Irvin Smith",
+      "links": []
+    },
+    {
+      "id": "SqzeOO86xEw",
+      "uploader": "Irvin Smith",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1kKKvGm_jFlIGbo3WGOdkKevrHjFCx4et/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": ". Spoiler: Screenshots Spoiler: Videos Download Link: Here (GoogleDrive) and Here (Mega) More Texture Pa"
+    },
+    {
+      "url": "https://mega.nz/file/hnVVXAyA#MJQ7_eIkQkSmXGAC9OORmYsWoKHgvYiYpBdcQUm8LQk",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "eenshots Spoiler: Videos Download Link: Here (GoogleDrive) and Here (Mega) More Texture Packs: Drakengard 1 HD Te"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-7ec6e56ffe",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1kKKvGm_jFlIGbo3WGOdkKevrHjFCx4et/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided Google Drive as primary download option in opening post.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

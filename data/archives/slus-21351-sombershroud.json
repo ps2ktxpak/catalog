@@ -1,0 +1,24 @@
+{
+  "key": "slus-21351-sombershroud",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombershroud-nfs-most-wanted-black-edition-slus-21351.tar.zst",
+      "sha256": "00b6109599daa9186b9a4dc2194539a09a024c898f47c2867eca36403e3e8301",
+      "size_bytes": 750789729,
+      "decompressed_size_bytes": 1878773760,
+      "file_count": 8095,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "5B60D12168D18111146DE6E811B1E1A0695B50751D52543C8A2C2C0DC4FC3AA5",
+        "size_bytes": 1399502133
+      }
+    }
+  ]
+}

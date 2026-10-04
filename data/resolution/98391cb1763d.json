@@ -1,0 +1,36 @@
+{
+  "source_url": "https://gbatemp.net/threads/tomb-raider-anniversary-hd-texture-high-definition.643200/",
+  "listings": [
+    "l-4f6299af31"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Tomb Raider Anniversary HD Texture High definition"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/yUUyADrD#K-mgK8C0xHR0wVwhprcDCLdqmawR_uQ113PqXf9TdMs",
+      "host": "mega",
+      "kind": "file",
+      "where": "op_followup",
+      "context": "DOWNLAOD PAYPAL"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4f6299af31",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/yUUyADrD#K-mgK8C0xHR0wVwhprcDCLdqmawR_uQ113PqXf9TdMs",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "Creator provided MEGA link in followup; opening post indicates work in progress.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

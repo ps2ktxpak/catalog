@@ -1,0 +1,24 @@
+{
+  "key": "slus-21596-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-burnout-dominator-20260722.tar.zst",
+      "sha256": "e8cba432fd8b3b08fff6ab1f5fd13c1fc97d0800f5cfdca7fdeec0a0eefa2975",
+      "size_bytes": 466352203,
+      "decompressed_size_bytes": 645509120,
+      "file_count": 6342,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F0CE4FEE4E65DF84984F636F17CB981F737F8E91DA82E7619FE5F8BED933F139",
+        "size_bytes": 585627061
+      }
+    }
+  ]
+}

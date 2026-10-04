@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/tekken-the-devil-within-hd-textures-pack.672669/",
+  "listings": [
+    "l-b558db2532"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Tekken: The Devil Within - HD Textures Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/rweoxsalupto7eo",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Emulator: PCSX2 v2.0 Disk: SLUS-21059 𝓓𝓞𝓦𝓝𝓛𝓞𝓐𝓓 www.mediafire.com/file/rweoxsalupto7eo archive si"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-b558db2532",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/rweoxsalupto7eo",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

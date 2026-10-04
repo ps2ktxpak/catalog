@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Archive record",
+  "description": "What the conversion pipeline produced for one pack, at data/archives/<key>.json. Machine-owned: written by the pipeline, never hand-edited. A new revision is appended, an old one is never changed, and objects are never overwritten under the same name.",
+  "type": "object",
+  "required": ["key", "current", "versions"],
+  "additionalProperties": false,
+  "properties": {
+    "key": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"},
+    "current": {"description": "Revision the catalog serves.", "type": "integer", "minimum": 1},
+    "versions": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["revision", "container", "object", "sha256", "size_bytes", "decompressed_size_bytes", "file_count"],
+        "properties": {
+          "revision": {"type": "integer", "minimum": 1},
+          "container": {"enum": ["tar+zstd"]},
+          "object": {"description": "Storage key under the archive host, e.g. packs/<id>.tar.zst.", "type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+          "size_bytes": {"type": "integer", "minimum": 1},
+          "decompressed_size_bytes": {"type": "integer", "minimum": 1},
+          "file_count": {"type": "integer", "minimum": 1},
+          "created": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+          "source": {
+            "description": "The download this archive was converted from.",
+            "type": "object", "additionalProperties": false,
+            "properties": {
+              "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+              "size_bytes": {"type": "integer", "minimum": 1},
+              "url": {"type": "string"},
+              "retrieved": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+            }
+          },
+          "converter": {
+            "type": "object", "additionalProperties": false,
+            "properties": {"tool": {"type": "string"}, "version": {"type": "string"}, "params": {"type": "string"}, "pipeline": {"type": "string"}}
+          }
+        }
+      }
+    }
+  }
+}

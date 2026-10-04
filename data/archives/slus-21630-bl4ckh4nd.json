@@ -1,0 +1,24 @@
+{
+  "key": "slus-21630-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-star-trek-conquest-slus-21630-20260728.tar.zst",
+      "sha256": "40358282277b83217284386a97597a295bf6bfd97b4c51bc65fc1fee03909ab1",
+      "size_bytes": 391032208,
+      "decompressed_size_bytes": 553676800,
+      "file_count": 1685,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "77616781E2DAFC492BAAAB8D5A96BADE623456F111DAD69ED48B43D7923AA027",
+        "size_bytes": 524018617
+      }
+    }
+  ]
+}

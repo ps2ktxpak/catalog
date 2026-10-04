@@ -1,0 +1,24 @@
+{
+  "key": "sces-52582-b-bugs",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/b-bugs-everybodys-golf-nethersx2-sces-52582-20260726.tar.zst",
+      "sha256": "6fc58cb6f7fd729f702cba955661efe56eed3e690329060669b972faacd196f2",
+      "size_bytes": 484221956,
+      "decompressed_size_bytes": 644526080,
+      "file_count": 10511,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A635B7E4D3690C8BD285C15D4E8C2EABF2D982D60C58E3C231800346198CF2F6",
+        "size_bytes": 1466300266
+      }
+    }
+  ]
+}

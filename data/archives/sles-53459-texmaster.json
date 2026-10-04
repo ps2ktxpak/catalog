@@ -1,0 +1,24 @@
+{
+  "key": "sles-53459-texmaster",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/andritgames20-marc-ecko-s-getting-up-contents-under-pressure-sles-53459-20260728.tar.zst",
+      "sha256": "e3fd9da2a70d072fe8b1798c35625f9e81bd6d7da642fb82699f3e4eeeb39a03",
+      "size_bytes": 1525235995,
+      "decompressed_size_bytes": 9579048960,
+      "file_count": 14683,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "6D01B15E556E714451D8D5C983B06E2FA2C0187D4FA8B7BB8DA7158E8749C80B",
+        "size_bytes": 5565899210
+      }
+    }
+  ]
+}

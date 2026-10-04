@@ -1,0 +1,24 @@
+{
+  "key": "slus-20441-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-nascar-dirt-to-daytona-slus-20441-20260728.tar.zst",
+      "sha256": "725f679c1868fd9198e41e21f8844c89aaf708f5e05fd2543a5934900f5ab447",
+      "size_bytes": 921656118,
+      "decompressed_size_bytes": 1506590720,
+      "file_count": 4271,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "9CF5EFC974BE589D3FA3A349D48251E976E63553EE6639EF651F72A90FF5D587",
+        "size_bytes": 1363452547
+      }
+    }
+  ]
+}

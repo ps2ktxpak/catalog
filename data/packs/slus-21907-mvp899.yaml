@@ -1,0 +1,71 @@
+key: slus-21907-mvp899
+catalog_id: texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-jurassic-the-hunted-hd-remaster-community-archive-slus-21907-20260728
+name: Jurassic The Hunted HD Remaster - Community Archive Texture Pack
+game:
+  title: Jurassic The Hunted
+  serials:
+  - SLUS-21907
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/jurassic-the-hunted-hd-textures.656926/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2024-06-09-21-51-08-png.441534/
+    thumb_url: https://gbatemp.net/data/attachments/440/440922-1e1c1db5049b8182dc00b72fae5534c7.jpg?hash=HhwdtQSbgY
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/pcsx2-qt-2024-06-09-21-50-10-png.441535/
+    thumb_url: https://gbatemp.net/data/attachments/440/440923-e8e0100515b7636a72e763c51d2648e1.jpg?hash=6OAQBRW3Y2
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: IB7rv5OMZjo
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

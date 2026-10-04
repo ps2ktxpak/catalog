@@ -1,0 +1,24 @@
+{
+  "key": "slus-21148-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-timesplitters-future-perfect-slus-21148-20260728.tar.zst",
+      "sha256": "f0ce8db360b012b9d83e0b3b564193102e95e6383ce866b8f2137f6d4b29badd",
+      "size_bytes": 424872490,
+      "decompressed_size_bytes": 565667840,
+      "file_count": 4449,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "3B91980FD1B2F7C9BDDE4B99ED428DDC4B190E6C90889CC0A655C2FBCD7BB605",
+        "size_bytes": 872320820
+      }
+    }
+  ]
+}

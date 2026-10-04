@@ -1,0 +1,84 @@
+key: slus-21046-teodor-max
+catalog_id: teodor-max-king-arthur-slus-21046-20260728
+name: King Arthur HD Texture Pack
+game:
+  title: King Arthur
+  serials:
+  - SLUS-21046
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: complete
+description: A complete North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/king-arthur-hd-texture-pack.641553/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/movie-king-arthur-wallpaper-392068adc1fa3ddbb6c758ef8001f67d-copy-png.400149/
+    thumb_url: https://gbatemp.net/data/attachments/399/399537-761431b9a401b1f72c0263d78cd55c19.jpg?hash=34TS-hCvGI
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000022-png.400168/
+    thumb_url: https://gbatemp.net/data/attachments/399/399556-ae839ba7067ca0b85eb204203cf4682d.jpg?hash=roObpwZ8oL
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000031-png.400169/
+    thumb_url: https://gbatemp.net/data/attachments/399/399557-bb3106e267126ef180a66f55f13acfd7.jpg?hash=uzEG4mcSbv
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000252-png.400170/
+    thumb_url: https://gbatemp.net/data/attachments/399/399558-ce1ad65804c6192aa8324d86f12ffd36.jpg?hash=zhrWWATGGS
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000258-png.400171/
+    thumb_url: https://gbatemp.net/data/attachments/399/399559-2b490512fd770fdaab001ca1a754b05f.jpg?hash=K0kFEv13D9
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000537-png.400172/
+    thumb_url: https://gbatemp.net/data/attachments/399/399560-055632af1446780b28007fdb0c9452b1.jpg?hash=BVYyrxRGeA
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000540-png.400173/
+    thumb_url: https://gbatemp.net/data/attachments/399/399561-83467acef3997fcbf6bf455d66cc94e4.jpg?hash=g0Z6zvOZf8
+    credit: teodor-max
+  - source_url: https://gbatemp.net/attachments/king-arthur_slus-21046_20231020000752-png.400174/
+    thumb_url: https://gbatemp.net/data/attachments/399/399562-4299293d7334d109e498b186994a7b90.jpg?hash=QpkpPXM00Q
+    credit: teodor-max
+  videos:
+  - provider: youtube
+    id: SlALhIvnDxE
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TEODOR_MAX
+  credits: HD texture pack created by TEODOR_MAX; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/king-arthur-hd-texture-pack.641553/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

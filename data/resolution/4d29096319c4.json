@@ -1,0 +1,48 @@
+{
+  "source_url": "https://gbatemp.net/threads/wwe-smackdown-vs-raw-2011-hd-remastered-textures.646801/",
+  "listings": [
+    "l-3990468bca"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "WWE SmackDown vs Raw 2011 | HD Remastered Textures"
+  },
+  "videos": [
+    {
+      "id": "yaxTMWctQh4",
+      "uploader": "Moataz",
+      "links": [
+        {
+          "url": "https://ko-fi.com/moatazmoadi",
+          "host": "kofi",
+          "kind": "page",
+          "where": "video_pinned_comment",
+          "context": "ibe) its free🤗 https://gbatemp.net/threads/wwe-smackdown-vs-raw-2011-hd-remastered-textures.646801/ ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ouo.io/1CK1vA",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ution= 6 X nativeBlending Accuracy= basic My discord server to find guides ,etc https://discord.gg/J6Wnve3rYz download HD Pack"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-3990468bca",
+      "status": "gated",
+      "reason": "Creator used ouo.io link shortener for download.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

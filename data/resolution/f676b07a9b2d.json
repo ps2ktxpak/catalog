@@ -1,0 +1,57 @@
+{
+  "source_url": "https://gbatemp.net/threads/onimusha-3-demon-siege-hd-texture-pack.654352/",
+  "listings": [
+    "l-a3551725e5"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Onimusha 3: Demon Siege HD texture pack"
+  },
+  "videos": [
+    {
+      "id": "Q-lsUAKtauo",
+      "uploader": "TEODOR_MAX",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/14aS7WGa1acl9d_gutak-9BWLa7yS09_u/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "P folder located inside replacement folder). Spoiler: Gameplay video Download Link: Google drive | Mega | MediaFire Extract the the f"
+    },
+    {
+      "url": "https://mega.nz/file/F1thyBbZ#Ablijj19HcuwSQDu_gy9pcaBFKlIWu965We9gnf8x-s",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "inside replacement folder). Spoiler: Gameplay video Download Link: Google drive | Mega | MediaFire Extract the the files with 7-Zip,"
+    },
+    {
+      "url": "https://www.mediafire.com/file/kl4qv4rlc1jxotf/Onimusha_3_Demon_Siege_%2528USA%2529.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "replacement folder). Spoiler: Gameplay video Download Link: Google drive | Mega | MediaFire Extract the the files with 7-Zip, WinRAR"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-a3551725e5",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/14aS7WGa1acl9d_gutak-9BWLa7yS09_u/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided Google Drive link first in opening post's Download section.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

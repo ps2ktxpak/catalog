@@ -1,0 +1,78 @@
+key: slus-20624-tylermods
+catalog_id: tylermods-simpsons-hit-and-run-slus-20624-20260726
+name: 'The Simpsons: Hit & Run HD Texture Pack'
+game:
+  title: 'The Simpsons: Hit & Run'
+  serials:
+  - SLUS-20624
+credits:
+- creator: tylermods
+type: ai_upscale
+completeness: complete
+description: Detailed high-resolution replacement textures for the North American PS2 release, including an optional stylized grass treatment that can be removed per the author's instructions.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-simpsons-hit-run-hd-texture-pack-slus-20624.659120/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/slus-20624-jpg.450776/
+    thumb_url: https://gbatemp.net/data/attachments/450/450164-165377a187216d436664b180b3f90e4e.jpg?hash=FlN3oYchbU
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722634711455-png.450777/
+    thumb_url: https://gbatemp.net/data/attachments/450/450165-15810ebc94cc8920fad909f5749bfd45.jpg?hash=FYEOvJTMiS
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722634717476-png.450778/
+    thumb_url: https://gbatemp.net/data/attachments/450/450166-754f166a313c031ee71e120e66b962ab.jpg?hash=dU8WajE8Ax
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722634722574-png.450779/
+    thumb_url: https://gbatemp.net/data/attachments/450/450167-2f6fda88b3bae168e231ad3aef189952.jpg?hash=L2_aiLO64W
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722634728140-png.450780/
+    thumb_url: https://gbatemp.net/data/attachments/450/450168-5c9ea94a33f49207a87f67bcdf2bc3ef.jpg?hash=XJ6pSjP0kg
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722634733061-png.450781/
+    thumb_url: https://gbatemp.net/data/attachments/450/450169-7e788935f0928fdf7d51591a89d17594.jpg?hash=fniJNfCSj9
+    credit: tylermods
+  - source_url: https://gbatemp.net/attachments/1722634736350-png.450782/
+    thumb_url: https://gbatemp.net/data/attachments/450/450170-c4dbc0a645dd14147531f8e85a4d027d.jpg?hash=xNvApkXdFB
+    credit: tylermods
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - TylerMods
+  credits: HD texture pack created by TylerMods; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/the-simpsons-hit-run-hd-texture-pack-slus-20624.659120/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

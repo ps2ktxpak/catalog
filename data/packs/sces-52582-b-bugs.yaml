@@ -1,0 +1,51 @@
+key: sces-52582-b-bugs
+catalog_id: b-bugs-everybodys-golf-nethersx2-sces-52582-20260726
+name: Everybody's Golf HD Upscale - Nethersx2 Edition
+game:
+  title: Everybody's Golf
+  serials:
+  - SCES-52582
+credits:
+- creator: b-bugs
+type: ai_upscale
+completeness: in_progress
+description: Android-compatible PAL texture pack covering courses and seasonal variants, clubs, balls, characters, caddies, loading screens, menus and most UI; the spectator gallery and a small set of unlockable assets remain intentionally incomplete.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/everybodys-golf-hd-upscale-texture-pack-pcsx2-and-nethersx2-compatible.673080/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - B-Bugs
+  credits: Approximately 90%-complete HD upscale created by B-Bugs with Topaz Gigapixel AI from Nethersx2 texture dumps; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/everybodys-golf-hd-upscale-texture-pack-pcsx2-and-nethersx2-compatible.673080/
+  version: Public source snapshot (2026-07-26)
+  preview_urls:
+  - https://imgur.com/gallery/everybodys-golf-hd-upscale-textures-vs-original-AvirElu
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

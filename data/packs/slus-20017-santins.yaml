@@ -1,0 +1,88 @@
+key: slus-20017-santins
+catalog_id: santins-maximo-ghosts-to-glory-slus-20017-20260728
+name: 'Maximo: Ghosts to Glory Reimagined HD Remaster'
+game:
+  title: 'Maximo: Ghosts to Glory'
+  serials:
+  - SLUS-20017
+credits:
+- creator: santins
+type: ai_upscale
+completeness: complete
+description: The performance-oriented DDS edition of the North American Reimagined HD Remaster.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/maximo-ghosts-to-glory-usa-uhd-remaster-definitive.632594/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/maximo-ghosts-to-glory-reimagined-hd-remastered-v1.657861/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905235138-png.392230/
+    thumb_url: https://gbatemp.net/data/attachments/391/391618-73b53217f4932232be41dd1495abca55.jpg?hash=c7UyF_STIj
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234158-png.392231/
+    thumb_url: https://gbatemp.net/data/attachments/391/391619-bb7db6501d7cdfdd604691a2a979bf18.jpg?hash=u322UB1839
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234151-png.392232/
+    thumb_url: https://gbatemp.net/data/attachments/391/391620-c433dda5eb706ba1bac19b6621bcc6ff.jpg?hash=xDPdpetwa6
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234127-png.392233/
+    thumb_url: https://gbatemp.net/data/attachments/391/391621-b393867cebe9f7802e89c76e08e2f4ae.jpg?hash=s5OGfOvp94
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234109-png.392234/
+    thumb_url: https://gbatemp.net/data/attachments/391/391622-81a52bae28025136ca60c1e3f924b4a2.jpg?hash=gaUrrigCUT
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234058-png.392235/
+    thumb_url: https://gbatemp.net/data/attachments/391/391623-fd254fe2b2765f8bfb97f41e5c9c8bb6.jpg?hash=_SVP4rJ2X4
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234046-png.392236/
+    thumb_url: https://gbatemp.net/data/attachments/391/391624-be328330678f5e0e2ad7eb07f66dcdf1.jpg?hash=vjKDMGePXg
+    credit: santins
+  - source_url: https://gbatemp.net/attachments/maximo-ghosts-to-glory_slus-20017_20230905234033-png.392237/
+    thumb_url: https://gbatemp.net/data/attachments/391/391625-43a01853015b547836e122e1e2c98574.jpg?hash=Q6AYUwFbVH
+    credit: santins
+  videos:
+  - provider: youtube
+    id: FHgM9grQDdQ
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Santins
+  credits: Reimagined HD texture pack created by Santins; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/maximo-ghosts-to-glory-reimagined-hd-remastered-v1.657861/
+  version: v1 DDS release
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

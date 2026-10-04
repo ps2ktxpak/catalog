@@ -1,0 +1,54 @@
+key: slus-20811-bl4ckh4nd
+catalog_id: bl4ckh4nd-nfs-underground-slus-20811-20260722
+name: 'Need for Speed: Underground HD Texture Pack'
+game:
+  title: 'Need for Speed: Underground'
+  serials:
+  - SLUS-20811
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+description: High-resolution cars, tracks, world, effects and interface texture replacement pack for the North American PS2 release.
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Bl4ckH4nd
+  credits: HD texture pack created by Bl4ckH4nd; preserved from the Internet Archive collection and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

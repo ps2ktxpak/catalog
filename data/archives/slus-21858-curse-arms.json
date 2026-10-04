@@ -1,0 +1,24 @@
+{
+  "key": "slus-21858-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/curse-arms-tomb-raider-underworld-slus-21858-20260726.tar.zst",
+      "sha256": "ee6d4eb9d148210f078947699e11961dc3bdb4edc8806e8d90be37136c9670cc",
+      "size_bytes": 87433588,
+      "decompressed_size_bytes": 105574400,
+      "file_count": 594,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DCCD6C054FFFCCB764C8981EE00A92D8BE1D5B3C9554FEA9C6F3181D36F88AE4",
+        "size_bytes": 71657930
+      }
+    }
+  ]
+}

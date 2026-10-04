@@ -1,0 +1,58 @@
+{
+  "source_url": "https://gbatemp.net/threads/ncaa-06-football-and-madden-08-football-next-hd-remasters.624091/",
+  "listings": [
+    "l-17a9ba2d44",
+    "l-7937beee59"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "NCAA 06 Football and Madden 08 Football NEXT - HD Remasters"
+  },
+  "candidates": [
+    {
+      "url": "https://github.com/ncaanext",
+      "host": "github",
+      "kind": "page",
+      "where": "op",
+      "context": "made HD textures and modernization mods for both NCAA 06 and Madden 08 Football games. The downloads are on GitHub and linked on our website https://www.ncaan"
+    },
+    {
+      "url": "https://www.ncaanext.com",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "on mods for both NCAA 06 and Madden 08 Football games. The downloads are on GitHub and linked on our website https://www.ncaanext.com with instructions and how"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-17a9ba2d44",
+      "status": "resolved",
+      "base_url": "https://github.com/ncaanext",
+      "host": "github",
+      "kind": "page",
+      "confidence": "medium",
+      "reason": "The opening post says the downloads are on GitHub and gives this org page, which lists the NCAA 06 repos (ncaa-next-26, ncaa-next-25) and the texture downloader tool.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    },
+    {
+      "listing": "l-7937beee59",
+      "status": "resolved",
+      "base_url": "https://github.com/ncaanext",
+      "host": "github",
+      "kind": "page",
+      "confidence": "low",
+      "reason": "The opening post gives this GitHub org for both games' downloads, but the org's repo list shows only NCAA 06 projects and no Madden 08 repo was found.",
+      "decided_by": {
+        "method": "agent",
+        "model": "sonnet",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

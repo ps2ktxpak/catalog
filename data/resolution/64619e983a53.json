@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/guitar-hero-encore-hd-pack-texture.682383/",
+  "listings": [
+    "l-a432451010"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Guitar Hero Encore HD Pack Texture"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/e3hx2dft9fd5ghz/SLUS-21586.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "ore: Rocks the 80s Serial: SLUS-21586 (USA Version) Is my first pack texture, i hope everyone likes it LINK:https://www.mediafire.com/file/e3hx2dft9fd5ghz/SLU"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-a432451010",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/e3hx2dft9fd5ghz/SLUS-21586.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

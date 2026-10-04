@@ -1,0 +1,52 @@
+key: sles-51511-crasharki
+catalog_id: crasharki-crash-nitro-kart-4bb4bed6
+name: Crash Nitro Kart Texture Pack
+game:
+  title: Crash Nitro Kart
+  serials:
+  - SLUS-20649
+  - SLES-51511
+  - SLPM-65580
+credits:
+- creator: crasharki
+type: unknown
+completeness: complete
+description: Regional fonts, menus, character and track artwork, maps, prompts and other interface textures.
+sources:
+- kind: repository
+  url: https://github.com/CRASHARKI/cnk-tp
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - CRASHARKI
+  credits: Created and maintained by CRASHARKI.
+  license: See source repository terms
+  source_url: https://github.com/CRASHARKI/cnk-tp
+  version: 4bb4bed6
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

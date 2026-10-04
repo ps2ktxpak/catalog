@@ -1,0 +1,24 @@
+{
+  "key": "slus-21615-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-wild-arms-5-slus-21615-20260726.tar.zst",
+      "sha256": "3811ed90d342f8a21ffa62b4663d89bedc5b05831c95115e51dee3949e48c70c",
+      "size_bytes": 582367832,
+      "decompressed_size_bytes": 828149760,
+      "file_count": 4063,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E8C8B2B6FF6B16E0F7A2AE283F997DBAA962897FE51EC8E360560C048763B626",
+        "size_bytes": 528006145
+      }
+    }
+  ]
+}

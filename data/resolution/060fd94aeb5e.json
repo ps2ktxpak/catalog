@@ -1,0 +1,49 @@
+{
+  "source_url": "https://gbatemp.net/threads/okami-usa-hd-remaster-incomplete-50.645586/",
+  "listings": [
+    "l-e4529da585"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Okami (USA) HD Remaster | Incomplete (50%)"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/1j2rcncza6ihiri/SLUS-21115_Okami_v0.5_Beta.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "Advanced tab: Load Texture: ON | Precache Texture: OFF | Async Texture: ON 4. Have fun! Download (v0.5): https://www.mediafire.com/file/1j2rcncza6ihiri/SLU"
+    },
+    {
+      "url": "https://ko-fi.com/pandavenom",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "21115_Okami_v0.5_Beta.7z/file ----- Credits: Panda Venom| If you want to support me, please buy me a coffe! https://ko-fi.com/pandavenom Programs used: ChaiNN"
+    },
+    {
+      "url": "https://github.com/FransBouma/ShaderToggler",
+      "host": "github",
+      "kind": "page",
+      "where": "reply_by_other",
+      "context": "od strong dof . Use it is very easy. Install reshade with addon support. Download shadertoggler for reshade https://github.com/FransBouma/ShaderToggler and p"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e4529da585",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/1j2rcncza6ihiri/SLUS-21115_Okami_v0.5_Beta.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

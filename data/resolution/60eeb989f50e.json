@@ -1,0 +1,47 @@
+{
+  "source_url": "https://gbatemp.net/threads/dynasty-warriors-2-ntsc-hd-retexture.644987/",
+  "listings": [
+    "l-504da3be97"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Dynasty Warriors 2 NTSC HD Retexture"
+  },
+  "candidates": [
+    {
+      "url": "https://mega.nz/folder/NdNE2RIZ#8Mid02BdUwj0WhbIAMg6zA",
+      "host": "mega",
+      "kind": "folder",
+      "where": "op",
+      "context": "ale, and a retexture. A majority of the games maps have been changed visually. Download OUTSOURCED TEXTURES https://mega.nz/folder/NdNE2RIZ#8Mid02BdUwj0WhbIAM"
+    },
+    {
+      "url": "https://www.mediafire.com/file/v1vb8f295udgawx/SLUS-20079PURIST.7z/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": ". Download OUTSOURCED TEXTURES https://mega.nz/folder/NdNE2RIZ#8Mid02BdUwj0WhbIAMg6zA ORIGINAL TXTURES HD: https://www.mediafire.com/file/v1vb8f295udgawx/SLU"
+    },
+    {
+      "url": "https://mega.nz/file/IcUQED5D#q75sRPQ0SRl96z5zFK8c141ZoVZJuETP8vx-5_cpdxU",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "https://www.mediafire.com/file/v1vb8f295udgawx/SLUS-20079PURIST.7z/file Draw Distance Pnach by Michael Musou https://mega.nz/file/IcUQED5D#q75sRPQ0SRl96z5zFK8c"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-504da3be97",
+      "status": "ambiguous",
+      "confidence": "low",
+      "reason": "Creator provides both outsourced-textures folder and original-HD folder; unclear which is base pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

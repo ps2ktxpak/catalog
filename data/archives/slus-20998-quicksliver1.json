@@ -1,0 +1,24 @@
+{
+  "key": "slus-20998-quicksliver1",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/quicksliver1-dbz-budokai-3-slus-20998-20260722.tar.zst",
+      "sha256": "70a2b4b36409aeccba789e258e9c4aa7c80d8d0593bdad5a649286a808c4c2a5",
+      "size_bytes": 257584323,
+      "decompressed_size_bytes": 560762880,
+      "file_count": 5046,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F3EE61701B6916DE8522F8C92B66C44F3DEDA4C10C3657FD69479897AD48476C",
+        "size_bytes": 418862154
+      }
+    }
+  ]
+}

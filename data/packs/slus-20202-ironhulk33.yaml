@@ -1,0 +1,63 @@
+key: slus-20202-ironhulk33
+catalog_id: ironhulk33-crazy-taxi-slus-20202-20260726
+name: Crazy Taxi HD Texture Pack by ironhulk33
+game:
+  title: Crazy Taxi
+  serials:
+  - SLUS-20202
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+description: A complete North American HD texture replacement pack by ironhulk33, retained separately from other authors' Crazy Taxi packs.
+sources:
+- kind: mirror
+  url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/crazy-taxi-hd-pack-ps2.662150/
+  primary: false
+  note: the catalog's original link
+media:
+  videos:
+  - provider: youtube
+    id: xlrv6h4UxMk
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - ironhulk33
+  credits: Complete AI-upscaled texture pack created by ironhulk33; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/crazy-taxi-hd-pack-ps2.662150/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

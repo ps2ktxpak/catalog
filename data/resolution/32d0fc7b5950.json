@@ -1,0 +1,35 @@
+{
+  "source_url": "https://github.com/sheikproject/Dead-or-Alive-2-Hard-Core-HD-Remaster",
+  "listings": [
+    "l-56ca56b75f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "skipped_unsupported",
+    "note": "not a GBAtemp thread; the sheet's own link is the candidate"
+  },
+  "candidates": [
+    {
+      "url": "https://github.com/sheikproject/Dead-or-Alive-2-Hard-Core-HD-Remaster",
+      "host": "github",
+      "kind": "page",
+      "where": "op",
+      "context": ""
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-56ca56b75f",
+      "status": "resolved",
+      "base_url": "https://github.com/sheikproject/Dead-or-Alive-2-Hard-Core-HD-Remaster",
+      "host": "github",
+      "kind": "page",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

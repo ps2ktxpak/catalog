@@ -1,0 +1,24 @@
+{
+  "key": "slus-20932-psxrestore",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/psxrestore-mercenaries-remastered-v2-slus-20932-20260728.tar.zst",
+      "sha256": "9f77e8dd87ca2d6366dd93f3a60368f1d23247b3cd4a8982da52ebd365a78e27",
+      "size_bytes": 1290915305,
+      "decompressed_size_bytes": 1702113280,
+      "file_count": 9701,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "908658877239F0D0F47D5EDDD9029E0EE6D12353ADACE8758738618B6B3C2AEC",
+        "size_bytes": 2910431079
+      }
+    }
+  ]
+}

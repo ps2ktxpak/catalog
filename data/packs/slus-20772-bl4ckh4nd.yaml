@@ -1,0 +1,76 @@
+key: slus-20772-bl4ckh4nd
+catalog_id: bl4ckh4nd-ssx-3-slus-20772-20260728
+name: SSX 3 HD Texture Pack
+game:
+  title: SSX 3
+  serials:
+  - SLUS-20772
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+description: The North American SSX 3 HD remaster prepared for current PCSX2 builds.
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ssx-3-ps2-xbox-button-texture-replacement-pack-bl4ckh4nds-hd-remaster.660272/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/1725177451346-png.455671/
+    thumb_url: https://gbatemp.net/data/attachments/455/455059-04b76d0d51c4b710e9925f9918fa2c20.jpg?hash=BLdtDVHEtx
+    credit: bl4ckh4nd
+  - source_url: https://gbatemp.net/attachments/1725177616125-png.455672/
+    thumb_url: https://gbatemp.net/data/attachments/455/455060-2ed3ca3869046ea47b557fdf5bd7c9b9.jpg?hash=LtPKOGkEbq
+    credit: bl4ckh4nd
+  - source_url: https://gbatemp.net/attachments/1725177655107-png.455673/
+    thumb_url: https://gbatemp.net/data/attachments/455/455061-49cc964e124b3ecaa1f7abe7b1bd926f.jpg?hash=ScyWThJLPs
+    credit: bl4ckh4nd
+  - source_url: https://gbatemp.net/attachments/1725177673528-png.455674/
+    thumb_url: https://gbatemp.net/data/attachments/455/455062-7c2f8f705485e0ab26630bdc9ca55df4.jpg?hash=fC-PcFSF4K
+    credit: bl4ckh4nd
+  videos:
+  - provider: youtube
+    id: sPJKxtTXIQY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Bl4ckH4nd
+  credits: HD texture pack created by Bl4ckH4nd; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ssx-3-ps2-xbox-button-texture-replacement-pack-bl4ckh4nds-hd-remaster.660272/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

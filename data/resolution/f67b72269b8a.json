@@ -1,0 +1,60 @@
+{
+  "source_url": "https://gbatemp.net/threads/haunting-ground-hd-edition-1-3-complete-release.611542/",
+  "listings": [
+    "l-aa7214b602"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Haunting Ground HD Edition 1.3 (Complete Release)"
+  },
+  "videos": [
+    {
+      "id": "w0WETrmsE9I",
+      "uploader": "JuanchoTex HD",
+      "links": [
+        {
+          "url": "https://connectgameworld.blogspot.com/2021/10/traducao-portugues-para-haunting-ground.html",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": " upscaling -More improvements and duplicates retrieving -Added PT-BR language support   PATCH LINK: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://drive.google.com/file/d/1W4lYofZT-kdAko7uQ_9UE1NA_wGa1U_0/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_description",
+          "context": "tor issue) -All in one download link (no mess with folders) -Size reduction optimization  DOWNLOAD: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1W4lYofZT-kdAko7uQ_9UE1NA_wGa1U_0/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "-All in one download link (no mess with folders) -Size reduction optimization DOWNLOAD (join the h): h ttps://drive.google.com/file/d/1W4lYofZT-kdAko7uQ_9UE1NA_"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-aa7214b602",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1W4lYofZT-kdAko7uQ_9UE1NA_wGa1U_0/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided Google Drive link in opening post and confirmed in video description.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

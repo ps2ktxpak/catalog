@@ -1,0 +1,81 @@
+key: slus-20387-panda-venom
+catalog_id: panda-venom-suikoden-iii-slus-20387-20260728
+name: Suikoden III Texture Pack
+game:
+  title: Suikoden III
+  serials:
+  - SLUS-20387
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/suikoden-iii-usa-hd-remaster-widescreen-texture-pack.613568/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-18-pm-jpg.313234/
+    thumb_url: https://gbatemp.net/data/attachments/312/312622-f6a8c4ccd9ecea9b2a340abce155a215.jpg?hash=9qjEzNns6p
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-18-pm-001-jpg.313233/
+    thumb_url: https://gbatemp.net/data/attachments/312/312621-7fe05792a500cb1f9272583a70e4fe56.jpg?hash=f-BXkqUAyx
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-19-pm-jpg.313232/
+    thumb_url: https://gbatemp.net/data/attachments/312/312620-9ed17c8a931de02fa478d5cae2b043ad.jpg?hash=ntF8ipMd4C
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-21-pm-jpg.313231/
+    thumb_url: https://gbatemp.net/data/attachments/312/312619-c10bc3bc6bb4fcbbcd498bc776a97e23.jpg?hash=wQvDvGu0_L
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-21-pm-002-jpg.313230/
+    thumb_url: https://gbatemp.net/data/attachments/312/312618-018ebf51784ca256924a53ee3683588e.jpg?hash=AY6_UXhMol
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-22-pm-jpg.313229/
+    thumb_url: https://gbatemp.net/data/attachments/312/312617-2827adfcd16ecf325d980282fbef3389.jpg?hash=KCet_NFuzz
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-06-08-22-at-11-22-pm-001-jpg.313228/
+    thumb_url: https://gbatemp.net/data/attachments/312/312616-a2528ccecad04fb16cb61b5c5953019d.jpg?hash=olKMzsrQT7
+    credit: panda-venom
+  videos:
+  - provider: youtube
+    id: aG2Y3TU-pKY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD texture pack credited by the source to Panda_Venom; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/suikoden-iii-usa-hd-remaster-widescreen-texture-pack.613568/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

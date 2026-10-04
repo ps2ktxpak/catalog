@@ -1,0 +1,39 @@
+{
+  "source_url": "https://gbatemp.net/threads/bionicle-heroes-pcsx2-hd-texture.675440/",
+  "listings": [
+    "l-15ce60d3c7"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Bionicle Heroes pcsx2 hd texture"
+  },
+  "videos": [
+    {
+      "id": "tigdNBLb3bY",
+      "uploader": "Mvp899",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "KO-FI Dump: Andrit Games Serial: SLUS-21428 Crc: E"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-15ce60d3c7",
+      "status": "gated",
+      "reason": "Pack hosted on Ko-fi, requiring account access for downloads.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

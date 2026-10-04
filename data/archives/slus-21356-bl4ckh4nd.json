@@ -1,0 +1,24 @@
+{
+  "key": "slus-21356-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-tom-clancy-s-splinter-cell-double-agent-hd-remaster-community-archive-slus-21356-20260728.tar.zst",
+      "sha256": "a18a3df6df71f87bc3d86dd3b8388d6af7269cb13a28029859527bfcb91bd5c4",
+      "size_bytes": 520761017,
+      "decompressed_size_bytes": 687851520,
+      "file_count": 3178,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "78CD96BE30C2E531779B2A5178756F0060DC16DBB558E064E29782C70527D5F0",
+        "size_bytes": 1150415068
+      }
+    }
+  ]
+}

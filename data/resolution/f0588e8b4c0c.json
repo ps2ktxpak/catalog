@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/spartan-total-warrior-hd-textures.641317/",
+  "listings": [
+    "l-0d2e2ebce9"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Spartan Total Warrior HD Textures"
+  },
+  "candidates": [
+    {
+      "url": "https://dropbox.com/scl/fi/hbgjgd3t2uns15gw5e7i6/SLES-53393.rar?rlkey=w0sdqzcn94j17kofd72ynn36o&dl=0",
+      "host": "dropbox",
+      "kind": "file",
+      "where": "op",
+      "context": "r (Europe Version SLES-53393). Could partly work with US Versions too, but it will be bugged in some points. Download on Dropbox Have fun with it !"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-0d2e2ebce9",
+      "status": "resolved",
+      "base_url": "https://dropbox.com/scl/fi/hbgjgd3t2uns15gw5e7i6/SLES-53393.rar?rlkey=w0sdqzcn94j17kofd72ynn36o&dl=0",
+      "host": "dropbox",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

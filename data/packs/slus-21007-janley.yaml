@@ -1,0 +1,86 @@
+key: slus-21007-janley
+catalog_id: texture-pack-credited-to-janley-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-kuon-hd-remaster-community-archive-slus-21007-20260728
+name: Kuon HD Remaster - Community Archive Texture Pack
+game:
+  title: Kuon
+  serials:
+  - SLUS-21007
+credits:
+- creator: janley
+type: unknown
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kuon-hd-remaster-complete.624486/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-10-02-58-24-71-png.346828/
+    thumb_url: https://gbatemp.net/data/attachments/346/346216-8839d2c57c61d4a38e10efb0bdcbc3bb.jpg?hash=58jEPxd9Px
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-13-13-39-58-03-png.347245/
+    thumb_url: https://gbatemp.net/data/attachments/346/346633-955fc48759abcb4cb4cb4989198567a4.jpg?hash=2FRVVurK8g
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-13-13-39-46-27-png.347246/
+    thumb_url: https://gbatemp.net/data/attachments/346/346634-7ffddae533b0d1fab2aeb59231d3facc.jpg?hash=MObl1rLpr2
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-12-08-59-17-86-png.347091/
+    thumb_url: https://gbatemp.net/data/attachments/346/346479-658afe90e556c42740a49b50d125e943.jpg?hash=aleaf9XZtH
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-12-08-59-04-43-png.347092/
+    thumb_url: https://gbatemp.net/data/attachments/346/346480-dfa7c9790dae748e56a61d7037172503.jpg?hash=PNoUi4qSO-
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-12-09-00-23-94-png.347093/
+    thumb_url: https://gbatemp.net/data/attachments/346/346481-b16605d47a55c49b86e76df1300c9059.jpg?hash=xC1fYLO1Wy
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-12-09-00-12-44-png.347094/
+    thumb_url: https://gbatemp.net/data/attachments/346/346482-375bb84b83b657f2bb24f1223eab3928.jpg?hash=7Hh_jN9yYt
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2023-01-12-09-49-05-59-png.347103/
+    thumb_url: https://gbatemp.net/data/attachments/346/346491-06b27562c26c289438353c2cfd3f264f.jpg?hash=heJMD7HFXY
+    credit: janley
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Janley by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Janley by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

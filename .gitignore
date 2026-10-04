@@ -1,0 +1,19 @@
+# Downloaded evidence and live-file snapshots: reproducible, never committed.
+cache/
+# Compiled outputs: regenerate with `ps2ktxpak compile ...`.
+dist/
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Site
+site/node_modules/
+site/dist/
+site/.astro/
+
+# Never commit credentials. Publishing keys live in CI secrets, not in this tree.
+.env
+*.key

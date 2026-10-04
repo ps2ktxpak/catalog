@@ -1,0 +1,85 @@
+{
+  "source_url": "https://gbatemp.net/threads/mana-khemia-2-fall-of-alchemy-usa-hd-remastered.676591/",
+  "listings": [
+    "l-4439304f85"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mana Khemia 2: Fall of Alchemy (USA) HD Remastered"
+  },
+  "videos": [
+    {
+      "id": "D8XXsU6KfaQ",
+      "uploader": "Hitori",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://wiki.pcsx2.net/Mana_Khemia_2:_Fall_of_Alchemy",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Mana Khemia 2: Fall of Alchemy (USA) HD Remastered Compatible: USA Region Version: 1.0 PCSX2 wiki: https://wiki.pcsx2.net/Mana_Khemia_2:_Fall_of_Alch"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1yZlUuEKU7Y6Sf1xO4ZI-SnoT6XFIHnH-/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "ady optimized with pinga to reduce as much size as possible Download (Password to extract: Hitori): GDrive: ManaKhemia2_HD_Remastered_by_Hitori.rar Mediafire:"
+    },
+    {
+      "url": "https://www.mediafire.com/file/08h08ejgn039rva/ManaKhemia2_HD_Remastered_by_Hitori.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "possible Download (Password to extract: Hitori): GDrive: ManaKhemia2_HD_Remastered_by_Hitori.rar Mediafire: https://www.mediafire.com/file/08h08ejgn039rva/Man"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1gwV8EYJvbMbOq44qAfsZtd5wGUz1wC8I/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "tps://www.mediafire.com/file/08h08ejgn039rva/ManaKhemia2_HD_Remastered_by_Hitori.rar/file GDrive (AetherSX2): AetherSX2_ManaKhemia2_HD_Remastered_by_Hitori.rar"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1k0lh2g9szbGd1IjyJJ10qNtnaC-xPxkH/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "Remastered_by_Hitori.rar Optional add-on - Dialogue Portrait with symlink method (For Windows only): GDrive: MK2_Dialogue_Portrait_Symlink_Pack(Windows PC only"
+    },
+    {
+      "url": "https://www.mediafire.com/file/bxtqvdpbtgma65n/MK2_Dialogue_Portrait_Symlink_Pack%2528Windows_PC_only%2529.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "th symlink method (For Windows only): GDrive: MK2_Dialogue_Portrait_Symlink_Pack(Windows PC only) Mediafire: https://www.mediafire.com/file/bxtqvdpbtgma65n/MK2"
+    },
+    {
+      "url": "https://mediafire.com/file/bxtqvdpbtgma65n/MK2_Dialogue_Portrait_Symlink_Pack%28Windows_PC_only%29.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "th symlink method (For Windows only): GDrive: MK2_Dialogue_Portrait_Symlink_Pack(Windows PC only) Mediafire: https://www.mediafire.com/file/bxtqvdpbtgma65n/MK2"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-4439304f85",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1yZlUuEKU7Y6Sf1xO4ZI-SnoT6XFIHnH-/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator's primary download link in opening post; password-protected archive.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

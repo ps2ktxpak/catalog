@@ -1,0 +1,81 @@
+key: sles-50773-zazamastro
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-disney-s-pk-out-of-the-shadows-hd-remaster-community-archive-sles-50773-20260728
+name: Disney's PK Out of the Shadows HD Remaster - Community Archive Texture Pack
+game:
+  title: Disney's PK Out of the Shadows
+  serials:
+  - SLES-50773
+credits:
+- creator: zazamastro
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pk-out-of-the-shadows-texture-pack-4k.680443/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192113-png.563032/
+    thumb_url: https://gbatemp.net/data/attachments/562/562420-eed221c8b1ee77d7cdf0ba3cd8e30dc9.jpg?hash=sTmZte0pn3
+    credit: zazamastro
+  - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192057-png.563033/
+    thumb_url: https://gbatemp.net/data/attachments/562/562421-f076b79a475cb9b42b75f903a3734b7e.jpg?hash=GXcsMYR4WM
+    credit: zazamastro
+  - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192351-png.563028/
+    thumb_url: https://gbatemp.net/data/attachments/562/562416-50509a595c60283609f7a24a9f96d096.jpg?hash=J5Wxkz9AlV
+    credit: zazamastro
+  - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192401-png.563029/
+    thumb_url: https://gbatemp.net/data/attachments/562/562417-811cda7de555c458b7eb232766535745.jpg?hash=PsnG98wJmW
+    credit: zazamastro
+  - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192235-png.563031/
+    thumb_url: https://gbatemp.net/data/attachments/562/562419-4b978b7b51200e0b5c3d4c6e624aa6f1.jpg?hash=tg4083qrlD
+    credit: zazamastro
+  - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192252-png.563030/
+    thumb_url: https://gbatemp.net/data/attachments/562/562418-8e092eded13091c1a940c7d5196aed4b.jpg?hash=b_FU6IXkby
+    credit: zazamastro
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

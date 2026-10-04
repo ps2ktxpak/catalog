@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/evil-dead-regeneration-ps2-slus-21048-hd-texture-update.661606/",
+  "listings": [
+    "l-d0e70fb632"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "EVIL DEAD REGENERATION PS2 SLUS-21048 HD TEXTURE UPDATE"
+  },
+  "videos": [
+    {
+      "id": "Rpy4p9X43Ow",
+      "uploader": "el jefe",
+      "links": [
+        {
+          "url": "https://mega.nz/file/piVwGKjT#01HM8zrhtv8IgsTmxec6Yx7C5TfOJuOfByEprVYBRVY",
+          "host": "mega",
+          "kind": "file",
+          "where": "video_comment",
+          "context": "",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://mega.nz/file/piVwGKjT#01HM8zrhtv8IgsTmxec6Yx7C5TfOJuOfByEprVYBRVY",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "Spoiler: YOUTUBE link pc https://mega.nz/file/piVwGKjT#01HM8zrhtv8IgsTmxec6"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-d0e70fb632",
+      "status": "resolved",
+      "base_url": "https://mega.nz/file/piVwGKjT#01HM8zrhtv8IgsTmxec6Yx7C5TfOJuOfByEprVYBRVY",
+      "host": "mega",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

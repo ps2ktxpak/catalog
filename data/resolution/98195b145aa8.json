@@ -1,0 +1,43 @@
+{
+  "source_url": "https://gbatemp.net/threads/mortal-kombat-shaolin-monks-usa-hd-edition.655249/",
+  "listings": [
+    "l-52fb55372a"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Mortal Kombat: Shaolin Monks (USA) | HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/oydiw7ziobx939q/Mortal_Kombat_Shaolin_Monks_%2528SLUS-21087%2529.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "extures for other characters’ campaigns and further enhancements. Installation 1) Download the texture pack: https://www.mediafire.com/file/oydiw7ziobx939q/Mor"
+    },
+    {
+      "url": "https://mediafire.com/file/oydiw7ziobx939q/Mortal_Kombat_Shaolin_Monks_%28SLUS-21087%29.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "extures for other characters’ campaigns and further enhancements. Installation 1) Download the texture pack: https://www.mediafire.com/file/oydiw7ziobx939q/Mor"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-52fb55372a",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/oydiw7ziobx939q/Mortal_Kombat_Shaolin_Monks_%2528SLUS-21087%2529.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided MediaFire link in opening post as the main download for the texture pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

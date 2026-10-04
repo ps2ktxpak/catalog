@@ -1,0 +1,89 @@
+key: scus-97471-xxtherockoxx
+catalog_id: texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-genji-dawn-of-the-samurai-hd-remaster-community-archive-scus-97471-20260728
+name: Genji Dawn of the Samurai HD Remaster - Community Archive Texture Pack
+game:
+  title: Genji Dawn of the Samurai
+  serials:
+  - SCUS-97471
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/genji-dawn-of-the-samurai-hd.626433/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.354216/
+    thumb_url: https://gbatemp.net/data/attachments/353/353604-4d954c1514c0e97b4b698ca5d4e09408.jpg?hash=TZVMFRTA6X
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.354218/
+    thumb_url: https://gbatemp.net/data/attachments/353/353606-f6525c869768b5cd706cc683abd88933.jpg?hash=9lJchpdotc
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.354219/
+    thumb_url: https://gbatemp.net/data/attachments/353/353607-a8a67f8d1ec9df118225ab0d8da4d48e.jpg?hash=qKZ_jR7J3x
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/4343444-png.354222/
+    thumb_url: https://gbatemp.net/data/attachments/353/353610-4cf7f2cb1f4dbfb468aeaa4d8ca6c994.jpg?hash=TPfyyx9Nv7
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/23323223-png.354223/
+    thumb_url: https://gbatemp.net/data/attachments/353/353611-ee9b94af74648f948d7e662f61c99ec7.jpg?hash=7puUr3Rkj5
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/32332-png.354224/
+    thumb_url: https://gbatemp.net/data/attachments/353/353612-93aa6e7c1359dafb6773698b0c6a29b2.jpg?hash=ILFUhemHQ6
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/344555-png.354225/
+    thumb_url: https://gbatemp.net/data/attachments/353/353613-17c1b492f8cef9315b7048c8208384c3.jpg?hash=F8G0kvjO-T
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/4344-png.354226/
+    thumb_url: https://gbatemp.net/data/attachments/353/353614-2005c5486f1c2845624294d9ea3ab64b.jpg?hash=IAXFSG8cKE
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: tsIdzRBV4BU
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

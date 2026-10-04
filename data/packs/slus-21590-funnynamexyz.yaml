@@ -1,0 +1,73 @@
+key: slus-21590-funnynamexyz
+catalog_id: funnynamexyz-vice-city-stories-wip-slus-21590-20260726
+name: 'Grand Theft Auto: Vice City Stories AI HD Texture Pack — WIP'
+game:
+  title: 'Grand Theft Auto: Vice City Stories'
+  serials:
+  - SLUS-21590
+credits:
+- creator: funnynamexyz
+type: ai_upscale
+completeness: in_progress
+description: Upscaled loading screens and cleaned fonts for the SLUS-21590 North American PS2 release; the author notes that some interior textures are still missing.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-vice-city-stories-upscale-texture-pack-slus-21590.675624/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city-stories_slus-21590_20250926165402-png.529786/
+    thumb_url: https://gbatemp.net/data/attachments/529/529174-dd131ccb7c62c008a66f7e653257bee0.jpg?hash=q8v0_7G1j6
+    alt: before
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city-stories_slus-21590_20250926165711-png.529787/
+    thumb_url: https://gbatemp.net/data/attachments/529/529175-ff736792853fc1182b1405c7bf49aa95.jpg?hash=qPbt9YrwlD
+    alt: after
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city-stories_slus-21590_20250926170118-png.529790/
+    thumb_url: https://gbatemp.net/data/attachments/529/529178-0ac986afeccdaac1e0d271a82a999787.jpg?hash=Yu8MGoB1v-
+    alt: before
+    credit: funnynamexyz
+  - source_url: https://gbatemp.net/attachments/grand-theft-auto-vice-city-stories_slus-21590_20250926170254-png.529791/
+    thumb_url: https://gbatemp.net/data/attachments/529/529179-6535355db19eef7fc83113c714a3d878.jpg?hash=ty8Q-fW2Do
+    alt: after
+    credit: funnynamexyz
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - FunnyNameXYZ
+  credits: Work-in-progress Topaz Gigapixel AI texture pack created by FunnyNameXYZ; normalized to a texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/ps2-vice-city-stories-upscale-texture-pack-slus-21590.675624/
+  version: Work in progress (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

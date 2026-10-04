@@ -1,0 +1,121 @@
+import copy
+import json
+
+import pytest
+
+from ps2ktxpak import compile as C
+from ps2ktxpak import validate
+from ps2ktxpak.common import CACHE, load_yaml, write_json, write_jsonl, write_yaml
+
+CREATOR = {"id": "dev1", "name": "Dev One"}
+PACK = {"key": "slus-20000-dev1", "name": "A Pack", "game": {"title": "A Game", "serials": ["SLUS-20000"]},
+        "credits": [{"creator": "dev1"}], "hosting": {"state": "published"}}
+ARCHIVE = {"key": "slus-20000-dev1", "current": 1, "versions": [{
+    "revision": 1, "container": "tar+zstd", "object": "packs/x.tar.zst", "sha256": "a" * 64,
+    "size_bytes": 10, "decompressed_size_bytes": 20, "file_count": 3}]}
+LISTING = {"id": "l-aaaaaaaaaa", "source": {"name": "sad-origami-sheet", "tab": "PS2", "row": 3, "retrieved": "2026-10-03"},
+           "title": "A Game", "access": {"cost": "paid", "restriction_raw": "Paywall"}, "creators": ["dev1"]}
+MATCH = {"listing": "l-aaaaaaaaaa", "pack": "slus-20000-dev1", "method": "title", "confidence": "high"}
+
+
+@pytest.fixture
+def tree(tmp_path, monkeypatch):
+    for name, sub in (("CREATORS_DIR", "creators"), ("PACKS_DIR", "packs"), ("ARCHIVES_DIR", "archives"),
+                      ("RESOLUTION_DIR", "resolution")):
+        monkeypatch.setattr(validate, name, tmp_path / sub)
+    monkeypatch.setattr(validate, "LISTINGS_FILE", tmp_path / "listings.jsonl")
+    monkeypatch.setattr(validate, "MATCHES_FILE", tmp_path / "matches.jsonl")
+    monkeypatch.setattr(validate, "CORRECTIONS_FILE", tmp_path / "none.yaml")
+
+    class T:
+        root = tmp_path
+
+        def write(self, creator=CREATOR, pack=PACK, archive=ARCHIVE, listing=LISTING, match=MATCH):
+            write_yaml(tmp_path / "creators" / f"{creator['id']}.yaml", creator)
+            write_yaml(tmp_path / "packs" / f"{pack['key']}.yaml", pack)
+            if archive:
+                write_json(tmp_path / "archives" / f"{archive['key']}.json", archive)
+            write_jsonl(tmp_path / "listings.jsonl", [listing] if listing else [])
+            write_jsonl(tmp_path / "matches.jsonl", [match] if match else [])
+            return self
+    return T()
+
+
+def test_a_consistent_tree_passes_and_a_paid_hosted_pack_is_a_warning(tree, capsys):
+    tree.write()
+    assert validate.run() == 0
+    assert "WARNING paid_but_hosted: 1" in capsys.readouterr().out
+    assert validate.run(strict_policy=True) == 1
+
+
+def test_creator_permission_clears_the_policy_warning(tree, capsys):
+    p = copy.deepcopy(PACK)
+    p["permission"] = {"kind": "creator_approved"}
+    tree.write(pack=p)
+    assert validate.run(strict_policy=True) == 0
+
+
+def test_free_packs_are_fine(tree):
+    l = copy.deepcopy(LISTING)
+    l["access"] = {"cost": "free", "restriction_raw": "N/A"}
+    tree.write(listing=l)
+    assert validate.run(strict_policy=True) == 0
+
+
+@pytest.mark.parametrize("mutate,expect", [
+    (lambda p, a, c: p["credits"].__setitem__(0, {"creator": "nobody"}), "unknown creator"),
+    (lambda p, a, c: c["links"].update({"page": "http://insecure.example/"}) if "links" in c else c.update(links={"page": "http://insecure.example/"}), "links/page"),
+    (lambda p, a, c: p.update(hosting={"state": "sold"}), "hosting/state"),
+    (lambda p, a, c: a["versions"][0].update(sha256="short"), "sha256"),
+    (lambda p, a, c: p.update(surprise=1), "surprise"),
+])
+def test_bad_data_is_an_error(tree, capsys, mutate, expect):
+    p, a, c = copy.deepcopy(PACK), copy.deepcopy(ARCHIVE), copy.deepcopy(CREATOR)
+    mutate(p, a, c)
+    tree.write(creator=c, pack=p, archive=a)
+    assert validate.run() == 1
+    assert expect in capsys.readouterr().out
+
+
+def test_published_pack_without_an_archive_is_an_error(tree, capsys):
+    tree.write(archive=None)
+    assert validate.run() == 1
+    assert "no archive record" in capsys.readouterr().out
+
+
+def test_file_name_must_equal_the_key(tree, capsys):
+    tree.write()
+    (tree.root / "packs" / "slus-20000-dev1.yaml").rename(tree.root / "packs" / "other-name.yaml")
+    assert validate.run() == 1
+    assert "file name must equal key" in capsys.readouterr().out
+
+
+def test_effective_cost_prefers_the_packs_own_override():
+    assert validate.effective_cost({}, ["free", "paid"]) == "paid"
+    assert validate.effective_cost({}, ["free"]) == "free" and validate.effective_cost({}, []) == "unknown"
+    assert validate.effective_cost({"access": {"cost": "free"}}, ["paid"]) == "free"
+
+
+# ---- against the real data -----------------------------------------------------------------------
+
+LIVE = CACHE / "live" / "textures.json"
+
+
+@pytest.mark.skipif(not LIVE.exists(), reason="needs cache/live/textures.json (run import-legacy once)")
+def test_faithful_compile_reproduces_the_published_catalog_byte_for_byte():
+    assert C.dumps_catalog(C.catalog("faithful")) == LIVE.read_text(encoding="utf-8")
+
+
+def test_cleaned_compile_changes_only_credit_text_and_never_archive_facts():
+    faithful, cleaned = C.catalog("faithful")["entries"], C.catalog("cleaned")["entries"]
+    assert [e["id"] for e in faithful] == [e["id"] for e in cleaned]
+    keep = ("id", "name", "gameTitle", "serials", "downloadUrl", "format", "archiveRevision",
+            "decompressedSizeBytes", "sizeBytes", "sha256", "fileCount", "description", "previewUrls")
+    for a, b in zip(faithful, cleaned):
+        assert {k: a[k] for k in keep} == {k: b[k] for k in keep}
+        assert b["authors"] and all(x.strip() for x in b["authors"])   # older apps drop an entry with none
+        assert b["sourceUrl"].startswith("https://")
+
+
+def test_the_real_data_validates():
+    assert validate.run(quiet=True) == 0

@@ -1,0 +1,51 @@
+key: slus-21389-panda-venom
+catalog_id: panda-venom-xenosaga-episode-iii-20260722
+name: Xenosaga Episode III HD Remaster
+game:
+  title: 'Xenosaga Episode III: Also sprach Zarathustra'
+  serials:
+  - SLUS-21389
+  - SLUS-21417
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: in_progress
+description: High-resolution texture remaster shared by both North American game discs.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/xenosaga-trilogy-usa-hd-remaster.612395/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/xenosaga-trilogy-usa-hd-remaster.612395/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

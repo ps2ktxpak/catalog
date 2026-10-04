@@ -1,0 +1,24 @@
+{
+  "key": "slus-21005-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-kingdom-hearts-ii-hd-remaster-community-archive-slus-21005-20260728.tar.zst",
+      "sha256": "fca4f7d22e0665e4c4a242bcf5700e31f9769601c4118d8f3fab991d145db1ed",
+      "size_bytes": 3382027001,
+      "decompressed_size_bytes": 5157785600,
+      "file_count": 13811,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "63AAAD03ED54490EC040A08F8C890285A5742C3402AAD5EB135C1843EAC547E5",
+        "size_bytes": 2616800159
+      }
+    }
+  ]
+}

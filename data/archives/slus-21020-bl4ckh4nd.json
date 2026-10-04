@@ -1,0 +1,24 @@
+{
+  "key": "slus-21020-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-gungrave-overdose-slus-21020-20260728.tar.zst",
+      "sha256": "f6e21698571e2b4a48aae6d5097042ad973604095de599983f29d448be21dd93",
+      "size_bytes": 491295503,
+      "decompressed_size_bytes": 1359513600,
+      "file_count": 2178,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "F9EF0D7F8A228B5EDE2CC81D3F42E7F96294944A14F2A2300B234E6024CF9E1A",
+        "size_bytes": 1000098307
+      }
+    }
+  ]
+}

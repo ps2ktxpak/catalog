@@ -1,0 +1,86 @@
+key: slus-21390-xxtherockoxx
+catalog_id: texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-urban-chaos-riot-response-hd-remaster-community-archive-slus-21390-20260728
+name: Urban Chaos Riot Response HD Remaster - Community Archive Texture Pack
+game:
+  title: Urban Chaos Riot Response
+  serials:
+  - SLUS-21390
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/urban-chaos-riot-response-hd-textures.636694/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/urban-chaos-riot-response_slus-21390_20230723053243-png.384616/
+    thumb_url: https://gbatemp.net/data/attachments/384/384004-eda935d3be972b099429efc4d429dd44.jpg?hash=7ak1076XKw
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.485027/
+    thumb_url: https://gbatemp.net/data/attachments/484/484415-d83ebbfd6395cc6eff5cdc2383cef798.jpg?hash=2D67_WOVzG
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.485028/
+    thumb_url: https://gbatemp.net/data/attachments/484/484416-307ffc7d6000a1d840d6624a7306c866.jpg?hash=MH_8fWAAod
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.485029/
+    thumb_url: https://gbatemp.net/data/attachments/484/484417-5facbb0c58f39d32fdb23ab7ff831fd7.jpg?hash=X6y7DFjznT
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.485030/
+    thumb_url: https://gbatemp.net/data/attachments/484/484418-3a8f44e97d43d63ee0f804646165c512.jpg?hash=Oo9E6X1D1j
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_5-png.485031/
+    thumb_url: https://gbatemp.net/data/attachments/484/484419-c11adb0c03776c444660be711c170fc4.jpg?hash=wRrbDAN3bE
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_6-png.485032/
+    thumb_url: https://gbatemp.net/data/attachments/484/484420-5c0b8601e7f048dd780327fbc5c9178d.jpg?hash=XAuGAefwSN
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: bXDnD7L91AA
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

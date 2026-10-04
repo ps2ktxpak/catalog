@@ -1,0 +1,84 @@
+key: slus-20076-moataz
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-disney-s-tarzan-untamed-hd-remaster-community-archive-slus-20076-20260728
+name: Disney's Tarzan Untamed HD Remaster - Community Archive Texture Pack
+game:
+  title: Disney's Tarzan Untamed
+  serials:
+  - SLUS-20076
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/disneys-tarzan-untamed-hd-remastered-textures-slus-20076.645959/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/disneys-tarzan-untamed_slus-20076_20240109093831-min-png.412847/
+    thumb_url: https://gbatemp.net/data/attachments/412/412235-56614e47a043d993fe60c79df3eb8f94.jpg?hash=VmFOR6BD2Z
+    credit: moataz
+  - source_url: https://gbatemp.net/attachments/disneys-tarzan-untamed_slus-20076_20240109110927-png.412850/
+    thumb_url: https://gbatemp.net/data/attachments/412/412238-15be32f09988af4c964b70432e977ecc.jpg?hash=Fb4y8JmIr0
+    credit: moataz
+  - source_url: https://gbatemp.net/attachments/disneys-tarzan-untamed_slus-20076_20240109093838-png.412852/
+    thumb_url: https://gbatemp.net/data/attachments/412/412240-a0950e020a06db82d2e82a386dd101e0.jpg?hash=oJUOAgoG24
+    credit: moataz
+  - source_url: https://gbatemp.net/attachments/disneys-tarzan-untamed_slus-20076_20240109110951-png.412851/
+    thumb_url: https://gbatemp.net/data/attachments/412/412239-a600685700294278184b173115debf42.jpg?hash=pgBoVwApQn
+    credit: moataz
+  - source_url: https://gbatemp.net/attachments/disneys-tarzan-untamed_slus-20076_20240109110625-png.412848/
+    thumb_url: https://gbatemp.net/data/attachments/412/412236-287e6d543d3c7ad04551686f98fd4271.jpg?hash=KH5tVD08et
+    credit: moataz
+  - source_url: https://gbatemp.net/attachments/disneys-tarzan-untamed_slus-20076_20240109110712-png.412849/
+    thumb_url: https://gbatemp.net/data/attachments/412/412237-7cd23c4b060e0080dc5d19468ea453ad.jpg?hash=fNI8SwYOAI
+    credit: moataz
+  videos:
+  - provider: youtube
+    id: sJkyFDnytvU
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

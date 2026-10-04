@@ -1,0 +1,24 @@
+{
+  "key": "slus-21059-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-tekken-5-slus-21059-20260722.tar.zst",
+      "sha256": "6cab5f53013fc6cf4a8a46a77b7e594fd6cf36734bfaa60793a760246f4a057b",
+      "size_bytes": 195626477,
+      "decompressed_size_bytes": 250675200,
+      "file_count": 2020,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "C1B21659FD9A49CE08122D0C50CC06DB7793A0743B6E551E23CFE1243C6E611F",
+        "size_bytes": 413459794
+      }
+    }
+  ]
+}

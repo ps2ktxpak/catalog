@@ -1,0 +1,75 @@
+key: slpm-65428-sombertwilight
+catalog_id: sombertwilight-resident-evil-outbreak-slpm-65428-20260726
+name: 'Resident Evil: Outbreak HD Loveletter Texture Pack'
+game:
+  title: 'Resident Evil: Outbreak'
+  serials:
+  - SLPM-65428
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+description: A complete pack for the Japanese release with English-patch support, organized across scenarios and interface textures.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-outbreak-file-1-ntscj-english-patched-hd-loveletter.646013/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20241014211643-png.464806/
+    thumb_url: https://gbatemp.net/data/attachments/464/464194-e1b4cd527b8840f3f6e99a33636e77cf.jpg?hash=4bTNUnuIQP
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20240110032651-png.413080/
+    thumb_url: https://gbatemp.net/data/attachments/412/412468-6020999f8e775060085f1e8cd15bfbba.jpg?hash=YCCZn453UG
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20240110033945-png.413083/
+    thumb_url: https://gbatemp.net/data/attachments/412/412471-801a7c06f21efee1e5ce8d685dadc2cb.jpg?hash=gBp8BvIe_u
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20240109183703-png.413082/
+    thumb_url: https://gbatemp.net/data/attachments/412/412470-72ce4c729f9cdc8014a487da4f122e70.jpg?hash=cs5Mcp-c3I
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20240110032957-png.413084/
+    thumb_url: https://gbatemp.net/data/attachments/412/412472-98b3b5b0d4fec3f53bcf2953a0c7a727.jpg?hash=mLO1sNT-w_
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20240109193849-png.413085/
+    thumb_url: https://gbatemp.net/data/attachments/412/412473-4c1cc73163b8db5d0fde3ab5125a21c7.jpg?hash=TBzHMWO421
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: Complete texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/resident-evil-outbreak-file-1-ntscj-english-patched-hd-loveletter.646013/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

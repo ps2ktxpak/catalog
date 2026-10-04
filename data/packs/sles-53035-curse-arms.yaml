@@ -1,0 +1,75 @@
+key: sles-53035-curse-arms
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-masters-of-the-universe-he-man-defender-of-grayskull-hd-remaster-community-archive-sles-53035-20260728
+name: Masters of the Universe He-Man Defender of Grayskull HD Remaster - Community Archive Texture Pack
+game:
+  title: Masters of the Universe He-Man Defender of Grayskull
+  serials:
+  - SLES-53035
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/he-man-defender-of-grayskull-hd-textures.669315/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_18-png.496210/
+    thumb_url: https://gbatemp.net/data/attachments/495/495598-291bbd43bb5dee65b16e3d4e82454b2b.jpg?hash=KRu9Q7td7m
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_19-png.496211/
+    thumb_url: https://gbatemp.net/data/attachments/495/495599-88748de43ce12ef8c913278af41a0aa3.jpg?hash=iHSN5DzhLv
+    credit: curse-arms
+  - source_url: https://gbatemp.net/attachments/screenshot_f-png.496212/
+    thumb_url: https://gbatemp.net/data/attachments/495/495600-7619c6b1a555978c06b178fb73f15a96.jpg?hash=dhnGsaVVl4
+    credit: curse-arms
+  videos:
+  - provider: youtube
+    id: YDF0aT7b7Hs
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

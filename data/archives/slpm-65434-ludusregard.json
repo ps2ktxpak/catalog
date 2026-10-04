@@ -1,0 +1,24 @@
+{
+  "key": "slpm-65434-ludusregard",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/ludusregard-battle-gear-3-english-v1.tar.zst",
+      "sha256": "562ac6ec4c51dc1c752d8ea630639755da65772cac655a8857ee96ea635b8bbb",
+      "size_bytes": 619297,
+      "decompressed_size_bytes": 1925120,
+      "file_count": 364,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "283D4FE0F7CF03DA97563E3235DAB3EF5030F4D83F4CA503DA1D84A1C00CBE6C",
+        "size_bytes": 1455316
+      }
+    }
+  ]
+}

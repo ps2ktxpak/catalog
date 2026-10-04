@@ -1,0 +1,24 @@
+{
+  "key": "slus-21077-sombertwilight",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/sombertwilight-gauntlet-seven-sorrows-slus-21077-20260726.tar.zst",
+      "sha256": "237801c1eb25d3f9de8c247b95aa9fc2d9f967efa46984d23facf2471bb0fc36",
+      "size_bytes": 172550866,
+      "decompressed_size_bytes": 220938240,
+      "file_count": 1260,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "5C0D043A0B9FC963F544782D40996A10406C0C685D52F7E291C54946F0FBAE7D",
+        "size_bytes": 184054459
+      }
+    }
+  ]
+}

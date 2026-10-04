@@ -1,0 +1,24 @@
+{
+  "key": "slus-20066-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-half-life-slus-20066-20260728.tar.zst",
+      "sha256": "477a73f349c9852cb6e6ac5613dc4144621f48973fcbe3a0ff7450cf395a3dcf",
+      "size_bytes": 196523056,
+      "decompressed_size_bytes": 267847680,
+      "file_count": 3140,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "EEDEB4CB84CF632DEB68DC964CBBB6DAB4F9748592AB4EFCB5ABA7D112C5844B",
+        "size_bytes": 208090333
+      }
+    }
+  ]
+}

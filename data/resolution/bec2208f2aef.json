@@ -1,0 +1,51 @@
+{
+  "source_url": "https://gbatemp.net/threads/midnight-club-street-racing-pcsx2-hd-texture.668214/",
+  "listings": [
+    "l-9fb450c4d3"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Midnight Club Street Racing Pcsx2 HD Texture"
+  },
+  "videos": [
+    {
+      "id": "WtJx-6ft0SE",
+      "uploader": "Mvp899",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/12263q2NKBPq54WgfM1h_le39dZDuflEq/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_pinned_comment",
+          "context": "PACK:",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Midnight Club Street Racing Ko-Fi SERIAL: SLUS-20063 CRC: DFD26C76 SIZE: 152mb"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-9fb450c4d3",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/12263q2NKBPq54WgfM1h_le39dZDuflEq/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in video pinned comment; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

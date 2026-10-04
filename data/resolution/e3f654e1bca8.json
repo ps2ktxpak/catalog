@@ -1,0 +1,32 @@
+{
+  "source_url": "https://gbatemp.net/threads/prince-of-persia-the-sands-of-time-texture-remaster-hd-pack-sles-51918.668868/",
+  "listings": [
+    "l-c97bff17ab"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "prince of persia - the sands of time - Texture Remaster HD Pack (SLES-51918)"
+  },
+  "videos": [
+    {
+      "id": "ld0smSD-N8Y",
+      "uploader": "TexMaster™",
+      "links": []
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-c97bff17ab",
+      "status": "not_found",
+      "confidence": "high",
+      "reason": "Opening post contains no download link; evidence has no accessible candidate links.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

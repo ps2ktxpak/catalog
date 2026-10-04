@@ -1,0 +1,50 @@
+key: slus-21215-eternights
+catalog_id: eternights-the-warriors-release
+name: The Warriors Xbox Texture Pack
+game:
+  title: The Warriors
+  serials:
+  - SLUS-21215
+credits:
+- creator: eternights
+type: unknown
+completeness: unknown
+description: Large Xbox-derived texture replacement pack for the North American PS2 release.
+sources:
+- kind: repository
+  url: https://github.com/eternights/XboxTexturePack.TheWarriors
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - eternights
+  credits: Created and published by eternights using Xbox-version texture assets.
+  license: See source repository terms
+  source_url: https://github.com/eternights/XboxTexturePack.TheWarriors
+  version: release
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

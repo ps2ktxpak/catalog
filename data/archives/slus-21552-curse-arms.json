@@ -1,0 +1,24 @@
+{
+  "key": "slus-21552-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-spider-man-3-hd-remaster-community-archive-slus-21552-20260728.tar.zst",
+      "sha256": "d9df1d328f5c0d091c8d2152e06dd3f6e0be13f9a4e657aa12fda8683ba7e572",
+      "size_bytes": 440826075,
+      "decompressed_size_bytes": 644106240,
+      "file_count": 2735,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "1C917317A50F34F8AAD4627D8C3C35DC310E7E0084E1A88AF8D08818A924DF43",
+        "size_bytes": 1539867568
+      }
+    }
+  ]
+}

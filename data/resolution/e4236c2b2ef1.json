@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/armored-core-silent-line-hd-texture-slus-20644.667686/",
+  "listings": [
+    "l-6fad7fd8c1"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Armored Core Silent Line HD texture Pack [SLUS-20644]"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1nXWP41njunYYw3dXaTgyJuHZmVJQrzdl/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "e money to buy the plus. XD I accept tips for improvement I do everything manually I hope you enjoy it ​"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-6fad7fd8c1",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1nXWP41njunYYw3dXaTgyJuHZmVJQrzdl/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

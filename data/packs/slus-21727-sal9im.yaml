@@ -1,0 +1,86 @@
+key: slus-21727-sal9im
+catalog_id: sal9im-naruto-ultimate-ninja-3-slus-21727-20260728
+name: 'Naruto: Ultimate Ninja 3 Texture Pack'
+game:
+  title: 'Naruto: Ultimate Ninja 3'
+  serials:
+  - SLUS-21727
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/naruto-ultimate-ninja-3-slus-21727-hd-texture-pack.660665/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/01-png.457141/
+    thumb_url: https://gbatemp.net/data/attachments/456/456529-2296a4be0d06c200a2384ab3df77abf4.jpg?hash=Ipakvg0Gwg
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-png.457142/
+    thumb_url: https://gbatemp.net/data/attachments/456/456530-a88e7df7d54ce1ef3809299376493333.jpg?hash=M4a-Cp3Uwz
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-png.457143/
+    thumb_url: https://gbatemp.net/data/attachments/456/456531-94206b61d464abbe79fdd1ebe77a9244.jpg?hash=htIYR9bhu4
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/07-png.457155/
+    thumb_url: https://gbatemp.net/data/attachments/456/456543-4779c3918c710de2622c8e559dda8a55.jpg?hash=O5x9JL0jW6
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-png.457156/
+    thumb_url: https://gbatemp.net/data/attachments/456/456544-fb083154c6612ea2e1ff70ffdcac146e.jpg?hash=LsqvYlHNnr
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-before-png.457144/
+    thumb_url: https://gbatemp.net/data/attachments/456/456532-3441ba6989bed2193fc8307957925152.jpg?hash=s4GCSQ7ESs
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-after-png.457145/
+    thumb_url: https://gbatemp.net/data/attachments/456/456533-e7d2e5f0a6742b826a8c7f7bb730bb6b.jpg?hash=BG92HoPoDE
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-before-png.457150/
+    thumb_url: https://gbatemp.net/data/attachments/456/456538-c536377ee63c61fd7c2454ba7db2cb48.jpg?hash=WwZhwvY7VU
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: aigWvDg57VA
+  - provider: youtube
+    id: LK40LQxtkp8
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Sal9im
+  credits: HD texture pack credited by the source to Sal9im; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/naruto-ultimate-ninja-3-slus-21727-hd-texture-pack.660665/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

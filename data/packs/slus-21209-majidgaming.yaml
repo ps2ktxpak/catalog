@@ -1,0 +1,63 @@
+key: slus-21209-majidgaming
+catalog_id: majidgaming-urban-reign-slus-21209-20260727
+name: Urban Reign Enhanced HD Texture Pack
+game:
+  title: Urban Reign
+  serials:
+  - SLUS-21209
+credits:
+- creator: majidgaming
+type: ai_upscale
+completeness: unknown
+description: Version 1.7 of the enhanced North American HD replacement pack, published for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/urban-reign-enhanced-hd-textures-pack.665094/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/urban-reign-enhanced-hd-textures-pack-updated.665094/
+  primary: false
+  note: the catalog's original link
+media:
+  videos:
+  - provider: youtube
+    id: kZDYt-pc8pE
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - MajidGaming
+  credits: Enhanced HD texture pack created and maintained by MajidGaming; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/urban-reign-enhanced-hd-textures-pack-updated.665094/
+  version: v1.7
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

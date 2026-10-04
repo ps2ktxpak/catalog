@@ -1,0 +1,24 @@
+{
+  "key": "slus-21047-c0meg3ts0me",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-c0meg3ts0me-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-cold-fear-hd-remaster-community-archive-slus-21047-20260728.tar.zst",
+      "sha256": "0d97de99d5d259990c07736413bade13556f063bc44ad17b9d9e5c942c5feda8",
+      "size_bytes": 757482441,
+      "decompressed_size_bytes": 905195520,
+      "file_count": 3062,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "36237698E71E29372EC439F14ABEBA3BA707493820E2A7A6D3C9B281686F822F",
+        "size_bytes": 1585554548
+      }
+    }
+  ]
+}

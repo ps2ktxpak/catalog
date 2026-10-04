@@ -1,0 +1,75 @@
+key: slus-20706-xxtherockoxx
+catalog_id: xxtherockoxx-kill-switch-slus-20706-20260726
+name: Kill Switch HD Texture Pack
+game:
+  title: Kill Switch
+  serials:
+  - SLUS-20706
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: DDS replacement textures created for the North American PS2 release of Kill Switch.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kill-switch-hd-textures.636744/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/kill-switch_slus-20706_20230724031014-png.384785/
+    thumb_url: https://gbatemp.net/data/attachments/384/384173-e962432dd994a903c25bfede3c7e5701.jpg?hash=6WJDLdmUqQ
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/kill-switch_slus-20706_20230724030718-png.384786/
+    thumb_url: https://gbatemp.net/data/attachments/384/384174-12c38017bff03f76f07681c8bfce219c.jpg?hash=EsOAF7_wP3
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/kill-switch_slus-20706_20230724023714-png.384787/
+    thumb_url: https://gbatemp.net/data/attachments/384/384175-8c14663a4589fd616a3cd42096d31f63.jpg?hash=jBRmOkWJ_W
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/kill-switch_slus-20706_20230724031952-png.384788/
+    thumb_url: https://gbatemp.net/data/attachments/384/384176-4cf717c356a9bf4c6639e0c31a2bf723.jpg?hash=TPcXw1apv0
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/kill-switch_slus-20706_20230724025343-png.384789/
+    thumb_url: https://gbatemp.net/data/attachments/384/384177-d2331702dae6c35b9d89b3a969961f22.jpg?hash=0jMXAtrmw1
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/kill-switch_slus-20706_20230724025509-png.384790/
+    thumb_url: https://gbatemp.net/data/attachments/384/384178-7bf89b2f0af5e27b05c4546c18cdc143.jpg?hash=e_ibLwr14n
+    credit: xxtherockoxx
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/kill-switch-hd-textures.636744/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

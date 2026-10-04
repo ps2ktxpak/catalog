@@ -1,0 +1,24 @@
+{
+  "key": "slus-20595-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-area-51-hd-remaster-community-archive-slus-20595-20260728.tar.zst",
+      "sha256": "4fe8294a40de2f1436fa270b7327777070405186e09936e8a76b4905568aa706",
+      "size_bytes": 210062238,
+      "decompressed_size_bytes": 297615360,
+      "file_count": 1389,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "68787AACF6621E08D61636A5DD98777F726B8EBEBE34AE49B275676E5621E1C9",
+        "size_bytes": 602147877
+      }
+    }
+  ]
+}

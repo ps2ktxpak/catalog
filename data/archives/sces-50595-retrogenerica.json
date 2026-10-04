@@ -1,0 +1,24 @@
+{
+  "key": "sces-50595-retrogenerica",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/retrogenerica-monsters-inc-scare-island-sces-50595-20260726.tar.zst",
+      "sha256": "54f59f569e60baf64ed1b204b68873b27e221fc62fd86678ecb982da10bedc60",
+      "size_bytes": 170927943,
+      "decompressed_size_bytes": 257187840,
+      "file_count": 1489,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "BCD15DA187B4134226ECFCF866B14294DDC3A0C07988DFF42EA1F90B6598CA8F",
+        "size_bytes": 338018981
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+key: slus-20712-xxtherockoxx
+catalog_id: xxtherockoxx-gradius-v-slus-20712-20260726
+name: Gradius V HD Texture Pack
+game:
+  title: Gradius V
+  serials:
+  - SLUS-20712
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: DDS replacement textures created for the North American PS2 release of Gradius V.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gradius-v-hd-textures.636547/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/gradius-v_slus-20712_20230720081552-png.384189/
+    thumb_url: https://gbatemp.net/data/attachments/383/383577-58e76b313b58c0471f2503f139a41d06.jpg?hash=WOdrMTtYwE
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/gradius-v_slus-20712_20230720074632-png.384196/
+    thumb_url: https://gbatemp.net/data/attachments/383/383584-7bd68f32f521aca53f7558f6706b129a.jpg?hash=e9aPMvUhrK
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/gradius-v_slus-20712_20230720081015-png.384192/
+    thumb_url: https://gbatemp.net/data/attachments/383/383580-d923265dc22db8bb470b09f140a78746.jpg?hash=2SMmXcItuL
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/gradius-v_slus-20712_20230720081254-png.384193/
+    thumb_url: https://gbatemp.net/data/attachments/383/383581-c84b31683219c117aec43b1852a6a0fc.jpg?hash=yEsxaDIZwR
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/gradius-v_slus-20712_20230720080142-png.384194/
+    thumb_url: https://gbatemp.net/data/attachments/383/383582-f11f634485fe6d27a0774d054ef619f3.jpg?hash=8R9jRIX-bS
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/gradius-v_slus-20712_20230720080544-png.384195/
+    thumb_url: https://gbatemp.net/data/attachments/383/383583-b03823ce9dadafd1474b06a86fc1a2d4.jpg?hash=sDgjzp2tr9
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: R-CSzyHxMFY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/gradius-v-hd-textures.636547/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

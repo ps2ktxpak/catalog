@@ -1,0 +1,24 @@
+{
+  "key": "slus-20831-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-tokyo-xtreme-racer-3-slus-20831-20260728.tar.zst",
+      "sha256": "4463392d415aa4b8fd85ef026a39739a9116f444f41aefcc6205cd0691eae586",
+      "size_bytes": 687148917,
+      "decompressed_size_bytes": 1152798720,
+      "file_count": 9005,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "003E9D212A31C947B921ED461489714C7431AB790BFBC45201FC1403EF54E57A",
+        "size_bytes": 3075478409
+      }
+    }
+  ]
+}

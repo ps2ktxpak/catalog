@@ -1,0 +1,30 @@
+{
+  "source_url": "https://gbatemp.net/threads/ps2-xiii-ntsc-u-slus-20677.664279/",
+  "listings": [
+    "l-5cc9db7c12"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "[PS2] XIII [NTSC-U] [SLUS-20677]"
+  },
+  "videos": [
+    {
+      "id": "XflZwlU65Ek",
+      "links": []
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-5cc9db7c12",
+      "status": "not_found",
+      "reason": "Opening post references download link in video, but no link found in evidence.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

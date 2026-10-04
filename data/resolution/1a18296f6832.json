@@ -1,0 +1,49 @@
+{
+  "source_url": "https://gbatemp.net/threads/asterix-at-the-olympic-games-pal-m-uhd-remaster.638699/",
+  "listings": [
+    "l-59a9a3749b"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Asterix at the Olympic Games (PAL-M) | UHD Remaster"
+  },
+  "videos": [
+    {
+      "id": "LhpZc4vFz_4",
+      "uploader": "Santins_",
+      "links": []
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://pcsx2.net/downloads/",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "Texture Pack create by me for PCSX2 Emulator. - I recommend the latest version of the emulator. https://pcsx2.net/downloads TEXTURES % : The enti"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1CJH_CL9GBvkjh6Er2XJsEjcYBxv6zKr5/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "csx2.net/downloads TEXTURES % : The entire game is remastered! THANKS VENOMALIA FOR HDCUBE MODEL! DOWNLOAD: SOME IMAGES: VIDEO SHOWCASE:"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-59a9a3749b",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1CJH_CL9GBvkjh6Er2XJsEjcYBxv6zKr5/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/serious-sam-next-encounter-usa-hd-textures.638281/",
+  "listings": [
+    "l-60260f1da5"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Serious Sam: Next Encounter (USA) HD Textures"
+  },
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/obts7lo5lublmim/SLUS-20907.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "er and replace. Region Versions: Rename SLUS-20907 to EU: SLES-52450 Models Used: 4xHDCube4-Plus Download: https://www.mediafire.com/file/obts7lo5lublmim/SLU"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-60260f1da5",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/obts7lo5lublmim/SLUS-20907.zip/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+key: slus-21067-retrogenerica
+catalog_id: retrogenerica-digimon-rumble-arena-2-slus-21067-20260726
+name: Digimon Rumble Arena 2 HD Texture Pack
+game:
+  title: Digimon Rumble Arena 2
+  serials:
+  - SLUS-21067
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+description: Complete HD fighter, arena, effects and interface texture replacements for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/digimon-rumble-arena-2-ps2-hd-remaster-xbox-button-texture-pack-100-complete.625734/
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/625734/
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/1675648797897-png.351437/
+    thumb_url: https://gbatemp.net/data/attachments/350/350825-868de253aef2313301b2b92584e2a9f6.jpg?hash=ho3iU67yMT
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1675649075469-png.351438/
+    thumb_url: https://gbatemp.net/data/attachments/350/350826-27eb1e42284f89d632cf08ded6b896d9.jpg?hash=J-seQihPid
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1675649168618-png.351439/
+    thumb_url: https://gbatemp.net/data/attachments/350/350827-3e85ab46bbbf73e86a6d3d44837e3beb.jpg?hash=PoWrRru_c-
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1675649325946-png.351440/
+    thumb_url: https://gbatemp.net/data/attachments/350/350828-072ea5375439cc61ea5cfdab467e6afb.jpg?hash=By6lN1Q5zG
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/1724589142821-jpeg.454544/
+    thumb_url: https://gbatemp.net/data/attachments/453/453932-951679bf8f58ab8e7d4724942288f754.jpg?hash=lRZ5v49Yq4
+    credit: retrogenerica
+  - source_url: https://gbatemp.net/attachments/screenshot-2024-08-30-152635-png.455386/
+    thumb_url: https://gbatemp.net/data/attachments/454/454774-522213caf2be9719db0e7ccc971c9ef9.jpg?hash=UiITyvK-lx
+    credit: retrogenerica
+  videos:
+  - provider: youtube
+    id: EQz7ZmlAUxg
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - RetroGenerica
+  credits: HD texture pack created by RetroGenerica (formerly DerekGeneric831); normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/625734/
+  version: 2024 update (mirrored 2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,36 @@
+# Facts a person fixed by hand after an import. `ps2ktxpak` applies these after every import and
+# locks the fields, so a later import cannot undo them. Reasons are public: state the fact.
+# Carried over from the corrections in jpolo1224's texture-pack-links.py (2026-10-02).
+
+- target: creator:bl4ckh4nd
+  set:
+    links.tip:
+      - kind: patreon
+        url: https://www.patreon.com/Bl4ckH4nd
+  reason: The Ko-fi page the sheet links to no longer exists; he takes support on Patreon.
+  date: '2026-10-02'
+  by: jpolo1224
+
+- target: creator:ironhulk33
+  set:
+    links.socials:
+      - kind: youtube
+        url: https://www.youtube.com/channel/UC_00zPyx8PXENf7OSqZRw_g
+  reason: The sheet's @ironhulk33 YouTube link is dead; this is his channel.
+  date: '2026-10-02'
+  by: jpolo1224
+
+- target: creator:ironhulk33
+  set:
+    links.distribution: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+  reason: The creator asked us to send people to his public MediaFire folder (PS2 subfolder) rather than to a mirror or thread.
+  date: '2026-10-02'
+  by: jpolo1224
+
+- target: creator:curse-arms
+  set:
+    aliases:
+      - IceBullet
+  reason: Their Ko-fi and YouTube pages are both named "icebullet", so the catalog's "IceBullet" is the same person.
+  date: '2026-10-02'
+  by: jpolo1224

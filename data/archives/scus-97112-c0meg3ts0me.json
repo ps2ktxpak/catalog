@@ -1,0 +1,24 @@
+{
+  "key": "scus-97112-c0meg3ts0me",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-c0meg3ts0me-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-extermination-hd-remaster-community-archive-scus-97112-20260728.tar.zst",
+      "sha256": "e98cacedb23b696ec3e75093aad85830571daafb3f62318a31dcaa60a0d4ff2a",
+      "size_bytes": 327212350,
+      "decompressed_size_bytes": 430704640,
+      "file_count": 5165,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "A9796397E691E51D94DF1D9DFF165E913D5CD3E776EB222ED4D291807DB46989",
+        "size_bytes": 649131475
+      }
+    }
+  ]
+}

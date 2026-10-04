@@ -1,0 +1,24 @@
+{
+  "key": "slus-21134-xxtherockoxx",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-resident-evil-4-hd-remaster-community-archive-slus-21134-20260728.tar.zst",
+      "sha256": "548719af479eb5b9966eaf3af0db2c6b5872d06e80670994606145dfebea3e19",
+      "size_bytes": 4021814083,
+      "decompressed_size_bytes": 4888197120,
+      "file_count": 7247,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "FFA6A8BEEC402F5B75F9DFAC6EC2DDFCCD6528077251E34F2496DC0228214273",
+        "size_bytes": 4924999042
+      }
+    }
+  ]
+}

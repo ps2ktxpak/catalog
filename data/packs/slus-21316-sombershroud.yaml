@@ -1,0 +1,69 @@
+key: slus-21316-sombershroud
+catalog_id: sombershroud-capcom-classics-collection-vol-1-slus-21316-20260728
+name: Capcom Classics Collection Vol. 1 Texture Pack
+game:
+  title: Capcom Classics Collection Vol. 1
+  serials:
+  - SLUS-21316
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: incomplete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/capcom-classics-collection-vol-1-2-usa-hd-textures-menu-only.645343/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/capcom-classics-collection-vol-1_slus-21316_20231230012345-png.410916/
+    thumb_url: https://gbatemp.net/data/attachments/410/410304-66dd6e16ff34927fb9423515ed385fce.jpg?hash=Zt1uFv80kn
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/capcom-classics-collection-vol-1_slus-21316_20231230012407-png.410917/
+    thumb_url: https://gbatemp.net/data/attachments/410/410305-28899754b46d67ca518d8220730c2d7b.jpg?hash=KImXVLRtZ8
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/capcom-classics-collection-vol-1_slus-21316_20231230012441-png.410918/
+    thumb_url: https://gbatemp.net/data/attachments/410/410306-931e9401673b99900d0bf8585d5255ca.jpg?hash=kx6UAWc7mZ
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/capcom-classics-collection-vol-1_slus-21316_20231230012505-png.410919/
+    thumb_url: https://gbatemp.net/data/attachments/410/410307-fb932e8bd1f0ce4e585c525e49a27c54.jpg?hash=-5Mui9Hwzk
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack credited by the source to SomberShroud; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/capcom-classics-collection-vol-1-2-usa-hd-textures-menu-only.645343/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

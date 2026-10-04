@@ -1,0 +1,33 @@
+{
+  "source_url": "https://gbatemp.net/threads/king-kong-peter-jacksons-the-official-game-of-the-movie-hd-texture.659104/",
+  "listings": [
+    "l-5201064a4e"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "King Kong, Peter Jackson&#039;s The Official Game of the Movie HD TEXTURE"
+  },
+  "candidates": [
+    {
+      "url": "https://www.4shared.com/s/fJh4s03ZPjq",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "ng Kong, Peter Jackson's The Official Game of the Movie Serial: SLUS-21311 CRC: 2B1CC3FF Status: 100% PAYPAL DOWNLOAD"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-5201064a4e",
+      "status": "gated",
+      "confidence": "high",
+      "reason": "Creator indicates account required: 'You must have an account to download it.'",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

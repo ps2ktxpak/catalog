@@ -1,0 +1,57 @@
+{
+  "source_url": "https://gbatemp.net/threads/spyro-enter-the-dragonfly-remastered-ps2-texture-4k-pack-slus-20315-usa.677181/",
+  "listings": [
+    "l-46cd47f123"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Spyro Enter the Dragonfly Remastered PS2 texture 4K-Pack{SLUS-20315}USA"
+  },
+  "videos": [
+    {
+      "id": "FoWU3usWQFI",
+      "uploader": "Ahmed - Gamers",
+      "links": []
+    },
+    {
+      "id": "uqQ_pt8HU7Q",
+      "uploader": "Mr. FO1",
+      "links": [
+        {
+          "url": "https://drive.google.com/file/d/1fwOp6oha3F5maASJ0Yo-1E6wnjt6sO-b/view?usp=sharing",
+          "host": "gdrive",
+          "kind": "file",
+          "where": "video_description",
+          "context": "ise cut music from the game. Are you skillful enough to track down the new Skill Points?  Download: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.mediafire.com/file/0ph2lnjku2jqctm/SLUS-20315.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "where": "op",
+      "context": "and characters Extract the folder to the pcsx2\\textures\\SLUS-20315\\replacements Direct download 6.29.GB https://www.mediafire.com/file/0ph2lnjku2jqctm/SLU"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-46cd47f123",
+      "status": "resolved",
+      "base_url": "https://www.mediafire.com/file/0ph2lnjku2jqctm/SLUS-20315.rar/file",
+      "host": "mediafire",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator's opening post labels this as direct download for 6.29 GB texture pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

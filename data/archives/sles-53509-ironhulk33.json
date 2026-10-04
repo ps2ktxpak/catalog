@@ -1,0 +1,24 @@
+{
+  "key": "sles-53509-ironhulk33",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/ironhulk33-hello-kitty-roller-rescue-sles-53509-20260728.tar.zst",
+      "sha256": "8a557c2e366a6c69d14d630fe8896cefca0e5b197fbe8aabd98d527f7ea898b5",
+      "size_bytes": 206667440,
+      "decompressed_size_bytes": 348057600,
+      "file_count": 2118,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "DACB33B7FBFCCD7AD8CB10CCC1B2E089799835B01840D286209708532F9377EF",
+        "size_bytes": 409427229
+      }
+    }
+  ]
+}

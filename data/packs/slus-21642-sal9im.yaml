@@ -1,0 +1,84 @@
+key: slus-21642-sal9im
+catalog_id: sal9im-sonic-riders-zero-gravity-slus-21642-20260728
+name: 'Sonic Riders: Zero Gravity Texture Pack'
+game:
+  title: 'Sonic Riders: Zero Gravity'
+  serials:
+  - SLUS-21642
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sonic-riders-zero-gravity-slus-21642-upscaled-texture-pack.661004/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/01-png.459085/
+    thumb_url: https://gbatemp.net/data/attachments/458/458473-88fd854afe0f109fc1cd0ef67078dd63.jpg?hash=iP2FSv4PEJ
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-before-png.459086/
+    thumb_url: https://gbatemp.net/data/attachments/458/458474-a259da21466159a0caea7f01942a5fcc.jpg?hash=VRlidJAHie
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-after-png.459087/
+    thumb_url: https://gbatemp.net/data/attachments/458/458475-d21c4c9cd7a5bf5ea577a8cc7174b90b.jpg?hash=hu8rOdNyeF
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-before-png.459088/
+    thumb_url: https://gbatemp.net/data/attachments/458/458476-a028b502ce9e834c45304f6af464ab1d.jpg?hash=sqN2kY5n09
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-after-png.459089/
+    thumb_url: https://gbatemp.net/data/attachments/458/458477-9a4ecd87dc0ca56e9f87e1860ede26c9.jpg?hash=RZQzFjVCGm
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-before-png.459090/
+    thumb_url: https://gbatemp.net/data/attachments/458/458478-3fac54e0b742652f2f64a07eb46f793d.jpg?hash=kdFDPcVdRA
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-after-png.459092/
+    thumb_url: https://gbatemp.net/data/attachments/458/458480-347395cb22771a28c7b998b9a470af14.jpg?hash=p5o-N3L3FC
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-before-png.459094/
+    thumb_url: https://gbatemp.net/data/attachments/458/458482-0f90c861cd2b1a1624bd9c2779b121c1.jpg?hash=FTeam4g6VP
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: 7O7MpNH2DWc
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Sal9im
+  credits: HD texture pack credited by the source to Sal9im; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/sonic-riders-zero-gravity-slus-21642-upscaled-texture-pack.661004/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

@@ -1,0 +1,76 @@
+{
+  "source_url": "https://gbatemp.net/threads/prince-of-persia-the-sands-of-time-remastered-project-pcsx2-texture-pack.670289/",
+  "listings": [
+    "l-e317a8e30f"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Prince of Persia: The Sands of Time Remastered Project [PCSX2 Texture Pack]"
+  },
+  "videos": [
+    {
+      "id": "h8LWCsno4pA",
+      "uploader": "Evgesha_JK",
+      "links": [
+        {
+          "url": "https://boosty.to/evgesha_jk/donate",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "Пожертвования для новых проектов: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.donationalerts.com/r/evgesha_jk",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "Пожертвования для новых проектов: https://boosty.to/evgesha_jk/donate ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://disk.yandex.ru/d/4ve5fm7y6zy0ng",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": " на последней версии эмулятора PCSX2.  Скачать пакет текстур.  Размер архива: 4,1 ГБ.  Яндекс диск: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://disk.yandex.ru/d/NbGYO8P44z4VJw",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "h font, for installation, simply copy from the archive to the \"replacements\" folder, download link: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://disk.yandex.ru/d/4ve5fm7y6zy0ng",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "it on the latest version of the PCSX2 emulator. Download the texture pack. Archive size: 4.1 GB. Yandex.disk: https://disk.yandex.ru/d/4ve5fm7y6zy0ng"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-e317a8e30f",
+      "status": "resolved",
+      "base_url": "https://disk.yandex.ru/d/4ve5fm7y6zy0ng",
+      "host": "other",
+      "kind": "folder",
+      "confidence": "high",
+      "reason": "Creator's opening post explicitly provides Yandex.disk download link for 4.1 GB texture pack.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

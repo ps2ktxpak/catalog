@@ -1,0 +1,78 @@
+key: slus-21216-xxtherockoxx
+catalog_id: xxtherockoxx-soul-calibur-iii-slus-21216-20260722
+name: Soulcalibur III HD Texture Pack
+game:
+  title: Soulcalibur III
+  serials:
+  - SLUS-21216
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: Extensive AI-upscaled character, arena, effects and interface texture replacement pack for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/soul-calibur-3-hd.626202/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.353392/
+    thumb_url: https://gbatemp.net/data/attachments/352/352780-8738250a0542d925a16c481dc2e1c74e.jpg?hash=hzglCgVC2S
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.353393/
+    thumb_url: https://gbatemp.net/data/attachments/352/352781-85362945419ea4029abd2f9e9bfaafc7.jpg?hash=hTYpRUGepA
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_1-png.353394/
+    thumb_url: https://gbatemp.net/data/attachments/352/352782-a920cb017fc35722350ef9657ef30b5d.jpg?hash=qSDLAX_DVy
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.353395/
+    thumb_url: https://gbatemp.net/data/attachments/352/352783-4375776ed5945cf9f7d4ae20c48acdd4.jpg?hash=Q3V3btWUXP
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_5-png.353396/
+    thumb_url: https://gbatemp.net/data/attachments/352/352784-11af9709b4fe492fc52c6cab913fc444.jpg?hash=Ea-XCbT-SS
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_6-png.353397/
+    thumb_url: https://gbatemp.net/data/attachments/352/352785-306eb078f72befd86b0b6ab4804484cf.jpg?hash=MG6wePcr79
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: Xf9Oiuej_aY
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - xXtherockoXx
+  credits: HD texture pack created by xXtherockoXx; preserved from the Internet Archive collection and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/soul-calibur-3-hd.626202/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

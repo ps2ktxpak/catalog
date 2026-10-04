@@ -1,0 +1,74 @@
+key: sles-50831-sombershroud
+catalog_id: sombershroud-star-wars-bounty-hunter-sles-50831-20260728
+name: 'Star Wars: Bounty Hunter Texture Pack'
+game:
+  title: 'Star Wars: Bounty Hunter'
+  serials:
+  - SLES-50831
+  - SLPS-25252
+  - SLUS-20420
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: incomplete
+description: A multi-region high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/star-wars-bounty-hunter-usa-hd-textures.639856/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/star-wars-bounty-hunter_slus-20420_20230917190842-png.394484/
+    thumb_url: https://gbatemp.net/data/attachments/393/393872-d2d62ae83cd2b398e3acb66ec872c2d0.jpg?hash=0tYq6DzSs5
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/star-wars-bounty-hunter_slus-20420_20230917191327-png.394485/
+    thumb_url: https://gbatemp.net/data/attachments/393/393873-c8a99627aca43ca0a213fe46aedcd364.jpg?hash=yKmWJ6ykPK
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/star-wars-bounty-hunter_slus-20420_20230917193958-png.394486/
+    thumb_url: https://gbatemp.net/data/attachments/393/393874-02a4a5fe2ee1be616568f43b0d980a2a.jpg?hash=AqSl_i7hvm
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/star-wars-bounty-hunter_slus-20420_20230917195532-png.394487/
+    thumb_url: https://gbatemp.net/data/attachments/393/393875-c1c488b521bb7b0e8eb6ba76bef8c7d3.jpg?hash=wcSItSG7ew
+    credit: sombershroud
+  - source_url: https://gbatemp.net/attachments/star-wars-bounty-hunter_slus-20420_20230917201204-png.394488/
+    thumb_url: https://gbatemp.net/data/attachments/393/393876-4d55f411857f9919066c2f6d04377e4b.jpg?hash=TVX0EYV_mR
+    credit: sombershroud
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberShroud
+  credits: HD texture pack credited by the source to SomberShroud; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/star-wars-bounty-hunter-usa-hd-textures.639856/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

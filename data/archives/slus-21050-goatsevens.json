@@ -1,0 +1,24 @@
+{
+  "key": "slus-21050-goatsevens",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/hd-vehicle-icon-texture-pack-created-burnout-3-hd-vehicle-icons-texture-pack-slus-21050-20260728.tar.zst",
+      "sha256": "27ac4d9545d0e847e8976317caa25a03da4d5256b8761170837e440f938e7ab6",
+      "size_bytes": 40866312,
+      "decompressed_size_bytes": 220436480,
+      "file_count": 324,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "9A16C150B3C2D897AEDB3AA6B8D9F694482CC847F9ACC6D0886145AF406E9580",
+        "size_bytes": 169767654
+      }
+    }
+  ]
+}

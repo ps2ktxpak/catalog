@@ -1,0 +1,20 @@
+id: antdroid
+name: antdroid
+links:
+  page: https://gbatemp.net/members/antdroid.379715/
+  socials:
+  - kind: website
+    url: https://www.ncaanext.com/
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

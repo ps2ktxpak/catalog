@@ -1,0 +1,78 @@
+key: slus-20766-panda-venom
+catalog_id: panda-venom-fatal-frame-ii-20260722
+name: Fatal Frame II HD Remaster (WIP)
+game:
+  title: 'Fatal Frame II: Crimson Butterfly'
+  serials:
+  - SLUS-20766
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: in_progress
+description: Playable partial pack focused on interface, fonts and character textures; backgrounds and ghosts remain incomplete.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/fatal-frame-ii-crimson-butterfly-hd-remaster-incomplete-work-in-progress.619359/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-52-pm-002-jpg.328475/
+    thumb_url: https://gbatemp.net/data/attachments/327/327863-d79926f09a34242720ad1215464c77ce.jpg?hash=15km8Jo0JC
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-52-pm-jpg.328477/
+    thumb_url: https://gbatemp.net/data/attachments/327/327865-dc54860fe1e094327fddfcd387eeed88.jpg?hash=3FSGD-HglD
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-50-pm-jpg.328478/
+    thumb_url: https://gbatemp.net/data/attachments/327/327866-954da86928ecade65d9be0c4920cefa9.jpg?hash=lU2oaSjsre
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-52-pm-003-jpg.328474/
+    thumb_url: https://gbatemp.net/data/attachments/327/327862-393b374fab99f0ddc8a4e45033f5a0e0.jpg?hash=OTs3T6uZ8N
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-53-pm-jpg.328473/
+    thumb_url: https://gbatemp.net/data/attachments/327/327861-1d42717436945cd3c1d889307b8377fa.jpg?hash=HUJxdDaUXN
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-53-pm-001-jpg.328472/
+    thumb_url: https://gbatemp.net/data/attachments/327/327860-6cfa429e158140c4605a4c9a629b2e3a.jpg?hash=bPpCnhWBQM
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-52-pm-001-jpg.328476/
+    thumb_url: https://gbatemp.net/data/attachments/327/327864-e329c1bb956abda2e327e8fe9cf79815.jpg?hash=4ynBu5Vqva
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: Work-in-progress HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/fatal-frame-ii-crimson-butterfly-hd-remaster-incomplete-work-in-progress.619359/
+  version: 3 WIP mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

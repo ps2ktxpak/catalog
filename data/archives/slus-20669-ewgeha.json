@@ -1,0 +1,24 @@
+{
+  "key": "slus-20669-ewgeha",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-ewgeha-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-resident-evil-dead-aim-hd-remaster-community-archive-slus-20669-20260728.tar.zst",
+      "sha256": "128069aedbb3bb17c0e8c8be1c65a9ff673990163a7e66ffa5f56e604c337983",
+      "size_bytes": 1533349495,
+      "decompressed_size_bytes": 1987635200,
+      "file_count": 1161,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "94FFC52DE8A7377AEAB8A1ADC7C91E803ECCB48267FFA6083D7B130F181B61E5",
+        "size_bytes": 2554215207
+      }
+    }
+  ]
+}

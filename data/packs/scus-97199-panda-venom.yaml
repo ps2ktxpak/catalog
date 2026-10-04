@@ -1,0 +1,81 @@
+key: scus-97199-panda-venom
+catalog_id: panda-venom-ratchet-and-clank-20260722
+name: Ratchet & Clank HD Remaster
+game:
+  title: Ratchet & Clank
+  serials:
+  - SCUS-97199
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+description: High-resolution texture remaster for the North American PS2 release.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-usa-hd-remaster.622060/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-30-pm-jpg.338952/
+    thumb_url: https://gbatemp.net/data/attachments/338/338340-fab80bc755a4dcaf9de71e1849e7a809.jpg?hash=-rgLx1Wk3K
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-30-pm-001-jpg.338951/
+    thumb_url: https://gbatemp.net/data/attachments/338/338339-9b3ffc881e8dbc360c3519b94b6540b1.jpg?hash=mz_8iB6NvD
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-30-pm-002-jpg.338950/
+    thumb_url: https://gbatemp.net/data/attachments/338/338338-7e74eb93581482957538409e0b722703.jpg?hash=fnTrk1gUgp
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-30-pm-003-jpg.338949/
+    thumb_url: https://gbatemp.net/data/attachments/338/338337-7ee73f7b26d090be9fca52dad3c9860a.jpg?hash=fuc_eybQkL
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-31-pm-001-jpg.338948/
+    thumb_url: https://gbatemp.net/data/attachments/338/338336-766e15b218e7beacee4e34bf2c9361ca.jpg?hash=dm4Vshjnvq
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-31-pm-002-jpg.338947/
+    thumb_url: https://gbatemp.net/data/attachments/338/338335-977fc65966110884f9550854df9021da.jpg?hash=l3_GWWYRCI
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-31-pm-004-jpg.338945/
+    thumb_url: https://gbatemp.net/data/attachments/338/338333-8c14b9757d755d260ded0de3e96a6cd1.jpg?hash=jBS5dX11XS
+    credit: panda-venom
+  - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-32-pm-002-jpg.338944/
+    thumb_url: https://gbatemp.net/data/attachments/338/338332-9e2a71c0da64035f7acf265ed6f3e311.jpg?hash=nipxwNpkA1
+    credit: panda-venom
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Panda_Venom
+  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
+  license: See original author source terms
+  source_url: https://gbatemp.net/threads/ratchet-clank-usa-hd-remaster.622060/
+  version: 2026-07-22 mirror
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

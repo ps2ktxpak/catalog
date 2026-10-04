@@ -1,0 +1,33 @@
+{
+  "source_url": "https://gbatemp.net/threads/formula-one-06-europe-hd-texture-alpha.656806/",
+  "listings": [
+    "l-7e90c11a89"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Formula One 06 (Europe) HD Texture Alpha"
+  },
+  "candidates": [
+    {
+      "url": "https://ko-fi.com/mvp89974957",
+      "host": "kofi",
+      "kind": "page",
+      "where": "op",
+      "context": "Formula One 06 (SCES-53950) Status: 10% Serial: SCES-53950 CRC: AD31CF2A Ko-Fi new pack coming soon."
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-7e90c11a89",
+      "status": "not_found",
+      "confidence": "high",
+      "reason": "Opening post states pack is incomplete (10% status, 'new pack coming soon'), no download available yet.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

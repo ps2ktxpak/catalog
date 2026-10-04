@@ -1,0 +1,24 @@
+{
+  "key": "slus-20772-bl4ckh4nd",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/bl4ckh4nd-ssx-3-slus-20772-20260728.tar.zst",
+      "sha256": "5f40c5383f54833252dfb11eea7a884bfd8b3ef5cd4465dc092a4f70a3dae63b",
+      "size_bytes": 109973092,
+      "decompressed_size_bytes": 176056320,
+      "file_count": 1640,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "3DA84963EBA32860E53BC41BC0CFF2EBF4EB8E41242BCDD1B7C8749094E278B9",
+        "size_bytes": 249901951
+      }
+    }
+  ]
+}

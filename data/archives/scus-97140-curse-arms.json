@@ -1,0 +1,24 @@
+{
+  "key": "scus-97140-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/curse-arms-mark-of-kri-scus-97140-20260726.tar.zst",
+      "sha256": "0293c426a21767febdcceaad1d0d6a80fd5b8efdfd286adf0a924db4eacdd515",
+      "size_bytes": 124956199,
+      "decompressed_size_bytes": 183275520,
+      "file_count": 4305,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "10A22228B551CFF08E877E4EB7F4FBD3584EFB940F37DE8D0A90406F406DCCE3",
+        "size_bytes": 104898016
+      }
+    }
+  ]
+}

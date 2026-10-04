@@ -1,0 +1,91 @@
+key: scus-97113-c0meg3ts0me
+catalog_id: texture-pack-credited-to-c0meg3ts0me-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ico-hd-remaster-community-archive-scus-97113-20260728
+name: Ico HD Remaster - Community Archive Texture Pack
+game:
+  title: Ico
+  serials:
+  - SCUS-97113
+credits:
+- creator: c0meg3ts0me
+type: unknown
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ico-pcsx2-and-nethersx2-update-pal-and-nstc.668055/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-06-032235-png.489810/
+    thumb_url: https://gbatemp.net/data/attachments/489/489198-f32d8148b8414416a541717ed3f2e431.jpg?hash=8y2BSLhBRB
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-01-013828-png.489811/
+    thumb_url: https://gbatemp.net/data/attachments/489/489199-05fcff9893004a9295a884bec83eba19.jpg?hash=Bfz_mJMASp
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-06-020219-png.489812/
+    thumb_url: https://gbatemp.net/data/attachments/489/489200-d6fd3957d2ddfaec5bbc601de7ed70fc.jpg?hash=1v05V9Ld-u
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/screenshot-2025-03-06-020130-png.489813/
+    thumb_url: https://gbatemp.net/data/attachments/489/489201-dd607151c965f7c9306b25605e696016.jpg?hash=3WBxUcll98
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/1741479892388-png.489814/
+    thumb_url: https://gbatemp.net/data/attachments/489/489202-5e02244acaaf6df1255d58eabb26b12c.jpg?hash=XgIkSsqvbf
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/1741479909806-png.489815/
+    thumb_url: https://gbatemp.net/data/attachments/489/489203-f9549a4f08e2f8527191c88dd8116fa1.jpg?hash=-VSaTwji-F
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/1741479934232-png.489816/
+    thumb_url: https://gbatemp.net/data/attachments/489/489204-bea5de5e1a79a2341b75c12adcf9d88b.jpg?hash=vqXeXhp5oj
+    credit: c0meg3ts0me
+  - source_url: https://gbatemp.net/attachments/1741479949822-png.489817/
+    thumb_url: https://gbatemp.net/data/attachments/489/489205-2326514bee74ee835557a8f74f7859c2.jpg?hash=IyZRS-507o
+    credit: c0meg3ts0me
+  videos:
+  - provider: youtube
+    id: NOe9qoYdwL0
+  - provider: youtube
+    id: Q576AUYEazo
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to C0meg3ts0me by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to C0meg3ts0me by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

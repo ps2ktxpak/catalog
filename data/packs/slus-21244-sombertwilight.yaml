@@ -1,0 +1,83 @@
+key: slus-21244-sombertwilight
+catalog_id: texture-pack-credited-to-sombertwilight-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-fatal-frame-iii-the-tormented-hd-remaster-community-archive-slus-21244-20260728
+name: Fatal Frame III The Tormented HD Remaster - Community Archive Texture Pack
+game:
+  title: Fatal Frame III The Tormented
+  serials:
+  - SLUS-21244
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/fatal-frame-3-ntsc-ntsc-undub-hd-remaster.624799/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/fatal-frame-3-the-tormented_slus-21244_20230121204025-png.348818/
+    thumb_url: https://gbatemp.net/data/attachments/348/348206-2be978e9bfa8da01f96892e70ef27c95.jpg?hash=K-l46b-o2g
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fatal-frame-3-the-tormented_slus-21244_20230116145300-png.347747/
+    thumb_url: https://gbatemp.net/data/attachments/347/347135-cb35652b718f4c0f30a86846cb2a2afe.jpg?hash=yzVlK3GPTA
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fatal-frame-3-the-tormented_slus-21244_20230114103231-png.347750/
+    thumb_url: https://gbatemp.net/data/attachments/347/347138-5e7fd347889d98aef99231df3a726652.jpg?hash=Xn_TR4idmK
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fatal-frame-3-the-tormented_slus-21244_20230114103222-png.347751/
+    thumb_url: https://gbatemp.net/data/attachments/347/347139-01847c0e2a01b626220f194792557e28.jpg?hash=AYR8DioBti
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fatal-frame-3-the-tormented_slus-21244_20230116144018-png.347749/
+    thumb_url: https://gbatemp.net/data/attachments/347/347137-cd5b0d85a21c0276e7d99b614972248e.jpg?hash=zVsNhaIcAn
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/fatal-frame-3-the-tormented_slus-21244_20230115082238-png.347748/
+    thumb_url: https://gbatemp.net/data/attachments/347/347136-ea736329e07c0b674a6c706b9029bf4f.jpg?hash=6nNjKeB8C2
+    credit: sombertwilight
+  videos:
+  - provider: youtube
+    id: gbUSCBKDnB8
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to SomberTwilight by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to SomberTwilight by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

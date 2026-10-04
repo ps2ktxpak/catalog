@@ -1,0 +1,24 @@
+{
+  "key": "slpm-66205-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-front-mission-5-translated-slpm-66205-20260728.tar.zst",
+      "sha256": "916586fd6c4530d98ffb9e7d8483381912e3b39e2b59bf0b851ed040c17569c9",
+      "size_bytes": 1296501139,
+      "decompressed_size_bytes": 2168954880,
+      "file_count": 13470,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "345884D83A8D42BD95FD324C368B874167E489CC8B6ED0CBC3635E2FCC68744E",
+        "size_bytes": 1065807920
+      }
+    }
+  ]
+}

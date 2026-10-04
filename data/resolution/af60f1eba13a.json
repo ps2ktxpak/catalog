@@ -1,0 +1,83 @@
+{
+  "source_url": "https://gbatemp.net/threads/prince-of-persia-warrior-within-remastered-project-pcsx2-texture-pack.669768/",
+  "listings": [
+    "l-1a2135b750"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Prince of Persia: Warrior Within Remastered Project [PCSX2 Texture Pack]"
+  },
+  "videos": [
+    {
+      "id": "6eb6MCu7Ng8",
+      "uploader": "Evgesha_JK",
+      "links": [
+        {
+          "url": "https://boosty.to/evgesha_jk/donate",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "Пожертвования для новых проектов: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://www.donationalerts.com/r/evgesha_jk",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "Пожертвования для новых проектов: https://boosty.to/evgesha_jk/donate ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://disk.yandex.ru/d/cvavvnlRSGOIrw",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "на последней версии эмулятора PCSX2.  Скачать пакет текстур.  Размер архива: 3,44 ГБ.  Яндекс диск: ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://disk.yandex.ru/d/QhTpAcNZWyzxfw",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "RSGOIrw  Размер архива: 832 МБ. (текстуры уменьшены на 50% от изначального разрешения) Яндекс диск: ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://disk.yandex.ru/d/cvavvnlRSGOIrw",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "on the latest version of the PCSX2 emulator. Download the texture pack. Archive size: 3.44 GB. Yandex.disk: https://disk.yandex.ru/d/cvavvnlRSGOIrw Archive s"
+    },
+    {
+      "url": "https://disk.yandex.ru/d/QhTpAcNZWyzxfw",
+      "host": "other",
+      "kind": "unknown",
+      "where": "op",
+      "context": "vnlRSGOIrw Archive size: 832 MB. (textures have been reduced by 50% of the original resolution) Yandex.disk: https://disk.yandex.ru/d/QhTpAcNZWyzxfw"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-1a2135b750",
+      "status": "resolved",
+      "base_url": "https://disk.yandex.ru/d/cvavvnlRSGOIrw",
+      "host": "other",
+      "kind": "unknown",
+      "confidence": "high",
+      "reason": "Creator provided Yandex.disk as primary download source (full quality version).",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+id: juanchotexhd
+name: JuanchoTexHD
+aliases:
+- juanchotexhd
+links:
+  page: https://gbatemp.net/members/juanchotexhd.594026/
+  socials:
+  - kind: youtube
+    url: https://www.youtube.com/channel/UC3yEUpN8mH27FGE-ZCyosKg
+status: active
+provenance:
+  name:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+  links.page:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high
+  links.socials:
+    source: sad-origami-sheet
+    date: '2026-10-03'
+    confidence: high

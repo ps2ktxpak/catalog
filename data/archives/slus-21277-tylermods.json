@@ -1,0 +1,24 @@
+{
+  "key": "slus-21277-tylermods",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/tylermods-barnyard-slus-21277-20260726.tar.zst",
+      "sha256": "6d3f4d2639695d3a4ae95f9e9778b03f958a3a46b1bb9e131f2f1ff50e21b526",
+      "size_bytes": 64636496,
+      "decompressed_size_bytes": 161617920,
+      "file_count": 3434,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "132D45B489574F87330CAD6882805975FF7AA2BA1C522BEFC6C080EC4226F2EC",
+        "size_bytes": 223798312
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+key: slpm-66164-mvp899
+catalog_id: texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-mahou-tsukai-kurohime-hd-remaster-community-archive-slpm-66164-20260728
+name: Mahou Tsukai Kurohime HD Remaster - Community Archive Texture Pack
+game:
+  title: Mahou Tsukai Kurohime
+  serials:
+  - SLPM-66164
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mahou-tsukai-kurohime-pcsx2-hd-texture.660796/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/mo-pao-shii-hei-ji_slpm-66164_20240913153217-png.457868/
+    thumb_url: https://gbatemp.net/data/attachments/457/457256-9c17d47c69cceb4bebee8a1194dc0835.jpg?hash=nBfUfGnM60
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/mo-pao-shii-hei-ji_slpm-66164_20240913154117-png.457869/
+    thumb_url: https://gbatemp.net/data/attachments/457/457257-7db5e007561374d98eb44870d223dcef.jpg?hash=fbXgB1YTdN
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/mo-pao-shii-hei-ji_slpm-66164_20240913154101-png.457870/
+    thumb_url: https://gbatemp.net/data/attachments/457/457258-dfff87d55b8d70ec6b5c45741a04454b.jpg?hash=3_-H1VuNcO
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/mo-pao-shii-hei-ji_slpm-66164_20240913154110-png.457871/
+    thumb_url: https://gbatemp.net/data/attachments/457/457259-5ec2f4ef4c7532e0be2b7511e1b46990.jpg?hash=XsL070x1Mu
+    credit: mvp899
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

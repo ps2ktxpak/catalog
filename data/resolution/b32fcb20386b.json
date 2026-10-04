@@ -1,0 +1,35 @@
+{
+  "source_url": "https://gbatemp.net/threads/scooby-doo-night-of-100-frights-pal-upscale.675457/",
+  "listings": [
+    "l-d4093acaca"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Scooby-Doo! Night of 100 Frights (PAL) Upscale"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1mhmHa5YXvPRgur467S8x8XQA6Jjfh305/view",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "tter upscale then the first one The texture dump was from the PAL version The unzipped file is around 400 MB Click here to download it"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-d4093acaca",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1mhmHa5YXvPRgur467S8x8XQA6Jjfh305/view",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "medium",
+      "reason": "the only file-host link in op; not yet confirmed to be the pack itself",
+      "decided_by": {
+        "method": "deterministic",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

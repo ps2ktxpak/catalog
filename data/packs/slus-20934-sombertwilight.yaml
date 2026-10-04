@@ -1,0 +1,72 @@
+key: slus-20934-sombertwilight
+catalog_id: sombertwilight-death-by-degrees-slus-20934-20260726
+name: Death by Degrees HD Somber Edition
+game:
+  title: Death by Degrees
+  serials:
+  - SLUS-20934
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+description: A PCSX2 2.0-compatible remaster with more than 500 newly upscaled textures, restored menu and font work, and revised Nina and Anna assets.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/death-by-degrees-hd-somber-edition-ntsc.644838/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/death-by-degrees_slus-20934_20231219120808-png.409544/
+    thumb_url: https://gbatemp.net/data/attachments/408/408932-cacef6227308ea4517fb82a44c3f6b5d.jpg?hash=ys72InMI6k
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/death-by-degrees_slus-20934_20231219120948-png.409545/
+    thumb_url: https://gbatemp.net/data/attachments/408/408933-c0e4231be26f9e5c5ae0ddab0f515906.jpg?hash=wOQjG-Jvnl
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/death-by-degrees_slus-20934_20231219060423-png.409558/
+    thumb_url: https://gbatemp.net/data/attachments/408/408946-423b86547054b6bc02fd6b18bcb499c0.jpg?hash=QjuGVHBUtr
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/death-by-degrees_slus-20934_20231219130901-png.409560/
+    thumb_url: https://gbatemp.net/data/attachments/408/408948-ac14307d5d50efd36ef12705aaebe16d.jpg?hash=rBQwfV1Q79
+    credit: sombertwilight
+  videos:
+  - provider: youtube
+    id: vWD-QWF43KI
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD facelift and texture restoration created by SomberTwilight; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/death-by-degrees-hd-somber-edition-ntsc.644838/
+  version: PCSX2 2.0-compatible public snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

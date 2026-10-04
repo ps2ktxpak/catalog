@@ -1,0 +1,83 @@
+key: slus-20486-beto818
+catalog_id: texture-pack-credited-to-beto818-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-marvel-vs-capcom-2-new-age-of-heroes-hd-remaster-community-archive-slus-20486-20260728
+name: Marvel vs. Capcom 2 New Age of Heroes HD Remaster - Community Archive Texture Pack
+game:
+  title: Marvel vs. Capcom 2 New Age of Heroes
+  serials:
+  - SLUS-20486
+credits:
+- creator: beto818
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/marvel-vs-capcom-2-hd-texture-pack-slus-20486.674495/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250817105226-png.522984/
+    thumb_url: https://gbatemp.net/data/attachments/522/522372-345c76e48a807de75eb70322447df1b0.jpg?hash=9qJ_ttfI2v
+    credit: beto818
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250824153942-png.523988/
+    thumb_url: https://gbatemp.net/data/attachments/523/523376-691303a73880683b449270f06723710d.jpg?hash=uzjXrPRswx
+    credit: beto818
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250823193905-png.523989/
+    thumb_url: https://gbatemp.net/data/attachments/523/523377-466276e810ff4033343287e1e9aae6bc.jpg?hash=gl-E5CkRS4
+    credit: beto818
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250823193917-png.523990/
+    thumb_url: https://gbatemp.net/data/attachments/523/523378-5fa78818fdd17f619e4e13da225e247a.jpg?hash=0hEcHBco5F
+    credit: beto818
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250823194139-png.523991/
+    thumb_url: https://gbatemp.net/data/attachments/523/523379-894a9971dce2e3cea0d1dd45ead01ebe.jpg?hash=C7Gcf9C4LJ
+    credit: beto818
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250823151435-png.523992/
+    thumb_url: https://gbatemp.net/data/attachments/523/523380-a18919177faa0d05f815572ce00c4807.jpg?hash=vX0JFyOUGv
+    credit: beto818
+  - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250819094727-png.523994/
+    thumb_url: https://gbatemp.net/data/attachments/523/523382-b4543787557ef375c396e527fcfcb6c6.jpg?hash=9NCaL52jHa
+    credit: beto818
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Beto818 by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Beto818 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

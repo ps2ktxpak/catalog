@@ -1,0 +1,72 @@
+key: slus-21664-sombertwilight
+catalog_id: sombertwilight-the-sims-2-castaway-slus-21664-20260726
+name: 'The Sims 2: Castaway HD Texture Pack'
+game:
+  title: 'The Sims 2: Castaway'
+  serials:
+  - SLUS-21664
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+description: Environment and interface replacements for the North American survival spin-off; dynamically generated character-creation variants are intentionally excluded.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-sims-castaway-hd.646403/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/the-sims-2-castaway_slus-21664_20240117024141-png.414406/
+    thumb_url: https://gbatemp.net/data/attachments/413/413794-5af0a315fae21d06da01f670b5309fb9.jpg?hash=WvCjFfriHQ
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-sims-2-castaway_slus-21664_20240116153657-png.414402/
+    thumb_url: https://gbatemp.net/data/attachments/413/413790-eee9fdcc3cb063045b34b7e09cffed6d.jpg?hash=7un9zDywYw
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-sims-2-castaway_slus-21664_20240116150329-png.414403/
+    thumb_url: https://gbatemp.net/data/attachments/413/413791-e502937fe7b5242843e42d2f7217f704.jpg?hash=5QKTf-e1JC
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-sims-2-castaway_slus-21664_20240117024106-png.414405/
+    thumb_url: https://gbatemp.net/data/attachments/413/413793-25a2335938e7d76e378ded898b343e81.jpg?hash=JaIzWTjn12
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/the-sims-2-castaway_slus-21664_20240117011229-png.414404/
+    thumb_url: https://gbatemp.net/data/attachments/413/413792-75fd8846316acdf1de6d6d244be8ebb1.jpg?hash=df2IRjFqzf
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/the-sims-castaway-hd.646403/
+  version: Public source snapshot (2026-07-26)
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

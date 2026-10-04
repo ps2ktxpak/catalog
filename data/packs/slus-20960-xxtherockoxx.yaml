@@ -1,0 +1,89 @@
+key: slus-20960-xxtherockoxx
+catalog_id: texture-pack-credited-to-xxtherockoxx-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-mega-man-x8-hd-remaster-community-archive-slus-20960-20260728
+name: Mega Man X8 HD Remaster - Community Archive Texture Pack
+game:
+  title: Mega Man X8
+  serials:
+  - SLUS-20960
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/megaman-x8-hd-textures.637184/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/mega-man-x8_slus-20960_20230729104042-png.385730/
+    thumb_url: https://gbatemp.net/data/attachments/385/385118-8903b0f6117f49b3f603b01aaf827bf7.jpg?hash=iQOw9hF_Sb
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_4-png.385735/
+    thumb_url: https://gbatemp.net/data/attachments/385/385123-8d7d9f987fda370d22a19ea67e8fe4d5.jpg?hash=jX2fmH_aNw
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_2-png.385732/
+    thumb_url: https://gbatemp.net/data/attachments/385/385120-41cc2cef123aef42f2976ec4ed8f26fc.jpg?hash=Qcws7xI670
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/screenshot_3-png.385733/
+    thumb_url: https://gbatemp.net/data/attachments/385/385121-56de6c741535b2b28202b473e02c4898.jpg?hash=Vt5sdBU1sr
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/mega-man-x8_slus-20960_20230729104940-png.385736/
+    thumb_url: https://gbatemp.net/data/attachments/385/385124-b98df6a3fb0baaf5c6a478545dfe1c78.jpg?hash=uY32o_sLqv
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/mega-man-x8_slus-20960_20230729105318-png.385737/
+    thumb_url: https://gbatemp.net/data/attachments/385/385125-491a95e918164202e317a2fcc860f853.jpg?hash=SRqV6RgWQg
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/mega-man-x8_slus-20960_20230729110243-png.385738/
+    thumb_url: https://gbatemp.net/data/attachments/385/385126-39b67f10fa4612787fd92fe45a3b7f12.jpg?hash=ObZ_EPpGEn
+    credit: xxtherockoxx
+  - source_url: https://gbatemp.net/attachments/mega-man-x8_slus-20960_20230729110754-png.385743/
+    thumb_url: https://gbatemp.net/data/attachments/385/385131-363559057f335bedbfe9b6f89d08780c.jpg?hash=NjVZBX8zW-
+    credit: xxtherockoxx
+  videos:
+  - provider: youtube
+    id: CLiO0bHPvV0
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to xXtherockoXx by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

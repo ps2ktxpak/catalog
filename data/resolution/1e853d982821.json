@@ -1,0 +1,56 @@
+{
+  "source_url": "https://gbatemp.net/threads/ghost-rider-sles-54317-hd-dds-texture-pack-pcsx2-version-1-0.682041/",
+  "listings": [
+    "l-9f4fdc9c78"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Ghost Rider – SLES-54317 | HD DDS Texture Pack (PCSX2) – Version 1.0"
+  },
+  "videos": [
+    {
+      "id": "Zu_9RCkhV2w",
+      "uploader": "Texmaster™",
+      "links": [
+        {
+          "url": "https://www.youtube.com/audiolibrary",
+          "host": "youtube",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "2, con una resa ottimizzata per configurazioni moderne.  🎵 Soundtrack: royalty-free music used from ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://ouo.io/AyUgPl",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "-free music used from https://www.youtube.com/audiolibrary  📥 Download TEXTURE HD (Direct Link): ➡️ ",
+          "by_uploader": true
+        },
+        {
+          "url": "https://sfl.gl/6roiP",
+          "host": "other",
+          "kind": "unknown",
+          "where": "video_description",
+          "context": "  📥 Download TEXTURE HD (Direct Link): ➡️ https://ouo.io/AyUgPl  📥 Download DUMPS (Direct Link): ➡️ ",
+          "by_uploader": true
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "decisions": [
+    {
+      "listing": "l-9f4fdc9c78",
+      "status": "gated",
+      "reason": "Creator's YouTube video provides only link shorteners (ouo.io, sfl.gl) which gate access.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

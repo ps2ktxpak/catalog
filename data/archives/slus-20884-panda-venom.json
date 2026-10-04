@@ -1,0 +1,24 @@
+{
+  "key": "slus-20884-panda-venom",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/panda-venom-spyro-heros-tail-slus-20884-20260726.tar.zst",
+      "sha256": "bbeab04d629303bc48331cff1b63ca173072e1004f6b46440f5e44b48e94d29f",
+      "size_bytes": 168727030,
+      "decompressed_size_bytes": 348815360,
+      "file_count": 1208,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "7A42762657CE0F0D116E6C21A0BB1A3D4EAA43091FF348E58B776AE139281D9E",
+        "size_bytes": 254875177
+      }
+    }
+  ]
+}

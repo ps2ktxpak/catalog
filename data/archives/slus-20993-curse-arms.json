@@ -1,0 +1,24 @@
+{
+  "key": "slus-20993-curse-arms",
+  "current": 1,
+  "versions": [
+    {
+      "revision": 1,
+      "container": "tar+zstd",
+      "object": "packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ghosthunter-hd-remaster-community-archive-slus-20993-20260728.tar.zst",
+      "sha256": "747f23c369fc3ec7b3cddb2b53fa5c12aa0bbf26a43d627d5bc071183710cd6a",
+      "size_bytes": 501127035,
+      "decompressed_size_bytes": 800645120,
+      "file_count": 3924,
+      "converter": {
+        "tool": "kram",
+        "pipeline": "migrate.py (2026-09)",
+        "params": "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+      },
+      "source": {
+        "sha256": "E4F957224AB7B7C51231C25DD8077F56E55916A25A680EC55E37231FAF36D602",
+        "size_bytes": 410176423
+      }
+    }
+  ]
+}

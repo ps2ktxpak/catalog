@@ -1,0 +1,77 @@
+key: slus-20388-janley
+catalog_id: texture-pack-credited-to-janley-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-fatal-frame-hd-remaster-community-archive-slus-20388-20260728
+name: Fatal Frame HD Remaster - Community Archive Texture Pack
+game:
+  title: Fatal Frame
+  serials:
+  - SLUS-20388
+credits:
+- creator: janley
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/fatal-frame-1-hd-remaster.621827/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/11222056_1479187668887838_7457355310147497289_n-jpg.343976/
+    thumb_url: https://gbatemp.net/data/attachments/343/343364-1e69aa05801350c12a105c6afab5bc15.jpg?hash=1nYIX905tD
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/vlcsnap-2022-12-19-06h44m12s907-png.343437/
+    thumb_url: https://gbatemp.net/data/attachments/342/342825-38debcd3910488bc630608f02efe7197.jpg?hash=ON6805EEiL
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/pcsx2-qtx64-avx2-exe-screenshot-2022-12-21-20-50-23-82-png.343814/
+    thumb_url: https://gbatemp.net/data/attachments/343/343202-8b245a467b413e5280cfa7baceafbc5c.jpg?hash=r_k0MZQZyS
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/3043064-235009-kuon-playstation-2-front-cover-jpg.343817/
+    thumb_url: https://gbatemp.net/data/attachments/343/343205-78a0d32fb344b1479813069b57775801.jpg?hash=fAbyApSmXH
+    credit: janley
+  - source_url: https://gbatemp.net/attachments/koudelka-uprgb-auto_scale-level2-x2-000000-png.343819/
+    thumb_url: https://gbatemp.net/data/attachments/343/343207-dd1b9c7e7eef9084ce40249385089415.jpg?hash=3Rucfn7vkI
+    credit: janley
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Texture pack credited to Janley by the curated PCSX2 HD Texture Project list; original archive filename
+  - cryptographic source hashes retained by EmuCoreX.
+  credits: HD texture pack credited by the source to Texture pack credited to Janley by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

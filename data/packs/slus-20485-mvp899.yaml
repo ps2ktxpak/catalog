@@ -1,0 +1,72 @@
+key: slus-20485-mvp899
+catalog_id: original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-dino-stalker-hd-remaster-community-archive-slus-20485-20260728
+name: Dino Stalker HD Remaster - Community Archive Texture Pack
+game:
+  title: Dino Stalker
+  serials:
+  - SLUS-20485
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dino-stalker-pcsx2-hd-texture.679381/
+  primary: true
+- kind: mirror
+  url: https://archive.org/details/pcsx2-hd-texture-packs
+  primary: false
+  note: the catalog's original link
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/dino-stalker_slus-20485_20260201001529-png.554307/
+    thumb_url: https://gbatemp.net/data/attachments/553/553695-8c312fdaa299ce0700cdb0dfab4626c2.jpg?hash=Eb-Nx7fpyk
+    credit: mvp899
+  - source_url: https://gbatemp.net/attachments/dino-stalker_slus-20485_20260201001113-png.554308/
+    thumb_url: https://gbatemp.net/data/attachments/553/553696-1cedc6adaee4c24654027df2e31c1e70.jpg?hash=LlYb-2zAh-
+    credit: mvp899
+  videos:
+  - provider: youtube
+    id: R0FNJNGaNto
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+needs_review:
+- credit_assigned_from_listing
+legacy:
+  authors:
+  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
+  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://archive.org/details/pcsx2-hd-texture-packs
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: low
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

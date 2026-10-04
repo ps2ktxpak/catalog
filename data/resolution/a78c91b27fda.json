@@ -1,0 +1,57 @@
+{
+  "source_url": "https://gbatemp.net/threads/alone-in-the-dark-the-new-nightmare-hd-texture-pack.639825/",
+  "listings": [
+    "l-22afed317c"
+  ],
+  "fetched": {
+    "at": "2026-10-03",
+    "status": "ok",
+    "title": "Alone in the Dark: The New Nightmare HD Texture Pack"
+  },
+  "candidates": [
+    {
+      "url": "https://drive.google.com/file/d/1b7Kl6069KGSN_eEU8GO4452fKyBXwAHt/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "where": "op",
+      "context": "the Dark: The New Nightmare Spoiler: Images OriginalRemastered Download Link: Here Mirror: Here Extract the the files with 7-Zip"
+    },
+    {
+      "url": "https://mega.nz/file/t4VQmTia#slhcIq6szY3bFkb8oxAS3SZZPrYFYXY5F9zS-fuT_s8",
+      "host": "mega",
+      "kind": "file",
+      "where": "op",
+      "context": "e New Nightmare Spoiler: Images OriginalRemastered Download Link: Here Mirror: Here Extract the the files with 7-Zip, Winrar or a"
+    },
+    {
+      "url": "https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Alone%20in%20the%20Dark%20-%20The%20New%20Nightmare%20(Europe)",
+      "host": "github",
+      "kind": "page",
+      "where": "reply_by_other",
+      "context": "I found a progressive (240p) hack for this game https://github.com/felixthecat1970/gamepatches/tre"
+    },
+    {
+      "url": "https://github.com/felixthecat1970/gamepatches/tree/main/Playstation_2/Alone",
+      "host": "github",
+      "kind": "page",
+      "where": "reply_by_other",
+      "context": "I found a progressive (240p) hack for this game https://github.com/felixthecat1970/gamepatches/tre"
+    }
+  ],
+  "decisions": [
+    {
+      "listing": "l-22afed317c",
+      "status": "resolved",
+      "base_url": "https://drive.google.com/file/d/1b7Kl6069KGSN_eEU8GO4452fKyBXwAHt/view?usp=sharing",
+      "host": "gdrive",
+      "kind": "file",
+      "confidence": "high",
+      "reason": "Creator provided Google Drive as primary download link and MEGA as mirror.",
+      "decided_by": {
+        "method": "agent",
+        "model": "haiku",
+        "date": "2026-10-03"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+key: slus-20004-ironhulk33
+catalog_id: ironhulk33-army-men-air-attack-2-slus-20004-20260728
+name: 'Army Men: Air Attack 2 HD Texture Pack'
+game:
+  title: 'Army Men: Air Attack 2'
+  serials:
+  - SLUS-20004
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: mirror
+  url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+  primary: true
+- kind: mirror
+  url: https://www.mediafire.com/file_premium/ukbf8ks1hp9plj5/Army_Men_Air_Assault_2.7z/file
+  primary: false
+  note: the catalog's original link
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - ironhulk33
+  credits: HD texture pack created by ironhulk33; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://www.mediafire.com/file_premium/ukbf8ks1hp9plj5/Army_Men_Air_Assault_2.7z/file
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none

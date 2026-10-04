@@ -1,0 +1,81 @@
+key: slus-21392-sal9im
+catalog_id: sal9im-shrek-smash-n-crash-racing-slus-21392-20260728
+name: Shrek Smash n' Crash Racing Texture Pack
+game:
+  title: Shrek Smash n' Crash Racing
+  serials:
+  - SLUS-21392
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dreamworks-shrek-smash-n-crash-racing-slus-21392-hd-texture-pack.660355/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/01-png.473350/
+    thumb_url: https://gbatemp.net/data/attachments/472/472738-777635299b2cc852975b9da29c326aef.jpg?hash=d3Y1KZssyF
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/01-png.455976/
+    thumb_url: https://gbatemp.net/data/attachments/455/455364-f0b9fe96fdb9d684c5047b90db96d880.jpg?hash=t0e7gmUq5X
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/02-png.455977/
+    thumb_url: https://gbatemp.net/data/attachments/455/455365-70f309dfb30458d5e1d3456fe827e4f9.jpg?hash=oOB5XRCW1k
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/03-png.455978/
+    thumb_url: https://gbatemp.net/data/attachments/455/455366-952f939bb78334a80231073abd14e3a5.jpg?hash=Fb1l1rtAjN
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/04-png.455979/
+    thumb_url: https://gbatemp.net/data/attachments/455/455367-1e71d102988577ae2562217c2423f92a.jpg?hash=wvfs67K110
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/05-png.455980/
+    thumb_url: https://gbatemp.net/data/attachments/455/455368-6a37097ffaa83ddd8b985e76ec249c23.jpg?hash=-oHtCm0aSa
+    credit: sal9im
+  - source_url: https://gbatemp.net/attachments/06-png.455981/
+    thumb_url: https://gbatemp.net/data/attachments/455/455369-d438c9d79d2f9f01012ea8ae8f72e097.jpg?hash=1mVOLH_c2d
+    credit: sal9im
+  videos:
+  - provider: youtube
+    id: HMmPvDY17RA
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - Sal9im
+  credits: HD texture pack credited by the source to Sal9im; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/dreamworks-shrek-smash-n-crash-racing-slus-21392-hd-texture-pack.660355/
+  version: Complete public source snapshot
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

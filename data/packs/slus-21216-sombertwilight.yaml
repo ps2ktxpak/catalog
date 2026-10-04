@@ -1,0 +1,69 @@
+key: slus-21216-sombertwilight
+catalog_id: sombertwilight-soulcalibur-3-arcade-slus-21216-20260727
+name: Soulcalibur III Arcade Edition HD Texture Pack by SomberTwilight
+game:
+  title: 'Soulcalibur III: Arcade Edition'
+  serials:
+  - SLUS-21216
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+description: The compressed complete texture variant for the Arcade Edition hack, also usable with the vanilla North American release with limited icon coverage.
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/soul-calibur-3-arcade-version-definitive-edition-hd.665705/
+  primary: true
+media:
+  images:
+  - source_url: https://gbatemp.net/attachments/soulcalibur-iii_slus-21216_20250117190455-png.481046/
+    thumb_url: https://gbatemp.net/data/attachments/480/480434-abcca2c29edaed4894dba8f93a6a100e.jpg?hash=q8yiwp7a7U
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/soulcalibur-iii_slus-21216_20250117190225-png.481050/
+    thumb_url: https://gbatemp.net/data/attachments/480/480438-9ea315531cb105a8ba9abf5fbabbe885.jpg?hash=nqMVUxyxBa
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/soulcalibur-iii_slus-21216_20250117190328-png.481051/
+    thumb_url: https://gbatemp.net/data/attachments/480/480439-37ff4c3c53b0c1ec029d2bceb4b03479.jpg?hash=N_9MPFOwwe
+    credit: sombertwilight
+  - source_url: https://gbatemp.net/attachments/soulcalibur-iii_slus-21216_20250117072706-png.481053/
+    thumb_url: https://gbatemp.net/data/attachments/480/480441-bbf8573d631c82e7f6abe18ec92b2b6b.jpg?hash=u_hXPWMcgu
+    credit: sombertwilight
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - SomberTwilight
+  credits: HD texture pack created by SomberTwilight; Arcade Edition hack credited to Topaz and team; normalized and mirrored by EmuCoreX.
+  license: See source page terms
+  source_url: https://gbatemp.net/threads/soul-calibur-3-arcade-version-definitive-edition-hd.665705/
+  version: Complete compressed public variant
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
+    date: '2026-10-03'
+    confidence: high
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
+  media:
+    source: gbatemp-thread-opening-post
+    date: '2026-10-03'
+    confidence: medium
+    note: the pack's own announcement thread

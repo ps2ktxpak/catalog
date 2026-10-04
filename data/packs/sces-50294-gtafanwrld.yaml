@@ -1,0 +1,52 @@
+key: sces-50294-gtafanwrld
+catalog_id: gtafan-gt3-retexture-mobile-dds-emucorex1
+name: Gran Turismo 3 Retexture Mobile DDS Edition
+game:
+  title: 'Gran Turismo 3: A-Spec'
+  serials:
+  - SCUS-97102
+  - SCES-50294
+  - SCPS-15009
+credits:
+- creator: gtafanwrld
+type: unknown
+completeness: unknown
+description: Android-practical edition covering the original pack's high-resolution track, rally and S-class car DDS textures across the main US, PAL and Japanese releases.
+sources:
+- kind: other
+  url: https://www.gtplanet.net/forum/threads/gran-turismo-3-retexture-mod-v1-0-by-gtafan.410897/
+  primary: true
+permission:
+  kind: unknown
+  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+hosting:
+  state: published
+legacy:
+  authors:
+  - GtafanWRLD
+  credits: GT3 Retexture Mod created by GtafanWRLD; EmuCoreX Mobile DDS edition preserves all 13,714 original DDS replacements while omitting the PNG subset so the pack stays within Android import and GitHub distribution limits.
+  license: See source page terms
+  source_url: https://www.gtplanet.net/forum/threads/gran-turismo-3-retexture-mod-v1-0-by-gtafan.410897/
+  version: 1.0-mobile-dds-emucorex1
+  preview_urls: []
+provenance:
+  name:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  game:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  description:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  sources:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+  credits:
+    source: emucorex-textures-catalog
+    date: '2026-10-03'
+    confidence: medium
+  permission:
+    source: importer
+    date: '2026-10-03'
+    note: the catalog this pack came from records none
