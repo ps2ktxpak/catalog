@@ -13,12 +13,22 @@ The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 | `data/archives/` | What the conversion pipeline produced (hashes, sizes) | machines |
 | `data/listings/`, `data/links/`, `data/resolution/` | Spreadsheet listings, which are packs we host, where their pages lead | machines, with human corrections |
 | `data/overrides/` | Hand corrections and title aliases, each with a reason | people |
-| `schema/` | JSON Schema for every file type | people |
+| `schema/` | JSON Schema for every file type; the creator form validates against it too | people |
 | `tools/ps2ktxpak/` | The command line: import, validate, report, compile, resolve | |
 | `site/` | The published pack list and creator pages (Astro Starlight) | people |
 | `docs/` | How the model, hosting policy and source resolution work; the roadmap | people |
 
 `docs/` (schema, policy, resolving sources, roadmap) describes the model.
+
+## Without git
+
+`/creators/edit/` on the site is a form that writes a creator file: a new one, or an existing one
+(`?id=<handle>`). A new creator opens in GitHub's web editor with the file already filled in; GitHub
+forks the repository for anyone without write access and the submission becomes a pull request. An existing
+file is opened in the editor with the new text on the clipboard, because GitHub cannot prefill an edit. Fields
+set through the form are added to the file's `locked` list and given `web-form` provenance. The form's logic is
+`site/src/lib/creator-form.mjs`, checked against the real data and schema by `tests/test_creator_form.py`.
+Pull requests run the same validator and tests as `main`.
 
 ## Setup
 

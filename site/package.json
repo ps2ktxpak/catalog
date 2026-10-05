@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.5",
+    "ajv": "^8.20.0",
     "astro": "^7.3.5",
     "yaml": "^2.8.0"
   }

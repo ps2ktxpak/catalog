@@ -55,6 +55,12 @@ def test_creator_permission_clears_the_policy_warning(tree, capsys):
     assert validate.run(strict_policy=True) == 0
 
 
+def test_a_creator_cannot_take_an_id_the_site_uses_for_a_page(tree, capsys):
+    tree.write(creator={"id": "edit", "name": "Edit"}, pack={**PACK, "credits": [{"creator": "edit"}]}, listing={**LISTING, "creators": ["edit"]})
+    assert validate.run() == 1
+    assert "reserved for a site page" in capsys.readouterr().out
+
+
 def test_free_packs_are_fine(tree):
     l = copy.deepcopy(LISTING)
     l["access"] = {"cost": "free", "restriction_raw": "N/A"}

@@ -55,3 +55,36 @@
 .pk-table td > * { margin: 0 !important; }
 .pk-table td > .pk-muted { margin-top: 0.15rem !important; }
 .pk-wrap { overflow-x: auto; overflow-y: visible; }
+
+/* The creator form. */
+.pk-form { display: grid; gap: 1.1rem; max-width: 44rem; margin: 1rem 0; }
+.pk-form .pk-field input[type="text"] { width: 100%; box-sizing: border-box; }
+.pk-form input[readonly] { color: var(--sl-color-gray-3); }
+.pk-set { border: 1px solid var(--sl-color-gray-5); border-radius: 0.4rem; padding: 0.6rem 0.9rem 0.9rem; display: grid; gap: 0.6rem; }
+.pk-set legend { padding: 0 0.4rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
+.pk-set p { margin: 0 !important; }
+.pk-rows { list-style: none; padding: 0; display: grid; gap: 0.5rem; margin: 0 !important; }
+.pk-row { display: flex; gap: 0.5rem; margin: 0 !important; }
+.pk-row input, .pk-row select {
+  font: inherit; padding: 0.5rem 0.7rem; min-width: 0; color: var(--sl-color-white);
+  background: var(--sl-color-black); border: 1px solid var(--sl-color-gray-4); border-radius: 0.4rem;
+}
+.pk-row input { flex: 1; }
+.pk-button {
+  display: inline-block; font: inherit; font-size: var(--sl-text-sm); padding: 0.5rem 0.9rem; cursor: pointer;
+  color: var(--sl-color-black); background: var(--sl-color-accent-high); border: 1px solid var(--sl-color-accent-high);
+  border-radius: 0.4rem; text-decoration: none;
+}
+.pk-secondary { color: var(--sl-color-white); background: transparent; border-color: var(--sl-color-gray-4); }
+.pk-button:disabled, .pk-button[aria-disabled="true"] { opacity: 0.45; cursor: not-allowed; }
+.pk-result { max-width: 44rem; }
+.pk-yaml {
+  width: 100%; box-sizing: border-box; font: 0.8rem/1.45 var(--sl-font-system-mono); padding: 0.7rem 0.8rem;
+  color: var(--sl-color-white); background: var(--sl-color-black); border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.4rem; resize: vertical;
+}
+.pk-problems { padding-left: 1.2rem; color: var(--sl-color-orange); }
+.pk-problems:empty { display: none; }
+.pk-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 0.8rem 0 !important; }
+.pk-steps { padding-left: 1.2rem; }
+.pk-steps li { margin: 0.2rem 0 !important; }

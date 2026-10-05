@@ -18,6 +18,8 @@ read it, because they may.
 - **People edit:** `data/creators/`, `data/packs/`, `data/overrides/`, `schema/`, `site/`.
 - **Machines write:** `data/archives/`, `data/listings/`, `data/resolution/`, and `data/links/` apart
   from `method: manual` lines. Do not hand-edit them; change the tool or the input.
+- The creator form on the site (`/creators/edit/`) writes creator files with `web-form` provenance and locks the
+  fields it sets; its output must keep round-tripping the files byte for byte (`tests/test_creator_form.py`).
 - A human edit to a creator or pack field goes through `data/overrides/hand-corrections.yaml` or is
   added to that file's `locked` list, so the next import cannot undo it. Reasons are public: state the
   fact, never quote a conversation.

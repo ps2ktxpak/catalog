@@ -7,6 +7,8 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
   site: process.env.SITE_URL || undefined,
   base: process.env.BASE_PATH || '/',
+  // The creator form imports schema/ at the repository root.
+  vite: { server: { fs: { allow: ['..'] } } },
   integrations: [
     starlight({
       title: 'PS2 Texture Packs',

@@ -1,0 +1,324 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { loadCatalog } from '../../lib/catalog';
+import { KIND_LABELS, SOCIAL_KINDS, TIP_KINDS } from '../../lib/kinds.mjs';
+import { href } from '../../lib/url';
+
+// Every stored creator, so the form can refuse a taken handle or a name that already belongs to someone.
+const { creators } = loadCatalog();
+const known = [...creators.values()].map((c) => ({ id: c.id, name: c.name, aliases: c.aliases }));
+const lists = [
+  { key: 'tip', title: 'Tip links', kinds: TIP_KINDS },
+  { key: 'socials', title: 'Social links', kinds: SOCIAL_KINDS },
+];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Add or edit a creator',
+    description: 'A form that writes a creator file.',
+    tableOfContents: false,
+  }}
+>
+  <p class="pk-count">
+    <a href={href('/creators/')}>Creators</a> · <a href={href('/')}>Packs</a>
+  </p>
+
+  <noscript><p>JavaScript is needed for this form.</p></noscript>
+
+  <p data-pk-mode class="pk-count" aria-live="polite">New creator</p>
+
+  <form class="pk-form" data-pk-form autocomplete="off" novalidate>
+    <label class="pk-field">
+      <span>Name</span>
+      <input type="text" data-f="name" maxlength="80" required placeholder="As the creator spells it" />
+    </label>
+
+    <label class="pk-field">
+      <span>Handle</span>
+      <input type="text" data-f="id" maxlength="48" spellcheck="false" />
+      <small class="pk-muted" data-pk-id-hint>Used in the file name. Permanent once merged.</small>
+    </label>
+
+    <fieldset class="pk-set">
+      <legend>Other names</legend>
+      <p class="pk-muted">Former names and other spellings, used to match credits.</p>
+      <ul class="pk-rows" data-list="aliases"></ul>
+      <button type="button" class="pk-button pk-secondary" data-add="aliases">Add a name</button>
+    </fieldset>
+
+    <label class="pk-field">
+      <span>Profile page</span>
+      <input type="text" inputmode="url" spellcheck="false" data-f="page" placeholder="https://gbatemp.net/members/…" />
+    </label>
+
+    <label class="pk-field">
+      <span>Distribution page</span>
+      <input type="text" inputmode="url" spellcheck="false" data-f="distribution" />
+      <small class="pk-muted">Only where the creator has asked for people to be sent somewhere other than a mirror or thread.</small>
+    </label>
+
+    {
+      lists.map((l) => (
+        <fieldset class="pk-set">
+          <legend>{l.title}</legend>
+          <ul class="pk-rows" data-list={l.key} />
+          <button type="button" class="pk-button pk-secondary" data-add={l.key}>Add a link</button>
+        </fieldset>
+      ))
+    }
+  </form>
+
+  {
+    lists.map((l) => (
+      <template data-row={l.key}>
+        <li class="pk-row">
+          <select data-kind aria-label="Kind of link">
+            {l.kinds.map((k) => (
+              <option value={k}>{KIND_LABELS[k as keyof typeof KIND_LABELS]}</option>
+            ))}
+          </select>
+          <input type="text" inputmode="url" spellcheck="false" data-url aria-label="Address" placeholder="https://…" />
+          <button type="button" class="pk-button pk-secondary" data-remove aria-label="Remove">×</button>
+        </li>
+      </template>
+    ))
+  }
+
+  <template data-row="aliases">
+    <li class="pk-row">
+      <input type="text" data-alias maxlength="80" aria-label="Name" />
+      <button type="button" class="pk-button pk-secondary" data-remove aria-label="Remove">×</button>
+    </li>
+  </template>
+
+  <section class="pk-result" aria-live="polite">
+    <h2>File</h2>
+    <p class="pk-muted" data-pk-path></p>
+    <ul class="pk-problems" data-pk-problems></ul>
+    <textarea class="pk-yaml" data-pk-yaml readonly rows="12" spellcheck="false" aria-label="Generated file"></textarea>
+    <p class="pk-actions">
+      <a class="pk-button" data-pk-open rel="noopener" target="_blank" aria-disabled="true">Open in GitHub</a>
+      <button type="button" class="pk-button pk-secondary" data-pk-copy>Copy YAML</button>
+      <span class="pk-muted" data-pk-note></span>
+    </p>
+    <ul class="pk-muted pk-steps" data-pk-steps></ul>
+  </section>
+
+  <script type="application/json" id="pk-creators" set:html={JSON.stringify(known)} />
+</StarlightPage>
+
+<script>
+  import Ajv2020 from 'ajv/dist/2020';
+  import YAML from 'yaml';
+  import schema from '../../../../schema/creator.schema.json';
+  import {
+    BRANCH, ID_PATTERN, buildCreator, check, draftFromCreator, dumpYaml, editUrl, emptyDraft, filePath, newFileUrl,
+    newId, normalizeUrl, rawUrl,
+  } from '../../lib/creator-form.mjs';
+  import { detectKind } from '../../lib/kinds.mjs';
+
+  // GitHub accepts long addresses, but past this the prefilled link stops being dependable.
+  const MAX_LINK = 7000;
+
+  const $ = <T extends Element>(sel: string, from: ParentNode = document) => from.querySelector<T>(sel)!;
+  const form = $<HTMLFormElement>('[data-pk-form]');
+  const known: { id: string; name: string; aliases: string[] }[] = JSON.parse($('#pk-creators').textContent!);
+  const AjvCtor = (Ajv2020 as any).default ?? Ajv2020;
+  const validate = new AjvCtor({ allErrors: true, strict: false }).compile(schema);
+  const date = new Date().toISOString().slice(0, 10);
+
+  const out = {
+    mode: $('[data-pk-mode]'),
+    path: $('[data-pk-path]'),
+    problems: $('[data-pk-problems]'),
+    yaml: $<HTMLTextAreaElement>('[data-pk-yaml]'),
+    open: $<HTMLAnchorElement>('[data-pk-open]'),
+    copy: $<HTMLButtonElement>('[data-pk-copy]'),
+    note: $('[data-pk-note]'),
+    steps: $('[data-pk-steps]'),
+  };
+  const field = (name: string) => $<HTMLInputElement>(`[data-f="${name}"]`);
+
+  let base: any = null; // the stored record when editing
+  let baseText = '';
+  let idTouched = false;
+
+  // ---- rows -------------------------------------------------------------------------------------
+
+  function addRow(list: string, values: { kind?: string; url?: string; alias?: string } = {}, loaded = false) {
+    const tpl = $<HTMLTemplateElement>(`template[data-row="${list}"]`);
+    const row = (tpl.content.cloneNode(true) as DocumentFragment).firstElementChild as HTMLElement;
+    if (list === 'aliases') {
+      $<HTMLInputElement>('[data-alias]', row).value = values.alias ?? '';
+    } else {
+      const kind = $<HTMLSelectElement>('[data-kind]', row);
+      kind.value = values.kind ?? 'website';
+      if (loaded) kind.dataset.touched = '1';
+      $<HTMLInputElement>('[data-url]', row).value = values.url ?? '';
+    }
+    $(`[data-list="${list}"]`).append(row);
+    return row;
+  }
+
+  function rowsOf(list: string) {
+    return [...document.querySelectorAll<HTMLElement>(`[data-list="${list}"] > li`)];
+  }
+
+  // ---- draft <-> form ---------------------------------------------------------------------------
+
+  function readDraft() {
+    const d = emptyDraft();
+    d.id = field('id').value;
+    d.name = field('name').value;
+    d.page = field('page').value;
+    d.distribution = field('distribution').value;
+    d.aliases = rowsOf('aliases').map((r) => $<HTMLInputElement>('[data-alias]', r).value);
+    for (const list of ['tip', 'socials'] as const) {
+      d[list] = rowsOf(list).map((r) => ({ kind: $<HTMLSelectElement>('[data-kind]', r).value, url: $<HTMLInputElement>('[data-url]', r).value }));
+    }
+    return d;
+  }
+
+  function writeDraft(d: ReturnType<typeof emptyDraft>) {
+    field('id').value = d.id;
+    field('name').value = d.name;
+    field('page').value = d.page;
+    field('distribution').value = d.distribution;
+    for (const list of ['aliases', 'tip', 'socials']) $(`[data-list="${list}"]`).replaceChildren();
+    d.aliases.forEach((alias) => addRow('aliases', { alias }));
+    d.tip.forEach((l) => addRow('tip', l, true));
+    d.socials.forEach((l) => addRow('socials', l, true));
+  }
+
+  // ---- output -----------------------------------------------------------------------------------
+
+  const setOpen = (url: string | null) => {
+    if (url) {
+      out.open.href = url;
+      out.open.removeAttribute('aria-disabled');
+    } else {
+      out.open.removeAttribute('href');
+      out.open.setAttribute('aria-disabled', 'true');
+    }
+  };
+
+  function render() {
+    const draft = readDraft();
+    if (!base && !idTouched) draft.id = field('id').value = newId(draft.name, known.map((c) => c.id));
+
+    const problems = check({ draft, base, creators: known, validate, date });
+    const record = buildCreator({ draft, base, date });
+    const text = dumpYaml(record);
+    const unchanged = !!base && text === baseText;
+
+    out.path.textContent = draft.id ? filePath(draft.id) : '';
+    out.yaml.value = text;
+    out.yaml.rows = Math.min(30, text.split('\n').length + 1);
+    out.problems.replaceChildren(
+      ...problems.map((p) => {
+        const li = document.createElement('li');
+        li.textContent = p.message;
+        if (p.creator) {
+          li.append(' (', Object.assign(document.createElement('a'), { href: `?id=${p.creator}`, textContent: 'edit that creator' }), ')');
+        }
+        return li;
+      }),
+    );
+
+    const blocked = problems.length > 0 || unchanged;
+    out.note.textContent = unchanged ? 'No changes' : '';
+    out.copy.disabled = blocked;
+    out.steps.replaceChildren();
+    const step = (t: string) => out.steps.append(Object.assign(document.createElement('li'), { textContent: t }));
+
+    if (base) {
+      out.open.dataset.mode = 'edit';
+      out.open.textContent = 'Copy YAML and open GitHub';
+      setOpen(blocked ? null : editUrl(draft.id));
+      step(`The editor opens on ${filePath(draft.id)} as on ${BRANCH}.`);
+      step('The text is copied; its contents replace the file’s (Ctrl+A, Ctrl+V).');
+      step('“Propose changes”, then “Create pull request”. Without write access, GitHub forks the repository first.');
+    } else {
+      const url = blocked ? null : newFileUrl(draft.id, text);
+      const tooLong = !!url && url.length > MAX_LINK;
+      out.open.dataset.mode = 'new';
+      out.open.textContent = 'Open in GitHub';
+      setOpen(tooLong ? null : url);
+      if (tooLong) out.note.textContent = 'Too long to prefill; the YAML can be copied instead';
+      step(`The editor opens with ${draft.id ? filePath(draft.id) : 'the file'} filled in.`);
+      step('“Propose new file”, then “Create pull request”. Without write access, GitHub forks the repository first.');
+    }
+    step('A note on who submitted this, with a link that shows it, belongs in the pull request description.');
+  }
+
+  // ---- events -----------------------------------------------------------------------------------
+
+  form.addEventListener('input', (e) => {
+    const t = e.target as HTMLElement;
+    if (t === field('id')) idTouched = true;
+    const row = t.closest<HTMLElement>('li');
+    if (row && t.matches('[data-url]')) {
+      const kind = $<HTMLSelectElement>('[data-kind]', row);
+      if (!kind.dataset.touched) {
+        const found = detectKind(normalizeUrl((t as HTMLInputElement).value).url);
+        if (found && [...kind.options].some((o) => o.value === found)) kind.value = found;
+      }
+    }
+    render();
+  });
+  form.addEventListener('change', (e) => {
+    const t = e.target as HTMLElement;
+    if (t === field('id')) idTouched = true;
+    if (t.matches('[data-kind]')) (t as HTMLElement).dataset.touched = '1';
+    render();
+  });
+  form.addEventListener('click', (e) => {
+    const t = (e.target as HTMLElement).closest<HTMLElement>('[data-add],[data-remove]');
+    if (!t) return;
+    if (t.dataset.add) addRow(t.dataset.add);
+    else t.closest('li')!.remove();
+    render();
+  });
+
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(out.yaml.value);
+      out.note.textContent = 'Copied';
+    } catch {
+      out.yaml.select();
+      out.note.textContent = 'Not copied; the selected text can be copied by hand';
+    }
+  }
+  out.copy.addEventListener('click', copy);
+  out.open.addEventListener('click', async (e) => {
+    if (out.open.getAttribute('aria-disabled') === 'true') {
+      e.preventDefault();
+      return;
+    }
+    if (out.open.dataset.mode === 'edit') await copy(); // the edit page cannot be prefilled, so the text goes on the clipboard
+  });
+
+  // ---- start ------------------------------------------------------------------------------------
+
+  async function start() {
+    const wanted = new URLSearchParams(location.search).get('id');
+    if (wanted && ID_PATTERN.test(wanted)) {
+      out.mode.textContent = `Loading ${wanted}…`;
+      try {
+        const res = await fetch(rawUrl(wanted), { cache: 'no-cache' });
+        if (!res.ok) throw new Error(String(res.status));
+        baseText = await res.text();
+        base = YAML.parse(baseText);
+        writeDraft(draftFromCreator(base));
+        field('id').readOnly = true;
+        $('[data-pk-id-hint]').textContent = 'Permanent.';
+        out.mode.textContent = `Editing ${base.name}, as stored on ${BRANCH}`;
+      } catch {
+        out.mode.textContent = `No creator “${wanted}” found on ${BRANCH}. New creator.`;
+      }
+    }
+    render();
+  }
+  start();
+</script>

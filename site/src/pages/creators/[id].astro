@@ -28,7 +28,7 @@ const links = [
   }}
 >
   <p class="pk-count">
-    {hosted} hosted · {listed} listed · <a href={href('/creators/')}>Creators</a> · <a href={href('/')}>Packs</a>
+    {hosted} hosted · {listed} listed · <a href={href('/creators/')}>Creators</a> · <a href={href('/')}>Packs</a> · <a href={href(`/creators/edit/?id=${creator.id}`)}>Edit</a>
   </p>
   {creator.aliases.length > 0 && <p class="pk-muted">Also listed as: {creator.aliases.join(', ')}</p>}
 

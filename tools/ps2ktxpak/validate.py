@@ -18,6 +18,8 @@ SHORTENERS = ("bit.ly", "tinyurl.com", "t.co", "goo.gl", "ow.ly", "is.gd", "cutt
               "ouo.io", "ouo.press", "adf.ly", "linkvertise.com", "link-hub.net", "exe.io", "shrinkme.io", "shorte.st",
               "fc.lc", "clk.sh", "bc.vc", "sub2unlock.com", "work.ink", "lootlinks.com", "loot-link.com")
 PERMITTING = ("creator_uploaded", "creator_approved")
+# Routes under /creators/ on the site: a creator with one of these ids would shadow a page.
+RESERVED_CREATOR_IDS = ("edit",)
 
 
 def _validator(name: str) -> Draft202012Validator:
@@ -93,6 +95,8 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
 
     creators, packs = d["creators"], {r["key"]: r for r in d["packs"].values() if "key" in r}
     creator_ids = {r["id"] for r in creators.values() if "id" in r}
+    for cid in sorted(creator_ids.intersection(RESERVED_CREATOR_IDS)):
+        errors.append(f"creators/{cid}.yaml: {cid!r} is reserved for a site page")
     listing_ids = Counter(l["id"] for l in d["listings"] if "id" in l)
     archives = {r["key"]: r for r in d["archives"].values() if "key" in r}
 

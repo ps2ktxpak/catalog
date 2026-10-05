@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
+import { KIND_LABELS } from './kinds.mjs';
 
 const DATA = process.env.PS2KTXPAK_DATA ?? path.resolve(process.cwd(), '../data');
 
@@ -41,15 +42,10 @@ const TYPE_LABEL: Record<string, string> = {
 const COMPLETENESS_LABEL: Record<string, string> = {
   complete: 'Complete', in_progress: 'In progress', incomplete: 'Incomplete', partial: 'Partial', unknown: 'Status not stated',
 };
-const LINK_LABEL: Record<string, string> = {
-  gbatemp: 'GBAtemp profile', youtube: 'YouTube', patreon: 'Patreon', kofi: 'Ko-fi', github: 'GitHub',
-  discord: 'Discord', x: 'X', bluesky: 'Bluesky', facebook: 'Facebook', twitch: 'Twitch', paypal: 'PayPal',
-  buymeacoffee: 'Buy Me a Coffee', mediafire: 'MediaFire', website: 'Website', other: 'Link',
-};
 
 export const typeLabel = (t: string) => TYPE_LABEL[t] ?? t;
 export const completenessLabel = (c: string) => COMPLETENESS_LABEL[c] ?? c;
-export const linkLabel = (k: string) => LINK_LABEL[k] ?? 'Link';
+export const linkLabel = (k: string): string => (KIND_LABELS as Record<string, string>)[k] ?? 'Link';
 
 const nameKey = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
 
