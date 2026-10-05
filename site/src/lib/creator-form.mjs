@@ -18,7 +18,6 @@ export const RESERVED_IDS = ['edit'];
 export const FIELDS = ['name', 'aliases', 'links.page', 'links.distribution', 'links.tip', 'links.socials'];
 
 const ORDER = ['id', 'name', 'aliases', 'links', 'avatar', 'identity', 'status', 'provenance', 'locked'];
-const LINK_ORDER = ['page', 'distribution', 'tip', 'socials'];
 
 // ---- names -----------------------------------------------------------------------------------------
 
@@ -96,27 +95,57 @@ function snapshot(rec) {
   };
 }
 
-/**
- * The record for a draft. `base` is the stored record when editing, null for a new creator.
- * A field that differs from `base` is locked and given provenance; everything else is left as it was.
- */
-export function buildCreator({ draft, base = null, date }) {
+const orNull = (v) => (isEmpty(v) ? null : v);
+
+/** What a draft says about every field, by path; a field with nothing in it is null. */
+export function valuesFromDraft(draft) {
   const { clean } = cleanDraft(draft);
-  const rec = base ? structuredClone(base) : { id: clean.id, status: 'active' };
-  rec.name = clean.name;
-  if (clean.aliases.length) rec.aliases = clean.aliases;
-  else delete rec.aliases;
+  return {
+    name: clean.name,
+    aliases: orNull(clean.aliases),
+    'links.page': orNull(clean.links.page),
+    'links.distribution': orNull(clean.links.distribution),
+    'links.tip': orNull(clean.links.tip),
+    'links.socials': orNull(clean.links.socials),
+  };
+}
 
-  const links = {};
-  for (const k of [...Object.keys(base?.links ?? {}), ...LINK_ORDER]) {
-    if (k in links) continue;
-    const v = k in clean.links ? clean.links[k] : base.links[k];
-    if (!isEmpty(v)) links[k] = v;
-  }
-  if (Object.keys(links).length) rec.links = links;
-  else delete rec.links;
-
+/** Only what differs from `base` (or, for a new creator, only what is filled in): the body of a submission. */
+export function submissionSet({ draft, base = null }) {
+  const values = valuesFromDraft(draft);
   const before = snapshot(base);
+  const set = {};
+  for (const path of FIELDS) {
+    const changed = base ? JSON.stringify(orNull(before[path])) !== JSON.stringify(values[path]) : values[path] !== null;
+    if (changed) set[path] = values[path];
+  }
+  return set;
+}
+
+function setPath(rec, path, value) {
+  const [head, leaf] = path.split('.');
+  if (!leaf) {
+    if (value === null) delete rec[head];
+    else rec[head] = value;
+    return;
+  }
+  rec[head] ??= {};
+  if (value === null) delete rec[head][leaf];
+  else rec[head][leaf] = value;
+  if (Object.keys(rec[head]).length === 0) delete rec[head];
+}
+
+/**
+ * The creator record after `set` (values by field path, null clearing one) is applied to `base`, or to a new
+ * creator `id` when `base` is null. A field that ends up different is locked and given provenance; a field not
+ * in `set` is left as it was. The browser previews a submission with this and the workflow applies it with
+ * this, so what is previewed is what is filed.
+ */
+export function applyCreator({ base = null, id, set, date }) {
+  const rec = base ? structuredClone(base) : { id, status: 'active' };
+  const before = snapshot(base);
+  for (const path of FIELDS) if (path in set) setPath(rec, path, set[path]);
+
   const after = snapshot(rec);
   for (const path of FIELDS) {
     if (JSON.stringify(before[path]) === JSON.stringify(after[path])) continue;
@@ -126,6 +155,11 @@ export function buildCreator({ draft, base = null, date }) {
     if (!rec.locked.includes(path)) rec.locked.push(path);
   }
   return ordered(rec, ORDER);
+}
+
+/** The record for a draft. `base` is the stored record when editing, null for a new creator. */
+export function buildCreator({ draft, base = null, date }) {
+  return applyCreator({ base, id: cleanDraft(draft).clean.id, set: valuesFromDraft(draft), date });
 }
 
 // ---- checking --------------------------------------------------------------------------------------
@@ -170,3 +204,5 @@ export const filePath = (id) => `data/creators/${id}.yaml`;
 export const rawUrl = (id) => githubRaw(filePath(id));
 export const editUrl = (id) => githubEdit(filePath(id));
 export const newFileUrl = (id, text) => githubNew(filePath(id), text);
+/** The editor on a new file with nothing filled in but its name, for a file too long to prefill. */
+export const emptyNewFileUrl = (id) => githubNew(filePath(id), '');

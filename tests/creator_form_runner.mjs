@@ -13,6 +13,7 @@ const lib = (name) => import(pathToFileURL(path.join(root, 'site', 'src', 'lib',
 const form = await lib('creator-form.mjs');
 const pack = await lib('pack-form.mjs');
 const vocab = await lib('vocab.mjs');
+const submission = await lib('submission.mjs');
 const kinds = await lib('kinds.mjs');
 
 const schema = JSON.parse(fs.readFileSync(path.join(root, 'schema', 'creator.schema.json'), 'utf8'));
@@ -65,6 +66,22 @@ const ops = {
     type: Object.keys(vocab.TYPE_LABELS), completeness: Object.keys(vocab.COMPLETENESS_LABELS), cost: Object.keys(vocab.COST_LABELS),
     role: Object.keys(vocab.ROLE_LABELS), source: Object.keys(vocab.SOURCE_KIND_LABELS),
   }),
+  // What a form files for a draft: the issue body the workflow will read, and the preview the page shows.
+  submit: ({ kind, draft, base = null }) => {
+    const creators = storedCreators();
+    let sub, preview;
+    if (kind === 'creator') {
+      const set = form.submissionSet({ draft, base });
+      sub = submission.makeSubmission({ kind, op: base ? 'update' : 'create', id: draft.id, set });
+      preview = form.dumpYaml(form.buildCreator({ draft, base, date }));
+    } else {
+      const set = pack.submissionSet({ draft, creators, base });
+      sub = submission.makeSubmission({ kind, op: base ? 'update' : 'create', id: draft.key, set, creating: base ? null : pack.newFields(draft) });
+      preview = pack.dumpYaml(pack.buildPack({ draft, base, creators, date }));
+    }
+    const body = `### Submission\n\n\`\`\`json\n${JSON.stringify(sub)}\n\`\`\`\n\n### Who is submitting\n\nSomeone\n`;
+    return { sub, body, preview, url: submission.issueUrl(sub), title: submission.titleFor(sub) };
+  },
   packFileUrl: ({ key, text }) => pack.newFileUrl(key, text),
   slug: ({ names }) => names.map((n) => form.slugify(n)),
   nameKey: ({ names }) => names.map((n) => form.nameKey(n)),

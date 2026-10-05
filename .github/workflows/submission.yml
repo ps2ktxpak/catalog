@@ -1,0 +1,96 @@
+name: Submission
+
+# Turns an issue filed by the forms on the site into a pull request.
+#
+# The issue body is untrusted. It reaches the parser only as a file, never inside a command line, and the
+# parser accepts nothing but allowlisted fields, which then pass the schemas and the validator. Only code from
+# the default branch runs here. The pull request is opened with the token this workflow is given, which needs
+# the repository setting "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: submission-${{ github.event.issue.number }}
+
+jobs:
+  apply:
+    if: contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      NUMBER: ${{ github.event.issue.number }}
+      LOGIN: ${{ github.event.issue.user.login }}
+      USER_ID: ${{ github.event.issue.user.id }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install
+        run: |
+          pip install -e .
+          npm ci --prefix site
+
+      - name: Apply the submission
+        id: apply
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/body.md"
+          : > "$RUNNER_TEMP/errors.txt"
+          if node tools/node/apply-submission.mjs --body-file "$RUNNER_TEMP/body.md" --result-file "$RUNNER_TEMP/result.json" 2> "$RUNNER_TEMP/errors.txt"; then
+            if ps2ktxpak validate > "$RUNNER_TEMP/validate.txt" 2>&1; then
+              echo "ok=true" >> "$GITHUB_OUTPUT"
+              jq -r '"kind=\(.kind)", "op=\(.op)", "id=\(.id)"' "$RUNNER_TEMP/result.json" >> "$GITHUB_OUTPUT"
+            else
+              grep -E '^(ERROR|\.\.\.)' "$RUNNER_TEMP/validate.txt" > "$RUNNER_TEMP/errors.txt" || cp "$RUNNER_TEMP/validate.txt" "$RUNNER_TEMP/errors.txt"
+              echo "ok=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open the pull request
+        if: steps.apply.outputs.ok == 'true'
+        env:
+          KIND: ${{ steps.apply.outputs.kind }}
+          OP: ${{ steps.apply.outputs.op }}
+          ID: ${{ steps.apply.outputs.id }}
+        run: |
+          set -euo pipefail
+          BRANCH="submission/issue-${NUMBER}"
+          if [ "$OP" = create ]; then VERB=Add; else VERB=Edit; fi
+          TITLE="$VERB $KIND $ID"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q -b "$BRANCH"
+          git add data
+          git commit -q -m "$TITLE" -m "Submitted in #${NUMBER}." --author="${LOGIN} <${USER_ID}+${LOGIN}@users.noreply.github.com>"
+          git push -q origin "$BRANCH"
+          printf 'Submitted in #%s by @%s through the %s form.\n\nCloses #%s\n' "$NUMBER" "$LOGIN" "$KIND" "$NUMBER" > "$RUNNER_TEMP/pr.md"
+          URL=$(gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file "$RUNNER_TEMP/pr.md")
+          gh issue comment "$NUMBER" --body "A pull request was opened: $URL"
+          # A pull request opened with the workflow token does not start the pull request checks, so start them.
+          gh workflow run site.yml --ref "$BRANCH"
+
+      - name: Say why it could not be applied
+        if: steps.apply.outputs.ok != 'true'
+        run: |
+          { printf 'The submission could not be applied.\n\n'; sed 's/^/    /' "$RUNNER_TEMP/errors.txt"; } > "$RUNNER_TEMP/comment.md"
+          gh issue comment "$NUMBER" --body-file "$RUNNER_TEMP/comment.md"

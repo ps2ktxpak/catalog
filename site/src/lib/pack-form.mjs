@@ -172,34 +172,62 @@ const snapshot = (r) => ({
   media: r?.media ?? {},
 });
 
-/**
- * The record for a draft. `base` is the stored record when editing, null for a new pack. Only a new pack gets
- * a cost, a permission and a hosting state from the form; for an existing one they are left as stored.
- */
-export function buildPack({ draft, base = null, creators, date }) {
+const orNull = (v) => (isEmpty(v) ? null : v);
+
+/** What a draft says about every field; a field with nothing in it is null. `base` supplies the keys the form does not show. */
+export function valuesFromDraft(draft, creators, base = null) {
   const { clean } = cleanDraft(draft, creators);
-  const rec = base ? structuredClone(base) : { key: clean.key };
-
-  rec.name = clean.name;
-  rec.game = { ...(rec.game ?? {}), title: clean.title, serials: clean.serials };
-  rec.credits = clean.credits;
-  rec.type = clean.type;
-  rec.completeness = clean.completeness;
-  if (clean.description) rec.description = clean.description;
-  else delete rec.description;
-  if (clean.sources.length) rec.sources = clean.sources;
-  else delete rec.sources;
-
   const media = {};
   for (const k of [...Object.keys(base?.media ?? {}), 'images', 'videos']) {
     if (k in media) continue;
     const v = k === 'images' ? clean.images : k === 'videos' ? clean.videos : base.media[k];
     if (!isEmpty(v)) media[k] = v;
   }
-  if (Object.keys(media).length) rec.media = media;
-  else delete rec.media;
+  return {
+    name: clean.name,
+    game: { ...(base?.game ?? {}), title: clean.title, serials: clean.serials },
+    credits: clean.credits,
+    type: clean.type,
+    completeness: clean.completeness,
+    description: orNull(clean.description),
+    sources: orNull(clean.sources),
+    media: orNull(media),
+  };
+}
 
+/** Only what differs from `base` (or, for a new pack, only what is filled in): the body of a submission. */
+export function submissionSet({ draft, creators, base = null }) {
+  const values = valuesFromDraft(draft, creators, base);
   const before = snapshot(base);
+  const set = {};
+  for (const f of FIELDS) {
+    const changed = base ? JSON.stringify(orNull(before[f])) !== JSON.stringify(orNull(values[f])) : !isEmpty(values[f]) || f === 'credits';
+    if (changed) set[f] = values[f];
+  }
+  return set;
+}
+
+/** What a new pack gets that the form does not let an existing pack change: cost, and hosted or listed only. */
+export const newFields = (draft) => ({ cost: draft.cost, hosting: draft.hosting });
+
+/**
+ * The pack record after `set` (values by field, null clearing one) is applied to `base`, or to a new pack
+ * `key` when `base` is null, in which case `creating` ({ cost, hosting }) decides its cost, permission and
+ * hosting state. A field that ends up different is locked and given provenance; a field not in `set` is
+ * left as it was. The browser previews a submission with this and the workflow applies it with this.
+ *
+ * Hosted: published, with permission creator_approved on the submitter's statement. Listed only: withheld,
+ * permission unknown.
+ */
+export function applyPack({ base = null, key, set, creating = null, date }) {
+  const rec = base ? structuredClone(base) : { key };
+  const before = snapshot(base);
+  for (const f of FIELDS) {
+    if (!(f in set)) continue;
+    if (set[f] === null) delete rec[f];
+    else rec[f] = set[f];
+  }
+
   const after = snapshot(rec);
   const note = (path, extra = {}) => {
     rec.provenance ??= {};
@@ -213,9 +241,9 @@ export function buildPack({ draft, base = null, creators, date }) {
   }
 
   if (!base) {
-    rec.access = { cost: clean.cost };
+    rec.access = { cost: creating.cost };
     note('access');
-    if (clean.hosting === 'hosted') {
+    if (creating.hosting === 'hosted') {
       rec.permission = { kind: 'creator_approved', date, note: 'Approval stated by the submitter on the web form.' };
       rec.hosting = { state: 'published', since: date };
     } else {
@@ -226,6 +254,14 @@ export function buildPack({ draft, base = null, creators, date }) {
     note('hosting');
   }
   return ordered(rec, ORDER, ['credits']);
+}
+
+/** The record for a draft. `base` is the stored record when editing, null for a new pack. */
+export function buildPack({ draft, base = null, creators, date }) {
+  return applyPack({
+    base, key: cleanDraft(draft, creators).clean.key, set: valuesFromDraft(draft, creators, base),
+    creating: base ? null : newFields(draft), date,
+  });
 }
 
 // ---- checking --------------------------------------------------------------------------------------

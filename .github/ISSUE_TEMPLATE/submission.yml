@@ -1,0 +1,25 @@
+name: Submission
+description: Filed by the creator and pack forms on the site. The submission becomes a pull request.
+title: Submission
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The creator and pack forms on the site fill this in. A workflow reads the submission, applies it to the
+        data files, checks it, and opens a pull request that is linked here.
+  - type: textarea
+    id: payload
+    attributes:
+      label: Submission
+      description: Filled in by the form. It is left as it is.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who is submitting
+      description: Who the submitter is, with a link that shows it, for example the creator's forum profile.
+    validations:
+      required: true
