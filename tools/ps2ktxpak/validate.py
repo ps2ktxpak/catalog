@@ -118,7 +118,8 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
         if p.get("hosting", {}).get("state") == "published":
             a = archives.get(key)
             if not a:
-                errors.append(f"packs/{key}: published but has no archive record")
+                # Accepted for hosting, but the conversion pipeline has not made a copy yet.
+                warnings["awaiting_conversion"].append(key)
             elif a["current"] not in {v["revision"] for v in a["versions"]}:
                 errors.append(f"archives/{key}: current revision {a['current']} is not among its versions")
     for key in archives:

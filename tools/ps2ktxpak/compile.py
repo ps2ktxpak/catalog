@@ -45,7 +45,9 @@ def catalog(mode: str = "cleaned", base_url: str = DEFAULT_BASE) -> dict:
     entries = []
     for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published"),
                        key=lambda p: p.get("catalog_id") or p["key"]):
-        a = archives[pack["key"]]
+        a = archives.get(pack["key"])
+        if a is None:  # published but not converted yet: nothing for an app to install
+            continue
         v = next(x for x in a["versions"] if x["revision"] == a["current"])
         legacy = pack.get("legacy", {})
         names = _creator_names(pack, creators)
@@ -88,7 +90,8 @@ def links_v1() -> dict:
     d = load_all()
     creators = {r["id"]: r for r in d["creators"].values()}
     packs, people = {}, {}
-    for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published"),
+    converted = {r["key"] for r in d["archives"].values()}
+    for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published" and r["key"] in converted),
                        key=lambda p: p.get("catalog_id") or p["key"]):
         wire = pack.get("catalog_id") or pack["key"]
         cs = [creators[c["creator"]] for c in pack.get("credits", []) if c["creator"] in creators]

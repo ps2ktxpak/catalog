@@ -83,10 +83,13 @@ def test_bad_data_is_an_error(tree, capsys, mutate, expect):
     assert expect in capsys.readouterr().out
 
 
-def test_published_pack_without_an_archive_is_an_error(tree, capsys):
+def test_published_pack_without_an_archive_is_awaiting_conversion_and_not_compiled(tree, capsys):
     tree.write(archive=None)
-    assert validate.run() == 1
-    assert "no archive record" in capsys.readouterr().out
+    assert validate.run() == 0
+    assert "WARNING awaiting_conversion: 1" in capsys.readouterr().out
+    assert validate.run(strict_policy=True) == 1
+    assert C.catalog("cleaned")["entries"] == []
+    assert C.links_v1()["packs"] == {}
 
 
 def test_file_name_must_equal_the_key(tree, capsys):

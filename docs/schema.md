@@ -35,7 +35,7 @@ against them, then checks the files against each other. This page explains them 
 | `media` | Example pictures and YouTube videos for the pack's page. A picture has the address where its creator shows it, the resized stored copy once made, a caption and a credit; a video is a YouTube id. Image files are never in git. |
 | `access` | Optional override of what the pack costs the public; normally read from the matched listing. |
 | `permission` | Right to host: `creator_uploaded`, `creator_approved`, `community_mirror`, `unknown`, `revoked`, with evidence. |
-| `hosting.state` | `draft`, `review`, `published`, `withheld`, `withdrawn`, `disputed`. |
+| `hosting.state` | `draft`, `review`, `published`, `withheld`, `withdrawn`, `disputed`. A `published` pack with no archive record is accepted for hosting and awaiting conversion: validation warns, and it stays out of the compiled catalog until the conversion pipeline has written its archive record. |
 | `needs_review` | Credit questions an importer could not settle. A person removes an entry once checked. |
 | `legacy` | The inherited catalog's text, kept for the record and for the byte-for-byte test. Not shown. |
 
