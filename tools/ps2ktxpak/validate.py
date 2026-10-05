@@ -10,7 +10,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from .common import (ARCHIVES_DIR, CORRECTIONS_FILE, CREATORS_DIR, LISTINGS_FILE, MATCHES_FILE, PACKS_DIR,
+from .common import (ARCHIVES_DIR, CREATORS_DIR, LISTINGS_FILE, MATCHES_FILE, PACKS_DIR,
                      RESOLUTION_DIR, SCHEMA_DIR, host_of, load_json, load_yaml, read_jsonl)
 
 # Shorteners hide where a link goes; the ad-gating ones (ouo.io and kin) also put an advert in front of it.
@@ -57,7 +57,6 @@ def load_all() -> dict:
         "resolution": many(RESOLUTION_DIR, "*.json", load_json),
         "listings": read_jsonl(LISTINGS_FILE),
         "matches": read_jsonl(MATCHES_FILE),
-        "corrections": load_yaml(CORRECTIONS_FILE) if CORRECTIONS_FILE.exists() else [],
     }
 
 
@@ -90,8 +89,6 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
         check("listing", r, f"listings line {i + 1}")
     for i, r in enumerate(d["matches"]):
         check("match", r, f"links/listing-pack.jsonl line {i + 1}")
-    if d["corrections"]:
-        check("correction", d["corrections"], "overrides/hand-corrections.yaml")
 
     creators, packs = d["creators"], {r["key"]: r for r in d["packs"].values() if "key" in r}
     creator_ids = {r["id"] for r in creators.values() if "id" in r}
@@ -138,10 +135,6 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
         for lid in r.get("listings", []) + [x["listing"] for x in r.get("decisions", [])]:
             if lid not in listing_ids:
                 errors.append(f"resolution/{fn}: unknown listing {lid}")
-    for item in d["corrections"]:
-        kind, ident = item["target"].split(":", 1)
-        if (kind == "creator" and ident not in creator_ids) or (kind == "pack" and ident not in packs):
-            errors.append(f"hand-corrections: target {item['target']} does not exist")
 
     # Links: https is in the schema; shorteners hide where a link goes.
     for label, recs in (("creator", creators.values()), ("pack", packs.values())):

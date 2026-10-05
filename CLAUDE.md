@@ -15,18 +15,18 @@ read it, because they may.
 
 ## Who owns which file
 
-- **People edit:** `data/creators/`, `data/packs/`, `data/overrides/`, `schema/`, `site/`.
-- **Machines write:** `data/archives/`, `data/listings/`, `data/resolution/`, and `data/links/` apart
-  from `method: manual` lines. Do not hand-edit them; change the tool or the input.
+- **People edit:** `data/creators/`, `data/packs/`, `schema/`, `site/`.
+- **The pipeline writes:** `data/archives/`. Do not hand-edit them.
+- **Everything else is edited directly**, including `data/listings/`, `data/links/` and `data/resolution/`,
+  which were produced once from the Texture Packs Archive and are now ordinary data. Nothing regenerates
+  them, so a hand edit is never undone.
 - The creator and pack forms on the site (`/creators/edit/`, `/packs/edit/`) file a GitHub issue; `.github/workflows/submission.yml`
   applies it and opens a pull request. Their output has `web-form` provenance, locks the fields it sets, and must keep
   round-tripping the files byte for byte (`tests/test_creator_form.py`). The issue body is untrusted input: the workflow
   must never put it inside a command (`tests/test_submission.py` checks), and `submission.mjs` is an allowlist.
-- The pack form (`/packs/edit/`) does the same for packs. A new pack starts `published` with `permission: creator_approved`
+- A new pack from the pack form starts `published` with `permission: creator_approved`
   on the submitter's statement, so a merged pull request is what approves hosting: check the claim before merging.
-- A human edit to a creator or pack field goes through `data/overrides/hand-corrections.yaml` or is
-  added to that file's `locked` list, so the next import cannot undo it. Reasons are public: state the
-  fact, never quote a conversation.
+- Commit messages and pull request text are public: state the fact, never quote a conversation.
 
 ## Rules the data keeps
 
@@ -36,7 +36,7 @@ read it, because they may.
 - **Never host a paid pack** without the creator's approval written into `permission`. Cost and
   permission are different questions.
 - `credits: []` means "no one has named the creator". Never fill it with a guess; use
-  `needs_review` for a credit an importer could not settle.
+  `needs_review` for a credit nobody has checked.
 - Archive facts (hash, sizes, revision) are written by the conversion pipeline only.
 - Old app builds read `textures.json`: keep its shape, never leave `authors` empty, never bump its
   `schemaVersion` for an additive change.
@@ -50,12 +50,6 @@ ps2ktxpak validate
 
 `ps2ktxpak compile catalog --mode faithful` must keep reproducing the published catalog exactly. If
 that test fails, the data model lost something: find out what before changing the test.
-
-## Web access
-
-Pages are requested politely (about one request per 1.5 seconds per host), public pages only, with a
-user agent that names this project. No logins, no downloads of pack files, nothing behind a paywall.
-Cached under `cache/`, which is gitignored.
 
 ## Commits
 

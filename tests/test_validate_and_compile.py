@@ -25,7 +25,6 @@ def tree(tmp_path, monkeypatch):
         monkeypatch.setattr(validate, name, tmp_path / sub)
     monkeypatch.setattr(validate, "LISTINGS_FILE", tmp_path / "listings.jsonl")
     monkeypatch.setattr(validate, "MATCHES_FILE", tmp_path / "matches.jsonl")
-    monkeypatch.setattr(validate, "CORRECTIONS_FILE", tmp_path / "none.yaml")
 
     class T:
         root = tmp_path

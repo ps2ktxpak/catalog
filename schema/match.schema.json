@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Listing-to-pack match",
-  "description": "One line of data/links/listing-pack.jsonl: which spreadsheet listing is the same work as which hosted pack. Machine-written by `link-listings`; a human may add or correct lines (method: manual), and a manual line always wins on re-run.",
+  "description": "One line of data/links/listing-pack.jsonl: which spreadsheet listing is the same work as which hosted pack. Matched once by title, thread and alias; now edited by hand. `method` records how a line was made.",
   "type": "object",
   "required": ["listing", "pack", "method", "confidence"],
   "additionalProperties": false,

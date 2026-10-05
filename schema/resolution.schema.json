@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Source resolution",
-  "description": "What we found when we followed one source page (usually a GBAtemp thread, sometimes a YouTube video behind it) to the real download. One file per distinct source page at data/resolution/<hash>.json, because many listings share a page. Written by `resolve-fetch` (deterministic pass) and `resolve-apply` (agent or human decisions). Stores links and short context only, never page text.",
+  "description": "What we found when we followed one source page (usually a GBAtemp thread, sometimes a YouTube video behind it) to the real download. One file per distinct source page at data/resolution/<hash>.json, because many listings share a page. Produced by one run over the unhosted listings and edited by hand since. Stores links and short context only, never page text.",
   "type": "object",
   "required": ["source_url", "listings", "fetched", "candidates", "decisions"],
   "additionalProperties": false,

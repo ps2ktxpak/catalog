@@ -36,32 +36,27 @@ against them, then checks the files against each other. This page explains them 
 | `access` | Optional override of what the pack costs the public; normally read from the matched listing. |
 | `permission` | Right to host: `creator_uploaded`, `creator_approved`, `community_mirror`, `unknown`, `revoked`, with evidence. |
 | `hosting.state` | `draft`, `review`, `published`, `withheld`, `withdrawn`, `disputed`. A `published` pack with no archive record is accepted for hosting and awaiting conversion: validation warns, and it stays out of the compiled catalog until the conversion pipeline has written its archive record. |
-| `needs_review` | Credit questions an importer could not settle. A person removes an entry once checked. |
+| `needs_review` | Credits nobody has checked yet. A person removes an entry once checked. |
 | `legacy` | The inherited catalog's text, kept for the record and for the byte-for-byte test. Not shown. |
 
-## Archive: `data/archives/<key>.json` (machines write)
+## Archive: `data/archives/<key>.json` (the pipeline writes)
 
 What the conversion produced for a pack, per revision: container, storage object name, `sha256`,
 sizes, file count, the download it was converted from, and the converter and its settings. A new
 revision is appended; an old one is never changed.
 
-## Listing: `data/listings/sad-origami-ps2.jsonl` (importer writes)
+## Listing: `data/listings/sad-origami-ps2.jsonl` (people edit)
 
-One line per spreadsheet row. Carries title, regions, type, completeness, `access.cost` (derived from
+One line per row of the Texture Packs Archive's PS2 tab, as first imported. Carries title, regions, type, completeness, `access.cost` (derived from
 the sheet's Restriction column: Paywall is `paid`, Ads is `free_with_ads`, otherwise `free`), the
 creators, the row's page, and the sheet's own wording so the derivation can be checked.
 
 ## Match: `data/links/listing-pack.jsonl`
 
 Which listing is the same work as which hosted pack, by what method (`thread`, `title`, `alias`,
-`close_title`, `manual`) and how sure. A `manual` line is never overwritten.
+`close_title`, `manual`) and how sure.
 
 ## Resolution: `data/resolution/<hash>.json`
 
 What following one source page found: candidate links with context, any YouTube videos (with the game
-title they sit under, in a library thread) and their uploader's links, and a decision per listing. See [resolving sources](resolving-sources.md).
-
-## Hand corrections: `data/overrides/hand-corrections.yaml`
-
-Facts a person fixed by hand after an import, each with a reason and a date. Applied after every
-import, and the fields are locked.
+title they sit under, in a library thread) and their uploader's links, and a decision per listing. The result of one run over the unhosted, unpaid listings; stored as data and edited by hand.

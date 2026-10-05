@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Archive record",
-  "description": "What the conversion pipeline produced for one pack, at data/archives/<key>.json. Machine-owned: written by the pipeline, never hand-edited. A new revision is appended, an old one is never changed, and objects are never overwritten under the same name.",
+  "description": "What the conversion pipeline produced for one pack, at data/archives/<key>.json. Written by the pipeline, never hand-edited. A new revision is appended, an old one is never changed, and objects are never overwritten under the same name.",
   "type": "object",
   "required": ["key", "current", "versions"],
   "additionalProperties": false,

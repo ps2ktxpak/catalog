@@ -9,9 +9,7 @@ from urllib.parse import parse_qs, urlparse
 import jsonschema
 import pytest
 
-from ps2ktxpak import common
-from ps2ktxpak.common import CREATORS_DIR, ROOT, SCHEMA_DIR, load_yaml, slugify
-from ps2ktxpak.creators import Creators
+from ps2ktxpak.common import CREATORS_DIR, ROOT, SCHEMA_DIR, load_yaml
 
 RUNNER = ROOT / "tests" / "creator_form_runner.mjs"
 pytestmark = pytest.mark.skipif(
@@ -154,19 +152,29 @@ def test_an_edit_is_not_blocked_by_a_name_clash_that_is_already_in_the_data():
 
 NAMES = ["Pankeko", "Zoë Ünder_Pixel", "Ünïcödé", "  spaced   out  ", "AI-Upscale!!", "日本語", "Crème Brûlée", "ǆungla", "ßeta", "O'Brien",
          "x" * 80, "---", "!!!", "A--B", "Ｆｕｌｌｗｉｄｔｈ"]
+SLUGS = ["pankeko", "zoe-under-pixel", "unicode", "spaced-out", "ai-upscale", "", "creme-brulee", "dzungla", "eta", "o-brien",
+         "x" * 80, "", "", "a-b", "fullwidth"]
+KEYS = ["pankeko", "zonderpixel", "ncd", "spacedout", "aiupscale", "", "crmebrle", "ungla", "eta", "obrien",
+        "x" * 80, "", "", "ab", ""]
 
 
-def test_handle_derivation_matches_the_python_importers(tmp_path):
-    assert run("slug", names=NAMES) == [slugify(n) for n in NAMES]
-    assert run("nameKey", names=NAMES) == [common.name_key(n) for n in NAMES]
+def test_handles_come_from_the_name_by_fixed_rules():
+    """The rules (ASCII fold, lower-case, runs of anything else to one dash) are written down here because
+    every existing handle and every name match in the data was made with them."""
+    assert run("slug", names=NAMES) == SLUGS
+    assert run("nameKey", names=NAMES) == KEYS
     existing = ["pankeko", "pankeko-2", "creator", "ewgeha"]
-    for name in ["Pankeko", "---", "Ewgeha", "New Person", "y" * 70]:
-        py = Creators(tmp_path)
-        for cid in existing:
-            py.recs[cid] = {"id": cid, "name": f"existing {cid}"}
-        want = py.ensure(name, "test", DATE)
-        got = run("newId", cases=[{"name": name, "existing": existing}])[0]
-        assert got == want, name
+    cases = [{"name": n, "existing": existing} for n in ["Pankeko", "---", "Ewgeha", "New Person", "y" * 70]]
+    assert run("newId", cases=cases) == ["pankeko-3", "creator-2", "ewgeha-2", "new-person", "y" * 44]
+
+
+def test_the_stored_handles_follow_the_rules():
+    """A creator's handle is its name's slug, with a number when two names make the same one."""
+    creators = [load_yaml(f) for f in sorted(CREATORS_DIR.glob("*.yaml"))]
+    slugs = run("slug", names=[c["name"] for c in creators])
+    base = [s[:44].strip("-") or "creator" for s in slugs]
+    odd = [(c["id"], b) for c, b in zip(creators, base) if not (c["id"] == b or c["id"].startswith(b + "-"))]
+    assert odd == []
 
 
 def test_every_kind_offered_is_in_the_schema_and_labelled():

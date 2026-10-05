@@ -7,10 +7,9 @@ A plan, not a promise. Order matters more than dates.
 ## Done
 
 - The data model, its schemas and a validator.
-- The Archive's PS2 tab imported as listings and creators.
-- The 517 inherited packs imported, with the old catalog's text kept for the record.
+- The Archive's PS2 tab and the 517 inherited packs imported once. The repository is the master copy from here on; nothing is re-imported.
 - A compiler that rebuilds today's published catalog byte for byte.
-- A tool that follows each listing's source page to the real download.
+- A decision for each unhosted listing on where its real download is (`data/resolution/`).
 - The pack list and creator pages as a static site, public on GitHub Pages.
 - MIT license for the repository, data included.
 - A creator form and a pack form on the site. Submitting files an issue and a workflow turns it into a pull request, so

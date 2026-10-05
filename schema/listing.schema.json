@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Listing",
-  "description": "One line of data/listings/sad-origami-ps2.jsonl: a pointer to somebody's pack on the web, as the Texture Packs Archive spreadsheet lists it. Machine-owned (rewritten by `import-sheet`). A listing is not a pack: most are packs we do not host, and some are paid.",
+  "description": "One line of data/listings/sad-origami-ps2.jsonl: a pointer to somebody's pack on the web, as the Texture Packs Archive spreadsheet lists it. Imported once from the spreadsheet and edited by hand since. A listing is not a pack: most are packs we do not host, and some are paid.",
   "type": "object",
   "required": ["id", "source", "title", "access", "creators"],
   "additionalProperties": false,

@@ -110,7 +110,7 @@
       }
     },
     "needs_review": {
-      "description": "Credit questions an importer could not settle; a human removes an entry once checked. Facts that can be computed (no matching listing, paid but hosted) are reported by `ps2ktxpak report`, never stored here.",
+      "description": "Credits nobody has checked yet; a person removes an entry once checked. Facts that can be computed (no matching listing, paid but hosted) are reported by `ps2ktxpak report`, never stored here.",
       "type": "array", "uniqueItems": true,
       "items": {"enum": ["credit_assigned_from_listing", "co_credit_unconfirmed", "credit_unknown"]}
     },
