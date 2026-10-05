@@ -10,7 +10,6 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
-CACHE = ROOT / "cache"
 DIST = ROOT / "dist"
 SCHEMA_DIR = ROOT / "schema"
 

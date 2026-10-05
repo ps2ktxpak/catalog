@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A North American replacement pack covering characters, artwork, menus and other game textures.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/sombershrouds-hd-textures-megamix.637948/
@@ -49,11 +50,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberShroud
-  credits: HD texture pack created by SomberShroud using HDcube and RealisticRescaler models; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/guitar-hero-iii-legends-of-rock-usa-hd-textures.671388/
-  version: Complete public source snapshot
-  preview_urls: []

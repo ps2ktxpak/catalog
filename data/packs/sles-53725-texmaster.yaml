@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: High-definition environment, character and interface replacements for the Italian-capable European PS2 release.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/asterix-obelix-xxl-2-mission-las-vegum-hd-ps2.659291/
@@ -48,11 +49,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - TexMaster
-  credits: Italian-localized HD remaster created by TexMaster; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/asterix-obelix-xxl-2-mission-las-vegum-hd-ps2.659291/
-  version: Public source snapshot (2026-07-26)
-  preview_urls: []

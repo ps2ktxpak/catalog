@@ -54,7 +54,7 @@ ps2ktxpak validate                     # schemas, cross-references, hosting poli
 ps2ktxpak report summary               # counts; also: paid-hosted, unmatched, credits
 ps2ktxpak compile catalog              # dist/textures.json (what the app downloads)
 ps2ktxpak compile links                # dist/texture-pack-links.json (compatibility overlay)
-pytest                                 # includes a byte-for-byte rebuild of the live catalog
+pytest                                 # the tools, the forms and the submission workflow, against the real data
 cd site && npm run dev                 # the site: the pack list is the home page, with a page per creator
 ```
 

@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: Large AI-upscaled replacement pack for the North American PS2 release of Grand Theft Auto III.
+version: '1.0'
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/grand-theft-auto-3-upscaled-texture-pack-slus-20062-ps2.675726/
@@ -45,11 +46,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - FunnyNameXYZ
-  credits: AI-upscaled texture pack created by FunnyNameXYZ; mirrored by EmuCoreX with the original source retained.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/grand-theft-auto-3-upscaled-texture-pack-slus-20062-ps2.675726/
-  version: '1.0'
-  preview_urls: []

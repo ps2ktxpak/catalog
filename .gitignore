@@ -1,5 +1,3 @@
-# Downloaded evidence and live-file snapshots: reproducible, never committed.
-cache/
 # Compiled outputs: regenerate with `ps2ktxpak compile ...`.
 dist/
 

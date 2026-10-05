@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: High-resolution replacement pack for the North American PS2 release.
+version: '1.0'
 sources:
 - kind: repository
   url: https://github.com/BMT619/Speed-Racer-PCSX2-HD-Texture-Pack
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - BMT619
-  credits: Created and published by BMT619.
-  license: See source repository terms
-  source_url: https://github.com/BMT619/Speed-Racer-PCSX2-HD-Texture-Pack
-  version: '1.0'
-  preview_urls: []

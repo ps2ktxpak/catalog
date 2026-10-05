@@ -11,6 +11,7 @@ credits:
 type: handcrafted
 completeness: complete
 description: Remastered menus, regional text, dealership images, logos, maps and in-race HUD for the Japanese and Korean GT4 releases.
+version: 1.0-jp-kr-emucorex1
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/gran-turismo-4-hd-hud-ui-remake.665027/
@@ -24,11 +25,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Silentwarior112
-  credits: HD HUD and UI created by Silentwarior112; EmuCoreX Japan/Korea edition retains Japanese, Korean and shared content while omitting western-only resources to fit verified distribution limits.
-  license: See source page terms
-  source_url: https://www.gtplanet.net/forum/threads/gt4-hd-hud-and-user-interface-texture-pack-for-pcsx2.417873/
-  version: 1.0-jp-kr-emucorex1
-  preview_urls: []

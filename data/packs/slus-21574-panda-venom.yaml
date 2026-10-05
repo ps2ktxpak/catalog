@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: A 90%-complete North American remaster covering most game textures; the ending, some maps and backgrounds remain missing.
+version: v1 public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/dawn-of-mana-usa-hd-remaster.658957/
@@ -39,11 +40,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: 90%-complete remaster created by Panda_Venom with chaiNNer and GIMP; HDcube model credited by the author to Venomalia; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/dawn-of-mana-usa-hd-remaster.658957/
-  version: v1 public source snapshot (2026-07-26)
-  preview_urls: []

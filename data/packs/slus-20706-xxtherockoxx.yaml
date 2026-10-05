@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: DDS replacement textures created for the North American PS2 release of Kill Switch.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/kill-switch-hd-textures.636744/
@@ -39,11 +40,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - xXtherockoXx
-  credits: HD texture pack created by xXtherockoXx; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/kill-switch-hd-textures.636744/
-  version: Public source snapshot (2026-07-26)
-  preview_urls: []

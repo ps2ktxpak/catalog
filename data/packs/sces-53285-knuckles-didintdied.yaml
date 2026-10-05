@@ -11,6 +11,7 @@ credits:
 type: unknown
 completeness: unknown
 description: Multi-region 4K environment, character, weapon, effects and interface replacement pack for the North American and European PS2 releases.
+version: '2024-09-17'
 sources:
 - kind: other
   url: https://www.reddit.com/r/RatchetAndClank/comments/1e6kvtr/what_do_you_think_of_my_4k_texture_pack_for/
@@ -20,11 +21,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - knuckles_didintdied
-  credits: 4K texture pack by knuckles_didintdied; PlayStation and D-pad button assets by Metal-Txus (https://www.deviantart.com/metal-txus/gallery); Switch Button Icons and Controls by Zacksly, CC BY 3.0 (https://zacksly.itch.io, https://creativecommons.org/licenses/by/3.0/). EmuCoreX only normalized and duplicated identical verified assets for the author-confirmed PAL serial.
-  license: See source page terms; Switch button assets CC BY 3.0
-  source_url: https://www.reddit.com/r/RatchetAndClank/comments/1e6kvtr/what_do_you_think_of_my_4k_texture_pack_for/
-  version: '2024-09-17'
-  preview_urls: []

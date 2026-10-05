@@ -17,6 +17,7 @@ credits:
 type: ai_upscale
 completeness: in_progress
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/tales-of-the-abyss-usa-hd-texture-pack-wip.610735/
@@ -28,18 +29,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - Pandavenom
-  - Yonko
-  - GuardianRandy
-  - Pegi
-  - Wolfie
-  - Kisa Seira
-  - Mine
-  - DRAGONBLEAPIECE
-  credits: 'HD texture pack credited by the source to Texture upscalers: Pandavenom, Yonko. Texture redrawers: Yonko, GuardianRandy, Pegi, Wolfie, Kisa Seira and Mine. Texture dumping and testing: DRAGONBLEAPIECE; normalized and mirrored by EmuCoreX.'
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/tales-of-the-abyss-usa-hd-texture-pack-wip.610735/
-  version: Complete public source snapshot
-  preview_urls: []

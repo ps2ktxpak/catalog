@@ -10,6 +10,7 @@ credits:
 type: handcrafted
 completeness: partial
 description: A focused pack replacing all championship belts and their season-mode renders for the North American release.
+version: Partial public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/wwe-smackdown-shut-your-mouth-hd-championship-pack-usa-recreated-by-hand.653223/
@@ -45,11 +46,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - paynexkiller
-  credits: Hand-recreated championship title and render replacements created by paynexkiller; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/wwe-smackdown-shut-your-mouth-hd-championship-pack-usa-recreated-by-hand.653223/
-  version: Partial public source snapshot (2026-07-26)
-  preview_urls: []

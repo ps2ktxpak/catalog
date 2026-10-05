@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: Work-in-progress high-resolution texture remaster for the North American PS2 release; the author's PNACH display patch is intentionally excluded from this texture archive.
+version: 30% WIP mirror
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/phantasy-star-universe-usa-hd-remaster.622913/
@@ -40,11 +41,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: Work-in-progress HD remaster created and maintained by Panda_Venom; repacked to a texture-only ZIP and mirrored by EmuCoreX with the original source retained.
-  license: See original author source terms
-  source_url: https://gbatemp.net/threads/phantasy-star-universe-usa-hd-remaster-work-in-progress-30-done.622913/
-  version: 30% WIP mirror
-  preview_urls: []

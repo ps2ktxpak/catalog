@@ -10,6 +10,7 @@ credits:
 type: handcrafted
 completeness: complete
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/need-for-speed-hot-pursuit-2-ps2-hd-textures-remaster.658013/
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Siggy_Wiggy_Woo
-  credits: HD texture pack credited by the source to Siggy_Wiggy_Woo; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/need-for-speed-hot-pursuit-2-ps2-hd-textures-remaster.658013/#post-10452074
-  version: Complete public source snapshot
-  preview_urls: []

@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: unknown
 description: A curated partial replacement set covering selected menus, 2D artwork and scenes for the North American PS2 release; it is not presented as a complete-game pack.
+version: Partial public release (mirrored 2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/capcom-fighting-evolution-hd-textures.642868/
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - mvp899
-  credits: Partial AI-enhanced texture pack created by mvp899; normalized to a texture-only ZIP and mirrored by EmuCoreX from the public source snapshot. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/capcom-fighting-evolution-hd-textures.642868/
-  version: Partial public release (mirrored 2026-07-26)
-  preview_urls: []

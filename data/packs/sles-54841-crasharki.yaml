@@ -13,6 +13,7 @@ credits:
 type: unknown
 completeness: complete
 description: Xbox 360-derived characters, world and frontend textures plus upscaled fonts and controller prompts.
+version: fe8ac511
 sources:
 - kind: repository
   url: https://github.com/CRASHARKI/cott-tp
@@ -22,11 +23,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - CRASHARKI
-  credits: Created and maintained by CRASHARKI.
-  license: See source repository terms
-  source_url: https://github.com/CRASHARKI/cott-tp
-  version: fe8ac511
-  preview_urls: []

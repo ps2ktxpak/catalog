@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/mahou-tsukai-kurohime-pcsx2-hd-texture.660796/
@@ -37,12 +38,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename
-  - cryptographic source hashes retained by EmuCoreX.
-  credits: HD texture pack credited by the source to Texture pack credited to mvp899 by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://archive.org/details/pcsx2-hd-texture-packs
-  version: Complete public source snapshot
-  preview_urls: []

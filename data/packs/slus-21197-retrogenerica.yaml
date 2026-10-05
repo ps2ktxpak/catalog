@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A complete North American HD remaster pack covering the game's interface, characters, arenas and effects.
+version: 100% complete public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/dreamworks-shrek-superslam-ps2-hd-remastered-100-complete.660607/
@@ -33,11 +34,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - RetroGenerica
-  credits: Complete HD texture pack created by RetroGenerica; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/dreamworks-shrek-superslam-ps2-hd-remastered-100-complete.660607/
-  version: 100% complete public snapshot
-  preview_urls: []

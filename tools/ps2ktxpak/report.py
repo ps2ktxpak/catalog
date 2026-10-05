@@ -65,7 +65,7 @@ def unmatched() -> str:
 
 
 def credits() -> str:
-    """The packs whose credit an importer could not settle: the list for Sad Origami's reviewers."""
+    """The packs whose credit nobody has checked yet: the list for Sad Origami's reviewers."""
     d, creators, packs, listing, matched, costs = _context()
     by = defaultdict(list)
     for k, p in sorted(packs.items()):
@@ -76,7 +76,7 @@ def credits() -> str:
         out.append(f"\n## {f}  ({len(keys)})")
         for k in keys:
             p = packs[k]
-            out.append(f"  {k}: {p['game']['title']} -> {_names(p, creators)}   |   catalog said: {' / '.join(p.get('legacy', {}).get('authors', []))[:90]}")
+            out.append(f"  {k}: {p['game']['title']} -> {_names(p, creators)}")
     return "\n".join(out).lstrip("\n")
 
 

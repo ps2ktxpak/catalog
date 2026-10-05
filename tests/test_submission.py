@@ -118,7 +118,7 @@ def test_a_pack_edit_keeps_what_the_form_does_not_show(root):
     f, result = check_matches_preview(root, "pack", d, path)
     assert sorted(f["sub"]["set"]) == ["description", "media"] and "new" not in f["sub"]
     rec = load_yaml(root / result["path"])
-    for untouched in ("catalog_id", "legacy", "hosting", "permission", "credits", "sources", "game"):
+    for untouched in ("catalog_id", "version", "hosting", "permission", "credits", "sources", "game"):
         assert rec[untouched] == base[untouched]
     d["videos"] = []
     check_matches_preview(root, "pack", d, path)  # clearing a list is a change too

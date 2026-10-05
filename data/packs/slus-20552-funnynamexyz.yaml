@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: 'Updated PNG-based 4X texture replacement pack for the North American PS2 release of Grand Theft Auto: Vice City.'
+version: '2.0'
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/grand-theft-auto-vice-city-multiple-resolution-upscaled-texture-pack-slus-20552.675410/
@@ -49,11 +50,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - FunnyNameXYZ
-  credits: 4X AI-upscaled texture pack created by FunnyNameXYZ; mirrored by EmuCoreX with the original source retained.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/grand-theft-auto-vice-city-4x-ai-upscaled-texture-pack-slus-20552.675410/
-  version: '2.0'
-  preview_urls: []

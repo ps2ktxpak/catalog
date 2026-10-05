@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: in_progress
 description: Mixed DDS/PNG beta remaster of menus, text, buttons, graphics, character models and levels for the North American PS2 release.
+version: Beta 1.0.0
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/dual-hearts-ps2-hd-remaster-wip-in-progress-text-buttons-graphics.662043/
@@ -28,11 +29,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - RetroGenerica
-  credits: Work-in-progress HD remaster created by RetroGenerica; normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/dual-hearts-ps2-hd-remaster-wip-in-progress-text-buttons-graphics-beta-1-0-0-released.662043/
-  version: Beta 1.0.0
-  preview_urls: []

@@ -12,6 +12,7 @@ credits:
 type: unknown
 completeness: complete
 description: Regional fonts, menus, character and track artwork, maps, prompts and other interface textures.
+version: 4bb4bed6
 sources:
 - kind: repository
   url: https://github.com/CRASHARKI/cnk-tp
@@ -21,11 +22,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - CRASHARKI
-  credits: Created and maintained by CRASHARKI.
-  license: See source repository terms
-  source_url: https://github.com/CRASHARKI/cnk-tp
-  version: 4bb4bed6
-  preview_urls: []

@@ -11,6 +11,7 @@ credits:
 type: ai_upscale
 completeness: in_progress
 description: A Japanese-region beta pack with upgraded skit portraits and other selected game textures.
+version: v0.3 beta public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/tales-of-rebirth-hd-work-in-progress.665201/
@@ -45,12 +46,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - WICKEDCLOWN285
-  - Panda_Venom
-  credits: Work-in-progress texture pack by WICKEDCLOWN285 and Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/tales-of-rebirth-hd-work-in-progress.665201/
-  version: v0.3 beta public snapshot
-  preview_urls: []

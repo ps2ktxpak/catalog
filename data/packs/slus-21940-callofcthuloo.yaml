@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: Mobile-compatible upscale covering all wrestlers, attires, arenas, entrances, match types, unlocks and non-FMV in-game UI; movie clips and undumpable CAW parts are not included.
+version: Android 1080p edition (mirrored 2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/wwe-all-stars-slus-21940-hd-texture-pack-upscale.682221/
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - callofcthuloo
-  credits: Android-compatible AI upscale created by callofcthuloo with Upscayl's Ultramix x4/x6 profiles; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/wwe-all-stars-slus-21940-hd-texture-pack-upscale.682221/
-  version: Android 1080p edition (mirrored 2026-07-26)
-  preview_urls: []

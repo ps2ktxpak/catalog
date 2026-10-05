@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: complete
 description: A complete North American HD texture replacement pack for the first Maximum Impact game.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/kof-maximum-impact-ntsc.645076/
@@ -27,11 +28,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberTwilight
-  credits: Complete HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/kof-maximum-impact-ntsc.645076/
-  version: Complete public source snapshot
-  preview_urls: []

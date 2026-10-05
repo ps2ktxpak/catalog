@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: PNG texture overhaul using multiple selected upscaling models, manual corrections and image optimization for the Japanese PS2 release.
+version: v1.0.0
 sources:
 - kind: repository
   url: https://github.com/kaykwill13/JoJo-no-Kimyou-na-Bouken-Ougon-no-Kaze-HD-AI-Upscaling-Texture-Pack/releases/tag/v1.0.0
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - kaykwill13
-  credits: HD AI-upscaled texture pack created by kaykwill13, with original game artwork credited by the author to Capcom and Hirohiko Araki; normalized and mirrored by EmuCoreX. All rights remain with their respective creators.
-  license: See source page terms
-  source_url: https://github.com/kaykwill13/JoJo-no-Kimyou-na-Bouken-Ougon-no-Kaze-HD-AI-Upscaling-Texture-Pack/releases/tag/v1.0.0
-  version: v1.0.0
-  preview_urls: []

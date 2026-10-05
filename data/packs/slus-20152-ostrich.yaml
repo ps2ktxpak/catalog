@@ -16,6 +16,7 @@ credits:
 type: unknown
 completeness: unknown
 description: High-resolution in-mission HUD, aircraft icons and weapon graphics for Ace Combat 04, Ace Combat 5 and Ace Combat Zero.
+version: 1.2.1
 sources:
 - kind: other
   url: https://ostrichmods.com/trilogy
@@ -25,15 +26,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Ostrich
-  - Roach Typografics
-  - Zaku
-  - PhantomPhanatic
-  - Stahl
-  credits: Hand-made HUD textures by Ostrich with Roach Typografics, Zaku, PhantomPhanatic and Stahl; mirrored by EmuCoreX with the original source retained.
-  license: See source page terms
-  source_url: https://ostrichmods.com/trilogy
-  version: 1.2.1
-  preview_urls: []

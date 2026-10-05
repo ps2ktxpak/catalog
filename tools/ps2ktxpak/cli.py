@@ -23,7 +23,7 @@ def cmd_report(a) -> int:
 def cmd_compile(a) -> int:
     from . import compile as c
     if a.what == "catalog":
-        text = c.dumps_catalog(c.catalog(a.mode, a.base_url))
+        text = c.dumps_catalog(c.catalog(a.base_url))
         out = Path(a.out or DIST / "textures.json")
     else:
         text = json.dumps(c.links_v1(), indent=1, ensure_ascii=False) + "\n"
@@ -48,7 +48,6 @@ def main(argv=None) -> int:
 
     p = sub.add_parser("compile", help="build the files the app downloads into dist/")
     p.add_argument("what", choices=["catalog", "links"])
-    p.add_argument("--mode", choices=["cleaned", "faithful"], default="cleaned")
     p.add_argument("--base-url", default="https://dl.ps2ktxpak.net")
     p.add_argument("--out")
     p.set_defaults(fn=cmd_compile)

@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/kinnikuman-muscle-grand-prix-2-slps-25881-hd-texture-pack.659419/
@@ -46,11 +47,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - m3kk0r
-  credits: HD texture pack credited by the source to m3kk0r; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/kinnikuman-muscle-grand-prix-2-slps-25881-hd-texture-pack.659419
-  version: Complete public source snapshot
-  preview_urls: []

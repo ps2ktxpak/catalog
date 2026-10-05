@@ -44,12 +44,12 @@ read it, because they may.
 ## Before you finish a change
 
 ```sh
-pytest                    # includes a byte-for-byte rebuild of the live catalog (needs cache/live)
+pytest
 ps2ktxpak validate
 ```
 
-`ps2ktxpak compile catalog --mode faithful` must keep reproducing the published catalog exactly. If
-that test fails, the data model lost something: find out what before changing the test.
+`ps2ktxpak compile catalog` builds the file installed apps download from these files, so a change that
+alters what it emits is a change to every installed app: check the diff of `dist/textures.json`.
 
 ## Commits
 

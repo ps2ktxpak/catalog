@@ -12,6 +12,7 @@ credits:
 type: ai_upscale
 completeness: partial
 description: A deliberately partial upscale preserving the arcade games' original pixel art while replacing front-end menus, cabinets and selected interface graphics for three author-confirmed regions.
+version: Updated partial multi-region snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/taito-legends-1-2-usa-hd-textures-menu-only.639603/
@@ -44,11 +45,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberShroud
-  credits: Partial HD menu pack created by SomberShroud using HDCube4-B, Waifu2x Extension GUI and selected source captures; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/taito-legends-1-2-usa-hd-textures-menu-only.639603/
-  version: Updated partial multi-region snapshot (2026-07-26)
-  preview_urls: []

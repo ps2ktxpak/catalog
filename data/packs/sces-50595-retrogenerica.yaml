@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: Complete HD character, environment, effects, interface and remade text texture replacements for the SCES-50595 PS2 release.
+version: 2024 complete release (mirrored 2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/disney-pixar-monsters-inc-scare-island-ps2-hd-remaster-xbox-and-ps5-button-texture-pack-100-complete.660943/
@@ -46,11 +47,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - RetroGenerica
-  credits: HD texture pack created by RetroGenerica (formerly DerekGeneric831); normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/660943/
-  version: 2024 complete release (mirrored 2026-07-26)
-  preview_urls: []

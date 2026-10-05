@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: The author's desktop-oriented North American replacement variant, separately verified against the existing Android edition.
+version: Desktop high-resolution public source variant
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/aliens-vs-predator-extinction-slus-20147-hd-texture-pack-upscale.678805/
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - callofcthuloo
-  credits: Desktop high-resolution AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/aliens-vs-predator-extinction-slus-20147-hd-texture-pack-upscale.678805/
-  version: Desktop high-resolution public source variant
-  preview_urls: []

@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A North American high-resolution replacement pack covering backgrounds, monsters and characters, with the source author's documented UI dumping limitation.
+version: Version 1 public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/shadow-hearts-from-the-new-world-usa-hd-textures.646711/
@@ -45,11 +46,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD background, monster and character texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/shadow-hearts-from-the-new-world-usa-hd-textures.646711/
-  version: Version 1 public source snapshot
-  preview_urls: []

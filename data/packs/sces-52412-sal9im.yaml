@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/jackie-chan-adventure-sces-52412-europe-hd-texture-pack.659884/
@@ -48,11 +49,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Sal9im
-  credits: HD texture pack credited by the source to Sal9im; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/jackie-chan-adventure-sces-52412-europe-hd-texture-pack.659884/
-  version: Complete public source snapshot
-  preview_urls: []

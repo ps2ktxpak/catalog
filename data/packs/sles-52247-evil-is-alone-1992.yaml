@@ -12,6 +12,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A 100%-complete texture pack for the North American release and the author-confirmed Russian European release.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/the-hobbit-usa-rus-hd-texture-pack.646235/
@@ -43,12 +44,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - Evil_Is_Alone_1992
-  - OldyCrowdy
-  credits: Complete HD texture pack created by Evil_Is_Alone_1992, also known as OldyCrowdy, using Topaz AI Gigapixel and Photoshop; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/the-hobbit-usa-rus-hd-texture-pack.646235/
-  version: Public source snapshot (2026-07-26)
-  preview_urls: []

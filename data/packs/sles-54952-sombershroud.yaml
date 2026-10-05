@@ -11,6 +11,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/ben-10-protector-of-earth-pal-hd-texture-pack.649498/
@@ -26,12 +27,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - KevinMI
-  - SomberShroud
-  credits: HD texture pack credited by the source to Dumps by KevinMI, Upscales by SomberShroud; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/ben-10-protector-of-earth-pal-hd-texture-pack.649498/#post-10365815
-  version: Complete public source snapshot
-  preview_urls: []

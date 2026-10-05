@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: High-resolution texture remaster for the North American PS2 release.
+version: 2026-07-22 mirror
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/burnout-3-takedown-usa-hd-remaster.621068/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
-  license: See original author source terms
-  source_url: https://gbatemp.net/threads/burnout-3-takedown-usa-hd-remaster.621068/
-  version: 2026-07-22 mirror
-  preview_urls: []

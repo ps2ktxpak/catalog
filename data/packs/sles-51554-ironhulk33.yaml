@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A European high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: mirror
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - ironhulk33
-  credits: HD texture pack created by ironhulk33; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://www.mediafire.com/file_premium/9re6ztokytpjqe4/Cell_Damage_Overdrive.7z/file
-  version: Complete public source snapshot
-  preview_urls: []

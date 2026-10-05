@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A complete North American texture replacement pack for The Gottlieb Collection.
+version: Complete public source snapshot
 sources:
 - kind: mirror
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -29,11 +30,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - ironhulk33
-  credits: Complete AI-upscaled texture pack created by ironhulk33; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/pinball-hall-of-fame-gottlieb-williams-collection-usa-hd-pack.665531/
-  version: Complete public source snapshot
-  preview_urls: []

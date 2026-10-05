@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: in_progress
 description: An in-progress North American texture pack from Panda_Venom, retained separately from the catalog's distinct CRASHARKI multi-region pack.
+version: v0.1 in-progress public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/spyro-a-heros-tail-usa-hd-remaster.636814/
@@ -45,11 +46,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: Independent AI-upscaled texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/spyro-a-heros-tail-usa-hd-remaster.636814/
-  version: v0.1 in-progress public snapshot
-  preview_urls: []

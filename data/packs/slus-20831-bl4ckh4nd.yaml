@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: creator_page
   url: https://www.patreon.com/Bl4ckH4nd
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Bl4ckH4nd
-  credits: HD texture pack credited by the source to Bl4ckH4nd; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://www.mediafire.com/file_premium/gb7ppxjybpnlh3i/Tokyo_Xtreme_Racer_3.7z/file
-  version: Complete public source snapshot
-  preview_urls: []

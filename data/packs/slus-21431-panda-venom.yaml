@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: A work-in-progress North American pack replacing interface, character and selected world textures.
+version: Incomplete public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/raidou-kuzunoha-vs-the-soulless-army-usa-hd-remaster-incomplete.622223/
@@ -33,11 +34,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: Incomplete AI-upscaled texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/raidou-kuzunoha-vs-the-soulless-army-usa-hd-remaster-incomplete.622223/
-  version: Incomplete public snapshot
-  preview_urls: []

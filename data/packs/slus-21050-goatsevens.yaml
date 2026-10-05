@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: repository
   url: https://github.com/GoatSevens/B3-HD-Vehicle-Icons/releases/tag/1-5-25
@@ -19,12 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - HD vehicle icon texture pack created
-  - maintained by GoatSevens.
-  credits: HD texture pack credited by the source to HD vehicle icon texture pack created and maintained by GoatSevens.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://github.com/GoatSevens/B3-HD-Vehicle-Icons/releases/tag/1-5-25
-  version: Complete public source snapshot
-  preview_urls: []

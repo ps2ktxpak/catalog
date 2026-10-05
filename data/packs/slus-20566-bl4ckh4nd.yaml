@@ -11,6 +11,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Two-version public source snapshot
 sources:
 - kind: creator_page
   url: https://www.patreon.com/Bl4ckH4nd
@@ -26,12 +27,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - Bl4ckH4nd
-  - CCKrizalid
-  credits: HD texture pack created by Bl4ckH4nd & CCKrizalid; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://www.mediafire.com/file_premium/b2x9b0fqu2esvck/Buffy_The_Vampire_Slayer_Chaos_Bleeds.7z/file
-  version: Two-version public source snapshot
-  preview_urls: []

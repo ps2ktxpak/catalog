@@ -10,21 +10,16 @@ credits:
 type: unknown
 completeness: unknown
 description: PC-derived texture replacement pack for the North American PS2 release.
+version: latest
 sources:
 - kind: repository
   url: https://github.com/ASI-Factory/GTA-VCS-Texture-Pack-PS2
   primary: true
+media:
+  images:
+  - source_url: https://i.imgur.com/RRDySLw.png
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - ASI Factory
-  credits: Pack published by ASI Factory; textures adapted from the PC version.
-  license: See source repository terms
-  source_url: https://github.com/ASI-Factory/GTA-VCS-Texture-Pack-PS2
-  version: latest
-  preview_urls:
-  - https://i.imgur.com/RRDySLw.png

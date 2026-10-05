@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: An independently authored multilingual HD replacement set for the SLUS-21812 North American release.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/speed-racer-hd-textures.636540/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - xXtherockoXx
-  credits: HD texture pack created by xXtherockoXx; normalized and mirrored by EmuCoreX after comparison with the existing BMT619 pack. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/speed-racer-hd-textures.636540/
-  version: Public source snapshot (2026-07-26)
-  preview_urls: []

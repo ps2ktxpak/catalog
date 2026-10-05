@@ -10,21 +10,16 @@ credits:
 type: ai_upscale
 completeness: in_progress
 description: Android-compatible PAL texture pack covering courses and seasonal variants, clubs, balls, characters, caddies, loading screens, menus and most UI; the spectator gallery and a small set of unlockable assets remain intentionally incomplete.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/everybodys-golf-hd-upscale-texture-pack-pcsx2-and-nethersx2-compatible.673080/
   primary: true
+media:
+  images:
+  - source_url: https://imgur.com/gallery/everybodys-golf-hd-upscale-textures-vs-original-AvirElu
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - B-Bugs
-  credits: Approximately 90%-complete HD upscale created by B-Bugs with Topaz Gigapixel AI from Nethersx2 texture dumps; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/everybodys-golf-hd-upscale-texture-pack-pcsx2-and-nethersx2-compatible.673080/
-  version: Public source snapshot (2026-07-26)
-  preview_urls:
-  - https://imgur.com/gallery/everybodys-golf-hd-upscale-textures-vs-original-AvirElu

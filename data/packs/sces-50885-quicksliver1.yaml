@@ -12,6 +12,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A 6,615-texture UHD pack with author-confirmed North American, European and Japanese compatibility; one canonical replacement set is mirrored for all three serials.
+version: Complete multi-region public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/ape-escape-2-uhd-texture.621937/
@@ -25,11 +26,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - quicksliver1
-  credits: Complete UHD AI-upscaled texture pack created by quicksliver1; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/ape-escape-2-uhd-texture.621937/
-  version: Complete multi-region public snapshot
-  preview_urls: []

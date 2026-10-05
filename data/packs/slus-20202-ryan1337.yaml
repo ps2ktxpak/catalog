@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: An independently authored high-resolution replacement set for the North American PS2 release.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/crazy-taxi-hd-texture-pack-slus-20202.651143/
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - ryan1337
-  credits: Independent HD texture pack created by ryan1337; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/crazy-taxi-hd-texture-pack-slus-20202.651143/
-  version: Public source snapshot (2026-07-26)
-  preview_urls: []

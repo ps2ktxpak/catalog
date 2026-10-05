@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: The author's desktop-oriented Japanese replacement variant, separately verified against the existing Android edition.
+version: Desktop high-resolution public source variant
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/mobile-suit-gundam-gandamu-lost-war-chronicles-slps-25123-hd-texture-pack-upscale.667871/
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - callofcthuloo
-  credits: Desktop high-resolution AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/mobile-suit-gundam-ji-dong-zhan-shigandamu-zhan-ji-lost-war-chronicles-slps-25123-hd-texture-pack-upscale.667871/
-  version: Desktop high-resolution public source variant
-  preview_urls: []

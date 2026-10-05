@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: English-language interface and text replacements for the Japanese PS2 release.
+version: '1'
 sources:
 - kind: repository
   url: https://github.com/ludusregard/Battle-Gear-3-PS2-Translation-Project
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - ludusregard
-  credits: English texture translation created and published by ludusregard.
-  license: See source repository terms
-  source_url: https://github.com/ludusregard/Battle-Gear-3-PS2-Translation-Project
-  version: '1'
-  preview_urls: []

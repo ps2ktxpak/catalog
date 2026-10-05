@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: other
   url: https://www.moddb.com/addons/devil-may-cry-3-hd-texture-ps2
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SuijiroKimimame775
-  credits: HD texture pack credited by the source to SuijiroKimimame775; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://www.moddb.com/addons/devil-may-cry-3-hd-texture-ps2
-  version: Complete public source snapshot
-  preview_urls: []

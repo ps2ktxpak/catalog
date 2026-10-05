@@ -11,6 +11,7 @@ credits:
 type: ai_upscale
 completeness: in_progress
 description: High-resolution texture remaster shared by both North American game discs.
+version: 2026-07-22 mirror
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/xenosaga-trilogy-usa-hd-remaster.612395/
@@ -20,11 +21,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
-  license: See original author source terms
-  source_url: https://gbatemp.net/threads/xenosaga-trilogy-usa-hd-remaster.612395/
-  version: 2026-07-22 mirror
-  preview_urls: []

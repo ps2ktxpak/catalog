@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: in_progress
 description: A compact alternative HD environment, character, weapon, effects and interface replacement pack for the North American PS2 release.
+version: v0.2
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/ratchet-gladiator-deadlocked-upscaled-textures-scus-97465.633419/
@@ -47,11 +48,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SkyfighterZX
-  credits: HD texture pack created by SkyfighterZX; preserved from the original GBAtemp release and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/ratchet-gladiator-deadlocked-upscaled-textures-scus-97465.633419/
-  version: v0.2
-  preview_urls: []

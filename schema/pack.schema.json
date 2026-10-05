@@ -37,6 +37,7 @@
     "type": {"enum": ["ai_upscale", "handcrafted", "mixed", "port", "button_replacement", "unknown"]},
     "completeness": {"enum": ["complete", "in_progress", "incomplete", "partial", "unknown"]},
     "description": {"type": "string", "maxLength": 2000},
+    "version": {"description": "The pack's version as its creator labels it. Shown with the pack in the app's catalog.", "type": "string", "maxLength": 200},
     "sources": {
       "description": "Pages about the pack: where it is announced or distributed. Never the address of our own copy.",
       "type": "array",
@@ -113,18 +114,6 @@
       "description": "Credits nobody has checked yet; a person removes an entry once checked. Facts that can be computed (no matching listing, paid but hosted) are reported by `ps2ktxpak report`, never stored here.",
       "type": "array", "uniqueItems": true,
       "items": {"enum": ["credit_assigned_from_listing", "co_credit_unconfirmed", "credit_unknown"]}
-    },
-    "legacy": {
-      "description": "Upstream catalog text as inherited, kept for provenance and for a byte-faithful rebuild of the old catalog. Not shown to players.",
-      "type": "object", "additionalProperties": false,
-      "properties": {
-        "authors": {"type": "array", "items": {"type": "string"}},
-        "credits": {"type": "string"},
-        "license": {"type": "string"},
-        "source_url": {"type": "string"},
-        "version": {"type": "string"},
-        "preview_urls": {"type": "array", "items": {"type": "string"}}
-      }
     }
   },
   "$defs": {

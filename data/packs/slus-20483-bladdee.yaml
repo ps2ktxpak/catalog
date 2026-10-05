@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: repository
   url: https://github.com/Bladdee/SmackdownSYM/tree/6a85afe51a45937c4b2d31848044ac7c3943f87a
@@ -19,12 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - HD texture upscaling project created
-  - maintained by Bladdee.
-  credits: HD texture pack credited by the source to HD texture upscaling project created and maintained by Bladdee.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://github.com/Bladdee/SmackdownSYM/tree/6a85afe51a45937c4b2d31848044ac7c3943f87a
-  version: Complete public source snapshot
-  preview_urls: []

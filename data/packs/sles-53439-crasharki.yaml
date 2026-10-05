@@ -12,6 +12,7 @@ credits:
 type: mixed
 completeness: complete
 description: Extensive frontend, characters, tracks, maps, icons, fonts, prompts and multilingual on-screen text.
+version: 6c2445ee
 sources:
 - kind: repository
   url: https://github.com/CRASHARKI/cttr-tp
@@ -21,11 +22,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - CRASHARKI
-  credits: Created and maintained by CRASHARKI.
-  license: See source repository terms
-  source_url: https://github.com/CRASHARKI/cttr-tp
-  version: 6c2445ee
-  preview_urls: []

@@ -11,6 +11,7 @@ credits:
 type: handcrafted
 completeness: complete
 description: Mostly hand-remastered vehicles, tracks, interface and environment textures for the North American and European releases.
+version: 1.1-emucorex1
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/need-for-speed-hot-pursuit-2-ps2-hd-textures-remaster.658013/
@@ -20,11 +21,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Siggy_Wiggy_Woo
-  credits: HD remaster created by Siggy_Wiggy_Woo; EmuCoreX mirror removes the single community-confirmed broken leaf texture and retains the original source link.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/need-for-speed-hot-pursuit-2-ps2-hd-textures-remaster.658013/
-  version: 1.1-emucorex1
-  preview_urls: []

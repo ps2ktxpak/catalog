@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: Lossless PNG edition with vivid color treatment and 2,880 replacements for the North American PS2 release; independently verified as different from all other listed variants.
+version: '1.0'
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/ps2-bloody-roar-4-slus-20795-usa.683323/
@@ -23,11 +24,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - MESKH4H4
-  credits: Texture pack created by MESKH4H4; normalized from the author's GitHub release to a clean texture-only ZIP and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://github.com/MESKH4H4/Bloody-Roar-4/releases/tag/1.0
-  version: '1.0'
-  preview_urls: []

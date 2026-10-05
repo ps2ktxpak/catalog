@@ -16,13 +16,13 @@ export const KEY_PATTERN = /^[a-z0-9][a-z0-9-]{2,79}$/;
 /** What the form can change. */
 export const FIELDS = ['name', 'game', 'credits', 'type', 'completeness', 'description', 'sources', 'media'];
 
-// Same order as PACK_ORDER in tools/ps2ktxpak/import_legacy.py.
-const ORDER = ['key', 'catalog_id', 'name', 'game', 'credits', 'type', 'completeness', 'description', 'sources', 'media',
-  'access', 'permission', 'hosting', 'needs_review', 'legacy'];
+// The order keys are written in, as in the files already in data/packs/.
+const ORDER = ['key', 'catalog_id', 'name', 'game', 'credits', 'type', 'completeness', 'description', 'version', 'sources', 'media',
+  'access', 'permission', 'hosting', 'needs_review'];
 
 // ---- keys ------------------------------------------------------------------------------------------
 
-/** A free key for a new pack, derived as import_legacy.py derives it: lowest serial, then the lead creator. */
+/** A free key for a new pack: its lowest serial, then the lead creator, then a number if that is taken. */
 export function newKey(serials, lead, existingKeys) {
   const low = [...serials].sort()[0] ?? 'unknown';
   const base = `${low.toLowerCase()}-${lead || 'unknown'}`.slice(0, 76).replace(/-+$/, '');

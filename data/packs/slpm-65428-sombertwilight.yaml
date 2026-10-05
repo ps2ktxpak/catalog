@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: complete
 description: A complete pack for the Japanese release with English-patch support, organized across scenarios and interface textures.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/resident-evil-outbreak-file-1-ntscj-english-patched-hd-loveletter.646013/
@@ -39,11 +40,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberTwilight
-  credits: Complete texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/resident-evil-outbreak-file-1-ntscj-english-patched-hd-loveletter.646013/
-  version: Complete public source snapshot
-  preview_urls: []

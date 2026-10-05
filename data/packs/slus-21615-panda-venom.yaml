@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: An incomplete North American widescreen pack covering interface, maps, portraits and selected game textures.
+version: v0.8 incomplete public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/wild-arms-5-usa-hd-remaster-widescreen-texture-pack.611320/
@@ -39,11 +40,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: AI-upscaled widescreen texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/wild-arms-5-usa-hd-remaster-widescreen-texture-pack.611320/
-  version: v0.8 incomplete public snapshot
-  preview_urls: []

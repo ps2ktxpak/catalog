@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: unknown
 description: Version 1.7 of the enhanced North American HD replacement pack, published for current PCSX2 builds.
+version: v1.7
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/urban-reign-enhanced-hd-textures-pack.665094/
@@ -27,11 +28,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - MajidGaming
-  credits: Enhanced HD texture pack created and maintained by MajidGaming; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/urban-reign-enhanced-hd-textures-pack-updated.665094/
-  version: v1.7
-  preview_urls: []

@@ -25,7 +25,7 @@ against them, then checks the files against each other. This page explains them 
 |---|---|
 | `key` | Immutable file name: lowest serial, then lead creator, e.g. `slus-21410-ckiscxrsed`. Short, so paths work on Windows. |
 | `catalog_id` | The id installed apps know, for the 517 inherited packs. Never changed. Absent for new packs. |
-| `name`, `description` | What the pack is called and says about itself. |
+| `name`, `description`, `version` | What the pack is called, what it says about itself, and the version its creator gives it. |
 | `game` | `title` and `serials`; the app matches packs to games by serial. |
 | `credits` | Creators, lead first, each with a role. **Empty means no one has named the creator.** |
 | `type`, `completeness` | `ai_upscale`, `handcrafted`, `mixed`, `port`, `button_replacement`; `complete`, `in_progress`, `incomplete`, `partial`. |
@@ -35,7 +35,6 @@ against them, then checks the files against each other. This page explains them 
 | `permission` | Right to host: `creator_uploaded`, `creator_approved`, `community_mirror`, `unknown`, `revoked`, with evidence. |
 | `hosting.state` | `draft`, `review`, `published`, `withheld`, `withdrawn`, `disputed`. A `published` pack with no archive record is accepted for hosting and awaiting conversion: validation warns, and it stays out of the compiled catalog until the conversion pipeline has written its archive record. |
 | `needs_review` | Credits nobody has checked yet. A person removes an entry once checked. |
-| `legacy` | The inherited catalog's text, kept for the record and for the byte-for-byte test. Not shown. |
 
 ## Archive: `data/archives/<key>.json` (the pipeline writes)
 

@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: Large Xbox-derived texture replacement pack for the North American PS2 release.
+version: release
 sources:
 - kind: repository
   url: https://github.com/eternights/XboxTexturePack.TheWarriors
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - eternights
-  credits: Created and published by eternights using Xbox-version texture assets.
-  license: See source repository terms
-  source_url: https://github.com/eternights/XboxTexturePack.TheWarriors
-  version: release
-  preview_urls: []

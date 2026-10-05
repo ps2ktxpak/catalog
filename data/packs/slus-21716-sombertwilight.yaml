@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A complete North American texture replacement set; the author notes a PCSX2 journal-view rendering issue unrelated to the archive.
+version: Complete public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/the-spiderwick-chronicles-ntsc-hd-textures.646354/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberTwilight
-  credits: Complete HD texture pack created by SomberTwilight; normalized without the separate emulator patch and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/the-spiderwick-chronicles-ntsc-hd-textures.646354/
-  version: Complete public source snapshot (2026-07-26)
-  preview_urls: []

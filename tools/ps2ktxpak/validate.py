@@ -139,7 +139,7 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
     # Links: https is in the schema; shorteners hide where a link goes.
     for label, recs in (("creator", creators.values()), ("pack", packs.values())):
         for r in recs:
-            for u in _urls({k: v for k, v in r.items() if k != "legacy"}):
+            for u in _urls(r):
                 if host_of(u) in SHORTENERS:
                     warnings["url_shortener"].append(f"{label} {r.get('id') or r.get('key')}: {u}")
 

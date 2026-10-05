@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A Japanese/Asian high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: repository
   url: https://github.com/PaulBury/MH2Dos-HDUI/releases/tag/releases
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - High-resolution 4:3 UI texture pack created by Paul Bury.
-  credits: HD texture pack credited by the source to High-resolution 4:3 UI texture pack created by Paul Bury.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://github.com/PaulBury/MH2Dos-HDUI/releases/tag/releases
-  version: Complete public source snapshot
-  preview_urls: []

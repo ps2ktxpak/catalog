@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: Mobile-compatible upscale covering all units, maps, tutorials, menus and UI elements across the three campaigns; FMVs and non-rendered cutscenes are omitted.
+version: Android 1080p edition (mirrored 2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/aliens-vs-predator-extinction-slus-20147-hd-texture-pack-upscale.678805/
@@ -19,11 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - callofcthuloo
-  credits: Android-compatible AI upscale created by callofcthuloo with Upscayl's Ultramix x4/x6 profiles; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/aliens-vs-predator-extinction-slus-20147-hd-texture-pack-upscale.678805/
-  version: Android 1080p edition (mirrored 2026-07-26)
-  preview_urls: []

@@ -12,6 +12,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: A multi-region high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/star-wars-bounty-hunter-usa-hd-textures.639856/
@@ -38,11 +39,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberShroud
-  credits: HD texture pack credited by the source to SomberShroud; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/star-wars-bounty-hunter-usa-hd-textures.639856/
-  version: Complete public source snapshot
-  preview_urls: []

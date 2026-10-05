@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A complete North American pack with upscaled and polished stage textures organized by location.
+version: Complete public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/hunter-the-reckoning-wayward-hd-facelift-ntsc.635590/
@@ -27,11 +28,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberTwilight
-  credits: Complete HD facelift texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/hunter-the-reckoning-wayward-hd-facelift-ntsc.635590/
-  version: Complete public source snapshot
-  preview_urls: []

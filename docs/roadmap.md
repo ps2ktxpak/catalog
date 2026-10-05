@@ -8,7 +8,7 @@ A plan, not a promise. Order matters more than dates.
 
 - The data model, its schemas and a validator.
 - The Archive's PS2 tab and the 517 inherited packs imported once. The repository is the master copy from here on; nothing is re-imported.
-- A compiler that rebuilds today's published catalog byte for byte.
+- A compiler that builds the catalog and the overlay file from the data.
 - A decision for each unhosted listing on where its real download is (`data/resolution/`).
 - The pack list and creator pages as a static site, public on GitHub Pages.
 - MIT license for the repository, data included.

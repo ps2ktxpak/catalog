@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: A playable North American high-resolution replacement pack covering the full game with documented emulator limitations.
+version: Version 1 public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/legacy-of-kain-defiance-us-hd-textures.659800/
@@ -36,11 +37,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/legacy-of-kain-defiance-us-hd-textures.659800/
-  version: Version 1 public source snapshot
-  preview_urls: []

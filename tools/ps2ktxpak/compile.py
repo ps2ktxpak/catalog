@@ -4,16 +4,15 @@
   links    -> texture-pack-links.json (schemaVersion 1), a compatibility projection for the builds
               that read jpolo1224's overlay
 
-Two modes for the catalog. `faithful` reproduces today's published bytes from the inherited upstream
-text, which proves the data model lost nothing. `cleaned` is what we actually publish: names come
-from credits, the source link from the pack's primary source, permission is stated as it is.
-Archive facts (hashes, sizes, revision) come from data/archives, never from a pack file."""
+In the catalog, names come from the pack's credits, the source link from its primary source, and
+permission is stated as it is. Archive facts (hashes, sizes, revision) come from data/archives,
+never from a pack file. A pack that is published but has no archive record yet is left out: there
+is nothing for an app to install."""
 from __future__ import annotations
 
 import json
-from collections import defaultdict
 
-from .common import (STATUS_LABEL, TYPE_LABEL, read_jsonl, LISTINGS_FILE, MATCHES_FILE)
+from .common import STATUS_LABEL, TYPE_LABEL
 from .validate import load_all
 
 DEFAULT_BASE = "https://dl.ps2ktxpak.net"
@@ -38,7 +37,7 @@ def _primary(pack: dict) -> str | None:
     return pack["sources"][0]["url"] if pack.get("sources") else None
 
 
-def catalog(mode: str = "cleaned", base_url: str = DEFAULT_BASE) -> dict:
+def catalog(base_url: str = DEFAULT_BASE) -> dict:
     d = load_all()
     creators = {r["id"]: r for r in d["creators"].values()}
     archives = {r["key"]: r for r in d["archives"].values()}
@@ -49,37 +48,26 @@ def catalog(mode: str = "cleaned", base_url: str = DEFAULT_BASE) -> dict:
         if a is None:  # published but not converted yet: nothing for an app to install
             continue
         v = next(x for x in a["versions"] if x["revision"] == a["current"])
-        legacy = pack.get("legacy", {})
         names = _creator_names(pack, creators)
-        if mode == "faithful":
-            authors, credits = legacy["authors"], legacy.get("credits", "")
-            license_, source = legacy.get("license", ""), legacy.get("source_url", "")
-        else:
-            authors = names or [UNKNOWN_CREATOR]
-            credits = ("Created by " + ", ".join(names) + "." if names else "Creator not identified.")
-            license_ = PERMISSION_TEXT[pack.get("permission", {}).get("kind", "unknown")]
-            source = _primary(pack) or legacy.get("source_url", "")
         entries.append({
             "id": pack.get("catalog_id") or pack["key"],
             "name": pack["name"],
             "gameTitle": pack["game"]["title"],
             "serials": pack["game"]["serials"],
-            "version": legacy.get("version", ""),
-            "authors": authors,
-            "credits": credits,
+            "version": pack.get("version", ""),
+            "authors": names or [UNKNOWN_CREATOR],
+            "credits": "Created by " + ", ".join(names) + "." if names else "Creator not identified.",
             "description": pack.get("description", ""),
-            "license": license_,
+            "license": PERMISSION_TEXT[pack.get("permission", {}).get("kind", "unknown")],
             "downloadUrl": f"{base_url}/{v['object']}",
             "format": v["container"],
             "archiveRevision": v["revision"],
             "decompressedSizeBytes": v["decompressed_size_bytes"],
-            "sourceUrl": source,
+            "sourceUrl": _primary(pack) or "",
             "sizeBytes": v["size_bytes"],
             "sha256": v["sha256"],
             "fileCount": v["file_count"],
-            "previewUrls": legacy.get("preview_urls", []) + (
-                [] if mode == "faithful" else
-                [f"{base_url}/{i['storage_key']}" for i in pack.get("media", {}).get("images", []) if i.get("storage_key")]),
+            "previewUrls": [f"{base_url}/{i['storage_key']}" for i in pack.get("media", {}).get("images", []) if i.get("storage_key")],
         })
     return {"schemaVersion": 2, "entries": entries}
 
@@ -123,5 +111,5 @@ def links_v1() -> dict:
 
 
 def dumps_catalog(doc: dict) -> str:
-    """Byte-for-byte how the migration script wrote the live file."""
+    """The format of the live file: two-space indent, no trailing newline."""
     return json.dumps(doc, indent=2)

@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A 1,425-texture PNG remaster for the Italian-capable European PS2 release.
+version: Public source snapshot (2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/king-kong-peter-jacksons-the-official-game-of-the-movie-sles-53703.659015/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - TexMaster
-  credits: HD texture pack created by TexMaster; normalized and mirrored by EmuCoreX. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/king-kong-peter-jacksons-the-official-game-of-the-movie-sles-53703.659015/
-  version: Public source snapshot (2026-07-26)
-  preview_urls: []

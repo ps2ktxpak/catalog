@@ -5,7 +5,7 @@ import pytest
 
 from ps2ktxpak import compile as C
 from ps2ktxpak import validate
-from ps2ktxpak.common import CACHE, load_yaml, write_json, write_jsonl, write_yaml
+from ps2ktxpak.common import load_yaml, write_json, write_jsonl, write_yaml
 
 CREATOR = {"id": "dev1", "name": "Dev One"}
 PACK = {"key": "slus-20000-dev1", "name": "A Pack", "game": {"title": "A Game", "serials": ["SLUS-20000"]},
@@ -106,24 +106,30 @@ def test_effective_cost_prefers_the_packs_own_override():
 
 # ---- against the real data -----------------------------------------------------------------------
 
-LIVE = CACHE / "live" / "textures.json"
+def test_the_compiled_catalog_takes_archive_facts_from_the_archives_and_always_names_an_author():
+    d = validate.load_all()
+    archives = {a["key"]: a for a in d["archives"].values()}
+    published = {(p.get("catalog_id") or p["key"]): p for p in d["packs"].values() if p["hosting"]["state"] == "published"}
+    doc = C.catalog()
+    assert doc["schemaVersion"] == 2 and len(doc["entries"]) == len(published)
+    assert len({e["id"] for e in doc["entries"]}) == len(doc["entries"])
+    for e in doc["entries"]:
+        pack = published[e["id"]]
+        a = archives[pack["key"]]
+        v = next(x for x in a["versions"] if x["revision"] == a["current"])
+        assert (e["sha256"], e["sizeBytes"], e["fileCount"], e["format"], e["archiveRevision"], e["decompressedSizeBytes"]) == (
+            v["sha256"], v["size_bytes"], v["file_count"], v["container"], v["revision"], v["decompressed_size_bytes"])
+        assert e["downloadUrl"] == f"https://dl.ps2ktxpak.net/{v['object']}"
+        assert e["authors"] and all(x.strip() for x in e["authors"])   # older apps drop an entry with none
+        assert e["sourceUrl"].startswith("https://")
+        assert e["version"] == pack.get("version", "") and e["gameTitle"] == pack["game"]["title"]
 
 
-@pytest.mark.skipif(not LIVE.exists(), reason="needs cache/live/textures.json (run import-legacy once)")
-def test_faithful_compile_reproduces_the_published_catalog_byte_for_byte():
-    assert C.dumps_catalog(C.catalog("faithful")) == LIVE.read_text(encoding="utf-8")
-
-
-def test_cleaned_compile_changes_only_credit_text_and_never_archive_facts():
-    faithful, cleaned = C.catalog("faithful")["entries"], C.catalog("cleaned")["entries"]
-    assert [e["id"] for e in faithful] == [e["id"] for e in cleaned]
-    keep = ("id", "name", "gameTitle", "serials", "downloadUrl", "format", "archiveRevision",
-            "decompressedSizeBytes", "sizeBytes", "sha256", "fileCount", "description", "previewUrls")
-    for a, b in zip(faithful, cleaned):
-        assert {k: a[k] for k in keep} == {k: b[k] for k in keep}
-        assert b["authors"] and all(x.strip() for x in b["authors"])   # older apps drop an entry with none
-        assert b["sourceUrl"].startswith("https://")
-
-
-def test_the_real_data_validates():
-    assert validate.run(quiet=True) == 0
+def test_a_pack_with_no_credits_is_compiled_as_an_unknown_creator_and_previews_come_from_stored_copies(tree):
+    p = copy.deepcopy(PACK)
+    p.update(credits=[], version="1.2", media={"images": [{"source_url": "https://x.example/a.png"}, {"storage_key": "previews/a.webp"}]})
+    tree.write(pack=p)
+    (e,) = C.catalog()["entries"]
+    assert e["authors"] == ["Unknown creator"] and e["credits"] == "Creator not identified."
+    assert e["version"] == "1.2"
+    assert e["previewUrls"] == ["https://dl.ps2ktxpak.net/previews/a.webp"]

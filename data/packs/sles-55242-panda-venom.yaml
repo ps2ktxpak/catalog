@@ -11,6 +11,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A North American pack with completed UI, story cutscenes and main battle stages plus extensive Kamurocho, character and NPC coverage; the author notes optional PAL folder renaming.
+version: Public source snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/yakuza-2-usa-hd-remaster.624885/
@@ -40,11 +41,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/yakuza-2-usa-hd-remaster.624885/
-  version: Public source snapshot
-  preview_urls: []

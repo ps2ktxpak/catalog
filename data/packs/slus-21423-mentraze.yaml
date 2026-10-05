@@ -20,6 +20,7 @@ credits:
 type: unknown
 completeness: unknown
 description: Compact high-resolution frontend, map, font, weapon-icon and HUD texture pack for the North American PS2 release.
+version: 1.0-emucorex1
 sources:
 - kind: other
   url: https://libertycity.net/files/gta-liberty-city-stories/239459-gta-liberti-siti-storis-hq-hud-dlya-pcsx2.html
@@ -29,21 +30,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Mentraze
-  - Ash_735
-  - djdarko
-  - Nihilist.
-  - RD4
-  - Ryadica926
-  - SonofUgly
-  - UnitedMel
-  - Tervel1337
-  - Flentric
-  - Matt1010
-  credits: HQ frontend pack by Mentraze with credited community texture contributors; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
-  license: See source page terms
-  source_url: https://libertycity.net/files/gta-liberty-city-stories/239459-gta-liberti-siti-storis-hq-hud-dlya-pcsx2.html
-  version: 1.0-emucorex1
-  preview_urls: []

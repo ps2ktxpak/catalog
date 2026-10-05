@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: Near-complete HD texture remaster with widescreen-oriented portraits and interface assets.
+version: 0.91 mirror
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/digital-devil-saga-2-usa-hd-remaster.620814/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
-  license: See original author source terms
-  source_url: https://gbatemp.net/threads/digital-devil-saga-2-usa-hd-remaster.620814/
-  version: 0.91 mirror
-  preview_urls: []

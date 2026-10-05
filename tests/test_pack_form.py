@@ -149,7 +149,7 @@ def test_editing_keeps_what_the_form_does_not_show(tmp_path):
     assert not list(SCHEMA_CHECK.iter_errors(rec))
     assert rec["description"] == "A new description."
     assert rec["media"]["videos"] == [{"provider": "youtube", "id": "1GXan3ZnYwg", "title": "Trailer"}]
-    for untouched in ("catalog_id", "legacy", "hosting", "permission", "credits", "sources", "game", "name"):
+    for untouched in ("catalog_id", "version", "hosting", "permission", "credits", "sources", "game", "name"):
         assert rec[untouched] == base[untouched], untouched
     assert "access" not in rec  # cost, permission and hosting are for a new pack only
 
@@ -181,7 +181,7 @@ def test_an_edit_of_a_pack_without_credits_is_not_blocked():
     assert build(d, base=base)["problems"] == []
 
 
-def test_file_names_are_derived_the_way_the_importer_derives_them():
+def test_existing_file_names_follow_the_rule_for_new_ones():
     packs = [(f.stem, load_yaml(f)) for f in sorted(PACKS_DIR.glob("*.yaml"))]
     cases = [{"serials": p["game"]["serials"], "lead": (p["credits"][0]["creator"] if p["credits"] else "unknown"), "existing": []} for _, p in packs]
     got = run("newKey", cases=cases)

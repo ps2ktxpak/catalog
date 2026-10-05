@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: complete
 description: A completed North American pack covering the full game, including fixes for glow, black textures, the health bar and main menu.
+version: v1.2 complete public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/drakan-the-ancients-gates-ntsc-hd-texture-pack-completed.645589/
@@ -33,11 +34,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - SomberTwilight
-  credits: Complete HD texture pack created by SomberTwilight; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/drakan-the-ancients-gates-ntsc-hd-texture-pack-completed.645589/
-  version: v1.2 complete public snapshot
-  preview_urls: []

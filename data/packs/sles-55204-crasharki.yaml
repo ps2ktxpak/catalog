@@ -14,6 +14,7 @@ credits:
 type: unknown
 completeness: complete
 description: Characters, environments, frontend, fonts and controller prompts rebuilt from Xbox 360 assets and upscales.
+version: 75b0d241
 sources:
 - kind: repository
   url: https://github.com/CRASHARKI/cmom-tp
@@ -25,12 +26,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - CRASHARKI
-  - 'Null'
-  credits: Created by CRASHARKI; Xbox 360 texture assistance by Null.
-  license: See source repository terms
-  source_url: https://github.com/CRASHARKI/cmom-tp
-  version: 75b0d241
-  preview_urls: []

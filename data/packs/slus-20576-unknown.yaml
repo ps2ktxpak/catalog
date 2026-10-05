@@ -9,6 +9,7 @@ credits: []
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: mirror
   url: https://archive.org/details/pcsx2-hd-texture-packs
@@ -20,11 +21,3 @@ hosting:
   state: published
 needs_review:
 - credit_unknown
-legacy:
-  authors:
-  - Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.
-  credits: HD texture pack credited by the source to Original texture creator is not identified in the public mirror; preserved by the PCSX2 HD Texture Packs community archive.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://archive.org/details/pcsx2-hd-texture-packs
-  version: Complete public source snapshot
-  preview_urls: []

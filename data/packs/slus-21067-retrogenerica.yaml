@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: Complete HD fighter, arena, effects and interface texture replacements for the North American PS2 release.
+version: 2024 update (mirrored 2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/digimon-rumble-arena-2-ps2-hd-remaster-xbox-button-texture-pack-100-complete.625734/
@@ -46,11 +47,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - RetroGenerica
-  credits: HD texture pack created by RetroGenerica (formerly DerekGeneric831); normalized to a clean texture-only ZIP and mirrored by EmuCoreX with the original source retained. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/625734/
-  version: 2024 update (mirrored 2026-07-26)
-  preview_urls: []

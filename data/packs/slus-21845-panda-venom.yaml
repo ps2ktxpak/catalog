@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: incomplete
 description: A work-in-progress North American texture pack covering the interface and a substantial selection of characters, monsters and environments.
+version: v0.5 incomplete public snapshot
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/raidou-kuzunoha-vs-king-abaddon-usa-hd-remaster-work-in-progress.626832/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: Incomplete AI-upscaled texture pack created by Panda_Venom; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/raidou-kuzunoha-vs-king-abaddon-usa-hd-remaster-work-in-progress.626832/
-  version: v0.5 incomplete public snapshot
-  preview_urls: []

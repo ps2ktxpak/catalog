@@ -10,6 +10,7 @@ credits:
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: repository
   url: https://github.com/vStar925/Mortal-Kombat-Deception-Remastered/releases/tag/PCSX2-1.13
@@ -19,12 +20,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Mortal Kombat Deception remastered texture pack created
-  - maintained by vStar925.
-  credits: HD texture pack credited by the source to Mortal Kombat Deception remastered texture pack created and maintained by vStar925.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://github.com/vStar925/Mortal-Kombat-Deception-Remastered/releases/tag/PCSX2-1.13
-  version: Complete public source snapshot
-  preview_urls: []

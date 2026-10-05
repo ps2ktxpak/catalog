@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: partial
 description: Partial pack containing upgraded user-interface and font textures only for the North American PS2 release; it does not replace the game's world or character textures.
+version: 2026-07-22 mirror
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/spider-man-2-usa-hd-textures-ui-font-only.625622/
@@ -33,11 +34,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: Partial HD interface and font texture pack created by Panda_Venom; preserved from the original GBAtemp release and repackaged to ZIP by EmuCoreX with the original source retained. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/spider-man-2-usa-hd-textures-ui-font-only.625622/
-  version: 2026-07-22 mirror
-  preview_urls: []

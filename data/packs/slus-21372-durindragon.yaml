@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: The author's preferred 6x DDS variant with additional generative-AI detail for the North American PS2 release; it is distinct from the faithful 6x and anime-style 4x variants.
+version: 6x Upscale with Extra Detail (2025-11-25; mirrored 2026-07-26)
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/the-legend-of-spyro-a-new-beginning-pcsx2-6x-upscaled-hd-texture-pack.677477/
@@ -35,11 +36,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - DurinDragon
-  credits: 6x upscaled extra-detail texture pack created by DurinDragon; normalized to a texture-only ZIP and mirrored by EmuCoreX after an exact 423-file comparison with the author's public archive. All rights remain with the original creator.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/the-legend-of-spyro-a-new-beginning-pcsx2-6x-upscaled-hd-texture-pack.677477/
-  version: 6x Upscale with Extra Detail (2025-11-25; mirrored 2026-07-26)
-  preview_urls: []

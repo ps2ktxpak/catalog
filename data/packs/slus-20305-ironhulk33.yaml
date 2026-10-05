@@ -11,6 +11,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+version: Complete public source snapshot
 sources:
 - kind: mirror
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -26,12 +27,3 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
-legacy:
-  authors:
-  - Texture pack credited to NapoleonGaming by the curated PCSX2 HD Texture Project list; original archive filename
-  - cryptographic source hashes retained by EmuCoreX.
-  credits: HD texture pack credited by the source to Texture pack credited to NapoleonGaming by the curated PCSX2 HD Texture Project list; original archive filename and cryptographic source hashes retained by EmuCoreX.; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://archive.org/details/pcsx2-hd-texture-packs
-  version: Complete public source snapshot
-  preview_urls: []

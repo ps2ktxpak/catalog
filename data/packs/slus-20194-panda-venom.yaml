@@ -10,6 +10,7 @@ credits:
 type: handcrafted
 completeness: complete
 description: Completed HD texture remaster with portraits, interface and text replacements.
+version: 1.0 mirror
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/grandia-ii-usa-hd-remaster.652072/
@@ -42,11 +43,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - Panda_Venom
-  credits: HD remaster created and maintained by Panda_Venom; repacked to ZIP and mirrored by EmuCoreX with the original source retained.
-  license: See original author source terms
-  source_url: https://gbatemp.net/threads/grandia-ii-usa-hd-remaster.652072/
-  version: 1.0 mirror
-  preview_urls: []

@@ -37,7 +37,7 @@ export function nameKey(s) {
   return s.toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 
-/** Which creator each name or alias belongs to, as the importers match them. creators: [{ id, name, aliases }] */
+/** Which creator each name or alias belongs to, matched ignoring case and punctuation. creators: [{ id, name, aliases }] */
 export function indexNames(creators) {
   const owners = new Map();
   for (const c of creators) {

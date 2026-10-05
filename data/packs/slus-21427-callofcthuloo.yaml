@@ -10,6 +10,7 @@ credits:
 type: ai_upscale
 completeness: complete
 description: The author's 4K North American replacement variant, selected from the separately published HD and 4K archives.
+version: 4K public source variant
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/wwe-smackdown-vs-raw-2007-slus-21427-hd-texture-pack-upscale.681105/
@@ -49,11 +50,3 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
-legacy:
-  authors:
-  - callofcthuloo
-  credits: 4K AI-upscaled texture pack created by callofcthuloo; normalized and mirrored by EmuCoreX.
-  license: See source page terms
-  source_url: https://gbatemp.net/threads/wwe-smackdown-vs-raw-2007-slus-21427-hd-texture-pack-upscale.681105/
-  version: 4K public source variant
-  preview_urls: []
