@@ -1,19 +1,20 @@
 name: Site
 
 # Validates the data, builds the site, runs the tests, and keeps the built site as a downloadable
-# artifact. It is published to GitHub Pages only when the repository variable PAGES is "true"
-# (Pages needs a public repository on the free plan).
+# artifact. Pull requests get the same checks. Only main is published to GitHub Pages, and only when
+# the repository variable PAGES is "true" (Pages needs a public repository on the free plan).
 
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: site
+  group: site-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -57,13 +58,13 @@ jobs:
           retention-days: 14
 
       - uses: actions/upload-pages-artifact@v3
-        if: vars.PAGES == 'true'
+        if: vars.PAGES == 'true' && github.ref == 'refs/heads/main'
         with:
           path: site/dist
 
   deploy:
     needs: build
-    if: vars.PAGES == 'true'
+    if: vars.PAGES == 'true' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       pages: write
