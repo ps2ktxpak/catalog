@@ -8,6 +8,7 @@ credits:
 - creator: thomasweissenfluh
 type: ai_upscale
 completeness: complete
+description: Test of the submission workflow on a listed pack.
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/007-from-russia-with-love-upscaled-enhanced-texture-pack.660784/
