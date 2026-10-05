@@ -4,6 +4,8 @@ game:
   title: '007: From Russia with Love'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20999
 credits:
 - creator: thomasweissenfluh
 type: ai_upscale
@@ -14,8 +16,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: creator_approved
+  date: '2026-10-05'
+  note: Approval stated by the submitter on the web form.
 hosting:
-  state: listed
+  state: published
+  since: '2026-10-05'
 download:
   status: resolved
   url: https://archive.org/details/007-from-russia-with-love-upscaled-enhanced-texture-pack
