@@ -30,3 +30,10 @@ def test_every_credited_creator_has_a_page_and_an_uncredited_pack_says_not_named
     pages = {p.name for p in (ROOT / "site" / "dist" / "creators").iterdir() if p.is_dir()}
     assert credited <= pages, sorted(credited - pages)[:5]
     assert "Not named" in PAGE.read_text(encoding="utf-8")
+
+
+@pytest.mark.skipif(not PAGE.exists(), reason="build the site first: cd site && npm run build")
+def test_every_page_links_back_to_the_repository_in_its_header():
+    pages = [PAGE, PAGE.parent / "creators" / "index.html", PAGE.parent / "packs" / "edit" / "index.html"]
+    for page in pages:
+        assert 'href="https://github.com/ps2ktxpak/catalog"' in page.read_text(encoding="utf-8"), page

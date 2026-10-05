@@ -14,6 +14,8 @@ export default defineConfig({
       title: 'PS2 Texture Packs',
       description: 'PS2 texture packs.',
       customCss: ['./src/styles/catalog.css'],
+      // The header link back to the repository, where the data is edited.
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/ps2ktxpak/catalog' }],
       head: [{ tag: 'meta', attrs: { name: 'robots', content: 'noindex, nofollow' } }],
       sidebar: [
         { label: 'Packs', link: '/' },

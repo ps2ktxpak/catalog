@@ -102,3 +102,4 @@
 .pk-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .pk-set[hidden] { display: none; }
 .pk-button[hidden] { display: none; }
+.pk-count .pk-small { margin-left: 0.6rem; vertical-align: middle; }
