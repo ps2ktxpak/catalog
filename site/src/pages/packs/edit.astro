@@ -153,7 +153,8 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     <ul class="pk-muted" data-pk-notes></ul>
     <textarea class="pk-yaml" data-pk-yaml readonly rows="12" spellcheck="false" aria-label="Generated file"></textarea>
     <p class="pk-actions">
-      <a class="pk-button" data-pk-open rel="noopener" target="_blank" aria-disabled="true">Open in GitHub</a>
+      <a class="pk-button" data-pk-open rel="noopener" target="_blank" aria-disabled="true">Submit on GitHub</a>
+      <a class="pk-button pk-secondary" data-pk-fallback rel="noopener" target="_blank" hidden>Copy YAML and open the GitHub editor</a>
       <button type="button" class="pk-button pk-secondary" data-pk-copy>Copy YAML</button>
       <span class="pk-muted" data-pk-note></span>
     </p>
@@ -171,13 +172,11 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
   import schema from '../../../../schema/pack.schema.json';
   import {
     KEY_PATTERN, buildPack, check, cleanDraft, draftFromPack, dumpYaml, editUrl, emptyDraft, emptyNewFileUrl, filePath,
-    newFileUrl, newKey, rawUrl, similarPacks,
+    newFields, newKey, rawUrl, similarPacks, submissionSet,
   } from '../../lib/pack-form.mjs';
+  import { MAX_LINK, issueUrl, makeSubmission } from '../../lib/submission.mjs';
   import { BRANCH } from '../../lib/form-core.mjs';
   import { detectSourceKind } from '../../lib/vocab.mjs';
-
-  // GitHub accepts long addresses, but past this the prefilled link stops being dependable.
-  const MAX_LINK = 7000;
 
   const $ = <T extends Element>(sel: string, from: ParentNode = document) => from.querySelector<T>(sel)!;
   const json = (id: string) => JSON.parse($(`#${id}`).textContent!);
@@ -196,6 +195,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     notes: $('[data-pk-notes]'),
     yaml: $<HTMLTextAreaElement>('[data-pk-yaml]'),
     open: $<HTMLAnchorElement>('[data-pk-open]'),
+    fallback: $<HTMLAnchorElement>('[data-pk-fallback]'),
     copy: $<HTMLButtonElement>('[data-pk-copy]'),
     note: $('[data-pk-note]'),
     steps: $('[data-pk-steps]'),
@@ -313,30 +313,26 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     out.steps.replaceChildren();
     const step = (t: string) => out.steps.append(li(t));
 
-    let prefill = false;
-    if (base) {
-      out.open.dataset.mode = 'copy';
-      out.open.textContent = 'Copy YAML and open GitHub';
-      setOpen(blocked ? null : editUrl(key));
-      step(`The editor opens on ${filePath(key)} as on ${BRANCH}.`);
-      step('The text is copied; its contents replace the file’s (Ctrl+A, Ctrl+V).');
-      step('“Propose changes”, then “Create pull request”. Without write access, GitHub forks the repository first.');
+    // The submission is what changed, not the whole file; the workflow rebuilds the file from it.
+    const sub = makeSubmission({
+      kind: 'pack', op: base ? 'update' : 'create', id: key, set: submissionSet({ draft, creators, base }),
+      creating: base ? null : newFields(draft),
+    });
+    const url = blocked ? null : issueUrl(sub);
+    const fits = !url || url.length <= MAX_LINK;
+    setOpen(fits ? url : null);
+    out.fallback.hidden = fits;
+    if (!fits) {
+      // Too long for an issue address: the file is edited by hand in GitHub's editor instead.
+      out.fallback.href = base ? editUrl(key) : emptyNewFileUrl(key);
+      step('Too long to submit from here. The editor opens on the file and the copied YAML is pasted in (Ctrl+A, Ctrl+V).');
+      step('“Propose changes” or “Propose new file”, then “Create pull request”.');
     } else {
-      const url = blocked ? null : newFileUrl(key, text);
-      prefill = !!url && url.length <= MAX_LINK;
-      out.open.dataset.mode = prefill || !url ? 'link' : 'copy';
-      out.open.textContent = prefill || !url ? 'Open in GitHub' : 'Copy YAML and open GitHub';
-      setOpen(!url ? null : prefill ? url : emptyNewFileUrl(key));
-      if (prefill || !url) {
-        step(`The editor opens with ${key ? filePath(key) : 'the file'} filled in.`);
-      } else {
-        step(`The editor opens on a new file, ${filePath(key)}. The text is too long to prefill, so it is copied (Ctrl+V).`);
-      }
-      step('“Propose new file”, then “Create pull request”. Without write access, GitHub forks the repository first.');
-      if (clean.hosting === 'hosted') step('Hosted: once merged, a copy is made from the sources, with the approval stated here.');
-      else step('Listed only: no copy is made.');
+      step('GitHub opens a new issue with the submission filled in.');
+      step('Who is submitting is stated there, with a link that shows it.');
+      step('“Submit new issue” is pressed, and a pull request is opened from it automatically.');
     }
-    step('A note on who submitted this, with a link that shows it, belongs in the pull request description.');
+    if (!base) step(clean.hosting === 'hosted' ? 'Hosted: once merged, a copy is made from the sources, with the approval stated here.' : 'Listed only: no copy is made.');
   }
 
   // ---- events -----------------------------------------------------------------------------------
@@ -376,13 +372,11 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     }
   }
   out.copy.addEventListener('click', copy);
-  out.open.addEventListener('click', async (e) => {
-    if (out.open.getAttribute('aria-disabled') === 'true') {
-      e.preventDefault();
-      return;
-    }
-    if (out.open.dataset.mode === 'copy') await copy(); // an edit page cannot be prefilled, so the text goes on the clipboard
+  out.open.addEventListener('click', (e) => {
+    if (out.open.getAttribute('aria-disabled') === 'true') e.preventDefault();
   });
+  // The editor cannot be prefilled when a file is edited, so the text goes on the clipboard as the editor opens.
+  out.fallback.addEventListener('click', () => void copy());
 
   const hostingNote = () => {
     $('[data-pk-hosting-note]').textContent =

@@ -22,18 +22,19 @@ The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 
 ## Without git
 
-`/creators/edit/` on the site is a form that writes a creator file: a new one, or an existing one
-(`?id=<handle>`). A new creator opens in GitHub's web editor with the file already filled in; GitHub
-forks the repository for anyone without write access and the submission becomes a pull request. An existing
-file is opened in the editor with the new text on the clipboard, because GitHub cannot prefill an edit. Fields
-set through the form are added to the file's `locked` list and given `web-form` provenance. The form's logic is
-`site/src/lib/creator-form.mjs`, checked against the real data and schema by `tests/test_creator_form.py`.
+`/creators/edit/` and `/packs/edit/` on the site are forms that add or change a creator or a pack
+(`?id=` or `?key=` to edit one; each creator and hosted pack in the lists has an Edit button). Submitting
+opens a GitHub issue with the change filled in; `.github/workflows/submission.yml` applies it to the data
+files, checks it, and opens a pull request that credits the submitter. Nobody needs git, a fork or write
+access. Fields set through a form are locked and carry `web-form` provenance. A new pack starts hosted (see
+`docs/policy.md`). How a submission is read and what it may change: `docs/submissions.md`.
 
-`/packs/edit/` is the same for packs (`?key=<file name>` to edit one; each hosted pack in the list has an Edit button). A new
-pack starts hosted: published, with the creator's approval as the submitter states it, and awaiting conversion until
-the pipeline has made a copy (`ps2ktxpak validate` reports those as `awaiting_conversion`, and `compile` leaves them out).
-The logic is `site/src/lib/pack-form.mjs`, tested by `tests/test_pack_form.py`.
-Pull requests run the same validator and tests as `main`.
+The logic is in `site/src/lib/` (`creator-form.mjs`, `pack-form.mjs`, `submission.mjs`, shared by the page and
+the workflow) and `tools/node/apply-submission.mjs`; `tests/test_creator_form.py`, `test_pack_form.py` and
+`test_submission.py` run it against the real data and schemas.
+
+The repository needs the setting *Allow GitHub Actions to create and approve pull requests*
+(Settings, Actions, General) for the workflow to open pull requests.
 
 ## Setup
 

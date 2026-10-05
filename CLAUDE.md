@@ -18,8 +18,10 @@ read it, because they may.
 - **People edit:** `data/creators/`, `data/packs/`, `data/overrides/`, `schema/`, `site/`.
 - **Machines write:** `data/archives/`, `data/listings/`, `data/resolution/`, and `data/links/` apart
   from `method: manual` lines. Do not hand-edit them; change the tool or the input.
-- The creator form on the site (`/creators/edit/`) writes creator files with `web-form` provenance and locks the
-  fields it sets; its output must keep round-tripping the files byte for byte (`tests/test_creator_form.py`).
+- The creator and pack forms on the site (`/creators/edit/`, `/packs/edit/`) file a GitHub issue; `.github/workflows/submission.yml`
+  applies it and opens a pull request. Their output has `web-form` provenance, locks the fields it sets, and must keep
+  round-tripping the files byte for byte (`tests/test_creator_form.py`). The issue body is untrusted input: the workflow
+  must never put it inside a command (`tests/test_submission.py` checks), and `submission.mjs` is an allowlist.
 - The pack form (`/packs/edit/`) does the same for packs. A new pack starts `published` with `permission: creator_approved`
   on the submitter's statement, so a merged pull request is what approves hosting: check the claim before merging.
 - A human edit to a creator or pack field goes through `data/overrides/hand-corrections.yaml` or is

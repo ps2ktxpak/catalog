@@ -13,8 +13,8 @@ A plan, not a promise. Order matters more than dates.
 - A tool that follows each listing's source page to the real download.
 - The pack list and creator pages as a static site, public on GitHub Pages.
 - MIT license for the repository, data included.
-- A creator form and a pack form on the site that open a pull request, so no git is needed to add or edit either. A new
-  pack starts hosted.
+- A creator form and a pack form on the site. Submitting files an issue and a workflow turns it into a pull request, so
+  no git, fork or write access is needed to add or edit either. A new pack starts hosted.
 
 ## Next
 
@@ -27,7 +27,8 @@ A plan, not a promise. Order matters more than dates.
    container image that can run anywhere (a Cloudflare container, a rented machine, or a desktop).
    Free packs only.
 5. **Creator web service.** Accounts, uploads and edits, with D1 as the store and the same compile
-   step in front of it. The static files stay what the app reads.
+   step in front of it. The static files stay what the app reads. (A sign-in relay with an in-page commit is the
+   alternative to the issue-based forms if those prove too clumsy.)
 6. **Signed metadata**, so a compromised host cannot redirect everyone's links.
 
 ## Undecided
