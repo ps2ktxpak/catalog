@@ -1,0 +1,421 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { loadCatalog } from '../../lib/catalog';
+import { COMPLETENESS_LABELS, COST_LABELS, ROLE_LABELS, SOURCE_KIND_LABELS, TYPE_LABELS } from '../../lib/vocab.mjs';
+import { href } from '../../lib/url';
+
+// Every stored creator and pack, so the form can resolve a typed name and point at packs that already cover a serial.
+const { creators, rows } = loadCatalog();
+const people = [...creators.values()].map((c) => ({ id: c.id, name: c.name, aliases: c.aliases }));
+const packs = rows.filter((r) => r.kind === 'hosted').map((r) => ({ key: r.id, name: r.packName ?? r.title, serials: r.serials }));
+const options = (labels: Record<string, string>) => Object.entries(labels);
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'Add or edit a pack',
+    description: 'A form that writes a pack file.',
+    tableOfContents: false,
+  }}
+>
+  <p class="pk-count">
+    <a href={href('/')}>Packs</a> · <a href={href('/creators/')}>Creators</a> · <a href={href('/creators/edit/')}>Add creator</a>
+  </p>
+
+  <noscript><p>JavaScript is needed for this form.</p></noscript>
+
+  <p data-pk-mode class="pk-count" aria-live="polite">New pack</p>
+
+  <form class="pk-form pk-wide" data-pk-form autocomplete="off" novalidate>
+    <label class="pk-field">
+      <span>Pack name</span>
+      <input type="text" data-f="name" maxlength="200" required placeholder="As the creator titles it" />
+    </label>
+
+    <label class="pk-field">
+      <span>Game</span>
+      <input type="text" data-f="title" required placeholder="Title of the game" />
+    </label>
+
+    <label class="pk-field">
+      <span>Game serials</span>
+      <input type="text" data-f="serials" spellcheck="false" placeholder="SLUS-20964, SLES-54841" />
+      <small class="pk-muted">Every serial the pack applies to.</small>
+    </label>
+
+    <fieldset class="pk-set">
+      <legend>Creators</legend>
+      <p class="pk-muted">Lead first. A creator has to be listed already; others are added with <a href={href('/creators/edit/')}>the creator form</a>.</p>
+      <ul class="pk-rows" data-list="credits"></ul>
+      <button type="button" class="pk-button pk-secondary" data-add="credits">Add a creator</button>
+    </fieldset>
+
+    <div class="pk-controls">
+      <label class="pk-field">
+        <span>Type</span>
+        <select data-f="type">{options(TYPE_LABELS).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+      </label>
+      <label class="pk-field">
+        <span>Completeness</span>
+        <select data-f="completeness">{options(COMPLETENESS_LABELS).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+      </label>
+    </div>
+
+    <label class="pk-field">
+      <span>Description</span>
+      <textarea data-f="description" rows="4" maxlength="2000" class="pk-text"></textarea>
+    </label>
+
+    <fieldset class="pk-set">
+      <legend>Sources</legend>
+      <p class="pk-muted">Where the pack is announced or distributed. Hosting is made from these.</p>
+      <ul class="pk-rows" data-list="sources"></ul>
+      <button type="button" class="pk-button pk-secondary" data-add="sources">Add a source</button>
+    </fieldset>
+
+    <fieldset class="pk-set">
+      <legend>Pictures</legend>
+      <p class="pk-muted">Screenshots by the creator, shown at the address where the creator shows them.</p>
+      <ul class="pk-rows" data-list="images"></ul>
+      <button type="button" class="pk-button pk-secondary" data-add="images">Add a picture</button>
+    </fieldset>
+
+    <fieldset class="pk-set">
+      <legend>Videos</legend>
+      <ul class="pk-rows" data-list="videos"></ul>
+      <button type="button" class="pk-button pk-secondary" data-add="videos">Add a video</button>
+    </fieldset>
+
+    <fieldset class="pk-set" data-pk-new-only>
+      <legend>Hosting</legend>
+      <div class="pk-controls">
+        <label class="pk-field">
+          <span>Cost where the creator distributes it</span>
+          <select data-f="cost">{options(COST_LABELS).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+        </label>
+        <label class="pk-field">
+          <span>Hosting</span>
+          <select data-f="hosting">
+            <option value="hosted">Hosted, with the creator’s approval</option>
+            <option value="listed">Listed only</option>
+          </select>
+        </label>
+      </div>
+      <p class="pk-muted" data-pk-hosting-note></p>
+    </fieldset>
+  </form>
+
+  <datalist id="pk-creator-names">
+    {people.map((c) => <option value={c.name} />)}
+  </datalist>
+
+  <template data-row="credits">
+    <li class="pk-row">
+      <input type="text" data-k="who" list="pk-creator-names" aria-label="Creator" placeholder="Creator name" />
+      <select data-k="role" aria-label="Role">{options(ROLE_LABELS).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+      <input type="text" data-k="note" aria-label="Note" placeholder="Note (optional)" />
+      <button type="button" class="pk-button pk-secondary" data-remove aria-label="Remove">×</button>
+    </li>
+  </template>
+
+  <template data-row="sources">
+    <li class="pk-row">
+      <select data-k="kind" aria-label="Kind of source">{options(SOURCE_KIND_LABELS).map(([v, l]) => <option value={v}>{l}</option>)}</select>
+      <input type="text" inputmode="url" spellcheck="false" data-k="url" aria-label="Address" placeholder="https://…" />
+      <label class="pk-inline"><input type="checkbox" data-k="primary" /> Main</label>
+      <input type="text" data-k="note" aria-label="Note" placeholder="Note (optional)" />
+      <button type="button" class="pk-button pk-secondary" data-remove aria-label="Remove">×</button>
+    </li>
+  </template>
+
+  <template data-row="images">
+    <li class="pk-row">
+      <input type="text" inputmode="url" spellcheck="false" data-k="url" aria-label="Picture address" placeholder="https://…" />
+      <input type="text" data-k="alt" maxlength="200" aria-label="Description of the picture" placeholder="What it shows" />
+      <input type="text" data-k="caption" maxlength="200" aria-label="Caption" placeholder="Caption (optional)" />
+      <input type="text" data-k="who" list="pk-creator-names" aria-label="Picture credit" placeholder="Credit" />
+      <button type="button" class="pk-button pk-secondary" data-remove aria-label="Remove">×</button>
+    </li>
+  </template>
+
+  <template data-row="videos">
+    <li class="pk-row">
+      <input type="text" inputmode="url" spellcheck="false" data-k="url" aria-label="YouTube address" placeholder="https://www.youtube.com/watch?v=…" />
+      <input type="text" data-k="title" maxlength="200" aria-label="Title" placeholder="Title (optional)" />
+      <button type="button" class="pk-button pk-secondary" data-remove aria-label="Remove">×</button>
+    </li>
+  </template>
+
+  <section class="pk-result" aria-live="polite">
+    <h2>File</h2>
+    <p class="pk-muted" data-pk-path></p>
+    <ul class="pk-problems" data-pk-problems></ul>
+    <ul class="pk-muted" data-pk-notes></ul>
+    <textarea class="pk-yaml" data-pk-yaml readonly rows="12" spellcheck="false" aria-label="Generated file"></textarea>
+    <p class="pk-actions">
+      <a class="pk-button" data-pk-open rel="noopener" target="_blank" aria-disabled="true">Open in GitHub</a>
+      <button type="button" class="pk-button pk-secondary" data-pk-copy>Copy YAML</button>
+      <span class="pk-muted" data-pk-note></span>
+    </p>
+    <ul class="pk-muted pk-steps" data-pk-steps></ul>
+  </section>
+
+  <script type="application/json" id="pk-creators" set:html={JSON.stringify(people)} />
+  <script type="application/json" id="pk-packs" set:html={JSON.stringify(packs)} />
+  <script type="application/json" id="pk-base" set:html={JSON.stringify(import.meta.env.BASE_URL)} />
+</StarlightPage>
+
+<script>
+  import Ajv2020 from 'ajv/dist/2020';
+  import YAML from 'yaml';
+  import schema from '../../../../schema/pack.schema.json';
+  import {
+    KEY_PATTERN, buildPack, check, cleanDraft, draftFromPack, dumpYaml, editUrl, emptyDraft, emptyNewFileUrl, filePath,
+    newFileUrl, newKey, rawUrl, similarPacks,
+  } from '../../lib/pack-form.mjs';
+  import { BRANCH } from '../../lib/form-core.mjs';
+  import { detectSourceKind } from '../../lib/vocab.mjs';
+
+  // GitHub accepts long addresses, but past this the prefilled link stops being dependable.
+  const MAX_LINK = 7000;
+
+  const $ = <T extends Element>(sel: string, from: ParentNode = document) => from.querySelector<T>(sel)!;
+  const json = (id: string) => JSON.parse($(`#${id}`).textContent!);
+  const creators: { id: string; name: string; aliases: string[] }[] = json('pk-creators');
+  const packs: { key: string; name: string; serials: string[] }[] = json('pk-packs');
+  const baseUrl: string = json('pk-base');
+  const AjvCtor = (Ajv2020 as any).default ?? Ajv2020;
+  const validate = new AjvCtor({ allErrors: true, strict: false }).compile(schema);
+  const date = new Date().toISOString().slice(0, 10);
+
+  const form = $<HTMLFormElement>('[data-pk-form]');
+  const out = {
+    mode: $('[data-pk-mode]'),
+    path: $('[data-pk-path]'),
+    problems: $('[data-pk-problems]'),
+    notes: $('[data-pk-notes]'),
+    yaml: $<HTMLTextAreaElement>('[data-pk-yaml]'),
+    open: $<HTMLAnchorElement>('[data-pk-open]'),
+    copy: $<HTMLButtonElement>('[data-pk-copy]'),
+    note: $('[data-pk-note]'),
+    steps: $('[data-pk-steps]'),
+  };
+  const field = <T extends HTMLElement = HTMLInputElement>(name: string) => $<T>(`[data-f="${name}"]`);
+  const link = (path: string) => baseUrl.replace(/\/$/, '') + path;
+
+  let base: any = null; // the stored record when editing
+  let baseText = '';
+
+  // ---- rows: every input in a row is named by data-k, and the stored item it came from rides along ------
+
+  type Row = Record<string, any>;
+
+  function addRow(list: string, values: Row = {}) {
+    const tpl = $<HTMLTemplateElement>(`template[data-row="${list}"]`);
+    const row = (tpl.content.cloneNode(true) as DocumentFragment).firstElementChild as HTMLElement;
+    for (const el of row.querySelectorAll<HTMLInputElement | HTMLSelectElement>('[data-k]')) {
+      const v = values[el.dataset.k!];
+      if (v === undefined) continue;
+      if (el instanceof HTMLInputElement && el.type === 'checkbox') el.checked = !!v;
+      else el.value = v;
+    }
+    if (values.keep) row.dataset.keep = JSON.stringify(values.keep);
+    if (values.id) row.dataset.id = values.id;
+    if (list === 'sources' && values.keep) $<HTMLSelectElement>('[data-k="kind"]', row).dataset.touched = '1'; // a stored kind is not guessed again
+    $(`[data-list="${list}"]`).append(row);
+    return row;
+  }
+
+  function readRows(list: string): Row[] {
+    return [...document.querySelectorAll<HTMLElement>(`[data-list="${list}"] > li`)].map((li) => {
+      const r: Row = { keep: li.dataset.keep ? JSON.parse(li.dataset.keep) : undefined, id: li.dataset.id };
+      for (const el of li.querySelectorAll<HTMLInputElement | HTMLSelectElement>('[data-k]')) {
+        r[el.dataset.k!] = el instanceof HTMLInputElement && el.type === 'checkbox' ? el.checked : el.value;
+      }
+      return r;
+    });
+  }
+
+  // ---- draft <-> form ---------------------------------------------------------------------------
+
+  function readDraft() {
+    const d = emptyDraft();
+    for (const f of ['name', 'title', 'serials', 'type', 'completeness', 'description', 'cost', 'hosting'] as const) {
+      (d as any)[f] = field<any>(f).value;
+    }
+    d.credits = readRows('credits') as any;
+    d.sources = readRows('sources') as any;
+    d.images = readRows('images') as any;
+    d.videos = readRows('videos') as any;
+    return d;
+  }
+
+  function writeDraft(d: ReturnType<typeof emptyDraft>) {
+    for (const f of ['name', 'title', 'serials', 'type', 'completeness', 'description', 'cost']) field<any>(f).value = (d as any)[f];
+    for (const list of ['credits', 'sources', 'images', 'videos']) $(`[data-list="${list}"]`).replaceChildren();
+    d.credits.forEach((r: any) => addRow('credits', r));
+    d.sources.forEach((r: any) => addRow('sources', r));
+    d.images.forEach((r: any) => addRow('images', r));
+    d.videos.forEach((r: any) => addRow('videos', r));
+  }
+
+  // ---- output -----------------------------------------------------------------------------------
+
+  const setOpen = (url: string | null) => {
+    if (url) {
+      out.open.href = url;
+      out.open.removeAttribute('aria-disabled');
+    } else {
+      out.open.removeAttribute('href');
+      out.open.setAttribute('aria-disabled', 'true');
+    }
+  };
+  const li = (text: string, extra?: (el: HTMLLIElement) => void) => {
+    const el = document.createElement('li');
+    el.textContent = text;
+    extra?.(el);
+    return el;
+  };
+  const anchor = (text: string, url: string) => Object.assign(document.createElement('a'), { href: url, textContent: text });
+
+  function render() {
+    const draft = readDraft();
+    const { clean } = cleanDraft(draft, creators);
+
+    // A new pack's file name comes from its lowest serial and its lead creator.
+    let key = base?.key ?? '';
+    if (!base) {
+      key = clean.serials.length ? newKey(clean.serials, clean.credits[0]?.creator ?? '', packs.map((p) => p.key)) : '';
+      draft.key = key;
+    }
+
+    const problems = check({ draft, base, creators, validate, date });
+    const text = dumpYaml(buildPack({ draft, base, creators, date }));
+    const unchanged = !!base && text === baseText;
+    const blocked = problems.length > 0 || unchanged || !key;
+
+    out.path.textContent = key ? filePath(key) : '';
+    out.yaml.value = text;
+    out.yaml.rows = Math.min(36, text.split('\n').length + 1);
+    out.problems.replaceChildren(
+      ...problems.map((p: any) =>
+        li(p.message, (el) => {
+          if (p.missing) el.append(' (', anchor('add the creator', link('/creators/edit/')), ')');
+        }),
+      ),
+    );
+    out.notes.replaceChildren(
+      ...(base ? [] : similarPacks(clean.serials, packs).map((p) => li(`Already listed for these serials: ${p.name}`, (el) => el.append(' (', anchor('edit', link(`/packs/edit/?key=${p.key}`)), ')')))),
+    );
+
+    out.note.textContent = unchanged ? 'No changes' : '';
+    out.copy.disabled = blocked;
+    out.steps.replaceChildren();
+    const step = (t: string) => out.steps.append(li(t));
+
+    let prefill = false;
+    if (base) {
+      out.open.dataset.mode = 'copy';
+      out.open.textContent = 'Copy YAML and open GitHub';
+      setOpen(blocked ? null : editUrl(key));
+      step(`The editor opens on ${filePath(key)} as on ${BRANCH}.`);
+      step('The text is copied; its contents replace the file’s (Ctrl+A, Ctrl+V).');
+      step('“Propose changes”, then “Create pull request”. Without write access, GitHub forks the repository first.');
+    } else {
+      const url = blocked ? null : newFileUrl(key, text);
+      prefill = !!url && url.length <= MAX_LINK;
+      out.open.dataset.mode = prefill || !url ? 'link' : 'copy';
+      out.open.textContent = prefill || !url ? 'Open in GitHub' : 'Copy YAML and open GitHub';
+      setOpen(!url ? null : prefill ? url : emptyNewFileUrl(key));
+      if (prefill || !url) {
+        step(`The editor opens with ${key ? filePath(key) : 'the file'} filled in.`);
+      } else {
+        step(`The editor opens on a new file, ${filePath(key)}. The text is too long to prefill, so it is copied (Ctrl+V).`);
+      }
+      step('“Propose new file”, then “Create pull request”. Without write access, GitHub forks the repository first.');
+      if (clean.hosting === 'hosted') step('Hosted: once merged, a copy is made from the sources, with the approval stated here.');
+      else step('Listed only: no copy is made.');
+    }
+    step('A note on who submitted this, with a link that shows it, belongs in the pull request description.');
+  }
+
+  // ---- events -----------------------------------------------------------------------------------
+
+  form.addEventListener('input', (e) => {
+    const t = e.target as HTMLInputElement;
+    const row = t.closest<HTMLElement>('li');
+    if (row && t.dataset.k === 'url' && row.parentElement?.dataset.list === 'sources') {
+      const kind = $<HTMLSelectElement>('[data-k="kind"]', row);
+      if (!kind.dataset.touched) {
+        const found = detectSourceKind(/^https?:\/\//i.test(t.value) ? t.value : `https://${t.value}`);
+        if (found) kind.value = found;
+      }
+    }
+    render();
+  });
+  form.addEventListener('change', (e) => {
+    const t = e.target as HTMLElement;
+    if (t.matches('[data-k="kind"]')) t.dataset.touched = '1';
+    render();
+  });
+  form.addEventListener('click', (e) => {
+    const t = (e.target as HTMLElement).closest<HTMLElement>('[data-add],[data-remove]');
+    if (!t) return;
+    if (t.dataset.add) addRow(t.dataset.add, t.dataset.add === 'credits' ? { role: 'author' } : t.dataset.add === 'sources' ? { kind: 'other' } : {});
+    else t.closest('li')!.remove();
+    render();
+  });
+
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(out.yaml.value);
+      out.note.textContent = 'Copied';
+    } catch {
+      out.yaml.select();
+      out.note.textContent = 'Not copied; the selected text can be copied by hand';
+    }
+  }
+  out.copy.addEventListener('click', copy);
+  out.open.addEventListener('click', async (e) => {
+    if (out.open.getAttribute('aria-disabled') === 'true') {
+      e.preventDefault();
+      return;
+    }
+    if (out.open.dataset.mode === 'copy') await copy(); // an edit page cannot be prefilled, so the text goes on the clipboard
+  });
+
+  const hostingNote = () => {
+    $('[data-pk-hosting-note]').textContent =
+      field('hosting').value === 'hosted'
+        ? 'A converted copy is made from the sources once the pull request is merged. Paid packs are hosted only with the creator’s approval.'
+        : 'The pack is recorded and no copy is made.';
+  };
+  form.addEventListener('change', hostingNote);
+
+  // ---- start ------------------------------------------------------------------------------------
+
+  async function start() {
+    const wanted = new URLSearchParams(location.search).get('key');
+    if (wanted && KEY_PATTERN.test(wanted)) {
+      out.mode.textContent = `Loading ${wanted}…`;
+      try {
+        const res = await fetch(rawUrl(wanted), { cache: 'no-cache' });
+        if (!res.ok) throw new Error(String(res.status));
+        baseText = await res.text();
+        base = YAML.parse(baseText);
+        writeDraft(draftFromPack(base, creators));
+        $('[data-pk-new-only]').hidden = true;
+        out.mode.textContent = `Editing ${base.name}, as stored on ${BRANCH}`;
+      } catch {
+        out.mode.textContent = `No pack “${wanted}” found on ${BRANCH}. New pack.`;
+      }
+    }
+    if (!base) {
+      addRow('credits', { role: 'author' });
+      addRow('sources', { kind: 'other' });
+    }
+    hostingNote();
+    render();
+  }
+  start();
+</script>

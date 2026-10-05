@@ -15,13 +15,19 @@ const archive = 'https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6H
     tableOfContents: false,
   }}
 >
-  <p class="pk-count">{counts.hosted} hosted · {counts.listed} listed · <a href={href('/creators/')}>Creators</a></p>
+  <p class="pk-count">
+    {counts.hosted - counts.awaiting} hosted{counts.awaiting > 0 && ` · ${counts.awaiting} awaiting conversion`} · {counts.listed} listed ·
+    <a href={href('/creators/')}>Creators</a> · <a href={href('/packs/edit/')}>Add pack</a>
+  </p>
 
   <PackTable rows={rows} />
 
   <h2>Key</h2>
   <ul class="pk-legend">
     <li><span class="pk-chip pk-hosted">Hosted</span> A converted copy is available.</li>
+    {counts.awaiting > 0 && (
+      <li><span class="pk-chip pk-pending">Awaiting conversion</span> Accepted for hosting. A converted copy is not available yet.</li>
+    )}
     <li>
       <span class="pk-chip pk-listed">Listed</span> Present in the{' '}
       <a href={archive} rel="noopener noreferrer">Texture Packs Archive</a>. Not hosted.

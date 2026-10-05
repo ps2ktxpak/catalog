@@ -45,6 +45,7 @@ const details = (r: Row) =>
           <th>Status</th>
           <th>Details</th>
           <th>Source</th>
+          <th><span class="pk-sr">Edit</span></th>
         </tr>
       </thead>
       <tbody>
@@ -70,7 +71,9 @@ const details = (r: Row) =>
               </td>
             )}
             <td>
-              <span class={`pk-chip pk-${r.kind}`}>{r.kind === 'hosted' ? 'Hosted' : 'Listed'}</span>
+              <span class={`pk-chip pk-${r.kind === 'hosted' && !r.converted ? 'pending' : r.kind}`}>
+                {r.kind === 'listed' ? 'Listed' : r.converted ? 'Hosted' : 'Awaiting conversion'}
+              </span>
               {r.paid && (
                 <span class="pk-chip pk-paid" title="Listed as sold by its creator in the Texture Packs Archive.">
                   Listed as paid
@@ -93,6 +96,11 @@ const details = (r: Row) =>
                 <a href={r.source.url} rel="noopener noreferrer" target="_blank">{r.source.label}</a>
               ) : (
                 <span class="pk-muted">None</span>
+              )}
+            </td>
+            <td class="pk-edit">
+              {r.kind === 'hosted' && (
+                <a class="pk-button pk-secondary pk-small" href={href(`/packs/edit/?key=${r.id}`)}>Edit</a>
               )}
             </td>
           </tr>

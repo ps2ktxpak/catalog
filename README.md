@@ -28,6 +28,11 @@ forks the repository for anyone without write access and the submission becomes 
 file is opened in the editor with the new text on the clipboard, because GitHub cannot prefill an edit. Fields
 set through the form are added to the file's `locked` list and given `web-form` provenance. The form's logic is
 `site/src/lib/creator-form.mjs`, checked against the real data and schema by `tests/test_creator_form.py`.
+
+`/packs/edit/` is the same for packs (`?key=<file name>` to edit one; each hosted pack in the list has an Edit button). A new
+pack starts hosted: published, with the creator's approval as the submitter states it, and awaiting conversion until
+the pipeline has made a copy (`ps2ktxpak validate` reports those as `awaiting_conversion`, and `compile` leaves them out).
+The logic is `site/src/lib/pack-form.mjs`, tested by `tests/test_pack_form.py`.
 Pull requests run the same validator and tests as `main`.
 
 ## Setup

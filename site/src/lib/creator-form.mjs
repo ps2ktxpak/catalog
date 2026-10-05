@@ -4,11 +4,11 @@
 // the Python tools write it, so an untouched record round-trips byte for byte and a pull request shows
 // only what changed. Fields a person sets are added to `locked` and given a provenance entry, which is
 // how the importers know not to overwrite them.
-import YAML from 'yaml';
+import {
+  SOURCE, githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered, slugify,
+} from './form-core.mjs';
 
-export const REPO = 'ps2ktxpak/catalog';
-export const BRANCH = 'main';
-export const SOURCE = 'web-form';
+export { BRANCH, REPO, SOURCE, dumpYaml, indexNames, nameKey, normalizeUrl, slugify } from './form-core.mjs';
 
 export const ID_PATTERN = /^[a-z0-9][a-z0-9_-]{0,47}$/;
 /** Ids that would collide with a route under /creators/. */
@@ -19,25 +19,8 @@ export const FIELDS = ['name', 'aliases', 'links.page', 'links.distribution', 'l
 
 const ORDER = ['id', 'name', 'aliases', 'links', 'avatar', 'identity', 'status', 'provenance', 'locked'];
 const LINK_ORDER = ['page', 'distribution', 'tip', 'socials'];
-const MAX_URL = 2048;
 
 // ---- names -----------------------------------------------------------------------------------------
-
-/** Same rules as slugify() in tools/ps2ktxpak/common.py. */
-export function slugify(s) {
-  return s
-    .normalize('NFKD')
-    .replace(/[^\x00-\x7f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/-{2,}/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-/** Same rules as name_key() in common.py: what two spellings of one name have in common. */
-export function nameKey(s) {
-  return s.toLowerCase().replace(/[^a-z0-9]/g, '');
-}
 
 /** A free id for a new creator, derived the way Creators.ensure() derives it. */
 export function newId(name, existingIds) {
@@ -46,36 +29,6 @@ export function newId(name, existingIds) {
   let id = base;
   for (let n = 2; taken.has(id); n++) id = `${base}-${n}`;
   return id;
-}
-
-// ---- addresses -------------------------------------------------------------------------------------
-
-/** { url } for an address that can be stored, { url, error } for one that cannot. A bare host gets https://. */
-export function normalizeUrl(input) {
-  const s = String(input ?? '').trim();
-  if (!s) return { url: '' };
-  if (/\s/.test(s)) return { url: s, error: 'Addresses cannot contain spaces' };
-  if (/^[^/@:]+@[^/@:]+\.[^/@:]+$/.test(s)) return { url: s, error: 'An email address is not accepted' };
-  let url = s;
-  if (/^https:\/\//i.test(s)) {
-    // as typed
-  } else if (/^http:\/\//i.test(s)) {
-    return { url: s, error: 'Addresses must start with https://' };
-  } else if (/^[a-z][a-z0-9+.-]*:\/\//i.test(s) || /^(mailto|javascript|data|tel):/i.test(s)) {
-    return { url: s, error: 'Only https:// addresses are accepted' };
-  } else {
-    url = `https://${s}`;
-  }
-  let parsed;
-  try {
-    parsed = new URL(url);
-  } catch {
-    return { url, error: 'Not a valid address' };
-  }
-  if (parsed.username || parsed.password) return { url, error: 'Addresses cannot contain a username or password' };
-  if (!parsed.hostname.includes('.')) return { url, error: 'Not a valid address' };
-  if (url.length > MAX_URL) return { url, error: 'Address is too long' };
-  return { url };
 }
 
 // ---- drafts ----------------------------------------------------------------------------------------
@@ -130,15 +83,6 @@ export function cleanDraft(draft) {
 
 // ---- building the record ---------------------------------------------------------------------------
 
-const isEmpty = (v) => v == null || v === '' || (Array.isArray(v) && v.length === 0) || (typeof v === 'object' && !Array.isArray(v) && Object.keys(v).length === 0);
-
-function ordered(rec, order) {
-  const out = {};
-  for (const k of order) if (k in rec && !isEmpty(rec[k])) out[k] = rec[k];
-  for (const [k, v] of Object.entries(rec)) if (!(k in out) && !isEmpty(v)) out[k] = v;
-  return out;
-}
-
 /** The values of the form's fields, by the path `locked` uses. */
 function snapshot(rec) {
   const l = rec?.links ?? {};
@@ -184,24 +128,7 @@ export function buildCreator({ draft, base = null, date }) {
   return ordered(rec, ORDER);
 }
 
-/** YAML in the style of the Python dumper: sequences flush with their key, single quotes, no folding. */
-export function dumpYaml(obj) {
-  return YAML.stringify(obj, { version: '1.1', indentSeq: false, lineWidth: 0, singleQuote: true });
-}
-
 // ---- checking --------------------------------------------------------------------------------------
-
-/** Which creator each name or alias belongs to, as the importers match them. */
-export function indexNames(creators) {
-  const owners = new Map();
-  for (const c of creators) {
-    for (const n of [c.name, ...(c.aliases ?? [])]) {
-      const k = nameKey(n);
-      if (k && !owners.has(k)) owners.set(k, c);
-    }
-  }
-  return owners;
-}
 
 /**
  * Everything wrong with a draft, as { field, message, creator? }. `validate` is a compiled JSON Schema
@@ -240,9 +167,6 @@ export function check({ draft, base = null, creators, validate, date }) {
 // ---- GitHub ----------------------------------------------------------------------------------------
 
 export const filePath = (id) => `data/creators/${id}.yaml`;
-export const rawUrl = (id) => `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${filePath(id)}`;
-/** The web editor on an existing file. It cannot be prefilled; the text goes in by paste. */
-export const editUrl = (id) => `https://github.com/${REPO}/edit/${BRANCH}/${filePath(id)}`;
-/** The web editor on a new file, prefilled. Without write access GitHub forks the repository and opens a pull request. */
-export const newFileUrl = (id, text) =>
-  `https://github.com/${REPO}/new/${BRANCH}?filename=${encodeURIComponent(filePath(id))}&value=${encodeURIComponent(text)}`;
+export const rawUrl = (id) => githubRaw(filePath(id));
+export const editUrl = (id) => githubEdit(filePath(id));
+export const newFileUrl = (id, text) => githubNew(filePath(id), text);

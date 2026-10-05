@@ -32,6 +32,7 @@ const people = [...byCreator.keys()]
         <li data-search={[c.name, ...c.aliases].join(' ').toLowerCase()}>
           <a href={href(`/creators/${c.id}/`)}>{c.name}</a>
           <span class="pk-muted">{rows.length} {rows.length === 1 ? 'pack' : 'packs'}</span>
+          <a class="pk-button pk-secondary pk-small" href={href(`/creators/edit/?id=${c.id}`)}>Edit</a>
         </li>
       ))
     }

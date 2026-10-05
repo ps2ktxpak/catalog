@@ -20,6 +20,8 @@ read it, because they may.
   from `method: manual` lines. Do not hand-edit them; change the tool or the input.
 - The creator form on the site (`/creators/edit/`) writes creator files with `web-form` provenance and locks the
   fields it sets; its output must keep round-tripping the files byte for byte (`tests/test_creator_form.py`).
+- The pack form (`/packs/edit/`) does the same for packs. A new pack starts `published` with `permission: creator_approved`
+  on the submitter's statement, so a merged pull request is what approves hosting: check the claim before merging.
 - A human edit to a creator or pack field goes through `data/overrides/hand-corrections.yaml` or is
   added to that file's `locked` list, so the next import cannot undo it. Reasons are public: state the
   fact, never quote a conversation.

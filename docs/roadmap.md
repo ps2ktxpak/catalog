@@ -13,7 +13,8 @@ A plan, not a promise. Order matters more than dates.
 - A tool that follows each listing's source page to the real download.
 - The pack list and creator pages as a static site, public on GitHub Pages.
 - MIT license for the repository, data included.
-- A creator form on the site that opens a pull request, so no git is needed to add or edit a creator.
+- A creator form and a pack form on the site that open a pull request, so no git is needed to add or edit either. A new
+  pack starts hosted.
 
 ## Next
 
@@ -25,15 +26,13 @@ A plan, not a promise. Order matters more than dates.
 4. **Bring in more packs.** A bulk handoff from the Archive's maintainer, converted to ASTC by a
    container image that can run anywhere (a Cloudflare container, a rented machine, or a desktop).
    Free packs only.
-5. **Pack form.** The creator form's counterpart for packs: credits picked from the creator list,
-   game serials, sources, pictures and videos. Open questions are which hosting state and permission
-   a submitted pack starts with. The repository stays the source of truth and the validator is the gate.
-6. **Creator web service.** Accounts, uploads and edits, with D1 as the store and the same compile
+5. **Creator web service.** Accounts, uploads and edits, with D1 as the store and the same compile
    step in front of it. The static files stay what the app reads.
-7. **Signed metadata**, so a compromised host cannot redirect everyone's links.
+6. **Signed metadata**, so a compromised host cannot redirect everyone's links.
 
 ## Undecided
 
 - How the Archive is credited.
 - What to do about packs already hosted that their creators sell.
+- Whether a new pack's approval, as stated on the form, needs more than a review of the pull request.
 - Whether packs that are only listed, because they are paid, appear in the app as link-outs.

@@ -64,12 +64,18 @@
 .pk-set legend { padding: 0 0.4rem; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
 .pk-set p { margin: 0 !important; }
 .pk-rows { list-style: none; padding: 0; display: grid; gap: 0.5rem; margin: 0 !important; }
-.pk-row { display: flex; gap: 0.5rem; margin: 0 !important; }
+.pk-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 !important; }
 .pk-row input, .pk-row select {
   font: inherit; padding: 0.5rem 0.7rem; min-width: 0; color: var(--sl-color-white);
   background: var(--sl-color-black); border: 1px solid var(--sl-color-gray-4); border-radius: 0.4rem;
 }
-.pk-row input { flex: 1; }
+.pk-row input[type="text"] { flex: 1 1 10rem; }
+.pk-inline { display: inline-flex; gap: 0.35rem; align-items: center; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
+.pk-wide { max-width: 56rem; }
+.pk-text {
+  font: inherit; width: 100%; box-sizing: border-box; padding: 0.5rem 0.7rem; color: var(--sl-color-white);
+  background: var(--sl-color-black); border: 1px solid var(--sl-color-gray-4); border-radius: 0.4rem; resize: vertical;
+}
 .pk-button {
   display: inline-block; font: inherit; font-size: var(--sl-text-sm); padding: 0.5rem 0.9rem; cursor: pointer;
   color: var(--sl-color-black); background: var(--sl-color-accent-high); border: 1px solid var(--sl-color-accent-high);
@@ -77,7 +83,7 @@
 }
 .pk-secondary { color: var(--sl-color-white); background: transparent; border-color: var(--sl-color-gray-4); }
 .pk-button:disabled, .pk-button[aria-disabled="true"] { opacity: 0.45; cursor: not-allowed; }
-.pk-result { max-width: 44rem; }
+.pk-result { max-width: 56rem; }
 .pk-yaml {
   width: 100%; box-sizing: border-box; font: 0.8rem/1.45 var(--sl-font-system-mono); padding: 0.7rem 0.8rem;
   color: var(--sl-color-white); background: var(--sl-color-black); border: 1px solid var(--sl-color-gray-5);
@@ -88,3 +94,10 @@
 .pk-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; margin: 0.8rem 0 !important; }
 .pk-steps { padding-left: 1.2rem; }
 .pk-steps li { margin: 0.2rem 0 !important; }
+
+.pk-small { padding: 0.2rem 0.6rem; font-size: var(--sl-text-xs); }
+.pk-pending { border-style: dashed; border-color: var(--sl-color-accent); }
+.pk-edit { text-align: right; white-space: nowrap; }
+.pk-people .pk-small { margin-left: 0.5rem; }
+.pk-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.pk-set[hidden] { display: none; }

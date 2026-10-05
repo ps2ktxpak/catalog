@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { KIND_LABELS } from './kinds.mjs';
+import { COMPLETENESS_LABELS, TYPE_LABELS } from './vocab.mjs';
 
 const DATA = process.env.PS2KTXPAK_DATA ?? path.resolve(process.cwd(), '../data');
 
@@ -30,21 +31,15 @@ export interface Row {
   type: string;
   completeness: string;
   sizeBytes?: number;
+  /** A converted copy exists. A hosted pack without one is accepted for hosting and waiting to be converted. */
+  converted: boolean;
   /** The Archive lists it as sold by its creator. */
   paid: boolean;
   source?: { url: string; label: string };
 }
 
-const TYPE_LABEL: Record<string, string> = {
-  ai_upscale: 'AI upscale', handcrafted: 'Handcrafted', mixed: 'Mixed', port: 'Port',
-  button_replacement: 'Button replacement', unknown: 'Type not stated',
-};
-const COMPLETENESS_LABEL: Record<string, string> = {
-  complete: 'Complete', in_progress: 'In progress', incomplete: 'Incomplete', partial: 'Partial', unknown: 'Status not stated',
-};
-
-export const typeLabel = (t: string) => TYPE_LABEL[t] ?? t;
-export const completenessLabel = (c: string) => COMPLETENESS_LABEL[c] ?? c;
+export const typeLabel = (t: string): string => (TYPE_LABELS as Record<string, string>)[t] ?? t;
+export const completenessLabel = (c: string): string => (COMPLETENESS_LABELS as Record<string, string>)[c] ?? c;
 export const linkLabel = (k: string): string => (KIND_LABELS as Record<string, string>)[k] ?? 'Link';
 
 const nameKey = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -90,7 +85,7 @@ export interface Catalog {
   rows: Row[];
   creators: Map<string, Creator>;
   byCreator: Map<string, Row[]>;
-  counts: { hosted: number; listed: number; creators: number };
+  counts: { hosted: number; awaiting: number; listed: number; creators: number };
 }
 
 let cached: Catalog | null = null;
@@ -144,7 +139,7 @@ export function loadCatalog(): Catalog {
       archiveOnly,
       credit: creds.length === 0 ? 'unknown' : (p.needs_review ?? []).length ? 'review' : 'ok',
       type: p.type ?? 'unknown', completeness: p.completeness ?? 'unknown',
-      sizeBytes: v?.size_bytes, paid: cost === 'paid',
+      sizeBytes: v?.size_bytes, converted: !!a, paid: cost === 'paid',
       source: primary ? { url: primary.url, label: sourceLabel(primary.url) } : undefined,
     });
   }
@@ -156,7 +151,7 @@ export function loadCatalog(): Catalog {
       archiveOnly: [],
       credit: creds.length === 0 ? 'unknown' : 'ok',
       type: l.type ?? 'unknown', completeness: l.completeness ?? 'unknown',
-      paid: l.access.cost === 'paid',
+      converted: false, paid: l.access.cost === 'paid',
       source: l.source_page ? { url: l.source_page, label: sourceLabel(l.source_page) } : undefined,
     });
   }
@@ -167,7 +162,10 @@ export function loadCatalog(): Catalog {
 
   cached = {
     rows, creators, byCreator,
-    counts: { hosted: rows.filter((r) => r.kind === 'hosted').length, listed: rows.filter((r) => r.kind === 'listed').length, creators: byCreator.size },
+    counts: {
+      hosted: rows.filter((r) => r.kind === 'hosted').length,
+      awaiting: rows.filter((r) => r.kind === 'hosted' && !r.converted).length,
+      listed: rows.filter((r) => r.kind === 'listed').length, creators: byCreator.size },
   };
   return cached;
 }
