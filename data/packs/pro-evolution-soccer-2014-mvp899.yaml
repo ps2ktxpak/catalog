@@ -1,0 +1,25 @@
+key: pro-evolution-soccer-2014-mvp899
+name: Pro Evolution Soccer 2014
+game:
+  title: Pro Evolution Soccer 2014
+  regions:
+  - PAL
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pro-evolution-soccer-2014-pcsx2-hd-texture.664989/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/3erh23oq001cw4x/Pro_Evolution_Soccer_2014.rar/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

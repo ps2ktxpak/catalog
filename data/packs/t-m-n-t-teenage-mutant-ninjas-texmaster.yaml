@@ -1,0 +1,22 @@
+key: t-m-n-t-teenage-mutant-ninjas-texmaster
+name: T.M.N.T. - Teenage Mutant Ninjas
+game:
+  title: T.M.N.T. - Teenage Mutant Ninjas
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tmnt-sles-54478-2k-hd-texture-pack-pcsx2.680497/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  confidence: high
+  note: Download link uses ouo.io advert wall, blocks direct access.

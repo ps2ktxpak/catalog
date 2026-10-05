@@ -1,0 +1,25 @@
+key: chaos-wars-sombershroud
+name: Chaos Wars
+game:
+  title: Chaos Wars
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m
+  host: other
+  kind: file
+  confidence: medium
+  note: Primary link in the creator's opening-post list; the list also labels a mirror, and a later creator post gives a different OneDrive link, so which is newest is unclear.

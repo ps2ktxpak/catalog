@@ -1,0 +1,25 @@
+key: resident-evil-code-veronica-x-s1nk0
+name: 'Resident Evil Code: Veronica X'
+game:
+  title: 'Resident Evil Code: Veronica X'
+  regions:
+  - NTSC-U
+credits:
+- creator: s1nk0
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-code-veronica-x-99-complete-us.623432/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/b3pbge6fqjym3cy/RE_CVX_UPSCALED_DEC1822_PCSX2.zip/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

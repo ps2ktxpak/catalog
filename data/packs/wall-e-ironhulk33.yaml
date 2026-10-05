@@ -1,0 +1,16 @@
+key: wall-e-ironhulk33
+name: WALL-E
+game:
+  title: WALL-E
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/disneys-pixar-wall-e-ps2-hd-textures.669765/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

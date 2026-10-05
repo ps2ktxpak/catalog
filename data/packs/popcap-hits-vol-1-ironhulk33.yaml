@@ -1,0 +1,16 @@
+key: popcap-hits-vol-1-ironhulk33
+name: PopCap Hits! Vol. 1
+game:
+  title: PopCap Hits! Vol. 1
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: creator_page
+  url: https://patreon.com/ironhulk33
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -26,8 +26,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-10-03-22-at-07-30-pm-jpg.329940/
     thumb_url: https://gbatemp.net/data/attachments/329/329328-f8f932233b6ef3185a258f65fe651cd3.jpg?hash=-PkyIztu8x
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-genji-ui-characters-slus-97471-20260726.tar.zst
+    sha256: 74da0590ca6c8fdbec31687d649736b6e881379eb92812c8c6be281e18e2fad6
+    size_bytes: 195151093
+    decompressed_size_bytes: 498923520
+    file_count: 638
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 347280245BC50622BA5876343F6AE2F4533E0D59935999B0D29989C34CEA307F
+      size_bytes: 184339714

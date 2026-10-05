@@ -33,8 +33,27 @@ media:
   - source_url: https://gbatemp.net/attachments/mo-pao-shii-hei-ji_slpm-66164_20240913154110-png.457871/
     thumb_url: https://gbatemp.net/data/attachments/457/457259-5ec2f4ef4c7532e0be2b7511e1b46990.jpg?hash=XsL070x1Mu
     credit: mvp899
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-mahou-tsukai-kurohime-hd-remaster-community-archive-slpm-66164-20260728.tar.zst
+    sha256: e6077f3bd297b4e83db56c84de293c735779f50bcf4f985651d453e0c3f4edcf
+    size_bytes: 559698443
+    decompressed_size_bytes: 1654333440
+    file_count: 10464
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5B34590B2CDC5E6C4DC73A556F7E9E7AAE6B960767081575D1781FC179791DEA
+      size_bytes: 928349971

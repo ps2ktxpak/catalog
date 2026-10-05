@@ -1,0 +1,23 @@
+key: ape-escape-3-mvp899
+name: Ape Escape 3
+game:
+  title: Ape Escape 3
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ape-escape-3-pcsx2-hd-texture.662423/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/ogdXmSLJ#Nu-NLuwlY5kjYzPV7Ita3Q
+  host: mega
+  kind: folder
+  confidence: high
+  note: Creator's pinned YouTube comment provides MEGA folder link for texture pack.

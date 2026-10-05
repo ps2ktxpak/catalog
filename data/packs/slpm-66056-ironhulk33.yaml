@@ -19,6 +19,8 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -26,3 +28,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-mushihimesama-hd-remaster-community-archive-slpm-66056-20260728.tar.zst
+    sha256: 09c03802e344e6fdb32a4d5fc6af9a3a48a68ec7281d0e7db9841ec7617b8641
+    size_bytes: 295497249
+    decompressed_size_bytes: 422359040
+    file_count: 19839
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: B24F58DB130FCFDB72D3D7ACFC3A47FF7F977850F3AE70348700CCCCD4990A67
+      size_bytes: 610991802

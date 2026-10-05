@@ -1,0 +1,23 @@
+key: dragon-ball-z-budokai-tenkaichi-4-killxua
+name: 'Dragon Ball Z: Budokai Tenkaichi 4'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 4'
+credits:
+- creator: killxua
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-4.650391/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: ambiguous
+  url: https://www.mediafire.com/file/buu25zs4kvmdflr/textures+x2.rar/file
+  host: mediafire
+  kind: file
+  confidence: low
+  note: Creator (killxua) provided no download links in thread; links from video uploader (Ale PC), unclear if official source.

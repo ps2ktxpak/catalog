@@ -1,0 +1,12 @@
+key: ico-sad-origami-2
+name: Ico
+game:
+  title: Ico
+  regions:
+  - PAL
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: in_progress
+hosting:
+  state: listed

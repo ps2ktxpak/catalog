@@ -1,0 +1,18 @@
+key: the-legend-of-spyro-a-new-beginning-ironhulk33
+name: 'The Legend of Spyro: A New Beginning'
+game:
+  title: 'The Legend of Spyro: A New Beginning'
+  regions:
+  - NTSC-U
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/ironhulk33
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

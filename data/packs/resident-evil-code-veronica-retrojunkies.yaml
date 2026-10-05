@@ -1,0 +1,18 @@
+key: resident-evil-code-veronica-retrojunkies
+name: 'Resident Evil Code: Veronica'
+game:
+  title: 'Resident Evil Code: Veronica'
+  regions:
+  - PAL
+credits:
+- creator: retrojunkies
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-code-veronica-remastered-sles-50306.672516/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/shin-megami-tensei-devil-summoner-2-raidou-kuzunoha-vs-king-abaddon_slus-21845_2023022515-jpg.355739/
     thumb_url: https://gbatemp.net/data/attachments/355/355127-92c32ba5e58fcf8f71c98a87c8e51861.jpg?hash=ksMrpeWPz4
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-raidou-king-abaddon-slus-21845-20260726.tar.zst
+    sha256: 8026dffadc1438a96984e1903e7c029b03c4f86ada0ff9e9c2a88ee4bf9a3037
+    size_bytes: 952588406
+    decompressed_size_bytes: 1421209600
+    file_count: 7265
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 973E402B7CFC6D3A3EC72837553AF1CB7B2E32B13E8060638E4751A3438443C7
+      size_bytes: 775719984

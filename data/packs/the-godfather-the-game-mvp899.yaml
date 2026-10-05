@@ -1,0 +1,25 @@
+key: the-godfather-the-game-mvp899
+name: 'The Godfather: The Game'
+game:
+  title: 'The Godfather: The Game'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-godfather-the-game-pcsx2-hd-texture.666483/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/15oN8o6vrqPYSfTWEkJpUz68V_9ZtLCGC/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

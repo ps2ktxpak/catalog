@@ -1,0 +1,25 @@
+key: raiden-iii-curse-arms
+name: Raiden III
+game:
+  title: Raiden III
+  regions:
+  - NTSC-U
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=10eW4XwCeVegm4MI6J0G-D5hdGyHJtfGF&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

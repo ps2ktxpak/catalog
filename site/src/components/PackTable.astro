@@ -99,9 +99,7 @@ const details = (r: Row) =>
               )}
             </td>
             <td class="pk-edit">
-              {r.kind === 'hosted' && (
-                <a class="pk-button pk-secondary pk-small" href={href(`/packs/edit/?key=${r.id}`)}>Edit</a>
-              )}
+              <a class="pk-button pk-secondary pk-small" href={href(`/packs/edit/?key=${r.id}`)}>Edit</a>
             </td>
           </tr>
         ))}

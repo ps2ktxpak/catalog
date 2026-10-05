@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-kingdom-hearts-hd-remaster-community-archive-slus-20370-20260728.tar.zst
+    sha256: 6c03baab395ccbed0faaf6f7bb352cf5a0822028c39a221d7048ec1004fde0c3
+    size_bytes: 1499226829
+    decompressed_size_bytes: 2093916160
+    file_count: 8670
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EBCB6700761A7F28104A713B98D32F6F2642365A6D0D5534DA2AFD44B3F86FEA
+      size_bytes: 1152040753

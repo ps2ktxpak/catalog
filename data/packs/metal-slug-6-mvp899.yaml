@@ -1,0 +1,25 @@
+key: metal-slug-6-mvp899
+name: Metal Slug 6
+game:
+  title: Metal Slug 6
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/metal-slug-6-pcsx2-hd-texture.670389/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/VMZUBSrZ#BXz_rN1sybLEA_Nt4nsl5g
+  host: mega
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

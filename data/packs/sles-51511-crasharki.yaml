@@ -17,8 +17,27 @@ sources:
 - kind: repository
   url: https://github.com/CRASHARKI/cnk-tp
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/crasharki-crash-nitro-kart-4bb4bed6.tar.zst
+    sha256: 11f476ad0c01a9a78b6847056435eb4151fbde4c32bf81a78bd23e2b371b3b88
+    size_bytes: 10339799
+    decompressed_size_bytes: 28416000
+    file_count: 176
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 7345056E4695BCF5C9D5380AEF745C332E34CD0F3B2F52E5473969C5CD646C77
+      size_bytes: 36729171

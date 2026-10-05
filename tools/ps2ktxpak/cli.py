@@ -43,7 +43,7 @@ def main(argv=None) -> int:
     p.set_defaults(fn=cmd_validate)
 
     p = sub.add_parser("report", help="read-only views")
-    p.add_argument("which", choices=["summary", "paid-hosted", "unmatched", "credits"])
+    p.add_argument("which", choices=["summary", "paid-hosted", "credits"])
     p.set_defaults(fn=cmd_report)
 
     p = sub.add_parser("compile", help="build the files the app downloads into dist/")

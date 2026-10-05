@@ -1,0 +1,25 @@
+key: star-ocean-till-the-end-of-time-panda-venom
+name: 'Star Ocean: Till the End of Time'
+game:
+  title: 'Star Ocean: Till the End of Time'
+  regions:
+  - NTSC-U
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/star-ocean-till-the-end-of-time-usa-hd-remaster-work-in-progress.611779/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3_HD_Remaster_1.0beta.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator explicitly marked version 1.0 as latest; MediaFire link labeled 'Download 1.0beta'.

@@ -1,0 +1,23 @@
+key: mystic-heroes-freshie
+name: Mystic Heroes
+game:
+  title: Mystic Heroes
+credits:
+- creator: freshie
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mystic-heroes-hd-incomplete.639387/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/drive/folders/1v6oMoulapjwOQrY9-oozmB5HKHzFNmsZ?usp=sharing
+  host: gdrive
+  kind: folder
+  confidence: high
+  note: Creator provided latest character/boss texture pack link in follow-up post.

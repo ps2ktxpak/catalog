@@ -38,8 +38,27 @@ media:
   videos:
   - provider: youtube
     id: 0GmYfOvj0Ts
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/curse-arms-shellshock-nam-67-slus-20828-20260726.tar.zst
+    sha256: cf80cb74b852ad9d4c7bd4bc009d06b54396ef6abe30243d3c4db66a59ccff83
+    size_bytes: 193119241
+    decompressed_size_bytes: 373022720
+    file_count: 2416
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 3C31962A19EE3487D373FF0A4A2EAD93B17FC0927378C9C9B506FD0487C41DFC
+      size_bytes: 595865545

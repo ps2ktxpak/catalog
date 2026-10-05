@@ -1,0 +1,25 @@
+key: guitar-hero-sombershroud
+name: Guitar Hero
+game:
+  title: Guitar Hero
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sombershrouds-hd-textures-megamix.637948/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/4u6blz921h6slsn/SLUS-21224.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator listed specific Guitar Hero file (SLUS-21224) in opening post megamix.

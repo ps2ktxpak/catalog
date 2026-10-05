@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Pack",
-  "description": "A texture pack we host (or hold back). One file per pack at data/packs/<key>.yaml. Human-owned descriptive facts only: hashes, sizes and object names live in data/archives/ and are written by the conversion pipeline.",
+  "description": "A texture pack: one that is hosted, one held back, or one that is only known to exist (hosting.state listed). One file per pack at data/packs/<key>.yaml holds everything about it. People edit the descriptive fields; the `archive` block (hashes, sizes, object names) is written by the conversion pipeline.",
   "type": "object",
   "required": ["key", "name", "game", "credits", "hosting"],
   "additionalProperties": false,
   "properties": {
     "key": {
-      "description": "Immutable repo handle, equal to the file name: <lowest serial>-<lead creator id>[-n]. Short on purpose, so paths stay valid on Windows.",
+      "description": "Immutable repo handle, equal to the file name: <lowest serial>-<lead creator id>[-n], or <game title>-<lead creator id>[-n] for a pack with no serial yet. Short on purpose, so paths stay valid on Windows.",
       "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,79}$"
     },
     "catalog_id": {
@@ -16,10 +16,11 @@
     },
     "name": {"type": "string", "minLength": 1, "maxLength": 200},
     "game": {
-      "type": "object", "additionalProperties": false, "required": ["title", "serials"],
+      "type": "object", "additionalProperties": false, "required": ["title"],
       "properties": {
         "title": {"type": "string", "minLength": 1},
-        "serials": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^[A-Z]{4}-\\d{5}$"}}
+        "serials": {"description": "The app matches a pack to a game by serial, so a hosted pack needs at least one; a pack that is only listed may have none yet.", "type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[A-Z]{4}-\\d{5}$"}},
+        "regions": {"description": "For a pack with no serial: the regions the Texture Packs Archive lists it for.", "type": "array", "uniqueItems": true, "items": {"enum": ["NTSC-U", "PAL", "NTSC-J", "NTSC-K", "multi"]}}
       }
     },
     "credits": {
@@ -33,6 +34,10 @@
           "note": {"type": "string"}
         }
       }
+    },
+    "listed_credits": {
+      "description": "Creators the Texture Packs Archive names for this pack when `credits` does not. Shown beside the pack and on those creators' pages; not used for the catalog.",
+      "type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{0,47}$"}
     },
     "type": {"enum": ["ai_upscale", "handcrafted", "mixed", "port", "button_replacement", "unknown"]},
     "completeness": {"enum": ["complete", "in_progress", "incomplete", "partial", "unknown"]},
@@ -52,7 +57,7 @@
       }
     },
     "access": {
-      "description": "Override for what the pack costs the public at the creator's own distribution point. Normally derived from the matched sheet listing (data/links/listing-pack.jsonl); set this only to correct it, with evidence.",
+      "description": "What the pack costs the public where its creator distributes it. Absent when not known. A hosted pack that is paid needs the creator's approval in `permission`.",
       "type": "object", "additionalProperties": false, "required": ["cost"],
       "properties": {
         "cost": {"enum": ["free", "free_with_ads", "paid", "unknown"]},
@@ -73,7 +78,7 @@
     "hosting": {
       "type": "object", "additionalProperties": false, "required": ["state"],
       "properties": {
-        "state": {"enum": ["draft", "review", "published", "withheld", "withdrawn", "disputed"]},
+        "state": {"description": "published: hosted. listed: known to exist elsewhere and not hosted. withheld: we have it and hold it back.", "enum": ["draft", "review", "published", "listed", "withheld", "withdrawn", "disputed"]},
         "reason": {"type": "string"},
         "since": {"$ref": "#/$defs/date"}
       }
@@ -114,6 +119,56 @@
       "description": "Credits nobody has checked yet; a person removes an entry once checked. Facts that can be computed (no matching listing, paid but hosted) are reported by `ps2ktxpak report`, never stored here.",
       "type": "array", "uniqueItems": true,
       "items": {"enum": ["credit_assigned_from_listing", "co_credit_unconfirmed", "credit_unknown"]}
+    },
+    "download": {
+      "description": "For a pack that is not hosted: where its files were found by following its source page, and how sure. An address is recorded only when it was seen on a public page; nothing is downloaded to find it.",
+      "type": "object", "additionalProperties": false, "required": ["status"],
+      "properties": {
+        "status": {"enum": ["resolved", "ambiguous", "gated", "paid", "dead", "not_found"]},
+        "url": {"$ref": "#/$defs/url"},
+        "host": {"type": "string"},
+        "kind": {"enum": ["file", "folder", "page", "shop", "unknown"]},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "note": {"type": "string"}
+      }
+    },
+    "archive": {
+      "description": "What the conversion pipeline produced for this pack. Written by the pipeline, never by hand. A new revision is appended, an old one is never changed, and objects are never overwritten under the same name.",
+      "type": "object", "additionalProperties": false, "required": ["current", "versions"],
+      "properties": {
+        "current": {"description": "Revision the catalog serves.", "type": "integer", "minimum": 1},
+        "versions": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["revision", "container", "object", "sha256", "size_bytes", "decompressed_size_bytes", "file_count"],
+            "properties": {
+              "revision": {"type": "integer", "minimum": 1},
+              "container": {"enum": ["tar+zstd"]},
+              "object": {"description": "Storage key under the archive host, e.g. packs/<id>.tar.zst.", "type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+              "size_bytes": {"type": "integer", "minimum": 1},
+              "decompressed_size_bytes": {"type": "integer", "minimum": 1},
+              "file_count": {"type": "integer", "minimum": 1},
+              "created": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+              "source": {
+                "description": "The download this archive was converted from.",
+                "type": "object", "additionalProperties": false,
+                "properties": {
+                  "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+                  "size_bytes": {"type": "integer", "minimum": 1},
+                  "url": {"type": "string"},
+                  "retrieved": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+                }
+              },
+              "converter": {
+                "type": "object", "additionalProperties": false,
+                "properties": {"tool": {"type": "string"}, "version": {"type": "string"}, "params": {"type": "string"}, "pipeline": {"type": "string"}}
+              }
+            }
+          }
+        }
+      }
     }
   },
   "$defs": {

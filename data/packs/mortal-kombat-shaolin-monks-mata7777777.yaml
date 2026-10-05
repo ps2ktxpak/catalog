@@ -1,0 +1,23 @@
+key: mortal-kombat-shaolin-monks-mata7777777
+name: 'Mortal Kombat: Shaolin Monks'
+game:
+  title: 'Mortal Kombat: Shaolin Monks'
+credits:
+- creator: mata7777777
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragonmortal-kombat-shaolin-monks-hd-texture-by-matasiete-dragon.673436/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/joq592gm0ams275/MKSM_Matasiete.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator posted MediaFire link in opening post.

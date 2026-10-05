@@ -1,0 +1,25 @@
+key: need-for-speed-carbon-cckrizalid
+name: 'Need for Speed: Carbon'
+game:
+  title: 'Need for Speed: Carbon'
+  regions:
+  - PAL
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/AcV2RCwI#DH0EhoqsM8slnggj8Tq_xNcMxAzq6tr_9IAjRNYvfn4
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Need For Speed Carbon, next to a YouTube video link.

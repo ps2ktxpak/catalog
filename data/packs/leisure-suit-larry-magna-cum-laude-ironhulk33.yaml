@@ -1,0 +1,16 @@
+key: leisure-suit-larry-magna-cum-laude-ironhulk33
+name: 'Leisure Suit Larry: Magna Cum Laude'
+game:
+  title: 'Leisure Suit Larry: Magna Cum Laude'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/leisure-suit-larry-magna-c-m-laude-ps2-hd-pack.670451/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -1,0 +1,25 @@
+key: dragon-ball-z-sagas-huekage
+name: 'Dragon Ball Z: Sagas'
+game:
+  title: 'Dragon Ball Z: Sagas'
+  regions:
+  - NTSC-U
+credits:
+- creator: huekage
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-hd-textures-pack-dragon-ball-z-sagas-slus-20874-usa.683511/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/yowt4jw5til51og/PS2_HD_Textures_-_Dragon_Ball_Z_-_Sagas_%2528SLUS-20874%2529_%2528NTSC%2529.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided MediaFire link labeled 'Link to download' in opening post.

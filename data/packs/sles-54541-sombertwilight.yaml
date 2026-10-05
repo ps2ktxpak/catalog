@@ -23,8 +23,27 @@ media:
   - source_url: https://gbatemp.net/attachments/xena-warrior-princess_sles-54541_20240113221527-png.413810/
     thumb_url: https://gbatemp.net/data/attachments/413/413198-4b513e3c354627846226a7eef4c66776.jpg?hash=S1E-PDVGJ4
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-xena-warrior-princess-sles-54541-20260726.tar.zst
+    sha256: 90dafa664a3c8a490cb55171b08f744808cb851b9c6e5b6f773dfe4b1c67e881
+    size_bytes: 18776344
+    decompressed_size_bytes: 36618240
+    file_count: 164
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 6421C875C4E51B0F05D362D7A9378D449BC822F9AA389840298AF6AC9956DC0F
+      size_bytes: 20423044

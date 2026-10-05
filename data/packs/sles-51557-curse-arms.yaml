@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-broken-sword-the-sleeping-dragon-hd-remaster-community-archive-sles-51557-20260728.tar.zst
+    sha256: 2051abfa8cd77c8c0840901f977612109f05bc29a851aa4c2d1bb30d79b0e978
+    size_bytes: 392074307
+    decompressed_size_bytes: 541224960
+    file_count: 4641
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: C9CC8F7A0F869C0C476A6171066338B04BBED7431E52C1C7F1E4E2AF68DC4644
+      size_bytes: 441701291

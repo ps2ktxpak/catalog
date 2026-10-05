@@ -1,0 +1,25 @@
+key: metal-slug-5-mvp899
+name: Metal Slug 5
+game:
+  title: Metal Slug 5
+  regions:
+  - PAL
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/metal-slug-5-pcsx2-hd-texture.670589/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1uc3t4HCmnJTUyjBfpeq8jj1R082PsSB2/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

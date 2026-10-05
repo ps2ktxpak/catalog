@@ -10,8 +10,7 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
-from .common import (ARCHIVES_DIR, CREATORS_DIR, LISTINGS_FILE, MATCHES_FILE, PACKS_DIR,
-                     RESOLUTION_DIR, SCHEMA_DIR, host_of, load_json, load_yaml, read_jsonl)
+from .common import CREATORS_DIR, PACKS_DIR, SCHEMA_DIR, host_of, load_json, load_yaml
 
 # Shorteners hide where a link goes; the ad-gating ones (ouo.io and kin) also put an advert in front of it.
 SHORTENERS = ("bit.ly", "tinyurl.com", "t.co", "goo.gl", "ow.ly", "is.gd", "cutt.ly", "rb.gy", "shorturl.at",
@@ -37,27 +36,15 @@ def _urls(obj):
         yield obj
 
 
-def effective_cost(pack: dict, matched_costs: list[str]) -> str:
-    """What the public pays for this pack: the pack's own override, else the worst of its listings."""
-    if pack.get("access"):
-        return pack["access"]["cost"]
-    for c in ("paid", "free_with_ads", "free"):
-        if c in matched_costs:
-            return c
-    return "unknown"
+def effective_cost(pack: dict) -> str:
+    """What the public pays for this pack where its creator distributes it."""
+    return pack.get("access", {}).get("cost", "unknown")
 
 
 def load_all() -> dict:
-    def many(directory, pattern, loader):
-        return {p.name: loader(p) for p in sorted(directory.glob(pattern))} if directory.exists() else {}
-    return {
-        "creators": many(CREATORS_DIR, "*.yaml", load_yaml),
-        "packs": many(PACKS_DIR, "*.yaml", load_yaml),
-        "archives": many(ARCHIVES_DIR, "*.json", load_json),
-        "resolution": many(RESOLUTION_DIR, "*.json", load_json),
-        "listings": read_jsonl(LISTINGS_FILE),
-        "matches": read_jsonl(MATCHES_FILE),
-    }
+    def many(directory, loader):
+        return {p.name: loader(p) for p in sorted(directory.glob("*.yaml"))} if directory.exists() else {}
+    return {"creators": many(CREATORS_DIR, load_yaml), "packs": many(PACKS_DIR, load_yaml)}
 
 
 def run(strict_policy: bool = False, quiet: bool = False) -> int:
@@ -79,62 +66,37 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
         check("pack", r, f"packs/{fn}")
         if fn != f"{r.get('key')}.yaml":
             errors.append(f"packs/{fn}: file name must equal key {r.get('key')!r}")
-    for fn, r in d["archives"].items():
-        check("archive", r, f"archives/{fn}")
-        if fn != f"{r.get('key')}.json":
-            errors.append(f"archives/{fn}: file name must equal key {r.get('key')!r}")
-    for fn, r in d["resolution"].items():
-        check("resolution", r, f"resolution/{fn}")
-    for i, r in enumerate(d["listings"]):
-        check("listing", r, f"listings line {i + 1}")
-    for i, r in enumerate(d["matches"]):
-        check("match", r, f"links/listing-pack.jsonl line {i + 1}")
 
     creators, packs = d["creators"], {r["key"]: r for r in d["packs"].values() if "key" in r}
     creator_ids = {r["id"] for r in creators.values() if "id" in r}
     for cid in sorted(creator_ids.intersection(RESERVED_CREATOR_IDS)):
         errors.append(f"creators/{cid}.yaml: {cid!r} is reserved for a site page")
-    listing_ids = Counter(l["id"] for l in d["listings"] if "id" in l)
-    archives = {r["key"]: r for r in d["archives"].values() if "key" in r}
-
-    for lid, n in listing_ids.items():
-        if n > 1:
-            errors.append(f"listing id {lid} appears {n} times")
     wire = Counter(p.get("catalog_id") or p["key"] for p in packs.values())
     for w, n in wire.items():
         if n > 1:
             errors.append(f"catalog id {w[:60]} is used by {n} packs")
 
-    # Cross-references.
+    # Cross-references and the rules a schema cannot say.
     for key, p in packs.items():
-        for c in p.get("credits", []):
-            if c["creator"] not in creator_ids:
-                errors.append(f"packs/{key}: credits an unknown creator {c['creator']!r}")
+        for field in ("credits", "listed_credits"):
+            for c in p.get(field, []):
+                cid = c["creator"] if isinstance(c, dict) else c
+                if cid not in creator_ids:
+                    errors.append(f"packs/{key}: {field} names an unknown creator {cid!r}")
+        for i in p.get("media", {}).get("images", []):
+            if i.get("credit") and i["credit"] not in creator_ids:
+                errors.append(f"packs/{key}: a picture is credited to an unknown creator {i['credit']!r}")
         if sum(1 for s in p.get("sources", []) if s.get("primary")) > 1:
             errors.append(f"packs/{key}: more than one primary source")
         if p.get("hosting", {}).get("state") == "published":
-            a = archives.get(key)
+            if not p.get("game", {}).get("serials"):
+                errors.append(f"packs/{key}: published but has no game serial, so no game can be matched to it")
+            a = p.get("archive")
             if not a:
                 # Accepted for hosting, but the conversion pipeline has not made a copy yet.
                 warnings["awaiting_conversion"].append(key)
             elif a["current"] not in {v["revision"] for v in a["versions"]}:
-                errors.append(f"archives/{key}: current revision {a['current']} is not among its versions")
-    for key in archives:
-        if key not in packs:
-            errors.append(f"archives/{key}.json: no pack with that key")
-    for l in d["listings"]:
-        for c in l.get("creators", []):
-            if c not in creator_ids:
-                errors.append(f"listing {l['id']}: unknown creator {c!r}")
-    for i, m in enumerate(d["matches"]):
-        if m["listing"] not in listing_ids:
-            errors.append(f"links/listing-pack.jsonl line {i + 1}: unknown listing {m['listing']}")
-        if m["pack"] not in packs:
-            errors.append(f"links/listing-pack.jsonl line {i + 1}: unknown pack {m['pack']}")
-    for fn, r in d["resolution"].items():
-        for lid in r.get("listings", []) + [x["listing"] for x in r.get("decisions", [])]:
-            if lid not in listing_ids:
-                errors.append(f"resolution/{fn}: unknown listing {lid}")
+                errors.append(f"packs/{key}: archive current revision {a['current']} is not among its versions")
 
     # Links: https is in the schema; shorteners hide where a link goes.
     for label, recs in (("creator", creators.values()), ("pack", packs.values())):
@@ -143,26 +105,16 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
                 if host_of(u) in SHORTENERS:
                     warnings["url_shortener"].append(f"{label} {r.get('id') or r.get('key')}: {u}")
 
-    for fn, r in d["resolution"].items():
-        for x in r.get("decisions", []):
-            if x.get("status") == "resolved" and x.get("base_url") and host_of(x["base_url"]) in SHORTENERS:
-                warnings["shortener_base_url"].append(f"{fn}: {x['base_url']}")
-
     # Policy: what we host must be free to the public, or the creator must have said yes.
-    costs = defaultdict(list)
-    listing_by_id = {l["id"]: l for l in d["listings"]}
-    for m in d["matches"]:
-        if m["listing"] in listing_by_id:
-            costs[m["pack"]].append(listing_by_id[m["listing"]]["access"]["cost"])
     for key, p in packs.items():
         if p.get("hosting", {}).get("state") != "published":
             continue
-        if effective_cost(p, costs.get(key, [])) == "paid" and p.get("permission", {}).get("kind") not in PERMITTING:
+        if effective_cost(p) == "paid" and p.get("permission", {}).get("kind") not in PERMITTING:
             warnings["paid_but_hosted"].append(key)
 
     if not quiet:
-        print(f"checked: {len(creators)} creators, {len(packs)} packs, {len(archives)} archives, "
-              f"{len(d['listings'])} listings, {len(d['matches'])} matches, {len(d['resolution'])} resolutions")
+        states = Counter(p.get("hosting", {}).get("state") for p in packs.values())
+        print(f"checked: {len(creators)} creators, {len(packs)} packs (" + ", ".join(f"{n} {s}" for s, n in sorted(states.items())) + ")")
         for e in errors[:40]:
             print("ERROR  ", e)
         if len(errors) > 40:

@@ -22,6 +22,8 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/tales-of-the-abyss-usa-hd-texture-pack-wip.610735/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -29,3 +31,20 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/pandavenom-tales-of-the-abyss-slus-21386-20260728.tar.zst
+    sha256: 5750a1fda56af72c84069d3313ba49e56568a0372392fce6712a794bd2ec629d
+    size_bytes: 1768337745
+    decompressed_size_bytes: 2766837760
+    file_count: 10682
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5BDE5FA1F15BCD7C29B2CA5936DC3877B7B773B9472FD8885FB8EF13640A49AD
+      size_bytes: 2904756517

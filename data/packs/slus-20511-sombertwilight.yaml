@@ -23,8 +23,27 @@ media:
   - source_url: https://gbatemp.net/attachments/hunter-the-reckoning-wayward_slus-20511_20230701045406-png.381178/
     thumb_url: https://gbatemp.net/data/attachments/380/380566-a0d26cc56fdae9b3c75476c81658be65.jpg?hash=oNJsxW_a6b
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-hunter-wayward-slus-20511-20260727.tar.zst
+    sha256: aa75ff7fa5677152242575d1ba34d552e43c267d7407e6ed0f75163b63135c15
+    size_bytes: 136986831
+    decompressed_size_bytes: 221562880
+    file_count: 1337
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5E4D121E68B9860BCFF6B79C770213BCDA86E45E77E04C63BC214B0093B5ACBD
+      size_bytes: 506271775

@@ -48,8 +48,27 @@ media:
   videos:
   - provider: youtube
     id: pd2LMZld7Nk
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-sal9im-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-viewtiful-joe-2-hd-remaster-community-archive-slus-20939-20260728.tar.zst
+    sha256: d8caf9ba08b06857beeaf48b40cac53dc0f3cb0a24ac6936e7ae72d5865f13f4
+    size_bytes: 1274508059
+    decompressed_size_bytes: 4353085440
+    file_count: 2625
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 36269D907F4ACBEB1AF21B6F7DC36B9F9074902A5C0EF4A5961CC78E9B5F0D15
+      size_bytes: 2421003755

@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/soaaxrgtbebtkkd/Prince_of_Persia_The_Two_Thrones.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-prince-of-persia-the-two-thrones-slus-21287-20260728.tar.zst
+    sha256: b143321950a3a0cbb05c377adabe4f68f457064807e657e11ddf6c43791ec37e
+    size_bytes: 257005485
+    decompressed_size_bytes: 314327040
+    file_count: 2310
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D3A94BEDBDF4D43B122F080D47B82B50FBCF0AC96AE91868B5240A5EBD9AF0E4
+      size_bytes: 412766650

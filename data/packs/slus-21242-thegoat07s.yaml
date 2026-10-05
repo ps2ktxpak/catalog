@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-created-burnout-revenge-360-tracks-and-props-texture-pack-slus-21242-20260728.tar.zst
+    sha256: 10e7ab21b7495fb08a9368655203764de205931615422bc12c96ba39fb6d452f
+    size_bytes: 175246811
+    decompressed_size_bytes: 264202240
+    file_count: 1564
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: F97F35B9926ACEB0E4CBF964AB4A65F28F906BD3F54A254C5FAD5CE639A05798
+      size_bytes: 753475450

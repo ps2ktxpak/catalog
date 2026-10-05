@@ -1,0 +1,25 @@
+key: ratchet-clank-up-your-arsenal-reddyxd
+name: 'Ratchet & Clank: Up Your Arsenal'
+game:
+  title: 'Ratchet & Clank: Up Your Arsenal'
+  regions:
+  - NTSC-U
+credits:
+- creator: reddyxd
+type: unknown
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-up-your-arsenal-texture-pack-scus-97353.631588/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1aDn5n3-NxsnzVvfSBwh-y0KTz21ksiI-/view
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

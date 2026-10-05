@@ -19,6 +19,8 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -26,3 +28,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-disney-s-donald-duck-goin-quackers-hd-remaster-community-archive-slus-20077-20260728.tar.zst
+    sha256: ff79105e1f39d54c5af4956d35b38386a053e839d4e9eadbd5b30850a5911331
+    size_bytes: 153075951
+    decompressed_size_bytes: 271779840
+    file_count: 3715
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 4B73E64C9B07D63F35E28D3BE0C99BC510D7EBCFDAA253B94FCACCD35AC28B50
+      size_bytes: 379116530

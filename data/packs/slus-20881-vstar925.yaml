@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mortal-kombat-deception-remastered-texture-pack-created-mortal-kombat-deception-remastered-1-13-texture-pack-slus-20881-20260728.tar.zst
+    sha256: fbc8047a8981c98f2120076a484ec6996cb1a0ec89faddb8d270df867805c7c3
+    size_bytes: 196056279
+    decompressed_size_bytes: 330055680
+    file_count: 2366
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 455A2E4D3194275923CDB3036DFA9FD676BD1D9F136E352682DFEE58DDEF8ECE
+      size_bytes: 587634583

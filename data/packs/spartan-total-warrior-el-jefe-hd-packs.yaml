@@ -1,0 +1,25 @@
+key: spartan-total-warrior-el-jefe-hd-packs
+name: 'Spartan: Total Warrior'
+game:
+  title: 'Spartan: Total Warrior'
+  regions:
+  - PAL
+credits:
+- creator: el-jefe-hd-packs
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spartan-total-warrior-hdpack-remaster-el-jefe-edition.683787/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/9b52bc4220
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

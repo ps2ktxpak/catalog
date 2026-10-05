@@ -1,0 +1,23 @@
+key: dragon-ball-z-budokai-tenkaichi-3-akirus
+name: 'Dragon Ball Z: Budokai Tenkaichi 3'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 3'
+credits:
+- creator: akirus
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-3-16-9-hd-texture-pack.642510/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1MyUzpU7D_4HiP3szxK8YhkkF--YSGZnd/view
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator lists Google Drive link for 16:9 version in opening post.

@@ -1,0 +1,25 @@
+key: bloodrayne-2-cckrizalid
+name: BloodRayne 2
+game:
+  title: BloodRayne 2
+  regions:
+  - NTSC-U
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/IBNAnSYZ#RUphOhhjSsjs3ZJ72uzNr7wY0B6ez60832Zu9fBpPik
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading BloodRayne 2, separate from the BloodRayne link.

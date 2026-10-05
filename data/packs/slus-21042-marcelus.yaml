@@ -36,8 +36,27 @@ media:
   - source_url: https://gbatemp.net/attachments/darkwatch_slus-21042_20240106112353-jpg.412337/
     thumb_url: https://gbatemp.net/data/attachments/411/411725-a9af5705a767ce425d381c625c3a9788.jpg?hash=qa9XBadnzk
     credit: marcelus
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-marcelus-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-darkwatch-hd-remaster-community-archive-slus-21042-20260728.tar.zst
+    sha256: 1679cc75d9d5c74a5b813bf62d2d2cf74e655a7da64544ec994b4ebc6334d7be
+    size_bytes: 394859594
+    decompressed_size_bytes: 484536320
+    file_count: 1205
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 9971BEFEE2D1407111A665EC63B7E3BA7BCA390E309DBD0FE66A916A0CA48B3C
+      size_bytes: 501004674

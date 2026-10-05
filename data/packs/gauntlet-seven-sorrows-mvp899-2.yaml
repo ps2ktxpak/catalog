@@ -1,0 +1,25 @@
+key: gauntlet-seven-sorrows-mvp899-2
+name: 'Gauntlet: Seven Sorrows'
+game:
+  title: 'Gauntlet: Seven Sorrows'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gauntlet-seven-sorrows-pcsx2-hd-remaster.668343/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/11kcLOjlreYmRybd_xfCG9tcRIlKiHmIh/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

@@ -1,0 +1,22 @@
+key: formula-one-06-mvp899
+name: Formula One 06
+game:
+  title: Formula One 06
+  regions:
+  - PAL
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/formula-one-06-europe-hd-texture-alpha.656806/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  confidence: high
+  note: Opening post states pack is incomplete (10% status, 'new pack coming soon'), no download available yet.

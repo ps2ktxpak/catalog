@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/dragon-quest-v-jap-translated-hd-remaster.623233/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-dragon-quest-v-translated-slpm-65555-20260728.tar.zst
+    sha256: aca164ab34ce221a2aa49427b31a5ad62c53272da5c6dd703819156057698557
+    size_bytes: 1741802502
+    decompressed_size_bytes: 2252646400
+    file_count: 9109
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 6AB7FA417F82FADCA11F390F0489A536CE45411986FC5F6C13D79A1DC5E1BBA7
+      size_bytes: 2588219447

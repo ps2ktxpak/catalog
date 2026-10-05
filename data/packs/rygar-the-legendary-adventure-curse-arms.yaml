@@ -1,0 +1,25 @@
+key: rygar-the-legendary-adventure-curse-arms
+name: 'Rygar: The Legendary Adventure'
+game:
+  title: 'Rygar: The Legendary Adventure'
+  regions:
+  - NTSC-U
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/u/0/uc?id=1v87mK0VqoYb5tgI4Iz1Sk-ThpexpDOM-&export=download
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

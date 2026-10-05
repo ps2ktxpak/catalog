@@ -31,7 +31,7 @@ How a change made through the creator or pack form reaches the data files.
   (`hosted` or `listed`).
 
 Permission and hosting state are never read from a submission. For a new pack the workflow sets them: `published`
-and `creator_approved` for hosted, `withheld` and permission unknown for listed only. Who changed what is in git
+and `creator_approved` for hosted; `listed`, with no permission, for listed only. Who changed what is in git
 history, where the pull request credits the submitter.
 
 ## What is refused

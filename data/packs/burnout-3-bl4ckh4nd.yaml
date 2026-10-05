@@ -1,0 +1,16 @@
+key: burnout-3-bl4ckh4nd
+name: Burnout 3
+game:
+  title: Burnout 3
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

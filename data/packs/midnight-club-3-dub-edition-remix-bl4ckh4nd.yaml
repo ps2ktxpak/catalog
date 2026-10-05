@@ -1,0 +1,16 @@
+key: midnight-club-3-dub-edition-remix-bl4ckh4nd
+name: 'Midnight Club 3: DUB Edition Remix'
+game:
+  title: 'Midnight Club 3: DUB Edition Remix'
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

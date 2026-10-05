@@ -1,0 +1,23 @@
+key: ratchet-clank-ironhulk33-2
+name: Ratchet & Clank
+game:
+  title: Ratchet & Clank
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-hd-pack-100.681374/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+  host: mediafire
+  kind: folder
+  confidence: high
+  note: Creator provides direct MediaFire folder link as primary download location.

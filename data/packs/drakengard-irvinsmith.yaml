@@ -1,0 +1,25 @@
+key: drakengard-irvinsmith
+name: Drakengard
+game:
+  title: Drakengard
+  regions:
+  - PAL
+credits:
+- creator: irvinsmith
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/drakengard-1-hd-texture-pack.653456/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/18VhVbNaTIjzhckLnpBNuecB4NXHIyAA3/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator posted Google Drive link in opening post for NTSC version.

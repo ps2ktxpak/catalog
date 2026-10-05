@@ -23,8 +23,27 @@ media:
   videos:
   - provider: youtube
     id: zsWQ_lF4Z8M
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-indriti10-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-summoner-hd-remaster-community-archive-slus-20074-20260728.tar.zst
+    sha256: 395a52d1a94186169cd18288fdab5c5d316b46888235c8cb385e3239c3b7ed0e
+    size_bytes: 888704671
+    decompressed_size_bytes: 1310433280
+    file_count: 5575
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 4BFE5E7F8C1CB2FA23F0A4A2E14AD048BB85671040A1F26CB09D9C388F855C85
+      size_bytes: 3492066458

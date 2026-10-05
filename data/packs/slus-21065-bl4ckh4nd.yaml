@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-nfs-underground-2-slus-21065-20260722.tar.zst
+    sha256: d8b48cf8ea73352e3b785fe81b74db032129b4517b98a78ef7af86193384a91c
+    size_bytes: 310332113
+    decompressed_size_bytes: 871567360
+    file_count: 3085
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: AEB3355835FFDD1ABE1CB86A0A036E34CF48183B44783DDA4A0B795F914B92AF
+      size_bytes: 627454399

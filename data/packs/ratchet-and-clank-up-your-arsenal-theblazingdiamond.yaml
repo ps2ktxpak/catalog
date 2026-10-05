@@ -1,0 +1,25 @@
+key: ratchet-and-clank-up-your-arsenal-theblazingdiamond
+name: 'Ratchet and Clank: Up Your Arsenal'
+game:
+  title: 'Ratchet and Clank: Up Your Arsenal'
+  regions:
+  - NTSC-U
+credits:
+- creator: theblazingdiamond
+type: handcrafted
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-ratchet-and-clank-up-your-arsenal-ntsc-us-robos-paint-job-texture-pack.665855/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1OJ2rD21wYS0lPcmeFck5DUgznQZBUhFn/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator linked in opening post and confirmed in YouTube video description.

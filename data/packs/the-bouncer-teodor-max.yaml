@@ -1,0 +1,25 @@
+key: the-bouncer-teodor-max
+name: The Bouncer
+game:
+  title: The Bouncer
+  regions:
+  - NTSC-U
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-bouncer-hd-texture-pack.640144/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1DXdJDZwRKXvitLPpbha-KGA22Bbgw3pF/view?usp=drive_link
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator marked as Download Link in opening post; Google Drive is primary.

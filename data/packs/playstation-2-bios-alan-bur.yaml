@@ -1,0 +1,22 @@
+key: playstation-2-bios-alan-bur
+name: Playstation 2 BIOS
+game:
+  title: Playstation 2 BIOS
+  regions:
+  - multi
+credits:
+- creator: alan-bur
+type: handcrafted
+completeness: complete
+sources:
+- kind: video
+  url: https://youtu.be/IPoxQ7yDteU
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  confidence: high
+  note: Source is YouTube video about BIOS files, not a texture pack; no download link.

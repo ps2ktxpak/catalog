@@ -1,0 +1,25 @@
+key: king-s-field-the-ancient-city-irvinsmith
+name: 'King''s Field: The Ancient City'
+game:
+  title: 'King''s Field: The Ancient City'
+  regions:
+  - NTSC-U
+credits:
+- creator: irvinsmith
+type: port
+completeness: partial
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kings-field-iv-the-ancient-city-hd-texture-pack.653789/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1kKKvGm_jFlIGbo3WGOdkKevrHjFCx4et/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator provided Google Drive as primary download option in opening post.

@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ggamesanalises-gun-slus-21139-20260728.tar.zst
+    sha256: 967b22d25ca1a1c0a706f323bc54dd82b4f808ec2f77f3c833fa8e01bc941843
+    size_bytes: 883836629
+    decompressed_size_bytes: 1069096960
+    file_count: 5630
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 43A7A762F8FAF856F3A9DDC3F5E01617D21CF957835015FD475EFDBB884A6E05
+      size_bytes: 1969676468

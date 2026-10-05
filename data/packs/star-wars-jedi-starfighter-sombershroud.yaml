@@ -1,0 +1,25 @@
+key: star-wars-jedi-starfighter-sombershroud
+name: 'Star Wars: Jedi Starfighter'
+game:
+  title: 'Star Wars: Jedi Starfighter'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/oha7r5jmydkac6e/SLUS-20293.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: 'The creator''s opening-post list gives this MediaFire zip (SLUS-20293) for Star Wars: Jedi Starfighter (US).'

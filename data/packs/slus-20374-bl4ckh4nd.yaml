@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/7kn1f2kkgcyl0w5/Hitman_2_Silent_Assassin.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-hitman-2-silent-assassin-slus-20374-20260728.tar.zst
+    sha256: 4aa4681daee5c5134e5608df9e1636d627cffa5ebe81f0839845557fa305763d
+    size_bytes: 293133044
+    decompressed_size_bytes: 448296960
+    file_count: 11024
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: ED43462CB482A70851D5A968196BB89F4CA82791133550B1A40809E3E7A54C3D
+      size_bytes: 699053530

@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file/e6dzd2xwaca28i0/Sly_3_Honor_Among_Thieves.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-sly-3-scus-97464-20260722.tar.zst
+    sha256: bdef52a61ddf07d4e01800c29ade47f60a91773f33f09fad7d93a35be886bc2e
+    size_bytes: 706723579
+    decompressed_size_bytes: 1052395520
+    file_count: 10654
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EE2F0635D5EA03AE4B68BB425E7FA66620519D32349D2CF6716E74D900DA3C99
+      size_bytes: 1471530298

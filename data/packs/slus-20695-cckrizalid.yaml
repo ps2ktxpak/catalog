@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-chaos-legion-hd-remaster-community-archive-slus-20695-20260728.tar.zst
+    sha256: a028c6f987a6c1428c96038ab4f61f0ecbc8085ec5b0f04edb13a8f8401a295c
+    size_bytes: 626524953
+    decompressed_size_bytes: 1760983040
+    file_count: 2732
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 7E9D19E7DCD285EFFC6A3A5FFE4FCFB039427699D6875086B134B8D15DD8258A
+      size_bytes: 781958240

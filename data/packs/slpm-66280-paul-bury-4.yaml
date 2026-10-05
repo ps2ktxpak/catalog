@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/high-resolution-ui-texture-pack-created-by-paul-bury-monster-hunter-2-dos-hd-ui-16-9-4x-texture-pack-slpm-66280-20260728.tar.zst
+    sha256: 71586cc18e4edd9cd6e66fc6981aac3a5748b83aa7672850e18b795444483f62
+    size_bytes: 987168
+    decompressed_size_bytes: 531834880
+    file_count: 427
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 95ABFE17600CAA387DE4A03D769B6057C3AC60C558AAF128B68C117658AC1AB2
+      size_bytes: 86532401

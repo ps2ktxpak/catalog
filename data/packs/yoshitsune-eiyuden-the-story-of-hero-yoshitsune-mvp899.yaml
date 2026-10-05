@@ -1,0 +1,25 @@
+key: yoshitsune-eiyuden-the-story-of-hero-yoshitsune-mvp899
+name: 'Yoshitsune Eiyūden: The Story of Hero Yoshitsune'
+game:
+  title: 'Yoshitsune Eiyūden: The Story of Hero Yoshitsune'
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/yoshitsune-eiyuuden-hd-textures.657481/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/eKZUVRqb#egaUg2BFk_L9uRLqnQHf18ehNjBTQ192n3isCwig4Tk
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

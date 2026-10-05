@@ -35,8 +35,27 @@ media:
   - source_url: https://gbatemp.net/attachments/biohazard-outbreak_slpm-65428_20240109193849-png.413085/
     thumb_url: https://gbatemp.net/data/attachments/412/412473-4c1cc73163b8db5d0fde3ab5125a21c7.jpg?hash=TBzHMWO421
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-resident-evil-outbreak-slpm-65428-20260726.tar.zst
+    sha256: f8069ddf6d6ca5affdfd94628771a98f8625cb9c3f8bb692bd48270ce3421945
+    size_bytes: 638231758
+    decompressed_size_bytes: 857538560
+    file_count: 3429
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: B497502111987A831A440182767954D5F0715B8852536C553653F8B13BBB64A0
+      size_bytes: 775734506

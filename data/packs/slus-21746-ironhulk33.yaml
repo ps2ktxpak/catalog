@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/7iy7lx26m8vb7kw/COD_WaW_Final_Fronts.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ironhulk33-call-of-duty-world-at-war-final-fronts-slus-21746-20260728.tar.zst
+    sha256: fc5bb232d248278a4c51489cd06a20c2090a41bc9f848633fcb165a5386a5e3a
+    size_bytes: 393464223
+    decompressed_size_bytes: 559554560
+    file_count: 1804
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 71DA0FDF13B0A9AD75857B092129B644E8AF26ECD9CA999F81B8871147280538
+      size_bytes: 843091956

@@ -1,0 +1,24 @@
+key: indiana-jones-and-the-staff-of-kings-texmaster
+name: Indiana Jones and the Staff of Kings
+game:
+  title: Indiana Jones and the Staff of Kings
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/2k-texture-pack-for-indiana-jones-and-the-staff-of-kings-sles-55448-version-1-0.677960/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  host: other
+  kind: unknown
+  confidence: high
+  note: Download links redirect through ouo.io advert shortener/wall; requires bypassing ads.

@@ -30,6 +30,8 @@ media:
   - source_url: https://gbatemp.net/attachments/007-nightfire_slus-20579_20230917173119-png.394493/
     thumb_url: https://gbatemp.net/data/attachments/393/393881-37a0b212f0f304d036b0845a5f5b5677.jpg?hash=N6CyEvDzBN
     credit: sombershroud
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -37,3 +39,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-007-nightfire-hd-remaster-community-archive-slus-20579-20260728.tar.zst
+    sha256: c0c56352702e0044eb3ec2e77f2e2a95ebc58da08d48503b01e7909e50490a38
+    size_bytes: 553709555
+    decompressed_size_bytes: 1671761920
+    file_count: 15450
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 04F9F50F72E72535AC0950CF99235DBDB2FB37D387291161445C7C9DE63892DB
+      size_bytes: 1677357777

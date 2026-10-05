@@ -37,8 +37,27 @@ media:
     id: OkrnrS51e2s
   - provider: youtube
     id: eR4ybcHC1hY
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-sombertwilight-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-dynasty-warriors-6-hd-remaster-community-archive-slus-21774-20260728.tar.zst
+    sha256: a957ce4f7736590d3b493531b69303e602a5f7c85da13e2d221872f5044cfa1f
+    size_bytes: 697672852
+    decompressed_size_bytes: 1068605440
+    file_count: 2891
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: DD6472981ACB241BAE961D53A6CCE195505677DEC063533908D56EFB4537BCF3
+      size_bytes: 898762160

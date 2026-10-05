@@ -1,0 +1,25 @@
+key: mobile-suit-gundam-zeonic-front-callofcthuloo
+name: 'Mobile Suit Gundam: Zeonic Front'
+game:
+  title: 'Mobile Suit Gundam: Zeonic Front'
+  regions:
+  - NTSC-U
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mobile-suit-gundam-zeonic-front-slus-20233-hd-texture-pack-upscale.673501/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/6g3f6cer4ick9xk/Mobile_Suit_Gundam_-_Zeonic_Front_%255BSLUS-20233%255D.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator lists PCSX2 download link (4.67 GB) on Mediafire in opening post.

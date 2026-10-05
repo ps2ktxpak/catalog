@@ -24,3 +24,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/meskh4h4-bloody-roar-4-png-slus-20795-v1.tar.zst
+    sha256: 2a8fa496370eecd664042aba84db7bfbedd74b8cb7e31cd43007536e2012b7f4
+    size_bytes: 278758509
+    decompressed_size_bytes: 441651200
+    file_count: 2880
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 27F4DE11D6685B4F50E95C241CF1A6940DCF9B20FE804102B080C5311CDFC6DF
+      size_bytes: 780662328

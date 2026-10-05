@@ -1,0 +1,23 @@
+key: wwe-smackdown-here-comes-the-pain-llp998
+name: WWE SmackDown! Here Comes the Pain
+game:
+  title: WWE SmackDown! Here Comes the Pain
+credits:
+- creator: llp998
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wwe-smackdown-here-comes-the-pain-upscaled-texture-pack-for-hctp-2x-mod-v2-coming-soon-read-post-for-more.680129/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1_eHocyq_GwlfJeoUqXSoAoUlm5ClZ1ab/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

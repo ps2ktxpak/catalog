@@ -1,0 +1,25 @@
+key: blood-will-tell-curse-arms
+name: Blood Will Tell
+game:
+  title: Blood Will Tell
+  regions:
+  - NTSC-U
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1yaHJGmU2CUR0vv-aVswg4qLg-04an86D&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

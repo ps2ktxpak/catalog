@@ -1,0 +1,25 @@
+key: dragon-ball-z-budokai-tenkaichi-3-jamon
+name: 'Dragon Ball Z: Budokai Tenkaichi 3'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 3'
+  regions:
+  - NTSC-U
+credits:
+- creator: jamon
+type: unknown
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-3-texture-pack-hd-and-iso-mods.618610/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/17j1yktzouzi17g/textures.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provides direct MediaFire link in opening post for texture pack.

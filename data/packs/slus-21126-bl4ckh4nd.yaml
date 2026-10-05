@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/vp5vx8a4yxov7wh/NBA_Street_V3.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-nba-street-v3-slus-21126-20260728.tar.zst
+    sha256: 7ea06aef54b0ff9ec5bbce4033525260221b852e1d42a05b3143db6234632aa5
+    size_bytes: 224064615
+    decompressed_size_bytes: 363765760
+    file_count: 2594
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 601B8FAA290EA3065CE29F65A1A3BFAA9B749F2C99FA2DCEF2EED12EB2054426
+      size_bytes: 454842067

@@ -1,0 +1,25 @@
+key: burnout-ml87
+name: Burnout
+game:
+  title: Burnout
+  regions:
+  - NTSC-U
+credits:
+- creator: ml87
+type: button_replacement
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/xbox-buttons-for-burnout-1-dominator-3-and-revenge-already-exist-for-ps2.683198/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/qbyx07daxy3jq85/SLUS-20307.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: The opening post labels this Mediafire file Burnout 1; the zip is named for the NTSC-U serial SLUS-20307.

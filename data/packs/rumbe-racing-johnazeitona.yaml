@@ -1,0 +1,20 @@
+key: rumbe-racing-johnazeitona
+name: Rumbe Racing
+game:
+  title: Rumbe Racing
+credits:
+- creator: johnazeitona
+type: unknown
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/rumbe-racing-ps2-hd-texturas-slus-20174.626938/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: dead
+  confidence: high
+  note: the source page returns 404

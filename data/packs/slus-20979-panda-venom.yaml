@@ -32,8 +32,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-03-23-22-at-01-12-am-001-jpg.304935/
     thumb_url: https://gbatemp.net/data/attachments/304/304323-3d60f83f3da2a7e397de09950ecda614.jpg?hash=PWD4Pz2ip-
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-suikoden-iv-slus-20979-20260728.tar.zst
+    sha256: 551edf321baecceee5dec9343f6693483f2609bb65b7865917642d4768b85fcf
+    size_bytes: 2368998459
+    decompressed_size_bytes: 3179161600
+    file_count: 7606
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 6BA49E57A29F83B316575AD05370F1C84C7EB72C5B7DF22F0496E68CEA4A848A
+      size_bytes: 1990223642

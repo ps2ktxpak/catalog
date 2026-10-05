@@ -48,8 +48,27 @@ media:
   videos:
   - provider: youtube
     id: FHgM9grQDdQ
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/santins-maximo-ghosts-to-glory-slus-20017-20260728.tar.zst
+    sha256: d117c430ee0ad767c23696458915ea12eaeec46e389cf947be4bb535747c11d0
+    size_bytes: 255620659
+    decompressed_size_bytes: 373340160
+    file_count: 294
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: E1090B988D712AAB6C71783B9FF58586416E747D8CF5168F6CDAD96E5C194A0E
+      size_bytes: 227949576

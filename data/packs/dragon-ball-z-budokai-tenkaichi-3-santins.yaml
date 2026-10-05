@@ -1,0 +1,25 @@
+key: dragon-ball-z-budokai-tenkaichi-3-santins
+name: 'Dragon Ball Z: Budokai Tenkaichi 3'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 3'
+  regions:
+  - NTSC-U
+credits:
+- creator: santins
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-3-uhd-remaster-not-complete-v1.645442/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1EdE-Epfh5s8BkcjIZ3IrHN8cf3Hlrkaq/view
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-klonoa-2-lunatea-s-veil-hd-remaster-community-archive-sces-50354-20260728.tar.zst
+    sha256: a299632e46cfd3d64707d7d8104f15d8143d0bbbdab505c01ddd21c2743d64cc
+    size_bytes: 1271187327
+    decompressed_size_bytes: 2102886400
+    file_count: 14030
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 86BDF4157DB759868965AF14C2CAAC4F6093B1E9DDB50366B1977B5E265B764C
+      size_bytes: 3880099726

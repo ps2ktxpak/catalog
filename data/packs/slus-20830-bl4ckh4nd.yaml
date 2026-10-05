@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/57c1w1en97nhr2w/Intellivision_Lives.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-intellivision-lives-slus-20830-20260728.tar.zst
+    sha256: 8fa440b21c4fcc86251093227b80de3abd9d222ac448b9edfa93047f36037201
+    size_bytes: 12128299
+    decompressed_size_bytes: 25671680
+    file_count: 135
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 0980B19B7F29C482EC74D93F96A6CB897CA0DD218D3895038A1B79A78BDF4410
+      size_bytes: 46971858

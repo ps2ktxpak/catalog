@@ -1,0 +1,23 @@
+key: god-of-war-ii-mvp899
+name: God of War II
+game:
+  title: God of War II
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: partial
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/god-of-war-2-kratos-god-armor.643454/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/yIVAGZKZ#o3tzyKaqa8N4mwCs3waK4DDR61vwK4WVYgZHYvYjqCQ
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

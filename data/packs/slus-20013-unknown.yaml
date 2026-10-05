@@ -21,3 +21,20 @@ hosting:
   state: published
 needs_review:
 - credit_unknown
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-tony-hawk-pro-skater-3-hd-remaster-community-archive-slus-20013-20260728.tar.zst
+    sha256: d6acbf886a5f431286dfa2cfd0a87e691b37674e42e2bbf44c89a45a2f231d15
+    size_bytes: 176681476
+    decompressed_size_bytes: 206684160
+    file_count: 3557
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 85B2AB98A9232A8030B22B77B22E0B5A3BC3280CD77989F0EFE23388686A9A7B
+      size_bytes: 715220047

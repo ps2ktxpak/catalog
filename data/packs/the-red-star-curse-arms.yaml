@@ -1,0 +1,23 @@
+key: the-red-star-curse-arms
+name: The Red Star
+game:
+  title: The Red Star
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-red-star-hd-textures.669283/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1gnwqqIi5sYTQ1Utyb4NJSu3SDiO9Njsr&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

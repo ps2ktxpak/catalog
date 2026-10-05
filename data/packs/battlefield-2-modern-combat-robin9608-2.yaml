@@ -1,0 +1,25 @@
+key: battlefield-2-modern-combat-robin9608-2
+name: 'Battlefield 2: Modern Combat'
+game:
+  title: 'Battlefield 2: Modern Combat'
+  regions:
+  - NTSC-U
+credits:
+- creator: robin9608
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/battlefield-2-modern-combat-remastered-texture-pack-pcsx2.678677/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/d3ufb9m8kis4ron/Battlefield_2_Modern_Combat_Remastered_Texture_Pack.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

@@ -6,6 +6,8 @@ game:
   serials:
   - SLUS-20238
 credits: []
+listed_credits:
+- moataz
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
@@ -14,6 +16,8 @@ sources:
 - kind: mirror
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: true
+access:
+  cost: free_with_ads
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -21,3 +25,20 @@ hosting:
   state: published
 needs_review:
 - credit_unknown
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-crash-bandicoot-wrath-of-cortex-hd-remaster-community-archive-slus-20238-20260728.tar.zst
+    sha256: 17037906b242475ab736c526d2c85ac694009b52f5f7696b527368a19aab9029
+    size_bytes: 239672986
+    decompressed_size_bytes: 418140160
+    file_count: 3821
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 3BC7C60D95CD9323E26D97CB53076F7E9B90EC01ADF3CA388C062E41A74B619D
+      size_bytes: 267827039

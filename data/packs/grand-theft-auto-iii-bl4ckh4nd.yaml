@@ -1,0 +1,16 @@
+key: grand-theft-auto-iii-bl4ckh4nd
+name: Grand Theft Auto III
+game:
+  title: Grand Theft Auto III
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

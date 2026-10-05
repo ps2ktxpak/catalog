@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/09hnwgpz9bnzuc7/IBARA.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ironhulk33-ibara-slpm-66301-20260728.tar.zst
+    sha256: 484a0ef5a3d5d0a9eb69ab26c87144dbbc4a2e938165217fa54db5d717f8af4f
+    size_bytes: 319299834
+    decompressed_size_bytes: 639242240
+    file_count: 870
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EFDC931017315EAED944EC3F255A5748A832F22F0024884ADA0BFC7E503D1FFF
+      size_bytes: 399682833

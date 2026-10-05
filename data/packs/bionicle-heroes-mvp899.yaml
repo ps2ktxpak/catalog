@@ -1,0 +1,21 @@
+key: bionicle-heroes-mvp899
+name: Bionicle Heroes
+game:
+  title: Bionicle Heroes
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bionicle-heroes-pcsx2-hd-texture.675440/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Pack hosted on Ko-fi, requiring account access for downloads.

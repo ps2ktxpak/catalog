@@ -36,8 +36,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-11-10-22-at-12-11-pm-jpg.336616/
     thumb_url: https://gbatemp.net/data/attachments/336/336004-b8f578b64197d7d812e3f468707060da.jpg?hash=uPV4tkGX19
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-panda-venom-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-primal-hd-remaster-community-archive-scus-97142-20260728.tar.zst
+    sha256: 80004f53634ccad7684f167848e7fe9f97593ffbdb0c3286a44c98d045cdb72c
+    size_bytes: 514836694
+    decompressed_size_bytes: 675676160
+    file_count: 2915
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A0FDBF30E2ECF6A473D339B0BC1E6A49762233F42FB8063DBCE74FE44BFCB14B
+      size_bytes: 1284140627

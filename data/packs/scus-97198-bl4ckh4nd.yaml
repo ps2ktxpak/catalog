@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/t7nrnqi11g5k161/Sly_Cooper.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-sly-cooper-and-the-thievius-raccoonus-scus-97198-20260728.tar.zst
+    sha256: 0dbc67c27073876dac4d9bde7022ab4bea3276701e8681b728368b8d6a83fa13
+    size_bytes: 1210385631
+    decompressed_size_bytes: 1466849280
+    file_count: 11272
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 72C78A66B549FE60F12C3AE06DE6E07EDBE75011284E5A645113BAD90101D251
+      size_bytes: 5024514371

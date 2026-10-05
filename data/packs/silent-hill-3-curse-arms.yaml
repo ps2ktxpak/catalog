@@ -1,0 +1,23 @@
+key: silent-hill-3-curse-arms
+name: Silent Hill 3
+game:
+  title: Silent Hill 3
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1l3QAcvaZRWdZ1dn43NRTxE4_txSA_Ip5&export=download&authuser=0
+  host: gdrive
+  kind: file
+  confidence: high
+  note: The uploader's video description for Silent Hill 3 labels this link 'Silent Hill 3 HD Textures by Me' (the other link there is a cover image).

@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ggamesanalises-darkwatch-sles-53564-20260728.tar.zst
+    sha256: c16055436950b07e9371d8f68a8626d325c482c9908fbaae55e63f17073b21f9
+    size_bytes: 1580635129
+    decompressed_size_bytes: 1946542080
+    file_count: 3123
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 98E7F814E96C239D438E7E596C91FC35EEBCAC1835FBB696AA5B6D6643FD4147
+      size_bytes: 3613047300

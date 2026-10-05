@@ -1,0 +1,25 @@
+key: mana-khemia-2-fall-of-alchemy-hitorihoshi
+name: 'Mana Khemia 2: Fall of Alchemy'
+game:
+  title: 'Mana Khemia 2: Fall of Alchemy'
+  regions:
+  - NTSC-U
+credits:
+- creator: hitorihoshi
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mana-khemia-2-fall-of-alchemy-usa-hd-remastered.676591/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1yZlUuEKU7Y6Sf1xO4ZI-SnoT6XFIHnH-/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator's primary download link in opening post; password-protected archive.

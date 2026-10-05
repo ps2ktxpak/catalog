@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screenshot_1-png.482958/
     thumb_url: https://gbatemp.net/data/attachments/482/482346-d19721d1b0fd81f673145013078a38c8.jpg?hash=0Zch0bD9gf
     credit: xxtherockoxx
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/xxtherockoxx-prince-of-persia-warrior-within-slus-21022-20260722.tar.zst
+    sha256: f22398135dc00a791a52a45f05c7dd4d318e5db310cc41629c22bc82cb298c32
+    size_bytes: 678512902
+    decompressed_size_bytes: 802140160
+    file_count: 1710
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 7428AA1DC383FCDAC77DFFFA738A971E68EAA269D0130B78A9552D0AEE82264E
+      size_bytes: 1129382393

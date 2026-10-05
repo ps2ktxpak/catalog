@@ -33,8 +33,27 @@ media:
   videos:
   - provider: youtube
     id: erAQ8BR5-nM
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/retrogenerica-tom-and-jerry-war-of-the-whiskers-slus-20355-20260726.tar.zst
+    sha256: f4047469f5fb51f46e9a6408ae9f7235da8336f7903ac8f6437f33146e0a28c3
+    size_bytes: 97106710
+    decompressed_size_bytes: 174428160
+    file_count: 3629
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1ADBAA368A1096D1AECE456214BF3D3924F5CD77450D689766073A99024C24F7
+      size_bytes: 227540694

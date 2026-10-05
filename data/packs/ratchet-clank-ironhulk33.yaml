@@ -1,0 +1,16 @@
+key: ratchet-clank-ironhulk33
+name: Ratchet & Clank
+game:
+  title: Ratchet & Clank
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: mirror
+  url: https://www.mediafire.com/file_premium/93rjumihrfk47t5/Ratchet_%2526_Clank.7z/file
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

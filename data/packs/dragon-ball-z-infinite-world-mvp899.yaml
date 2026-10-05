@@ -1,0 +1,25 @@
+key: dragon-ball-z-infinite-world-mvp899
+name: 'Dragon Ball Z: Infinite World'
+game:
+  title: 'Dragon Ball Z: Infinite World'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-infinite-world-world-hd-texture.653968/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/LfZDBJTC#QdgF_DJbw-cuI0c-qhznH_dZ9xQyY7knG_lp6RBwzA8
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

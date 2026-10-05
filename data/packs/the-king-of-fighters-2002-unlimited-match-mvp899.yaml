@@ -1,0 +1,25 @@
+key: the-king-of-fighters-2002-unlimited-match-mvp899
+name: The King of Fighters 2002 Unlimited Match
+game:
+  title: The King of Fighters 2002 Unlimited Match
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: partial
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/king-of-fighters-2002-the-unlimited-match-pcsx2-hd-texture.659819/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/BglnCBiA#T5u4JCj_bFgWD_xkRgER1WphTqduFQ58dc6yZyWdzkU
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

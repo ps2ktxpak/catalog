@@ -1,0 +1,22 @@
+key: prince-of-persia-the-sands-of-time-texmaster-2
+name: 'Prince of Persia: The Sands of Time'
+game:
+  title: 'Prince of Persia: The Sands of Time'
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-the-sands-of-time-texture-remaster-hd-pack-sles-51918.668868/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  confidence: high
+  note: Opening post contains no download link; evidence has no accessible candidate links.

@@ -1,0 +1,25 @@
+key: shadow-of-the-colossus-sad-origami
+name: Shadow of the Colossus
+game:
+  title: Shadow of the Colossus
+  regions:
+  - PAL
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shadow-of-the-colossus-usa-eu-origami-remaster.641597/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6Hke9V6GUFs/
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

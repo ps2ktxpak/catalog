@@ -1,0 +1,25 @@
+key: rlh-run-like-hell-evanft
+name: RLH - Run Like Hell
+game:
+  title: RLH - Run Like Hell
+  regions:
+  - NTSC-U
+credits:
+- creator: evanft
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/rlh-run-like-hell-usa-slus-20037-upscaled-texture-pack.625667/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/0ksoky92nztxe6x/SLUS-20037.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

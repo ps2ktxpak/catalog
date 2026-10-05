@@ -45,8 +45,27 @@ media:
     thumb_url: https://gbatemp.net/data/attachments/573/573307-38f5c0d3b292e39c634a87d8b702e039.jpg?hash=hqwNDUFdEG
     alt: upscaled
     credit: funnynamexyz
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/funnynamexyz-gta-vice-city-upscaled-slus-20552-2.0.tar.zst
+    sha256: 03836856dedebc57e6bb8344c2d909b02283e0c8a2c2c177dbfe3671e0ce7c09
+    size_bytes: 608451015
+    decompressed_size_bytes: 721059840
+    file_count: 6008
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 862A27D2CF722B21176990436DF06202BCB0B7C1C22EE3928910BE610CA206E6
+      size_bytes: 1667196670

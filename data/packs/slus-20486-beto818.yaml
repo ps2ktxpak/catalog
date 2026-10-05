@@ -42,8 +42,27 @@ media:
   - source_url: https://gbatemp.net/attachments/marvel-vs-capcom-2_slus-20486_20250819094727-png.523994/
     thumb_url: https://gbatemp.net/data/attachments/523/523382-b4543787557ef375c396e527fcfcb6c6.jpg?hash=9NCaL52jHa
     credit: beto818
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-beto818-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-marvel-vs-capcom-2-new-age-of-heroes-hd-remaster-community-archive-slus-20486-20260728.tar.zst
+    sha256: 2699c816b5f523ea57c5407a423fb1f671cb524dc83403544a818f0682c921da
+    size_bytes: 354958538
+    decompressed_size_bytes: 767129600
+    file_count: 1823
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5995BFF24BC146AE4591A2D8C4FB13769F9D8E7F4FD7D076BB07A0171B2D1489
+      size_bytes: 1673669946

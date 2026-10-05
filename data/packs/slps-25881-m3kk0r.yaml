@@ -42,8 +42,27 @@ media:
   - source_url: https://gbatemp.net/attachments/kinnikuman-muscle-grand-prix-2_slps-25881_20240809021547-png.452034/
     thumb_url: https://gbatemp.net/data/attachments/451/451422-6cf826f078bd394abed0ff664f95dbee.jpg?hash=bPgm8Hi9OU
     credit: m3kk0r
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/m3kk0r-kinnikuman-muscle-grand-prix-2-slps-25881-20260728.tar.zst
+    sha256: b6a2c375289ca3e5b6fa5452ab81f6b0007078b50551602121d5222084707b08
+    size_bytes: 738606523
+    decompressed_size_bytes: 1146081280
+    file_count: 4162
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 25061CC04790B69BDDEB866FB6CDCEB54A5851A202084F4D7D57F870A018178F
+      size_bytes: 2454292164

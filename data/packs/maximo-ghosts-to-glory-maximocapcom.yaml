@@ -1,0 +1,23 @@
+key: maximo-ghosts-to-glory-maximocapcom
+name: 'Maximo: Ghosts to Glory'
+game:
+  title: 'Maximo: Ghosts to Glory'
+credits:
+- creator: maximocapcom
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/maximo-ghosts-to-glory-ultimate-remaster-texture-pack.677505/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://archive.org/details/maximo-ghosts-to-glory-remastered
+  host: archive_org
+  kind: file
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

@@ -32,8 +32,27 @@ media:
   - source_url: https://gbatemp.net/attachments/legacy-of-kain-defiance_slus-20773_20240819110738-jpg.453511/
     thumb_url: https://gbatemp.net/data/attachments/452/452899-5750ae8b7d53d0859458e94629cb6ea0.jpg?hash=V1Cui31T0I
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-legacy-of-kain-defiance-slus-20773-20260728.tar.zst
+    sha256: 0ff38e9146e8a418e3113e4c32d1d6afd6b1bd0f3ff0c7fa2ed8e366104d4e12
+    size_bytes: 699554009
+    decompressed_size_bytes: 922030080
+    file_count: 5740
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1D8330034D35B4B764BA6D2B608029E664369C1171F24BC39AD26C110CEA488D
+      size_bytes: 709673468

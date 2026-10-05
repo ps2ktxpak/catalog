@@ -1,0 +1,20 @@
+key: need-for-speed-underground-mubumbutu
+name: 'Need for Speed: Underground'
+game:
+  title: 'Need for Speed: Underground'
+credits:
+- creator: mubumbutu
+type: unknown
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/need-for-speed-underground-hd-by-m.663098/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  confidence: high
+  note: Text mentions a download with an obfuscated URL (buzzheavier.com with spaces) but the actual working link is unverifiable in the evidence.

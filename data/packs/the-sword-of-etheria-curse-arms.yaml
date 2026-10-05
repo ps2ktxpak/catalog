@@ -1,0 +1,25 @@
+key: the-sword-of-etheria-curse-arms
+name: The Sword of Etheria
+game:
+  title: The Sword of Etheria
+  regions:
+  - PAL
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=16x-lF6lEdf0-po6h3UxTPQmps8MCe7IQ&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

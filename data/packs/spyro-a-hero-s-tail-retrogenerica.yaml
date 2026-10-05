@@ -1,0 +1,25 @@
+key: spyro-a-hero-s-tail-retrogenerica
+name: 'Spyro: A Hero''s Tail'
+game:
+  title: 'Spyro: A Hero''s Tail'
+  regions:
+  - NTSC-U
+credits:
+- creator: retrogenerica
+type: button_replacement
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spyro-a-heros-tail-ps2-xbox-and-ps5-button-texture-replacement-packs-crasharkis-enhanced-hd-remaster.682156/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/CRASHARKI/saht-tp
+  host: github
+  kind: page
+  confidence: high
+  note: Creator cites CRASHARKI's GitHub repository as the HD texture pack.

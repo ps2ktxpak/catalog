@@ -1,0 +1,25 @@
+key: coconut-simulator-mvp899
+name: Coconut Simulator
+game:
+  title: Coconut Simulator
+  regions:
+  - PAL
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/coconut-simulator-pcsx2-hd-texture.671190/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/oUJXCYhK#uF-K5MPQizt_4iBG54gnGfmqvqCpOnxa0UmmvzIGRZQ
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

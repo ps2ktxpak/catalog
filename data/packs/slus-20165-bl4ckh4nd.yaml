@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/7ltgy7c8l4p3q20/Legacy_of_Kain_Soul_Reaver_2.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-legacy-of-kain-soul-reaver-2-slus-20165-20260728.tar.zst
+    sha256: 3a0243a78dea02f50c3f8a84a7ca2007765e1b68be8cb4cf2b8b10a330d7553b
+    size_bytes: 1350371354
+    decompressed_size_bytes: 1602877440
+    file_count: 14317
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: FB5C20FDA17D9DA495D4938023EAEDD071BA589D98719581E7CA8FC0A761D13B
+      size_bytes: 2893168367

@@ -1,0 +1,25 @@
+key: gran-turismo-4-spec-ii-mvp899
+name: Gran Turismo 4 Spec II
+game:
+  title: Gran Turismo 4 Spec II
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gran-turismo-4-spec-ii-pcsx2-hd-texture.662899/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/NglkFJxI#fGIYj0S7otRVNR61ju0Nxw
+  host: mega
+  kind: folder
+  confidence: high
+  note: Creator's pinned YouTube comment provides MEGA folder link labeled as HD texture pack.

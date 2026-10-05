@@ -1,0 +1,23 @@
+key: scarface-the-world-is-yours-el-jefe-hd-packs
+name: 'Scarface: The World Is Yours'
+game:
+  title: 'Scarface: The World Is Yours'
+  regions:
+  - PAL
+credits:
+- creator: el-jefe-hd-packs
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/scarface-the-world-is-yours-remaster-ps2-hd-pack-overhaul-final-edition.681914/
+  primary: true
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/d34bd2f0dd
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

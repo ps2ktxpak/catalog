@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-red-ninja-end-of-honor-hd-remaster-community-archive-slus-20714-20260728.tar.zst
+    sha256: c0dc7bd106a99ee04e9acc90063357e74ded90440a28e98f891f892cb6b547b6
+    size_bytes: 603911547
+    decompressed_size_bytes: 762552320
+    file_count: 2385
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 694F0F11AA316CC13CD09E4E842C6F55D2C3CF5B6A822254ACB2481A6B6A3A41
+      size_bytes: 561419780

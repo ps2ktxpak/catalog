@@ -1,0 +1,22 @@
+key: dynasty-warriors-2-sombertwilight
+name: Dynasty Warriors 2
+game:
+  title: Dynasty Warriors 2
+  regions:
+  - NTSC-U
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dynasty-warriors-2-ntsc-hd-retexture.644987/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: ambiguous
+  confidence: low
+  note: Creator provides both outsourced-textures folder and original-HD folder; unclear which is base pack.

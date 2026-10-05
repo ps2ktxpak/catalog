@@ -1,0 +1,18 @@
+key: burnout-ironhulk33
+name: Burnout
+game:
+  title: Burnout
+  regions:
+  - NTSC-U
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/burnout-usa-hd-textures.663432/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

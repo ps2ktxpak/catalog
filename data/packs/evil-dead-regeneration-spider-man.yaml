@@ -1,0 +1,18 @@
+key: evil-dead-regeneration-spider-man
+name: 'Evil Dead: Regeneration'
+game:
+  title: 'Evil Dead: Regeneration'
+  regions:
+  - PAL
+credits:
+- creator: spider-man
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/evil-dead-regenerated-new-version.678498/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

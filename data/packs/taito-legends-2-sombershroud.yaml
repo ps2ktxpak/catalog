@@ -1,0 +1,25 @@
+key: taito-legends-2-sombershroud
+name: Taito Legends 2
+game:
+  title: Taito Legends 2
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: partial
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/taito-legends-1-2-usa-hd-textures-menu-only.639603/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/srrad3zmzouzq1m/SLUS-21349.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided mediafire download link for SLUS-21349 (Taito Legends 2) in opening post.

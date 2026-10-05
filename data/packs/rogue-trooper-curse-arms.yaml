@@ -1,0 +1,25 @@
+key: rogue-trooper-curse-arms
+name: Rogue Trooper
+game:
+  title: Rogue Trooper
+  regions:
+  - NTSC-U
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/rogue-trooper-hd-textures.674567/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=10TTCQEWPlNFM7yDcFZVz_lO5yuUt6E7p&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

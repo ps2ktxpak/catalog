@@ -1,0 +1,25 @@
+key: ape-escape-2-flooffluff
+name: Ape Escape 2
+game:
+  title: Ape Escape 2
+  regions:
+  - NTSC-U
+credits:
+- creator: flooffluff
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-ape-escape-2-hd-slus-20685.655822/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/gzw8an2h11d519w/SLUS-20685.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's explicit 'Download textures' link in opening post.

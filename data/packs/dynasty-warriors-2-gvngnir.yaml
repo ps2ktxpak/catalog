@@ -1,0 +1,25 @@
+key: dynasty-warriors-2-gvngnir
+name: Dynasty Warriors 2
+game:
+  title: Dynasty Warriors 2
+  regions:
+  - NTSC-U
+credits:
+- creator: gvngnir
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dynasty-warriors-2-enhanced-4k-texture-mod.668788/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/302ed408cf
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: Creator provided Ko-fi shop link and explicitly states pack remains free forever.

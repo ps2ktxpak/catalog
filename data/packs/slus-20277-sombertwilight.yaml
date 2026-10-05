@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/dynasty-warriors-3-xl-hd-texture-pack-ntsc.644934/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-dynasty-warriors-3-xl-slus-20277-20260728.tar.zst
+    sha256: 9dcc9fa08b2cd49852e601068ea6d24adc8c2c663f3120854280f1055fe92e62
+    size_bytes: 963007334
+    decompressed_size_bytes: 1377617920
+    file_count: 5077
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: F97069133128A695A8C914C2B7569C5506473ABB2C1208EF138CCD36C205EA3C
+      size_bytes: 1234851652

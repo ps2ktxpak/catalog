@@ -1,0 +1,18 @@
+key: resident-evil-outbreak-retrojunkies
+name: 'Resident Evil: Outbreak'
+game:
+  title: 'Resident Evil: Outbreak'
+  regions:
+  - PAL
+credits:
+- creator: retrojunkies
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://ko-fi.com/s/66d64b6991
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -1,0 +1,22 @@
+key: peter-jackson-s-king-kong-mvp899
+name: Peter Jackson's King Kong
+game:
+  title: Peter Jackson's King Kong
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/king-kong-peter-jacksons-the-official-game-of-the-movie-hd-texture.659104/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: gated
+  confidence: high
+  note: 'Creator indicates account required: ''You must have an account to download it.'''

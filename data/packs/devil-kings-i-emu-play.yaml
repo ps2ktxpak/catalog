@@ -1,0 +1,23 @@
+key: devil-kings-i-emu-play
+name: Devil Kings
+game:
+  title: Devil Kings
+credits:
+- creator: i-emu-play
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/devil-kings-sengoku-basara-hd-texture-pack.640998/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/weJRHCBB#SWlEMnp0cO-ko6Ob6KqUA9cX5FEku-7ONPM62ATlgwo
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

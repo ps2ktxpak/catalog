@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-10-19-22-at-06-07-pm-001-jpg.332911/
     thumb_url: https://gbatemp.net/data/attachments/332/332299-3f1238f55a62a5c51f8d4436ded065a3.jpg?hash=PxI49Vpipc
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-persona-4-20260722.tar.zst
+    sha256: 2c9956aea2fff8e529774ea4842431ec2df6eca0f7e7594e147dbde962d706a3
+    size_bytes: 1164578852
+    decompressed_size_bytes: 2756935680
+    file_count: 7942
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 2B9B73C23190AC8BEFA024775F058FA2481A5D04587AF34EF8F9DE9527715B73
+      size_bytes: 1214230319

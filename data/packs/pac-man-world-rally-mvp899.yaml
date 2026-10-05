@@ -1,0 +1,25 @@
+key: pac-man-world-rally-mvp899
+name: Pac-Man World Rally
+game:
+  title: Pac-Man World Rally
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pac-man-world-rally-pcsx2-hd-texture.669000/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/HPRiwJIb#JcBh51Q_6uk5-mIHqucn77FC4L_jDGo7Ja4ggpDsZjg
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

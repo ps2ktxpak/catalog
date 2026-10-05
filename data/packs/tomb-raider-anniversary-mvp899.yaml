@@ -1,0 +1,25 @@
+key: tomb-raider-anniversary-mvp899
+name: 'Tomb Raider: Anniversary'
+game:
+  title: 'Tomb Raider: Anniversary'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tomb-raider-anniversary-hd-texture-high-definition.643200/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/yUUyADrD#K-mgK8C0xHR0wVwhprcDCLdqmawR_uQ113PqXf9TdMs
+  host: mega
+  kind: file
+  confidence: medium
+  note: Creator provided MEGA link in followup; opening post indicates work in progress.

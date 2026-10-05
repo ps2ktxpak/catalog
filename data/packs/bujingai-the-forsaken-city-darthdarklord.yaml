@@ -1,0 +1,25 @@
+key: bujingai-the-forsaken-city-darthdarklord
+name: 'Bujingai: The Forsaken City'
+game:
+  title: 'Bujingai: The Forsaken City'
+  regions:
+  - NTSC-U
+credits:
+- creator: darthdarklord
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bujingai-the-forsaken-city-texture-pack.640702/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://archive.org/details/replacements.7z_202310
+  host: archive_org
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

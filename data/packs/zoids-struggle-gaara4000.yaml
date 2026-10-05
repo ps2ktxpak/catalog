@@ -1,0 +1,19 @@
+key: zoids-struggle-gaara4000
+name: Zoids Struggle
+game:
+  title: Zoids Struggle
+credits:
+- creator: gaara4000
+type: handcrafted
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/a-little-zoids-translation.675650/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  note: Opening post references texture pack modifications but provides no download link.

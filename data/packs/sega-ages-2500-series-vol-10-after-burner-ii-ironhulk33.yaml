@@ -1,0 +1,18 @@
+key: sega-ages-2500-series-vol-10-after-burner-ii-ironhulk33
+name: 'Sega Ages 2500 Series Vol. 10: After Burner II'
+game:
+  title: 'Sega Ages 2500 Series Vol. 10: After Burner II'
+  regions:
+  - NTSC-J
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sega-ages-2500-series-vol-10-after-burner-ii-ntsc-j-ps2-hd-pack.666629/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -1,0 +1,20 @@
+key: over-the-hedge-texmaster
+name: Over the Hedge
+game:
+  title: Over the Hedge
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dreamworks-la-gang-del-bosco-in-ita-remastered-version-in-hd-ita.658532/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: gated
+  confidence: high
+  note: Link points to Telegram channel, requires account access to view files.

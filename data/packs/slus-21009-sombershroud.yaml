@@ -23,8 +23,27 @@ media:
   - source_url: https://gbatemp.net/attachments/sega-classics-collection_slus-21009_20240319011234-png.426610/
     thumb_url: https://gbatemp.net/data/attachments/425/425998-c9fb051d43529a411b842cf02f46bef0.jpg?hash=yfsFHUNSmk
     credit: sombershroud
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombershroud-sega-classics-collection-slus-21009-20260728.tar.zst
+    sha256: 48c736c48ab6cd40a6c11c55c9e95208205a200595212cff9d4baee471d562bf
+    size_bytes: 3095680
+    decompressed_size_bytes: 7065600
+    file_count: 26
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 822CE9F4C44F132F93EBDBC5C138DAB819DA44419FA135EAD1EFF339B7EAF7D7
+      size_bytes: 8723212

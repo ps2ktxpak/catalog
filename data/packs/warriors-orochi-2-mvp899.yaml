@@ -1,0 +1,25 @@
+key: warriors-orochi-2-mvp899
+name: Warriors Orochi 2
+game:
+  title: Warriors Orochi 2
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/warriors-orochi-2-pcsx2-hd-texture.660798/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/2388fab399
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video comment; not yet confirmed to be the pack itself

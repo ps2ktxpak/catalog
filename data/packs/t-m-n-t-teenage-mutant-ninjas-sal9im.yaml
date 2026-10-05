@@ -1,0 +1,25 @@
+key: t-m-n-t-teenage-mutant-ninjas-sal9im
+name: T.M.N.T. - Teenage Mutant Ninjas
+game:
+  title: T.M.N.T. - Teenage Mutant Ninjas
+  regions:
+  - NTSC-U
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tmnt-2007-upscaled-texture-pack.658503/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1B3S0UEnPqN0RMSwGAyH0L6KUQi84T__L/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

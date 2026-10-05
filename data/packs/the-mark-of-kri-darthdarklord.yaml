@@ -1,0 +1,23 @@
+key: the-mark-of-kri-darthdarklord
+name: The Mark of Kri
+game:
+  title: The Mark of Kri
+credits:
+- creator: darthdarklord
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-mark-of-kri-texture-pack.635390/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://archive.org/details/replacements.7z
+  host: archive_org
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

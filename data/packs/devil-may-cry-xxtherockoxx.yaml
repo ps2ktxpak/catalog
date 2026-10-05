@@ -1,0 +1,25 @@
+key: devil-may-cry-xxtherockoxx
+name: Devil May Cry
+game:
+  title: Devil May Cry
+  regions:
+  - NTSC-U
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/devil-may-cry-hd-texures-v1-0.667045/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/s7rytq7fm0yefvr/D.M.C_HD.Textures.v1.0xXThe.RockoXx.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's opening post directly provides mediafire download link with pack filename.

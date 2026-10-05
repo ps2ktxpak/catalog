@@ -1,0 +1,25 @@
+key: jak-and-daxter-the-lost-frontier-mvp899
+name: 'Jak and Daxter: The Lost Frontier'
+game:
+  title: 'Jak and Daxter: The Lost Frontier'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/jak-and-daxter-the-lost-frontier-pcsx2-hd-texture.672415/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/749eeb48dc
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/r7mar9twua9wcus/Gallop_Racer_2006.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-gallop-racer-2006-slus-21393-20260728.tar.zst
+    sha256: 6e80c3358339d5b92ceb3835a2854015cbcb930f2a69ea1bd129988deddd38cf
+    size_bytes: 206455226
+    decompressed_size_bytes: 450437120
+    file_count: 2814
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: B0BEC028EB096801D2D229E74055FC427B23222C4CAE6689BF4CA92D1B6D41B4
+      size_bytes: 331068355

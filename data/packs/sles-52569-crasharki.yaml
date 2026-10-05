@@ -16,8 +16,27 @@ sources:
 - kind: repository
   url: https://github.com/CRASHARKI/saht-tp
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/crasharki-spyro-a-heros-tail-0fe1458c.tar.zst
+    sha256: 0b3d0b221d7f26b32addf26f3b64a491c56f5730723f28ed687d2a033e0a4513
+    size_bytes: 133398429
+    decompressed_size_bytes: 370851840
+    file_count: 841
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 8E28F0B2E211C7992884BA105717757F06A2B3C87670062EF60B069C24B128AF
+      size_bytes: 358686749

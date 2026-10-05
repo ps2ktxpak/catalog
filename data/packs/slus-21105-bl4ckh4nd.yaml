@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/zoplhf8qghny3ud/Tom_Clancy%2527s_Ghost_Recon_2.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-tom-clancy-s-ghost-recon-2-slus-21105-20260728.tar.zst
+    sha256: 87e709971ec20e8e196be93e75961f38d9b903ccf7bd77214aab654744806381
+    size_bytes: 352541458
+    decompressed_size_bytes: 563671040
+    file_count: 1233
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5FE2093420D684D7C772F1E98BDFE0C60FD8F65899404EBD62DC6A091D13BE0E
+      size_bytes: 419514202

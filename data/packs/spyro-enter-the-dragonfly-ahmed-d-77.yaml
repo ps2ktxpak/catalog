@@ -1,0 +1,25 @@
+key: spyro-enter-the-dragonfly-ahmed-d-77
+name: 'Spyro: Enter the Dragonfly'
+game:
+  title: 'Spyro: Enter the Dragonfly'
+  regions:
+  - NTSC-U
+credits:
+- creator: ahmed-d-77
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spyro-enter-the-dragonfly-remastered-ps2-texture-4k-pack-slus-20315-usa.677181/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/0ph2lnjku2jqctm/SLUS-20315.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's opening post labels this as direct download for 6.29 GB texture pack.

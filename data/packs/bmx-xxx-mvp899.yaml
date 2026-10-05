@@ -1,0 +1,25 @@
+key: bmx-xxx-mvp899
+name: BMX XXX
+game:
+  title: BMX XXX
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bmx-xxx-pcsx2-hd-texture.665814/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/lvo6ysmivj73nf8/BMX_XXX.rar/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

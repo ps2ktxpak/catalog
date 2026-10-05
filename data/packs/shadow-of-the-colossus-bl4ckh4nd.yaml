@@ -1,0 +1,16 @@
+key: shadow-of-the-colossus-bl4ckh4nd
+name: Shadow of the Colossus
+game:
+  title: Shadow of the Colossus
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -39,6 +39,8 @@ media:
   - source_url: https://gbatemp.net/attachments/tales-of-rebirth_slps-25450_20241225072927-jpg.479045/
     thumb_url: https://gbatemp.net/data/attachments/478/478433-e6cd17008fe08c7864ec969cb924988c.jpg?hash=dfq9a2p7VU
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -46,3 +48,20 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/wickedclown285-panda-venom-tales-of-rebirth-slps-25450-20260726.tar.zst
+    sha256: cfe25baef4ae42276a31b0b44c515fe475014209ad29d85d23e0fa7e36496e28
+    size_bytes: 117693443
+    decompressed_size_bytes: 1393203200
+    file_count: 3736
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 34D6532A8114B8329104908581BA3F32FF2EEDCA2C6AF002CCDE7451E1977C61
+      size_bytes: 852671457

@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/afvoljh15tsichd/Street_Fighter_EX3.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-street-fighter-ex3-slus-20130-20260728.tar.zst
+    sha256: 6838856254cab8780c1af53d19a5cc9f398d41ade19c56691ccd77a738cb6599
+    size_bytes: 134877389
+    decompressed_size_bytes: 186316800
+    file_count: 1369
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 2E30541244D5F5498A878131AC22FA48167CFC8BF95AF84248E633AAF2219658
+      size_bytes: 170564828

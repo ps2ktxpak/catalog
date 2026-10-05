@@ -11,9 +11,8 @@ The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 
 | Path | What | Edited by |
 |---|---|---|
-| `data/creators/`, `data/packs/` | Creators and the packs we host | people |
-| `data/archives/` | What the conversion pipeline produced (hashes, sizes) | the pipeline |
-| `data/listings/`, `data/links/`, `data/resolution/` | The Texture Packs Archive's PS2 listings as first imported, which of them are packs we host, and where their pages lead | people |
+| `data/creators/` | One file per creator | people |
+| `data/packs/` | One file per pack: hosted, held back, or only known to exist. Its `archive` block (hashes, sizes) is the conversion pipeline's | people; the pipeline |
 | `schema/` | JSON Schema for every file type; the creator form validates against it too | people |
 | `tools/ps2ktxpak/` | The command line: validate, report, compile | |
 | `site/` | The published pack list and creator pages (Astro Starlight) | people |
@@ -51,8 +50,8 @@ cd site && npm install && cd ..
 
 ```sh
 ps2ktxpak validate                     # schemas, cross-references, hosting policy
-ps2ktxpak report summary               # counts; also: paid-hosted, unmatched, credits
-ps2ktxpak compile catalog              # dist/textures.json (what the app downloads)
+ps2ktxpak report summary               # counts; also: paid-hosted, credits
+ps2ktxpak compile catalog              # dist/textures.json: the rollup of the hosted packs, what the app downloads
 ps2ktxpak compile links                # dist/texture-pack-links.json (compatibility overlay)
 pytest                                 # the tools, the forms and the submission workflow, against the real data
 cd site && npm run dev                 # the site: the pack list is the home page, with a page per creator

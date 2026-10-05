@@ -1,0 +1,25 @@
+key: grandia-iii-panda-venom
+name: Grandia III
+game:
+  title: Grandia III
+  regions:
+  - NTSC-U
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grandia-iii-usa-hd-remaster-with-widescreen-support.620404/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/8t2xggwujkvwz1q/GrndIII_HD_v2.0.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

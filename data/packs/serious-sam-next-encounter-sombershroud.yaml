@@ -1,0 +1,25 @@
+key: serious-sam-next-encounter-sombershroud
+name: 'Serious Sam: Next Encounter'
+game:
+  title: 'Serious Sam: Next Encounter'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/serious-sam-next-encounter-usa-hd-textures.638281/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/obts7lo5lublmim/SLUS-20907.zip/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -1,0 +1,23 @@
+key: ncaa-06-antdroid
+name: NCAA 06
+game:
+  title: NCAA 06
+credits:
+- creator: antdroid
+type: handcrafted
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ncaa-06-football-and-madden-08-football-next-hd-remasters.624091/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/ncaanext
+  host: github
+  kind: page
+  confidence: medium
+  note: The opening post says the downloads are on GitHub and gives this org page, which lists the NCAA 06 repos (ncaa-next-26, ncaa-next-25) and the texture downloader tool.

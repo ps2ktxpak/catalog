@@ -1,0 +1,22 @@
+key: prince-of-persia-warrior-within-texmaster
+name: 'Prince of Persia: Warrior Within'
+game:
+  title: 'Prince of Persia: Warrior Within'
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-warrior-within-texture-remaster-hd-pack-sles-52822.668798/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  confidence: high
+  note: Opening post empty; YouTube video links only to gbatemp forum new-post form.

@@ -1,0 +1,25 @@
+key: mortal-kombat-armageddon-mvp899
+name: 'Mortal Kombat: Armageddon'
+game:
+  title: 'Mortal Kombat: Armageddon'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mortal-kombat-armageddon-premium-edition-pcsx2-hd-texture.668966/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/24444fe379
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

@@ -1,0 +1,25 @@
+key: xenosaga-episode-ii-jenseits-von-gut-und-bose-panda-venom
+name: 'Xenosaga Episode II: Jenseits von Gut und Bose'
+game:
+  title: 'Xenosaga Episode II: Jenseits von Gut und Bose'
+  regions:
+  - NTSC-U
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/xenosaga-trilogy-usa-hd-remaster.612395/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/fNQl1BTa#Mrm01hjb_yvdMzvoG4IhSK9BuiAj6NSi00tBHgPCUrg
+  host: mega
+  kind: file
+  confidence: high
+  note: Creator provided MEGA link labeled as updated Episode II download.

@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/sims-the-complete-collection-ntsc-hd.646477/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-the-sims-2-pets-slus-21536-20260726.tar.zst
+    sha256: b159b73090a152d5bb953130857529887a47459903e2749b87bc085aafb474a7
+    size_bytes: 206755993
+    decompressed_size_bytes: 462131200
+    file_count: 3820
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 07DDC4FCF2230B8F7BA718AA93FB9D19017AE3DF3292D39839187D3FF6B1B509
+      size_bytes: 260810418

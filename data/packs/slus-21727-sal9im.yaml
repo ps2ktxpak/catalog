@@ -46,8 +46,27 @@ media:
     id: aigWvDg57VA
   - provider: youtube
     id: LK40LQxtkp8
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sal9im-naruto-ultimate-ninja-3-slus-21727-20260728.tar.zst
+    sha256: feab7dacbf3680884f3ead1adfe67800ac27deefc56059b8c71c2914ce9af762
+    size_bytes: 1296825415
+    decompressed_size_bytes: 2791147520
+    file_count: 7215
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 15F0D8BAC1A023157A84A3B5F0CC7C9AB8D05E555CD171288561B6CA22977BC7
+      size_bytes: 1581833243

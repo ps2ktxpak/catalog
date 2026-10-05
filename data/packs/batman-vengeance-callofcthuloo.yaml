@@ -1,0 +1,25 @@
+key: batman-vengeance-callofcthuloo
+name: 'Batman: Vengeance'
+game:
+  title: 'Batman: Vengeance'
+  regions:
+  - NTSC-U
+credits:
+- creator: callofcthuloo
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/batman-vengeance-slus-20226-hd-texture-pack-upscale.683487/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/1xj9y2cit51p27v/Batman_-_Vengeance_%255BSLUS-20226%255D.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator posted PCSX2 download link in opening post; confirmed in YouTube video.

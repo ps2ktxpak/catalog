@@ -1,0 +1,25 @@
+key: evil-dead-a-fistful-of-boomstick-c0meg3ts0me
+name: 'Evil Dead: A Fistful of Boomstick'
+game:
+  title: 'Evil Dead: A Fistful of Boomstick'
+  regions:
+  - NTSC-U
+credits:
+- creator: c0meg3ts0me
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/evil-dead-a-fistful-of-boomstick-slus-20403-hd-pack.660046/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/gqVUgZjJ#CtqtWdEtRjsrFtz091YvudJOGryjHKG1eFkf5YCxXcg
+  host: mega
+  kind: file
+  confidence: high
+  note: Thread starter provided Mega link for PC texture pack version in opening post.

@@ -19,8 +19,27 @@ sources:
   url: https://gbatemp.net/threads/50-cent-bulletproof-unfinished-paused.676698/
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ridvan67-50-cent-bulletproof-wip-slus-21315-20260726.tar.zst
+    sha256: df9e74bf3ae40bf6bcba8ad5a14a7de4b942cf0c0da4132a1243230a9a25c2e4
+    size_bytes: 219150296
+    decompressed_size_bytes: 390707200
+    file_count: 1643
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 37899DD8FC27D592D6B6F8BC2B1D8C40D8C847D77D639BDD36AF1CB7E626F418
+      size_bytes: 1066725820

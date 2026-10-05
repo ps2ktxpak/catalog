@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/van-helsing_slus-20738_20230929012653-png.396440/
     thumb_url: https://gbatemp.net/data/attachments/395/395828-88d76a6aafa68fa0644fd51e7fa2998b.jpg?hash=iNdqaq-mj6
     credit: teodor-max
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/teodor-max-van-helsing-slus-20738-20260728.tar.zst
+    sha256: c0b4cfb9c27c070a8cb59ebc6c29b72528e8fa7ea8354952e0ad84b23df2d25e
+    size_bytes: 614360373
+    decompressed_size_bytes: 882401280
+    file_count: 3339
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A4D61B2555690873FA7C5AE3DC7582004B269183D6593D310BA78DC91A44BD25
+      size_bytes: 2329520984

@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/guitar-hero-slus-21224-guitar-hero-ii-slus-21447-hd-texture-packs-upscales.667554/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/callofcthuloo-guitar-hero-ii-android-slus-21447-20260726.tar.zst
+    sha256: 46cc37144486938328d29be06c099bd587eeffabd3da9c3b9e5a2e9a0a9e0485
+    size_bytes: 248297410
+    decompressed_size_bytes: 370718720
+    file_count: 1032
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 272C98AFE5836EF812C21785C2E1B9DB5E6E70366F96C9FAB5532778A6A78095
+      size_bytes: 727472571

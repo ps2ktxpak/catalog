@@ -1,0 +1,25 @@
+key: dragon-ball-z-budokai-tenkaichi-3-tournament-showdown-mvp899
+name: 'Dragon Ball Z: Budokai Tenkaichi 3 Tournament Showdown'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 3 Tournament Showdown'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-bt3-tournament-showdomn-pcsx2-hd-texture.671017/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/8YAB0IAZ#_VaWVo3PJ0s2gbyyDFSk5CfSKy2CnOgKpeU8-cx2Y6g
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

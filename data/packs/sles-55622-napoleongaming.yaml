@@ -45,8 +45,27 @@ media:
   - source_url: https://gbatemp.net/attachments/disney_pixar-toy-story-3_sles-55622_20251113203153-png.539161/
     thumb_url: https://gbatemp.net/data/attachments/538/538549-379e20b003e260ffb174b0c8c78f18b2.jpg?hash=OldSl5BnTh
     credit: napoleongaming
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-napoleongaming-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-toy-story-3-hd-remaster-community-archive-sles-55622-20260728.tar.zst
+    sha256: 401df2d6ae23c8bec0a6cbdd31f890c3b376968144ec9cf9811a1e84d6a1ca78
+    size_bytes: 2983483637
+    decompressed_size_bytes: 8614819840
+    file_count: 1950
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: CE041D1371ECB3DB8506EB6D78F9388CB3F209FD6E3125640C0372EB0FB3AE2F
+      size_bytes: 3977683711

@@ -1,0 +1,21 @@
+key: crash-nitro-kart-moataz
+name: Crash Nitro Kart
+game:
+  title: Crash Nitro Kart
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/crash-bandicoot-nitro-kart-hd-textures.650401/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Download link goes through ouo.io, a link shortener with ad walls.

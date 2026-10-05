@@ -35,8 +35,27 @@ media:
   - source_url: https://gbatemp.net/attachments/onimusha-blade-warriors_slus-20710_20260412012943-png.567756/
     thumb_url: https://gbatemp.net/data/attachments/567/567144-2ef404df8a12f597faa140395fd9b912.jpg?hash=TyvReCxpBp
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-onimusha-blade-warriors-slus-20710-20260727.tar.zst
+    sha256: c2b2c18d4ab924aca59b693edfea9b25b511109c40b7b3697af69f4ce06ace47
+    size_bytes: 269382524
+    decompressed_size_bytes: 538521600
+    file_count: 1206
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5D334F3CDC1DAED8A1BD9001B591FCA94679B07C087826D203FF43D3C7018E3A
+      size_bytes: 982654225

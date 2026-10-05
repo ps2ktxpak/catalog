@@ -1,0 +1,21 @@
+key: prince-of-persia-the-two-thrones-texmaster
+name: 'Prince of Persia: The Two Thrones'
+game:
+  title: 'Prince of Persia: The Two Thrones'
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-the-two-thrones-sles-53777-hd-texture-pack-pcsx2.680986/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Download links go through ouo.io, a link shortener with ad walls.

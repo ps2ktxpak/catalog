@@ -1,0 +1,18 @@
+key: pinball-hall-of-fame-the-williams-collection-ironhulk33
+name: 'Pinball Hall Of Fame: The Williams Collection'
+game:
+  title: 'Pinball Hall Of Fame: The Williams Collection'
+  regions:
+  - NTSC-U
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pinball-hall-of-fame-gottlieb-williams-collection-usa-hd-pack.665531/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

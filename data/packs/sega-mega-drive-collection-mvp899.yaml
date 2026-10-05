@@ -1,0 +1,25 @@
+key: sega-mega-drive-collection-mvp899
+name: Sega Mega Drive Collection
+game:
+  title: Sega Mega Drive Collection
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sega-classics-collection-pcsx2-hd-texture.671704/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/AIJTxQjQ#z4j1SdK0SnISFGuYOfYhWw
+  host: mega
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

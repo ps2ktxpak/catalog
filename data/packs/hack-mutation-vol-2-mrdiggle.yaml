@@ -1,0 +1,25 @@
+key: hack-mutation-vol-2-mrdiggle
+name: .hack//Mutation Vol.2
+game:
+  title: .hack//Mutation Vol.2
+  regions:
+  - NTSC-U
+credits:
+- creator: mrdiggle
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/hack-imoq-2k-texture-pack-ntsc-wip.677816/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/drive/folders/1RKYSBP5lL0XnNLeRpndIEYDuKSQuGaA5?usp=sharing
+  host: gdrive
+  kind: folder
+  confidence: high
+  note: The opening post's Download spoiler gives this folder for the all-in-one pack covering all four .hack games, in PNG and DDS versions; the other folder is only a Battle Mode extra.

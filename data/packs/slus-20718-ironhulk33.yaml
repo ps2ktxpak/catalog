@@ -19,6 +19,8 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -26,3 +28,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-sonic-heroes-hd-remaster-community-archive-slus-20718-20260728.tar.zst
+    sha256: 1ebf667050fd78c8f8409dfc4bf0db412afeac4fc4ffb9c41e7afb10ada88c37
+    size_bytes: 163334873
+    decompressed_size_bytes: 267038720
+    file_count: 2998
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 9BA0BA0CBCAE06AF6A8AD2D45F786F9F4A2F6B603957C82D632F962460517EEB
+      size_bytes: 331347520

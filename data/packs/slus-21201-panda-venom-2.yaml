@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-panda-venom-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-tales-of-legendia-hd-remaster-community-archive-slus-21201-20260728.tar.zst
+    sha256: 385eb59b295ffd72a75749e3bf54aa08419bdf2f887f94013954f83482fe2e9c
+    size_bytes: 3173608431
+    decompressed_size_bytes: 5054126080
+    file_count: 15480
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1BE3900E5D4B716FB63A761A82F29DF09C65DA1BC623BE93F5ED8FD4D1BBF609
+      size_bytes: 2486299850

@@ -1,0 +1,25 @@
+key: capcom-classics-collection-vol-2-sombershroud
+name: Capcom Classics Collection Vol. 2
+game:
+  title: Capcom Classics Collection Vol. 2
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/capcom-classics-collection-vol-1-2-usa-hd-textures-menu-only.645343/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/5n71mpci5q3lyf9/SLUS-21316.zip/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

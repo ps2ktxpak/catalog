@@ -21,3 +21,20 @@ hosting:
   state: published
 needs_review:
 - credit_unknown
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-harry-potter-and-the-chamber-of-secrets-hd-remaster-community-archive-slus-20576-20260728.tar.zst
+    sha256: e8f27572905c637308ef718c47ae3058f5921cbfe5fa5d83f6de20147ed95c31
+    size_bytes: 5643666
+    decompressed_size_bytes: 14858240
+    file_count: 151
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 7411C2DCC3126A3BE8AE8C95C5741D9DF4E894C6BF38EDCC007D361F7FC47C28
+      size_bytes: 15904876

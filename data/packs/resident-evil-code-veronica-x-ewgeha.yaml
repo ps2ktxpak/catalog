@@ -1,0 +1,25 @@
+key: resident-evil-code-veronica-x-ewgeha
+name: 'Resident Evil Code: Veronica X'
+game:
+  title: 'Resident Evil Code: Veronica X'
+  regions:
+  - NTSC-U
+credits:
+- creator: ewgeha
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/resident-evil-code-veronica-x-remastered-project-pcsx2-4k-texture-pack-ai-enhanced.669142/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://disk.yandex.ru/d/_ILWwt29zG2bDw
+  host: other
+  kind: unknown
+  confidence: high
+  note: Creator provided Yandex.Disk link in opening post; also listed in YouTube description.

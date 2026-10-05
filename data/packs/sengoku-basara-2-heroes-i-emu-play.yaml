@@ -1,0 +1,23 @@
+key: sengoku-basara-2-heroes-i-emu-play
+name: 'Sengoku Basara 2: Heroes'
+game:
+  title: 'Sengoku Basara 2: Heroes'
+credits:
+- creator: i-emu-play
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sengoku-basara-2-heroes-hd-textures.641712/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/lPRmTQaA#XB6DlwyGZD0Ym9QEtLCFTODF-aNE79SNs2-IZ0Pnl2U
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

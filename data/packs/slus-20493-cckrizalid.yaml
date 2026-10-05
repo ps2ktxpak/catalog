@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-gungrave-hd-remaster-community-archive-slus-20493-20260728.tar.zst
+    sha256: b753eb55ec87602815a9a3c57f89ce737ce2ff20c451590d619b59c8559312d7
+    size_bytes: 183694915
+    decompressed_size_bytes: 450242560
+    file_count: 811
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EF7DBCAF4833983DA9A9BF45F7C39880EE69E7A823F0F38DED67ABACC726898C
+      size_bytes: 149519472

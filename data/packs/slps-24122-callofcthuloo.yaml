@@ -20,8 +20,27 @@ sources:
   url: https://gbatemp.net/threads/mobile-suit-gundam-ji-dong-zhan-shigandamu-zhan-ji-lost-war-chronicles-slps-25123-hd-texture-pack-upscale.667871/
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/callofcthuloo-gundam-lost-war-chronicles-android-slps-25123-20260726.tar.zst
+    sha256: ee71bc8e9cbd66d3f5fcd9ad04ebef63883899deacadac6099bafdf2ac7d9fe7
+    size_bytes: 277792537
+    decompressed_size_bytes: 714158080
+    file_count: 8438
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: F7ECBD76E693A7273A22658DD8448DA972D104FD978A6B51C70BB0023ED5E4E8
+      size_bytes: 903927958

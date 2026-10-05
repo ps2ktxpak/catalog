@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/mns6urrwx29q7px/Tom_Clancy%2527s_Rainbow_Six_3.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-tom-clancy-s-rainbow-six-3-raven-shield-slus-20883-20260728.tar.zst
+    sha256: c4fcb63d5b5773569df2b48790cf1c20be578e8f2c95ab12eaaa7e53bc749292
+    size_bytes: 326146029
+    decompressed_size_bytes: 460810240
+    file_count: 1737
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: BA1B2D034854535D8962F0FE913FB7199B168F61783F1487548659A9253C1EDF
+      size_bytes: 678763647

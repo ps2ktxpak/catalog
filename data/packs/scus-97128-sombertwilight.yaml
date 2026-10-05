@@ -29,8 +29,27 @@ media:
   videos:
   - provider: youtube
     id: tupHCOEaxFs
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-drakan-ancients-gates-scus-97128-20260727.tar.zst
+    sha256: 96ed85db83270005b90fcdc18f9250bd1abe402ff1717f50402505b690e30d04
+    size_bytes: 197790866
+    decompressed_size_bytes: 257013760
+    file_count: 894
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5E88AB401F0DF40DEBA83EFCBDFB7141494737D6A638469F18C5A7E271935DFD
+      size_bytes: 281173317

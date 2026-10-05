@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/realism-texture-mod-created-let-s-make-a-soccer-team-realism-mod-v1-5-texture-pack-sles-54151-20260728.tar.zst
+    sha256: 5b105a83521a205ec89ea04b3a0af47fd7238c1f87b4c8ddddf171ded4fea670
+    size_bytes: 2439071
+    decompressed_size_bytes: 5693440
+    file_count: 416
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 584346906AB60546860EC1E52887F928A6037322C6B6F62F7A583324510B2FD5
+      size_bytes: 7671748

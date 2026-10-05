@@ -1,0 +1,25 @@
+key: initial-d-special-stage-sombershroud
+name: 'Initial D: Special Stage'
+game:
+  title: 'Initial D: Special Stage'
+  regions:
+  - NTSC-J
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/qks2kdks0f8v8ob/SLPM-65268.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: The creator's opening-post list gives this MediaFire zip (SLPM-65268) for Initial D Special Stage (English Patch, JP).

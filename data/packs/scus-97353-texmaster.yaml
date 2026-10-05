@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-texmaster-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ratchet-clank-up-your-arsenal-hd-remaster-community-archive-scus-97353-20260728.tar.zst
+    sha256: 92870ba70bec56d316c964e755db2f70758b051eb7cd8ff095bd8f58335ab25f
+    size_bytes: 494280088
+    decompressed_size_bytes: 697722880
+    file_count: 2993
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: AD37B392EC3DAB4684EB81439C729ADDAE3CE582C297A881ED14E6AF987A6609
+      size_bytes: 1355001134

@@ -1,0 +1,23 @@
+key: red-faction-ii-mvp899
+name: Red Faction II
+game:
+  title: Red Faction II
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/red-faction-ii-pcsx2-hd-texture.661484/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/U80GyILQ#Vag_AtrLgIUQOTT2979MPsPV5n5kPWoEXhxNT9IFp1g
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

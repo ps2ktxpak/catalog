@@ -1,0 +1,25 @@
+key: barbie-in-the-12-dancing-princesses-mvp899
+name: Barbie in the 12 Dancing Princesses
+game:
+  title: Barbie in the 12 Dancing Princesses
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/barbie-in-the-12-dancing-princesses-hd-texture.651999/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/HXAH0QgY#7gGtiAf58PF0pjCkUTjVVssy-Fnc00wEsQxghCMbdrs
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

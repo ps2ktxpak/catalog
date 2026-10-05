@@ -1,0 +1,25 @@
+key: devil-may-cry-cckrizalid
+name: Devil May Cry
+game:
+  title: Devil May Cry
+  regions:
+  - NTSC-U
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/xYt1SBLK#bC_JJ4xpQ4dmTbf_juMVaokKJTKFf1SC8ldEYXX-2Mk
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Devil May Cry 1; a follow-up post says it was added.

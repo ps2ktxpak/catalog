@@ -1,0 +1,25 @@
+key: star-wars-battlefront-ii-mvp899
+name: Star Wars Battlefront II
+game:
+  title: Star Wars Battlefront II
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/star-wars-battlefront-ii-hd-texture.649062/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/PPwwhJIa#QoiFmuv7-sTxZa9hZykGNYCtcelJ_ZA2_kpsZG0JEmA
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

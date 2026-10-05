@@ -23,8 +23,27 @@ media:
   videos:
   - provider: youtube
     id: Tt48rf9bLzc
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/teodor-max-haunting-ground-slus-21075-20260728.tar.zst
+    sha256: 35d2f64c69630d22dda27d68a0afa041879ef0180eca240524fd7d02979614eb
+    size_bytes: 967274150
+    decompressed_size_bytes: 1272084480
+    file_count: 2574
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 035A69F69EA34913D4AB1CBCE8085B9AF02B34654E87C34D9738F0375E6E1694
+      size_bytes: 1615688296

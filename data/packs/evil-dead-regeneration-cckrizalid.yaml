@@ -1,0 +1,25 @@
+key: evil-dead-regeneration-cckrizalid
+name: 'Evil Dead: Regeneration'
+game:
+  title: 'Evil Dead: Regeneration'
+  regions:
+  - NTSC-U
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/IFtVEI6Z#GwSXnVHuSW68tzdnz-KzBysWHjQ2sTx25dH6TJNKL6o
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Evil Dead Regeneration.

@@ -32,8 +32,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-10-31-22-at-03-44-am-001-jpg.335109/
     thumb_url: https://gbatemp.net/data/attachments/334/334497-12d2ad139e7a606ad63ae6514b0735a8.jpg?hash=EtKtE556YG
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-god-of-war-ii-20260722.tar.zst
+    sha256: 6a7d8e04722e38fe164dd36d3c124093b8885e3f26dc854139e9c09299aab904
+    size_bytes: 512536683
+    decompressed_size_bytes: 679168000
+    file_count: 2708
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 2A049F298076203D7C0BD178FC735C8E4B88CE677E7C83C2991255CB5DBEDE6E
+      size_bytes: 1920615401

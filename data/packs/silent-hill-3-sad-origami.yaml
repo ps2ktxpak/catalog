@@ -1,0 +1,22 @@
+key: silent-hill-3-sad-origami
+name: Silent Hill 3
+game:
+  title: Silent Hill 3
+  regions:
+  - NTSC-U
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-silent-hill-3-ntsc-u-slus-20622.673892/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: ambiguous
+  confidence: medium
+  note: Creator links Ko-fi shop with feature list and 'coming soon' language; free/paid status unclear.

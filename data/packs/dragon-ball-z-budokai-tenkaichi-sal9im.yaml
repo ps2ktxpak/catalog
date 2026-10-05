@@ -1,0 +1,25 @@
+key: dragon-ball-z-budokai-tenkaichi-sal9im
+name: 'Dragon Ball Z: Budokai Tenkaichi'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi'
+  regions:
+  - NTSC-U
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-usa-slus-21227.658730/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1_fh9r6JRC3z8l98amFxXjZ21aGi4y0rP/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

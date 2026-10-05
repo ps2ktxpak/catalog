@@ -1,0 +1,25 @@
+key: god-of-war-huekage
+name: God of War
+game:
+  title: God of War
+  regions:
+  - multi
+credits:
+- creator: huekage
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-hd-textures-pack-god-of-war-scus-97399-usa-sces-53133-pal.683822/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/wv1njjz5dolcql1/PS2_HD_Textures_-_God_of_War_%2528SCUS-97399%2529_%2528NTSC%2529_%2526_%2528SCES-53133%2529_%2528PAL%2529.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's opening post explicitly provides MediaFire download link.

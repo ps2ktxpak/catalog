@@ -1,0 +1,18 @@
+key: bloody-roar-3-pepodmc
+name: Bloody Roar 3
+game:
+  title: Bloody Roar 3
+credits:
+- creator: pepodmc
+type: handcrafted
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bloody-roar-3-texture-pack-hd-remaster-wip.629676/
+  primary: true
+hosting:
+  state: listed
+download:
+  status: not_found
+  confidence: high
+  note: Opening post describes pack development but contains no download link location.

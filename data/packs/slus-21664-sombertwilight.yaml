@@ -32,8 +32,27 @@ media:
   - source_url: https://gbatemp.net/attachments/the-sims-2-castaway_slus-21664_20240117011229-png.414404/
     thumb_url: https://gbatemp.net/data/attachments/413/413792-75fd8846316acdf1de6d6d244be8ebb1.jpg?hash=df2IRjFqzf
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-the-sims-2-castaway-slus-21664-20260726.tar.zst
+    sha256: c29861ad17fa80152d9f166919ac6fc527253016cfefa2b5d3095cda1a9eb536
+    size_bytes: 154950055
+    decompressed_size_bytes: 312012800
+    file_count: 1439
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 60CB78C366E723AFBCA739DE28E9D6624CC1EF4459690C807D5E666A5EA69ECC
+      size_bytes: 544046691

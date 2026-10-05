@@ -1,0 +1,25 @@
+key: devil-may-cry-2-cckrizalid
+name: Devil May Cry 2
+game:
+  title: Devil May Cry 2
+  regions:
+  - NTSC-U
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/8MFVVTDQ#K2VnsSy2u6mjtsP4T1n9rN_iYjuuF75zsbwjW12Hfhk
+  host: mega
+  kind: file
+  confidence: medium
+  note: Chosen as the creator's combined Both Discs pack; a separate Disc 2 (Lucia) only link also exists, so the pick between the two is judgement.

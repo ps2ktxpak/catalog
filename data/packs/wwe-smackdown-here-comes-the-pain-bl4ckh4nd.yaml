@@ -1,0 +1,16 @@
+key: wwe-smackdown-here-comes-the-pain-bl4ckh4nd
+name: WWE SmackDown! Here Comes the Pain
+game:
+  title: WWE SmackDown! Here Comes the Pain
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

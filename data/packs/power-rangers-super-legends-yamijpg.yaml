@@ -1,0 +1,25 @@
+key: power-rangers-super-legends-yamijpg
+name: 'Power Rangers: Super Legends'
+game:
+  title: 'Power Rangers: Super Legends'
+  regions:
+  - NTSC-U
+credits:
+- creator: yamijpg
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/power-rangers-super-legends-slus-21679-texture-pack.669924/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1ZFdJm1u69us0mxntOsrfnq7dELK7ZRE-/view
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

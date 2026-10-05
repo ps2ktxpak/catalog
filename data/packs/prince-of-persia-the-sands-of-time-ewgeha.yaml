@@ -1,0 +1,25 @@
+key: prince-of-persia-the-sands-of-time-ewgeha
+name: 'Prince of Persia: The Sands of Time'
+game:
+  title: 'Prince of Persia: The Sands of Time'
+  regions:
+  - NTSC-U
+credits:
+- creator: ewgeha
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-the-sands-of-time-remastered-project-pcsx2-texture-pack.670289/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://disk.yandex.ru/d/4ve5fm7y6zy0ng
+  host: other
+  kind: folder
+  confidence: high
+  note: Creator's opening post explicitly provides Yandex.disk download link for 4.1 GB texture pack.

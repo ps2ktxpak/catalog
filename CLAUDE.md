@@ -16,10 +16,11 @@ read it, because they may.
 ## Who owns which file
 
 - **People edit:** `data/creators/`, `data/packs/`, `schema/`, `site/`.
-- **The pipeline writes:** `data/archives/`. Do not hand-edit them.
-- **Everything else is edited directly**, including `data/listings/`, `data/links/` and `data/resolution/`,
-  which were produced once from the Texture Packs Archive and are now ordinary data. Nothing regenerates
-  them, so a hand edit is never undone.
+- **The conversion pipeline writes** the `archive` block of a pack file. Do not hand-edit it.
+- **Everything else is edited directly.** There is one YAML file per pack and nothing else describes a pack: no
+  separate listing, match, archive or resolution files. Nothing regenerates the data, so a hand edit is never undone.
+- `ps2ktxpak compile catalog` rolls the hosted packs (`published`, with an `archive`) up into the one file apps
+  download. A pack that is not hosted never reaches an app.
 - The creator and pack forms on the site (`/creators/edit/`, `/packs/edit/`) file a GitHub issue; `.github/workflows/submission.yml`
   applies it and opens a pull request. Their output must keep
   round-tripping the files byte for byte (`tests/test_creator_form.py`). The issue body is untrusted input: the workflow
@@ -32,7 +33,7 @@ read it, because they may.
 
 - Ids are immutable. A creator's `id` and a pack's `key` equal their file names and never change. A
   pack's `catalog_id` (inherited, up to 228 characters) is what installed apps know; never change it.
-- Never delete a pack. Mark it `withdrawn`.
+- Never delete a pack. Mark it `withdrawn`. (`listed` packs are known-to-exist records; they are withdrawn the same way.)
 - **Never host a paid pack** without the creator's approval written into `permission`. Cost and
   permission are different questions.
 - `credits: []` means "no one has named the creator". Never fill it with a guess; use

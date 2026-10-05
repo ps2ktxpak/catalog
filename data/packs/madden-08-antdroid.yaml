@@ -1,0 +1,23 @@
+key: madden-08-antdroid
+name: Madden 08
+game:
+  title: Madden 08
+credits:
+- creator: antdroid
+type: handcrafted
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ncaa-06-football-and-madden-08-football-next-hd-remasters.624091/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/ncaanext
+  host: github
+  kind: page
+  confidence: low
+  note: The opening post gives this GitHub org for both games' downloads, but the org's repo list shows only NCAA 06 projects and no Madden 08 repo was found.

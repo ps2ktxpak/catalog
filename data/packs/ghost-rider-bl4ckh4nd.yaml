@@ -1,0 +1,16 @@
+key: ghost-rider-bl4ckh4nd
+name: Ghost Rider
+game:
+  title: Ghost Rider
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

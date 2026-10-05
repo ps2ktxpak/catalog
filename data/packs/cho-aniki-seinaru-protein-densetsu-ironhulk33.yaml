@@ -1,0 +1,23 @@
+key: cho-aniki-seinaru-protein-densetsu-ironhulk33
+name: 'Cho Aniki: Seinaru Protein Densetsu'
+game:
+  title: 'Cho Aniki: Seinaru Protein Densetsu'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/cho-aniki-seinaru-protein-densetsu-hd-pack-pcsx2.681359/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+  host: mediafire
+  kind: folder
+  confidence: high
+  note: Creator explicitly listed under 'Where to Find the Downloads' in opening post.

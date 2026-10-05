@@ -1,0 +1,23 @@
+key: war-of-the-monsters-ironhulk33
+name: War of the Monsters
+game:
+  title: War of the Monsters
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/war-of-the-monsters-hd-pack.679799/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/73xmec7sd51n4i3/War_of_the_Monsters_HD_Pack.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's opening post provides MediaFire download link for texture pack.

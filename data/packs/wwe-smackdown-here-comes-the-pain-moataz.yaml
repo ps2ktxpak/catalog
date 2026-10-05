@@ -1,0 +1,26 @@
+key: wwe-smackdown-here-comes-the-pain-moataz
+name: WWE SmackDown! Here Comes the Pain
+game:
+  title: WWE SmackDown! Here Comes the Pain
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+- creator: paynexkiller
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-wwe-smackdown-here-comes-the-pain-2-1-usa-slus-20787-hd-textures.656740/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/ge2ody92sajn0d3/WWE_SmackDown%2521_Here_Comes_the_Pain_HD_2.1.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provides direct MediaFire download link in opening post.

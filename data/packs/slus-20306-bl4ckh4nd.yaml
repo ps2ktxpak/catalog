@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/dh0al5462h0w8fo/Contra_Shattered_Soldier.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-contra-shattered-soldier-slus-20306-20260728.tar.zst
+    sha256: 638e0a237b0f26ee3420dd39b73918ede63a5608c2d1cda6cf6c5ed86249d0a9
+    size_bytes: 370207363
+    decompressed_size_bytes: 524165120
+    file_count: 1703
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 00E9705A78F94B1F91F4B2DF2726B09E209F17CA2EED67A5EC2F85FAFF632AC4
+      size_bytes: 767213566

@@ -1,0 +1,25 @@
+key: ford-vs-chevy-mvp899
+name: Ford vs. Chevy
+game:
+  title: Ford vs. Chevy
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ford-vs-chevy-pcsx2-hd-texture.671196/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/ZE4FCRJK#cP-PXCy-jlGFlz9ufTNa_dPtTtihk1Jwqo_vEO944kc
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

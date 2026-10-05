@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-bl4ckh4nd-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-time-crisis-2-hd-remaster-community-archive-slus-20219-20260728.tar.zst
+    sha256: a82d7131bd9a0a33aad6cc35d4d84e1a4164c0192c212ab82f1a5665a355ec7e
+    size_bytes: 242828669
+    decompressed_size_bytes: 465684480
+    file_count: 3681
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 68A69E027EEFD5868158C51EB4A5513D2EEF768115A1492B6F2013483DAF070C
+      size_bytes: 275286517

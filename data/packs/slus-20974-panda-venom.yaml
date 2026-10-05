@@ -26,8 +26,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-03-15-22-at-12-10-am-jpg.302701/
     thumb_url: https://gbatemp.net/data/attachments/302/302089-916250a9223eac6c5a4052f0995da0f8.jpg?hash=kWJQqSI-rG
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-digital-devil-saga-20260722.tar.zst
+    sha256: 9fa426d470f9cc0e5aed005267ac9eb0c25f49173144cc5d491d5111364a4beb
+    size_bytes: 743123244
+    decompressed_size_bytes: 1122426880
+    file_count: 3051
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: AE30F79540287C192BEC30110DD93E277BBA9E21E81F58776611E890319925C1
+      size_bytes: 575737914

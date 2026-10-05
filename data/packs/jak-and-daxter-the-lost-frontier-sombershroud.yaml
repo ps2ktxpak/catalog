@@ -1,0 +1,25 @@
+key: jak-and-daxter-the-lost-frontier-sombershroud
+name: 'Jak and Daxter: The Lost Frontier'
+game:
+  title: 'Jak and Daxter: The Lost Frontier'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/4nuuebgqbqzstcb/SCUS-97558.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: 'The creator''s opening-post list gives this MediaFire zip (SCUS-97558) for Jak and Daxter: The Lost Frontier (US).'

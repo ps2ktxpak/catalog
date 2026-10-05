@@ -35,8 +35,27 @@ media:
   - source_url: https://gbatemp.net/attachments/medal-of-honor-rising-sun_slus-20753_20230917184559-png.394504/
     thumb_url: https://gbatemp.net/data/attachments/393/393892-e9bfdc9281850e106b72eb6b76869259.jpg?hash=6b_ckoGFDh
     credit: sombershroud
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombershroud-medal-of-honor-rising-sun-sles-51873-20260728.tar.zst
+    sha256: 991794657f13f3fc4acc3e56f6ee3ef861580e095a067e67a0d38d871e01a277
+    size_bytes: 121585591
+    decompressed_size_bytes: 424110080
+    file_count: 3224
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EDF55B4ECD0D6AA0ECDFDCC42E05FA570EFD61AE230712CC762CA2FDAB18AFBC
+      size_bytes: 616865910

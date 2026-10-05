@@ -106,7 +106,7 @@ def test_a_new_hosted_pack_and_a_listed_only_pack(root):
     d["key"] += "-2"
     _, result = check_matches_preview(root, "pack", d)
     rec = load_yaml(root / result["path"])
-    assert rec["hosting"]["state"] == "withheld" and rec["permission"] == {"kind": "unknown"} and rec["access"] == {"cost": "paid"}
+    assert rec["hosting"] == {"state": "listed"} and "permission" not in rec and rec["access"] == {"cost": "paid"}
 
 
 def test_a_pack_edit_keeps_what_the_form_does_not_show(root):

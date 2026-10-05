@@ -1,0 +1,25 @@
+key: bleach-blade-battlers-2nd-cckrizalid
+name: 'Bleach: Blade Battlers 2nd'
+game:
+  title: 'Bleach: Blade Battlers 2nd'
+  regions:
+  - NTSC-J
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/tBEEADBZ#DFWFHZmpWXw9EsPqD7IQa1ot_8x3OH0oFQlMw0pliFc
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Bleach Blade Battlers 2nd.

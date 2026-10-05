@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/ratchet-clank-3-texture-pack-hd.661786/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/andritgames20-ratchet-clank-up-your-arsenal-sces-52456-20260728.tar.zst
+    sha256: b591bc81e351795967f5baec16241929b589a85ffc0e0c5decd7ec44806a95da
+    size_bytes: 1960114498
+    decompressed_size_bytes: 3160227840
+    file_count: 23208
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 6AEE7E71B33C796818255EE85DBEAA67C575F413B8EAA6294687DEA063F68D1D
+      size_bytes: 6418911528

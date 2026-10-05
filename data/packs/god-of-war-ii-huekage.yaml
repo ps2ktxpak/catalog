@@ -1,0 +1,25 @@
+key: god-of-war-ii-huekage
+name: God of War II
+game:
+  title: God of War II
+  regions:
+  - multi
+credits:
+- creator: huekage
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-hd-textures-pack-god-of-war-2-scus-97481-usa-sces-54206-pal.683872/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/7wp50r66xlu7jnq/PS2_HD_Textures_-_God_of_War_II_%28SCUS-97481%29_%28NTSC%29_%26_%28SCES-54206%29_%28PAL%29.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator explicitly labels mediafire link as download in opening post.

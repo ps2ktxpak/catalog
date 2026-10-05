@@ -1,0 +1,25 @@
+key: pac-man-world-3-pinky45
+name: PAC-Man World 3
+game:
+  title: PAC-Man World 3
+  regions:
+  - PAL
+credits:
+- creator: pinky45
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pac-man-world-3-hd-a-i-texture-pack-v2-update.635169/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/drive/folders/1TsRptoVYJR0IjehaMuiwYw5AhYPuzgiP?usp=drive_link
+  host: gdrive
+  kind: folder
+  confidence: high
+  note: Creator's latest update marked 'Updated Again' with reduced size; no newer version mentioned.

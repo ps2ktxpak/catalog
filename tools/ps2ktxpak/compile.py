@@ -5,8 +5,9 @@
               that read jpolo1224's overlay
 
 In the catalog, names come from the pack's credits, the source link from its primary source, and
-permission is stated as it is. Archive facts (hashes, sizes, revision) come from data/archives,
-never from a pack file. A pack that is published but has no archive record yet is left out: there
+permission is stated as it is. Archive facts (hashes, sizes, revision) come from the pack's `archive`
+block, which only the conversion pipeline writes. This is the rollup: of all the pack files it takes the
+hosted ones and puts them in one file. A pack that is published but has no archive yet is left out: there
 is nothing for an app to install."""
 from __future__ import annotations
 
@@ -40,11 +41,10 @@ def _primary(pack: dict) -> str | None:
 def catalog(base_url: str = DEFAULT_BASE) -> dict:
     d = load_all()
     creators = {r["id"]: r for r in d["creators"].values()}
-    archives = {r["key"]: r for r in d["archives"].values()}
     entries = []
     for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published"),
                        key=lambda p: p.get("catalog_id") or p["key"]):
-        a = archives.get(pack["key"])
+        a = pack.get("archive")
         if a is None:  # published but not converted yet: nothing for an app to install
             continue
         v = next(x for x in a["versions"] if x["revision"] == a["current"])
@@ -78,8 +78,7 @@ def links_v1() -> dict:
     d = load_all()
     creators = {r["id"]: r for r in d["creators"].values()}
     packs, people = {}, {}
-    converted = {r["key"] for r in d["archives"].values()}
-    for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published" and r["key"] in converted),
+    for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published" and "archive" in r),
                        key=lambda p: p.get("catalog_id") or p["key"]):
         wire = pack.get("catalog_id") or pack["key"]
         cs = [creators[c["creator"]] for c in pack.get("credits", []) if c["creator"] in creators]

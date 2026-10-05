@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file/wxzaxcdabzw6zjy/GTA_Liberty_City_Stories.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-gta-liberty-city-stories-slus-21423-20260722.tar.zst
+    sha256: 103c325472307bfa0a327c3494f97881745e0459a16bc3ae28bfa82e6d5be130
+    size_bytes: 150810928
+    decompressed_size_bytes: 222023680
+    file_count: 4648
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1B5D0A690507F3EF538C5E38363A6BF5F7FA13C98155D06C8FEF0B3FCE21D441
+      size_bytes: 295102544

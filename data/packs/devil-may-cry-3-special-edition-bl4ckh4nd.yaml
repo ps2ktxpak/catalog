@@ -1,0 +1,16 @@
+key: devil-may-cry-3-special-edition-bl4ckh4nd
+name: 'Devil May Cry 3: Special Edition'
+game:
+  title: 'Devil May Cry 3: Special Edition'
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

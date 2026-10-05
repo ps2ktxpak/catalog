@@ -1,0 +1,23 @@
+key: kuon-curse-arms
+name: Kuon
+game:
+  title: Kuon
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/11DV2XuZ43ihJedkH8sbcQc4ybelbnkj5/view
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

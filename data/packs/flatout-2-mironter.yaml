@@ -1,0 +1,25 @@
+key: flatout-2-mironter
+name: FlatOut 2
+game:
+  title: FlatOut 2
+  regions:
+  - NTSC-U
+credits:
+- creator: mironter
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/flatout-2-slus-21251-4k-remastered.667610/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: ambiguous
+  url: https://cloud.mail.ru/public/ejcK/Bo4q4Jbh5
+  host: other
+  kind: unknown
+  confidence: low
+  note: Two cloud.mail.ru links labeled 'part1 part2' without clarity on pack composition.

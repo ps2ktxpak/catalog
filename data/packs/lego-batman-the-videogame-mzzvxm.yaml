@@ -1,0 +1,25 @@
+key: lego-batman-the-videogame-mzzvxm
+name: 'LEGO Batman: The Videogame'
+game:
+  title: 'LEGO Batman: The Videogame'
+  regions:
+  - PAL
+credits:
+- creator: mzzvxm
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-lego-batman-the-videogame-sles-55135-hd-textures.664769/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1Ez-JzJuSiFGI3SlI5uVNh6Fq9j3pTqsv/view
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

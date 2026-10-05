@@ -26,8 +26,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-10-30-22-at-11-04-pm-004-jpg.334927/
     thumb_url: https://gbatemp.net/data/attachments/334/334315-604f3b0b78b2c289080b46addc446b28.jpg?hash=YE87C3iywo
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-burnout-dominator-20260722.tar.zst
+    sha256: e8cba432fd8b3b08fff6ab1f5fd13c1fc97d0800f5cfdca7fdeec0a0eefa2975
+    size_bytes: 466352203
+    decompressed_size_bytes: 645509120
+    file_count: 6342
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: F0CE4FEE4E65DF84984F636F17CB981F737F8E91DA82E7619FE5F8BED933F139
+      size_bytes: 585627061

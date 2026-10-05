@@ -1,0 +1,25 @@
+key: galactic-wrestling-featuring-ultimate-muscle-meskh4h4
+name: 'Galactic Wrestling: Featuring Ultimate Muscle'
+game:
+  title: 'Galactic Wrestling: Featuring Ultimate Muscle'
+  regions:
+  - NTSC-U
+credits:
+- creator: meskh4h4
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-galactic-wrestling-featuring-ultimate-muscle-slus-20822-usa.683404/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/MESKH4H4/Galactic-Wrestling-Featuring-Ultimate-Muscle
+  host: github
+  kind: page
+  confidence: high
+  note: Creator explicitly labels GitHub repository as download link in opening post.

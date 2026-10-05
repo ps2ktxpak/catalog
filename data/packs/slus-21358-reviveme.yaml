@@ -33,8 +33,27 @@ media:
   - source_url: https://gbatemp.net/attachments/xbsx2-2025-02-20-21-30-36-png.487307/
     thumb_url: https://gbatemp.net/data/attachments/486/486695-b3b0fbe353c087582187b9fb72c71725.jpg?hash=s7D741PAh1
     credit: reviveme
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-reviveme-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-naruto-ultimate-ninja-hd-remaster-community-archive-slus-21358-20260728.tar.zst
+    sha256: 4920cc140832375f09bdf307298e53c1418737c2176c30b07514db0c8af83c68
+    size_bytes: 821384893
+    decompressed_size_bytes: 2237102080
+    file_count: 2280
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A4CDC3468D35F819DD13424348F8FAA734F0AFCEFA4E8898D68C8BD67FABE050
+      size_bytes: 2354080226

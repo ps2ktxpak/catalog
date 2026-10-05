@@ -1,0 +1,22 @@
+key: downhill-domination-johnazeitona
+name: Downhill Domination
+game:
+  title: Downhill Domination
+  regions:
+  - NTSC-U
+credits:
+- creator: johnazeitona
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/downhill-domination-ps2-scus-97177.626524/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  confidence: high
+  note: Link shortener (seulink.digital) obscures final destination; gated per policy.

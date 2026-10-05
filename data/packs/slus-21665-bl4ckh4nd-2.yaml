@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/giykzb4zriuovko/The_Simpsons_Game.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-the-simpsons-game-slus-21665-20260728.tar.zst
+    sha256: 94cf27be5f374c46e71ecb2eee221fc361d0b0dfee5ffadc151be9e3661f3101
+    size_bytes: 434470216
+    decompressed_size_bytes: 2190356480
+    file_count: 32816
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: ADE1F2BD880A5651F5A0D11178F4B690C74E4B10A12BC8A44B612D4C54A2CCFA
+      size_bytes: 819374714

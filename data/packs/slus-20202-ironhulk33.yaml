@@ -23,8 +23,27 @@ media:
   videos:
   - provider: youtube
     id: xlrv6h4UxMk
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ironhulk33-crazy-taxi-slus-20202-20260726.tar.zst
+    sha256: 99313c4cff55ced718cd991bf170de3ce80aa4c466d0b07080ce19f24f422b3f
+    size_bytes: 52251993
+    decompressed_size_bytes: 141598720
+    file_count: 1701
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1704E6475C6C01AFBAE60EF6601E347EB3E6D74B430A39E8D9559F42CCB5FFB5
+      size_bytes: 79082455

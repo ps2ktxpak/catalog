@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-ironhulk33-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-resident-evil-outbreak-hd-remaster-community-archive-slus-20765-20260728.tar.zst
+    sha256: 9fe05cfc94f4f37142179c761e8bd4cbab2f50669c701efe058d467e41e8b138
+    size_bytes: 1039523306
+    decompressed_size_bytes: 1308835840
+    file_count: 4074
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: B7F85AD4BF420354E14C47313D70FBA0CE9AFB4EF53CA189308C0C1FBB98BC74
+      size_bytes: 3286496753

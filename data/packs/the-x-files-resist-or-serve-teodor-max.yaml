@@ -1,0 +1,25 @@
+key: the-x-files-resist-or-serve-teodor-max
+name: 'The X-Files: Resist or Serve'
+game:
+  title: 'The X-Files: Resist or Serve'
+  regions:
+  - NTSC-U
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-x-files-resist-or-serve-hd-texture-pack.641203/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1p_DZzEoxKFW9zRvAB6jO3YalT8dJ9bVZ/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator provided Google Drive link labeled Download Link in opening post.

@@ -1,0 +1,25 @@
+key: silent-hill-the-room-ewgeha
+name: 'Silent Hill: The Room'
+game:
+  title: 'Silent Hill: The Room'
+  regions:
+  - NTSC-U
+credits:
+- creator: ewgeha
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/silent-hill-4-the-room-remastered-project-pcsx2-4k-texture-pack.672647/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://disk.yandex.ru/d/QNYjjJwENfMgLg
+  host: other
+  kind: file
+  confidence: high
+  note: Creator (ewgeha) provided Yandex 4K pack link in opening post and video description.

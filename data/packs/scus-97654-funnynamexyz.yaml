@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/motorstorm-arctic-edge_scus-97654_20260507071302-png.571790/
     thumb_url: https://gbatemp.net/data/attachments/571/571178-09da3d572aac2e75d44332ff0b9950a8.jpg?hash=lK2T8YxEp0
     credit: funnynamexyz
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/funnynamexyz-motorstorm-arctic-edge-v2-scus-97654-20260726.tar.zst
+    sha256: 6f6fe7f5e2a84219a046a550e72bcd48dc676122a1b7d2ae178abff1c691797d
+    size_bytes: 145616351
+    decompressed_size_bytes: 209141760
+    file_count: 1009
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 6ADE9891C896BE5A91B90F612DEC86368ABFF4CF2D3D6233D27515B02DA5DF55
+      size_bytes: 419067360

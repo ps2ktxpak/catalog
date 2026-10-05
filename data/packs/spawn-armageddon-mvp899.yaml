@@ -1,0 +1,25 @@
+key: spawn-armageddon-mvp899
+name: 'Spawn: Armageddon'
+game:
+  title: 'Spawn: Armageddon'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spawn-armageddon-hd-texture.651063/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/fKISiLCY#rGtbHQQz21bu5yij8llQ8BNWATZpWe8OfL-_HDVuuGA
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

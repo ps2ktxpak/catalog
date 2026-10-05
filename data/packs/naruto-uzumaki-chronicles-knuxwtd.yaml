@@ -1,0 +1,25 @@
+key: naruto-uzumaki-chronicles-knuxwtd
+name: 'Naruto: Uzumaki Chronicles'
+game:
+  title: 'Naruto: Uzumaki Chronicles'
+  regions:
+  - NTSC-U
+credits:
+- creator: knuxwtd
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/naruto-uzumaki-chronicles-1-hd-upscaled-texture-pack-beta-plus-grey-suit.619930/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/drive/folders/1bvMjL5gDF4pTI_7weqpj6oqyRkbnwJ1-?usp=sharing
+  host: gdrive
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

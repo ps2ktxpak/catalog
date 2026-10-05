@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-majidgaming-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ghost-rider-hd-remaster-community-archive-slus-21306-20260728.tar.zst
+    sha256: cc6c42be91f815cb09b5e1a3f917baf79021c40dcdbce404ae44558ac0a36022
+    size_bytes: 977136906
+    decompressed_size_bytes: 1275494400
+    file_count: 5057
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: FCA4D6090E04B20A08507E30614EFC646E4F35647ABCB5FF991D68C16E6108D5
+      size_bytes: 4278500080

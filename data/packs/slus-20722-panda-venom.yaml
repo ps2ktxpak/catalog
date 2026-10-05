@@ -32,8 +32,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-11-09-22-at-12-27-am-jpg.336408/
     thumb_url: https://gbatemp.net/data/attachments/335/335796-41548ac7a93ac060af9d538b011b34a5.jpg?hash=QVSKx6k6wG
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-maximo-army-of-zin-slus-20722-20260726.tar.zst
+    sha256: 8c18af63c38ba851c41383f3d440f63e41afa00e6851e527554825fd510cf7da
+    size_bytes: 215182579
+    decompressed_size_bytes: 410890240
+    file_count: 1107
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 09B52F21BF693D0F1DF0005E1211FCF7C79728224C8B8D19A09D481F104D9E47
+      size_bytes: 153220174

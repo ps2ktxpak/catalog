@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/digi-charat-fantasy-excellen-premium-edition-_slpm-65395_20251218025544-jpg.546080/
     thumb_url: https://gbatemp.net/data/attachments/545/545468-95aa53928fbbb77411ab98e2a1545ebb.jpg?hash=_53C73K_qr
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-di-gi-charat-fantasy-excellent-slpm-65395-20260728.tar.zst
+    sha256: 415f778cbc875d602f5d7fdcf711d0d31f7ec1aceb53e2587914a42516740ca5
+    size_bytes: 674010318
+    decompressed_size_bytes: 1278586880
+    file_count: 2049
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: ADA4C6172AACB1FB84920365C9191DE5EF5E54CC8C5B46A467B35C10D4558874
+      size_bytes: 535046804

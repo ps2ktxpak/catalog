@@ -41,8 +41,27 @@ media:
   videos:
   - provider: youtube
     id: aG2Y3TU-pKY
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-suikoden-iii-slus-20387-20260728.tar.zst
+    sha256: ed5e295a1ef0b56a1a14746ae41294603b33771c625fb2a3b8a5dddabf279f9a
+    size_bytes: 1637572559
+    decompressed_size_bytes: 2502184960
+    file_count: 6044
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5D78EBCE792017D8B8CCEEADFFCD3B05DC42EB8835481948CA183601212BFA65
+      size_bytes: 2648772324

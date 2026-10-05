@@ -1,0 +1,25 @@
+key: sly-3-honor-among-thieves-sombershroud
+name: 'Sly 3: Honor Among Thieves'
+game:
+  title: 'Sly 3: Honor Among Thieves'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/74afjmd4npvxs1t/SCUS-97464.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: 'The creator''s opening-post list gives this MediaFire zip (SCUS-97464) for Sly 3: Honor Among Thieves (US).'

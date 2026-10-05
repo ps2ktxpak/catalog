@@ -1,0 +1,25 @@
+key: playstation-2-bios-sombershroud
+name: Playstation 2 BIOS
+game:
+  title: Playstation 2 BIOS
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-bios-usa-hd-textures.650891/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/cdcr1cvcr0zx3eb/20020207-164243.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator explicitly labeled 'Main Bios' in opening post.

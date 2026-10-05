@@ -1,0 +1,25 @@
+key: naruto-shippuden-ultimate-ninja-5-sal9im
+name: 'Naruto Shippuden: Ultimate Ninja 5'
+game:
+  title: 'Naruto Shippuden: Ultimate Ninja 5'
+  regions:
+  - PAL
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/naruto-shippuden-ultimate-ninja-5-eur-sles-55605-upscaled-texture-pack.664569/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1N_M75nQdi5uX41iWmcPD7nxs_fbfIXF8/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

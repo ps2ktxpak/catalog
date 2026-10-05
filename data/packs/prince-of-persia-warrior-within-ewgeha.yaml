@@ -1,0 +1,25 @@
+key: prince-of-persia-warrior-within-ewgeha
+name: 'Prince of Persia: Warrior Within'
+game:
+  title: 'Prince of Persia: Warrior Within'
+  regions:
+  - NTSC-U
+credits:
+- creator: ewgeha
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/prince-of-persia-warrior-within-remastered-project-pcsx2-texture-pack.669768/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://disk.yandex.ru/d/cvavvnlRSGOIrw
+  host: other
+  kind: unknown
+  confidence: high
+  note: Creator provided Yandex.disk as primary download source (full quality version).

@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/z6xs7umxa1o3tes/Gran_Turismo_3.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-gran-turismo-3-a-spec-sces-50294-20260728.tar.zst
+    sha256: 1c5445ca92466012a770e31c48815134d13109ac2c223bc7f4ebd2cc99d7721f
+    size_bytes: 1125662390
+    decompressed_size_bytes: 2428856320
+    file_count: 27935
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D1987B4EE3F02D911FADB56189696DA333E83FD34B290BBACEC7479D0660B7C7
+      size_bytes: 2097626985

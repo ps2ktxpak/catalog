@@ -1,0 +1,25 @@
+key: armored-core-last-raven-ninebreaker
+name: 'Armored Core: Last Raven'
+game:
+  title: 'Armored Core: Last Raven'
+  regions:
+  - NTSC-U
+credits:
+- creator: ninebreaker
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/armored-core-last-raven-hd-textures-pack-slus-21338.668820/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/drive/folders/1yoBKX1U2uEdTHIzGj8kUtAVoqDPGjf1U?usp=sharing
+  host: gdrive
+  kind: folder
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

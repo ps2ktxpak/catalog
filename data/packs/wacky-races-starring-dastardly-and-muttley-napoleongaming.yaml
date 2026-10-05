@@ -1,0 +1,25 @@
+key: wacky-races-starring-dastardly-and-muttley-napoleongaming
+name: 'Wacky Races: Starring Dastardly and Muttley'
+game:
+  title: 'Wacky Races: Starring Dastardly and Muttley'
+  regions:
+  - PAL
+credits:
+- creator: napoleongaming
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-texture-hd-wacky-races-sles-50183-by-me.676426/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://gofile.io/d/XYqpHX
+  host: gofile
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -1,0 +1,25 @@
+key: tony-hawk-s-pro-skater-4-beto818
+name: Tony Hawk's Pro Skater 4
+game:
+  title: Tony Hawk's Pro Skater 4
+  regions:
+  - NTSC-U
+credits:
+- creator: beto818
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tony-hawks-pro-skater-4-hd-texture-pack-slus-20504.675190/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/gjo009x5lqlntac/Tony_Hawks_Pro_Skater_4.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

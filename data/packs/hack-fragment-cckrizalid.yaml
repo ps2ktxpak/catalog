@@ -1,0 +1,25 @@
+key: hack-fragment-cckrizalid
+name: .hack//frägment
+game:
+  title: .hack//frägment
+  regions:
+  - NTSC-J
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/AJEWgT5C#jRvpYoSHh-31sH0Ik88JLFPtgjhcxuZdUZvGwr2UMaA
+  host: mega
+  kind: folder
+  confidence: high
+  note: One collection link headed Dot Hack All Parts (Infection, Mutation, Outbreak, Quarantine) + Fragment; it names Fragment explicitly as included.

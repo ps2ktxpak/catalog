@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-06-18-22-at-04-51-pm-jpg.314391/
     thumb_url: https://gbatemp.net/data/attachments/313/313779-01992f74f2eafa0862909de216a731b3.jpg?hash=AZkvdPLq-g
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-persona-3-fes-slus-21621-20260726.tar.zst
+    sha256: 6b54a07e3c364e33350ff9f499b08252e168beb1a112013e7e719c544c05536d
+    size_bytes: 891174807
+    decompressed_size_bytes: 2733967360
+    file_count: 7473
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: CD37CEC766E21317B95A0A4F6EA6EC921EFF50B166FDC0964C38551D55E605DA
+      size_bytes: 782249370

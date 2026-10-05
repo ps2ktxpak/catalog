@@ -1,0 +1,25 @@
+key: burnout-2-point-of-impact-mironter
+name: 'Burnout 2: Point of Impact'
+game:
+  title: 'Burnout 2: Point of Impact'
+  regions:
+  - NTSC-U
+credits:
+- creator: mironter
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/burnout-2-point-of-impact-slus-20497-hd.664631/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://cloud.mail.ru/public/KSqK/ggYHpztaE
+  host: other
+  kind: folder
+  confidence: medium
+  note: Creator's opening post references download; candidate link extracted from evidence.

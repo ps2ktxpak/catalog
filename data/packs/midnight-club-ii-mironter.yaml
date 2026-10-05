@@ -1,0 +1,25 @@
+key: midnight-club-ii-mironter
+name: Midnight Club II
+game:
+  title: Midnight Club II
+  regions:
+  - NTSC-U
+credits:
+- creator: mironter
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/midnight-club-ii-slus-20209-hd-mod.667801/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://cloud.mail.ru/public/T3eb/h4dMk7HgB
+  host: other
+  kind: folder
+  confidence: medium
+  note: Creator provides cloud.mail.ru public link in opening post.

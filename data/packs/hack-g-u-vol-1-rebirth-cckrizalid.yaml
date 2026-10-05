@@ -1,0 +1,25 @@
+key: hack-g-u-vol-1-rebirth-cckrizalid
+name: .hack//G.U. Vol.1 Rebirth
+game:
+  title: .hack//G.U. Vol.1 Rebirth
+  regions:
+  - NTSC-U
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/QEUgjTrK#eg9r7CIw2Vi55VW3xaYCR3VKguQ9a9RZTYEXKpJc3GY
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Dot Hack G.U. Vol. 1 Rebirth, tagged SLUS-21258.

@@ -21,8 +21,27 @@ sources:
   url: https://www.gtplanet.net/forum/threads/gt4-hd-hud-and-user-interface-texture-pack-for-pcsx2.417873/
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/silentwarior112-gt4-hd-hud-ui-western-emucorex1.tar.zst
+    sha256: 535a50970f2677482c95529c755b39850287cf0cf0db4691486f3075fb462bc7
+    size_bytes: 642246043
+    decompressed_size_bytes: 1713582080
+    file_count: 4517
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1A031294A2F124807FFE5956FCEBC2766E096701CD3AEDB96FD5C19B6AB46531
+      size_bytes: 2082804070

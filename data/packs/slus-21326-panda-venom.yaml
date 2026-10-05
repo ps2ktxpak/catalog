@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/shadow-hearts-from-the-new-world_slus-21326_20240122074058-jpg.415550/
     thumb_url: https://gbatemp.net/data/attachments/414/414938-190cd908ec459ae78e73f9957718ed97.jpg?hash=GQzZCOxFmu
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-shadow-hearts-from-the-new-world-slus-21326-20260728.tar.zst
+    sha256: f199968da8d6a765bcd5dc415608bc8c8fef8e948994d2313af2a03aa480cb2c
+    size_bytes: 1284079594
+    decompressed_size_bytes: 1722961920
+    file_count: 3592
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 12DC17C23F57A58BCD1D8E640DE96C30A23E592B7A3B9321724A30B8F66AAD16
+      size_bytes: 2023231167

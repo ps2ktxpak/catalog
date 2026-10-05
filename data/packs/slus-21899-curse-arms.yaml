@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-silent-hill-shattered-memories-hd-remaster-community-archive-slus-21899-20260728.tar.zst
+    sha256: 1f2bd34359d80ace58bb9d7fec90f67b43347b1133b97ac8a33ebec1a5677e3d
+    size_bytes: 1839453270
+    decompressed_size_bytes: 2239006720
+    file_count: 8979
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 03D11BD4A8240ABF57945B71FF2CC6B4171587B66F1FB701AB46542BF14B4390
+      size_bytes: 1453155742

@@ -1,0 +1,25 @@
+key: gungrave-overdose-cckrizalid
+name: 'Gungrave: Overdose'
+game:
+  title: 'Gungrave: Overdose'
+  regions:
+  - NTSC-U
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/8ZlHAZqY#QoarSQPKTumWMhXrOFIXI73GGDdC-iL75eAYyNnf3ls
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Gungrave Overdose, separate from the original Gungrave link; a follow-up post says it was added.

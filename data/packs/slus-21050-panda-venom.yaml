@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-10-29-22-at-07-11-pm-002-jpg.334605/
     thumb_url: https://gbatemp.net/data/attachments/333/333993-dba70a92c9a8459f22d4546aa99e598a.jpg?hash=26cKksmoRZ
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-burnout-3-takedown-20260722.tar.zst
+    sha256: 15623c8dc5df477092d5b3c49ed8ac64d215d6801ac31258fa970bf4fda5a86b
+    size_bytes: 1142615832
+    decompressed_size_bytes: 1426964480
+    file_count: 7859
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 3716675D1F7A50468DA630C9B6212B05E27E033B3EBC5404976BD30561D55976
+      size_bytes: 1214969655

@@ -1,0 +1,25 @@
+key: god-of-war-ii-20th-anniversary-edition-mvp899
+name: God of War II (20th Anniversary Edition)
+game:
+  title: God of War II (20th Anniversary Edition)
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/god-of-war-2-20-years-pcsx2-hd-texture.668193/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: paid
+  url: https://ko-fi.com/mvp89974957
+  host: kofi
+  kind: shop
+  confidence: high
+  note: Pack available through Ko-fi shop; Portuguese text mentions prior deletion.

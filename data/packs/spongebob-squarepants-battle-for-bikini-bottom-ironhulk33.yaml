@@ -1,0 +1,16 @@
+key: spongebob-squarepants-battle-for-bikini-bottom-ironhulk33
+name: 'SpongeBob SquarePants: Battle for Bikini Bottom'
+game:
+  title: 'SpongeBob SquarePants: Battle for Bikini Bottom'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/c/ironhulk33
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

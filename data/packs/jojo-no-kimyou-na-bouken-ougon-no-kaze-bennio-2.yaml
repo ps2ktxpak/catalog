@@ -1,0 +1,25 @@
+key: jojo-no-kimyou-na-bouken-ougon-no-kaze-bennio-2
+name: 'JoJo no Kimyou na Bouken: Ougon no Kaze'
+game:
+  title: 'JoJo no Kimyou na Bouken: Ougon no Kaze'
+  regions:
+  - NTSC-J
+credits:
+- creator: bennio
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/jojo-no-kimyou-na-bouken-ougon-no-kaze-with-ai-upscaled-hd-texture-pack.679281/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/kaykwill13/JoJo-no-Kimyou-na-Bouken-Ougon-no-Kaze-HD-AI-Upscaling-Texture-Pack
+  host: github
+  kind: page
+  confidence: high
+  note: Duplicate of the other JoJo listing (same title and region); the creator's newest post gives the release repo, which supersedes the earlier pre-release repo.

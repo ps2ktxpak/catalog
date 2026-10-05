@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file/jiybrac9vqpap5z/Need_for_Speed_Pro_Street.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-nfs-prostreet-slus-21658-20240325.tar.zst
+    sha256: c3cf8a393cd16bcc91261077b9f1658e1fdb3714f54879306ebbfa8d8848fd2c
+    size_bytes: 334065794
+    decompressed_size_bytes: 599367680
+    file_count: 2298
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: BF36795AB3A4278BF9840EF88CC3EF55A6C903BDD753E9C259445B37E8E84216
+      size_bytes: 657352174

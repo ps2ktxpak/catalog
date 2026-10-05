@@ -1,0 +1,25 @@
+key: final-fantasy-x-2-curse-arms
+name: Final Fantasy X-2
+game:
+  title: Final Fantasy X-2
+  regions:
+  - NTSC-U
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1Mqy6UcoLNiLDTQ2cVzMJVuuZP1TPcKCh&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

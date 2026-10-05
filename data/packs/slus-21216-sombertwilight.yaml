@@ -29,8 +29,27 @@ media:
   - source_url: https://gbatemp.net/attachments/soulcalibur-iii_slus-21216_20250117072706-png.481053/
     thumb_url: https://gbatemp.net/data/attachments/480/480441-bbf8573d631c82e7f6abe18ec92b2b6b.jpg?hash=u_hXPWMcgu
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-soulcalibur-3-arcade-slus-21216-20260727.tar.zst
+    sha256: d530c0af97507a23be1656e46f294b5cae81e7702a6e3ba08c2474661f93f10f
+    size_bytes: 816806892
+    decompressed_size_bytes: 1081896960
+    file_count: 7099
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D40B2CBF6424C5B55D145903E43F4B61D7995B82D6E4FCA8465B5031A57163E4
+      size_bytes: 1169907806

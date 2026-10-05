@@ -1,0 +1,25 @@
+key: inuyasha-feudal-combat-meskh4h4
+name: 'InuYasha: Feudal Combat'
+game:
+  title: 'InuYasha: Feudal Combat'
+  regions:
+  - NTSC-U
+credits:
+- creator: meskh4h4
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-inuyasha-feudal-combat-slus-21193-usa.683454/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/MESKH4H4/InuYasha-Feudal-Combat
+  host: github
+  kind: page
+  confidence: high
+  note: Creator posted GitHub repository link with texture pack downloads.

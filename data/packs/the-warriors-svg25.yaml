@@ -1,0 +1,21 @@
+key: the-warriors-svg25
+name: The Warriors
+game:
+  title: The Warriors
+  regions:
+  - NTSC-U
+credits:
+- creator: svg25
+type: port
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-warriors-multiple-region-port-optional-buttons-windows-android-support-xbox-enhanced-hd-edition.662249/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  note: Thread starter's opening post contains only punctuation; no links or download information found.

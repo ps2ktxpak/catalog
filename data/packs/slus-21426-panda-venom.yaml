@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-11-28-22-at-05-11-pm-jpg.340580/
     thumb_url: https://gbatemp.net/data/attachments/339/339968-bee628532046fab9a5a89887cdcb6a22.jpg?hash=vuYoUyBG-r
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-call-of-duty-3-20260722.tar.zst
+    sha256: 47a5ef824ecd0835f46496aca68b40b598f6dba4ecf45614126c62bc47b9725c
+    size_bytes: 459911072
+    decompressed_size_bytes: 601108480
+    file_count: 1066
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: BAEF1C365BB3AFBEFF10ED5D3993DFA745B7EBE7BDE936D2F5188460F5E7A5A6
+      size_bytes: 414063228

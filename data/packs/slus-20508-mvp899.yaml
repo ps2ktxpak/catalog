@@ -27,8 +27,27 @@ media:
   - source_url: https://gbatemp.net/attachments/indiana-jones-and-the-emperors-tomb_slus-20508_20241017173543-png.465487/
     thumb_url: https://gbatemp.net/data/attachments/464/464875-f553ea5545b9af2928f848bce36a63aa.jpg?hash=9VPqVUW5ry
     credit: mvp899
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-indiana-jones-and-the-emperor-s-tomb-hd-remaster-community-archive-slus-20508-20260728.tar.zst
+    sha256: f9acc95e4f9d4760cabbab53c608fad560026be367266a89a030e8d3fb2f5964
+    size_bytes: 556308923
+    decompressed_size_bytes: 891863040
+    file_count: 4614
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: B32D9512C2440119E644BD2C4E9124013D41F48BEA696C9F74AC7F03F0C56488
+      size_bytes: 1846347430

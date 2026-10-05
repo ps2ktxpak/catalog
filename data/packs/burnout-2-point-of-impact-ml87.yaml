@@ -1,0 +1,25 @@
+key: burnout-2-point-of-impact-ml87
+name: 'Burnout 2: Point of Impact'
+game:
+  title: 'Burnout 2: Point of Impact'
+  regions:
+  - NTSC-U
+credits:
+- creator: ml87
+type: button_replacement
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/xbox-buttons-for-burnout-1-dominator-3-and-revenge-already-exist-for-ps2.683198/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/exovkmj65di02pz/SLUS-20497.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: The opening post labels this Mediafire file Burnout 2 - Point of Impact; the zip is named for the NTSC-U serial SLUS-20497.

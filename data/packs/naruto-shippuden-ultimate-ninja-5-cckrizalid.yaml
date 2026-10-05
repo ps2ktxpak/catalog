@@ -1,0 +1,25 @@
+key: naruto-shippuden-ultimate-ninja-5-cckrizalid
+name: 'Naruto Shippuden: Ultimate Ninja 5'
+game:
+  title: 'Naruto Shippuden: Ultimate Ninja 5'
+  regions:
+  - PAL
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/RNEBiTZb#oiW4DHVO3ciysCVrXUCFOlZ-dafaKS1kJO4PJpSObp8
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Naruto Shippuden Ultimate Ninja 5.

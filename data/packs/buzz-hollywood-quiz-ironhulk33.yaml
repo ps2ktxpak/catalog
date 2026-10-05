@@ -1,0 +1,16 @@
+key: buzz-hollywood-quiz-ironhulk33
+name: 'Buzz!: Hollywood Quiz'
+game:
+  title: 'Buzz!: Hollywood Quiz'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/buzz-the-hollywood-quiz-ps2-hd-pack.668669/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

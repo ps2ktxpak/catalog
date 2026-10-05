@@ -1,0 +1,25 @@
+key: tomb-raider-anniversary-mvp899-2
+name: 'Tomb Raider: Anniversary'
+game:
+  title: 'Tomb Raider: Anniversary'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tomb-raider-anniversary-pcsx2-hd-texture.680683/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/8c7646aab7
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

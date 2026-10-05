@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-09-23-22-at-03-52-pm-001-jpg.328476/
     thumb_url: https://gbatemp.net/data/attachments/327/327864-e329c1bb956abda2e327e8fe9cf79815.jpg?hash=4ynBu5Vqva
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-fatal-frame-ii-20260722.tar.zst
+    sha256: fb20f1ff8872622ff5a02fef7992f0c7030b7ab8e74e5ba12ef10c9bfff1b298
+    size_bytes: 246958823
+    decompressed_size_bytes: 405882880
+    file_count: 1263
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: FB932E437B6367854817AEA615E28821970E4FD428465EFE67159545B0064CC4
+      size_bytes: 579851594

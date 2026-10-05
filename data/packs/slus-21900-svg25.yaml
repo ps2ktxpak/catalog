@@ -24,3 +24,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-svg25-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-scooby-doo-first-frights-hd-remaster-community-archive-slus-21900-20260728.tar.zst
+    sha256: 0509a07d059591eb7c3ac5625aee729cea87550aa1889aea6dcf5274abd15743
+    size_bytes: 485350905
+    decompressed_size_bytes: 946124800
+    file_count: 2146
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 384F366F24C4F343BEF10DCF3E0A0EB9F07E804BA837EB432F50B9E2A568108B
+      size_bytes: 1491727489

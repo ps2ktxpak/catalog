@@ -1,0 +1,25 @@
+key: guitar-hero-lisao10
+name: Guitar Hero
+game:
+  title: Guitar Hero
+  regions:
+  - NTSC-U
+credits:
+- creator: lisao10
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/guitar-hero-1-hd-remaster-wip.624353/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/kh5ijb85rn7k4r1/Guitar+Hero+1+HD+Remaster.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided MediaFire download link in followup post.

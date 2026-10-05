@@ -1,0 +1,25 @@
+key: legacy-of-kain-soul-reaver-2-curse-arms
+name: 'Legacy of Kain: Soul Reaver 2'
+game:
+  title: 'Legacy of Kain: Soul Reaver 2'
+  regions:
+  - PAL
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1tTEXV929ga_EMxTt1rFrRUfxM0GczpTH&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

@@ -1,0 +1,25 @@
+key: rumble-roses-asc53087
+name: Rumble Roses
+game:
+  title: Rumble Roses
+  regions:
+  - NTSC-U
+credits:
+- creator: asc53087
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/rumble-roses-hd-texture-pack.615568/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/vmtz18ezvrlh35w/replacements.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided MediaFire link as primary download in opening post.

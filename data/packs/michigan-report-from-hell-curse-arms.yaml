@@ -1,0 +1,25 @@
+key: michigan-report-from-hell-curse-arms
+name: 'Michigan: Report from Hell'
+game:
+  title: 'Michigan: Report from Hell'
+  regions:
+  - PAL
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1R21woDExK_jIZP27ON1VQG-fFEdc-baE&export=download&authuser=0
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

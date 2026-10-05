@@ -1,0 +1,25 @@
+key: sega-ages-2500-series-vol-10-after-burner-ii-mvp899
+name: 'Sega Ages 2500 Series Vol. 10: After Burner II'
+game:
+  title: 'Sega Ages 2500 Series Vol. 10: After Burner II'
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/sega-ages-2500-series-vol-10-afterburner-ii-pcsx2-hd-texture.682465/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/8095214eb4
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

@@ -5,9 +5,9 @@ import { COMPLETENESS_LABELS, COST_LABELS, ROLE_LABELS, SOURCE_KIND_LABELS, TYPE
 import { href } from '../../lib/url';
 
 // Every stored creator and pack, so the form can resolve a typed name and point at packs that already cover a serial.
-const { creators, rows } = loadCatalog();
+const { creators, rows, packKeys } = loadCatalog();
 const people = [...creators.values()].map((c) => ({ id: c.id, name: c.name, aliases: c.aliases }));
-const packs = rows.filter((r) => r.kind === 'hosted').map((r) => ({ key: r.id, name: r.packName ?? r.title, serials: r.serials }));
+const packs = rows.map((r) => ({ key: r.id, name: r.packName ?? r.title, serials: r.serials }));
 const options = (labels: Record<string, string>) => Object.entries(labels);
 ---
 
@@ -163,6 +163,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
 
   <script type="application/json" id="pk-creators" set:html={JSON.stringify(people)} />
   <script type="application/json" id="pk-packs" set:html={JSON.stringify(packs)} />
+  <script type="application/json" id="pk-keys" set:html={JSON.stringify(packKeys)} />
   <script type="application/json" id="pk-base" set:html={JSON.stringify(import.meta.env.BASE_URL)} />
 </StarlightPage>
 
@@ -182,6 +183,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
   const json = (id: string) => JSON.parse($(`#${id}`).textContent!);
   const creators: { id: string; name: string; aliases: string[] }[] = json('pk-creators');
   const packs: { key: string; name: string; serials: string[] }[] = json('pk-packs');
+  const packKeys: string[] = json('pk-keys');
   const baseUrl: string = json('pk-base');
   const AjvCtor = (Ajv2020 as any).default ?? Ajv2020;
   const validate = new AjvCtor({ allErrors: true, strict: false }).compile(schema);
@@ -285,7 +287,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     // A new pack's file name comes from its lowest serial and its lead creator.
     let key = base?.key ?? '';
     if (!base) {
-      key = clean.serials.length ? newKey(clean.serials, clean.credits[0]?.creator ?? '', packs.map((p) => p.key)) : '';
+      key = clean.serials.length ? newKey(clean.serials, clean.credits[0]?.creator ?? '', packKeys) : '';
       draft.key = key;
     }
 
@@ -382,7 +384,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     $('[data-pk-hosting-note]').textContent =
       field('hosting').value === 'hosted'
         ? 'A converted copy is made from the sources once the pull request is merged. Paid packs are hosted only with the creator’s approval.'
-        : 'The pack is recorded and no copy is made.';
+        : 'The pack is recorded as listed. No copy is made and nothing is asked of its creator.';
   };
   form.addEventListener('change', hostingNote);
 

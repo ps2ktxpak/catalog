@@ -1,0 +1,25 @@
+key: gauntlet-seven-sorrows-mvp899
+name: 'Gauntlet: Seven Sorrows'
+game:
+  title: 'Gauntlet: Seven Sorrows'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gauntlet-seven-sorrows-hd-texture.643022/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/yWByGQKQ#YQhbUatQ3fI-1yZpi2DaV01IRH9sXeyNkwh93T2sJpA
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

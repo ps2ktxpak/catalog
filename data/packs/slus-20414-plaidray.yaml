@@ -45,8 +45,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screenshot-22-png.412997/
     thumb_url: https://gbatemp.net/data/attachments/412/412385-376d6d684b14a566c8a3bca50a8baa22.jpg?hash=N21taEsUpW
     credit: plaidray
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-plaidray-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-legaia-2-duel-saga-hd-remaster-community-archive-slus-20414-20260728.tar.zst
+    sha256: b827fa2a75e9933f60f6bebee15a2e6aaba8fa2ce3fb9994d9af1a65ad06cab7
+    size_bytes: 897185044
+    decompressed_size_bytes: 1228052480
+    file_count: 2202
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 8AEAACEEDD2CFA654123CFCFA5667080CB6D0890362084620D391ED78F9A70AF
+      size_bytes: 3236984431

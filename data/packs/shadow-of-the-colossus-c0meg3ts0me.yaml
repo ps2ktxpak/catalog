@@ -1,0 +1,25 @@
+key: shadow-of-the-colossus-c0meg3ts0me
+name: Shadow of the Colossus
+game:
+  title: Shadow of the Colossus
+  regions:
+  - NTSC-U
+credits:
+- creator: c0meg3ts0me
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shadows-of-the-colossus-hd-texture-pack-pcsx2-and-android-nethersx2-1-9.667144/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/HUFT1Bqa#-vei3Ho3pX9gz6r9wSR7PQWeejdK8lEP4ln61Ps92zw
+  host: mega
+  kind: file
+  confidence: high
+  note: Creator posted Mega link for PC version in opening post.

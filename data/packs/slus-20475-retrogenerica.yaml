@@ -24,8 +24,27 @@ media:
   - source_url: https://gbatemp.net/attachments/1780465369579-png.576217/
     thumb_url: https://gbatemp.net/data/attachments/575/575605-8a56be972e6db187ed77efcabfe8d0d7.jpg?hash=tBqvkhKMtH
     credit: retrogenerica
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/retrogenerica-dual-hearts-beta-1-slus-20475-20260726.tar.zst
+    sha256: 0d3323095f77d74f54e15072f3a23bde5d66b6deba0dce30832ec1d340b21189
+    size_bytes: 385894637
+    decompressed_size_bytes: 612638720
+    file_count: 1098
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D19DADE585A7AED44A121F23C870AF4A6189AECD6E249EB736DEE1F221CF1FA1
+      size_bytes: 804524661

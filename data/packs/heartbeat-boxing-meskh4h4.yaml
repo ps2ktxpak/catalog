@@ -1,0 +1,25 @@
+key: heartbeat-boxing-meskh4h4
+name: Heartbeat Boxing
+game:
+  title: Heartbeat Boxing
+  regions:
+  - PAL
+credits:
+- creator: meskh4h4
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-heartbeat-boxing-sles-51865-europe.683545/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://meskh4h4.github.io/Heartbeat-Boxing/
+  host: other
+  kind: page
+  confidence: high
+  note: Creator explicitly labeled GitHub Pages website as the download source.

@@ -1,0 +1,25 @@
+key: the-king-of-fighters-xi-mvp899
+name: The King of Fighters XI
+game:
+  title: The King of Fighters XI
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-king-of-fighters-xi-hd-texture.653087/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/eWZyHCLZ#B9qDRBgPh2cH8HtBg2OJ1A
+  host: mega
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

@@ -18,8 +18,27 @@ sources:
 - kind: repository
   url: https://github.com/CRASHARKI/cott-tp
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/crasharki-crash-of-the-titans-fe8ac511.tar.zst
+    sha256: 5b0c684eef2af98ad464ffa8a3883921f50ae3715e77344931e2b01f2184a9ce
+    size_bytes: 194754871
+    decompressed_size_bytes: 1240719360
+    file_count: 2879
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A763B294F79C9AB1055BC9AA4F3D459B08DC32787FF69EC81EBB24E0280FA61B
+      size_bytes: 698118122

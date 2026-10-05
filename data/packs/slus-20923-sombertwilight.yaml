@@ -23,8 +23,27 @@ media:
   - source_url: https://gbatemp.net/attachments/king-of-fighters-maximum-impact_slus-20923_20231225042307-png.410257/
     thumb_url: https://gbatemp.net/data/attachments/409/409645-efbe44ca14eb644f09cd8bfe059b7177.jpg?hash=775EyhTrZE
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-kof-maximum-impact-slus-20923-20260727.tar.zst
+    sha256: 1d07e25ea61f2bd0d4cd40990a301cfc889afa3c1dfee4a270dd23d823bff1c0
+    size_bytes: 633216454
+    decompressed_size_bytes: 973342720
+    file_count: 1452
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: E2C2D5121A053B7923C6C0DE2518BDC5D1D151A6C7D1BBBB25A4B7D667BEBD1F
+      size_bytes: 754711287

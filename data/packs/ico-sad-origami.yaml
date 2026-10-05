@@ -1,0 +1,25 @@
+key: ico-sad-origami
+name: Ico
+game:
+  title: Ico
+  regions:
+  - PAL
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-ico-pal-sces-50760-in-progress.671638/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: gated
+  url: https://ko-fi.com/sadorigami/shop
+  host: kofi
+  kind: shop
+  confidence: high
+  note: Download redirects to Ko-fi shop, which requires account interaction.

@@ -1,0 +1,23 @@
+key: spongebob-squarepants-revenge-of-the-flying-dutchman-ironhulk33
+name: 'SpongeBob SquarePants: Revenge of the Flying Dutchman'
+game:
+  title: 'SpongeBob SquarePants: Revenge of the Flying Dutchman'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spongebob-revenge-of-the-flying-dutchman-hd-pack-pcsx2.681004/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+  host: mediafire
+  kind: folder
+  confidence: high
+  note: Public MediaFire folder listed in opening post and video description.

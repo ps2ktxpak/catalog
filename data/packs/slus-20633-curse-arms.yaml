@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-clock-tower-3-hd-remaster-community-archive-slus-20633-20260728.tar.zst
+    sha256: 6bd9c13812cf941c9cd7a32dd2198ac0a158b57d634e76675f62381e1b47eb3a
+    size_bytes: 2496203977
+    decompressed_size_bytes: 3433963520
+    file_count: 4332
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 6C004E03BBEC0E6FBE8000C3978C1B4EDCF71CA76A235470BB0AE5E74F1EF9C3
+      size_bytes: 2205910842

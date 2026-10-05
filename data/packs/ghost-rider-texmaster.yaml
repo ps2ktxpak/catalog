@@ -1,0 +1,21 @@
+key: ghost-rider-texmaster
+name: Ghost Rider
+game:
+  title: Ghost Rider
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ghost-rider-sles-54317-hd-dds-texture-pack-pcsx2-version-1-0.682041/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Creator's YouTube video provides only link shorteners (ouo.io, sfl.gl) which gate access.

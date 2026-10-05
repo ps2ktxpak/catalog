@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/hvak3k93y8wvncc/Tom_Clancy%2527s_Rainbow_Six_Lockdown.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-tom-clancy-s-rainbow-six-lockdown-slus-21144-20260728.tar.zst
+    sha256: c134b612c3ac3960f02f560aaa6eeeb386a10a6d9141e2815c2ed3245175d8b0
+    size_bytes: 448154839
+    decompressed_size_bytes: 592670720
+    file_count: 4872
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: E9F4ABAA2BA88356F7062E6DCC29972BA5A376E12160F2975F94AD6C59F9E6A4
+      size_bytes: 925379342

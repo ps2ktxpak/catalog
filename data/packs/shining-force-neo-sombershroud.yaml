@@ -1,0 +1,25 @@
+key: shining-force-neo-sombershroud
+name: Shining Force NEO
+game:
+  title: Shining Force NEO
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://1drv.ms/u/c/f4ce8a5d6475446d/ERKyXgYcGI5Po2faUq0JUQQB8fAqyP0CIKpSjYbpg24Dsw?e=Fbjtdk
+  host: other
+  kind: file
+  confidence: medium
+  note: Link in the creator's opening-post list for Shining Force NEO (US); a separate creator follow-up post gives a different OneDrive link and its order is unclear.

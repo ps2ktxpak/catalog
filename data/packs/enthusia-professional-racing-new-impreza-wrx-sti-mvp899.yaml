@@ -1,0 +1,25 @@
+key: enthusia-professional-racing-new-impreza-wrx-sti-mvp899
+name: 'Enthusia Professional Racing: New Impreza WRX STI'
+game:
+  title: 'Enthusia Professional Racing: New Impreza WRX STI'
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/enthusia-professional-racing-subaru-impreza-wrx-sti-pcsx2-hd-texture.668993/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: paid
+  url: https://ko-fi.com/mvp89974957
+  host: kofi
+  kind: shop
+  confidence: high
+  note: Creator explicitly mentions Ko-Fi; pack distributed through shop platform.

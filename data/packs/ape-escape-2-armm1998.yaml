@@ -1,0 +1,25 @@
+key: ape-escape-2-armm1998
+name: Ape Escape 2
+game:
+  title: Ape Escape 2
+  regions:
+  - NTSC-U
+credits:
+- creator: armm1998
+type: mixed
+completeness: partial
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/release-slus-20685-ape-escape-2-hd-ui-and-hud-manually-redrawn.666907/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1Jfo-W745jKzbrhp-yKBizBSUkAoLz7Xk/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator's opening post links to Google Drive file for the manually redrawn texture pack.

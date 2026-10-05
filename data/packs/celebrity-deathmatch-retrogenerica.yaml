@@ -1,0 +1,25 @@
+key: celebrity-deathmatch-retrogenerica
+name: Celebrity Deathmatch
+game:
+  title: Celebrity Deathmatch
+  regions:
+  - NTSC-U
+credits:
+- creator: retrogenerica
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mtvs-celebrity-deathmatch-ps2-hd-remaster-xbox-button-texture-pack-100-complete.660814/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1CKSAGr193BP4G5z5O8RHtf0a-bN9riCT/view?usp=drive_link
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator's opening post provides Google Drive link for HD texture pack.

@@ -1,0 +1,25 @@
+key: bloody-roar-4-xxtherockoxx
+name: Bloody Roar 4
+game:
+  title: Bloody Roar 4
+  regions:
+  - NTSC-U
+credits:
+- creator: xxtherockoxx
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bloody-roar-4-hd-textures.669898/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/h98esgu9klsmsxj/B.R.4.HD_Textures_xX.The.RockoXx.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's pinned YouTube comment provides direct mediafire download link.

@@ -1,0 +1,16 @@
+key: raiden-iii-ironhulk33
+name: Raiden III
+game:
+  title: Raiden III
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/ironhulk33
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

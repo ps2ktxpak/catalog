@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-terminator-3-the-redemption-hd-remaster-community-archive-slus-20852-20260728.tar.zst
+    sha256: ddc39fd83f71ff62ea553b1d6235edda5efec0ec7ca274faa947700f991c078b
+    size_bytes: 592186414
+    decompressed_size_bytes: 741560320
+    file_count: 3029
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: E7747D276F2772DFAA69F7F7AD8DB6E2D7072FB6B29B2EA86E07924519A34FB4
+      size_bytes: 748271805

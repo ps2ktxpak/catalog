@@ -1,0 +1,25 @@
+key: final-fantasy-xii-international-zodiac-job-system-panda-venom
+name: Final Fantasy XII International Zodiac Job System
+game:
+  title: Final Fantasy XII International Zodiac Job System
+  regions:
+  - NTSC-J
+credits:
+- creator: panda-venom
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/final-fantasy-xii-international-zodiac-job-system-hd-textures.668091/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/5hh0jfmqqd2ww8x/SLPM-66750_FF12_zodiac_v1.0.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -1,0 +1,25 @@
+key: spider-man-tylermods
+name: Spider-Man
+game:
+  title: Spider-Man
+  regions:
+  - NTSC-U
+credits:
+- creator: tylermods
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spider-man-hd-texture-pack-slus-20336.659011/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/tEoQzRDB#NIIVx0aE1PeqrCQ1VDNaArgUw8rDcsx00VknaM7fN0A
+  host: mega
+  kind: file
+  confidence: high
+  note: Creator lists Part 1 (7GB) on Mega as primary download in opening post.

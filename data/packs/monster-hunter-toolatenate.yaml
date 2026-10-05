@@ -1,0 +1,25 @@
+key: monster-hunter-toolatenate
+name: Monster Hunter
+game:
+  title: Monster Hunter
+  regions:
+  - NTSC-U
+credits:
+- creator: toolatenate
+type: handcrafted
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tlnates-notsofaithful-texture-pack-monster-hunter-2004-ps2-pcsx2.610028/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/gr4EyQbD#mY_xLx-NpPcZfYkWq285GrGmRRhv4yzCpAUBDQhFvtY
+  host: mega
+  kind: file
+  confidence: high
+  note: Creator provided MEGA download links for texture pack versions in opening post.

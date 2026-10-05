@@ -1,0 +1,21 @@
+key: ratatouille-moataz
+name: Ratatouille
+game:
+  title: Ratatouille
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratatouille-4k-hd-remastered-textures.646406/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Primary download link goes through ouo.io, a link shortener with ad walls.

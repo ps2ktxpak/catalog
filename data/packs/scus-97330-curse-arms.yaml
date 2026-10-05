@@ -19,6 +19,8 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -26,3 +28,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-jak-3-hd-remaster-community-archive-scus-97330-20260728.tar.zst
+    sha256: 2c83681b5304c036579c74099824993d59d818ceef744da2dc0cf53f997bb0be
+    size_bytes: 1002548353
+    decompressed_size_bytes: 1643898880
+    file_count: 16995
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: ECB98ED960409DF5E4A81E01165397E4176DD4E1372F6A3582DFF7D707D8E4CB
+      size_bytes: 3325127400

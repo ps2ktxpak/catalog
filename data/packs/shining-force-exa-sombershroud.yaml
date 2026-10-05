@@ -1,0 +1,25 @@
+key: shining-force-exa-sombershroud
+name: Shining Force EXA
+game:
+  title: Shining Force EXA
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://1drv.ms/u/s!ApJOQlD7y1v-kH9FqUG8UZUCO8yO?e=3s9sgc
+  host: other
+  kind: file
+  confidence: medium
+  note: Link in the opening-post list, repeated by a creator follow-up; another unattributed creator link mentions merged dumps, so a newer replacement is possible.

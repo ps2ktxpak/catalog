@@ -1,0 +1,25 @@
+key: spongebob-squarepants-lights-camera-pants-bmt619
+name: 'SpongeBob SquarePants: Lights, Camera, Pants!'
+game:
+  title: 'SpongeBob SquarePants: Lights, Camera, Pants!'
+  regions:
+  - NTSC-U
+credits:
+- creator: bmt619
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spongebob-squarepants-lights-camera-pants-ntsc-u-slus-21252-hd-texture-pack.671794/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: ambiguous
+  url: https://ko-fi.com/s/0de63f981d
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: Opening post says 'Download it HERE!!' but link appears to be a Ko-Fi shop; unclear if free or paid without inspection.

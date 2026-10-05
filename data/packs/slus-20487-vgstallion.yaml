@@ -45,8 +45,27 @@ media:
   - source_url: https://gbatemp.net/attachments/1780288123737-jpeg.575899/
     thumb_url: https://gbatemp.net/data/attachments/575/575287-a767529324e6edc967e2525ebb6fd7f5.jpg?hash=3I36i-fvYq
     credit: vgstallion
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-vgstallion-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-mega-man-x7-hd-remaster-community-archive-slus-20487-20260728.tar.zst
+    sha256: fe4eda32eec70ef7184439655e11736d1ebfcff3c439b1ffe232865db4cd0f66
+    size_bytes: 270621190
+    decompressed_size_bytes: 404203520
+    file_count: 196
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: F4476ECC216A2F6382B07DCA4A90C64AAA6B9C70F5FB9F2488168068BD85AEF6
+      size_bytes: 1037407899

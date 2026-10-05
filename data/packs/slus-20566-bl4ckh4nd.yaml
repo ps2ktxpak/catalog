@@ -20,6 +20,8 @@ sources:
   url: https://www.mediafire.com/file_premium/b2x9b0fqu2esvck/Buffy_The_Vampire_Slayer_Chaos_Bleeds.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -27,3 +29,20 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-buffy-the-vampire-slayer-chaos-bleeds-slus-20566-20260728.tar.zst
+    sha256: fcb330ec1986fa1818ec1f5eda451ab2c974833e43efb7c078d4da49a33a9cbc
+    size_bytes: 349637406
+    decompressed_size_bytes: 458598400
+    file_count: 6029
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D0437752C5BE887E6E329A90E05EFA04F0A138D992AA57637B81F225F8652646
+      size_bytes: 722575002

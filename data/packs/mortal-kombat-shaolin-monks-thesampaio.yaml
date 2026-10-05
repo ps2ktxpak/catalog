@@ -1,0 +1,25 @@
+key: mortal-kombat-shaolin-monks-thesampaio
+name: 'Mortal Kombat: Shaolin Monks'
+game:
+  title: 'Mortal Kombat: Shaolin Monks'
+  regions:
+  - NTSC-U
+credits:
+- creator: thesampaio
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mortal-kombat-shaolin-monks-usa-hd-edition.655249/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/oydiw7ziobx939q/Mortal_Kombat_Shaolin_Monks_%2528SLUS-21087%2529.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided MediaFire link in opening post as the main download for the texture pack.

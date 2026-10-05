@@ -30,8 +30,27 @@ media:
   - source_url: https://gbatemp.net/attachments/karasawa-upscale-png.488492/
     thumb_url: https://gbatemp.net/data/attachments/487/487880-5f3ec294199ba838e4417930032e4de5.jpg?hash=Xz7ClBmbqD
     credit: ninebreaker
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-ninebreaker-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-armored-core-2-hd-remaster-community-archive-slus-20014-20260728.tar.zst
+    sha256: 7b0ca7bb784726de3385fa7b9f83a8148bbec07c2ff30ed5f8c3d67f01c7aff0
+    size_bytes: 898676372
+    decompressed_size_bytes: 1395507200
+    file_count: 4165
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 2416961106BE3740B3DF248E23A0563F1B28E58FA61C2D3E46A887A64EFCCCFA
+      size_bytes: 1042048894

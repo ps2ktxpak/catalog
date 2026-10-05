@@ -1,0 +1,22 @@
+key: bully-canis-canem-edit-moataz
+name: Bully Canis Canem Edit
+game:
+  title: Bully Canis Canem Edit
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/bully-canis-canem-edit-usa-ntsc-u-hd-remaster-texture-pack-2-2.645066/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  confidence: high
+  note: Main download link uses ouo.io advert wall, blocks direct access.

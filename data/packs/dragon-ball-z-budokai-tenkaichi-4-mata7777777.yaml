@@ -1,0 +1,25 @@
+key: dragon-ball-z-budokai-tenkaichi-4-mata7777777
+name: 'Dragon Ball Z: Budokai Tenkaichi 4'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 4'
+  regions:
+  - NTSC-U
+credits:
+- creator: mata7777777
+type: unknown
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkachi-4-mod-repack-hd-beta-8.661087/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/folder/f280rgro4m4ch/BT4_ULTIMATE
+  host: mediafire
+  kind: folder
+  confidence: high
+  note: Creator provided both MediaFire and Google Drive links; MediaFire chosen as primary.

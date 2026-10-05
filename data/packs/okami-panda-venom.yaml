@@ -1,0 +1,25 @@
+key: okami-panda-venom
+name: Okami
+game:
+  title: Okami
+  regions:
+  - NTSC-U
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/okami-usa-hd-remaster-incomplete-50.645586/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/1j2rcncza6ihiri/SLUS-21115_Okami_v0.5_Beta.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

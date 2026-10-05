@@ -1,0 +1,25 @@
+key: gun-teodor-max
+name: Gun
+game:
+  title: Gun
+  regions:
+  - NTSC-U
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gun-hd-texture-pack.642091/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/drive/folders/1fuauuUbk2OhAibUrIg3Xr824G2wdSeId?usp=sharing
+  host: gdrive
+  kind: folder
+  confidence: high
+  note: Creator provided Google Drive folder in opening post and YouTube video.

@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/wwe-all-stars-slus-21940-hd-texture-pack-upscale.682221/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/callofcthuloo-wwe-all-stars-desktop-slus-21940-20260728.tar.zst
+    sha256: 46a274d8c0cfb23bcf43e0af6757ded2470d1ace5501763d98a0c0da092bc139
+    size_bytes: 267507530
+    decompressed_size_bytes: 476477440
+    file_count: 1828
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: E9D4EBA934103C10CF213A6314C2A1A72AAC10D6ECBB872275C2FB1E4EA7F63C
+      size_bytes: 780705804

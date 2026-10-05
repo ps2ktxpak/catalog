@@ -1,0 +1,16 @@
+key: lego-racers-2-bl4ckh4nd
+name: Lego Racers 2
+game:
+  title: Lego Racers 2
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

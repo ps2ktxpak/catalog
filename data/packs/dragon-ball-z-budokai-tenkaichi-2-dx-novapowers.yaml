@@ -1,0 +1,23 @@
+key: dragon-ball-z-budokai-tenkaichi-2-dx-novapowers
+name: 'Dragon Ball Z: Budokai Tenkaichi 2 DX'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 2 DX'
+  regions:
+  - NTSC-U
+credits:
+- creator: novapowers
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-2-dx-mod-slus-21441-ai-upscaled-texture-pack.679462/
+  primary: true
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/7khrpvzlv1trwai/BT2_DX_HD_Textures.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provides direct Mediafire download link (190MB) in opening post.

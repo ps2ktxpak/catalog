@@ -1,0 +1,25 @@
+key: spartan-total-warrior-alufolie69
+name: 'Spartan: Total Warrior'
+game:
+  title: 'Spartan: Total Warrior'
+  regions:
+  - PAL
+credits:
+- creator: alufolie69
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/spartan-total-warrior-hd-textures.641317/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://dropbox.com/scl/fi/hbgjgd3t2uns15gw5e7i6/SLES-53393.rar?rlkey=w0sdqzcn94j17kofd72ynn36o&dl=0
+  host: dropbox
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

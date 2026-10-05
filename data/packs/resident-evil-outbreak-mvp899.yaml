@@ -1,0 +1,23 @@
+key: resident-evil-outbreak-mvp899
+name: 'Resident Evil: Outbreak'
+game:
+  title: 'Resident Evil: Outbreak'
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/biohazard-outbreak-pcsx2-hd-texture.680240/
+  primary: true
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/fa6d7141a8
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: Creator pins Ko-fi link as PACK in video comment; mega.nz folder listed as texture updates.

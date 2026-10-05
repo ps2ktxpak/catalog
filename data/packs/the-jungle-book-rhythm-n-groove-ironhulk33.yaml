@@ -1,0 +1,18 @@
+key: the-jungle-book-rhythm-n-groove-ironhulk33
+name: The Jungle Book Rhythm n' Groove
+game:
+  title: The Jungle Book Rhythm n' Groove
+  regions:
+  - NTSC-U
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/jungle-book-rhythm-and-groove-hd-texture-pack-ps2.669018/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

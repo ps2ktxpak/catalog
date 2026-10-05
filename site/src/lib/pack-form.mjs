@@ -5,8 +5,8 @@
 // thumbnail, a video's uploader) survives an edit.
 //
 // A new pack starts hosted: hosting.state published, permission creator_approved. Until the conversion
-// pipeline has made a copy there is no archive record, so the pack is published and awaiting conversion.
-// "Listed only" files it as withheld instead.
+// pipeline has made a copy there is no archive block, so the pack is published and awaiting conversion.
+// "Listed only" files it as listed instead: recorded, not hosted, nothing asked of its creator.
 import { githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered } from './form-core.mjs';
 import { parseSerials, parseYoutubeId } from './vocab.mjs';
 
@@ -17,8 +17,8 @@ export const KEY_PATTERN = /^[a-z0-9][a-z0-9-]{2,79}$/;
 export const FIELDS = ['name', 'game', 'credits', 'type', 'completeness', 'description', 'sources', 'media'];
 
 // The order keys are written in, as in the files already in data/packs/.
-const ORDER = ['key', 'catalog_id', 'name', 'game', 'credits', 'type', 'completeness', 'description', 'version', 'sources', 'media',
-  'access', 'permission', 'hosting', 'needs_review'];
+const ORDER = ['key', 'catalog_id', 'name', 'game', 'credits', 'listed_credits', 'type', 'completeness', 'description', 'version',
+  'sources', 'media', 'access', 'permission', 'hosting', 'needs_review', 'download', 'archive'];
 
 // ---- keys ------------------------------------------------------------------------------------------
 
@@ -174,6 +174,14 @@ const snapshot = (r) => ({
 
 const orNull = (v) => (isEmpty(v) ? null : v);
 
+/** The game block: the stored one with the title and serials from the form; no serials key when there are none. */
+function gameOf(base, clean) {
+  const game = { ...(base?.game ?? {}), title: clean.title };
+  if (clean.serials.length) game.serials = clean.serials;
+  else delete game.serials;
+  return game;
+}
+
 /** What a draft says about every field; a field with nothing in it is null. `base` supplies the keys the form does not show. */
 export function valuesFromDraft(draft, creators, base = null) {
   const { clean } = cleanDraft(draft, creators);
@@ -185,7 +193,7 @@ export function valuesFromDraft(draft, creators, base = null) {
   }
   return {
     name: clean.name,
-    game: { ...(base?.game ?? {}), title: clean.title, serials: clean.serials },
+    game: gameOf(base, clean),
     credits: clean.credits,
     type: clean.type,
     completeness: clean.completeness,
@@ -216,8 +224,8 @@ export const newFields = (draft) => ({ cost: draft.cost, hosting: draft.hosting 
  * hosting state. A field not in `set` is left as it was. The browser previews a submission with this and the
  * workflow applies it with this.
  *
- * Hosted: published, with permission creator_approved on the submitter's statement. Listed only: withheld,
- * permission unknown.
+ * Hosted: published, with permission creator_approved on the submitter's statement. Listed only: listed, with
+ * no permission, since none was asked for.
  */
 export function applyPack({ base = null, key, set, creating = null, date }) {
   const rec = base ? structuredClone(base) : { key };
@@ -233,8 +241,7 @@ export function applyPack({ base = null, key, set, creating = null, date }) {
       rec.permission = { kind: 'creator_approved', date, note: 'Approval stated by the submitter on the web form.' };
       rec.hosting = { state: 'published', since: date };
     } else {
-      rec.permission = { kind: 'unknown' };
-      rec.hosting = { state: 'withheld', reason: 'Listed only, at the submitter’s request.', since: date };
+      rec.hosting = { state: 'listed' };
     }
   }
   return ordered(rec, ORDER, ['credits']);
@@ -261,7 +268,9 @@ export function check({ draft, base = null, creators, validate, date }) {
 
   need(clean.name, 'name', 'A name is needed');
   need(clean.title, 'title', 'A game title is needed');
-  need(clean.serials.length > 0 || out.some((p) => p.field === 'serials'), 'serials', 'At least one game serial is needed');
+  // The app matches a pack to a game by serial, so a hosted pack needs one; a pack that is only listed may not have one yet.
+  const needsSerial = !base || base.hosting?.state === 'published';
+  need(!needsSerial || clean.serials.length > 0 || out.some((p) => p.field === 'serials'), 'serials', 'At least one game serial is needed');
   need(clean.description.length <= 2000, 'description', 'The description is limited to 2000 characters');
   if (clean.sources.filter((s) => s.primary).length > 1) out.push({ field: 'sources', message: 'Only one source can be the main one' });
 

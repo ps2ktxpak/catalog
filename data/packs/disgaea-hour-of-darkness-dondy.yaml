@@ -1,0 +1,19 @@
+key: disgaea-hour-of-darkness-dondy
+name: 'Disgaea: Hour of Darkness'
+game:
+  title: 'Disgaea: Hour of Darkness'
+credits:
+- creator: dondy
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/disgaea-hour-of-darkness-texture-pack.679826/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  note: Creator states inability to post links yet and seeks community advice on distribution.

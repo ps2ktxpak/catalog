@@ -1,0 +1,18 @@
+key: gun-mvp899
+name: Gun
+game:
+  title: Gun
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gun-pcsx2-hd-texture.672212/
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

@@ -1,0 +1,25 @@
+key: ace-combat-5-the-unsung-war-superostrich
+name: 'Ace Combat 5: The Unsung War'
+game:
+  title: 'Ace Combat 5: The Unsung War'
+  regions:
+  - NTSC-U
+credits:
+- creator: superostrich
+type: handcrafted
+completeness: complete
+sources:
+- kind: other
+  url: https://ostrichmods.com/trilogy.html
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/j7ZXATYI#C2XnbaqT7X2wBg1Xuf_vnw
+  host: mega
+  kind: folder
+  confidence: medium
+  note: The creator's trilogy page offers one combined pack for all three Ace Combat games as a Mega folder, plus a Google Drive download; the same link serves each game.

@@ -16,8 +16,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/need-for-speed-hot-pursuit-2-ps2-hd-textures-remaster.658013/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/siggy-wiggy-woo-nfs-hot-pursuit-2-1.1.tar.zst
+    sha256: 7b1d483bb69de99bd0852588473bc8ec105209ed657295f2bcb2d2e9bfe2edc6
+    size_bytes: 188973093
+    decompressed_size_bytes: 278906880
+    file_count: 1315
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 02A195618E4C7996C420CD990F6AEFE6AC87FE541FECB49D29F099FB8B8E6834
+      size_bytes: 172376875

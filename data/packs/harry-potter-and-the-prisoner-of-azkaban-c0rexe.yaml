@@ -1,0 +1,25 @@
+key: harry-potter-and-the-prisoner-of-azkaban-c0rexe
+name: Harry Potter and the Prisoner of Azkaban
+game:
+  title: Harry Potter and the Prisoner of Azkaban
+  regions:
+  - NTSC-U
+credits:
+- creator: c0rexe
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/harry-potter-and-the-prisoner-of-azkaban-upscale-texture-pack.649545/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyHzKPHwvNKOXlH0rOXzRGkEoI
+  host: mega
+  kind: file
+  confidence: high
+  note: Creator posted Mega link in opening post.

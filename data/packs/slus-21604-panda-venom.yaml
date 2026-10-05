@@ -32,8 +32,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-08-19-22-at-11-12-pm-001-jpg.323366/
     thumb_url: https://gbatemp.net/data/attachments/322/322754-a660320889a759bb2ef46908d11bae9a.jpg?hash=pmAyCImnWb
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-grimgrimoire-20260722.tar.zst
+    sha256: 65448a5a831e77a0206604716ab33536155be5a734fe0d359615e9c776fd701c
+    size_bytes: 168807534
+    decompressed_size_bytes: 318730240
+    file_count: 217
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1E0363F98AA69E590FCF55C4A29B7348DFACF35F401CD09B5CAE5862B1780847
+      size_bytes: 610032641

@@ -1,0 +1,25 @@
+key: fate-unlimited-codes-mvp899
+name: Fate Unlimited Codes
+game:
+  title: Fate Unlimited Codes
+  regions:
+  - NTSC-J
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/fate-unlimited-codes-hd-textures.656407/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/rnxr91a74w8uobh/Fate_Unlimited_Codes.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided MediaFire link in video pinned comment (latest update).

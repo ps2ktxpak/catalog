@@ -1,0 +1,23 @@
+key: grandia-extreme-panda-venom
+name: Grandia Extreme
+game:
+  title: Grandia Extreme
+credits:
+- creator: panda-venom
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/grandia-extreme-widescreen.628451/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/3IoRHDzQ#CNCy0RGxoZCVJfh-I5gwRvsefVlasCAQoWXwTbadCEo
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

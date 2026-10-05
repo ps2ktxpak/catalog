@@ -1,0 +1,25 @@
+key: maximo-vs-army-of-zin-santins
+name: Maximo vs Army of Zin
+game:
+  title: Maximo vs Army of Zin
+  regions:
+  - NTSC-U
+credits:
+- creator: santins
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/maximo-vs-army-of-zin-usa-uhd-remaster-definitive.639191/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1YjcCbiGvZAuyMHxlNvAsPKYGfsB_C5TE/view
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

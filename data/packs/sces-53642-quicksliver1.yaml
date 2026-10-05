@@ -21,8 +21,27 @@ media:
   videos:
   - provider: youtube
     id: EmtKPXNxIRE
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/quicksliver1-ape-escape-3-multi-region-20260727.tar.zst
+    sha256: 53e1c7629442fcfc361d83e937be2ae52d5bbf380f37a2bf949bc77b56184b81
+    size_bytes: 1000387717
+    decompressed_size_bytes: 4861859840
+    file_count: 35900
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 77A46E48D29C003668C7A346720617AA2B32EEAE84C8CDFACB8FED1DBE17D917
+      size_bytes: 2326146131

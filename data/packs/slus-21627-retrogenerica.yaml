@@ -39,8 +39,27 @@ media:
   videos:
   - provider: youtube
     id: MbATX1251q8
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/retrogenerica-jackass-the-game-slus-21627-20260726.tar.zst
+    sha256: c2223f2b77087eb3961fdf72129801260a2e2f891ab5dda98c83557d7b84d835
+    size_bytes: 801401108
+    decompressed_size_bytes: 1990338560
+    file_count: 7832
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1B77D34996A4BB9DFEC470C42BE11CC4F076B26E9FDE2823909B761CC2FAD271
+      size_bytes: 1775844448

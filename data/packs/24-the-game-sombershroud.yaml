@@ -1,0 +1,25 @@
+key: 24-the-game-sombershroud
+name: '24: The Game'
+game:
+  title: '24: The Game'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/6l0b8ca2axm8nt5/SLUS-21268.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: 'The creator''s opening-post list gives this MediaFire zip (SLUS-21268) for 24: The Game (US).'

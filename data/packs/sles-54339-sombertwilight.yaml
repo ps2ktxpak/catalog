@@ -29,8 +29,27 @@ media:
   - source_url: https://gbatemp.net/attachments/realm-of-the-dead_sles-54339_20240114050259-png.413843/
     thumb_url: https://gbatemp.net/data/attachments/413/413231-3f0357e7a9f0c57cc92e44a7d0253cba.jpg?hash=PwNX56nwxX
     credit: sombertwilight
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombertwilight-realm-of-the-dead-sles-54339-20260728.tar.zst
+    sha256: fa40508f6a5b3a43a07a13b7919ed12dcff65e4cc5863da06d076f4a5b0e402e
+    size_bytes: 122395534
+    decompressed_size_bytes: 285614080
+    file_count: 2500
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 3EC12A56C39DB136848242B169F16687FED1C36F06BF55B0F82E6CEAC0060B6A
+      size_bytes: 831390576

@@ -1,0 +1,23 @@
+key: the-warriors-el-jefe-hd-packs
+name: The Warriors
+game:
+  title: The Warriors
+credits:
+- creator: el-jefe-hd-packs
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/fire-the-warriors-el-jefe-edition-hd-remaster.683886/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/e8fe14a7a6
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: Creator links directly to Ko-fi; extensive setup/feature documentation suggests free distribution.

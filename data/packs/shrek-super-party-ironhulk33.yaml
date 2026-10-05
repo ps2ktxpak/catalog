@@ -1,0 +1,23 @@
+key: shrek-super-party-ironhulk33
+name: Shrek Super Party
+game:
+  title: Shrek Super Party
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shrek-super-party-ps2-hd-pack.675937/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/2ym3wu4fedipeho/Shrek_Super_Party.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

@@ -1,0 +1,25 @@
+key: ys-vi-the-ark-of-napishtim-teslax2105
+name: 'Ys VI: The Ark Of Napishtim'
+game:
+  title: 'Ys VI: The Ark Of Napishtim'
+  regions:
+  - NTSC-U
+credits:
+- creator: teslax2105
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ys-vi-the-ark-of-napishtim-usa-ps2-hd-texture-pack.671789/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/kc4iq0zytzootdm/Ys_VI_-_The_Ark_of_Napishtim_PS2_HD_Texture_Pack.rar/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator labeled explicitly as 'Download' in opening post.

@@ -1,0 +1,25 @@
+key: gun-yamijpg
+name: Gun
+game:
+  title: Gun
+  regions:
+  - PAL
+credits:
+- creator: yamijpg
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/gun-sles-53523-hd-texture-pack.683898/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1JZHynyiNc9kpNBMYoMdS1HRH2wCr0t6F/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: 'Creator stated ''LINK: GOOGLE DRIVE'' in opening post; link confirmed in video description.'

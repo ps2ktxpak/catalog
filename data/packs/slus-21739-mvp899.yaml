@@ -30,8 +30,27 @@ media:
   videos:
   - provider: youtube
     id: BTkOLf89dYM
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-iron-man-hd-remaster-community-archive-slus-21739-20260728.tar.zst
+    sha256: 522bbb06c11f39defb8fd30a2a8caf480e5f8c24f4a39514a9e150ee3d5634bb
+    size_bytes: 182987167
+    decompressed_size_bytes: 255344640
+    file_count: 1367
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EBAA7A39FE40B02537E34BAE7EB5BF48F4318D6872A4E97056111B1F6D942867
+      size_bytes: 663804781

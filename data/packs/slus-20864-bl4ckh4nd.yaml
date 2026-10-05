@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/ly9e4y44na1c2zn/The_Punisher.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-the-punisher-slus-20864-20260728.tar.zst
+    sha256: 1bfab48f043b9d814ce7b3c222a37c9d3d396fd67fd29b0d22649ace90e3d8f2
+    size_bytes: 380562737
+    decompressed_size_bytes: 533739520
+    file_count: 7839
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 9731F5314B50CBBFAC250A09B57AFA49F3D7F52E4F6DBCCF4562C7F84CF33AF9
+      size_bytes: 797955900

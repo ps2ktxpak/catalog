@@ -39,8 +39,27 @@ media:
     id: BzvwrHbfV6w
   - provider: youtube
     id: YBdziDsgOhw
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/callofcthuloo-robot-alchemic-drive-slus-20445-20260727.tar.zst
+    sha256: 73e83a7393f436222dc6ee8effeab92a3cf4507262b38bb4767679693564c1c1
+    size_bytes: 770143953
+    decompressed_size_bytes: 2069401600
+    file_count: 18003
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A493838E136CA90C58462F1003F1DFEFF7ED11C683714B123B86F97CE1C27925
+      size_bytes: 4796441182

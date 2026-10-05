@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/5476787-2-png.355639/
     thumb_url: https://gbatemp.net/data/attachments/355/355027-b2da63818ffacd338c9cca85379a6ed3.jpg?hash=stpjgY_6zT
     credit: xxtherockoxx
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/xxtherockoxx-silent-hill-origins-slus-21731-20260726.tar.zst
+    sha256: dd05856c56901dc83ffda2186ed78971e6ba40170b513e06a4fa6ca6566c3bbf
+    size_bytes: 811759608
+    decompressed_size_bytes: 961443840
+    file_count: 5295
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: EAD3FAA3BD8740D3D3BE052DA5B02342CC3E194C9D2737B94BB3F325DEA4FB1A
+      size_bytes: 695900095

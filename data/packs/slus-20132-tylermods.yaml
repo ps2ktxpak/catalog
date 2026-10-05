@@ -38,8 +38,27 @@ media:
   - source_url: https://gbatemp.net/attachments/1722115665524-png.449553/
     thumb_url: https://gbatemp.net/data/attachments/448/448941-cb3051dff8353b6076dd13cd1b0e0787.jpg?hash=yzBR3_g1O2
     credit: tylermods
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tylermods-army-men-sarges-heroes-2-slus-20132-20260726.tar.zst
+    sha256: 89b5bfd78f668ffcf77edc64f095fad42629909fb808d4c34e1f3de0f1a51674
+    size_bytes: 121880839
+    decompressed_size_bytes: 178401280
+    file_count: 1102
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 819819BB108EE844C0E4F2D9CA8AB03E052C50D0C9D805A0940EAEAE917A4E46
+      size_bytes: 359494153

@@ -1,0 +1,25 @@
+key: onimusha-3-demon-siege-teodor-max
+name: 'Onimusha 3: Demon Siege'
+game:
+  title: 'Onimusha 3: Demon Siege'
+  regions:
+  - NTSC-U
+credits:
+- creator: teodor-max
+type: mixed
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/onimusha-3-demon-siege-hd-texture-pack.654352/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/14aS7WGa1acl9d_gutak-9BWLa7yS09_u/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator provided Google Drive link first in opening post's Download section.

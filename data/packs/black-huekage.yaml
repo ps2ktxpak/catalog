@@ -1,0 +1,25 @@
+key: black-huekage
+name: Black
+game:
+  title: Black
+  regions:
+  - multi
+credits:
+- creator: huekage
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-hd-textures-pack-black-slus-21376-usa-sles-53886-pal.683983/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/y8zw7tg98m3t7zb/PS2_HD_Textures_-_Black_%2528SLUS-21376%2529_%2528NTSC%2529_%2526_%2528SLES-53886%2529_%2528PAL%2529.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provides direct MediaFire link in opening post.

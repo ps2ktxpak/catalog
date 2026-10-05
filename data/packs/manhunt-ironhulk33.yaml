@@ -1,0 +1,23 @@
+key: manhunt-ironhulk33
+name: Manhunt
+game:
+  title: Manhunt
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/manhunt-hd-pcsx2-pack.682367/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator provided MediaFire download link in opening post.

@@ -1,0 +1,25 @@
+key: evil-dead-regeneration-c0meg3ts0me
+name: 'Evil Dead: Regeneration'
+game:
+  title: 'Evil Dead: Regeneration'
+  regions:
+  - NTSC-U
+credits:
+- creator: c0meg3ts0me
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/evil-dead-regeneration-ps2-slus-21048-hd-texture-update.661606/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/piVwGKjT#01HM8zrhtv8IgsTmxec6Yx7C5TfOJuOfByEprVYBRVY
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in video comment; not yet confirmed to be the pack itself

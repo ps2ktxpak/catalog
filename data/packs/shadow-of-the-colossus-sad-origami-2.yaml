@@ -1,0 +1,25 @@
+key: shadow-of-the-colossus-sad-origami-2
+name: Shadow of the Colossus
+game:
+  title: Shadow of the Colossus
+  regions:
+  - PAL
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://ko-fi.com/s/0e91535d6d
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/0e91535d6d
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

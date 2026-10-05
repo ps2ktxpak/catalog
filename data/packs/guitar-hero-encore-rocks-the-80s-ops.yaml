@@ -1,0 +1,25 @@
+key: guitar-hero-encore-rocks-the-80s-ops
+name: 'Guitar Hero Encore: Rocks the 80s'
+game:
+  title: 'Guitar Hero Encore: Rocks the 80s'
+  regions:
+  - NTSC-U
+credits:
+- creator: ops
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/guitar-hero-encore-hd-pack-texture.682383/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/e3hx2dft9fd5ghz/SLUS-21586.zip/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

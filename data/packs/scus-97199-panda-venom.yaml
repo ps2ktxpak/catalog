@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-11-20-22-at-04-32-pm-002-jpg.338944/
     thumb_url: https://gbatemp.net/data/attachments/338/338332-9e2a71c0da64035f7acf265ed6f3e311.jpg?hash=nipxwNpkA1
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-ratchet-and-clank-20260722.tar.zst
+    sha256: e2d081ecf5ad770222aca2d3cdc47c6afdec9b26bcb4b99dbb3885431a4dc863
+    size_bytes: 463742480
+    decompressed_size_bytes: 802314240
+    file_count: 13200
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 96C6C765A61F8E41565E027E481A6475ED58FFDB4FAC0BEE720F34B36A310A02
+      size_bytes: 352318047

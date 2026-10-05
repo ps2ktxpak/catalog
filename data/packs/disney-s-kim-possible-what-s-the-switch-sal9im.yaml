@@ -1,0 +1,25 @@
+key: disney-s-kim-possible-what-s-the-switch-sal9im
+name: 'Disney''s Kim Possible: What''s the Switch'
+game:
+  title: 'Disney''s Kim Possible: What''s the Switch'
+  regions:
+  - NTSC-U
+credits:
+- creator: sal9im
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/disney-kim-possible-whats-the-switch-usa-slus-21437-upscaled-texture-pack.663768/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1CCv6zWw85ZdjMKw3h9hkHQjCls8Zf--r/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

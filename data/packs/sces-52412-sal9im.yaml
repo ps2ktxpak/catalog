@@ -49,3 +49,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sal9im-jackie-chan-adventures-sces-52412-20260728.tar.zst
+    sha256: c46705892363356b91e07b31cde8d122fa9dfb387c4f3e1399fd938619ecbb64
+    size_bytes: 170562141
+    decompressed_size_bytes: 407828480
+    file_count: 2684
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 4C5CC19CD3014CDDE64690C861866303470AEC1C42DD44F577FBEABC5C55597A
+      size_bytes: 211688443

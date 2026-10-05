@@ -1,0 +1,25 @@
+key: tekken-5-the-devil-within-majidgaming
+name: 'Tekken 5: The Devil Within'
+game:
+  title: 'Tekken 5: The Devil Within'
+  regions:
+  - NTSC-U
+credits:
+- creator: majidgaming
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tekken-the-devil-within-hd-textures-pack.672669/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/rweoxsalupto7eo
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

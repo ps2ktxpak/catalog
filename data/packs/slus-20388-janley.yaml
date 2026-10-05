@@ -36,8 +36,27 @@ media:
   - source_url: https://gbatemp.net/attachments/koudelka-uprgb-auto_scale-level2-x2-000000-png.343819/
     thumb_url: https://gbatemp.net/data/attachments/343/343207-dd1b9c7e7eef9084ce40249385089415.jpg?hash=3Rucfn7vkI
     credit: janley
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-janley-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-fatal-frame-hd-remaster-community-archive-slus-20388-20260728.tar.zst
+    sha256: f8b7077b4c1c31887bacabe8ebfd86941b71e7d280934c22d934fdab01990492
+    size_bytes: 476412931
+    decompressed_size_bytes: 679659520
+    file_count: 3061
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 83CBDC4958BE8CAE3D6BBC138BA3616916E7D9B48D6AF433B76B5CF686B300C0
+      size_bytes: 441151675

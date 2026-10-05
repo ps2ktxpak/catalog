@@ -36,8 +36,27 @@ media:
   - source_url: https://gbatemp.net/attachments/snimok-ekrana-2025-03-03-054640-png.488800/
     thumb_url: https://gbatemp.net/data/attachments/488/488188-a84a787de0b8b20fc24ff3a6e286d243.jpg?hash=qEp4feC4sg
     credit: mironter
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mironter-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-midnight-club-street-racing-hd-remaster-community-archive-slus-20063-20260728.tar.zst
+    sha256: ab8cd9e9901c293463889e58e335b9791158de71d1d5443b434ca52f7877c274
+    size_bytes: 42831847
+    decompressed_size_bytes: 57241600
+    file_count: 2603
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 0370DDC7EA26BACD64C5133DF1E82B1B4ED261D3B3204D75D694D068CBBF254B
+      size_bytes: 158876912

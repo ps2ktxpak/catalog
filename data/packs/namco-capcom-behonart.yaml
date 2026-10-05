@@ -1,0 +1,25 @@
+key: namco-capcom-behonart
+name: Namco × Capcom
+game:
+  title: Namco × Capcom
+  regions:
+  - NTSC-J
+credits:
+- creator: behonart
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/namco-x-capcom-ps2-hd-texture-pack-wip-full-release-this-month.624236/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/qzlf1ny5gu3bar5/Namco_X_Capcom_HD_Textures_WIP.zip/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

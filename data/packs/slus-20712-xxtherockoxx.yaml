@@ -38,8 +38,27 @@ media:
   videos:
   - provider: youtube
     id: R-CSzyHxMFY
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/xxtherockoxx-gradius-v-slus-20712-20260726.tar.zst
+    sha256: ab8e53717cc78f3c18c70795d98973eb1eca35016102d03076cfe29c88dd2b4b
+    size_bytes: 312974734
+    decompressed_size_bytes: 815247360
+    file_count: 2083
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A323CCF73DB52695BC76649898AB22E0AF6E47F44C67F653EC7F4E55766EEADE
+      size_bytes: 446723642

@@ -1,0 +1,16 @@
+key: return-to-castle-wolfenstein-operation-resurrection-bl4ckh4nd
+name: 'Return to Castle Wolfenstein: Operation Resurrection'
+game:
+  title: 'Return to Castle Wolfenstein: Operation Resurrection'
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

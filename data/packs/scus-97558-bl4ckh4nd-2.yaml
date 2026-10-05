@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file/pjq9f8v23mf1yt4/Jak_The_Lost_Frontier.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-jak-lost-frontier-scus-97558-20260722.tar.zst
+    sha256: 8d5877c19b8de4b4fcdc40af818952c667be376810b1b363f2bb71365f0cefcc
+    size_bytes: 201162285
+    decompressed_size_bytes: 311971840
+    file_count: 1782
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 128C586D33C67C556382A32E0FD846E9E2AB1FBA453C90528C484F7BFAA833F9
+      size_bytes: 424529584

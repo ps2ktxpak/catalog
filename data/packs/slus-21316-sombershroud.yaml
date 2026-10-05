@@ -29,8 +29,27 @@ media:
   - source_url: https://gbatemp.net/attachments/capcom-classics-collection-vol-1_slus-21316_20231230012505-png.410919/
     thumb_url: https://gbatemp.net/data/attachments/410/410307-fb932e8bd1f0ce4e585c525e49a27c54.jpg?hash=-5Mui9Hwzk
     credit: sombershroud
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sombershroud-capcom-classics-collection-vol-1-slus-21316-20260728.tar.zst
+    sha256: 93f035930c5e9686507bfa411fac13fc11b7a5e494058c50d6650ecdf86843a9
+    size_bytes: 16372701
+    decompressed_size_bytes: 66652160
+    file_count: 264
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 8F511440DF76B16D18C2986842D895D3C2C3A16FD2A74085CA29FFEC2FF2C51D
+      size_bytes: 119621395

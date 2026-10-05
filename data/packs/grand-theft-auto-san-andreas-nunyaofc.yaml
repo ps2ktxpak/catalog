@@ -1,0 +1,23 @@
+key: grand-theft-auto-san-andreas-nunyaofc
+name: 'Grand Theft Auto: San Andreas'
+game:
+  title: 'Grand Theft Auto: San Andreas'
+credits:
+- creator: nunyaofc
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/slus-20946-gta-sa-hd-texture-pack.680000/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/fuxwb25ybvgvcbk/replacements.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

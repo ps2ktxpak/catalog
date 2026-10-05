@@ -35,8 +35,27 @@ media:
   videos:
   - provider: youtube
     id: aghiEZEGMm8
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/xxtherockoxx-twisted-metal-black-scus-97101-20260722.tar.zst
+    sha256: 271c8aafbfcd496087a188dd703e0b1098986ef13da7475053c3a4f8224c384f
+    size_bytes: 196844968
+    decompressed_size_bytes: 268564480
+    file_count: 2275
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 9266343D9CDA105390CB61CD91A7250F24912166E0B6E218C6647F66366BE618
+      size_bytes: 145161351

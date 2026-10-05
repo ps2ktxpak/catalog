@@ -23,8 +23,27 @@ media:
   videos:
   - provider: youtube
     id: uidaPZWyd3s
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/andritgames20-scarface-the-world-is-yours-sles-54182-20260728.tar.zst
+    sha256: 6fcce495646602d06f795926f878067e4d1b165f7642169196484ca7f144ac9e
+    size_bytes: 487575463
+    decompressed_size_bytes: 1368872960
+    file_count: 5412
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 0D8C3C6E247F438E42B4E82960BB90943DC703B760FCF68F26C5CD3163A7A0DB
+      size_bytes: 2088314367

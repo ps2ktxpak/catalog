@@ -1,0 +1,16 @@
+key: crash-tag-team-racing-ironhulk33
+name: Crash Tag Team Racing
+game:
+  title: Crash Tag Team Racing
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-texture-packs.661159/post-10502941
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

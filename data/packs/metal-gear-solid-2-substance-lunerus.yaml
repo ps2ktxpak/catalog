@@ -1,0 +1,25 @@
+key: metal-gear-solid-2-substance-lunerus
+name: 'Metal Gear Solid 2: Substance'
+game:
+  title: 'Metal Gear Solid 2: Substance'
+  regions:
+  - NTSC-U
+credits:
+- creator: lunerus
+type: port
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/metal-gear-solid-2-substance-slus-20554-ps3-hd-collection-interface-hud-port.654623/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://github.com/NathanHigley/MGS2-HD-UI/releases
+  host: github
+  kind: page
+  confidence: high
+  note: Creator linked to GitHub releases page where texture pack is distributed.

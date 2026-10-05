@@ -1,0 +1,25 @@
+key: fate-unlimited-codes-cckrizalid
+name: Fate/Unlimited Codes
+game:
+  title: Fate/Unlimited Codes
+  regions:
+  - NTSC-J
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/xB1iDArT#q4qnSMxLL5O9O2icX7S2VigJztU7G9mVOA0phCJ13eo
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Fate - Unlimited Codes, and a follow-up post says it was added.

@@ -1,0 +1,23 @@
+key: x-men-the-official-game-gvngnir
+name: 'X-Men: The Official Game'
+game:
+  title: 'X-Men: The Official Game'
+credits:
+- creator: gvngnir
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/x-men-the-official-game-full-hd-texture-mod-2k-4k-textures.665964/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/fUB1SQCS#3LfPtrhH_SQm6r9kiJgwBheCnAMw6AhYR7kNZRjX2n8
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

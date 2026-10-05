@@ -1,0 +1,25 @@
+key: cold-winter-mvp899
+name: Cold Winter
+game:
+  title: Cold Winter
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/cold-winter-pcsx2-hd-texture.669433/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/KLJy1Zia#DPIlpfIxvfItptcamfKr6Q
+  host: mega
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

@@ -26,3 +26,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ostrichmods-ace-combat-trilogy-hud-1.2.1.tar.zst
+    sha256: e28f81330579edc35f1ac162b80338b6d2aa0f1dfc8b06b9f6199d287af7fbaf
+    size_bytes: 1470618
+    decompressed_size_bytes: 22374400
+    file_count: 57
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 1FB4D7510C62071CB6C3CF3774B3D252A7A8F53DDD784F820B273891E7D3000F
+      size_bytes: 6391233

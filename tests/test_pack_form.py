@@ -9,7 +9,7 @@ import subprocess
 
 import jsonschema
 import pytest
-from test_validate_and_compile import ARCHIVE, CREATOR, LISTING, MATCH, PACK, tree  # noqa: F401  (the fixture)
+from test_validate_and_compile import tree  # noqa: F401  (the fixture)
 
 from ps2ktxpak import validate
 from ps2ktxpak.common import PACKS_DIR, ROOT, SCHEMA_DIR, load_yaml, write_yaml
@@ -86,9 +86,9 @@ def test_a_new_pack_starts_hosted_with_the_creators_approval(tmp_path):
                          "access", "permission", "hosting"]
 
 
-def test_listed_only_is_withheld_and_grants_nothing(tmp_path):
+def test_listed_only_is_listed_and_grants_nothing(tmp_path):
     rec = load(build(with_key(draft(hosting="listed", sources=[])))["yaml"], tmp_path)
-    assert rec["hosting"]["state"] == "withheld" and rec["permission"] == {"kind": "unknown"}
+    assert rec["hosting"] == {"state": "listed"} and "permission" not in rec
     assert "sources" not in rec
     assert build(with_key(draft(hosting="listed", sources=[])))["problems"] == []
 
@@ -97,7 +97,7 @@ def test_a_new_pack_passes_the_validator_as_awaiting_conversion_even_when_paid(t
     r = build(with_key(draft(cost="paid")))
     assert r["problems"] == []
     pack = load(r["yaml"], tmp_path)
-    tree.write(creator={"id": "pankeko", "name": "Pankeko"}, pack=pack, archive=None, listing=None, match=None)
+    tree.write({"id": "pankeko", "name": "Pankeko"}, pack)
     assert validate.run() == 0
     out = capsys.readouterr().out
     assert "WARNING awaiting_conversion: 1" in out
@@ -151,7 +151,7 @@ def test_editing_keeps_what_the_form_does_not_show(tmp_path):
     assert rec["media"]["videos"] == [{"provider": "youtube", "id": "1GXan3ZnYwg", "title": "Trailer"}]
     for untouched in ("catalog_id", "version", "hosting", "permission", "credits", "sources", "game", "name"):
         assert rec[untouched] == base[untouched], untouched
-    assert "access" not in rec  # cost, permission and hosting are for a new pack only
+    assert rec.get("access") == base.get("access")  # cost, permission and hosting are for a new pack only
 
 
 def test_an_edit_keeps_a_pictures_thumbnail_and_review_flags(tmp_path):
@@ -182,11 +182,17 @@ def test_an_edit_of_a_pack_without_credits_is_not_blocked():
 
 
 def test_existing_file_names_follow_the_rule_for_new_ones():
+    """Serial first, then the lead creator; a pack with no serial yet uses its game title instead."""
     packs = [(f.stem, load_yaml(f)) for f in sorted(PACKS_DIR.glob("*.yaml"))]
-    cases = [{"serials": p["game"]["serials"], "lead": (p["credits"][0]["creator"] if p["credits"] else "unknown"), "existing": []} for _, p in packs]
-    got = run("newKey", cases=cases)
-    off = [(k, g) for (k, _), g in zip(packs, got) if not (k == g or k.startswith(g + "-"))]
-    assert off == []
+    lead = lambda p: p["credits"][0]["creator"] if p["credits"] else "unknown"
+    with_serials = [(k, p) for k, p in packs if p["game"].get("serials")]
+    got = run("newKey", cases=[{"serials": p["game"]["serials"], "lead": lead(p), "existing": []} for _, p in with_serials])
+    assert [(k, g) for (k, _), g in zip(with_serials, got) if not (k == g or k.startswith(g + "-"))] == []
+    without = [(k, p) for k, p in packs if not p["game"].get("serials")]
+    assert len(without) > 400 and all(p["hosting"]["state"] == "listed" for _, p in without)
+    slugs = run("slug", names=[p["game"]["title"] for _, p in without])
+    want = [((s or "pack") + "-" + lead(p))[:76].rstrip("-") for (_, p), s in zip(without, slugs)]
+    assert [k for (k, _), w in zip(without, want) if not (k == w or k.startswith(w + "-"))] == []
     assert run("newKey", cases=[{"serials": ["SLUS-20964", "SCES-50001"], "lead": "pankeko", "existing": ["sces-50001-pankeko", "sces-50001-pankeko-2"]},
                                 {"serials": ["SLUS-20964"], "lead": "x" * 70, "existing": []}]) == [
         "sces-50001-pankeko-3", ("slus-20964-" + "x" * 70)[:76]]

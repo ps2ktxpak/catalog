@@ -1,0 +1,21 @@
+key: wwe-smackdown-vs-raw-moataz
+name: WWE SmackDown! vs. Raw
+game:
+  title: WWE SmackDown! vs. Raw
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wwe-smackdown-vs-raw-4k-hd-remasterd-textures.646062/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Creator provided ouo.io shortener, an advert wall service that gates access.

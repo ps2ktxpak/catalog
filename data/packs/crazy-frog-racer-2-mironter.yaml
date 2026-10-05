@@ -1,0 +1,25 @@
+key: crazy-frog-racer-2-mironter
+name: Crazy Frog Racer 2
+game:
+  title: Crazy Frog Racer 2
+  regions:
+  - NTSC-U
+credits:
+- creator: mironter
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/crazy-frog-racer-2-ntsc-pal-hd-texture-pack.670667/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://cloud.mail.ru/public/JVrt/JopaYQCjS
+  host: other
+  kind: unknown
+  confidence: high
+  note: Creator provided Mail.ru cloud download link labeled Download in opening post.

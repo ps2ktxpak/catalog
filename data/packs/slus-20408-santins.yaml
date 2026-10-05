@@ -45,8 +45,27 @@ media:
   - source_url: https://gbatemp.net/attachments/pitfall-the-lost-expedition_slus-20408_20240310123403-png.424980/
     thumb_url: https://gbatemp.net/data/attachments/424/424368-d19c99d0d21311b52f88b4cf0b63732e.jpg?hash=0ZyZ0NITEb
     credit: santins
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-santins-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-pitfall-the-lost-expedition-hd-remaster-community-archive-slus-20408-20260728.tar.zst
+    sha256: 2a629bb555c5b9d433afc5e6ead1f7175c7a85c6adae4c2279f0750be3ef4034
+    size_bytes: 213885539
+    decompressed_size_bytes: 285685760
+    file_count: 1575
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: E0B0FE78AB55D507D518C385D7F855B97B57FDAB000B5B787E9426296ECE0E32
+      size_bytes: 233613737

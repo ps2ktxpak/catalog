@@ -1,0 +1,25 @@
+key: test-drive-unlimited-mironter
+name: Test Drive Unlimited
+game:
+  title: Test Drive Unlimited
+  regions:
+  - multi
+credits:
+- creator: mironter
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/test-drive-unlimited-ntsc-pal-hd-texture-pack.670592/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://cloud.mail.ru/public/pRv5/Jv6AJ9QJd
+  host: other
+  kind: unknown
+  confidence: high
+  note: Creator provided Mail.ru cloud storage link in opening post.

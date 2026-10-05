@@ -1,0 +1,25 @@
+key: ratchet-clank-trippypit
+name: Ratchet & Clank
+game:
+  title: Ratchet & Clank
+  regions:
+  - NTSC-U
+credits:
+- creator: trippypit
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-and-clank-2002.657920/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1ambWzexqMfe3f8BT9LiS0Z4ENC_3E2A1/view?usp=drive_link
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

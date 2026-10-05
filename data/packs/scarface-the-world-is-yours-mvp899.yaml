@@ -1,0 +1,21 @@
+key: scarface-the-world-is-yours-mvp899
+name: 'Scarface: The World is Yours'
+game:
+  title: 'Scarface: The World is Yours'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: port
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/scarface-the-world-is-yours-pc-port-for-pcsx2.655516/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  note: Project appears to be in development with no download link provided.

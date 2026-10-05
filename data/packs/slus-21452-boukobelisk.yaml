@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-boukobelisk-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-valkyrie-profile-2-silmeria-hd-remaster-community-archive-slus-21452-20260728.tar.zst
+    sha256: 2f48d22274822d1c57c5cf53df8447732d250cb9616d083917058faeff3fc62d
+    size_bytes: 1285298604
+    decompressed_size_bytes: 1712599040
+    file_count: 2867
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: CBD733C4278EDD0EB278849E309FDDA388CBACCEBE11530ADE0C6E8DE0B422AC
+      size_bytes: 1128193900

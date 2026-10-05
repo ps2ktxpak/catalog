@@ -1,0 +1,23 @@
+key: shadow-hearts-curse-arms
+name: Shadow Hearts
+game:
+  title: Shadow Hearts
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1Ghg5tg5ojfT66aDardwL4YDXZ-jGpZAK&export=download&authuser=0
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: The 29 GB pack is split into six Google Drive parts in the video description; this is Part1 and the other five parts have their own links.

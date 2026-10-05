@@ -1,0 +1,16 @@
+key: medal-of-honor-frontline-ironhulk33
+name: 'Medal of Honor: Frontline'
+game:
+  title: 'Medal of Honor: Frontline'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/ironhulk33
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

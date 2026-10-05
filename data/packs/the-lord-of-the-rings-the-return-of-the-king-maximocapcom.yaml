@@ -1,0 +1,25 @@
+key: the-lord-of-the-rings-the-return-of-the-king-maximocapcom
+name: 'The Lord of the Rings: The Return of the King'
+game:
+  title: 'The Lord of the Rings: The Return of the King'
+  regions:
+  - PAL
+credits:
+- creator: maximocapcom
+type: mixed
+completeness: partial
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/the-lord-of-the-rings-the-return-of-the-king-texture-pack-only-icons-and-characters.679700/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://archive.org/details/the-lords-of-the-rings-texture-pack
+  host: archive_org
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

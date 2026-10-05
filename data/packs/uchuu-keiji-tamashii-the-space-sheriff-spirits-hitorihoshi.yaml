@@ -1,0 +1,25 @@
+key: uchuu-keiji-tamashii-the-space-sheriff-spirits-hitorihoshi
+name: 'Uchuu Keiji Tamashii: The Space Sheriff Spirits'
+game:
+  title: 'Uchuu Keiji Tamashii: The Space Sheriff Spirits'
+  regions:
+  - NTSC-U
+credits:
+- creator: hitorihoshi
+type: mixed
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/uchuu-keiji-tamashii-the-space-sheriff-spirits-hd-remastered.678197/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1staLx6yPVvJuZbjp70lRqq8hJHW_y8TO/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator provided Google Drive link for PCSX2 version in opening post.

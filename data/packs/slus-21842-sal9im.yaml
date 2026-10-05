@@ -48,8 +48,27 @@ media:
   videos:
   - provider: youtube
     id: cHg9UDjoUr4
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-sal9im-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-dragon-ball-z-infinite-world-hd-remaster-community-archive-slus-21842-20260728.tar.zst
+    sha256: 3a6cd3c287865869df1abda62816d599560a5b547b5fc2b686d03b827d790cae
+    size_bytes: 181675563
+    decompressed_size_bytes: 429486080
+    file_count: 691
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 11B54BBF152CD51D9B65AFC686C6C84745567D5E74B1B5A3FF4493D8419C461F
+      size_bytes: 752320561

@@ -1,0 +1,25 @@
+key: summoner-mvp899
+name: Summoner
+game:
+  title: Summoner
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/summoner-hd-font-reshade.664734/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1rp5vB6aHMwp8UpNprx3TSkhAv-Ws2RcH/view?usp=drive_link
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

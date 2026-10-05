@@ -1,0 +1,25 @@
+key: warriors-orochi-sombertwilight
+name: Warriors Orochi
+game:
+  title: Warriors Orochi
+  regions:
+  - NTSC-U
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/warriors-orochi-1-hd-texture-set-completed-ntsc.646399/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/blhrqmstsm7zznz/SLUS-21662.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

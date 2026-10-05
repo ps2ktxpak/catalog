@@ -20,6 +20,8 @@ sources:
   url: https://www.mediafire.com/file/5vdddm3vpwurcp7/We_Love_Katamari.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -27,3 +29,20 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-we-love-katamari-slus-21230-20260722.tar.zst
+    sha256: e7b8eb04d4223eaed547be5aeefd9682e2ee05ef6ab5fdf57d18e0ba5d6992d1
+    size_bytes: 506486922
+    decompressed_size_bytes: 1092782080
+    file_count: 21316
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D6C2D27F102B6FBBB2052F35C76CED5F911FC7142B6AA13B127216E0B7B8616B
+      size_bytes: 613616966

@@ -1,0 +1,25 @@
+key: midnight-club-street-racing-mvp899
+name: 'Midnight Club: Street Racing'
+game:
+  title: 'Midnight Club: Street Racing'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/midnight-club-street-racing-pcsx2-hd-texture.668214/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/12263q2NKBPq54WgfM1h_le39dZDuflEq/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

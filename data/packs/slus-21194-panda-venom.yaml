@@ -36,8 +36,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-12-08-22-at-03-50-pm-002-jpg.342053/
     thumb_url: https://gbatemp.net/data/attachments/341/341441-a3b457018329274cd96737aa8115ecdf.jpg?hash=o7RXAYMpJ0
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-phantasy-star-universe-20260722.tar.zst
+    sha256: 390a62c93cc0a276c837f95877b60a31985130bcd7226e234d669453b6321003
+    size_bytes: 977843339
+    decompressed_size_bytes: 2014965760
+    file_count: 7068
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 3A86968C13758135766BC83C7C3F6A5A23199D7E1AB4AA234B54D7B87638680A
+      size_bytes: 1794314364

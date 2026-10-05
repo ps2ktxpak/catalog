@@ -1,0 +1,12 @@
+key: okami-sad-origami
+name: Okami
+game:
+  title: Okami
+  regions:
+  - NTSC-U
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: unknown
+hosting:
+  state: listed

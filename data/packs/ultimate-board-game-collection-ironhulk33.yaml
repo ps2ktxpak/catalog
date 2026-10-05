@@ -1,0 +1,16 @@
+key: ultimate-board-game-collection-ironhulk33
+name: Ultimate Board Game Collection
+game:
+  title: Ultimate Board Game Collection
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/ironhulk33
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

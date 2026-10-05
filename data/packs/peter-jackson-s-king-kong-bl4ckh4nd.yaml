@@ -1,0 +1,16 @@
+key: peter-jackson-s-king-kong-bl4ckh4nd
+name: Peter Jackson's King Kong
+game:
+  title: Peter Jackson's King Kong
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

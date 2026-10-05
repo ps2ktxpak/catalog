@@ -32,8 +32,27 @@ media:
     id: aqxK8YQ4Upo
   - provider: youtube
     id: gK2dvu5wDjE
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-dead-to-rights-hd-remaster-community-archive-slus-20220-20260728.tar.zst
+    sha256: e1fd869d20096ccb350423a1888ae5913569fa002d64c808b4a67b3bdf2c4d5a
+    size_bytes: 340651867
+    decompressed_size_bytes: 463226880
+    file_count: 4681
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 9C9454F5D683E482AC0BC8D3DFB4405C97A23E76D63F962DDA52F671BF427914
+      size_bytes: 1140165582

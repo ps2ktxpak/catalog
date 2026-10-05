@@ -36,8 +36,27 @@ media:
   - source_url: https://gbatemp.net/attachments/yakuza-2_slus-21769_20230115163528_-3-jpg.348085/
     thumb_url: https://gbatemp.net/data/attachments/347/347473-8d7fc0be742fe951c9920cfd19c87b65.jpg?hash=jX_AvnQv6V
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-yakuza-2-slus-21769-sles-55242-20260728.tar.zst
+    sha256: 035491317428344afb78b26fe3bee903bb87f82ab5e12ca3cf6f805dd72c8dbd
+    size_bytes: 1637024374
+    decompressed_size_bytes: 2226268160
+    file_count: 12548
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: B43661E0095CEDEDC850A860A99524EA717A2C25ED340F9ECC1F14419BFD4EC1
+      size_bytes: 1706914436

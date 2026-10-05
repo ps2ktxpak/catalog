@@ -30,8 +30,27 @@ media:
   videos:
   - provider: youtube
     id: sA2wuxm0jFM
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-monster-house-hd-remaster-community-archive-slus-21400-20260728.tar.zst
+    sha256: da6be9be6a421d70510cda7b31e45916bac8c97a9c575429a498678af1be0259
+    size_bytes: 89546581
+    decompressed_size_bytes: 133048320
+    file_count: 506
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5293C92E1DD9161BA76F140C4CEE939BDD9477A5558DECEED683C9A91815E442
+      size_bytes: 320220675

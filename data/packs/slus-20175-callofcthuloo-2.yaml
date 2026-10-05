@@ -15,8 +15,27 @@ sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/mobile-suit-gundam-journey-to-jaburo-slus-20175-hd-texture-pack-upscale.679168/
   primary: true
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/callofcthuloo-gundam-journey-to-jaburo-slus-20175-20260727.tar.zst
+    sha256: 01f41b03bd57e50aebe5445c94bb284dea614dd1d2ca24c2823d3e0b267fbeae
+    size_bytes: 320976524
+    decompressed_size_bytes: 672532480
+    file_count: 6964
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5094DB3C04BFF99A51771D49B1F36BAB689C1CFF69DDFD62B9DA50F3D2B55386
+      size_bytes: 1012331530

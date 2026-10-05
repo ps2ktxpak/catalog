@@ -1,0 +1,21 @@
+key: black-johnazeitona
+name: Black
+game:
+  title: Black
+  regions:
+  - NTSC-U
+credits:
+- creator: johnazeitona
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/black-texturas-pack-100-slus-21376.626084/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Creator provided seulink.digital link, which is an advert wall / link shortener.

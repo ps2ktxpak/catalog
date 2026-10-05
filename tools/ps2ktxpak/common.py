@@ -15,10 +15,6 @@ SCHEMA_DIR = ROOT / "schema"
 
 CREATORS_DIR = DATA / "creators"
 PACKS_DIR = DATA / "packs"
-ARCHIVES_DIR = DATA / "archives"
-LISTINGS_FILE = DATA / "listings" / "sad-origami-ps2.jsonl"
-RESOLUTION_DIR = DATA / "resolution"
-MATCHES_FILE = DATA / "links" / "listing-pack.jsonl"
 
 
 # ---- YAML and JSON -------------------------------------------------------------------------------
@@ -57,21 +53,6 @@ def load_json(path: Path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-
-def write_json(path: Path, obj, *, indent=2) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=indent, ensure_ascii=False) + "\n", encoding="utf-8")
-
-
-def read_jsonl(path: Path) -> list[dict]:
-    if not path.exists():
-        return []
-    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
-
-
-def write_jsonl(path: Path, records: list[dict]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), encoding="utf-8")
 
 
 # ---- URLs ----------------------------------------------------------------------------------------

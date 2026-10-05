@@ -30,8 +30,27 @@ media:
   videos:
   - provider: youtube
     id: 2HV2TscqTwE
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-mvp899-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-reservoir-dogs-hd-remaster-community-archive-slus-21479-20260728.tar.zst
+    sha256: 554be5faa7765ee07bd3ef337343be25710913029c91e93fd0848f4db6454803
+    size_bytes: 702923975
+    decompressed_size_bytes: 909649920
+    file_count: 5944
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 46AE6A25F5D0D26FD4E4BDFF91A03B211517FE30E4DBDF245C272A011AB38D7A
+      size_bytes: 594919330

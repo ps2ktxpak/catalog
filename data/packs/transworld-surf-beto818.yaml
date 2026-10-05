@@ -1,0 +1,25 @@
+key: transworld-surf-beto818
+name: TransWorld Surf
+game:
+  title: TransWorld Surf
+  regions:
+  - NTSC-U
+credits:
+- creator: beto818
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/transworld-surf-hd-texture-pack-slus-20356.674089/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/8mxi0d9pht4oub0/Transworld_Surf.7z/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -41,8 +41,27 @@ media:
   - source_url: https://gbatemp.net/attachments/screen-shot-04-12-22-at-04-47-pm-001-jpg.305920/
     thumb_url: https://gbatemp.net/data/attachments/305/305308-ad22a00ec4c4a5540bcb6ca45657e2cf.jpg?hash=rSKgDsTEpV
     credit: panda-venom
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-shin-megami-tensei-nocturne-slus-20911-20260728.tar.zst
+    sha256: 5e3f8c7d1e1adb01664d0b731183ce2db2a4d6e9c3176740032ce91bd48d4604
+    size_bytes: 612446267
+    decompressed_size_bytes: 948377600
+    file_count: 2919
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: A367A504EDEB58368DC6CBF563F38867EA18824F578D33DE86B0F45D4D17C1D7
+      size_bytes: 495596943

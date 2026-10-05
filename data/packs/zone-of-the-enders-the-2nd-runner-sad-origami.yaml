@@ -1,0 +1,25 @@
+key: zone-of-the-enders-the-2nd-runner-sad-origami
+name: 'Zone of the Enders: The 2nd Runner'
+game:
+  title: 'Zone of the Enders: The 2nd Runner'
+  regions:
+  - NTSC-U
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: partial
+sources:
+- kind: creator_page
+  url: https://ko-fi.com/s/c5903cc37f
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://ko-fi.com/s/c5903cc37f
+  host: kofi
+  kind: shop
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -1,0 +1,25 @@
+key: alone-in-the-dark-the-new-nightmare-teodor-max
+name: 'Alone in the Dark: The New Nightmare'
+game:
+  title: 'Alone in the Dark: The New Nightmare'
+  regions:
+  - PAL
+credits:
+- creator: teodor-max
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/alone-in-the-dark-the-new-nightmare-hd-texture-pack.639825/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1b7Kl6069KGSN_eEU8GO4452fKyBXwAHt/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator provided Google Drive as primary download link and MEGA as mirror.

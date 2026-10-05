@@ -75,17 +75,14 @@ export function formatSize(bytes: number): string {
 const yamlDir = (dir: string) =>
   fs.readdirSync(path.join(DATA, dir)).filter((f) => f.endsWith('.yaml')).sort()
     .map((f) => YAML.parse(fs.readFileSync(path.join(DATA, dir, f), 'utf8')));
-const jsonDir = (dir: string) =>
-  fs.readdirSync(path.join(DATA, dir)).filter((f) => f.endsWith('.json')).sort()
-    .map((f) => JSON.parse(fs.readFileSync(path.join(DATA, dir, f), 'utf8')));
-const jsonl = (file: string) =>
-  fs.readFileSync(path.join(DATA, file), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l));
 
 export interface Catalog {
   rows: Row[];
   creators: Map<string, Creator>;
   byCreator: Map<string, Row[]>;
   counts: { hosted: number; awaiting: number; listed: number; creators: number };
+  /** The key of every pack file, whatever its state: a new pack's key must not collide with any of them. */
+  packKeys: string[];
 }
 
 let cached: Catalog | null = null;
@@ -107,52 +104,30 @@ export function loadCatalog(): Catalog {
   }
   const who = (ids: string[]) => ids.filter((i) => creators.has(i)).map((i) => ({ id: i, name: creators.get(i)!.name }));
 
-  const listings = jsonl('listings/sad-origami-ps2.jsonl');
-  const listingById = new Map(listings.map((l) => [l.id, l]));
-  const matches = jsonl('links/listing-pack.jsonl');
-  const matchedListings = new Set(matches.map((m) => m.listing));
-  const archiveNames = new Map<string, Set<string>>();
-  const costsByPack = new Map<string, string[]>();
-  for (const m of matches) {
-    const l = listingById.get(m.listing);
-    if (l) costsByPack.set(m.pack, [...(costsByPack.get(m.pack) ?? []), l.access.cost]);
-    if (l) archiveNames.set(m.pack, new Set([...(archiveNames.get(m.pack) ?? []), ...(l.creators ?? [])]));
-  }
-  const archives = new Map(jsonDir('archives').map((a) => [a.key, a]));
-
+  const packs = yamlDir('packs');
   const rows: Row[] = [];
-  for (const p of yamlDir('packs')) {
-    if (p.hosting?.state !== 'published') continue;
-    const a = archives.get(p.key);
-    const v = a?.versions.find((x: any) => x.revision === a.current);
-    const costs = costsByPack.get(p.key) ?? [];
-    const cost = p.access?.cost ?? (costs.includes('paid') ? 'paid' : 'other');
+  for (const p of packs) {
+    const state = p.hosting?.state;
+    if (state !== 'published' && state !== 'listed') continue;   // a pack that is held back or withdrawn is not on the list
+    const hosted = state === 'published';
     const creds = who((p.credits ?? []).map((c: any) => c.creator));
     const credited = new Set(creds.map((c) => c.id));
-    const archiveOnly = who([...(archiveNames.get(p.key) ?? [])].filter((id) => !credited.has(id)));
+    const listedOnly = who((p.listed_credits ?? []).filter((id: string) => !credited.has(id)));
     const primary = (p.sources ?? []).find((s: any) => s.primary) ?? (p.sources ?? [])[0];
-    const regions = [...new Set((p.game.serials as string[]).map(regionOfSerial).filter(Boolean))] as string[];
+    const serials: string[] = p.game.serials ?? [];
+    const archive = p.archive;
+    const v = archive?.versions.find((x: any) => x.revision === archive.current);
     rows.push({
-      kind: 'hosted', id: p.key, title: p.game.title,
+      kind: hosted ? 'hosted' : 'listed', id: p.key, title: p.game.title,
       packName: p.name && p.name !== p.game.title ? p.name : undefined,
-      serials: p.game.serials, regions, creators: creds,
-      archiveOnly,
-      credit: creds.length === 0 ? 'unknown' : (p.needs_review ?? []).length ? 'review' : 'ok',
+      serials,
+      regions: p.game.regions ?? ([...new Set(serials.map(regionOfSerial).filter(Boolean))] as string[]),
+      creators: creds,
+      archiveOnly: listedOnly,
+      credit: creds.length === 0 ? 'unknown' : hosted && (p.needs_review ?? []).length ? 'review' : 'ok',
       type: p.type ?? 'unknown', completeness: p.completeness ?? 'unknown',
-      sizeBytes: v?.size_bytes, converted: !!a, paid: cost === 'paid',
+      sizeBytes: v?.size_bytes, converted: !!archive, paid: p.access?.cost === 'paid',
       source: primary ? { url: primary.url, label: sourceLabel(primary.url) } : undefined,
-    });
-  }
-  for (const l of listings) {
-    if (matchedListings.has(l.id)) continue;       // already shown as the hosted pack
-    const creds = who(l.creators ?? []);
-    rows.push({
-      kind: 'listed', id: l.id, title: l.title, serials: l.serials ?? [], regions: l.regions ?? [], creators: creds,
-      archiveOnly: [],
-      credit: creds.length === 0 ? 'unknown' : 'ok',
-      type: l.type ?? 'unknown', completeness: l.completeness ?? 'unknown',
-      converted: false, paid: l.access.cost === 'paid',
-      source: l.source_page ? { url: l.source_page, label: sourceLabel(l.source_page) } : undefined,
     });
   }
   rows.sort((a, b) => a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }) || a.kind.localeCompare(b.kind));
@@ -161,7 +136,7 @@ export function loadCatalog(): Catalog {
   for (const r of rows) for (const c of [...r.creators, ...r.archiveOnly]) byCreator.set(c.id, [...(byCreator.get(c.id) ?? []), r]);
 
   cached = {
-    rows, creators, byCreator,
+    rows, creators, byCreator, packKeys: packs.map((p) => p.key),
     counts: {
       hosted: rows.filter((r) => r.kind === 'hosted').length,
       awaiting: rows.filter((r) => r.kind === 'hosted' && !r.converted).length,

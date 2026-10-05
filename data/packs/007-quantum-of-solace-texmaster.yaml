@@ -1,0 +1,22 @@
+key: 007-quantum-of-solace-texmaster
+name: '007: Quantum of Solace'
+game:
+  title: '007: Quantum of Solace'
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/007-quantum-of-solace-ps2-texture-remaster-hd-pack-sles-55345.675365/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: dead
+  confidence: high
+  note: Video description links back to thread; YouTube commenter explicitly states 'download link not working'.

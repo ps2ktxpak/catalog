@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ai-upscaled-hd-texture-pack-created-mortal-kombat-armageddon-hd-v1-5-texture-pack-slus-21410-20260728.tar.zst
+    sha256: f87de4b99e6373bc2223f4570fb3e9a2436ac10b5e0467e5aca70bda042e46b7
+    size_bytes: 591427517
+    decompressed_size_bytes: 843048960
+    file_count: 3800
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: BAB9E9D96A844ED61DB8303F62B34B48B96FA12D1D2F021D8C13C36B64126962
+      size_bytes: 1743479899

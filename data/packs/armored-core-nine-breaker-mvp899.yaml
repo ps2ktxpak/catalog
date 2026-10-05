@@ -1,0 +1,21 @@
+key: armored-core-nine-breaker-mvp899
+name: 'Armored Core: Nine Breaker'
+game:
+  title: 'Armored Core: Nine Breaker'
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/armored-core-nine-breaker-pcsx2-hd-texture.659178/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: paid
+  note: Creator indicates this is a paid download via PayPal.

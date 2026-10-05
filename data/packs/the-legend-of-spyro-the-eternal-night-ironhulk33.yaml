@@ -1,0 +1,17 @@
+key: the-legend-of-spyro-the-eternal-night-ironhulk33
+name: 'The Legend of Spyro: The Eternal Night'
+game:
+  title: 'The Legend of Spyro: The Eternal Night'
+credits:
+- creator: ironhulk33
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/ironhulk33
+  primary: true
+hosting:
+  state: listed
+download:
+  status: paid
+  note: Texture pack is available only through Patreon (paywall).

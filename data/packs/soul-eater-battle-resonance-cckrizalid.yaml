@@ -1,0 +1,25 @@
+key: soul-eater-battle-resonance-cckrizalid
+name: 'Soul Eater: Battle Resonance'
+game:
+  title: 'Soul Eater: Battle Resonance'
+  regions:
+  - NTSC-J
+credits:
+- creator: cckrizalid
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mega-library-of-hd-texture-packs-by-cckrizalid.618690/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/EAcESKZA#t_ewOEiDUC5WdomGhIhpxQLOpSB7phnXkAA3Tqu-spI
+  host: mega
+  kind: file
+  confidence: high
+  note: The creator's opening post lists this Mega file under the heading Soul Eater - Battle Resonance.

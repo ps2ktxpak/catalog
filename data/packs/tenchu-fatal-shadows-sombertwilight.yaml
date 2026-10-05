@@ -1,0 +1,25 @@
+key: tenchu-fatal-shadows-sombertwilight
+name: 'Tenchu: Fatal Shadows'
+game:
+  title: 'Tenchu: Fatal Shadows'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tenchu-fatal-shadows-redux-edition.666757/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/VDtVHRLI#-rrnuOf3RiGlp_xDt2g1cEWQu3x0B1zJ-Gi3nZQVF6w
+  host: mega
+  kind: file
+  confidence: high
+  note: Creator's video description explicitly labels MEGA link as main download pack.

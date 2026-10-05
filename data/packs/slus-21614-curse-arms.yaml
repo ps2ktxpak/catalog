@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-star-wars-the-force-unleashed-hd-remaster-community-archive-slus-21614-20260728.tar.zst
+    sha256: e109e527777df9936a2f8e4542197c4af4c03e07681b21c7d0a224109a6f1c20
+    size_bytes: 389001461
+    decompressed_size_bytes: 555386880
+    file_count: 1779
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 0AAB245C8DF626B81ECD6127D56A2A178303F854425D3FBE2DF5F83570F71459
+      size_bytes: 292878780

@@ -1,0 +1,19 @@
+key: socom-ii-u-s-navy-seals-retrogamemaster
+name: 'SOCOM II: U.S. Navy SEALs'
+game:
+  title: 'SOCOM II: U.S. Navy SEALs'
+credits:
+- creator: retrogamemaster
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/socom-ii-u-s-navy-seals.672304/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  note: Thread shows work-in-progress announcement; no download link provided.

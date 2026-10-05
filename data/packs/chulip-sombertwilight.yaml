@@ -1,0 +1,25 @@
+key: chulip-sombertwilight
+name: Chulip
+game:
+  title: Chulip
+  regions:
+  - NTSC-U
+credits:
+- creator: sombertwilight
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/chulip-ntsc-hd-textures.639567/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/kBciRAxD#TXEQPhtoe0RAH3-nWCDy1DCuV3k2wNVLmL6omcAL5hw
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

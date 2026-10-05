@@ -1,0 +1,23 @@
+key: rogue-galaxy-director-s-cut-curse-arms
+name: Rogue Galaxy Director's Cut
+game:
+  title: Rogue Galaxy Director's Cut
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/u/0/uc?id=1r0d22E_H5EtiMgwfuX6Q9uKOjydPC6E9&export=download
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack

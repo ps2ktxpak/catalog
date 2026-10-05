@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-curse-arms-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ar-tonelico-melody-of-elemia-hd-remaster-community-archive-slus-21445-20260728.tar.zst
+    sha256: cf00657442adc6cb18e75c71bd7ed625290b387b3ea0c59febf63b743b9f63ea
+    size_bytes: 1085931193
+    decompressed_size_bytes: 2621583360
+    file_count: 4807
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: FD1A3F322A47F25F9965577C947DEE630B43BE2E5383C8E3F76C70F7AF005495
+      size_bytes: 911964296

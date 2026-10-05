@@ -1,0 +1,23 @@
+key: samurai-warriors-2-xtreme-legends-empires-i-emu-play
+name: Samurai Warriors 2 + Xtreme Legends + Empires
+game:
+  title: Samurai Warriors 2 + Xtreme Legends + Empires
+credits:
+- creator: i-emu-play
+type: ai_upscale
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/samurai-warriors-2-xtreme-legends-empires-hd-textures.640323/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3BmHPPLTWcSIkbia8
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

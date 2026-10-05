@@ -32,8 +32,27 @@ media:
   videos:
   - provider: youtube
     id: sEdexZoCraA
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/panda-venom-suikoden-v-20260722.tar.zst
+    sha256: 149b56614e8384b44c8b2cce0255aabb0e63a97f562ce38cbcbe78efc13d70ce
+    size_bytes: 579886846
+    decompressed_size_bytes: 1007216640
+    file_count: 7646
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 134F29B175610F7AD0F07273B5F7B7FCF48B0883560AA1952D937D5160CF0E31
+      size_bytes: 751350498

@@ -19,8 +19,27 @@ sources:
   url: https://gbatemp.net/threads/prince-of-persia-warrior-within-hd.622976/
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/xxtherockoxx-prince-of-persia-sands-of-time-slus-20743-20260722.tar.zst
+    sha256: 9d23c5f5f789721c1e93cbcaea7e70d4b88c9711e534949b74e613359421b32b
+    size_bytes: 708538796
+    decompressed_size_bytes: 886364160
+    file_count: 1980
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D93F434D6FD1FAD6516D5499FDE34C5F7986CEEC27FC23CE12610C7CB5FF004A
+      size_bytes: 1174902003

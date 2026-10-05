@@ -1,0 +1,25 @@
+key: flatout-mironter
+name: FlatOut
+game:
+  title: FlatOut
+  regions:
+  - NTSC-U
+credits:
+- creator: mironter
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/flatout-slus-20901-4k-remastered.666664/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://cloud.mail.ru/public/aehj/vmXrBkfr4
+  host: other
+  kind: unknown
+  confidence: medium
+  note: Creator provided Mail.ru cloud link in opening post.

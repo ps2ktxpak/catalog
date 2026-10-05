@@ -37,6 +37,8 @@ media:
   - source_url: https://gbatemp.net/attachments/the-hobbit-the-prelude-to-the-lord-of-the-rings_slus-20655_20240114210332-png.413889/
     thumb_url: https://gbatemp.net/data/attachments/413/413277-27c013432d5142c5b17824cecd57cba2.jpg?hash=J8ATQy1RQs
     credit: evil-is-alone-1992
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -44,3 +46,20 @@ hosting:
   state: published
 needs_review:
 - co_credit_unconfirmed
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/evil-is-alone-the-hobbit-slus-20655-sles-52247-20260726.tar.zst
+    sha256: 0ac433befb12cb1baf662335afcd7037300d4e9ecdf3892485e350e85233a8ee
+    size_bytes: 190130596
+    decompressed_size_bytes: 233666560
+    file_count: 1401
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D603FD850375528CC0B70A0ECA78AEE6D86FEBCA941539843B29E111259F681A
+      size_bytes: 617832786

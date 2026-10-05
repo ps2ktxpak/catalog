@@ -1,0 +1,21 @@
+key: wwe-smackdown-vs-raw-2011-moataz
+name: WWE SmackDown vs. Raw 2011
+game:
+  title: WWE SmackDown vs. Raw 2011
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/wwe-smackdown-vs-raw-2011-hd-remastered-textures.646801/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Creator used ouo.io link shortener for download.

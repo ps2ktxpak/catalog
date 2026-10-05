@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/hd-texture-pack-created-monster-hunter-g-hd-v0-10-texture-pack-slpm-65869-20260728.tar.zst
+    sha256: 4323836662afb118da6d8f381f7f768022f960169c89045ce71efdf6297eefa2
+    size_bytes: 250999323
+    decompressed_size_bytes: 327782400
+    file_count: 730
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: C5706BD68B92DB3B81210651F95385DCBD12AB937B0CD7B988747D1A34B00992
+      size_bytes: 1128212165

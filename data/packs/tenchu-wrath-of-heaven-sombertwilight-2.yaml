@@ -1,0 +1,25 @@
+key: tenchu-wrath-of-heaven-sombertwilight-2
+name: 'Tenchu: Wrath of Heaven'
+game:
+  title: 'Tenchu: Wrath of Heaven'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/tenchu-wrath-of-heaven-hd-texture-revisited-new-update-ntsc.613912/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's opening post explicitly labels V1.7 as primary download for texture pack.

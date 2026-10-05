@@ -29,8 +29,27 @@ media:
     id: wj3b7VHT9UA
   - provider: youtube
     id: Um01Ecxa-UY
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-retrogamemaster-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-ninja-assault-hd-remaster-community-archive-slus-20492-20260728.tar.zst
+    sha256: 658ff82a73b41067e54f6b0312685455c1fe5b8f668903426ba6ee8335684e08
+    size_bytes: 1650503352
+    decompressed_size_bytes: 3592386560
+    file_count: 1196
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 12EEC92F088A549A8F2D827978C53127939DF4AC03B4F0FE5749FC90A64EBB4E
+      size_bytes: 1532015045

@@ -24,3 +24,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-c0meg3ts0me-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-gladiator-sword-of-vengeance-hd-remaster-community-archive-slus-20793-20260728.tar.zst
+    sha256: 235d06414705e86a79532412b3f39123825abf1345d083b19106b7ef1b99909c
+    size_bytes: 227307930
+    decompressed_size_bytes: 307271680
+    file_count: 1306
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: CE203252F37DD4FDE6B07BEA2F41287C162072CF1189003F49360966895084C0
+      size_bytes: 490593335

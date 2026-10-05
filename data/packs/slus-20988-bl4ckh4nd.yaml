@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/rpnrclaya00gmpd/Playboy_Mansion.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-playboy-the-mansion-slus-20988-20260728.tar.zst
+    sha256: 98c1dcde214388a661d478d0b1163c86b27ffb9cde207140583698f42cbfe8c6
+    size_bytes: 45641305
+    decompressed_size_bytes: 64010240
+    file_count: 533
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: BA3FE1ECC374D1F5AD1294809C62421D1DD4281E3886F0FB7A50527234AE2EC8
+      size_bytes: 90504314

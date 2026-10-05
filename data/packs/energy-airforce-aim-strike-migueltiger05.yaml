@@ -1,0 +1,23 @@
+key: energy-airforce-aim-strike-migueltiger05
+name: 'Energy Airforce: Aim Strike!'
+game:
+  title: 'Energy Airforce: Aim Strike!'
+  regions:
+  - PAL
+credits:
+- creator: migueltiger05
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-energy-airforce-aim-strike-pal-completed.681488/
+  primary: true
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/cmay96dlmloddo6/replacements.rar/file
+  host: mediafire
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

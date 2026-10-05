@@ -1,0 +1,20 @@
+key: speed-racer-bmt619
+name: Speed Racer
+game:
+  title: Speed Racer
+credits:
+- creator: bmt619
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/speed-racer-ps2-hd-texture-pack.664665/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: paid
+  confidence: medium
+  note: Ko-fi shop item URL pattern suggests priced/donation-gated access; no free link.

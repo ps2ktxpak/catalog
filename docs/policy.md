@@ -17,8 +17,9 @@ Cost and permission are separate. A free download is not permission to redistrib
 
 A pack submitted through the pack form on the site starts hosted: `hosting.state` is `published` and `permission` is
 `creator_approved`, on the submitter's statement that the creator approves. The statement is a claim, checked in the
-pull request before it is merged. Choosing "Listed only" files the pack as `withheld` with permission unknown. No copy
-exists until the conversion pipeline has made one, so a newly merged pack is published and awaiting conversion.
+pull request before it is merged. Choosing "Listed only" files the pack as `listed`: recorded, not hosted, nothing asked of its
+creator. No copy exists until the conversion pipeline has made one, so a newly merged hosted pack is published and awaiting
+conversion.
 
 A creator can approve a pack that is otherwise paid. The approval and its evidence are written into the
 pack's `permission` field; validation allows a paid pack to be hosted only then.

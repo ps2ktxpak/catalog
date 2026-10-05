@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/faoltmhvnh6o61p/SOCOM_II.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-socom-ii-u-s-navy-seals-scus-97275-20260728.tar.zst
+    sha256: ab5ee17f82b9f77fa3e53b3011a9dc719ad7110add0a26ae796534e71404a7f8
+    size_bytes: 483621725
+    decompressed_size_bytes: 674457600
+    file_count: 3936
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: D59DCEF408A0C93129941E993718206FCBF4724E8914E2D432FDD0DE76F0AE98
+      size_bytes: 539048416

@@ -1,0 +1,22 @@
+key: evil-dead-regeneration-el-jefe-hd-packs
+name: 'Evil Dead: Regeneration'
+game:
+  title: 'Evil Dead: Regeneration'
+  regions:
+  - NTSC-U
+credits:
+- creator: el-jefe-hd-packs
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/evil-dead-regeneration-remaster.682101/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: paid
+  confidence: high
+  note: Creator links to Ko-fi shop items for downloads, indicating paid/premium access.

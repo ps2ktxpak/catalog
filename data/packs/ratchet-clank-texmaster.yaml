@@ -1,0 +1,22 @@
+key: ratchet-clank-texmaster
+name: Ratchet & Clank
+game:
+  title: Ratchet & Clank
+  regions:
+  - PAL
+credits:
+- creator: texmaster
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ratchet-clank-texture-pack-hd.661561/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: gated
+  confidence: high
+  note: Download link uses ouo.io advert wall; actual destination obscured by gating.

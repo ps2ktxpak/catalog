@@ -1,0 +1,16 @@
+key: ape-escape-2-bl4ckh4nd
+name: Ape Escape 2
+game:
+  title: Ape Escape 2
+credits:
+- creator: bl4ckh4nd
+type: ai_upscale
+completeness: complete
+sources:
+- kind: creator_page
+  url: https://www.patreon.com/Bl4ckH4nd
+  primary: true
+access:
+  cost: paid
+hosting:
+  state: listed

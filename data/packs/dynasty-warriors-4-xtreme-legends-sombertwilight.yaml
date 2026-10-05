@@ -1,0 +1,25 @@
+key: dynasty-warriors-4-xtreme-legends-sombertwilight
+name: 'Dynasty Warriors 4: Xtreme Legends'
+game:
+  title: 'Dynasty Warriors 4: Xtreme Legends'
+  regions:
+  - NTSC-U
+credits:
+- creator: sombertwilight
+type: unknown
+completeness: incomplete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dynasty-warriors-4-xl-hd-texture.645708/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file/bczawu96p2a3rlx/SLUS-20812.7z/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: Creator's explicit main 'DOWNLOAD' link for the texture pack.

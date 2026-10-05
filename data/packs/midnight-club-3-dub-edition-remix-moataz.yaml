@@ -1,0 +1,21 @@
+key: midnight-club-3-dub-edition-remix-moataz
+name: 'Midnight Club 3: DUB Edition Remix'
+game:
+  title: 'Midnight Club 3: DUB Edition Remix'
+  regions:
+  - NTSC-U
+credits:
+- creator: moataz
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/midnight-club-3-dub-edition-remix-all-game-hd-remastered-textures.658120/
+  primary: true
+access:
+  cost: free_with_ads
+hosting:
+  state: listed
+download:
+  status: gated
+  note: Creator used ouo.io link shortener, an advert wall service that gates access.

@@ -1,0 +1,25 @@
+key: kaan-barbarian-s-blade-bnz94
+name: 'Kaan: Barbarian''s Blade'
+game:
+  title: 'Kaan: Barbarian''s Blade'
+  regions:
+  - PAL
+credits:
+- creator: bnz94
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/kaan-barbarian-blade-hd-texture-demo.658505/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/file/OKwDXDKb#9WpVlrE5OZjbYSPVFQ0yCBjUdp5X9xGw3awPKacHbKM
+  host: mega
+  kind: file
+  confidence: medium
+  note: the only file-host link in op; not yet confirmed to be the pack itself

@@ -1,0 +1,25 @@
+key: guitar-hero-sad-origami
+name: Guitar Hero
+game:
+  title: Guitar Hero
+  regions:
+  - NTSC-U
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-guitar-hero-ntsc-u-slus-21224.673261/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://docs.google.com/spreadsheets/d/1sif8FeRGJRbytK8wFRXgF6Hke9V6GUFs/
+  host: gdrive
+  kind: unknown
+  confidence: medium
+  note: the only file-host link in video description; not yet confirmed to be the pack itself

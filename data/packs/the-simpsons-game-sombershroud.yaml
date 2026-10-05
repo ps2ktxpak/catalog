@@ -1,0 +1,25 @@
+key: the-simpsons-game-sombershroud
+name: The Simpsons Game
+game:
+  title: The Simpsons Game
+  regions:
+  - NTSC-U
+credits:
+- creator: sombershroud
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/pcsx2-hd-texture-upscale-service-free.642547/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file
+  host: mediafire
+  kind: file
+  confidence: high
+  note: The creator's opening-post list gives this MediaFire zip (SLUS-21665) for The Simpsons Game (US).

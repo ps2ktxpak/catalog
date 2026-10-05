@@ -20,3 +20,20 @@ permission:
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/english-texture-replacement-pack-created-dynamite-deka-english-texture-replacement-pack-slpm-62717-20260728.tar.zst
+    sha256: b7f637b879514a9c165d71df7090d144c19d289e8f3bf90945c87604d6a84b98
+    size_bytes: 199662
+    decompressed_size_bytes: 727040
+    file_count: 51
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 5EDA906CE613599E344CD739C9B0021C9B81FB1E559FEC1F79E1D00738DDF47C
+      size_bytes: 626820

@@ -1,0 +1,25 @@
+key: mafia-mvp899
+name: Mafia
+game:
+  title: Mafia
+  regions:
+  - NTSC-U
+credits:
+- creator: mvp899
+type: ai_upscale
+completeness: in_progress
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/mafia-pcsx2-hd-texture.671514/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://mega.nz/folder/tUJkEZBQ#SN2NuhZhb0IXEQmyrFwiyg
+  host: mega
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself

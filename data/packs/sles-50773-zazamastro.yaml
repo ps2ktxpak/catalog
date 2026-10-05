@@ -39,6 +39,8 @@ media:
   - source_url: https://gbatemp.net/attachments/disneys-donald-duck-phantomias-platyrhynchos-kineticus_sles-50773_20260318192252-png.563030/
     thumb_url: https://gbatemp.net/data/attachments/562/562418-8e092eded13091c1a940c7d5196aed4b.jpg?hash=b_FU6IXkby
     credit: zazamastro
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -46,3 +48,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-disney-s-pk-out-of-the-shadows-hd-remaster-community-archive-sles-50773-20260728.tar.zst
+    sha256: 7388823788df07a2471e4c12eb5fddbebd9f80fa972d5fe9d98db3c0bad3b8ec
+    size_bytes: 83539175
+    decompressed_size_bytes: 167915520
+    file_count: 1180
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: F6B10D728A65F60074EDA35DBFB03F1CBE4520DFDA5C44E7A17D726BAF63F7D7
+      size_bytes: 237887881

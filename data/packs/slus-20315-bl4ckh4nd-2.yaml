@@ -19,8 +19,27 @@ sources:
   url: https://www.mediafire.com/file_premium/ly59haevdd34z8q/Spyro_Enter_the_Dragonfly.7z/file
   primary: false
   note: the catalog's original link
+access:
+  cost: paid
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bl4ckh4nd-spyro-enter-the-dragonfly-slus-20315-20260728.tar.zst
+    sha256: 5b2144bff5b6117da7847f93221256523f68430bec2c9fb9a0b72f9ce6938cd4
+    size_bytes: 63975662
+    decompressed_size_bytes: 91883520
+    file_count: 2010
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: FF1640D5BC6997D94830275E1E4B4C50CA6A9B99A06ABCB6510DD13C34748FF4
+      size_bytes: 78207357

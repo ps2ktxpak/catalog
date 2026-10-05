@@ -1,0 +1,25 @@
+key: god-of-war-ii-ewgeha
+name: God of War II
+game:
+  title: God of War II
+  regions:
+  - NTSC-U
+credits:
+- creator: ewgeha
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/god-of-war-2-remastered-project-ps2-4k-texture-pack-ai-enhanced.669146/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.google.com/file/d/1dSszXoKElzZk7KgWj0eq-rCmDS0O_zVo/view?usp=sharing
+  host: gdrive
+  kind: file
+  confidence: high
+  note: Creator (ewgeha) provided Google Drive link in opening post and video description.

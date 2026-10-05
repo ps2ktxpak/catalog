@@ -1,0 +1,23 @@
+key: silent-hill-the-room-curse-arms
+name: 'Silent Hill: The Room'
+game:
+  title: 'Silent Hill: The Room'
+credits:
+- creator: curse-arms
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://drive.usercontent.google.com/download?id=1w6d1jARyzO4b1fYRrrnCHByFC73vH_pP&export=download&authuser=0
+  host: gdrive
+  kind: file
+  confidence: medium
+  note: the only file link in the uploader's video description; not yet confirmed to be the pack

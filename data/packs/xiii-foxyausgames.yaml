@@ -1,0 +1,21 @@
+key: xiii-foxyausgames
+name: XIII
+game:
+  title: XIII
+  regions:
+  - NTSC-U
+credits:
+- creator: foxyausgames
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/ps2-xiii-ntsc-u-slus-20677.664279/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: not_found
+  note: Opening post references download link in video, but no link found in evidence.

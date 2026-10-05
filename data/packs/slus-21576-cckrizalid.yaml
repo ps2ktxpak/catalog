@@ -19,8 +19,27 @@ sources:
   url: https://archive.org/details/pcsx2-hd-texture-packs
   primary: false
   note: the catalog's original link
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
   state: published
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/texture-pack-credited-to-cckrizalid-by-the-curated-pcsx2-hd-texture-project-list-original-archive-filename-rayman-raving-rabbids-hd-remaster-community-archive-slus-21576-20260728.tar.zst
+    sha256: 7ebd2db4ad15197ea1fdb44d0172f9e517e5ea5b3ff9892d334cf54e7fc3f477
+    size_bytes: 206377779
+    decompressed_size_bytes: 330772480
+    file_count: 2546
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: 3BD249D96E578623E8FD9AB66C358FA8640ADDE73D6F63C300DAF3B7BCE49645
+      size_bytes: 300850086

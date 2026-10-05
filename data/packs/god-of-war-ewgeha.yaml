@@ -1,0 +1,25 @@
+key: god-of-war-ewgeha
+name: God of War
+game:
+  title: God of War
+  regions:
+  - NTSC-U
+credits:
+- creator: ewgeha
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/god-of-war-remastered-project-ps2-4k-texture-pack-ai-enhanced.669144/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://disk.yandex.ru/d/3ipL6dszlVh-aA
+  host: other
+  kind: folder
+  confidence: high
+  note: Creator provides direct Yandex.disk link in opening post.

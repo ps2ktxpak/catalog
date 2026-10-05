@@ -1,0 +1,25 @@
+key: arthur-the-invisibles-mironter
+name: Arthur & the Invisibles
+game:
+  title: Arthur & the Invisibles
+  regions:
+  - multi
+credits:
+- creator: mironter
+type: ai_upscale
+completeness: complete
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/arthur-and-the-invisibles-arthur-and-the-minimoys-slus-21305-sles-54420-hd-texture-pack.670125/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://cloud.mail.ru/public/Z2rf/myhv2f5qE
+  host: other
+  kind: unknown
+  confidence: high
+  note: Creator provided Mail.ru cloud link labeled Download in opening post.

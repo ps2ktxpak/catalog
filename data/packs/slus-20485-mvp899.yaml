@@ -30,6 +30,8 @@ media:
   videos:
   - provider: youtube
     id: R0FNJNGaNto
+access:
+  cost: free
 permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
@@ -37,3 +39,20 @@ hosting:
   state: published
 needs_review:
 - credit_assigned_from_listing
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/original-texture-creator-is-not-identified-in-the-public-mirror-preserved-by-the-pcsx2-hd-texture-packs-community-archive-dino-stalker-hd-remaster-community-archive-slus-20485-20260728.tar.zst
+    sha256: 25d47481ab7ce152188ba6e1920d16ef2119e902974d6198ef39b1ade808fbc1
+    size_bytes: 709079970
+    decompressed_size_bytes: 2727782400
+    file_count: 4992
+    converter:
+      tool: kram
+      pipeline: migrate.py (2026-09)
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27
+    source:
+      sha256: CD5867AC5E80EB4D2EE4F3AEF21BC5325EBF675890E7E36014CC9AAD5B02938C
+      size_bytes: 1364746022

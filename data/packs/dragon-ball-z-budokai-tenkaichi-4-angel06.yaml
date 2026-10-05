@@ -1,0 +1,25 @@
+key: dragon-ball-z-budokai-tenkaichi-4-angel06
+name: 'Dragon Ball Z: Budokai Tenkaichi 4'
+game:
+  title: 'Dragon Ball Z: Budokai Tenkaichi 4'
+  regions:
+  - NTSC-U
+credits:
+- creator: angel06
+type: ai_upscale
+completeness: unknown
+sources:
+- kind: forum_thread
+  url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-4-slus-21978-ai-upscaled-texture-pack.672379/
+  primary: true
+access:
+  cost: free
+hosting:
+  state: listed
+download:
+  status: resolved
+  url: https://www.mediafire.com/folder/lzczm9acrx44q/dbz+bt4+texture+pack+hd
+  host: mediafire
+  kind: folder
+  confidence: medium
+  note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
