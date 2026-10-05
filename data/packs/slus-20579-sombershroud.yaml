@@ -9,7 +9,7 @@ credits:
 - creator: sombershroud
 type: ai_upscale
 completeness: complete
-description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
+description: A North American high-resolution replacement pack prepared for current ARMSX2 builds.
 sources:
 - kind: forum_thread
   url: https://gbatemp.net/threads/james-bond-007-nightfire-usa-hd-textures-multiplayer-only.637947/
@@ -52,8 +52,8 @@ provenance:
     source: emucorex-textures-catalog
     date: '2026-10-03'
   description:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
+    source: web-form
+    date: '2026-10-05'
   sources:
     source: emucorex-textures-catalog
     date: '2026-10-03'
@@ -70,3 +70,5 @@ provenance:
     date: '2026-10-03'
     confidence: medium
     note: the pack's own announcement thread
+locked:
+- description
