@@ -21,7 +21,7 @@ read it, because they may.
   which were produced once from the Texture Packs Archive and are now ordinary data. Nothing regenerates
   them, so a hand edit is never undone.
 - The creator and pack forms on the site (`/creators/edit/`, `/packs/edit/`) file a GitHub issue; `.github/workflows/submission.yml`
-  applies it and opens a pull request. Their output has `web-form` provenance, locks the fields it sets, and must keep
+  applies it and opens a pull request. Their output must keep
   round-tripping the files byte for byte (`tests/test_creator_form.py`). The issue body is untrusted input: the workflow
   must never put it inside a command (`tests/test_submission.py` checks), and `submission.mjs` is an allowlist.
 - A new pack from the pack form starts `published` with `permission: creator_approved`

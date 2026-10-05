@@ -1,23 +1,22 @@
 // The creator form's logic, with no DOM so the tests can run it in Node against the real data files.
 //
 // A creator is data/creators/<id>.yaml. The form turns a draft into that file's text in the same style
-// the Python tools write it, so an untouched record round-trips byte for byte and a pull request shows
-// only what changed. Fields a person sets are added to `locked` and given a provenance entry, which is
-// how the importers know not to overwrite them.
+// the repository's files are written in, so an untouched record round-trips byte for byte and a pull request
+// shows only what changed.
 import {
-  SOURCE, githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered, slugify,
+  githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered, slugify,
 } from './form-core.mjs';
 
-export { BRANCH, REPO, SOURCE, dumpYaml, indexNames, nameKey, normalizeUrl, slugify } from './form-core.mjs';
+export { BRANCH, REPO, dumpYaml, indexNames, nameKey, normalizeUrl, slugify } from './form-core.mjs';
 
 export const ID_PATTERN = /^[a-z0-9][a-z0-9_-]{0,47}$/;
 /** Ids that would collide with a route under /creators/. */
 export const RESERVED_IDS = ['edit'];
 
-/** What the form can change, as the paths `locked` and `provenance` use. */
+/** What the form can change, by field path. */
 export const FIELDS = ['name', 'aliases', 'links.page', 'links.distribution', 'links.tip', 'links.socials'];
 
-const ORDER = ['id', 'name', 'aliases', 'links', 'avatar', 'identity', 'status', 'provenance', 'locked'];
+const ORDER = ['id', 'name', 'aliases', 'links', 'avatar', 'identity', 'status'];
 
 // ---- names -----------------------------------------------------------------------------------------
 
@@ -82,7 +81,7 @@ export function cleanDraft(draft) {
 
 // ---- building the record ---------------------------------------------------------------------------
 
-/** The values of the form's fields, by the path `locked` uses. */
+/** The values of the form's fields, by field path. */
 function snapshot(rec) {
   const l = rec?.links ?? {};
   return {
@@ -137,29 +136,18 @@ function setPath(rec, path, value) {
 
 /**
  * The creator record after `set` (values by field path, null clearing one) is applied to `base`, or to a new
- * creator `id` when `base` is null. A field that ends up different is locked and given provenance; a field not
- * in `set` is left as it was. The browser previews a submission with this and the workflow applies it with
- * this, so what is previewed is what is filed.
+ * creator `id` when `base` is null. A field not in `set` is left as it was. The browser previews a submission
+ * with this and the workflow applies it with this, so what is previewed is what is filed.
  */
-export function applyCreator({ base = null, id, set, date }) {
+export function applyCreator({ base = null, id, set }) {
   const rec = base ? structuredClone(base) : { id, status: 'active' };
-  const before = snapshot(base);
   for (const path of FIELDS) if (path in set) setPath(rec, path, set[path]);
-
-  const after = snapshot(rec);
-  for (const path of FIELDS) {
-    if (JSON.stringify(before[path]) === JSON.stringify(after[path])) continue;
-    rec.provenance ??= {};
-    rec.provenance[path] = isEmpty(after[path]) ? { source: SOURCE, date, note: 'cleared' } : { source: SOURCE, date };
-    rec.locked ??= [];
-    if (!rec.locked.includes(path)) rec.locked.push(path);
-  }
   return ordered(rec, ORDER);
 }
 
 /** The record for a draft. `base` is the stored record when editing, null for a new creator. */
-export function buildCreator({ draft, base = null, date }) {
-  return applyCreator({ base, id: cleanDraft(draft).clean.id, set: valuesFromDraft(draft), date });
+export function buildCreator({ draft, base = null }) {
+  return applyCreator({ base, id: cleanDraft(draft).clean.id, set: valuesFromDraft(draft) });
 }
 
 // ---- checking --------------------------------------------------------------------------------------
@@ -168,7 +156,7 @@ export function buildCreator({ draft, base = null, date }) {
  * Everything wrong with a draft, as { field, message, creator? }. `validate` is a compiled JSON Schema
  * validator for schema/creator.schema.json; `creators` is [{ id, name, aliases }] for every stored creator.
  */
-export function check({ draft, base = null, creators, validate, date }) {
+export function check({ draft, base = null, creators, validate }) {
   const { clean, problems } = cleanDraft(draft);
   const out = [...problems];
   if (!clean.name) out.push({ field: 'name', message: 'A name is needed' });
@@ -190,7 +178,7 @@ export function check({ draft, base = null, creators, validate, date }) {
   }
 
   if (!out.length && validate) {
-    const rec = buildCreator({ draft, base, date });
+    const rec = buildCreator({ draft, base });
     if (!validate(rec)) {
       for (const e of validate.errors ?? []) out.push({ field: e.instancePath || '/', message: `${e.instancePath || 'record'} ${e.message}` });
     }

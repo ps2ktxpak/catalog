@@ -30,13 +30,13 @@ How a change made through the creator or pack form reaches the data files.
 - `new` is present only for a new pack: `cost` (`free`, `free_with_ads`, `paid`, `unknown`) and `hosting`
   (`hosted` or `listed`).
 
-Provenance, locks, permission and hosting state are never read from a submission. The workflow computes them:
-`web-form` provenance and a lock for each field that changed; for a new pack, `published` and `creator_approved` for
-hosted, `withheld` and permission unknown for listed only.
+Permission and hosting state are never read from a submission. For a new pack the workflow sets them: `published`
+and `creator_approved` for hosted, `withheld` and permission unknown for listed only. Who changed what is in git
+history, where the pull request credits the submitter.
 
 ## What is refused
 
-Unknown fields, any field outside the lists above (so permission, hosting, access, legacy, review flags, avatar and
+Unknown fields, any field outside the lists above (so permission, hosting, access, review flags, avatar and
 identity cannot be set), an existing id on create, a missing one on update, ids that do not match their pattern,
 control characters, addresses that are not https or carry a username, a picture naming a stored copy that the pack
 does not already have, a credit for a creator that does not exist, a name or alias that belongs to another creator,

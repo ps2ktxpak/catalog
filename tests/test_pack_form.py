@@ -82,10 +82,8 @@ def test_a_new_pack_starts_hosted_with_the_creators_approval(tmp_path):
     assert rec["description"] == "Everything."
     assert rec["media"] == {"images": [{"source_url": "https://imgur.com/a.png", "alt": "A", "credit": "pankeko"}],
                             "videos": [{"provider": "youtube", "id": "dQw4w9WgXcQ"}]}
-    assert rec["locked"] == ["name", "game", "credits", "type", "completeness", "description", "sources", "media"]
-    assert {"name", "access", "permission", "hosting"} <= set(rec["provenance"])
     assert list(rec) == ["key", "name", "game", "credits", "type", "completeness", "description", "sources", "media",
-                         "access", "permission", "hosting", "provenance", "locked"]
+                         "access", "permission", "hosting"]
 
 
 def test_listed_only_is_withheld_and_grants_nothing(tmp_path):
@@ -139,7 +137,7 @@ def test_a_creator_is_found_by_name_alias_or_case_and_a_stored_id_is_kept(tmp_pa
     assert load(build(d, creators=creators)["yaml"], tmp_path)["credits"] == [{"creator": "ab2"}]
 
 
-def test_editing_keeps_what_the_form_does_not_show_and_locks_what_it_changes(tmp_path):
+def test_editing_keeps_what_the_form_does_not_show(tmp_path):
     text = (PACKS_DIR / "sces-50885-quicksliver1.yaml").read_text(encoding="utf-8")
     base = load_yaml(PACKS_DIR / "sces-50885-quicksliver1.yaml")
     d = run("packDraft", text=text)
@@ -151,11 +149,8 @@ def test_editing_keeps_what_the_form_does_not_show_and_locks_what_it_changes(tmp
     assert not list(SCHEMA_CHECK.iter_errors(rec))
     assert rec["description"] == "A new description."
     assert rec["media"]["videos"] == [{"provider": "youtube", "id": "1GXan3ZnYwg", "title": "Trailer"}]
-    assert rec["locked"] == ["description", "media"]
     for untouched in ("catalog_id", "legacy", "hosting", "permission", "credits", "sources", "game", "name"):
         assert rec[untouched] == base[untouched], untouched
-    assert rec["provenance"]["description"] == {"source": "web-form", "date": DATE}
-    assert rec["provenance"]["credits"] == base["provenance"]["credits"]
     assert "access" not in rec  # cost, permission and hosting are for a new pack only
 
 
@@ -168,16 +163,14 @@ def test_an_edit_keeps_a_pictures_thumbnail_and_review_flags(tmp_path):
     assert rec["media"]["images"][0]["thumb_url"] == base["media"]["images"][0]["thumb_url"]
     assert rec["media"]["images"][0]["alt"] == "Changed"
     assert rec["needs_review"] == base["needs_review"]
-    assert rec["locked"] == ["media"]
 
 
-def test_clearing_a_list_removes_it_and_still_locks_it(tmp_path):
+def test_clearing_a_list_removes_it(tmp_path):
     base = load_yaml(PACKS_DIR / "sces-50885-quicksliver1.yaml")
     d = run("packDraft", text=(PACKS_DIR / "sces-50885-quicksliver1.yaml").read_text(encoding="utf-8"))
     d["videos"] = []
     rec = load(build(d, base=base)["yaml"], tmp_path)
-    assert "media" not in rec and rec["locked"] == ["media"]
-    assert rec["provenance"]["media"] == {"source": "web-form", "date": DATE, "note": "cleared"}
+    assert "media" not in rec
 
 
 def test_an_edit_of_a_pack_without_credits_is_not_blocked():

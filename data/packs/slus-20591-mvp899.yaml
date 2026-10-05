@@ -37,29 +37,3 @@ legacy:
   source_url: https://archive.org/details/pcsx2-hd-texture-packs
   version: Complete public source snapshot
   preview_urls: []
-provenance:
-  name:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  game:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  description:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  sources:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  credits:
-    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
-    date: '2026-10-03'
-    confidence: high
-  permission:
-    source: importer
-    date: '2026-10-03'
-    note: the catalog this pack came from records none
-  media:
-    source: gbatemp-thread-opening-post
-    date: '2026-10-03'
-    confidence: medium
-    note: the pack's own announcement thread

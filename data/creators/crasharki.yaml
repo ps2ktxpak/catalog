@@ -5,15 +5,3 @@ links:
 avatar:
   source_url: https://avatars.githubusercontent.com/u/126416290?s=400&v=4
 status: active
-provenance:
-  name:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-  links.page:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-    confidence: high
-  avatar.source_url:
-    source: texture-pack-links (jpolo1224, from sad-origami-sheet)
-    date: '2026-10-03'
-    confidence: medium

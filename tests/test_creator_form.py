@@ -62,9 +62,7 @@ def test_a_new_creator_loads_and_validates_here(tmp_path):
     assert rec["links"] == {"page": "https://gbatemp.net/members/zoe.1/",
                             "tip": [{"kind": "kofi", "url": "https://ko-fi.com/zoe"}],
                             "socials": [{"kind": "youtube", "url": "https://www.youtube.com/@zoe"}]}
-    assert rec["locked"] == ["name", "aliases", "links.page", "links.tip", "links.socials"]
-    assert rec["provenance"]["name"] == {"source": "web-form", "date": DATE}
-    assert list(rec) == ["id", "name", "aliases", "links", "status", "provenance", "locked"]
+    assert list(rec) == ["id", "name", "aliases", "links", "status"]
 
 
 @pytest.mark.parametrize("name", ["Yes", "no", "On", "off", "null", "~", "1:30", "0x1F", "1e3", "2026-10-03", "y", "123",
@@ -75,7 +73,7 @@ def test_names_a_yaml_1_1_reader_would_misread_come_back_as_the_same_text(name, 
     assert rec["name"] == name and rec["aliases"] == [name + " II"]
 
 
-def test_editing_changes_only_what_was_touched_and_locks_it(tmp_path):
+def test_editing_changes_only_what_was_touched(tmp_path):
     base = load_yaml(CREATORS_DIR / "ewgeha.yaml")
     d = draft(id="ewgeha", name="Ewgeha", page=base["links"]["page"], socials=base["links"]["socials"],
               tip=[{"kind": "kofi", "url": "ko-fi.com/ewgeha"}])
@@ -86,18 +84,14 @@ def test_editing_changes_only_what_was_touched_and_locks_it(tmp_path):
     assert rec["name"] == "Ewgeha" and rec["links"]["tip"] == [{"kind": "kofi", "url": "https://ko-fi.com/ewgeha"}]
     assert rec["links"]["page"] == base["links"]["page"] and rec["links"]["socials"] == base["links"]["socials"]
     assert rec["avatar"] == base["avatar"]
-    assert rec["locked"] == ["name", "links.tip"]
-    assert rec["provenance"]["name"] == {"source": "web-form", "date": DATE}
-    assert rec["provenance"]["links.page"] == base["provenance"]["links.page"]  # untouched fields keep their history
+    assert set(rec) == set(base)  # nothing is added: no bookkeeping about who changed what
 
 
-def test_clearing_a_field_removes_it_and_still_locks_it(tmp_path):
+def test_clearing_a_field_removes_it(tmp_path):
     base = load_yaml(CREATORS_DIR / "ewgeha.yaml")
     r = build(draft(id="ewgeha", name=base["name"], page=base["links"]["page"], socials=[]), base=base)
     rec = load(r["yaml"], tmp_path)
     assert "socials" not in rec["links"]
-    assert rec["locked"] == ["links.socials"]
-    assert rec["provenance"]["links.socials"] == {"source": "web-form", "date": DATE, "note": "cleared"}
 
 
 def test_no_change_is_no_change():

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Creator",
-  "description": "A texture pack artist. One file per creator at data/creators/<id>.yaml. Human-owned: importers fill empty fields but never overwrite a field listed in `locked`.",
+  "description": "A texture pack artist. One file per creator at data/creators/<id>.yaml.",
   "type": "object",
   "required": ["id", "name"],
   "additionalProperties": false,
@@ -55,9 +55,7 @@
         }
       }
     },
-    "status": {"enum": ["active", "withdrawn"], "default": "active"},
-    "provenance": {"$ref": "#/$defs/provenance"},
-    "locked": {"description": "Field paths a human has set; importers must not overwrite them.", "type": "array", "items": {"type": "string"}, "uniqueItems": true}
+    "status": {"enum": ["active", "withdrawn"], "default": "active"}
   },
   "$defs": {
     "url": {"type": "string", "pattern": "^https://[^\\s]+$", "maxLength": 2048},
@@ -67,19 +65,6 @@
       "properties": {
         "kind": {"enum": ["gbatemp", "youtube", "patreon", "kofi", "github", "discord", "x", "bluesky", "facebook", "twitch", "paypal", "buymeacoffee", "mediafire", "website", "other"]},
         "url": {"$ref": "#/$defs/url"}
-      }
-    },
-    "provenance": {
-      "description": "Where each field came from: field path -> origin.",
-      "type": "object",
-      "additionalProperties": {
-        "type": "object", "additionalProperties": false, "required": ["source", "date"],
-        "properties": {
-          "source": {"type": "string", "minLength": 1},
-          "date": {"$ref": "#/$defs/date"},
-          "confidence": {"enum": ["high", "medium", "low"]},
-          "note": {"type": "string"}
-        }
       }
     }
   }

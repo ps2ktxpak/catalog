@@ -125,7 +125,6 @@ const lists = [
   const known: { id: string; name: string; aliases: string[] }[] = JSON.parse($('#pk-creators').textContent!);
   const AjvCtor = (Ajv2020 as any).default ?? Ajv2020;
   const validate = new AjvCtor({ allErrors: true, strict: false }).compile(schema);
-  const date = new Date().toISOString().slice(0, 10);
 
   const out = {
     mode: $('[data-pk-mode]'),
@@ -207,8 +206,8 @@ const lists = [
     const draft = readDraft();
     if (!base && !idTouched) draft.id = field('id').value = newId(draft.name, known.map((c) => c.id));
 
-    const problems = check({ draft, base, creators: known, validate, date });
-    const record = buildCreator({ draft, base, date });
+    const problems = check({ draft, base, creators: known, validate });
+    const record = buildCreator({ draft, base });
     const text = dumpYaml(record);
     const unchanged = !!base && text === baseText;
 

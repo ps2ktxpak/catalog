@@ -18,8 +18,6 @@ against them, then checks the files against each other. This page explains them 
 | `avatar` | `source_url` (where found) and `storage_key` (the stored copy). The image is never in git. |
 | `identity` | `claimed_by` (public GitHub username) and how it was verified. No contact details. |
 | `status` | `active` or `withdrawn`. |
-| `provenance` | For each field: where it came from, when, and how sure. |
-| `locked` | Fields a person set. Importers never overwrite them. |
 
 ## Pack: `data/packs/<key>.yaml` (people edit)
 

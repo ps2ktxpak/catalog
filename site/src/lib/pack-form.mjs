@@ -1,24 +1,24 @@
 // The pack form's logic, with no DOM so the tests can run it in Node against the real data files.
 //
-// A pack is data/packs/<key>.yaml. As with creators, an untouched record round-trips byte for byte, a field
-// a person sets is locked and given provenance, and every list row keeps the stored item it came from
-// (`keep`), so a field the form does not show (a picture's thumbnail, a video's uploader) survives an edit.
+// A pack is data/packs/<key>.yaml. As with creators, an untouched record round-trips byte for byte, and every
+// list row keeps the stored item it came from (`keep`), so a field the form does not show (a picture's
+// thumbnail, a video's uploader) survives an edit.
 //
 // A new pack starts hosted: hosting.state published, permission creator_approved. Until the conversion
 // pipeline has made a copy there is no archive record, so the pack is published and awaiting conversion.
 // "Listed only" files it as withheld instead.
-import { SOURCE, githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered } from './form-core.mjs';
+import { githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered } from './form-core.mjs';
 import { parseSerials, parseYoutubeId } from './vocab.mjs';
 
 export { dumpYaml } from './form-core.mjs';
 
 export const KEY_PATTERN = /^[a-z0-9][a-z0-9-]{2,79}$/;
-/** What the form can change, as the paths `locked` and `provenance` use. */
+/** What the form can change. */
 export const FIELDS = ['name', 'game', 'credits', 'type', 'completeness', 'description', 'sources', 'media'];
 
 // Same order as PACK_ORDER in tools/ps2ktxpak/import_legacy.py.
 const ORDER = ['key', 'catalog_id', 'name', 'game', 'credits', 'type', 'completeness', 'description', 'sources', 'media',
-  'access', 'permission', 'hosting', 'needs_review', 'legacy', 'provenance', 'locked'];
+  'access', 'permission', 'hosting', 'needs_review', 'legacy'];
 
 // ---- keys ------------------------------------------------------------------------------------------
 
@@ -213,36 +213,22 @@ export const newFields = (draft) => ({ cost: draft.cost, hosting: draft.hosting 
 /**
  * The pack record after `set` (values by field, null clearing one) is applied to `base`, or to a new pack
  * `key` when `base` is null, in which case `creating` ({ cost, hosting }) decides its cost, permission and
- * hosting state. A field that ends up different is locked and given provenance; a field not in `set` is
- * left as it was. The browser previews a submission with this and the workflow applies it with this.
+ * hosting state. A field not in `set` is left as it was. The browser previews a submission with this and the
+ * workflow applies it with this.
  *
  * Hosted: published, with permission creator_approved on the submitter's statement. Listed only: withheld,
  * permission unknown.
  */
 export function applyPack({ base = null, key, set, creating = null, date }) {
   const rec = base ? structuredClone(base) : { key };
-  const before = snapshot(base);
   for (const f of FIELDS) {
     if (!(f in set)) continue;
     if (set[f] === null) delete rec[f];
     else rec[f] = set[f];
   }
 
-  const after = snapshot(rec);
-  const note = (path, extra = {}) => {
-    rec.provenance ??= {};
-    rec.provenance[path] = { source: SOURCE, date, ...extra };
-  };
-  for (const path of FIELDS) {
-    if (JSON.stringify(before[path]) === JSON.stringify(after[path])) continue;
-    note(path, isEmpty(after[path]) ? { note: 'cleared' } : {});
-    rec.locked ??= [];
-    if (!rec.locked.includes(path)) rec.locked.push(path);
-  }
-
   if (!base) {
     rec.access = { cost: creating.cost };
-    note('access');
     if (creating.hosting === 'hosted') {
       rec.permission = { kind: 'creator_approved', date, note: 'Approval stated by the submitter on the web form.' };
       rec.hosting = { state: 'published', since: date };
@@ -250,8 +236,6 @@ export function applyPack({ base = null, key, set, creating = null, date }) {
       rec.permission = { kind: 'unknown' };
       rec.hosting = { state: 'withheld', reason: 'Listed only, at the submitter’s request.', since: date };
     }
-    note('permission');
-    note('hosting');
   }
   return ordered(rec, ORDER, ['credits']);
 }

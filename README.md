@@ -27,7 +27,7 @@ The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 (`?id=` or `?key=` to edit one; each creator and hosted pack in the lists has an Edit button). Submitting
 opens a GitHub issue with the change filled in; `.github/workflows/submission.yml` applies it to the data
 files, checks it, and opens a pull request that credits the submitter. Nobody needs git, a fork or write
-access. Fields set through a form are locked and carry `web-form` provenance. A new pack starts hosted (see
+access. A new pack starts hosted (see
 `docs/policy.md`). How a submission is read and what it may change: `docs/submissions.md`.
 
 The logic is in `site/src/lib/` (`creator-form.mjs`, `pack-form.mjs`, `submission.mjs`, shared by the page and

@@ -34,12 +34,12 @@ const ops = {
   roundtrip: ({ texts }) =>
     texts.map((text) => {
       const base = YAML.parse(text);
-      return form.dumpYaml(form.buildCreator({ draft: form.draftFromCreator(base), base, date }));
+      return form.dumpYaml(form.buildCreator({ draft: form.draftFromCreator(base), base }));
     }),
   build: ({ cases }) =>
     cases.map(({ draft, base = null, creators = [] }) => {
-      const problems = form.check({ draft, base, creators, validate, date });
-      const rec = form.buildCreator({ draft, base, date });
+      const problems = form.check({ draft, base, creators, validate });
+      const rec = form.buildCreator({ draft, base });
       return { yaml: form.dumpYaml(rec), problems };
     }),
   packRoundtrip: ({ texts }) => {
@@ -73,7 +73,7 @@ const ops = {
     if (kind === 'creator') {
       const set = form.submissionSet({ draft, base });
       sub = submission.makeSubmission({ kind, op: base ? 'update' : 'create', id: draft.id, set });
-      preview = form.dumpYaml(form.buildCreator({ draft, base, date }));
+      preview = form.dumpYaml(form.buildCreator({ draft, base }));
     } else {
       const set = pack.submissionSet({ draft, creators, base });
       sub = submission.makeSubmission({ kind, op: base ? 'update' : 'create', id: draft.key, set, creating: base ? null : pack.newFields(draft) });

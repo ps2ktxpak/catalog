@@ -5,11 +5,3 @@ aliases:
 links:
   page: https://gbatemp.net/members/headfonehead.631533/
 status: active
-provenance:
-  name:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-  links.page:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-    confidence: high

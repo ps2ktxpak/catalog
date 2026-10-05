@@ -85,7 +85,7 @@ def test_a_new_creator_is_filed_and_written_as_previewed(root):
     assert result == {"ok": True, "kind": "creator", "op": "create", "id": "zoe-test", "path": "data/creators/zoe-test.yaml"}
     assert f["title"] == "Add creator zoe-test"
     rec = load_yaml(root / result["path"])
-    assert rec["locked"] == ["name", "aliases", "links.page", "links.socials"] and rec["provenance"]["name"]["source"] == "web-form"
+    assert list(rec) == ["id", "name", "aliases", "links", "status"]
 
 
 def test_a_creator_edit_files_only_what_changed_and_leaves_the_rest(root):
@@ -95,7 +95,6 @@ def test_a_creator_edit_files_only_what_changed_and_leaves_the_rest(root):
     assert sorted(f["sub"]["set"]) == ["links.socials", "links.tip", "name"]
     rec = load_yaml(root / result["path"])
     assert rec["avatar"] == base["avatar"] and rec["links"]["page"] == base["links"]["page"] and "socials" not in rec["links"]
-    assert rec["locked"] == ["name", "links.tip", "links.socials"]
 
 
 def test_a_new_hosted_pack_and_a_listed_only_pack(root):

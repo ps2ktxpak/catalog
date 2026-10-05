@@ -4,7 +4,6 @@ import YAML from 'yaml';
 
 export const REPO = 'ps2ktxpak/catalog';
 export const BRANCH = 'main';
-export const SOURCE = 'web-form';
 
 const MAX_URL = 2048;
 

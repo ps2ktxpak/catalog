@@ -1,6 +1,6 @@
 // A submission is what the creator and pack forms file as a GitHub issue. It carries only the field values
 // the person changed; the workflow in .github/workflows/submission.yml applies them to the stored file with
-// the same functions the page previews with, and recomputes provenance, locks, permission and hosting itself.
+// the same functions the page previews with, and works out permission and hosting itself.
 // Nothing in a submission is trusted: it is checked against an allowlist of fields and then against the schema.
 import { REPO, dumpYaml, indexNames, nameKey, normalizeUrl } from './form-core.mjs';
 import { FIELDS as CREATOR_FIELDS, ID_PATTERN, RESERVED_IDS, applyCreator } from './creator-form.mjs';
@@ -113,7 +113,7 @@ export function applySubmission(sub, ctx) {
   }
 
   const rec = kind === 'creator'
-    ? applyCreator({ base, id, set: sub.set, date: ctx.date })
+    ? applyCreator({ base, id, set: sub.set })
     : applyPack({ base, key: id, set: sub.set, creating: wantsNew ? sub.new : null, date: ctx.date });
 
   // Shapes are only trusted once the schema has passed them.

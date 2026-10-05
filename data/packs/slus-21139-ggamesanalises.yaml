@@ -27,24 +27,3 @@ legacy:
   source_url: https://www.moddb.com/addons/gun-hd-texture-pack-pcsx2
   version: Complete public source snapshot
   preview_urls: []
-provenance:
-  name:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  game:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  description:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  sources:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-  credits:
-    source: emucorex-textures-catalog
-    date: '2026-10-03'
-    confidence: medium
-  permission:
-    source: importer
-    date: '2026-10-03'
-    note: the catalog this pack came from records none

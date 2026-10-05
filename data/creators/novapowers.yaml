@@ -8,15 +8,3 @@ links:
   - kind: youtube
     url: https://www.youtube.com/NovaPowers
 status: active
-provenance:
-  name:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-  links.page:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-    confidence: high
-  links.socials:
-    source: sad-origami-sheet
-    date: '2026-10-03'
-    confidence: high
