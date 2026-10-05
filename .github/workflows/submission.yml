@@ -86,7 +86,7 @@ jobs:
           printf 'Submitted in #%s by @%s through the %s form.\n\nCloses #%s\n' "$NUMBER" "$LOGIN" "$KIND" "$NUMBER" > "$RUNNER_TEMP/pr.md"
           URL=$(gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file "$RUNNER_TEMP/pr.md")
           gh issue comment "$NUMBER" --body "A pull request was opened: $URL"
-          # A pull request opened with the workflow token does not start the pull request checks, so start them.
+          # The pull request's own checks wait for a maintainer to approve the run, so start the site checks on the branch now.
           gh workflow run site.yml --ref "$BRANCH"
 
       - name: Say why it could not be applied

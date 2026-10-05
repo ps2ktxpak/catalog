@@ -45,8 +45,9 @@ anything the schema rejects, and a body over 64 KB. A refused submission writes 
 ## Limits
 
 GitHub rejects a prefilled issue address of 8192 bytes or more. When a submission does not fit, the form offers
-GitHub's editor instead, with the whole file copied to paste. Pull requests opened with the workflow token do not
-start the pull request checks, so the workflow starts the site checks on the branch itself.
+GitHub's editor instead, with the whole file copied to paste. The checks of a pull request opened by the workflow
+wait for a maintainer to approve the run, so the workflow also starts the site checks on the branch itself and their
+result shows on the pull request.
 
 ## Setup
 
