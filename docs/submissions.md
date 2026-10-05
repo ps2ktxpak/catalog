@@ -29,15 +29,23 @@ How a change made through the creator or pack form reaches the data files.
   Pack: `name`, `game`, `credits`, `type`, `completeness`, `description`, `sources`, `media`.
 - `new` is present only for a new pack: `cost` (`free`, `free_with_ads`, `paid`, `unknown`) and `hosting`
   (`hosted` or `listed`).
+- `permission` is present only for a change to an existing pack: `approve` or `revoke`. It can travel with `set`
+  or stand alone (`"set": {}`).
 
-Permission and hosting state are never read from a submission. For a new pack the workflow sets them: `published`
-and `creator_approved` for hosted; `listed`, with no permission, for listed only. Who changed what is in git
-history, where the pull request credits the submitter.
+Permission and hosting state are never read from `set`. The workflow works them out from two things only:
+- **A new pack:** `published` and `creator_approved` for hosted; `listed`, with no permission, for listed only.
+- **`permission` on an existing pack:** `approve` records `creator_approved` and, if the pack is not hosted,
+  makes it `published`. `revoke` records `revoked` and, if the pack is hosted, makes it `withdrawn`; its archive is
+  kept but no longer served. A pack that is `disputed` is refused: a maintainer decides those.
+
+Both are the submitter's statement about what the creator wants. The pull request title says "hosting approved"
+or "hosting not wanted", and its body asks the reviewer to check that the submitter is the creator before merging.
+Who changed what is in git history, where the pull request credits the submitter.
 
 ## What is refused
 
 Unknown fields, any field outside the lists above (so permission, hosting, access, review flags, avatar and
-identity cannot be set), an existing id on create, a missing one on update, ids that do not match their pattern,
+identity cannot be set through `set`), a `permission` request on anything but an existing pack or on a disputed one, an existing id on create, a missing one on update, ids that do not match their pattern,
 control characters, addresses that are not https or carry a username, a picture naming a stored copy that the pack
 does not already have, a credit for a creator that does not exist, a name or alias that belongs to another creator,
 anything the schema rejects, and a body over 64 KB. A refused submission writes nothing.

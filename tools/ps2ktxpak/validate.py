@@ -89,6 +89,8 @@ def run(strict_policy: bool = False, quiet: bool = False) -> int:
         if sum(1 for s in p.get("sources", []) if s.get("primary")) > 1:
             errors.append(f"packs/{key}: more than one primary source")
         if p.get("hosting", {}).get("state") == "published":
+            if p.get("permission", {}).get("kind") == "revoked":
+                errors.append(f"packs/{key}: published although its creator's permission is revoked")
             if not p.get("game", {}).get("serials"):
                 errors.append(f"packs/{key}: published but has no game serial, so no game can be matched to it")
             a = p.get("archive")

@@ -62,7 +62,7 @@ try {
   const target = path.join(root, out.path);
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, out.text);
-  finish({ ok: true, kind: out.kind, op: out.op, id: out.id, path: out.path }, 0);
+  finish({ ok: true, kind: out.kind, op: out.op, id: out.id, permission: out.permission, path: out.path }, 0);
 } catch (e) {
   finish({ ok: false, errors: (e.errors ?? [`Unexpected error: ${e.message}`]).map(clean) }, 1);
 }

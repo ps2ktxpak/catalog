@@ -103,3 +103,6 @@
 .pk-set[hidden] { display: none; }
 .pk-button[hidden] { display: none; }
 .pk-count .pk-small { margin-left: 0.6rem; vertical-align: middle; }
+
+.pk-radio { display: flex; gap: 0.5rem; align-items: baseline; font-size: var(--sl-text-sm); color: var(--sl-color-gray-2); }
+.pk-radio input:disabled + span { color: var(--sl-color-gray-4); }

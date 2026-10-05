@@ -75,6 +75,7 @@ def test_a_pack_that_is_only_listed_is_not_held_to_the_hosting_policy(tree, caps
     (lambda p, c: p["archive"]["versions"][0].update(sha256="short"), "sha256"),
     (lambda p, c: p["archive"].update(current=2), "current revision 2 is not among"),
     (lambda p, c: p["game"].update(serials=[]), "published but has no game serial"),
+    (lambda p, c: p.update(permission={"kind": "revoked"}), "published although its creator's permission is revoked"),
     (lambda p, c: p.update(surprise=1), "surprise"),
     (lambda p, c: p.update(download={"status": "found"}), "download/status"),
     (lambda p, c: p["sources"].extend([{"kind": "other", "url": "https://a.example/", "primary": True}] * 2) if "sources" in p else p.update(

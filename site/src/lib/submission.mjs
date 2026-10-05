@@ -4,7 +4,7 @@
 // Nothing in a submission is trusted: it is checked against an allowlist of fields and then against the schema.
 import { REPO, dumpYaml, indexNames, nameKey, normalizeUrl } from './form-core.mjs';
 import { FIELDS as CREATOR_FIELDS, ID_PATTERN, RESERVED_IDS, applyCreator } from './creator-form.mjs';
-import { FIELDS as PACK_FIELDS, KEY_PATTERN, applyPack } from './pack-form.mjs';
+import { FIELDS as PACK_FIELDS, KEY_PATTERN, REQUESTS, applyPack } from './pack-form.mjs';
 
 export const TEMPLATE = 'submission.yml';
 export const LABEL = 'submission';
@@ -27,8 +27,8 @@ export const pathFor = (kind, id) => `${dirFor(kind)}/${id}.yaml`;
 
 // ---- filing ----------------------------------------------------------------------------------------
 
-export const makeSubmission = ({ kind, op, id, set, creating = null }) => ({
-  v: 1, kind, op, id, set, ...(creating ? { new: creating } : {}),
+export const makeSubmission = ({ kind, op, id, set, creating = null, permission = null }) => ({
+  v: 1, kind, op, id, set, ...(creating ? { new: creating } : {}), ...(permission ? { permission } : {}),
 });
 
 export const titleFor = (sub) => `${sub.op === 'create' ? 'Add' : 'Edit'} ${sub.kind} ${sub.id}`;
@@ -69,7 +69,7 @@ export function applySubmission(sub, ctx) {
   const errors = [];
   const fail = (m) => errors.push(m);
   if (!isObject(sub)) throw new SubmissionError(['The submission is not an object']);
-  for (const k of Object.keys(sub)) if (!['v', 'kind', 'op', 'id', 'set', 'new'].includes(k)) fail(`Unknown field “${k}”`);
+  for (const k of Object.keys(sub)) if (!['v', 'kind', 'op', 'id', 'set', 'new', 'permission'].includes(k)) fail(`Unknown field “${k}”`);
   if (sub.v !== 1) fail('Unsupported submission version');
   if (!['creator', 'pack'].includes(sub.kind)) fail('The kind is not creator or pack');
   if (!['create', 'update'].includes(sub.op)) fail('The operation is not create or update');
@@ -83,7 +83,11 @@ export function applySubmission(sub, ctx) {
   const fields = kind === 'creator' ? CREATOR_FIELDS : PACK_FIELDS;
   if (!isObject(sub.set)) throw new SubmissionError(['The changes are missing']);
   for (const k of Object.keys(sub.set)) if (!fields.includes(k)) fail(`“${k}” cannot be changed by a submission`);
-  if (Object.keys(sub.set).length === 0) fail('There is nothing to change');
+  if (Object.keys(sub.set).length === 0 && !sub.permission) fail('There is nothing to change');
+  if ('permission' in sub) {
+    if (kind !== 'pack' || op !== 'update') fail('“permission” applies only to a change to an existing pack');
+    else if (!REQUESTS.includes(sub.permission)) fail('“permission” is not approve or revoke');
+  }
 
   const wantsNew = kind === 'pack' && op === 'create';
   if (wantsNew) {
@@ -105,6 +109,8 @@ export function applySubmission(sub, ctx) {
   if (op === 'create' && base) throw new SubmissionError([`${kind} “${id}” already exists`]);
   if (op === 'update' && !base) throw new SubmissionError([`There is no ${kind} “${id}” to change`]);
 
+  if (sub.permission && base?.hosting?.state === 'disputed') throw new SubmissionError(['A disputed pack is decided by a maintainer']);
+
   // An image's stored copy is made by the pipeline; a submission can keep one that exists but not name another.
   if (kind === 'pack') {
     const have = new Set((base?.media?.images ?? []).map((i) => i.storage_key).filter(Boolean));
@@ -114,7 +120,7 @@ export function applySubmission(sub, ctx) {
 
   const rec = kind === 'creator'
     ? applyCreator({ base, id, set: sub.set })
-    : applyPack({ base, key: id, set: sub.set, creating: wantsNew ? sub.new : null, date: ctx.date });
+    : applyPack({ base, key: id, set: sub.set, creating: wantsNew ? sub.new : null, request: sub.permission ?? null, date: ctx.date });
 
   // Shapes are only trusted once the schema has passed them.
   errors.push(...ctx.validate(kind, rec));
@@ -122,6 +128,7 @@ export function applySubmission(sub, ctx) {
 
   const known = new Set(ctx.creators.map((c) => c.id));
   if (kind === 'pack') {
+    if (rec.hosting?.state === 'published' && !(rec.game?.serials ?? []).length) fail('A hosted pack needs at least one game serial, so a game can be matched to it');
     for (const c of rec.credits ?? []) if (!known.has(c.creator)) fail(`credits: no creator “${c.creator}”`);
     for (const i of rec.media?.images ?? []) if (i.credit && !known.has(i.credit)) fail(`pictures: no creator “${i.credit}”`);
     if (wantsNew && (rec.credits ?? []).length === 0) fail('credits: a new pack needs at least one creator');
@@ -135,5 +142,5 @@ export function applySubmission(sub, ctx) {
   }
   if (errors.length) throw new SubmissionError(errors);
 
-  return { path: pathFor(kind, id), kind, op, id, rec, text: dumpYaml(rec) };
+  return { path: pathFor(kind, id), kind, op, id, permission: sub.permission ?? null, rec, text: dumpYaml(rec) };
 }

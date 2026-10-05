@@ -82,7 +82,7 @@ def test_a_new_creator_is_filed_and_written_as_previewed(root):
     d = creator_draft(id="zoe-test", name="Zoë Test", aliases=["ZT"], page="gbatemp.net/members/zoe.1/",
                       socials=[{"kind": "youtube", "url": "youtube.com/@zoe"}])
     f, result = check_matches_preview(root, "creator", d)
-    assert result == {"ok": True, "kind": "creator", "op": "create", "id": "zoe-test", "path": "data/creators/zoe-test.yaml"}
+    assert result == {"ok": True, "kind": "creator", "op": "create", "id": "zoe-test", "permission": None, "path": "data/creators/zoe-test.yaml"}
     assert f["title"] == "Add creator zoe-test"
     rec = load_yaml(root / result["path"])
     assert list(rec) == ["id", "name", "aliases", "links", "status"]
@@ -230,3 +230,81 @@ def test_the_issue_template_has_the_fields_the_forms_fill_in():
     ids = {b["id"]: b for b in t["body"] if "id" in b}
     assert t["labels"] == ["submission"] and set(ids) == {"payload", "who"}
     assert ids["payload"]["attributes"]["render"] == "json" and ids["payload"]["type"] == "textarea" and ids["who"]["validations"]["required"]
+
+
+def request_for(name, request):
+    text = (ROOT / "data" / "packs" / f"{name}.yaml").read_text(encoding="utf-8")
+    d = run("packDraft", text=text) | {"request": request}
+    if request == "approve" and not d["serials"]:
+        d["serials"] = "SLUS-20999"   # a pack that is hosted needs a game serial
+    return d
+
+
+def a_pack(state):
+    return next(f.stem for f in sorted((ROOT / "data" / "packs").glob("*.yaml")) if load_yaml(f)["hosting"]["state"] == state)
+
+
+@pytest.mark.parametrize("state, request_, expect_state, expect_kind", [
+    ("listed", "approve", "published", "creator_approved"),
+    ("published", "approve", "published", "creator_approved"),
+    ("published", "revoke", "withdrawn", "revoked"),
+    ("listed", "revoke", "listed", "revoked"),
+])
+def test_a_permission_request_is_filed_applied_and_flagged(root, state, request_, expect_state, expect_kind):
+    name = a_pack(state)
+    path = f"data/packs/{name}.yaml"
+    f = filed("pack", request_for(name, request_), load_yaml(root / path))
+    assert list(f["sub"]["set"]) == (["game"] if (state, request_) == ("listed", "approve") else [])
+    assert f["sub"]["permission"] == request_ and "new" not in f["sub"]
+    code, result = apply(root, f["body"])
+    assert code == 0 and result["ok"] and result["permission"] == request_
+    assert (root / path).read_text(encoding="utf-8") == f["preview"]
+    rec = load_yaml(root / path)
+    assert rec["hosting"]["state"] == expect_state and rec["permission"]["kind"] == expect_kind
+
+
+def test_a_permission_request_can_travel_with_an_edit(root):
+    name = a_pack("listed")
+    d = request_for(name, "approve")
+    d["description"] = "Now hosted."
+    f = filed("pack", d, load_yaml(root / "data" / "packs" / f"{name}.yaml"))
+    assert sorted(f["sub"]["set"]) == ["description", "game"] and f["sub"]["permission"] == "approve"
+    code, result = apply(root, f["body"])
+    assert code == 0 and load_yaml(root / result["path"])["description"] == "Now hosted."
+
+
+@pytest.mark.parametrize("change, expect", [
+    (lambda s: s.update(permission="grant"), "not approve or revoke"),
+    (lambda s: s.update(permission=True), "not approve or revoke"),
+    (lambda s: s.update(op="create", id="slus-20964-zz-test", set={"name": "x"}, new={"cost": "free", "hosting": "hosted"}), "only to a change to an existing pack"),
+    (lambda s: s.update(kind="creator", id="ewgeha", set={"name": "Ewgeha"}), "only to a change to an existing pack"),
+    (lambda s: s.update(set={}, permission=None), "nothing to change"),
+])
+def test_a_permission_request_is_refused_where_it_does_not_apply(root, change, expect):
+    sub = {"v": 1, "kind": "pack", "op": "update", "id": a_pack("listed"), "set": {}, "permission": "approve"}
+    change(sub)
+    if sub.get("permission") is None:
+        sub.pop("permission", None)
+    refused(root, body(sub), expect)
+
+
+def test_a_disputed_pack_cannot_be_decided_by_a_submission(root):
+    name = a_pack("listed")
+    path = root / "data" / "packs" / f"{name}.yaml"
+    path.write_text(path.read_text(encoding="utf-8").replace("state: listed", "state: disputed"), encoding="utf-8")
+    refused(root, body({"v": 1, "kind": "pack", "op": "update", "id": name, "set": {}, "permission": "approve"}), "disputed")
+
+
+def test_the_workflow_says_what_a_hosting_change_is_and_who_must_check_it():
+    wf = (ROOT / ".github" / "workflows" / "submission.yml").read_text(encoding="utf-8")
+    assert "PERM: ${{ steps.apply.outputs.permission }}" in wf
+    assert "Check the submitter is the creator before merging" in wf and "(hosting approved)" in wf and "(hosting not wanted)" in wf
+
+
+def test_a_submission_cannot_host_a_pack_that_has_no_serial(root):
+    name = a_pack("listed")
+    assert "serials" not in load_yaml(root / "data" / "packs" / f"{name}.yaml")["game"]
+    refused(root, body({"v": 1, "kind": "pack", "op": "update", "id": name, "set": {}, "permission": "approve"}), "needs at least one game serial")
+    game = {**load_yaml(root / "data" / "packs" / f"{name}.yaml")["game"], "serials": ["SLUS-20999"]}
+    code, result = apply(root, body({"v": 1, "kind": "pack", "op": "update", "id": name, "set": {"game": game}, "permission": "approve"}))
+    assert code == 0 and load_yaml(root / result["path"])["hosting"]["state"] == "published"

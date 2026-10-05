@@ -21,6 +21,12 @@ pull request before it is merged. Choosing "Listed only" files the pack as `list
 creator. No copy exists until the conversion pipeline has made one, so a newly merged hosted pack is published and awaiting
 conversion.
 
+The Edit form on any pack has a Hosting section for the creator's decision. It shows where the pack stands and offers two
+statements: the creator approves hosting a copy, or the creator does not want one. Approving records the approval
+and, for a pack that is only listed, hosts it. Declining records that and, for a hosted pack, withdraws it: the archive
+is kept but no longer served. Both are claims by whoever files them, so the pull request says so and the reviewer checks
+that the submitter is the creator before merging.
+
 A creator can approve a pack that is otherwise paid. The approval and its evidence are written into the
 pack's `permission` field; validation allows a paid pack to be hosted only then.
 

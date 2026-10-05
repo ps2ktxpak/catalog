@@ -57,7 +57,7 @@ jobs:
           if node tools/node/apply-submission.mjs --body-file "$RUNNER_TEMP/body.md" --result-file "$RUNNER_TEMP/result.json" 2> "$RUNNER_TEMP/errors.txt"; then
             if ps2ktxpak validate > "$RUNNER_TEMP/validate.txt" 2>&1; then
               echo "ok=true" >> "$GITHUB_OUTPUT"
-              jq -r '"kind=\(.kind)", "op=\(.op)", "id=\(.id)"' "$RUNNER_TEMP/result.json" >> "$GITHUB_OUTPUT"
+              jq -r '"kind=\(.kind)", "op=\(.op)", "id=\(.id)", "permission=\(.permission // "")"' "$RUNNER_TEMP/result.json" >> "$GITHUB_OUTPUT"
             else
               grep -E '^(ERROR|\.\.\.)' "$RUNNER_TEMP/validate.txt" > "$RUNNER_TEMP/errors.txt" || cp "$RUNNER_TEMP/validate.txt" "$RUNNER_TEMP/errors.txt"
               echo "ok=false" >> "$GITHUB_OUTPUT"
@@ -72,18 +72,24 @@ jobs:
           KIND: ${{ steps.apply.outputs.kind }}
           OP: ${{ steps.apply.outputs.op }}
           ID: ${{ steps.apply.outputs.id }}
+          PERM: ${{ steps.apply.outputs.permission }}
         run: |
           set -euo pipefail
           BRANCH="submission/issue-${NUMBER}"
           if [ "$OP" = create ]; then VERB=Add; else VERB=Edit; fi
           TITLE="$VERB $KIND $ID"
+          case "$PERM" in
+            approve) TITLE="$TITLE (hosting approved)"; NOTE="Hosting: the submitter states that the creator approves hosting a copy. Check the submitter is the creator before merging." ;;
+            revoke) TITLE="$TITLE (hosting not wanted)"; NOTE="Hosting: the submitter states that the creator does not want a copy hosted. Check the submitter is the creator before merging." ;;
+            *) NOTE="" ;;
+          esac
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -q -b "$BRANCH"
           git add data
           git commit -q -m "$TITLE" -m "Submitted in #${NUMBER}." --author="${LOGIN} <${USER_ID}+${LOGIN}@users.noreply.github.com>"
           git push -q origin "$BRANCH"
-          printf 'Submitted in #%s by @%s through the %s form.\n\nCloses #%s\n' "$NUMBER" "$LOGIN" "$KIND" "$NUMBER" > "$RUNNER_TEMP/pr.md"
+          { printf 'Submitted in #%s by @%s through the %s form.\n\n' "$NUMBER" "$LOGIN" "$KIND"; [ -n "$NOTE" ] && printf '%s\n\n' "$NOTE"; printf 'Closes #%s\n' "$NUMBER"; } > "$RUNNER_TEMP/pr.md"
           URL=$(gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file "$RUNNER_TEMP/pr.md")
           gh issue comment "$NUMBER" --body "A pull request was opened: $URL"
           # The pull request's own checks wait for a maintainer to approve the run, so start the site checks on the branch now.

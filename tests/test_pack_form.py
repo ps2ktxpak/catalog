@@ -238,3 +238,103 @@ def test_the_new_file_link_carries_the_path_and_the_text_intact():
     u = urlparse(run("packFileUrl", key="slus-20964-pankeko", text=text))
     q = parse_qs(u.query, keep_blank_values=True)
     assert u.path == "/ps2ktxpak/catalog/new/main" and q["filename"] == ["data/packs/slus-20964-pankeko.yaml"] and q["value"] == [text]
+
+
+def stored(name):
+    path = PACKS_DIR / f"{name}.yaml"
+    return path.read_text(encoding="utf-8"), load_yaml(path)
+
+
+def with_request(request, name, mutate=None):
+    text, base = stored(name)
+    if mutate:
+        mutate(base)
+    d = run("packDraft", text=text)
+    d["request"] = request
+    return d, base
+
+
+def first_pack(state, **has):
+    for f in sorted(PACKS_DIR.glob("*.yaml")):
+        p = load_yaml(f)
+        if p["hosting"]["state"] == state and all((k in p) == v for k, v in has.items()):
+            return f.stem
+    raise AssertionError(state)
+
+
+def test_the_creator_approving_a_listed_pack_hosts_it(tmp_path):
+    name = first_pack("listed", permission=False)
+    d, base = with_request("approve", name)
+    d["serials"] = "SLUS-20999"   # a hosted pack needs one
+    r = build(d, base=base)
+    assert r["problems"] == []
+    rec = load(r["yaml"], tmp_path)
+    assert not list(SCHEMA_CHECK.iter_errors(rec))
+    assert rec["hosting"] == {"state": "published", "since": DATE}
+    assert rec["permission"] == {"kind": "creator_approved", "date": DATE, "note": "Approval stated by the submitter on the web form."}
+    assert rec["game"]["title"] == base["game"]["title"] and rec.get("download") == base.get("download")   # nothing else moves
+
+
+def test_the_creator_approving_a_pack_that_is_already_hosted_only_records_it(tmp_path):
+    name = first_pack("published", permission=True)
+    d, base = with_request("approve", name)
+    assert base["permission"]["kind"] == "unknown"
+    rec = load(build(d, base=base)["yaml"], tmp_path)
+    assert rec["permission"]["kind"] == "creator_approved" and rec["hosting"] == base["hosting"] and rec["archive"] == base["archive"]
+
+
+def test_the_creator_declining_a_hosted_pack_withdraws_it_and_keeps_its_archive(tmp_path):
+    name = first_pack("published", permission=True)
+    d, base = with_request("revoke", name)
+    rec = load(build(d, base=base)["yaml"], tmp_path)
+    assert rec["permission"]["kind"] == "revoked" and rec["hosting"] == {"state": "withdrawn", "since": DATE}
+    assert rec["archive"] == base["archive"]
+
+
+def test_the_creator_declining_a_listed_pack_is_recorded_and_it_stays_listed(tmp_path):
+    name = first_pack("listed", permission=False)
+    d, base = with_request("revoke", name)
+    rec = load(build(d, base=base)["yaml"], tmp_path)
+    assert rec["permission"]["kind"] == "revoked" and rec["hosting"] == {"state": "listed"}
+
+
+def test_a_disputed_pack_cannot_be_decided_through_the_form():
+    name = first_pack("listed", permission=False)
+    d, base = with_request("approve", name, lambda b: b["hosting"].update(state="disputed"))
+    assert any("disputed" in p["message"] for p in build(d, base=base)["problems"])
+
+
+def test_a_new_pack_ignores_a_request():
+    """A new pack is hosted or listed by its own choice; a request is for a pack that exists."""
+    d = with_key(draft())
+    plain = build(d)
+    d["request"] = "revoke"
+    assert build(d) == plain
+
+
+def test_the_form_describes_where_a_pack_stands_and_offers_only_choices_that_change_something():
+    got = run("hostingOptions", base={"hosting": {"state": "published"}, "permission": {"kind": "unknown"}})
+    assert got["now"].startswith("Hosted. The creator’s approval is not recorded") and got["canApprove"] and got["canRevoke"]
+    got = run("hostingOptions", base={"hosting": {"state": "published"}, "permission": {"kind": "creator_approved"}})
+    assert not got["canApprove"] and got["canRevoke"] and "recorded" in got["now"]
+    got = run("hostingOptions", base={"hosting": {"state": "listed"}})
+    assert got["now"] == "Listed only. Not hosted." and got["canApprove"] and got["canRevoke"] and "then hosted" in got["approve"]
+    got = run("hostingOptions", base={"hosting": {"state": "listed"}, "permission": {"kind": "revoked"}})
+    assert got["canApprove"] and not got["canRevoke"]
+    got = run("hostingOptions", base={"hosting": {"state": "disputed"}})
+    assert not got["canApprove"] and not got["canRevoke"]
+
+
+def test_approving_a_listed_pack_with_no_serial_needs_a_serial_in_the_same_submission(tmp_path):
+    name = first_pack("listed", permission=False)
+    d, base = with_request("approve", name)
+    assert d["serials"] == ""
+    assert any("serial" in p["message"] for p in build(d, base=base)["problems"])
+    d["serials"] = "SLUS-20999"
+    r = build(d, base=base)
+    assert r["problems"] == []
+    rec = load(r["yaml"], tmp_path)
+    assert rec["game"]["serials"] == ["SLUS-20999"] and rec["hosting"]["state"] == "published"
+    d["request"] = "revoke"
+    d["serials"] = ""
+    assert build(d, base=base)["problems"] == []   # declining needs no serial

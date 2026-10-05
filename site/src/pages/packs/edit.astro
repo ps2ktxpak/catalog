@@ -86,6 +86,15 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
       <button type="button" class="pk-button pk-secondary" data-add="videos">Add a video</button>
     </fieldset>
 
+    <fieldset class="pk-set" data-pk-existing-only hidden>
+      <legend>Hosting</legend>
+      <p class="pk-muted" data-pk-hosting-now></p>
+      <label class="pk-radio"><input type="radio" name="request" value="" checked /> <span>No change to hosting</span></label>
+      <label class="pk-radio"><input type="radio" name="request" value="approve" data-req="approve" /> <span data-req-text="approve"></span></label>
+      <label class="pk-radio"><input type="radio" name="request" value="revoke" data-req="revoke" /> <span data-req-text="revoke"></span></label>
+      <p class="pk-muted">A statement made for the creator is checked in the pull request before it is merged.</p>
+    </fieldset>
+
     <fieldset class="pk-set" data-pk-new-only>
       <legend>Hosting</legend>
       <div class="pk-controls">
@@ -173,7 +182,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
   import schema from '../../../../schema/pack.schema.json';
   import {
     KEY_PATTERN, buildPack, check, cleanDraft, draftFromPack, dumpYaml, editUrl, emptyDraft, emptyNewFileUrl, filePath,
-    newFields, newKey, rawUrl, similarPacks, submissionSet,
+    hostingOptions, newFields, newKey, rawUrl, similarPacks, submissionSet,
   } from '../../lib/pack-form.mjs';
   import { MAX_LINK, issueUrl, makeSubmission } from '../../lib/submission.mjs';
   import { BRANCH } from '../../lib/form-core.mjs';
@@ -249,6 +258,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     d.sources = readRows('sources') as any;
     d.images = readRows('images') as any;
     d.videos = readRows('videos') as any;
+    d.request = document.querySelector<HTMLInputElement>('input[name="request"]:checked')?.value ?? '';
     return d;
   }
 
@@ -293,7 +303,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
 
     const problems = check({ draft, base, creators, validate, date });
     const text = dumpYaml(buildPack({ draft, base, creators, date }));
-    const unchanged = !!base && text === baseText;
+    const unchanged = !!base && text === baseText && !draft.request;
     const blocked = problems.length > 0 || unchanged || !key;
 
     out.path.textContent = key ? filePath(key) : '';
@@ -318,7 +328,7 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
     // The submission is what changed, not the whole file; the workflow rebuilds the file from it.
     const sub = makeSubmission({
       kind: 'pack', op: base ? 'update' : 'create', id: key, set: submissionSet({ draft, creators, base }),
-      creating: base ? null : newFields(draft),
+      creating: base ? null : newFields(draft), permission: base ? draft.request || null : null,
     });
     const url = blocked ? null : issueUrl(sub);
     const fits = !url || url.length <= MAX_LINK;
@@ -335,6 +345,8 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
       step('“Submit new issue” is pressed, and a pull request is opened from it automatically.');
     }
     if (!base) step(clean.hosting === 'hosted' ? 'Hosted: once merged, a copy is made from the sources, with the approval stated here.' : 'Listed only: no copy is made.');
+    if (base && draft.request === 'approve') step('Hosting is recorded as approved by the creator. If the pack was not hosted, a copy is made from the sources once merged.');
+    if (base && draft.request === 'revoke') step('Hosting is recorded as not wanted by the creator. A hosted pack is withdrawn and no longer served once merged.');
   }
 
   // ---- events -----------------------------------------------------------------------------------
@@ -401,6 +413,13 @@ const options = (labels: Record<string, string>) => Object.entries(labels);
         base = YAML.parse(baseText);
         writeDraft(draftFromPack(base, creators));
         $('[data-pk-new-only]').hidden = true;
+        const opts = hostingOptions(base);
+        $('[data-pk-hosting-now]').textContent = opts.now;
+        for (const kind of ['approve', 'revoke'] as const) {
+          $(`[data-req-text="${kind}"]`).textContent = opts[kind];
+          $<HTMLInputElement>(`[data-req="${kind}"]`).disabled = !(kind === 'approve' ? opts.canApprove : opts.canRevoke);
+        }
+        $('[data-pk-existing-only]').hidden = false;
         out.mode.textContent = `Editing ${base.name}, as stored on ${BRANCH}`;
       } catch {
         out.mode.textContent = `No pack “${wanted}” found on ${BRANCH}. New pack.`;

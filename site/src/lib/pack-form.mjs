@@ -42,7 +42,7 @@ export function similarPacks(serials, packs, exceptKey = '') {
 
 export const emptyDraft = () => ({
   key: '', name: '', title: '', serials: '', credits: [], type: 'unknown', completeness: 'unknown', description: '',
-  sources: [], cost: 'free', hosting: 'hosted', images: [], videos: [],
+  sources: [], cost: 'free', hosting: 'hosted', images: [], videos: [], request: '',
 });
 
 /** The editable view of a stored record. `creators`: [{ id, name, aliases }] */
@@ -226,8 +226,12 @@ export const newFields = (draft) => ({ cost: draft.cost, hosting: draft.hosting 
  *
  * Hosted: published, with permission creator_approved on the submitter's statement. Listed only: listed, with
  * no permission, since none was asked for.
+ *
+ * `request` is for an existing pack, and is the one way a submission touches permission: 'approve' records the
+ * creator's approval and, if the pack is not hosted, hosts it; 'revoke' records that the creator does not want
+ * a copy hosted and, if the pack is hosted, withdraws it. Both are statements by the submitter, checked in review.
  */
-export function applyPack({ base = null, key, set, creating = null, date }) {
+export function applyPack({ base = null, key, set, creating = null, request = null, date }) {
   const rec = base ? structuredClone(base) : { key };
   for (const f of FIELDS) {
     if (!(f in set)) continue;
@@ -243,15 +247,47 @@ export function applyPack({ base = null, key, set, creating = null, date }) {
     } else {
       rec.hosting = { state: 'listed' };
     }
+  } else if (request === 'approve') {
+    rec.permission = { kind: 'creator_approved', date, note: 'Approval stated by the submitter on the web form.' };
+    if (rec.hosting?.state !== 'published') rec.hosting = { state: 'published', since: date };
+  } else if (request === 'revoke') {
+    rec.permission = { kind: 'revoked', date, note: 'Withdrawal stated by the submitter on the web form.' };
+    if (rec.hosting?.state === 'published') rec.hosting = { state: 'withdrawn', since: date };
   }
   return ordered(rec, ORDER, ['credits']);
+}
+
+export const REQUESTS = ['approve', 'revoke'];
+
+/**
+ * What the form says about hosting an existing pack, and which requests it offers.
+ * { now: where the pack stands, approve/revoke: the wording of the choice, canApprove/canRevoke: whether it changes anything }
+ */
+export function hostingOptions(base) {
+  const state = base?.hosting?.state;
+  const kind = base?.permission?.kind;
+  const approved = kind === 'creator_approved' || kind === 'creator_uploaded';
+  const hosted = state === 'published';
+  const now = hosted
+    ? approved ? 'Hosted, with the creator’s approval recorded.'
+      : kind === 'revoked' ? 'Hosted, although the creator’s permission is recorded as withdrawn.'
+        : 'Hosted. The creator’s approval is not recorded.'
+    : state === 'listed' ? (kind === 'revoked' ? 'Listed only. The creator has said no copy is to be hosted.' : 'Listed only. Not hosted.')
+      : `Not hosted (${state}).`;
+  return {
+    now,
+    approve: hosted ? 'The creator approves hosting a copy. Recorded as approved.' : 'The creator approves hosting a copy. The pack is then hosted.',
+    revoke: hosted ? 'The creator does not want a copy hosted. The pack is withdrawn and no longer served.' : 'The creator does not want a copy hosted. Recorded; the pack stays as it is.',
+    canApprove: state !== 'disputed' && !(hosted && approved),
+    canRevoke: state !== 'disputed' && (kind !== 'revoked' || hosted),
+  };
 }
 
 /** The record for a draft. `base` is the stored record when editing, null for a new pack. */
 export function buildPack({ draft, base = null, creators, date }) {
   return applyPack({
     base, key: cleanDraft(draft, creators).clean.key, set: valuesFromDraft(draft, creators, base),
-    creating: base ? null : newFields(draft), date,
+    creating: base ? null : newFields(draft), request: base ? draft.request || null : null, date,
   });
 }
 
@@ -269,11 +305,12 @@ export function check({ draft, base = null, creators, validate, date }) {
   need(clean.name, 'name', 'A name is needed');
   need(clean.title, 'title', 'A game title is needed');
   // The app matches a pack to a game by serial, so a hosted pack needs one; a pack that is only listed may not have one yet.
-  const needsSerial = !base || base.hosting?.state === 'published';
+  const needsSerial = !base || base.hosting?.state === 'published' || draft.request === 'approve';
   need(!needsSerial || clean.serials.length > 0 || out.some((p) => p.field === 'serials'), 'serials', 'At least one game serial is needed');
   need(clean.description.length <= 2000, 'description', 'The description is limited to 2000 characters');
   if (clean.sources.filter((s) => s.primary).length > 1) out.push({ field: 'sources', message: 'Only one source can be the main one' });
 
+  if (base && draft.request) need(base.hosting?.state !== 'disputed', 'request', 'A disputed pack is decided by a maintainer');
   if (!base) {
     need(clean.credits.length > 0 || out.some((p) => p.missing), 'credits', 'At least one creator is needed');
     if (clean.hosting === 'hosted') need(clean.sources.length > 0, 'sources', 'Hosting needs a link to the files');

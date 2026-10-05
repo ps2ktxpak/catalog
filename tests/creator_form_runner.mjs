@@ -76,12 +76,13 @@ const ops = {
       preview = form.dumpYaml(form.buildCreator({ draft, base }));
     } else {
       const set = pack.submissionSet({ draft, creators, base });
-      sub = submission.makeSubmission({ kind, op: base ? 'update' : 'create', id: draft.key, set, creating: base ? null : pack.newFields(draft) });
+      sub = submission.makeSubmission({ kind, op: base ? 'update' : 'create', id: draft.key, set, creating: base ? null : pack.newFields(draft), permission: base ? draft.request || null : null });
       preview = pack.dumpYaml(pack.buildPack({ draft, base, creators, date }));
     }
     const body = `### Submission\n\n\`\`\`json\n${JSON.stringify(sub)}\n\`\`\`\n\n### Who is submitting\n\nSomeone\n`;
     return { sub, body, preview, url: submission.issueUrl(sub), title: submission.titleFor(sub) };
   },
+  hostingOptions: ({ base }) => pack.hostingOptions(base),
   packFileUrl: ({ key, text }) => pack.newFileUrl(key, text),
   slug: ({ names }) => names.map((n) => form.slugify(n)),
   nameKey: ({ names }) => names.map((n) => form.nameKey(n)),
