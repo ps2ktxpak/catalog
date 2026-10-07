@@ -71,7 +71,7 @@ def catalog(base_url: str = DEFAULT_BASE) -> dict:
             "name": pack["name"],
             "gameTitle": pack["game"]["title"],
             "serials": pack["game"]["serials"],
-            "version": pack.get("version", ""),
+            "version": pack.get("version") or f"revision {v['revision']}",  # the app drops an entry with none
             "authors": names or [UNKNOWN_CREATOR],
             "credits": "Created by " + ", ".join(names) + "." if names else "Creator not identified.",
             "description": pack.get("description", ""),

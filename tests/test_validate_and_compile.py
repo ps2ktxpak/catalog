@@ -164,6 +164,12 @@ def test_a_creator_with_a_stored_picture_is_shown_by_the_stored_copy(tree):
     assert e["creators"] == [{"name": "Dev One", "avatar": "https://dl.ps2ktxpak.net/avatars/dev1.webp"}]
 
 
+def test_a_pack_with_no_version_gets_one_the_app_accepts(tree):
+    tree.write(CREATOR, PACK)
+    (e,) = C.catalog()["entries"]
+    assert "version" not in PACK and e["version"] == "revision 1"
+
+
 def test_a_pack_nobody_signed_has_no_creators_and_an_unknown_type_is_left_out(tree):
     tree.write(CREATOR, {**PACK, "credits": [], "type": "unknown", "completeness": "unknown"})
     (e,) = C.catalog()["entries"]
@@ -188,7 +194,7 @@ def test_the_compiled_catalog_takes_archive_facts_from_the_packs_and_always_name
         assert e["downloadUrl"] == f"https://dl.ps2ktxpak.net/{v['object']}"
         assert e["authors"] and all(x.strip() for x in e["authors"])   # older apps drop an entry with none
         assert e["sourceUrl"].startswith("https://")
-        assert e["version"] == pack.get("version", "") and e["gameTitle"] == pack["game"]["title"]
+        assert e["version"] == pack["version"] and e["gameTitle"] == pack["game"]["title"]
 
 
 def test_the_compiled_catalog_names_every_creator_it_credits():
