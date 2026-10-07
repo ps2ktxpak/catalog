@@ -1,14 +1,15 @@
 """Compile data/ into the files the app downloads.
 
-  catalog  -> textures.json (schemaVersion 2), what every installed build reads
-  links    -> texture-pack-links.json (schemaVersion 1), a compatibility projection for the builds
-              that read jpolo1224's overlay
+  catalog  -> textures.json (schemaVersion 2), the one file an app reads
+  links    -> texture-pack-links.json (schemaVersion 1), for the builds that still fetch it as a second
+              file; a build that reads the creators out of the catalog does not need it
 
-In the catalog, names come from the pack's credits, the source link from its primary source, and
-permission is stated as it is. Archive facts (hashes, sizes, revision) come from the pack's `archive`
-block, which only the conversion pipeline writes. This is the rollup: of all the pack files it takes the
-hosted ones and puts them in one file. A pack that is published but has no archive yet is left out: there
-is nothing for an app to install."""
+In the catalog, names come from the pack's credits, and permission is stated as it is. The source link is
+the page its lead creator asked to be linked, else the pack's primary source. Each credited creator comes
+with their page, picture, tip and socials links, so an app needs no other file for who made a pack. Archive
+facts (hashes, sizes, revision) come from the pack's `archive` block, which only the conversion pipeline
+writes. This is the rollup: of all the pack files it takes the hosted ones and puts them in one file. A pack
+that is published but has no archive yet is left out: there is nothing for an app to install."""
 from __future__ import annotations
 
 import json
@@ -38,6 +39,20 @@ def _primary(pack: dict) -> str | None:
     return pack["sources"][0]["url"] if pack.get("sources") else None
 
 
+def _creator(c: dict, base_url: str) -> dict:
+    """What an app shows of one creator. A link is left out when the creator has none; the first tip and
+    the first socials link are the ones an app has room for."""
+    links, avatar = c.get("links", {}), c.get("avatar", {})
+    picture = f"{base_url}/{avatar['storage_key']}" if avatar.get("storage_key") else avatar.get("source_url")
+    rec = {"name": c["name"]}
+    for key, value in (("page", links.get("page")), ("avatar", picture),
+                       ("tip", (links.get("tip") or [{}])[0].get("url")),
+                       ("socials", (links.get("socials") or [{}])[0].get("url"))):
+        if value:
+            rec[key] = value
+    return rec
+
+
 def catalog(base_url: str = DEFAULT_BASE) -> dict:
     d = load_all()
     creators = {r["id"]: r for r in d["creators"].values()}
@@ -49,6 +64,8 @@ def catalog(base_url: str = DEFAULT_BASE) -> dict:
             continue
         v = next(x for x in a["versions"] if x["revision"] == a["current"])
         names = _creator_names(pack, creators)
+        credited = [creators[c["creator"]] for c in pack.get("credits", []) if c["creator"] in creators]
+        preferred = credited[0].get("links", {}).get("distribution") if credited else None
         entries.append({
             "id": pack.get("catalog_id") or pack["key"],
             "name": pack["name"],
@@ -63,11 +80,14 @@ def catalog(base_url: str = DEFAULT_BASE) -> dict:
             "format": v["container"],
             "archiveRevision": v["revision"],
             "decompressedSizeBytes": v["decompressed_size_bytes"],
-            "sourceUrl": _primary(pack) or "",
+            "sourceUrl": preferred or _primary(pack) or "",
             "sizeBytes": v["size_bytes"],
             "sha256": v["sha256"],
             "fileCount": v["file_count"],
             "previewUrls": [f"{base_url}/{i['storage_key']}" for i in pack.get("media", {}).get("images", []) if i.get("storage_key")],
+            # Empty when no one has named the creator; `authors` then holds a placeholder for older apps.
+            "creators": [_creator(c, base_url) for c in credited],
+            **{k: pack[k] for k in ("type", "completeness") if pack.get(k, "unknown") != "unknown"},
         })
     return {"schemaVersion": 2, "entries": entries}
 

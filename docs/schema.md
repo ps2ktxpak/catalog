@@ -45,6 +45,23 @@ is only known to exist are all the same kind of file; `hosting.state` says which
 ## The rollup: `ps2ktxpak compile`
 
 `compile catalog` takes the packs that are `published` and have an `archive`, and writes them into one file,
-`textures.json`, which is hosted for the apps. Names come from `credits`, the source link from the primary
-source, the licence text from `permission`, and the hashes and sizes from `archive`. `compile links` writes the
-overlay file older builds read. Nothing else in the pack files reaches an app.
+`textures.json`, which is hosted for the apps. It is the only file an app needs: what to list, who made it,
+where to get it. `schemaVersion` is 2. One entry per pack:
+
+| Entry field | Comes from |
+|---|---|
+| `id` | `catalog_id`, else `key` |
+| `name`, `gameTitle`, `serials`, `version`, `description` | the pack |
+| `authors`, `credits` | the names of the credited creators, and a sentence saying so. With no credit, `authors` is the placeholder `Unknown creator`, because older apps drop an entry with no author. |
+| `creators` | one object per credited creator, lead first: `name`, and when the creator has them `page`, `avatar`, `tip` (their first tip link) and `socials` (their first). **Empty means nobody has named the creator**; an app should say so rather than show the placeholder. |
+| `type`, `completeness` | the pack's, as in the pack file; left out when unknown |
+| `sourceUrl` | the page the lead creator asked to be linked (`links.distribution`), else the pack's primary source |
+| `license` | a sentence for the pack's `permission` |
+| `downloadUrl`, `format`, `archiveRevision`, `decompressedSizeBytes`, `sizeBytes`, `sha256`, `fileCount` | the current revision in `archive` |
+| `previewUrls` | the stored copies of `media.images` |
+
+A field that is new is an addition: an app that does not know it ignores it, which is why the file stays
+at `schemaVersion` 2. Nothing else in the pack files reaches an app.
+
+`compile links` writes `texture-pack-links.json`, the same creator and link facts as a second file, for the
+builds that still download it. A build that reads `creators` from the catalog does not.

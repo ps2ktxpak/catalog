@@ -8,7 +8,8 @@ A plan, not a promise. Order matters more than dates.
 
 - The data model, its schemas and a validator.
 - The Archive's PS2 tab and the 517 inherited packs imported once. The repository is the master copy from here on; nothing is re-imported.
-- A compiler that builds the catalog and the overlay file from the data.
+- A compiler that builds the catalog and the overlay file from the data. The catalog carries each pack's
+  creators (with their links), type and completeness, so an app needs no second file.
 - One YAML file per pack, hosted or not, with a decision for each unhosted pack on where its real download is.
 - The pack list and creator pages as a static site, public on GitHub Pages.
 - MIT license for the repository, data included.
@@ -21,7 +22,8 @@ A plan, not a promise. Order matters more than dates.
    co-credits, unknown creators. Settle the packs that are listed as paid but already hosted.
 2. **Publish the cleaned catalog.** Same file, same shape, correct names and links. Every installed
    build improves with no app update. The overlay file for newer builds is generated from the same data.
-3. **App release reads creators from the catalog itself**, so the overlay file can retire.
+3. **App release reads creators from the catalog itself** (the catalog has them now), so the overlay file
+   can retire once the older builds are gone.
 4. **Bring in more packs.** A bulk handoff from the Archive's maintainer, converted to ASTC by a
    container image that can run anywhere (a Cloudflare container, a rented machine, or a desktop).
    Free packs only.

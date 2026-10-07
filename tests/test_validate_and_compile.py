@@ -130,6 +130,47 @@ def test_the_rollup_takes_only_hosted_packs_with_an_archive_and_always_names_an_
     assert (e["sha256"], e["sizeBytes"], e["fileCount"], e["downloadUrl"]) == ("a" * 64, 10, 3, "https://dl.ps2ktxpak.net/packs/x.tar.zst")
 
 
+def test_the_rollup_carries_each_credited_creator_with_their_links(tree):
+    lead = {"id": "dev2", "name": "Dev Two", "avatar": {"source_url": "https://forum.example/a.jpg"},
+            "links": {"page": "https://forum.example/dev2", "distribution": "https://dev2.example/packs",
+                      "tip": [{"kind": "kofi", "url": "https://ko-fi.com/dev2"}, {"kind": "patreon", "url": "https://patreon.com/dev2"}],
+                      "socials": [{"kind": "youtube", "url": "https://youtube.com/@dev2"}, {"kind": "x", "url": "https://x.com/dev2"}]}}
+    write_yaml(tree.root / "creators" / "dev2.yaml", lead)
+    p = {**PACK, "credits": [{"creator": "dev2"}, {"creator": "dev1"}], "type": "ai_upscale", "completeness": "in_progress",
+         "sources": [{"url": "https://mirror.example/pack", "primary": True}]}
+    tree.write(CREATOR, p)
+    (e,) = C.catalog()["entries"]
+    assert e["authors"] == ["Dev Two", "Dev One"]
+    # Lead first; only what the creator has; the first tip and the first socials link.
+    assert e["creators"] == [
+        {"name": "Dev Two", "page": "https://forum.example/dev2", "avatar": "https://forum.example/a.jpg",
+         "tip": "https://ko-fi.com/dev2", "socials": "https://youtube.com/@dev2"},
+        {"name": "Dev One"}]
+    assert (e["type"], e["completeness"]) == ("ai_upscale", "in_progress")
+    # The lead creator's own page wins over the pack's primary source (a mirror, often).
+    assert e["sourceUrl"] == "https://dev2.example/packs"
+
+
+def test_the_source_link_is_the_primary_source_when_the_lead_creator_asked_for_none(tree):
+    p = {**PACK, "sources": [{"url": "https://other.example/x"}, {"url": "https://forum.example/t/1", "primary": True}]}
+    tree.write(CREATOR, p)
+    (e,) = C.catalog()["entries"]
+    assert e["sourceUrl"] == "https://forum.example/t/1"
+
+
+def test_a_creator_with_a_stored_picture_is_shown_by_the_stored_copy(tree):
+    tree.write({**CREATOR, "avatar": {"source_url": "https://forum.example/a.jpg", "storage_key": "avatars/dev1.webp"}})
+    (e,) = C.catalog()["entries"]
+    assert e["creators"] == [{"name": "Dev One", "avatar": "https://dl.ps2ktxpak.net/avatars/dev1.webp"}]
+
+
+def test_a_pack_nobody_signed_has_no_creators_and_an_unknown_type_is_left_out(tree):
+    tree.write(CREATOR, {**PACK, "credits": [], "type": "unknown", "completeness": "unknown"})
+    (e,) = C.catalog()["entries"]
+    assert e["creators"] == [] and e["authors"] == ["Unknown creator"]
+    assert "type" not in e and "completeness" not in e
+
+
 # ---- against the real data -------------------------------------------------------------------------
 
 def test_the_compiled_catalog_takes_archive_facts_from_the_packs_and_always_names_an_author():
@@ -148,6 +189,20 @@ def test_the_compiled_catalog_takes_archive_facts_from_the_packs_and_always_name
         assert e["authors"] and all(x.strip() for x in e["authors"])   # older apps drop an entry with none
         assert e["sourceUrl"].startswith("https://")
         assert e["version"] == pack.get("version", "") and e["gameTitle"] == pack["game"]["title"]
+
+
+def test_the_compiled_catalog_names_every_creator_it_credits():
+    d = validate.load_all()
+    packs = {(p.get("catalog_id") or p["key"]): p for p in d["packs"].values()}
+    for e in C.catalog()["entries"]:
+        if e["creators"]:
+            assert [c["name"] for c in e["creators"]] == e["authors"]
+        else:
+            assert e["authors"] == ["Unknown creator"] and not packs[e["id"]].get("credits")
+        for c in e["creators"]:
+            assert c["name"].strip() and all(v.startswith("https://") for k, v in c.items() if k != "name")
+        assert e.get("type", "ai_upscale") in {"ai_upscale", "handcrafted", "mixed", "port", "button_replacement"}
+        assert e.get("completeness", "complete") in {"complete", "in_progress", "incomplete", "partial"}
 
 
 def test_every_pack_is_one_file_and_the_listed_ones_carry_no_hosting_facts():
