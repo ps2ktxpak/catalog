@@ -1,0 +1,32 @@
+// The scraper: a Worker that starts and watches SHARDS containers, each running `ps2ktxpak scrape job`
+// on its share of the packs. Secrets (set with `wrangler secret put`, never in this file):
+// R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, MEGA_USERNAME, MEGA_PASSWORD, RUN_TOKEN.
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ps2ktxpak-scraper",
+	"main": "worker.ts",
+	"compatibility_date": "2026-10-01",
+	"observability": { "enabled": true },
+	"workers_dev": true,
+	"containers": [
+		{
+			"class_name": "Scraper",
+			"image": "./Dockerfile",
+			"image_build_context": "..",
+			// 4 vCPU, 12 GiB, 20 GB disk: the largest there is. Disk decides which packs fit.
+			"instance_type": "standard-4",
+			"max_instances": 8
+		}
+	],
+	"durable_objects": { "bindings": [{ "name": "SCRAPER", "class_name": "Scraper" }] },
+	"migrations": [{ "tag": "v1", "new_sqlite_classes": ["Scraper"] }],
+	// Every ten minutes: ask each running shard how it is doing, which also keeps it awake,
+	// and restart one that stopped before it finished.
+	"triggers": { "crons": ["*/10 * * * *"] },
+	"vars": {
+		"SHARDS": "4",
+		"SCRAPE_STORE": "r2:ps2ktxpak-scrape",
+		// Leaves room for the extracted files and the converted copy in 20 GB.
+		"SCRAPE_MAX_SOURCE_GB": "6"
+	}
+}

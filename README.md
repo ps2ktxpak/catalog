@@ -14,7 +14,8 @@ The site is published at <https://ps2ktxpak.github.io/catalog/> from `main`.
 | `data/creators/` | One file per creator | people |
 | `data/packs/` | One file per pack: hosted, held back, or only known to exist. Its `archive` block (hashes, sizes) is the conversion pipeline's | people; the pipeline |
 | `schema/` | JSON Schema for every file type; the creator form validates against it too | people |
-| `tools/ps2ktxpak/` | The command line: validate, report, compile | |
+| `tools/ps2ktxpak/` | The command line: validate, report, compile, and the scraper's `scrape job` and `scrape apply` | |
+| `scraper/` | The scraper's container image and the Worker that runs it ([scraper/README.md](scraper/README.md)) | |
 | `site/` | The published pack list and creator pages (Astro Starlight) | people |
 | `docs/` | How the model and hosting policy work, how submissions are read; the roadmap | people |
 

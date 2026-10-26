@@ -19,6 +19,11 @@ read it, because they may.
 - **The conversion pipeline writes** the `archive` block of a pack file. Do not hand-edit it.
 - **Everything else is edited directly.** There is one YAML file per pack and nothing else describes a pack: no
   separate listing, match, archive or resolution files. Nothing regenerates the data, so a hand edit is never undone.
+- **The scraper** (`scraper/`, `tools/ps2ktxpak/scrape/`) downloads and converts free `listed` packs into a
+  private bucket, never into this tree. `ps2ktxpak scrape apply` writes its results here: a converted pack
+  becomes `withheld` with its `archive` block, and a link the host says is gone becomes `download.status: dead`.
+  It writes nothing else, and leaves alone a pack that is no longer `listed`. It never reads the spreadsheet's
+  mirror column, and it reports spreadsheet rows that match no pack instead of creating packs for them.
 - `ps2ktxpak compile catalog` rolls the hosted packs (`published`, with an `archive`) up into the one file apps
   download. A pack that is not hosted never reaches an app.
 - The creator and pack forms on the site (`/creators/edit/`, `/packs/edit/`) file a GitHub issue; `.github/workflows/submission.yml`

@@ -1,0 +1,32 @@
+# Builds the scraper's container image on an x86-64 runner and keeps it as the run's artifact
+# `scraper-image` (a `docker save` tarball). A maintainer downloads it and pushes it to Cloudflare's
+# registry before deploying (scraper/README.md); nothing here holds a Cloudflare credential.
+name: scraper image
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scraper/Dockerfile, scraper/entry.sh, scraper/validate_ktx.cpp, tools/**, pyproject.toml]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: scraper/Dockerfile
+          platforms: linux/amd64
+          tags: ps2ktxpak-scraper:${{ github.sha }}
+          outputs: type=docker,dest=scraper-image.tar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scraper-image
+          path: scraper-image.tar
+          retention-days: 14
