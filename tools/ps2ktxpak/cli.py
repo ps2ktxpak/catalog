@@ -29,6 +29,11 @@ def cmd_compile(a) -> int:
     return 0
 
 
+def cmd_scrape(a) -> int:
+    from .scrape import apply, job
+    return {"job": job.main, "apply": apply.main}[a.what](a.rest)
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="ps2ktxpak", description=__doc__)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -46,6 +51,11 @@ def main(argv=None) -> int:
     p.add_argument("--base-url", default="https://dl.ps2ktxpak.net")
     p.add_argument("--out")
     p.set_defaults(fn=cmd_compile)
+
+    p = sub.add_parser("scrape", help="the Texture Packs Archive scraper: `job` downloads and converts, `apply` writes the results")
+    p.add_argument("what", choices=["job", "apply"])
+    p.add_argument("rest", nargs=argparse.REMAINDER, help="that command's own options (--help lists them)")
+    p.set_defaults(fn=cmd_scrape)
 
     a = ap.parse_args(argv)
     return a.fn(a)

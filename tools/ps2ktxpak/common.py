@@ -2,13 +2,15 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from pathlib import Path
 from urllib.parse import urlparse
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[2]
+# PS2KTXPAK_ROOT points the tools at another checkout of the data (the scraper clones a fresh one).
+ROOT = Path(os.environ.get("PS2KTXPAK_ROOT") or Path(__file__).resolve().parents[2])
 DATA = ROOT / "data"
 DIST = ROOT / "dist"
 SCHEMA_DIR = ROOT / "schema"

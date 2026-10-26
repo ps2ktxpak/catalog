@@ -15,3 +15,6 @@ site/.astro/
 # Never commit credentials. Publishing keys live in CI secrets, not in this tree.
 .env
 *.key
+
+# Scraper results fetched by `ps2ktxpak scrape apply`, and other fetched pages.
+cache/
