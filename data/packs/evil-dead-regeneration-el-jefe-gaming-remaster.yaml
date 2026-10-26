@@ -2,11 +2,54 @@ key: evil-dead-regeneration-el-jefe-gaming-remaster
 name: 'Evil Dead: Regeneration — Remaster'
 game:
   title: 'Evil Dead: Regeneration'
+  regions:
+  - NTSC-U
 credits:
 - creator: el-jefe-gaming
 type: mixed
 completeness: complete
-description: 'El Jefe Gaming HD texture pack for Evil Dead: Regeneration. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.'
+description: |-
+  Hail to the king, baby.
+
+  This isn’t just an HD pack—this is a full reinterpretation of Evil Dead: Regeneration, rebuilt from the ground up for a modern experience.
+
+  Originally started as a personal project for handheld play, this remaster evolved into a complete overhaul—pushing beyond simple upscaling into a new visual style while keeping the soul of the original game intact.
+
+  🪚 NEW IN THE EL JEFE REMASTER
+
+  🪚 Unlocked 60FPS Gameplay
+  No more 30FPS locks. The game now runs smooth and responsive for modern hardware.
+
+  🎮 Mash-Fix Toggle (Quality of Life Upgrade)
+  Button-mash segments slowed down with a custom toggle—no more controller-breaking spam.
+
+  🪚 Ash & Sam 2.0
+  Completely rebuilt character textures with:
+  higher detail faces, gritty clothing materials, enhanced blood effects
+
+  🪚100% NPC & Deadite Rework
+  Every enemy and NPC has been reinterpreted with high-detail texture,no more blurry faces—everything is rebuilt.
+
+  🪚Custom Loading Screens
+  All-new EL JEFE HD PACKS visuals and redesigned loading screens for immersion
+
+  ⚙️Performance Toggle Hotkey
+  Instantly switch to 30FPS for precision segments, then back to high FPS when needed.
+
+  🛠️ Clutch Fixes & Improvements
+  Camera fixes,zoom/stability improvements, general gameplay polish
+
+  🐺 EL JEFE HD PACKS
+  Chief. Leader. Boss.
+
+  This is part of an ongoing series of remasters focused on:
+  reinterpretation over replication
+  gameplay feel over strict accuracy
+  modern experience on any device
+
+  This project started as something just for me—
+  playing on mobile during downtime…
+  Now it’s a full remaster.
 sources:
 - kind: shop
   url: https://ko-fi.com/s/64c693989d

@@ -1,6 +1,16 @@
 id: el-jefe-gaming
 name: El Jefe Gaming
+aliases:
+- el_jefe_hd_packs
 links:
   page: https://ko-fi.com/eljefegaming
   distribution: https://ko-fi.com/eljefegaming/shop
+  tip:
+  - kind: kofi
+    url: https://ko-fi.com/eljefegaming
+  socials:
+  - kind: gbatemp
+    url: https://gbatemp.net/members/el_jefe_hd_packs.794363/
+  - kind: youtube
+    url: https://www.youtube.com/@elj3fegaming
 status: active

@@ -2,6 +2,8 @@ key: spartan-total-warrior-el-jefe-gaming
 name: 'Spartan: Total Warrior — El Jefe Edition'
 game:
   title: 'Spartan: Total Warrior'
+  regions:
+  - PAL
 credits:
 - creator: el-jefe-gaming
 type: mixed

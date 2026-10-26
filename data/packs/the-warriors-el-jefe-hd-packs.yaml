@@ -3,7 +3,7 @@ name: The Warriors
 game:
   title: The Warriors
 credits:
-- creator: el-jefe-hd-packs
+- creator: el-jefe-gaming
 type: ai_upscale
 completeness: in_progress
 sources:
@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withdrawn
+  reason: Duplicate of the-warriors-el-jefe-gaming, the creator's own record of this pack.
+  since: '2026-10-25'
 download:
   status: resolved
   url: https://ko-fi.com/s/e8fe14a7a6

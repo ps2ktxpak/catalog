@@ -2,11 +2,56 @@ key: bully-el-jefe-gaming
 name: Bully PS2 — Halloween Edition — El Jefe HD Pack
 game:
   title: Bully
+  serials:
+  - SLUS-21269
 credits:
 - creator: el-jefe-gaming
 type: mixed
 completeness: complete
-description: El Jefe Gaming HD texture pack for Bully. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.
+description: |-
+  🎃🔥 BULLY PS2 — HALLOWEEN EDITION | ORGINAL | MASTERMOD | PEDRO'S MOD | EL JEFE HD PACK 🔥🎃
+
+  7,105 Replacement Textures | PCSX2 & NetherSX2 Android Compatible
+
+  Welcome to Bullworth Academy's Halloween nightmare!
+
+  The El Jefe HD Pack — Halloween Edition transforms the original PlayStation 2 version of Bully into a monster-filled Halloween experience while preserving the game's classic PS2 atmosphere.
+
+  🎃 FEATURES
+
+  - 7,105 replacement textures throughout the game.
+  - NPCs transformed into Halloween monsters, including werewolves, vampires, and other creatures.
+  - Jimmy Hopkins with a custom half-monster face inspired by the 1993 movie Freaked.
+  - Gary Smith with a full-monster transformation.
+  - Custom Jimmy wardrobe featuring Scarface, The Warriors, Evil Dead, Deadpool, Vegeta, Homelander, AVGN, Bill & Ted, and El Jefe designs.
+  - Enhanced environments, signs, posters, vegetation, and original PS2 textures.
+  - Custom Halloween-themed loading screens.
+
+  🎮 COMPATIBILITY
+
+  Fully compatible with:
+
+  - Original Bully PS2 (USA)
+  - Bully Mastermod
+  - Pedro's Mod Menu
+  - PCSX2 (Windows PC)
+  - NetherSX2 (Android)
+
+  Both PC and Android versions have been tested and demonstrated in gameplay videos.
+
+  📦 DOWNLOADS & INSTALLATION
+
+  Separate PC and Android HD packs are provided, along with installation information, compatible mod patches, emulator settings, and video demonstrations.
+
+  The Mastermod and Pedro's Mod Menu patches are installation conveniences. All credit for those mods belongs to their respective original creators.
+
+  🔗 Full Release Page, Instructions, Credits & Videos:
+
+  gbatemp.net/threads/jack-o-lanternfire-bully-ps2-halloween-edition-orginal-mastermod-pedros-mod-el-jefe-hd-pack-firejack-o-lantern.685715
+
+  Created by El Jefe Gaming.
+
+  This is a fan-made HD texture pack. Bully and its original assets belong to Rockstar Games and their respective rights holders. No original game ISO is included.
 sources:
 - kind: shop
   url: https://ko-fi.com/s/30d598300b

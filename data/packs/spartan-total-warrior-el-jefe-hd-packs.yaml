@@ -5,7 +5,7 @@ game:
   regions:
   - PAL
 credits:
-- creator: el-jefe-hd-packs
+- creator: el-jefe-gaming
 type: ai_upscale
 completeness: complete
 sources:
@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withdrawn
+  reason: Duplicate of spartan-total-warrior-el-jefe-gaming, the creator's own record of this pack.
+  since: '2026-10-25'
 download:
   status: resolved
   url: https://ko-fi.com/s/9b52bc4220

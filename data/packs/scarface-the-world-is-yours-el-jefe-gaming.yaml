@@ -2,11 +2,30 @@ key: scarface-the-world-is-yours-el-jefe-gaming
 name: 'Scarface: The World Is Yours — HD Overhaul Final Edition'
 game:
   title: 'Scarface: The World Is Yours'
+  regions:
+  - PAL
 credits:
 - creator: el-jefe-gaming
 type: mixed
 completeness: complete
-description: 'El Jefe Gaming HD texture pack for Scarface: The World Is Yours. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.'
+description: |-
+  The world is yours—now in stunning 4K on Android.
+
+  This is the Final Version of my Scarface HD Overhaul, specifically optimized to push flagship hardware to its absolute limit. While previous versions were built for compatibility, this build is for the power users who want the definitive, cinematic experience.
+
+  I am running this on the ASUS ROG Phone 9 Pro (Adreno 830), utilizing maximum upscaling and custom texture injection to bring 1980s Miami to life like never before.
+
+  🚫 The "Sun & Circle" Fix: The blinding sun glare and the legacy screen circle bug are officially gone. Pure, clear visibility across all of Miami.
+
+  🎬 Cinematic Loading Screens: All original low-res loading screens replaced with high-quality stills from the 1983 classic film.
+
+  👤 Tony Montana 2.0: Ultra-detailed face textures for Tony and a completely refreshed wardrobe featuring high-stitch count custom suits.
+
+  👥 100% NPC & Environment Fix: No more "black face" bugs or texture popping. Every NPC and building in the game is now high-definition and stable.
+
+  🚀 Flagship Optimization: Optimized for the Snapdragon 8 Elite. This build handles high resolution scaling (3x-5x) with ease on top-tier devices.
+
+  Tested on high-end hardware. Performance may vary depending on your device.
 sources:
 - kind: shop
   url: https://ko-fi.com/s/91247a816a

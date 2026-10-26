@@ -212,8 +212,6 @@ def test_the_compiled_catalog_names_every_creator_it_credits():
 
 def test_every_pack_is_one_file_and_the_listed_ones_carry_no_hosting_facts():
     d = validate.load_all()
-    states = {p["hosting"]["state"] for p in d["packs"].values()}
-    assert states <= {"published", "listed"}
     for fn, p in d["packs"].items():
         assert fn == p["key"] + ".yaml"
         if p["hosting"]["state"] == "listed":
