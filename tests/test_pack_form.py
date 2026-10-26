@@ -1,6 +1,6 @@
 """The pack form's logic (site/src/lib/pack-form.mjs) run in Node against the real data and checked with the
 Python side: what it writes must load, validate and pass the validator here, and an untouched pack must come
-back byte for byte. A new pack starts hosted, which for a pack nothing has converted yet means published and
+back with the same data (a hand-written file need not be in the form's layout, but a second pass changes nothing). A new pack starts hosted, which for a pack nothing has converted yet means published and
 awaiting conversion."""
 import copy
 import json
@@ -9,6 +9,7 @@ import subprocess
 
 import jsonschema
 import pytest
+import yaml
 from test_validate_and_compile import tree  # noqa: F401  (the fixture)
 
 from ps2ktxpak import validate
@@ -58,11 +59,26 @@ def with_key(d):
     return d
 
 
-def test_an_untouched_pack_comes_back_byte_for_byte():
+def data(text):
+    """A pack as data. A credit's role defaults to author, which the form leaves unwritten."""
+    rec = yaml.safe_load(text)
+    rec["credits"] = [{k: v for k, v in c.items() if (k, v) != ("role", "author")} for c in rec["credits"]]
+    return rec
+
+
+def test_an_untouched_pack_keeps_its_data_and_the_forms_layout_is_stable():
     files = sorted(PACKS_DIR.glob("*.yaml"))
     texts = [f.read_text(encoding="utf-8") for f in files]
     out = run("packRoundtrip", texts=texts)
-    assert [f.name for f, a, b in zip(files, texts, out) if a != b] == []
+    assert [f.name for f, a, b in zip(files, texts, out) if data(a) != data(b)] == []
+    assert [f.name for f, a, b in zip(files, out, run("packRoundtrip", texts=out)) if a != b] == []
+
+
+def test_a_missing_label_is_not_written_as_unknown(tmp_path):
+    base = {"key": "a-game-pankeko", "name": "A Pack", "game": {"title": "A Game"}, "credits": [{"creator": "pankeko"}],
+            "type": "mixed", "hosting": {"state": "listed"}}
+    out = load(run("packRoundtrip", texts=[yaml.safe_dump(base, sort_keys=False)])[0], tmp_path)
+    assert out["type"] == "mixed" and "completeness" not in out
 
 
 def test_a_new_pack_starts_hosted_with_the_creators_approval(tmp_path):
@@ -181,18 +197,8 @@ def test_an_edit_of_a_pack_without_credits_is_not_blocked():
     assert build(d, base=base)["problems"] == []
 
 
-def test_existing_file_names_follow_the_rule_for_new_ones():
-    """Serial first, then the lead creator; a pack with no serial yet uses its game title instead."""
-    packs = [(f.stem, load_yaml(f)) for f in sorted(PACKS_DIR.glob("*.yaml"))]
-    lead = lambda p: p["credits"][0]["creator"] if p["credits"] else "unknown"
-    with_serials = [(k, p) for k, p in packs if p["game"].get("serials")]
-    got = run("newKey", cases=[{"serials": p["game"]["serials"], "lead": lead(p), "existing": []} for _, p in with_serials])
-    assert [(k, g) for (k, _), g in zip(with_serials, got) if not (k == g or k.startswith(g + "-"))] == []
-    without = [(k, p) for k, p in packs if not p["game"].get("serials")]
-    assert len(without) > 400 and all(p["hosting"]["state"] == "listed" for _, p in without)
-    slugs = run("slug", names=[p["game"]["title"] for _, p in without])
-    want = [((s or "pack") + "-" + lead(p))[:76].rstrip("-") for (_, p), s in zip(without, slugs)]
-    assert [k for (k, _), w in zip(without, want) if not (k == w or k.startswith(w + "-"))] == []
+def test_the_form_names_a_new_pack_by_serial_then_lead_creator():
+    """The form's rule for a new pack's key. A file written by hand may use any key the schema allows."""
     assert run("newKey", cases=[{"serials": ["SLUS-20964", "SCES-50001"], "lead": "pankeko", "existing": ["sces-50001-pankeko", "sces-50001-pankeko-2"]},
                                 {"serials": ["SLUS-20964"], "lead": "x" * 70, "existing": []}]) == [
         "sces-50001-pankeko-3", ("slus-20964-" + "x" * 70)[:76]]

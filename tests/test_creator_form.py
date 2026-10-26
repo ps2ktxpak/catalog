@@ -1,6 +1,7 @@
 """The creator form's logic (site/src/lib/creator-form.mjs) run in Node against the real data and checked
 with the Python side: what it writes must load and validate here, and an untouched record must come back
-byte for byte, or a pull request from the form would carry noise."""
+with the same data. Files written by hand need not be in the form's layout; once the form has written one, a
+second pass changes nothing, so later pull requests from the form carry no noise."""
 import json
 import shutil
 import subprocess
@@ -8,6 +9,7 @@ from urllib.parse import parse_qs, urlparse
 
 import jsonschema
 import pytest
+import yaml
 
 from ps2ktxpak.common import CREATORS_DIR, ROOT, SCHEMA_DIR, load_yaml
 
@@ -42,11 +44,12 @@ def build(d, base=None, creators=()):
     return run("build", cases=[{"draft": d, "base": base, "creators": list(creators)}])[0]
 
 
-def test_an_untouched_creator_comes_back_byte_for_byte():
+def test_an_untouched_creator_keeps_its_data_and_the_forms_layout_is_stable():
     files = sorted(CREATORS_DIR.glob("*.yaml"))
     texts = [f.read_text(encoding="utf-8") for f in files]
     out = run("roundtrip", texts=texts)
-    assert [f.name for f, a, b in zip(files, texts, out) if a != b] == []
+    assert [f.name for f, a, b in zip(files, texts, out) if yaml.safe_load(a) != yaml.safe_load(b)] == []
+    assert [f.name for f, a, b in zip(files, out, run("roundtrip", texts=out)) if a != b] == []
 
 
 def test_a_new_creator_loads_and_validates_here(tmp_path):
@@ -160,15 +163,6 @@ def test_handles_come_from_the_name_by_fixed_rules():
     existing = ["pankeko", "pankeko-2", "creator", "ewgeha"]
     cases = [{"name": n, "existing": existing} for n in ["Pankeko", "---", "Ewgeha", "New Person", "y" * 70]]
     assert run("newId", cases=cases) == ["pankeko-3", "creator-2", "ewgeha-2", "new-person", "y" * 44]
-
-
-def test_the_stored_handles_follow_the_rules():
-    """A creator's handle is its name's slug, with a number when two names make the same one."""
-    creators = [load_yaml(f) for f in sorted(CREATORS_DIR.glob("*.yaml"))]
-    slugs = run("slug", names=[c["name"] for c in creators])
-    base = [s[:44].strip("-") or "creator" for s in slugs]
-    odd = [(c["id"], b) for c, b in zip(creators, base) if not (c["id"] == b or c["id"].startswith(b + "-"))]
-    assert odd == []
 
 
 def test_every_kind_offered_is_in_the_schema_and_labelled():

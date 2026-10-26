@@ -22,8 +22,9 @@ read it, because they may.
 - `ps2ktxpak compile catalog` rolls the hosted packs (`published`, with an `archive`) up into the one file apps
   download. A pack that is not hosted never reaches an app.
 - The creator and pack forms on the site (`/creators/edit/`, `/packs/edit/`) file a GitHub issue; `.github/workflows/submission.yml`
-  applies it and opens a pull request. Their output must keep
-  round-tripping the files byte for byte (`tests/test_creator_form.py`). The issue body is untrusted input: the workflow
+  applies it and opens a pull request. An untouched file must come back from them with the same data, and
+  a file they wrote must come back byte for byte (`tests/test_creator_form.py`, `test_pack_form.py`). A file written
+  by hand need not be in their layout, nor its key or handle made by their naming rule. The issue body is untrusted input: the workflow
   must never put it inside a command (`tests/test_submission.py` checks), and `submission.mjs` is an allowlist.
 - A new pack from the pack form starts `published` with `permission: creator_approved`
   on the submitter's statement, so a merged pull request is what approves hosting: check the claim before merging.

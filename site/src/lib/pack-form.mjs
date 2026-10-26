@@ -1,6 +1,6 @@
 // The pack form's logic, with no DOM so the tests can run it in Node against the real data files.
 //
-// A pack is data/packs/<key>.yaml. As with creators, an untouched record round-trips byte for byte, and every
+// A pack is data/packs/<key>.yaml. As with creators, a record the form wrote round-trips byte for byte, and every
 // list row keeps the stored item it came from (`keep`), so a field the form does not show (a picture's
 // thumbnail, a video's uploader) survives an edit.
 //
@@ -174,6 +174,9 @@ const snapshot = (r) => ({
 
 const orNull = (v) => (isEmpty(v) ? null : v);
 
+/** The form shows a missing label as 'unknown'; leaving it there writes nothing, rather than adding the field. */
+const notStated = (v, base, f) => (v === 'unknown' && !(base && f in base) ? null : v);
+
 /** The game block: the stored one with the title and serials from the form; no serials key when there are none. */
 function gameOf(base, clean) {
   const game = { ...(base?.game ?? {}), title: clean.title };
@@ -195,8 +198,8 @@ export function valuesFromDraft(draft, creators, base = null) {
     name: clean.name,
     game: gameOf(base, clean),
     credits: clean.credits,
-    type: clean.type,
-    completeness: clean.completeness,
+    type: notStated(clean.type, base, 'type'),
+    completeness: notStated(clean.completeness, base, 'completeness'),
     description: orNull(clean.description),
     sources: orNull(clean.sources),
     media: orNull(media),

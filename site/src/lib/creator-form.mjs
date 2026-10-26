@@ -1,8 +1,8 @@
 // The creator form's logic, with no DOM so the tests can run it in Node against the real data files.
 //
 // A creator is data/creators/<id>.yaml. The form turns a draft into that file's text in the same style
-// the repository's files are written in, so an untouched record round-trips byte for byte and a pull request
-// shows only what changed.
+// the repository's files are written in, so a record the form wrote round-trips byte for byte and a pull request
+// shows only what changed. A file written by hand may be laid out differently; its first edit rewrites the layout.
 import {
   githubEdit, githubNew, githubRaw, indexNames, isEmpty, nameKey, normalizeUrl, ordered, slugify,
 } from './form-core.mjs';
