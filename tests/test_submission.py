@@ -124,6 +124,17 @@ def test_a_pack_edit_keeps_what_the_form_does_not_show(root):
     check_matches_preview(root, "pack", d, path)  # clearing a list is a change too
 
 
+def test_a_description_may_run_to_several_paragraphs(root):
+    path = "data/packs/sces-50885-quicksliver1.yaml"
+    d = run("packDraft", text=(root / path).read_text(encoding="utf-8"))
+    d["description"] = "Hail to the king.\n\n🪚 NEW\n- 60 FPS\n\tand a toggle\n"
+    _, result = check_matches_preview(root, "pack", d, path)
+    assert load_yaml(root / result["path"])["description"] == "Hail to the king.\n\n🪚 NEW\n- 60 FPS\n\tand a toggle"
+    sub = json.loads(json.dumps(GOOD))
+    sub.update(kind="pack", id="sces-50885-quicksliver1", set={"description": "a bell \x07"})
+    refused(root, body(sub), "control characters")
+
+
 def test_what_is_filed_fits_in_an_issue_address_for_the_ordinary_case():
     f = filed("pack", pack_draft(description="x" * 400))
     q = parse_qs(urlparse(f["url"]).query)

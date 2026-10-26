@@ -46,7 +46,7 @@ Who changed what is in git history, where the pull request credits the submitter
 
 Unknown fields, any field outside the lists above (so permission, hosting, access, review flags, avatar and
 identity cannot be set through `set`), a `permission` request on anything but an existing pack or on a disputed one, an existing id on create, a missing one on update, ids that do not match their pattern,
-control characters, addresses that are not https or carry a username, a picture naming a stored copy that the pack
+control characters (a description may have line breaks and tabs), addresses that are not https or carry a username, a picture naming a stored copy that the pack
 does not already have, a credit for a creator that does not exist, a name or alias that belongs to another creator,
 anything the schema rejects, and a body over 64 KB. A refused submission writes nothing.
 

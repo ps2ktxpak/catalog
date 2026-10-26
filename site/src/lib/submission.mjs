@@ -97,7 +97,9 @@ export function applySubmission(sub, ctx) {
   } else if ('new' in sub) fail('“new” applies only to a new pack');
 
   for (const [path, s] of strings(sub.set)) {
-    if (/[\u0000-\u001f\u007f]/.test(s)) fail(`${path}: control characters are not accepted`);
+    // A description is paragraphs, so it may carry line breaks and tabs; every other field is one line.
+    const controls = path === 'description' ? /[\u0000-\u0008\u000b-\u001f\u007f]/ : /[\u0000-\u001f\u007f]/;
+    if (controls.test(s.replace(/\r\n/g, '\n'))) fail(`${path}: control characters are not accepted`);
     if (/^https?:\/\//i.test(s)) {
       const r = normalizeUrl(s);
       if (r.error) fail(`${path}: ${r.error}`);
