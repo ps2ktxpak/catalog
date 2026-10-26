@@ -1,11 +1,11 @@
-key: berserk-el-jefe-gaming
+key: berserk-millennium-falcon-hen-seima-senki-no-sho-el-jefe-gaming
 name: 'Berserk: Millennium Falcon Hen — El Jefe Edition'
 game:
   title: 'Berserk: Millennium Falcon Hen Seima Senki no Sho'
 credits:
 - creator: el-jefe-gaming
-  role: author
 type: mixed
+completeness: complete
 description: 'El Jefe Gaming HD texture pack for Berserk: Millennium Falcon Hen Seima Senki no Sho. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.'
 sources:
 - kind: shop
@@ -17,10 +17,10 @@ sources:
   primary: false
   note: PCSX2 (PC) download
 - kind: forum_thread
-  url: https://gbatemp.net/threads/berserk-millennium-falcon-hen-seima-senki-no-sho-el-jefe-edition-full-english-remaster-ps2-hd-pack-pcsx2-nethersx2.682943
+  url: https://gbatemp.net/threads/berserk-millennium-falcon-hen-seima-senki-no-sho-el-jefe-edition-full-english-remaster-ps2-hd-pack-pcsx2-nethersx2.682943/
 media:
   images:
-  - source_url: https://storage.ko-fi.com/cdn/useruploads/display/9fec742e-5196-438d-8e79-cfba19fe91c8_1000757080.png
+  - source_url: https://i.imgur.com/LVXomuj.png
     alt: 'Berserk: Millennium Falcon Hen — El Jefe Edition cover artwork'
     credit: el-jefe-gaming
   videos:

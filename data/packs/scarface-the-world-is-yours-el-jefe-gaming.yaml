@@ -1,11 +1,11 @@
-key: scarface-final-edition-el-jefe-gaming
+key: scarface-the-world-is-yours-el-jefe-gaming
 name: 'Scarface: The World Is Yours — HD Overhaul Final Edition'
 game:
   title: 'Scarface: The World Is Yours'
 credits:
 - creator: el-jefe-gaming
-  role: author
 type: mixed
+completeness: complete
 description: 'El Jefe Gaming HD texture pack for Scarface: The World Is Yours. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.'
 sources:
 - kind: shop
@@ -17,10 +17,10 @@ sources:
   primary: false
   note: PCSX2 (PC) download
 - kind: forum_thread
-  url: https://gbatemp.net/threads/scarface-the-world-is-yours-remaster-ps2-hd-pack-overhaul-final-edition.681914
+  url: https://gbatemp.net/threads/scarface-the-world-is-yours-remaster-ps2-hd-pack-overhaul-final-edition.681914/
 media:
   images:
-  - source_url: https://storage.ko-fi.com/cdn/useruploads/display/13bc55d0-a201-4833-a349-247dda95109e_1777791951375.png
+  - source_url: https://i.imgur.com/vptOJpW.png
     alt: 'Scarface: The World Is Yours — HD Overhaul Final Edition cover artwork'
     credit: el-jefe-gaming
   videos:

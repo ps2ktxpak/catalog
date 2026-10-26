@@ -4,18 +4,18 @@ game:
   title: 'Spartan: Total Warrior'
 credits:
 - creator: el-jefe-gaming
-  role: author
 type: mixed
+completeness: complete
 description: 'El Jefe Gaming HD texture pack for Spartan: Total Warrior. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.'
 sources:
 - kind: shop
   url: https://ko-fi.com/s/9b52bc4220
   primary: true
 - kind: forum_thread
-  url: https://gbatemp.net/threads/spartan-total-warrior-hdpack-remaster-el-jefe-edition.683787
+  url: https://gbatemp.net/threads/spartan-total-warrior-hdpack-remaster-el-jefe-edition.683787/
 media:
   images:
-  - source_url: https://storage.ko-fi.com/cdn/useruploads/display/6df95e78-d795-403e-aa14-ecb06528e627_file_000000006a28820cbcc6f6ae8ccb2986.png
+  - source_url: https://i.imgur.com/Hxtx01N.png
     alt: 'Spartan: Total Warrior — El Jefe Edition cover artwork'
     credit: el-jefe-gaming
   videos:

@@ -4,8 +4,8 @@ game:
   title: 'Gladiator: Sword of Vengeance'
 credits:
 - creator: el-jefe-gaming
-  role: author
 type: mixed
+completeness: complete
 description: 'El Jefe Gaming HD texture pack for Gladiator: Sword of Vengeance. See the linked GBAtemp release thread for features, installation instructions, and compatibility details. Downloads are distributed by the creator through Ko-fi.'
 sources:
 - kind: shop
@@ -17,7 +17,7 @@ sources:
   primary: false
   note: PCSX2 (PC) download
 - kind: forum_thread
-  url: https://gbatemp.net/threads/gladiator-sword-of-vengeance-remaster-ps2-hd-pack-slus-20793-pcsx2-android-nethersx2.675061
+  url: https://gbatemp.net/threads/gladiator-sword-of-vengeance-remaster-ps2-hd-pack-slus-20793-pcsx2-android-nethersx2.675061/
 media:
   images:
   - source_url: https://storage.ko-fi.com/cdn/useruploads/display/3cb38a9b-a326-40ce-96a5-878cdf116ebb_927d718c-fa87-4f16-9e75-e6d0280acf4e.jpg
