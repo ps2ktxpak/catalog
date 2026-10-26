@@ -45,7 +45,7 @@ is only known to exist are all the same kind of file; `hosting.state` says which
 ## The rollup: `ps2ktxpak compile`
 
 `compile catalog` takes the packs that are `published` and have an `archive`, and writes them into one file,
-`textures.json`, which is hosted for the apps. It is the only file an app needs: what to list, who made it,
+`catalog.json`, which is hosted for the apps at `https://dl.ps2ktxpak.net/catalog.json`. It is the only file an app needs: what to list, who made it,
 where to get it. `schemaVersion` is 2. One entry per pack:
 
 | Entry field | Comes from |
@@ -63,5 +63,6 @@ where to get it. `schemaVersion` is 2. One entry per pack:
 A field that is new is an addition: an app that does not know it ignores it, which is why the file stays
 at `schemaVersion` 2. Nothing else in the pack files reaches an app.
 
-`compile links` writes `texture-pack-links.json`, the same creator and link facts as a second file, for the
-builds that still download it. A build that reads `creators` from the catalog does not.
+App builds from before `catalog.json` read `textures.json` (the catalog as it was before this repository, with no
+`creators`, `type` or `completeness`) and a second file, `texture-pack-links.json`, for creators and links. Both stay on the server
+unchanged until those builds retire; nothing here writes them.

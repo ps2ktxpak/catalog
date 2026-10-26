@@ -40,8 +40,9 @@ read it, because they may.
 - `credits: []` means "no one has named the creator". Never fill it with a guess; use
   `needs_review` for a credit nobody has checked.
 - Archive facts (hash, sizes, revision) are written by the conversion pipeline only.
-- Old app builds read `textures.json`: keep its shape, never leave `authors` empty, never bump its
-  `schemaVersion` for an additive change.
+- Apps read `catalog.json`: keep its shape, never leave `authors` empty, never bump its
+  `schemaVersion` for an additive change. The server's `textures.json` and `texture-pack-links.json` are
+  frozen copies for app builds that predate `catalog.json`; nothing here writes them.
 
 ## Before you finish a change
 
@@ -51,7 +52,7 @@ ps2ktxpak validate
 ```
 
 `ps2ktxpak compile catalog` builds the file installed apps download from these files, so a change that
-alters what it emits is a change to every installed app: check the diff of `dist/textures.json`.
+alters what it emits is a change to every installed app: check the diff of `dist/catalog.json`.
 
 ## Commits
 

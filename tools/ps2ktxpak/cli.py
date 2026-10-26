@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from pathlib import Path
 
@@ -22,12 +21,8 @@ def cmd_report(a) -> int:
 
 def cmd_compile(a) -> int:
     from . import compile as c
-    if a.what == "catalog":
-        text = c.dumps_catalog(c.catalog(a.base_url))
-        out = Path(a.out or DIST / "textures.json")
-    else:
-        text = json.dumps(c.links_v1(), indent=1, ensure_ascii=False) + "\n"
-        out = Path(a.out or DIST / "texture-pack-links.json")
+    text = c.dumps_catalog(c.catalog(a.base_url))
+    out = Path(a.out or DIST / "catalog.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
     print(f"wrote {out} ({len(text.encode())} bytes)")
@@ -46,8 +41,8 @@ def main(argv=None) -> int:
     p.add_argument("which", choices=["summary", "paid-hosted", "credits"])
     p.set_defaults(fn=cmd_report)
 
-    p = sub.add_parser("compile", help="build the files the app downloads into dist/")
-    p.add_argument("what", choices=["catalog", "links"])
+    p = sub.add_parser("compile", help="build the file the app downloads, dist/catalog.json")
+    p.add_argument("what", choices=["catalog"])
     p.add_argument("--base-url", default="https://dl.ps2ktxpak.net")
     p.add_argument("--out")
     p.set_defaults(fn=cmd_compile)

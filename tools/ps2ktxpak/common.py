@@ -59,15 +59,3 @@ def load_json(path: Path):
 
 def host_of(url: str) -> str:
     return re.sub(r"^www\.", "", urlparse(url).netloc.lower())
-
-
-# ---- labels the compiled catalog uses for the pack's type and completeness ------------------------
-
-TYPE_LABEL = {
-    "ai_upscale": "AI Upscale", "handcrafted": "Handcrafted", "mixed": "Mixed", "port": "Port",
-    "button_replacement": "Button Replacement", "unknown": "Unknown",
-}
-STATUS_LABEL = {
-    "complete": "Complete", "in_progress": "In-Progress", "incomplete": "Incomplete",
-    "partial": "Partial", "unknown": "Unknown",
-}

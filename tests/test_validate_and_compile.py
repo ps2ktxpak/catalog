@@ -63,7 +63,7 @@ def test_a_pack_that_is_only_listed_is_not_held_to_the_hosting_policy(tree, caps
     tree.write(pack=LISTED)
     assert validate.run(strict_policy=True) == 0
     assert "WARNING" not in capsys.readouterr().out
-    assert C.catalog()["entries"] == [] and C.links_v1()["packs"] == {}
+    assert C.catalog()["entries"] == []
 
 
 @pytest.mark.parametrize("mutate,expect", [
@@ -96,7 +96,6 @@ def test_published_pack_without_an_archive_is_awaiting_conversion_and_not_compil
     assert "WARNING awaiting_conversion: 1" in capsys.readouterr().out
     assert validate.run(strict_policy=True) == 1
     assert C.catalog()["entries"] == []
-    assert C.links_v1()["packs"] == {}
 
 
 def test_file_name_must_equal_the_key(tree, capsys):

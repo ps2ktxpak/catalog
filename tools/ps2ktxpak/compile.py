@@ -1,8 +1,4 @@
-"""Compile data/ into the files the app downloads.
-
-  catalog  -> textures.json (schemaVersion 2), the one file an app reads
-  links    -> texture-pack-links.json (schemaVersion 1), for the builds that still fetch it as a second
-              file; a build that reads the creators out of the catalog does not need it
+"""Compile data/ into catalog.json (schemaVersion 2), the one file the app downloads.
 
 In the catalog, names come from the pack's credits, and permission is stated as it is. The source link is
 the page its lead creator asked to be linked, else the pack's primary source. Each credited creator comes
@@ -14,7 +10,6 @@ from __future__ import annotations
 
 import json
 
-from .common import STATUS_LABEL, TYPE_LABEL
 from .validate import load_all
 
 DEFAULT_BASE = "https://dl.ps2ktxpak.net"
@@ -92,43 +87,6 @@ def catalog(base_url: str = DEFAULT_BASE) -> dict:
     return {"schemaVersion": 2, "entries": entries}
 
 
-def links_v1() -> dict:
-    """The overlay file older builds of the namco branch read. Tip and socials are per creator in
-    our data, so a pack gets its lead creator's; the original file carried a few per-pack ones."""
-    d = load_all()
-    creators = {r["id"]: r for r in d["creators"].values()}
-    packs, people = {}, {}
-    for pack in sorted((r for r in d["packs"].values() if r["hosting"]["state"] == "published" and "archive" in r),
-                       key=lambda p: p.get("catalog_id") or p["key"]):
-        wire = pack.get("catalog_id") or pack["key"]
-        cs = [creators[c["creator"]] for c in pack.get("credits", []) if c["creator"] in creators]
-        rec: dict = {}
-        if cs:
-            rec["creator"] = ", ".join(c["name"] for c in cs)
-            lead = cs[0]
-            tip, soc = (lead.get("links", {}).get("tip") or [None])[0], (lead.get("links", {}).get("socials") or [None])[0]
-            if tip:
-                rec["tip"] = tip["url"]
-            if soc:
-                rec["socials"] = soc["url"]
-            page = lead.get("links", {}).get("page")
-            rec_person = {k: v for k, v in (("page", page), ("avatar", lead.get("avatar", {}).get("source_url"))) if v}
-            if rec_person:
-                people[lead["name"]] = rec_person
-        else:
-            rec["unknown"] = True
-        src = _primary(pack)
-        if src:
-            lead_pref = cs[0].get("links", {}).get("distribution") if cs else None
-            rec["source"] = lead_pref or src
-        if pack.get("type", "unknown") != "unknown":
-            rec["type"] = TYPE_LABEL[pack["type"]]
-        if pack.get("completeness", "unknown") != "unknown":
-            rec["status"] = STATUS_LABEL[pack["completeness"]]
-        packs[wire] = rec
-    return {"schemaVersion": 1, "creators": dict(sorted(people.items())), "packs": packs}
-
-
 def dumps_catalog(doc: dict) -> str:
-    """The format of the live file: two-space indent, no trailing newline."""
+    """Two-space indent, no trailing newline, as textures.json had."""
     return json.dumps(doc, indent=2)

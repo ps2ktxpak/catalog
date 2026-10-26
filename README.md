@@ -51,8 +51,7 @@ cd site && npm install && cd ..
 ```sh
 ps2ktxpak validate                     # schemas, cross-references, hosting policy
 ps2ktxpak report summary               # counts; also: paid-hosted, credits
-ps2ktxpak compile catalog              # dist/textures.json: the rollup of the hosted packs, what the app downloads
-ps2ktxpak compile links                # dist/texture-pack-links.json (compatibility overlay)
+ps2ktxpak compile catalog              # dist/catalog.json: the rollup of the hosted packs, what the app downloads
 pytest                                 # the tools, the forms and the submission workflow, against the real data
 cd site && npm run dev                 # the site: the pack list is the home page, with a page per creator
 ```
