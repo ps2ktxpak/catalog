@@ -46,7 +46,9 @@ export class Scraper extends Container<Env> {
 			return { state: 'restarted', was: state.status };
 		}
 		const res = await this.containerFetch('http://container/status');
-		const status = (await res.json()) as { state?: string };
+		const text = await res.text();
+		if (!res.ok) return { state: 'unreachable', http: res.status, body: text.slice(0, 300) };
+		const status = JSON.parse(text) as { state?: string };
 		if (act && status.state === 'finished') {
 			await this.ctx.storage.delete('wanted');
 			await this.stop();
@@ -81,6 +83,15 @@ function shards(env: Env): number[] {
 	return [...Array(Number(env.SHARDS)).keys()];
 }
 
+// One shard that cannot be reached (starting, restarting) must not hide the others.
+async function checked(env: Env, i: number, act: boolean): Promise<object> {
+	try {
+		return { shard: i, ...((await shard(env, i).check(act)) as object) };
+	} catch (e) {
+		return { shard: i, state: 'unreachable', error: String(e).slice(0, 300) };
+	}
+}
+
 function shard(env: Env, i: number) {
 	return getContainer<Scraper>(env.SCRAPER, `shard-${i}`);
 }
@@ -89,8 +100,7 @@ export default {
 	async fetch(request: Request, env: Env): Promise<Response> {
 		const url = new URL(request.url);
 		if (request.method === 'GET' && url.pathname === '/status') {
-			const all = await Promise.all(shards(env).map(async (i) => ({ shard: i, ...((await shard(env, i).check()) as object) })));
-			return Response.json(all);
+			return Response.json(await Promise.all(shards(env).map((i) => checked(env, i, false))));
 		}
 		if (request.method === 'POST' && (url.pathname === '/run' || url.pathname === '/stop')) {
 			if (!env.RUN_TOKEN || request.headers.get('Authorization') !== `Bearer ${env.RUN_TOKEN}`) {
@@ -104,6 +114,6 @@ export default {
 	},
 
 	async scheduled(_event: ScheduledController, env: Env, ctx: ExecutionContext): Promise<void> {
-		ctx.waitUntil(Promise.all(shards(env).map((i) => shard(env, i).check(true))));
+		ctx.waitUntil(Promise.all(shards(env).map((i) => checked(env, i, true))));
 	},
 };
