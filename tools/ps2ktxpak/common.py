@@ -34,6 +34,15 @@ class _Dumper(yaml.SafeDumper):
         return True
 
 
+def _str(dumper, data):
+    """A string with line breaks is written as a |- block, as the site's forms write it."""
+    style = "|" if "\n" in data else None
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data, style=style)
+
+
+_Dumper.add_representer(str, _str)
+
+
 def load_yaml(path: Path):
     with open(path, encoding="utf-8") as f:
         return yaml.load(f, Loader=_Loader)
