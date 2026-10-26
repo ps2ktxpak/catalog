@@ -284,17 +284,52 @@ def yandex(url: str) -> list[Entry]:
 
 
 def onedrive(url: str) -> list[Entry]:
-    token = "u!" + base64.urlsafe_b64encode(url.encode()).decode().rstrip("=")
-    info = get_json(f"https://api.onedrive.com/v1.0/shares/{token}/root")
+    """Through the guest token OneDrive's own web viewer uses for a public share. Microsoft refuses
+    it for old-style `s!` links since their move to SharePoint, and the old share API wants a login."""
+    tok = get_json("https://api-badgerp.svc.ms/v1.0/token", data=json.dumps({"appId": ONEDRIVE_APP}).encode(),
+                   headers={"Content-Type": "application/json"})["token"]
+    share = "u!" + base64.urlsafe_b64encode(url.encode()).decode().rstrip("=")
+    try:
+        info = get_json(f"https://my.microsoftpersonalcontent.com/_api/v2.0/shares/{share}/driveitem"
+                        "?$select=name,size,folder,@content.downloadUrl",
+                        headers={"Authorization": f"Badger {tok}", "Prefer": "autoredeem"})
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            raise Unsupported(f"onedrive: Microsoft refuses an anonymous download of {url} (HTTP {e.code})") from e
+        raise
     if "folder" in info:
         raise Unsupported("onedrive: shared folders are not handled")
-    return [_curl_entry(_safe(info["name"]), info.get("size"), f"https://api.onedrive.com/v1.0/shares/{token}/root/content")]
+    return [_curl_entry(_safe(info["name"]), info.get("size"), info["@content.downloadUrl"])]
+
+
+def mailru(url: str) -> list[Entry]:
+    """cloud.mail.ru: its public API lists a link's files; a file is served from the dispatcher's host."""
+    m = re.search(r"cloud\.mail\.ru/public/([^?#]+)", url)
+    if not m:
+        raise Unsupported(f"cloud.mail.ru: {url}")
+    base = get_json("https://cloud.mail.ru/api/v2/dispatcher")["body"]["weblink_get"][0]["url"]
+
+    def walk(weblink: str, prefix: str) -> list[Entry]:
+        body = get_json(f"https://cloud.mail.ru/api/v2/folder?weblink={urllib.parse.quote(weblink)}")["body"]
+        entries = []
+        for item in body.get("list", []):
+            if item["type"] == "folder":
+                entries += walk(item["weblink"], prefix + _safe(item["name"]) + "/")
+            else:
+                entries.append(_curl_entry(prefix + _safe(item["name"]), item.get("size"),
+                                           f"{base}/{urllib.parse.quote(item['weblink'])}"))
+        return entries
+
+    return walk(m.group(1).rstrip("/"), "")
+
+
+ONEDRIVE_APP = "5cbed6ac-a083-4e14-b191-b4ba07653de2"  # the OneDrive web viewer's public app id
 
 
 HOSTS = ((r"(^|\.)mega\.(nz|co\.nz)$", mega), (r"mediafire\.com$", mediafire),
          (r"(drive|docs|drive\.usercontent)\.google\.com$", gdrive), (r"archive\.org$", archive_org),
          (r"^github\.com$", github), (r"pixeldrain\.com$", pixeldrain), (r"dropbox\.com$", dropbox),
-         (r"disk\.yandex\.\w+$", yandex), (r"^(1drv\.ms|onedrive\.live\.com)$", onedrive))
+         (r"disk\.yandex\.\w+$", yandex), (r"^cloud\.mail\.ru$", mailru), (r"^(1drv\.ms|onedrive\.live\.com)$", onedrive))
 ARCHIVE_NAME = re.compile(r"\.(zip|7z|rar|tar|tgz|gz|zst)(\.\d+)?$|\.part\d+\.rar$|\.r\d\d$", re.I)
 
 
