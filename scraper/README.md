@@ -93,12 +93,12 @@ Worker at it:
 gh run download <run id> -n scraper-image -D /tmp/scraper-image
 podman load -i /tmp/scraper-image/scraper-image.tar                     # ps2ktxpak-scraper:<commit>
 npx wrangler containers push --path-to-docker podman ps2ktxpak-scraper:<commit>
-# set "image" in wrangler.jsonc to the registry.cloudflare.com/... name it prints, then
+# set "image" in wrangler.jsonc to registry.cloudflare.com/ps2ktxpak-scraper:<commit>, then
 npx wrangler deploy
 ```
 
-On an x86-64 machine with Docker, `"image": "./Dockerfile"` and a plain `wrangler deploy` build it
-locally instead.
+On an x86-64 machine with Docker, `"image": "./Dockerfile"` with `"image_build_context": ".."`
+and a plain `wrangler deploy` build it locally instead.
 
 ## Running
 
