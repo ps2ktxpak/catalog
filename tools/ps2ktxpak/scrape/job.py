@@ -13,6 +13,7 @@ import http.server
 import json
 import os
 import shutil
+import signal
 import threading
 import time
 import traceback
@@ -261,6 +262,9 @@ def main(argv=None) -> int:
     ap.add_argument("--sheet", help="a local copy of the spreadsheet, instead of downloading it")
     a = ap.parse_args(argv)
 
+    # In a container this is process 1, which ignores SIGTERM unless it asks for it: without this the
+    # Worker's stop() would leave the job running.
+    signal.signal(signal.SIGTERM, lambda *_: os._exit(143))
     i, n = (int(x) for x in a.shard.split("/"))
     job = Job(Store(a.store), Path(a.work), int(a.max_source_gb * 1e9), (i, n), a.only)
     if a.port:

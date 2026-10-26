@@ -182,7 +182,7 @@ def convert(layout: Layout, out: Path, jobs: int | None = None) -> int:
     def one(argv):
         p = subprocess.run(argv, capture_output=True, text=True, stdin=subprocess.DEVNULL)
         if p.returncode != 0:
-            raise RuntimeError(f"kram failed on {Path(argv[-1]).name}: {p.stderr.strip()[-300:]}")
+            raise RuntimeError(f"kram failed on {Path(argv[-1]).name} (exit {p.returncode}): {p.stderr.strip()[-300:]}")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=jobs or os.cpu_count()) as pool:
         for fut in concurrent.futures.as_completed([pool.submit(one, a) for a in argvs]):
