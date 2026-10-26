@@ -24,7 +24,7 @@ ARG ARMSX2_COMMIT=cdd19c58742a4cf97243dc88d8501d0138c8f613
 RUN git clone --filter=blob:none --no-checkout https://github.com/ARMSX2/ARMSX2 /src/armsx2 && cd /src/armsx2 \
  && git sparse-checkout set --no-cone "/pcsx2/GS/*.h" /pcsx2/GS/Renderers/Common/ /pcsx2/GS/Renderers/HW/ /common/ /3rdparty/fmt/ && git checkout $ARMSX2_COMMIT
 COPY scraper/validate_ktx.cpp /src/validate_ktx.cpp
-RUN g++ -std=c++20 -O2 -I/src/armsx2/pcsx2 -I/src/armsx2 -I/src/armsx2/common/include \
+RUN g++ -std=c++20 -O2 -msse4.1 -I/src/armsx2/pcsx2 -I/src/armsx2 -I/src/armsx2/common/include \
       -I/src/armsx2/3rdparty/fmt/include -DFMT_HEADER_ONLY /src/validate_ktx.cpp -o /opt/validate_ktx
 
 FROM debian:trixie-slim
