@@ -140,7 +140,9 @@ class Job:
 
         mine = [it for it in items if int(url_id(it.url), 16) % self.shard[1] == self.shard[0]
                 and (not self.only or it.key in self.only)]
-        todo = [it for it in mine if self._again(results.get(it.key, {}))]
+        # Packs named with --only are retried however often they failed (a second machine, say, for a
+        # host that refuses the containers' addresses).
+        todo = [it for it in mine if self._again(results.get(it.key, {}), retry=bool(self.only))]
         self.status.update(state="running", total=len(mine), todo=len(todo))
         self.log(f"{len(mine)} packs in this shard, {len(todo)} to do")
         for n, it in enumerate(todo, 1):
@@ -162,12 +164,12 @@ class Job:
         return results
 
     @staticmethod
-    def _again(r: dict) -> bool:
-        """Whether a pack still needs doing: never tried, failed fewer than MAX_ATTEMPTS times, or
-        converted before the files the emulator never loads were left out (see `prune`)."""
+    def _again(r: dict, retry: bool = False) -> bool:
+        """Whether a pack still needs doing: never tried, failed fewer than MAX_ATTEMPTS times (or at
+        all, with `retry`), or converted before the files the emulator never loads were left out."""
         if r.get("status") == "done":
             return r["archive"]["converter"]["params"] != convert.PARAMS
-        return r.get("status") not in FINAL and r.get("attempts", 0) < MAX_ATTEMPTS
+        return r.get("status") not in FINAL and (retry or r.get("attempts", 0) < MAX_ATTEMPTS)
 
     def process(self, it: Item, prev: dict) -> dict:
         if prev.get("status") == "done":

@@ -166,6 +166,12 @@ def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):
     assert "-mip" not in convert._encode_argv(base, good, tmp_path / "a.ktx")
 
 
+def test_a_pack_that_failed_too_often_is_retried_only_when_named():
+    r = {"status": "failed", "attempts": job.MAX_ATTEMPTS}
+    assert not job.Job._again(r) and job.Job._again(r, retry=True)
+    assert not job.Job._again({"status": "gone"}, retry=True)
+
+
 def test_a_resumed_job_reads_pack_results_but_not_the_shard_indexes():
     assert job.is_result("results/jak-2-renegade-marcelus.json")
     assert not job.is_result("results/index-0.json")
