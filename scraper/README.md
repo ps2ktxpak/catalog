@@ -76,12 +76,15 @@ Then:
 2. Set the secrets. Each command prompts for the value, so nothing lands in your shell history:
    ```sh
    cd scraper && npm ci
-   for s in R2_ACCOUNT_ID R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY MEGA_USERNAME MEGA_PASSWORD RUN_TOKEN; do
+   for s in R2_ACCOUNT_ID R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY MEGA_USERNAME MEGA_PASSWORD \
+            MEDIAFIRE_EMAIL MEDIAFIRE_PASSWORD RUN_TOKEN; do
      npx wrangler secret put $s
    done
    ```
    `RUN_TOKEN` is any long random string; it guards `/run` and `/stop`. The Mega account is the one
-   downloads count against.
+   downloads count against. MediaFire shows its file pages only to a browser that passes a check, so
+   the job signs in to its API with the MediaFire account and asks for direct links; without the
+   account it reads the pages, which fails while the check is on.
 
 ## Deploying
 
@@ -136,5 +139,6 @@ To try the job on one machine, point `--store` at a directory:
 
 ```sh
 KRAM=... VALIDATE_KTX=... SEVEN_ZIP=7zz MEGARC=~/.config/ps2ktxpak/megarc \
+  MEDIAFIRE_EMAIL=... MEDIAFIRE_PASSWORD="$(cat ~/.config/ps2ktxpak/mediafire_password)" \
   ps2ktxpak scrape job --store /tmp/store --work /tmp/work --only <pack key> ...
 ```

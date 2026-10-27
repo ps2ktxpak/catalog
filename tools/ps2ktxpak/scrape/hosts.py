@@ -7,6 +7,7 @@ other exception is worth retrying later (quota, rate limit, network)."""
 from __future__ import annotations
 
 import base64
+import hashlib
 import html
 import json
 import os
@@ -21,6 +22,9 @@ from typing import Callable
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 MEGATOOLS = os.environ.get("MEGATOOLS", "megatools")
 MEGARC = os.environ.get("MEGARC")  # a megatools config file with a [Login] section
+# MediaFire puts its file pages behind a browser check; a signed-in account gets direct links from the API.
+MEDIAFIRE_EMAIL = os.environ.get("MEDIAFIRE_EMAIL")
+MEDIAFIRE_PASSWORD = os.environ.get("MEDIAFIRE_PASSWORD")
 
 
 class Gone(Exception):
@@ -142,7 +146,42 @@ def mediafire(url: str) -> list[Entry]:
                   lambda dest, limit: _mediafire_file(url, dest, limit))]
 
 
+MEDIAFIRE_API = "https://www.mediafire.com/api/1.5/"
+MEDIAFIRE_APP = "42511"  # the API's public application id, which needs no key
+
+
+def _mediafire_api(call: str, **params) -> dict:
+    data = urllib.parse.urlencode({**params, "response_format": "json"}).encode()
+    req = urllib.request.Request(MEDIAFIRE_API + call, data=data, headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.load(r)["response"]
+    except urllib.error.HTTPError as e:  # errors come back as JSON with a 4xx status
+        return json.loads(e.read().decode("utf-8", "replace"))["response"]
+
+
+def _mediafire_direct(key: str) -> str:
+    # A session token lasts ten minutes, so each file signs in afresh.
+    sig = hashlib.sha1((MEDIAFIRE_EMAIL + MEDIAFIRE_PASSWORD + MEDIAFIRE_APP).encode()).hexdigest()
+    r = _mediafire_api("user/get_session_token.php", email=MEDIAFIRE_EMAIL, password=MEDIAFIRE_PASSWORD,
+                       application_id=MEDIAFIRE_APP, signature=sig, token_version=1)
+    if r.get("result") != "Success":
+        raise RuntimeError(f"mediafire: could not sign in: {r.get('message')}")
+    r = _mediafire_api("file/get_links.php", session_token=r["session_token"], quick_key=key,
+                       link_type="direct_download")
+    if r.get("result") != "Success":
+        raise RuntimeError(f"mediafire: {key}: {r.get('message')}")
+    link = r["links"][0]
+    if link.get("error") == "Invalid QuickKey":  # how it answers for a removed file
+        raise Gone(f"mediafire: {key} was removed")
+    if "direct_download" not in link:
+        raise RuntimeError(f"mediafire: {key}: {link.get('direct_download_error_message')}")
+    return link["direct_download"]
+
+
 def _mediafire_file(url: str, dest: Path, limit: int | None) -> Path:
+    if MEDIAFIRE_EMAIL and (m := re.search(r"mediafire\.com/(?:file(?:_premium)?/|\?|download/)([a-z0-9]+)", url)):
+        return curl(_mediafire_direct(m.group(1)), dest, limit)
     # The file's page links to the file, except when MediaFire sends the file itself straight away.
     dest.parent.mkdir(parents=True, exist_ok=True)
     page_file = dest.with_name(dest.name + ".page")

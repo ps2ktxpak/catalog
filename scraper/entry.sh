@@ -2,6 +2,7 @@
 # Start one scraper shard. The Worker passes the settings and secrets as environment variables:
 #   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY   the bucket, through its S3 API
 #   MEGA_USERNAME, MEGA_PASSWORD                           the Mega account downloads count against
+#   MEDIAFIRE_EMAIL, MEDIAFIRE_PASSWORD                    the MediaFire account that gets direct links
 #   SCRAPE_SHARD (i/n), SCRAPE_STORE, SCRAPE_MAX_SOURCE_GB
 set -eu
 

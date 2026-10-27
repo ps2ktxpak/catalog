@@ -243,3 +243,24 @@ def test_the_applied_pack_passes_the_schema(packs_dir, monkeypatch):
     write_yaml(packs_dir / "game-a-dev1.yaml", pack("game-a-dev1", "Game A"))
     A.apply({"game-a-dev1": DONE})
     assert validate.run(quiet=True) == 0
+
+
+def test_mediafire_signed_in_takes_the_direct_link_and_a_removed_file_is_gone(tmp_path, monkeypatch):
+    monkeypatch.setattr(hosts, "MEDIAFIRE_EMAIL", "a@b")
+    monkeypatch.setattr(hosts, "MEDIAFIRE_PASSWORD", "pw")
+    calls = []
+
+    def api(call, **params):
+        calls.append((call, params.get("quick_key")))
+        if call.startswith("user/"):
+            return {"result": "Success", "session_token": "t"}
+        if params["quick_key"] == "gone0":
+            return {"result": "Success", "links": [{"quickkey": "gone0", "error": "Invalid QuickKey"}]}
+        return {"result": "Success", "links": [{"direct_download": "https://download1.mediafire.com/x/f.7z"}]}
+    monkeypatch.setattr(hosts, "_mediafire_api", api)
+    monkeypatch.setattr(hosts, "curl", lambda url, dest, limit: (url, dest))
+    [e] = hosts.mediafire("https://www.mediafire.com/file_premium/abc123/Pack.7z/file")
+    assert e.get(tmp_path / "f", None) == ("https://download1.mediafire.com/x/f.7z", tmp_path / "f")
+    assert calls[-1] == ("file/get_links.php", "abc123")
+    with pytest.raises(hosts.Gone):
+        hosts._mediafire_file("https://www.mediafire.com/file/gone0/x.rar/file", tmp_path / "g", None)

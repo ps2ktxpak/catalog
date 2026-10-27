@@ -15,6 +15,8 @@ declare global {
 		R2_SECRET_ACCESS_KEY: string;
 		MEGA_USERNAME: string;
 		MEGA_PASSWORD: string;
+		MEDIAFIRE_EMAIL: string;
+		MEDIAFIRE_PASSWORD: string;
 		RUN_TOKEN: string;
 	}
 }
@@ -72,6 +74,8 @@ export class Scraper extends Container<Env> {
 					R2_SECRET_ACCESS_KEY: e.R2_SECRET_ACCESS_KEY,
 					MEGA_USERNAME: e.MEGA_USERNAME,
 					MEGA_PASSWORD: e.MEGA_PASSWORD,
+					MEDIAFIRE_EMAIL: e.MEDIAFIRE_EMAIL,
+					MEDIAFIRE_PASSWORD: e.MEDIAFIRE_PASSWORD,
 				},
 			},
 			// Cloning the catalog and reading the spreadsheet comes before the status port opens.
