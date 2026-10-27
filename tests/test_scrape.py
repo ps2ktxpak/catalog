@@ -293,3 +293,13 @@ def test_mediafire_signed_in_takes_the_direct_link_and_a_removed_file_is_gone(tm
     assert calls[-1] == ("file/get_links.php", "abc123")
     with pytest.raises(hosts.Gone):
         hosts._mediafire_file("https://www.mediafire.com/file/gone0/x.rar/file", tmp_path / "g", None)
+
+
+def test_an_empty_mega_folder_is_gone(tmp_path, monkeypatch):
+    tool = tmp_path / "megatools"  # stands in for megatools: succeeds and downloads nothing
+    tool.write_text("#!/bin/sh\nexit 0\n")
+    tool.chmod(0o755)
+    monkeypatch.setattr(hosts, "MEGATOOLS", str(tool))
+    [e] = hosts.mega("https://mega.nz/folder/KLJy1Zia#DPIlpfIxvfItptcamfKr6Q")
+    with pytest.raises(hosts.Gone):
+        e.get(tmp_path / "dl", None)

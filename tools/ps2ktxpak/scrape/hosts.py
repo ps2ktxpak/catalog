@@ -135,6 +135,8 @@ def mega(url: str) -> list[Entry]:
             if re.search(r"\b(ENOENT|EBLOCKED)\b", err):
                 raise Gone(f"mega: {err[-200:]}")
             raise RuntimeError(f"mega: {err[-300:]}")
+        if not any(p.is_file() for p in dest.rglob("*")):  # megatools says nothing about an empty folder
+            raise Gone(f"mega: {url} holds no files")
         return dest
     return [Entry("", None, get)]
 
