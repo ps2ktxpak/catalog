@@ -2,6 +2,7 @@
 game's file out of a library folder, laying out a download, and writing results into pack files."""
 import io
 import json
+import struct
 
 import pytest
 
@@ -153,6 +154,25 @@ def test_a_few_unreadable_textures_are_left_out_but_many_fail_the_pack(tmp_path,
         png(tmp_path / "in" / "replacements" / f"{n}.png", 64, 64)
     with pytest.raises(RuntimeError, match="4 of 24"):
         convert.convert(layout, tmp_path / "out2")
+
+
+def test_files_broken_in_the_download_are_left_out_without_failing_the_pack(tmp_path, monkeypatch):
+    kram = tmp_path / "kram"  # stands in for kram: refuses empty files and short DDS files
+    kram.write_text('#!/bin/sh\n[ -s "$3" ] && [ "${3##*.}" = png ] || exit 1\n'
+                    'for a; do o="$a"; done\n: > "$o"\n')
+    kram.chmod(0o755)
+    monkeypatch.setattr(convert, "KRAM", str(kram))
+    root = tmp_path / "in" / "replacements"
+    for i in range(10):
+        png(root / f"{i:x}-00001993.png", 64, 64)
+        (root / f"e{i:x}-00001993.png").write_bytes(b"")  # empty, as Rule of Rose ships 259 of its textures
+    short = root / "f0-00001993.dds"  # 64x64 DXT5 needs 128 + 16 * 16 bytes
+    short.write_bytes(b"DDS " + struct.pack("<7I", 124, 0, 64, 64, 0, 0, 1) + bytes(52) + b"DXT5"
+                      + bytes(40))
+    layout = convert.find_layout(tmp_path / "in")
+    count, unreadable = convert.convert(layout, tmp_path / "out")
+    assert count == 10 and len(unreadable) == 11
+    assert all(u.endswith("broken in the download") for u in unreadable)
 
 
 def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):

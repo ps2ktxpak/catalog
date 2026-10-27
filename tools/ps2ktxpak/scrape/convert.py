@@ -206,6 +206,25 @@ def _dims(p: Path) -> tuple[int, int] | None:
     return None
 
 
+def _broken(p: Path) -> bool:
+    """The file is plainly unusable as shipped: empty, or a DDS whose header is garbage or which is
+    shorter than its first level. The emulator skips these too."""
+    size = p.stat().st_size
+    if size == 0:
+        return True
+    if p.suffix.lower() != ".dds":
+        return False
+    with open(p, "rb") as f:
+        head = f.read(128)
+    if len(head) < 128 or head[:4] != b"DDS ":
+        return True
+    h, w = struct.unpack("<II", head[12:20])
+    if not 0 < w <= 65536 or not 0 < h <= 65536:
+        return True
+    block = {b"DXT1": 8, b"DXT3": 16, b"DXT5": 16}.get(head[84:88])
+    return block is not None and size < 128 + ((w + 3) // 4) * ((h + 3) // 4) * block
+
+
 def _encode_argv(base: Path, sidecars: dict, out: Path) -> list[str]:
     size = _dims(base)
     # kram gives a 1x1 texture a second level, which the emulator refuses.
@@ -230,7 +249,8 @@ def _encode_argv(base: Path, sidecars: dict, out: Path) -> list[str]:
 def convert(layout: Layout, out: Path, jobs: int | None = None) -> tuple[int, list[str]]:
     """Encode every texture family under the layout's roots into `out/replacements/`. Returns the count
     encoded and the textures kram could not read (a truncated PNG, say), which are left out as the
-    emulator would skip them; more than a few of those means something else is wrong, and fails."""
+    emulator would skip them. More than a few of those means something else is wrong, and fails,
+    except files plainly broken in the download (empty, say), which do not count."""
     argvs, seen = [], set()
     for root in layout.roots:
         for base, sidecars in _families(root):
@@ -249,14 +269,19 @@ def convert(layout: Layout, out: Path, jobs: int | None = None) -> tuple[int, li
         p = subprocess.run(argv, capture_output=True, text=True, stdin=subprocess.DEVNULL)
         if p.returncode != 0:
             Path(argv[-1]).unlink(missing_ok=True)
+            src = Path(argv[argv.index("-i") + 1])
+            if _broken(src):
+                return f"{src.name}: broken in the download", True
             said = (p.stdout + p.stderr).strip()  # kram prints its errors to stdout
-            return f"{Path(argv[argv.index('-i') + 1]).name} (exit {p.returncode}): {said[-300:]}"
+            return f"{src.name} (exit {p.returncode}): {said[-300:]}", False
         return None
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=jobs or os.cpu_count()) as pool:
-        failed = sorted(f for f in pool.map(one, argvs) if f)
-    if len(failed) > max(MAX_UNREADABLE, len(argvs) // 100):
-        raise RuntimeError(f"kram failed on {len(failed)} of {len(argvs)} textures, first {failed[0]}")
+        results = sorted(f for f in pool.map(one, argvs) if f)
+    failed = [f for f, _ in results]
+    unexplained = [f for f, broken in results if not broken]
+    if len(unexplained) > max(MAX_UNREADABLE, len(argvs) // 100):
+        raise RuntimeError(f"kram failed on {len(unexplained)} of {len(argvs)} textures, first {unexplained[0]}")
     return len(argvs) - len(failed), failed
 
 
