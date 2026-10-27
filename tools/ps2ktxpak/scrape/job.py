@@ -188,7 +188,7 @@ class Job:
             shutil.rmtree(pack_dir / "src", ignore_errors=True)
             layout = self._choose(convert.find_layout(pack_dir / "x"), it)
             dropped = convert.unloadable(layout)
-            count = convert.convert(layout, pack_dir / "out")
+            count, unreadable = convert.convert(layout, pack_dir / "out")
             shutil.rmtree(pack_dir / "x", ignore_errors=True)
             convert.validate(pack_dir / "out", count)
             facts = convert.pack(pack_dir / "out", pack_dir / "pack.tar.zst", count)
@@ -197,6 +197,7 @@ class Job:
             main = max(source["files"], key=lambda f: f["size_bytes"])
             return {"status": "done", "serials_found": layout.serials, "source": source,
                     "left_out": {"count": len(dropped), "examples": dropped[:10]},
+                    "unreadable": {"count": len(unreadable), "examples": unreadable[:10]},
                     "archive": {"container": "tar+zstd", "object": obj, **facts, "created": today(),
                                 "converter": {"tool": "kram", "version": os.environ.get("KRAM_VERSION", ""),
                                               "pipeline": PIPELINE, "params": convert.PARAMS},
@@ -257,8 +258,9 @@ class Job:
         stored = {f["name"]: f for f in record["files"]}
         named = [e for e in entries if e.name]
         whole = len(named) < len(entries)  # a link fetched in one piece (Mega): names unknown until then
-        if (whole and record["files"]) or (named and not whole and all(e.name in stored for e in named)):
-            mine = record["files"] if whole else [stored[e.name] for e in named]
+        sole = len(entries) == 1 and entries[0].sole and len(record["files"]) == 1
+        if sole or (whole and record["files"]) or (named and not whole and all(e.name in stored for e in named)):
+            mine = record["files"] if whole or sole else [stored[e.name] for e in named]
             dest.mkdir(parents=True, exist_ok=True)
             for f in mine:
                 p = self.store._rclone("copyto", self.store._path(f["object"]), str(dest / f["name"]))

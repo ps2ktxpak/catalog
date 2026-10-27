@@ -103,6 +103,7 @@ class Entry:
     name: str             # path inside the link, used as the file name we store
     size: int | None      # None when the host does not say
     get: Callable[[Path, int | None], Path]  # download to this path
+    sole: bool = False    # the link is this one file, though the host would not say its name just now
 
 
 @dataclass
@@ -197,7 +198,10 @@ def gdrive(url: str) -> list[Entry]:
     kind, gid = _gdrive_id(url)
     if kind == "folder":
         return _gdrive_folder(gid, "")
-    return [_curl_entry(_gdrive_name(gid) or gid, None, _gdrive_link(gid))]
+    name = _gdrive_name(gid)  # None while the file is over Google's download quota
+    e = _curl_entry(name or gid, None, _gdrive_link(gid))
+    e.sole = name is None
+    return [e]
 
 
 def _gdrive_name(gid: str) -> str | None:

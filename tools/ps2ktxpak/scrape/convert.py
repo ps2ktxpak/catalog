@@ -37,6 +37,7 @@ TEXTURE_NAME_RE = re.compile(rf"^{_HEX}(-{_HEX})?(-r\d+x\d+|-r{_HEX})?-[0-9a-f]{
 
 MAX_TEXTURE_SIZE = 16384
 MAX_MIP_LEVELS = 7
+MAX_UNREADABLE = 3  # or 1%, whichever is more
 ZSTD_LEVEL = 19
 ZSTD_LONG = 27
 PARAMS = ("astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; "
@@ -224,8 +225,10 @@ def _encode_argv(base: Path, sidecars: dict, out: Path) -> list[str]:
     return argv + ["-f", "astc6x6", "-quality", "98", "-o", str(out)]
 
 
-def convert(layout: Layout, out: Path, jobs: int | None = None) -> int:
-    """Encode every texture family under the layout's roots into `out/replacements/`. Returns the count."""
+def convert(layout: Layout, out: Path, jobs: int | None = None) -> tuple[int, list[str]]:
+    """Encode every texture family under the layout's roots into `out/replacements/`. Returns the count
+    encoded and the textures kram could not read (a truncated PNG, say), which are left out as the
+    emulator would skip them; more than a few of those means something else is wrong, and fails."""
     argvs, seen = [], set()
     for root in layout.roots:
         for base, sidecars in _families(root):
@@ -243,13 +246,16 @@ def convert(layout: Layout, out: Path, jobs: int | None = None) -> int:
     def one(argv):
         p = subprocess.run(argv, capture_output=True, text=True, stdin=subprocess.DEVNULL)
         if p.returncode != 0:
+            Path(argv[-1]).unlink(missing_ok=True)
             said = (p.stdout + p.stderr).strip()  # kram prints its errors to stdout
-            raise RuntimeError(f"kram failed on {Path(argv[-1]).name} (exit {p.returncode}): {said[-300:]}")
+            return f"{Path(argv[argv.index('-i') + 1]).name} (exit {p.returncode}): {said[-300:]}"
+        return None
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=jobs or os.cpu_count()) as pool:
-        for fut in concurrent.futures.as_completed([pool.submit(one, a) for a in argvs]):
-            fut.result()
-    return len(argvs)
+        failed = sorted(f for f in pool.map(one, argvs) if f)
+    if len(failed) > max(MAX_UNREADABLE, len(argvs) // 100):
+        raise RuntimeError(f"kram failed on {len(failed)} of {len(argvs)} textures, first {failed[0]}")
+    return len(argvs) - len(failed), failed
 
 
 def validate(out: Path, count: int) -> None:

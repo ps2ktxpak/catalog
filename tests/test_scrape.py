@@ -137,6 +137,24 @@ def test_pruning_a_converted_pack_takes_out_what_conversion_now_leaves_out(tmp_p
     assert [p for p in tmp_path.rglob("*")] == [tmp_path / "replacements", keep]
 
 
+def test_a_few_unreadable_textures_are_left_out_but_many_fail_the_pack(tmp_path, monkeypatch):
+    kram = tmp_path / "kram"  # stands in for kram: refuses files whose name holds "bad"
+    kram.write_text('#!/bin/sh\ncase "$3" in *bad*) exit 1;; esac\nfor a; do o="$a"; done\n: > "$o"\n')
+    kram.chmod(0o755)
+    monkeypatch.setattr(convert, "KRAM", str(kram))
+    names = [f"{i:x}-00001993" for i in range(20)] + ["bad1-00001993", "bad2-00001993"]
+    for n in names:
+        png(tmp_path / "in" / "replacements" / f"{n}.png", 64, 64)
+    layout = convert.find_layout(tmp_path / "in")
+    count, unreadable = convert.convert(layout, tmp_path / "out")
+    assert count == 20 and [u.split()[0] for u in unreadable] == ["bad1-00001993.png", "bad2-00001993.png"]
+    assert not (tmp_path / "out" / "replacements" / "bad1-00001993.ktx").exists()
+    for n in ["bad3-00001993", "bad4-00001993"]:
+        png(tmp_path / "in" / "replacements" / f"{n}.png", 64, 64)
+    with pytest.raises(RuntimeError, match="4 of 24"):
+        convert.convert(layout, tmp_path / "out2")
+
+
 def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):
     base = tmp_path / "a-00001993.png"
     png(base, 512, 256)
