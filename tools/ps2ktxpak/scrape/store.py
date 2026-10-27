@@ -4,7 +4,8 @@ Layout:
   sources/<url id>/<file>     what the host served, byte for byte, once per download link
   packs/<key>.tar.zst         the converted archive, under the object name the catalog will use
   results/<key>.json          what happened to each pack (see job.Result)
-  results/index.json          every result in one file, for `ps2ktxpak scrape apply`
+  results/index-<shard>.json  every result in one file, for `ps2ktxpak scrape apply`
+  withdrawn/packs/<object>    a hosted pack taken off the public bucket when withdrawn, kept as it was
 """
 from __future__ import annotations
 
