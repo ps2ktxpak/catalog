@@ -166,6 +166,15 @@ def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):
     assert "-mip" not in convert._encode_argv(base, good, tmp_path / "a.ktx")
 
 
+def test_a_1x1_texture_gets_one_level(tmp_path):
+    base = tmp_path / "a-00001993.png"
+    png(base, 1, 1)
+    mip = tmp_path / "a-00001993-mip1.png"
+    png(mip, 1, 1)
+    argv = convert._encode_argv(base, {1: mip}, tmp_path / "a.ktx")
+    assert argv[argv.index("-mipcount") + 1] == "1" and "-mip" not in argv
+
+
 def test_a_pack_that_failed_too_often_is_retried_only_when_named():
     r = {"status": "failed", "attempts": job.MAX_ATTEMPTS}
     assert not job.Job._again(r) and job.Job._again(r, retry=True)

@@ -207,15 +207,17 @@ def _dims(p: Path) -> tuple[int, int] | None:
 
 
 def _encode_argv(base: Path, sidecars: dict, out: Path) -> list[str]:
+    size = _dims(base)
+    # kram gives a 1x1 texture a second level, which the emulator refuses.
+    mips = 1 if size == (1, 1) else MAX_MIP_LEVELS
     generated = [KRAM, "encode", "-i", str(base), "-f", "astc6x6", "-quality", "98",
-                 "-mipcount", str(MAX_MIP_LEVELS), "-o", str(out)]
-    if not sidecars:
+                 "-mipcount", str(mips), "-o", str(out)]
+    if not sidecars or mips == 1:
         return generated
     count = max(sidecars) + 1
     if count > MAX_MIP_LEVELS or any(level not in sidecars for level in range(1, count)):
         return generated  # an unusable chain of mip files: make the mips from the base instead
     # Some packs ship full-size copies as their mip files, which kram refuses.
-    size = _dims(base)
     if size is None or any(_dims(sidecars[level]) != (max(1, size[0] >> level), max(1, size[1] >> level))
                            for level in range(1, count)):
         return generated
