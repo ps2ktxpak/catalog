@@ -105,6 +105,18 @@ already has from the bucket instead of the host. A pack converted under an older
 is redone without encoding again: its files the emulator never loads are taken out of the finished
 pack.
 
+## Hosts that refuse the containers
+
+Google Drive answers "quota exceeded" to downloads from Cloudflare's addresses while the same files
+download from elsewhere (checked 2026-10-26: nine of nine). Fetch those packs from another machine
+into the same bucket, after the containers' run, naming them so the attempt limit does not apply:
+
+```sh
+# kram, validate_ktx, 7zz, zstd and rclone on PATH (or KRAM=, VALIDATE_KTX=, SEVEN_ZIP=),
+# and RCLONE_CONFIG_R2_* for the bucket, as entry.sh sets them
+ps2ktxpak scrape job --store r2:ps2ktxpak-scrape --only <pack key> ...
+```
+
 ## Running
 
 ```sh
