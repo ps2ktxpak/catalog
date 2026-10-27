@@ -20,10 +20,13 @@ sources:
   primary: false
   note: the catalog's original link
 permission:
-  kind: unknown
-  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+  kind: revoked
+  date: '2026-10-26'
+  note: The creator does not want any of their packs hosted.
 hosting:
-  state: published
+  state: withdrawn
+  reason: The creator does not want any of their packs hosted.
+  since: '2026-10-26'
 archive:
   current: 1
   versions:
