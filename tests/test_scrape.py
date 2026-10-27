@@ -138,6 +138,11 @@ def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):
     assert "-mip" not in convert._encode_argv(base, good, tmp_path / "a.ktx")
 
 
+def test_a_resumed_job_reads_pack_results_but_not_the_shard_indexes():
+    assert job.is_result("results/jak-2-renegade-marcelus.json")
+    assert not job.is_result("results/index-0.json")
+
+
 def test_only_the_first_volume_of_a_split_archive_is_opened():
     assert convert.is_archive(convert.Path("p.part1.rar")) and not convert.is_archive(convert.Path("p.part2.rar"))
     assert convert.is_archive(convert.Path("p.7z.001")) and not convert.is_archive(convert.Path("p.7z.002"))

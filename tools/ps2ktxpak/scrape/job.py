@@ -41,6 +41,12 @@ def _mem_kib() -> int | None:
         return None
 
 
+def is_result(key: str) -> bool:
+    """A pack's `results/<key>.json`, not a shard's `results/index-<i>.json` of all of them."""
+    name = key.rsplit("/", 1)[-1]
+    return name.endswith(".json") and not name.startswith("index-")
+
+
 def url_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()[:16]
 
@@ -122,7 +128,7 @@ class Job:
     def run(self, items: list[Item], skipped: dict) -> dict:
         results = {}
         for key in self.store.list("results"):
-            if key.endswith(".json") and not key.endswith("/index.json"):
+            if is_result(key):
                 if r := self.store.get_json(key):
                     results[r["key"]] = r
         for k, r in skipped.items():
