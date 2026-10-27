@@ -28,12 +28,18 @@ LATER_VOLUME_RE = re.compile(r"\.(part0*[2-9]\d*\.rar|part0*1\d+\.rar|r\d\d|z\d\
 FIRST_VOLUME_RE = re.compile(r"\.(7z|zip)\.0*1$", re.I)
 SERIAL_RE = re.compile(r"^(S[CL][A-Z]{2}|PBP[XS]|PAPX|SCAJ|SCKA|TCES|TCPS|TLES)[-_]?\d{3}\.?\d{2}$", re.I)
 MIP_RE = re.compile(r"-mip(\d+)$", re.I)
+# The names the emulator loads (GSTextureReplacements::ParseReplacementName): TEX0 hash, optional CLUT hash,
+# optional region (`r<w>x<h>`, or the old `r<hex>`), then the format bits. Anything else in a pack (a creator's
+# working art, "… - Copy" duplicates, previews) is never loaded, so it is left out.
+_HEX = r"[0-9a-f]{1,16}"
+TEXTURE_NAME_RE = re.compile(rf"^{_HEX}(-{_HEX})?(-r\d+x\d+|-r{_HEX})?-[0-9a-f]{{1,8}}$", re.I)
 
 MAX_TEXTURE_SIZE = 16384
 MAX_MIP_LEVELS = 7
 ZSTD_LEVEL = 19
 ZSTD_LONG = 27
-PARAMS = "astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27"
+PARAMS = ("astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; "
+          "only files named as the emulator loads them")
 
 
 class NeedsChoice(Exception):
@@ -134,10 +140,19 @@ def _serials_above(tree: Path, files: list[Path]) -> list[str]:
 
 # ---- converting ---------------------------------------------------------------------------------
 
+def loadable(p: Path) -> bool:
+    return bool(TEXTURE_NAME_RE.match(MIP_RE.sub("", p.stem)))
+
+
+def unloadable(layout: Layout) -> list[str]:
+    """The textures in the layout the emulator would never load, which `convert` leaves out."""
+    return sorted(str(p.relative_to(root)) for root in layout.roots for p in _textures(root) if not loadable(p))
+
+
 def _families(root: Path) -> list[tuple[Path, dict]]:
     by_stem: dict = {}
     for p in sorted(root.rglob("*")):
-        if p.is_file() and p.suffix.lower() in TEXTURE_EXTS:
+        if p.is_file() and p.suffix.lower() in TEXTURE_EXTS and loadable(p):
             by_stem.setdefault((p.parent, MIP_RE.sub("", p.stem).lower()), []).append(p)
     families = []
     for files in by_stem.values():
@@ -177,7 +192,7 @@ def convert(layout: Layout, out: Path, jobs: int | None = None) -> int:
             dest.parent.mkdir(parents=True, exist_ok=True)
             argvs.append(_encode_argv(base, sidecars, dest))
     if not argvs:
-        raise Empty("no texture could be converted")
+        raise Empty("no texture is named the way the emulator loads them")
 
     def one(argv):
         p = subprocess.run(argv, capture_output=True, text=True, stdin=subprocess.DEVNULL)

@@ -34,6 +34,13 @@ def today() -> str:
     return dt.date.today().isoformat()
 
 
+def _mem_kib() -> int | None:
+    try:
+        return int(Path("/proc/meminfo").read_text().split()[1])
+    except (OSError, IndexError, ValueError):
+        return None
+
+
 def url_id(url: str) -> str:
     return hashlib.sha256(url.encode()).hexdigest()[:16]
 
@@ -85,7 +92,8 @@ class Job:
         self.store, self.work = store, work
         self.max_source_bytes = max_source_bytes
         self.shard, self.only = shard, set(only or [])
-        self.status = {"state": "starting", "started": time.time(), "counts": {}, "current": None, "last_error": None}
+        self.status = {"state": "starting", "started": time.time(), "counts": {}, "current": None, "last_error": None,
+                       "cpus": os.cpu_count(), "usable_cpus": len(os.sched_getaffinity(0)), "mem_kib": _mem_kib()}
         self._sources: dict = {}  # url -> the files we hold from it, for packs sharing one link
         self._last_source = None
 
@@ -124,8 +132,7 @@ class Job:
 
         mine = [it for it in items if int(url_id(it.url), 16) % self.shard[1] == self.shard[0]
                 and (not self.only or it.key in self.only)]
-        todo = [it for it in mine if results.get(it.key, {}).get("status") not in FINAL
-                and results.get(it.key, {}).get("attempts", 0) < MAX_ATTEMPTS]
+        todo = [it for it in mine if self._again(results.get(it.key, {}))]
         self.status.update(state="running", total=len(mine), todo=len(todo))
         self.log(f"{len(mine)} packs in this shard, {len(todo)} to do")
         for n, it in enumerate(todo, 1):
@@ -146,6 +153,14 @@ class Job:
         self.status.update(state="finished", current=None, finished=time.time())
         return results
 
+    @staticmethod
+    def _again(r: dict) -> bool:
+        """Whether a pack still needs doing: never tried, failed fewer than MAX_ATTEMPTS times, or
+        converted with other parameters than this image's (its download is reused from the bucket)."""
+        if r.get("status") == "done":
+            return r["archive"]["converter"]["params"] != convert.PARAMS
+        return r.get("status") not in FINAL and r.get("attempts", 0) < MAX_ATTEMPTS
+
     def process(self, it: Item) -> dict:
         if it.sheet_size and it.sheet_size > self.max_source_bytes:
             return {"status": "too_large", "detail": f"listed at {it.sheet_size} bytes; this run keeps under {self.max_source_bytes}"}
@@ -158,6 +173,7 @@ class Job:
             convert.unpack(files, pack_dir / "x")
             shutil.rmtree(pack_dir / "src", ignore_errors=True)
             layout = self._choose(convert.find_layout(pack_dir / "x"), it)
+            dropped = convert.unloadable(layout)
             count = convert.convert(layout, pack_dir / "out")
             shutil.rmtree(pack_dir / "x", ignore_errors=True)
             convert.validate(pack_dir / "out", count)
@@ -166,6 +182,7 @@ class Job:
             self.store.put(pack_dir / "pack.tar.zst", obj)
             main = max(source["files"], key=lambda f: f["size_bytes"])
             return {"status": "done", "serials_found": layout.serials, "source": source,
+                    "left_out": {"count": len(dropped), "examples": dropped[:10]},
                     "archive": {"container": "tar+zstd", "object": obj, **facts, "created": today(),
                                 "converter": {"tool": "kram", "version": os.environ.get("KRAM_VERSION", ""),
                                               "pipeline": PIPELINE, "params": convert.PARAMS},
