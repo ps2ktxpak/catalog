@@ -53,7 +53,9 @@ def get_json(url: str, **kw):
 def curl(url: str, dest: Path, limit: int | None = None, headers: dict | None = None) -> Path:
     """Download one URL to `dest` (a file path), resuming a partial file."""
     dest.parent.mkdir(parents=True, exist_ok=True)
+    # A download slower than 10 kB/s for five minutes is given up, and resumed by the retry.
     argv = ["curl", "-sS", "-L", "--fail-with-body", "--retry", "5", "--retry-delay", "10",
+            "--speed-limit", "10240", "--speed-time", "300",
             "-A", UA, "-C", "-", "-o", str(dest), "-w", "%{content_type} %{http_code}"]
     if limit:
         argv += ["--max-filesize", str(limit)]
