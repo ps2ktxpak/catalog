@@ -194,6 +194,8 @@ class Job:
             return {"status": "unsupported", "detail": str(e)}
         except hosts.TooLarge as e:
             return {"status": "too_large", "detail": str(e)}
+        except convert.NoRoom as e:
+            return {"status": "too_large", "detail": str(e), **self._source_of(it)}
         except convert.Empty as e:
             return {"status": "empty", "detail": str(e), **self._source_of(it)}
         except convert.NeedsChoice as e:

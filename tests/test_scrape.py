@@ -122,6 +122,22 @@ def test_only_files_the_emulator_loads_are_converted(tmp_path):
     assert convert.unloadable(layout) == sorted(drop)
 
 
+def png(path, w, h):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(b"\x89PNG\r\n\x1a\n\0\0\0\rIHDR" + w.to_bytes(4, "big") + h.to_bytes(4, "big"))
+
+
+def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):
+    base = tmp_path / "a-00001993.png"
+    png(base, 512, 256)
+    good = {1: tmp_path / "a-00001993-mip1.png", 2: tmp_path / "a-00001993-mip2.png"}
+    png(good[1], 256, 128)
+    png(good[2], 128, 64)
+    assert "-mip" in convert._encode_argv(base, good, tmp_path / "a.ktx")
+    png(good[2], 512, 256)  # a full-size copy, as one pack ships
+    assert "-mip" not in convert._encode_argv(base, good, tmp_path / "a.ktx")
+
+
 def test_only_the_first_volume_of_a_split_archive_is_opened():
     assert convert.is_archive(convert.Path("p.part1.rar")) and not convert.is_archive(convert.Path("p.part2.rar"))
     assert convert.is_archive(convert.Path("p.7z.001")) and not convert.is_archive(convert.Path("p.7z.002"))

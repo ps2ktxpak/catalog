@@ -11,6 +11,7 @@ import hashlib
 import os
 import re
 import shutil
+import struct
 import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -50,6 +51,10 @@ class Empty(Exception):
     """No textures we can convert."""
 
 
+class NoRoom(Exception):
+    """Extracted, the download does not fit on the disk."""
+
+
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -69,6 +74,8 @@ def extract(archive: Path, dest: Path) -> None:
     p = subprocess.run([SEVEN_ZIP, "x", "-y", "-bd", "-bso0", "-bsp0", f"-o{dest}", str(archive)],
                        capture_output=True, text=True, stdin=subprocess.DEVNULL)
     if p.returncode not in (0, 1):  # 1 is a warning (for example a file it skipped)
+        if "errno=28" in p.stderr:
+            raise NoRoom(f"{archive.name} does not fit on the disk extracted")
         raise RuntimeError(f"7-Zip could not extract {archive.name}: {p.stderr.strip()[-300:]}")
 
 
@@ -164,6 +171,18 @@ def _families(root: Path) -> list[tuple[Path, dict]]:
     return families
 
 
+def _dims(p: Path) -> tuple[int, int] | None:
+    """A PNG's or DDS's width and height, from its header."""
+    with open(p, "rb") as f:
+        head = f.read(24)
+    if head[:8] == b"\x89PNG\r\n\x1a\n" and len(head) == 24:
+        return struct.unpack(">II", head[16:24])
+    if head[:4] == b"DDS " and len(head) >= 20:
+        h, w = struct.unpack("<II", head[12:20])
+        return w, h
+    return None
+
+
 def _encode_argv(base: Path, sidecars: dict, out: Path) -> list[str]:
     generated = [KRAM, "encode", "-i", str(base), "-f", "astc6x6", "-quality", "98",
                  "-mipcount", str(MAX_MIP_LEVELS), "-o", str(out)]
@@ -172,6 +191,11 @@ def _encode_argv(base: Path, sidecars: dict, out: Path) -> list[str]:
     count = max(sidecars) + 1
     if count > MAX_MIP_LEVELS or any(level not in sidecars for level in range(1, count)):
         return generated  # an unusable chain of mip files: make the mips from the base instead
+    # Some packs ship full-size copies as their mip files, which kram refuses.
+    size = _dims(base)
+    if size is None or any(_dims(sidecars[level]) != (max(1, size[0] >> level), max(1, size[1] >> level))
+                           for level in range(1, count)):
+        return generated
     argv = [KRAM, "encode", "-i", str(base)]
     for level in range(1, count):
         argv += ["-mip", str(level), str(sidecars[level])]
@@ -197,7 +221,8 @@ def convert(layout: Layout, out: Path, jobs: int | None = None) -> int:
     def one(argv):
         p = subprocess.run(argv, capture_output=True, text=True, stdin=subprocess.DEVNULL)
         if p.returncode != 0:
-            raise RuntimeError(f"kram failed on {Path(argv[-1]).name} (exit {p.returncode}): {p.stderr.strip()[-300:]}")
+            said = (p.stdout + p.stderr).strip()  # kram prints its errors to stdout
+            raise RuntimeError(f"kram failed on {Path(argv[-1]).name} (exit {p.returncode}): {said[-300:]}")
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=jobs or os.cpu_count()) as pool:
         for fut in concurrent.futures.as_completed([pool.submit(one, a) for a in argvs]):
