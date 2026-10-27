@@ -31,7 +31,8 @@ export class Scraper extends Container<Env> {
 
 	async end(): Promise<void> {
 		await this.ctx.storage.delete('wanted');
-		await this.stop();
+		// SIGKILL: the job may be in the middle of a pack, and only finished packs are recorded.
+		await this.destroy();
 	}
 
 	// The shard's own status, or why there is none. Only the cron passes `act`: it restarts a shard
