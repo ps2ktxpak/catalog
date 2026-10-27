@@ -11,7 +11,7 @@
 	"containers": [
 		{
 			"class_name": "Scraper",
-			"image": "registry.cloudflare.com/ps2ktxpak-scraper:5c6d7ff",
+			"image": "registry.cloudflare.com/ps2ktxpak-scraper:d33acad",
 			// 4 vCPU, 12 GiB, 20 GB disk: the largest there is. Disk decides which packs fit.
 			"instance_type": "standard-4",
 			"max_instances": 8

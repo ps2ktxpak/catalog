@@ -86,19 +86,24 @@ Then:
 ## Deploying
 
 The image is built for x86-64 by `.github/workflows/scraper-image.yml` on every push that changes
-it, and kept as that run's `scraper-image` artifact. Push it to Cloudflare's registry and point the
-Worker at it:
+it, and kept as that run's `scraper-image` artifact. `deploy.sh` waits for the build of the current
+commit, pushes the image to Cloudflare's registry, stops the shards, deploys the Worker pointing at
+it and starts the run again (its header lists the settings it needs). Commit the `wrangler.jsonc`
+it changes.
 
-```sh
-gh run download <run id> -n scraper-image -D /tmp/scraper-image
-podman load -i /tmp/scraper-image/scraper-image.tar                     # ps2ktxpak-scraper:<commit>
-npx wrangler containers push --path-to-docker podman ps2ktxpak-scraper:<commit>
-# set "image" in wrangler.jsonc to registry.cloudflare.com/ps2ktxpak-scraper:<commit>, then
-npx wrangler deploy
-```
+Deploy only when stopping is acceptable: the packs in progress start over.
 
 On an x86-64 machine with Docker, `"image": "./Dockerfile"` with `"image_build_context": ".."`
 and a plain `wrangler deploy` build it locally instead.
+
+## Resuming
+
+Every pack's result is written to the bucket as soon as it ends, and every download is kept there.
+A shard that starts again (after `/stop`, a deploy, or Cloudflare restarting its container) skips
+what has a final result, retries a failure up to three times in all, and takes a download it
+already has from the bucket instead of the host. A pack converted under an older `convert.PARAMS`
+is redone without encoding again: its files the emulator never loads are taken out of the finished
+pack.
 
 ## Running
 
