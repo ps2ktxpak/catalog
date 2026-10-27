@@ -25,7 +25,7 @@ from .store import Store
 
 PIPELINE = "ps2ktxpak scrape"
 # Final: trying again changes nothing until a person changes the pack's record.
-FINAL = {"done", "gone", "unsupported", "empty", "needs_choice", "too_large", "paid"}
+FINAL = {"done", "gone", "unsupported", "empty", "needs_choice", "too_large", "paid", "revoked"}
 MAX_ATTEMPTS = 3
 SKIP_HOSTS = {"kofi"}  # a Ko-fi shop item is a checkout, never a download
 
@@ -82,7 +82,9 @@ def plan(packs, creators, rows: list) -> tuple[list[Item], dict]:
     for url, keys in sorted(by_url.items()):
         for k in keys:
             p = packs[k]
-            if p.get("access", {}).get("cost") == "paid" or k in paywall:
+            if p.get("permission", {}).get("kind") == "revoked":
+                skipped[k] = {"status": "revoked", "detail": "the creator does not want it hosted"}
+            elif p.get("access", {}).get("cost") == "paid" or k in paywall:
                 skipped[k] = {"status": "paid", "detail": "the creator charges for this pack"}
             elif p["download"].get("host") in SKIP_HOSTS:
                 skipped[k] = {"status": "unsupported", "detail": "a shop checkout, not a download"}

@@ -55,6 +55,9 @@ def apply(results: dict) -> dict:
         pack = load_yaml(path)
         status = r["status"]
         if status == "done":
+            if pack.get("permission", {}).get("kind") == "revoked":
+                report.setdefault("converted, but the creator does not want it hosted; left alone", []).append(key)
+                continue
             if pack.get("archive") or pack.get("hosting", {}).get("state") != "listed":
                 report.setdefault("converted, but the pack changed since; left alone", []).append(key)
                 continue

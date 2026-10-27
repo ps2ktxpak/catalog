@@ -179,11 +179,12 @@ def test_only_the_first_volume_of_a_split_archive_is_opened():
 def test_paid_packs_and_shop_links_are_never_fetched():
     packs = [pack("free-dev1", "Free"), pack("paid-dev1", "Paid", access={"cost": "paid"}),
              pack("shop-dev1", "Shop", download={"status": "resolved", "url": "https://ko-fi.com/s/x", "host": "kofi"}),
-             pack("row-paid-dev1", "Row Paid")]
+             pack("row-paid-dev1", "Row Paid"), pack("revoked-dev1", "Revoked", permission={"kind": "revoked"})]
     rows = [sheet.Row(row=2, title="Row Paid", download=THREAD, author="Dev One", restriction="Paywall")]
     items, skipped = job.plan(packs, [CREATOR], rows)
     assert [i.key for i in items] == ["free-dev1"]
-    assert {k: r["status"] for k, r in skipped.items()} == {"paid-dev1": "paid", "row-paid-dev1": "paid", "shop-dev1": "unsupported"}
+    assert {k: r["status"] for k, r in skipped.items()} == {"paid-dev1": "paid", "row-paid-dev1": "paid", "shop-dev1": "unsupported",
+                                                          "revoked-dev1": "revoked"}
 
 
 @pytest.fixture
@@ -215,6 +216,12 @@ def test_a_pack_someone_changed_is_left_alone(packs_dir):
     report = A.apply({"game-a-dev1": DONE})
     assert (packs_dir / "game-a-dev1.yaml").read_text() == before
     assert "game-a-dev1" in next(iter(report.values()))
+
+
+def test_a_pack_whose_creator_revoked_permission_is_never_withheld(packs_dir):
+    write_yaml(packs_dir / "game-a-dev1.yaml", pack("game-a-dev1", "Game A", permission={"kind": "revoked"}))
+    report = A.apply({"game-a-dev1": DONE})
+    assert "archive" not in load_yaml(packs_dir / "game-a-dev1.yaml") and "game-a-dev1" in str(report)
 
 
 def test_a_gone_link_is_marked_dead(packs_dir):

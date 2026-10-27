@@ -214,5 +214,5 @@ def test_every_pack_is_one_file_and_the_listed_ones_carry_no_hosting_facts():
     d = validate.load_all()
     for fn, p in d["packs"].items():
         assert fn == p["key"] + ".yaml"
-        if p["hosting"]["state"] == "listed":
-            assert "archive" not in p and "permission" not in p
+        if p["hosting"]["state"] == "listed":  # the only permission one may carry is the creator's no
+            assert "archive" not in p and p.get("permission", {"kind": "revoked"})["kind"] == "revoked"
