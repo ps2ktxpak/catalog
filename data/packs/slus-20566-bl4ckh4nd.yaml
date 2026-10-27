@@ -8,8 +8,8 @@ game:
 credits:
 - creator: bl4ckh4nd
 - creator: cckrizalid
-type: unknown
-completeness: unknown
+type: ai_upscale
+completeness: complete
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
 version: Two-version public source snapshot
 sources:
