@@ -28,6 +28,10 @@ media:
     id: tSfA0qQtKLw
   - provider: youtube
     id: -vJ_8fcf7dw
+permission:
+  kind: revoked
+  date: '2026-10-26'
+  note: The creator does not want any of their packs hosted.
 hosting:
   state: listed
   reason: Creator distributes the pack via Ko-fi; third-party hosting is not authorized.

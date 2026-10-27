@@ -14,6 +14,10 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: revoked
+  date: '2026-10-26'
+  note: The creator does not want any of their packs hosted.
 hosting:
   state: withdrawn
   reason: Duplicate of spartan-total-warrior-el-jefe-gaming, the creator's own record of this pack.
