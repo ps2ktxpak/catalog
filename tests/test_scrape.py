@@ -127,6 +127,16 @@ def png(path, w, h):
     path.write_bytes(b"\x89PNG\r\n\x1a\n\0\0\0\rIHDR" + w.to_bytes(4, "big") + h.to_bytes(4, "big"))
 
 
+def test_pruning_a_converted_pack_takes_out_what_conversion_now_leaves_out(tmp_path):
+    keep = tmp_path / "replacements" / "b327f87ac0294386-00002a80.ktx"
+    for p in [keep, tmp_path / "replacements" / "hud" / "hud-arrow-right-01.ktx",
+              tmp_path / "replacements" / "b327f87ac0294386-00002a80 - Copy.ktx"]:
+        touch(p)
+    assert convert.prune(tmp_path) == ["replacements/b327f87ac0294386-00002a80 - Copy.ktx",
+                                       "replacements/hud/hud-arrow-right-01.ktx"]
+    assert [p for p in tmp_path.rglob("*")] == [tmp_path / "replacements", keep]
+
+
 def test_mip_files_of_the_wrong_size_are_replaced_by_generated_mips(tmp_path):
     base = tmp_path / "a-00001993.png"
     png(base, 512, 256)

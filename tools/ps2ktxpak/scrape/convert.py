@@ -156,6 +156,28 @@ def unloadable(layout: Layout) -> list[str]:
     return sorted(str(p.relative_to(root)) for root in layout.roots for p in _textures(root) if not loadable(p))
 
 
+def prune(out: Path) -> list[str]:
+    """Delete the KTX files under `out` the emulator would never load: what `convert` now leaves out,
+    applied to a pack converted before it did. Returns them."""
+    dropped = sorted(p for p in out.rglob("*.ktx") if not loadable(p))
+    for p in dropped:
+        p.unlink()
+    for d in sorted((d for d in out.rglob("*") if d.is_dir()), key=lambda d: len(d.parts), reverse=True):
+        if not any(d.iterdir()):
+            d.rmdir()
+    return [str(p.relative_to(out)) for p in dropped]
+
+
+def unpack_archive(archive: Path, out: Path) -> None:
+    out.mkdir(parents=True, exist_ok=True)
+    with open(archive, "rb") as f:
+        zstd = subprocess.Popen(["zstd", "-q", "-d", f"--long={ZSTD_LONG}", "-c"], stdin=f, stdout=subprocess.PIPE)
+        tar = subprocess.run(["tar", "-x", "-C", str(out)], stdin=zstd.stdout, capture_output=True)
+        zstd.stdout.close()
+        if zstd.wait() or tar.returncode:
+            raise RuntimeError(f"could not unpack {archive.name}: {tar.stderr.decode()[-200:]}")
+
+
 def _families(root: Path) -> list[tuple[Path, dict]]:
     by_stem: dict = {}
     for p in sorted(root.rglob("*")):

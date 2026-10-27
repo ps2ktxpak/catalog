@@ -144,7 +144,7 @@ class Job:
         for n, it in enumerate(todo, 1):
             self.status.update(current=it.key, position=n)
             prev = results.get(it.key, {})
-            r = self.process(it)
+            r = self.process(it, prev)
             r.update(key=it.key, updated=today(), download_url=it.url,
                      attempts=prev.get("attempts", 0) + (0 if r["status"] in FINAL else 1))
             results[it.key] = r
@@ -162,12 +162,20 @@ class Job:
     @staticmethod
     def _again(r: dict) -> bool:
         """Whether a pack still needs doing: never tried, failed fewer than MAX_ATTEMPTS times, or
-        converted with other parameters than this image's (its download is reused from the bucket)."""
+        converted before the files the emulator never loads were left out (see `prune`)."""
         if r.get("status") == "done":
             return r["archive"]["converter"]["params"] != convert.PARAMS
         return r.get("status") not in FINAL and r.get("attempts", 0) < MAX_ATTEMPTS
 
-    def process(self, it: Item) -> dict:
+    def process(self, it: Item, prev: dict) -> dict:
+        if prev.get("status") == "done":
+            try:
+                return self.prune(it, prev)
+            except Exception as e:
+                self.log(traceback.format_exc())
+                return {**prev, "status": "failed", "detail": f"pruning: {type(e).__name__}: {e}"}
+            finally:
+                shutil.rmtree(self.work / it.key, ignore_errors=True)
         if it.sheet_size and it.sheet_size > self.max_source_bytes:
             return {"status": "too_large", "detail": f"listed at {it.sheet_size} bytes; this run keeps under {self.max_source_bytes}"}
         pack_dir = self.work / it.key
@@ -211,6 +219,30 @@ class Job:
             return {"status": "failed", "detail": f"{type(e).__name__}: {e}", **self._source_of(it)}
         finally:
             shutil.rmtree(pack_dir, ignore_errors=True)
+
+    def prune(self, it: Item, prev: dict) -> dict:
+        """Take the files the emulator never loads out of a pack converted before `convert` left them
+        out. Its textures are the same either way, so this repacks instead of encoding again."""
+        old = prev["archive"]
+        pack_dir = self.work / it.key
+        shutil.rmtree(pack_dir, ignore_errors=True)
+        pack_dir.mkdir(parents=True)
+        p = self.store._rclone("copyto", self.store._path(old["object"]), str(pack_dir / "old.tar.zst"))
+        if p.returncode:
+            raise RuntimeError(f"could not fetch {old['object']}: {p.stderr.decode()[-200:]}")
+        convert.unpack_archive(pack_dir / "old.tar.zst", pack_dir / "out")
+        dropped = convert.prune(pack_dir / "out")
+        archive = {**old, "converter": {**old["converter"], "params": convert.PARAMS}}
+        if dropped:
+            count = old["file_count"] - len(dropped)
+            if count <= 0:
+                raise convert.Empty("no texture is named the way the emulator loads them")
+            convert.validate(pack_dir / "out", count)
+            facts = convert.pack(pack_dir / "out", pack_dir / "pack.tar.zst", count)
+            self.store.put(pack_dir / "pack.tar.zst", old["object"])
+            archive.update(facts, created=today())
+        return {**prev, "status": "done", "archive": archive,
+                "left_out": {"count": len(dropped), "examples": dropped[:10]}}
 
     def _source_of(self, it: Item) -> dict:
         return {"source": self._last_source} if self._last_source else {}
