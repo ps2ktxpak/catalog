@@ -1,5 +1,5 @@
 #!/bin/sh
-# Deploy the image the scraper-image workflow built from the current commit of main, and restart the run.
+# Deploy the image the scraper-image workflow built from main, and restart the run.
 #   SCRAPER_URL   the Worker's URL
 #   RUN_TOKEN     the Worker's RUN_TOKEN secret
 #   CLOUDFLARE_ACCOUNT_ID, and a `wrangler login`
@@ -8,10 +8,14 @@ set -eu
 cd "$(dirname "$0")"
 : "${SCRAPER_URL:?}" "${RUN_TOKEN:?}" "${CLOUDFLARE_ACCOUNT_ID:?}"
 
-full=$(git rev-parse HEAD)
-tag=$(git rev-parse --short=7 HEAD)
-run=$(gh run list -w "scraper image" -c "$full" -L 1 --json databaseId -q '.[0].databaseId')
-[ -n "$run" ] || { echo "no scraper-image build for $tag" >&2; exit 1; }
+# The newest build on main, named for the push's head commit. A push of data only builds nothing, so
+# check that the build holds the newest commit that changed the image (the workflow's paths).
+changed=$(git log -1 --format=%H -- Dockerfile entry.sh validate_ktx.cpp ../tools ../pyproject.toml)
+set -- $(gh run list -w "scraper image" -b main -L 1 --json databaseId,headSha -q '.[0] | "\(.databaseId) \(.headSha)"')
+run=${1:-} full=${2:-}
+[ -n "$run" ] && git merge-base --is-ancestor "$changed" "$full" ||
+	{ echo "no scraper-image build holds $(git rev-parse --short=7 "$changed") yet" >&2; exit 1; }
+tag=$(git rev-parse --short=7 "$full")
 gh run watch "$run" --exit-status > /dev/null
 
 dir=$(mktemp -d)
