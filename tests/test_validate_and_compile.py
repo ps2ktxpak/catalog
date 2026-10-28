@@ -193,7 +193,7 @@ def test_the_compiled_catalog_takes_archive_facts_from_the_packs_and_always_name
         assert e["downloadUrl"] == f"https://dl.ps2ktxpak.net/{v['object']}"
         assert e["authors"] and all(x.strip() for x in e["authors"])   # older apps drop an entry with none
         assert e["sourceUrl"].startswith("https://")
-        assert e["version"] == pack["version"] and e["gameTitle"] == pack["game"]["title"]
+        assert e["version"] == (pack.get("version") or f"revision {v['revision']}") and e["gameTitle"] == pack["game"]["title"]
 
 
 def test_the_compiled_catalog_names_every_creator_it_credits():

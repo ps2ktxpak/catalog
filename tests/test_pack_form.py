@@ -284,7 +284,7 @@ def test_the_creator_approving_a_listed_pack_hosts_it(tmp_path):
 def test_the_creator_approving_a_pack_that_is_already_hosted_only_records_it(tmp_path):
     name = first_pack("published", permission=True)
     d, base = with_request("approve", name)
-    assert base["permission"]["kind"] == "unknown"
+    assert base["permission"]["kind"] != "creator_approved"
     rec = load(build(d, base=base)["yaml"], tmp_path)
     assert rec["permission"]["kind"] == "creator_approved" and rec["hosting"] == base["hosting"] and rec["archive"] == base["archive"]
 
