@@ -112,6 +112,13 @@ def test_two_replacements_folders_without_serials_are_a_choice(tmp_path):
         convert.find_layout(tmp_path)
 
 
+def test_a_mac_resource_fork_folder_and_a_nested_replacements_folder_are_no_choice(tmp_path):
+    touch(tmp_path / "SLUS-20616" / "replacements" / "a.dds")
+    touch(tmp_path / "__MACOSX" / "SLUS-20616" / "replacements" / "._a.dds")
+    touch(tmp_path / "SLUS-20616" / "replacements" / "replacements" / "b.dds")
+    assert convert.find_layout(tmp_path).roots == [tmp_path / "SLUS-20616" / "replacements"]
+
+
 def test_only_files_the_emulator_loads_are_converted(tmp_path):
     keep = ["21e0f980f6dbe2f-60984954bd47201a-00005993.png", "b327f87ac0294386-00002a80.dds",
             "3d95916159fb6dec-5d46340bd88b677e-r25x17-00001e13.png", "91452daee38b05b4-r124010c01780000-00006a53.png"]

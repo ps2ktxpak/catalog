@@ -129,7 +129,10 @@ class Layout:
 def find_layout(tree: Path) -> Layout:
     """The `replacements` folder(s) to convert. Several are merged only when each sits in its own
     serial folder (one pack, several regions); anything else is a choice for a person."""
-    reps = sorted(p for p in tree.rglob("*") if p.is_dir() and p.name.lower() == "replacements" and _textures(p))
+    reps = sorted(p for p in tree.rglob("*") if p.is_dir() and p.name.lower() == "replacements" and _textures(p)
+                  and "__MACOSX" not in p.relative_to(tree).parts)  # the resource forks a Mac zips up
+    # One inside another is converted with the outer one, as the emulator reads the folder recursively.
+    reps = [r for r in reps if not any(o in r.parents for o in reps)]
     if not reps:
         if not _textures(tree):
             raise Empty("no .dds or .png textures in the download")
