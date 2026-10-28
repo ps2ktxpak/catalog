@@ -3,6 +3,7 @@
 #   SCRAPER_URL   the Worker's URL
 #   RUN_TOKEN     the Worker's RUN_TOKEN secret
 #   CLOUDFLARE_ACCOUNT_ID, and a `wrangler login`
+#   NO_RUN=1      deploy without starting a run afterwards
 # Packs in progress are lost and start over; finished ones are kept (README.md, "Resuming").
 set -eu
 cd "$(dirname "$0")"
@@ -34,5 +35,5 @@ npx wrangler deploy --containers-rollout=immediate
 app=$(npx wrangler containers list 2>/dev/null | awk -F'│' '/ps2ktxpak-scraper-scraper/ {gsub(/ /, "", $2); print $2}')
 until npx wrangler containers info "$app" 2>/dev/null | grep -q "\"image\": \".*:$tag\""; do sleep 15; done
 until npx wrangler containers list 2>/dev/null | grep -q "ps2ktxpak-scraper-scraper │ ready"; do sleep 15; done
-post run
+[ -n "${NO_RUN:-}" ] || post run
 echo "deployed $tag; commit scraper/wrangler.jsonc"
