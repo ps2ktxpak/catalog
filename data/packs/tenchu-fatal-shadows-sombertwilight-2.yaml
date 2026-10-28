@@ -2,6 +2,13 @@ key: tenchu-fatal-shadows-sombertwilight-2
 name: 'Tenchu: Fatal Shadows'
 game:
   title: 'Tenchu: Fatal Shadows'
+  serials:
+  - SLES-53012
+  - SLES-53013
+  - SLES-53014
+  - SLES-53015
+  - SLES-53016
+  - SLUS-21129
 credits:
 - creator: sombertwilight
 type: mixed
@@ -12,10 +19,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-27'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://mega.nz/file/IC8SyJ6J#h5QE3kvIcLtRGJnPYvxSeoeVNEO5vFavbJy-Wydcf5o

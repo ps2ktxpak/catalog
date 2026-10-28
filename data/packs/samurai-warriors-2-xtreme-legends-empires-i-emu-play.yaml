@@ -2,6 +2,13 @@ key: samurai-warriors-2-xtreme-legends-empires-i-emu-play
 name: Samurai Warriors 2 + Xtreme Legends + Empires
 game:
   title: Samurai Warriors 2 + Xtreme Legends + Empires
+  serials:
+  - SLUS-21462
+  - SLUS-21585
+  - SLUS-21726
+  - SLES-54340
+  - SLES-54624
+  - SLES-55108
 credits:
 - creator: i-emu-play
 type: ai_upscale
@@ -12,10 +19,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-26'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3BmHPPLTWcSIkbia8

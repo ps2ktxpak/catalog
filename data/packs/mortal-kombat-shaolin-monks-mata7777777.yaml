@@ -2,6 +2,10 @@ key: mortal-kombat-shaolin-monks-mata7777777
 name: 'Mortal Kombat: Shaolin Monks'
 game:
   title: 'Mortal Kombat: Shaolin Monks'
+  serials:
+  - SLES-53524
+  - SLES-53525
+  - SLUS-21087
 credits:
 - creator: mata7777777
 type: ai_upscale
@@ -12,9 +16,12 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
+  state: published
   since: '2026-10-28'
 download:
   status: resolved

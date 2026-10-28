@@ -4,6 +4,8 @@ game:
   title: 'Dragon Ball Z: Sagas'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20874
 credits:
 - creator: huekage
 type: ai_upscale
@@ -14,10 +16,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-27'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/yowt4jw5til51og/PS2_HD_Textures_-_Dragon_Ball_Z_-_Sagas_%2528SLUS-20874%2529_%2528NTSC%2529.zip/file

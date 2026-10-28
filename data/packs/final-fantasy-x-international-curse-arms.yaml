@@ -2,6 +2,16 @@ key: final-fantasy-x-international-curse-arms
 name: Final Fantasy X + International
 game:
   title: Final Fantasy X + International
+  serials:
+  - SLUS-20312
+  - SCES-50490
+  - SCES-50491
+  - SCES-50492
+  - SCES-50493
+  - SCES-50494
+  - SLPM-65115
+  - SLPS-25088
+  - SLPM-67513
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -12,10 +22,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-26'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1VU5CDcEZG4UHBeNOKSmGK_segZ12I7LS&export=download&authuser=0

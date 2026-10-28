@@ -4,6 +4,10 @@ game:
   title: Sengoku Basara 2
   regions:
   - NTSC-U
+  serials:
+  - SLPM-66447
+  - SLPM-66691
+  - SLPM-66865
 credits:
 - creator: i-emu-play
 type: ai_upscale
@@ -14,10 +18,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-27'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://mega.nz/file/keQ1STIC#6rQUIH4-9qUGKe1l83Y9nB5QysaUee6T04OrVx6mISI

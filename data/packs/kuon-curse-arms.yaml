@@ -2,6 +2,11 @@ key: kuon-curse-arms
 name: Kuon
 game:
   title: Kuon
+  serials:
+  - SCAJ-20078
+  - SLES-53411
+  - SLPS-25329
+  - SLUS-21007
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -12,10 +17,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-26'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://drive.google.com/file/d/11DV2XuZ43ihJedkH8sbcQc4ybelbnkj5/view

@@ -4,6 +4,14 @@ game:
   title: God of War
   regions:
   - multi
+  serials:
+  - SCAJ-30010
+  - SCES-51533
+  - SCES-53133
+  - SCKA-30002
+  - SCUS-97399
+  - SLPM-66167
+  - SLPM-67010
 credits:
 - creator: huekage
 type: ai_upscale
@@ -14,10 +22,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-27'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/wv1njjz5dolcql1/PS2_HD_Textures_-_God_of_War_%2528SCUS-97399%2529_%2528NTSC%2529_%2526_%2528SCES-53133%2529_%2528PAL%2529.zip/file

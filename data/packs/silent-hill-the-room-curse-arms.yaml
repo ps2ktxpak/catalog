@@ -2,6 +2,13 @@ key: silent-hill-the-room-curse-arms
 name: 'Silent Hill: The Room'
 game:
   title: 'Silent Hill: The Room'
+  serials:
+  - SLUS-20873
+  - SLES-52445
+  - SLKA-25149
+  - SLPM-65574
+  - SLPM-66032
+  - SLPM-55140
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -12,10 +19,13 @@ sources:
   primary: true
 access:
   cost: free
+permission:
+  kind: community_mirror
+  date: '2026-10-28'
+  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
 hosting:
-  state: withheld
-  reason: Downloaded and converted; not served until someone decides to host it.
-  since: '2026-10-26'
+  state: published
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1w6d1jARyzO4b1fYRrrnCHByFC73vH_pP&export=download&authuser=0
