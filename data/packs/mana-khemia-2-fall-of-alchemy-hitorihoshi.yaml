@@ -22,4 +22,5 @@ download:
   host: gdrive
   kind: file
   confidence: high
+  password: Hitori
   note: Creator's primary download link in opening post; password-protected archive.

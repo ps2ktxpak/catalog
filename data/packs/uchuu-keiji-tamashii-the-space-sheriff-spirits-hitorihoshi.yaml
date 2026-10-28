@@ -22,4 +22,5 @@ download:
   host: gdrive
   kind: file
   confidence: high
+  password: hitori_hoshi
   note: Creator provided Google Drive link for PCSX2 version in opening post.
