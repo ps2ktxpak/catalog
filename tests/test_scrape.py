@@ -2,6 +2,7 @@
 game's file out of a library folder, laying out a download, and writing results into pack files."""
 import io
 import json
+import shutil
 import struct
 
 import pytest
@@ -332,6 +333,18 @@ def test_a_download_without_an_extension_is_known_by_its_first_bytes(tmp_path):
     assert convert.is_archive(rar) and not convert.is_archive(png_file)
 
 
+def test_the_mirror_never_sends_a_file_the_destination_holds(tmp_path, monkeypatch):
+    from ps2ktxpak.scrape import mirror
+    tool = tmp_path / "rclone"  # stands in for rclone: records how it was run
+    tool.write_text(f'#!/bin/sh\necho "$@" > {tmp_path / "argv"}\n')
+    tool.chmod(0o755)
+    monkeypatch.setattr(mirror, "RCLONE", str(tool))
+    assert mirror.main(["--src", "r2:a/packs", "--dst", "b2:a/packs"]) == 0
+    argv = (tmp_path / "argv").read_text().split()
+    assert argv[:3] == ["copy", "r2:a/packs", "b2:a/packs"] and "--ignore-existing" in argv
+
+
+@pytest.mark.skipif(shutil.which("rclone") is None, reason="rclone is not installed")
 def test_the_mirror_copies_what_the_destination_lacks(tmp_path):
     from ps2ktxpak.scrape import mirror
     src, dst = tmp_path / "src", tmp_path / "dst"

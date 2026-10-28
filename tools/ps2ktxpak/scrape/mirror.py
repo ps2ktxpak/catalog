@@ -15,6 +15,8 @@ import subprocess
 import threading
 import time
 
+RCLONE = os.environ.get("RCLONE", "rclone")
+
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="ps2ktxpak scrape mirror")
@@ -40,7 +42,7 @@ def main(argv=None) -> int:
         srv = http.server.ThreadingHTTPServer(("0.0.0.0", a.port), H)
         threading.Thread(target=srv.serve_forever, daemon=True).start()
 
-    p = subprocess.Popen(["rclone", "copy", a.src, a.dst, "--ignore-existing", "--transfers", "16", "--stats", "60s",
+    p = subprocess.Popen([RCLONE, "copy", a.src, a.dst, "--ignore-existing", "--transfers", "16", "--stats", "60s",
                           "--stats-one-line", "--stats-log-level", "NOTICE", "--retries", "5"],
                          stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
     for line in p.stderr:
