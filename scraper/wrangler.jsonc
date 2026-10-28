@@ -1,7 +1,7 @@
 // The scraper: a Worker that starts and watches SHARDS containers, each running `ps2ktxpak scrape job`
 // on its share of the packs. Secrets (set with `wrangler secret put`, never in this file):
 // R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, MEGA_USERNAME, MEGA_PASSWORD, MEDIAFIRE_EMAIL,
-// MEDIAFIRE_PASSWORD, RUN_TOKEN.
+// MEDIAFIRE_PASSWORD, B2_ACCOUNT_ID, B2_KEY (the mirror's), RUN_TOKEN.
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "ps2ktxpak-scraper",

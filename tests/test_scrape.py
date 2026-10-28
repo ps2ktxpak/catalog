@@ -330,3 +330,14 @@ def test_a_download_without_an_extension_is_known_by_its_first_bytes(tmp_path):
     rar.write_bytes(b"Rar!\x1a\x07\x01\x00")
     png_file.write_bytes(b"\x89PNG\r\n\x1a\n")
     assert convert.is_archive(rar) and not convert.is_archive(png_file)
+
+
+def test_the_mirror_copies_what_the_destination_lacks(tmp_path):
+    from ps2ktxpak.scrape import mirror
+    src, dst = tmp_path / "src", tmp_path / "dst"
+    (src / "a.tar.zst").parent.mkdir(parents=True)
+    (src / "a.tar.zst").write_bytes(b"new")
+    dst.mkdir()
+    (dst / "b.tar.zst").write_bytes(b"already there")
+    assert mirror.main(["--src", str(src), "--dst", str(dst)]) == 0
+    assert sorted(p.name for p in dst.iterdir()) == ["a.tar.zst", "b.tar.zst"]

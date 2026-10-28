@@ -3,7 +3,8 @@
 //
 //   GET  /status                       every shard's state and progress (public: it shows only counts)
 //   POST /run    (Bearer RUN_TOKEN)    start every shard; finished packs are skipped, so this resumes
-//   POST /stop   (Bearer RUN_TOKEN)    stop every shard
+//   POST /stop   (Bearer RUN_TOKEN)    stop every shard, and the mirror
+//   POST /mirror (Bearer RUN_TOKEN)    copy the public packs from R2 to the B2 fallback, in one container
 
 import { Container, getContainer } from '@cloudflare/containers';
 
@@ -17,17 +18,22 @@ declare global {
 		MEGA_PASSWORD: string;
 		MEDIAFIRE_EMAIL: string;
 		MEDIAFIRE_PASSWORD: string;
+		B2_ACCOUNT_ID: string;
+		B2_KEY: string;
 		RUN_TOKEN: string;
 	}
 }
+
+type Mode = 'job' | 'mirror';
+type Wanted = { shard: number; shards: number; mode?: Mode };
 
 export class Scraper extends Container<Env> {
 	defaultPort = 8080;
 	// The cron asks every ten minutes, which counts as activity; this only stops a shard nobody watches.
 	sleepAfter = '45m';
 
-	async begin(shard: number, shards: number): Promise<void> {
-		await this.ctx.storage.put('wanted', { shard, shards });
+	async begin(shard: number, shards: number, mode: Mode = 'job'): Promise<void> {
+		await this.ctx.storage.put('wanted', { shard, shards, mode });
 		await this.launch();
 	}
 
@@ -40,7 +46,7 @@ export class Scraper extends Container<Env> {
 	// The shard's own status, or why there is none. Only the cron passes `act`: it restarts a shard
 	// that stopped early and stops one that finished, so reading /status changes nothing.
 	async check(act = false): Promise<unknown> {
-		const wanted = await this.ctx.storage.get<{ shard: number; shards: number }>('wanted');
+		const wanted = await this.ctx.storage.get<Wanted>('wanted');
 		if (!wanted) return { state: 'idle' };
 		const state = await this.getState();
 		if (state.status !== 'running' && state.status !== 'healthy') {
@@ -60,9 +66,10 @@ export class Scraper extends Container<Env> {
 	}
 
 	private async launch(): Promise<void> {
-		const wanted = await this.ctx.storage.get<{ shard: number; shards: number }>('wanted');
+		const wanted = await this.ctx.storage.get<Wanted>('wanted');
 		if (!wanted) return;
 		const e = this.env;
+		const mirror = wanted.mode === 'mirror';
 		await this.startAndWaitForPorts({
 			startOptions: {
 				envVars: {
@@ -76,6 +83,7 @@ export class Scraper extends Container<Env> {
 					MEGA_PASSWORD: e.MEGA_PASSWORD,
 					MEDIAFIRE_EMAIL: e.MEDIAFIRE_EMAIL,
 					MEDIAFIRE_PASSWORD: e.MEDIAFIRE_PASSWORD,
+					...(mirror ? { SCRAPE_MODE: 'mirror', B2_ACCOUNT_ID: e.B2_ACCOUNT_ID, B2_KEY: e.B2_KEY } : {}),
 				},
 			},
 			// Cloning the catalog and reading the spreadsheet comes before the status port opens.
@@ -101,17 +109,34 @@ function shard(env: Env, i: number) {
 	return getContainer<Scraper>(env.SCRAPER, `shard-${i}`);
 }
 
+function mirror(env: Env) {
+	return getContainer<Scraper>(env.SCRAPER, 'mirror');
+}
+
+async function checkedMirror(env: Env, act: boolean): Promise<object> {
+	try {
+		return { mirror: true, ...((await mirror(env).check(act)) as object) };
+	} catch (e) {
+		return { mirror: true, state: 'unreachable', error: String(e).slice(0, 300) };
+	}
+}
+
 export default {
 	async fetch(request: Request, env: Env): Promise<Response> {
 		const url = new URL(request.url);
 		if (request.method === 'GET' && url.pathname === '/status') {
-			return Response.json(await Promise.all(shards(env).map((i) => checked(env, i, false))));
+			return Response.json(await Promise.all([...shards(env).map((i) => checked(env, i, false)), checkedMirror(env, false)]));
 		}
-		if (request.method === 'POST' && (url.pathname === '/run' || url.pathname === '/stop')) {
+		if (request.method === 'POST' && ['/run', '/stop', '/mirror'].includes(url.pathname)) {
 			if (!env.RUN_TOKEN || request.headers.get('Authorization') !== `Bearer ${env.RUN_TOKEN}`) {
 				return new Response('forbidden\n', { status: 403 });
 			}
 			const n = Number(env.SHARDS);
+			if (url.pathname === '/mirror') {
+				await mirror(env).begin(0, 1, 'mirror');
+				return Response.json({ ok: true, action: 'mirror' });
+			}
+			if (url.pathname === '/stop') await mirror(env).end();
 			await Promise.all(shards(env).map((i) => (url.pathname === '/run' ? shard(env, i).begin(i, n) : shard(env, i).end())));
 			return Response.json({ ok: true, shards: n, action: url.pathname.slice(1) });
 		}
@@ -119,6 +144,6 @@ export default {
 	},
 
 	async scheduled(_event: ScheduledController, env: Env, ctx: ExecutionContext): Promise<void> {
-		ctx.waitUntil(Promise.all(shards(env).map((i) => checked(env, i, true))));
+		ctx.waitUntil(Promise.all([...shards(env).map((i) => checked(env, i, true)), checkedMirror(env, true)]));
 	},
 };

@@ -30,8 +30,8 @@ def cmd_compile(a) -> int:
 
 
 def cmd_scrape(a) -> int:
-    from .scrape import apply, job
-    return {"job": job.main, "apply": apply.main}[a.what](a.rest)
+    from .scrape import apply, job, mirror
+    return {"job": job.main, "apply": apply.main, "mirror": mirror.main}[a.what](a.rest)
 
 
 def main(argv=None) -> int:
@@ -52,8 +52,9 @@ def main(argv=None) -> int:
     p.add_argument("--out")
     p.set_defaults(fn=cmd_compile)
 
-    p = sub.add_parser("scrape", help="the Texture Packs Archive scraper: `job` downloads and converts, `apply` writes the results")
-    p.add_argument("what", choices=["job", "apply"])
+    p = sub.add_parser("scrape", help="the Texture Packs Archive scraper: `job` downloads and converts, `apply` writes the results, "
+                       "`mirror` copies the public packs to the fallback bucket")
+    p.add_argument("what", choices=["job", "apply", "mirror"])
     p.add_argument("rest", nargs=argparse.REMAINDER, help="that command's own options (--help lists them)")
     p.set_defaults(fn=cmd_scrape)
 
