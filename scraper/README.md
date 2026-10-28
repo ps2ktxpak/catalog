@@ -124,7 +124,7 @@ ps2ktxpak scrape job --store r2:ps2ktxpak-scrape --only <pack key> ...
 
 The apps download from `dl.ps2ktxpak.net` (the R2 bucket `armsx2-textures`) and fall back to the B2 bucket
 of the same name. Once newly hosted packs are in R2, `POST /mirror` starts one container that copies to B2
-whatever B2 lacks, so the files go from Cloudflare to Backblaze and never through anyone's home connection.
+only the files B2 does not have yet, so the files go from Cloudflare to Backblaze and never through anyone's home connection.
 It needs the secrets `B2_ACCOUNT_ID` and `B2_KEY` (a key that can write that bucket). `GET /status` shows its
 progress in the entry marked `mirror`; the cron keeps it awake and stops it when it has finished.
 

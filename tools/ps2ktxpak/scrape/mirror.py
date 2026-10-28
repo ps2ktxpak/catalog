@@ -1,6 +1,8 @@
 """Copy what one bucket holds that another lacks, in the cloud: the public packs from R2 to the B2
 bucket the apps fall back to. Run by a container the Worker starts (`POST /mirror`), so the files never
-cross a home connection. rclone skips a file the destination already holds at the same size."""
+cross a home connection. A file the destination already holds is never sent again: R2 and B2 share no
+checksum, so rclone would otherwise compare modification times, which differ between the two copies, and
+re-upload every file (on B2, also keeping the old copy as a billed version)."""
 from __future__ import annotations
 
 import argparse
@@ -38,7 +40,7 @@ def main(argv=None) -> int:
         srv = http.server.ThreadingHTTPServer(("0.0.0.0", a.port), H)
         threading.Thread(target=srv.serve_forever, daemon=True).start()
 
-    p = subprocess.Popen(["rclone", "copy", a.src, a.dst, "--transfers", "16", "--stats", "60s",
+    p = subprocess.Popen(["rclone", "copy", a.src, a.dst, "--ignore-existing", "--transfers", "16", "--stats", "60s",
                           "--stats-one-line", "--stats-log-level", "NOTICE", "--retries", "5"],
                          stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True)
     for line in p.stderr:

@@ -339,5 +339,7 @@ def test_the_mirror_copies_what_the_destination_lacks(tmp_path):
     (src / "a.tar.zst").write_bytes(b"new")
     dst.mkdir()
     (dst / "b.tar.zst").write_bytes(b"already there")
+    (src / "b.tar.zst").write_bytes(b"a copy whose times differ")
     assert mirror.main(["--src", str(src), "--dst", str(dst)]) == 0
     assert sorted(p.name for p in dst.iterdir()) == ["a.tar.zst", "b.tar.zst"]
+    assert (dst / "b.tar.zst").read_bytes() == b"already there"
