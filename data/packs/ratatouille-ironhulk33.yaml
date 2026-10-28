@@ -17,9 +17,9 @@ sources:
 access:
   cost: free
 permission:
-  kind: community_mirror
+  kind: creator_approved
   date: '2026-10-28'
-  note: Hosted with the permission of the Texture Packs Archive's maintainer, which covers its public packs.
+  note: The creator approved hosting their packs.
 hosting:
   state: published
   since: '2026-10-28'

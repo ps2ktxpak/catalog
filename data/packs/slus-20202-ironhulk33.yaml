@@ -26,8 +26,9 @@ media:
 access:
   cost: paid
 permission:
-  kind: unknown
-  note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
+  kind: creator_approved
+  date: '2026-10-28'
+  note: The creator approved hosting their packs.
 hosting:
   state: published
 archive:
