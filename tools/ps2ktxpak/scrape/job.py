@@ -59,6 +59,7 @@ class Item:
     serials: list
     sheet_size: int | None
     shared_with: list
+    password: str = ""
 
 
 def plan(packs, creators, rows: list) -> tuple[list[Item], dict]:
@@ -91,7 +92,7 @@ def plan(packs, creators, rows: list) -> tuple[list[Item], dict]:
             else:
                 items.append(Item(k, url, p.get("game", {}).get("title") or p["name"],
                                   p.get("game", {}).get("serials", []), size.get(k),
-                                  [o for o in keys if o != k]))
+                                  [o for o in keys if o != k], p["download"].get("password", "")))
     return items, skipped
 
 
@@ -188,7 +189,7 @@ class Job:
         try:
             source = self._last_source = self._download(it, pack_dir / "src")
             files = [pack_dir / "src" / f["name"] for f in source["files"]]
-            convert.unpack(files, pack_dir / "x")
+            convert.unpack(files, pack_dir / "x", it.password)
             shutil.rmtree(pack_dir / "src", ignore_errors=True)
             layout = self._choose(convert.find_layout(pack_dir / "x"), it)
             dropped = convert.unloadable(layout)

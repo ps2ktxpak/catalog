@@ -39,7 +39,7 @@ is only known to exist are all the same kind of file; `hosting.state` says which
 | `permission` | Right to host: `creator_uploaded`, `creator_approved`, `community_mirror`, `unknown`, `revoked`, with evidence. Absent for a pack nobody asked about. |
 | `hosting.state` | `published` (hosted), `listed` (known to exist, not hosted), `withheld` (we have it and hold it back), `draft`, `review`, `withdrawn`, `disputed`. A `published` pack needs a game serial. One with no `archive` is accepted for hosting and awaiting conversion: validation warns, and it stays out of the catalog until the pipeline has written its archive. |
 | `needs_review` | Credits nobody has checked yet. A person removes an entry once checked. |
-| `download` | For a pack that is not hosted: where its files were found by following its source page (`status`, `url`, `host`, `kind`, `confidence`, `note`). An address is recorded only when it was seen on a public page. |
+| `download` | For a pack that is not hosted: where its files were found by following its source page (`status`, `url`, `host`, `kind`, `confidence`, `note`), and the `password` to extract it when the creator gives one there. An address is recorded only when it was seen on a public page. |
 | `archive` | What the conversion pipeline produced: the current revision and, per revision, the storage object, `sha256`, sizes, file count, the download it was converted from, and the converter and its settings. A new revision is appended; an old one is never changed. Never edited by hand. |
 
 ## The rollup: `ps2ktxpak compile`

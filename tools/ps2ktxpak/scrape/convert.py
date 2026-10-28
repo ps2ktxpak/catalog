@@ -70,22 +70,26 @@ def is_archive(p: Path) -> bool:
     return bool(ARCHIVE_RE.search(p.name) or FIRST_VOLUME_RE.search(p.name)) and not LATER_VOLUME_RE.search(p.name)
 
 
-def extract(archive: Path, dest: Path) -> None:
+def extract(archive: Path, dest: Path, password: str = "") -> None:
     dest.mkdir(parents=True, exist_ok=True)
-    p = subprocess.run([SEVEN_ZIP, "x", "-y", "-bd", "-bso0", "-bsp0", f"-o{dest}", str(archive)],
+    # -p always: without it 7-Zip asks for the password of an encrypted archive, and stops ("Break signaled").
+    p = subprocess.run([SEVEN_ZIP, "x", "-y", "-bd", "-bso0", "-bsp0", f"-p{password}", f"-o{dest}", str(archive)],
                        capture_output=True, text=True, stdin=subprocess.DEVNULL)
     if p.returncode not in (0, 1):  # 1 is a warning (for example a file it skipped)
         if "errno=28" in p.stderr:
             raise NoRoom(f"{archive.name} does not fit on the disk extracted")
+        if "Wrong password" in p.stderr:
+            raise RuntimeError(f"{archive.name} is encrypted and "
+                               + ("the password is wrong" if password else "the pack's download block gives no password"))
         raise RuntimeError(f"7-Zip could not extract {archive.name}: {p.stderr.strip()[-300:]}")
 
 
-def unpack(files: list[Path], dest: Path) -> None:
+def unpack(files: list[Path], dest: Path, password: str = "") -> None:
     """Extract every archive among `files` into `dest`, and archives found inside them, two levels
     deep. Loose files (a folder download) are moved in as they are."""
     for i, f in enumerate(files):
         if is_archive(f):
-            extract(f, dest / f"{i}-{f.name.split('.')[0]}")
+            extract(f, dest / f"{i}-{f.name.split('.')[0]}", password)
         elif not LATER_VOLUME_RE.search(f.name):
             target = dest / f.name
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -95,7 +99,7 @@ def unpack(files: list[Path], dest: Path) -> None:
         if not inner or _textures(dest):
             break
         for p in inner:
-            extract(p, p.parent / (p.name.split(".")[0] + ".x"))
+            extract(p, p.parent / (p.name.split(".")[0] + ".x"), password)
             p.unlink()
 
 

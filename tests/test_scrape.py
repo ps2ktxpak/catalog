@@ -303,3 +303,16 @@ def test_an_empty_mega_folder_is_gone(tmp_path, monkeypatch):
     [e] = hosts.mega("https://mega.nz/folder/KLJy1Zia#DPIlpfIxvfItptcamfKr6Q")
     with pytest.raises(hosts.Gone):
         e.get(tmp_path / "dl", None)
+
+
+def test_an_encrypted_archive_is_extracted_with_the_pack_password_and_named_without_it(tmp_path, monkeypatch):
+    seven = tmp_path / "7zz"  # stands in for 7-Zip: the archive's password is "pw"
+    seven.write_text('#!/bin/sh\nfor a; do case "$a" in -ppw) exit 0;; -p*) '
+                     'echo "ERROR: Wrong password : x.png" >&2; exit 2;; esac; done\nexit 2\n')
+    seven.chmod(0o755)
+    monkeypatch.setattr(convert, "SEVEN_ZIP", str(seven))
+    archive = tmp_path / "pack.rar"
+    archive.write_bytes(b"Rar!")
+    convert.extract(archive, tmp_path / "a", "pw")
+    with pytest.raises(RuntimeError, match="gives no password"):
+        convert.extract(archive, tmp_path / "b")

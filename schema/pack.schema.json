@@ -129,6 +129,7 @@
         "host": {"type": "string"},
         "kind": {"enum": ["file", "folder", "page", "shop", "unknown"]},
         "confidence": {"enum": ["high", "medium", "low"]},
+        "password": {"description": "The password to extract the archive, as the creator gives it on the source page.", "type": "string"},
         "note": {"type": "string"}
       }
     },
