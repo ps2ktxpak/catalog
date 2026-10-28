@@ -66,8 +66,19 @@ def sha256_file(path: Path) -> str:
 
 # ---- extracting ---------------------------------------------------------------------------------
 
+ARCHIVE_MAGIC = (b"Rar!", b"7z\xbc\xaf\x27\x1c", b"PK\x03\x04")
+
+
 def is_archive(p: Path) -> bool:
-    return bool(ARCHIVE_RE.search(p.name) or FIRST_VOLUME_RE.search(p.name)) and not LATER_VOLUME_RE.search(p.name)
+    if LATER_VOLUME_RE.search(p.name):
+        return False
+    if ARCHIVE_RE.search(p.name) or FIRST_VOLUME_RE.search(p.name):
+        return True
+    if p.suffix:
+        return False
+    # A link that names no file (a bare MediaFire key, say) leaves the download without an extension.
+    with open(p, "rb") as f:
+        return f.read(8).startswith(ARCHIVE_MAGIC)
 
 
 def extract(archive: Path, dest: Path, password: str = "") -> None:

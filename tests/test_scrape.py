@@ -316,3 +316,10 @@ def test_an_encrypted_archive_is_extracted_with_the_pack_password_and_named_with
     convert.extract(archive, tmp_path / "a", "pw")
     with pytest.raises(RuntimeError, match="gives no password"):
         convert.extract(archive, tmp_path / "b")
+
+
+def test_a_download_without_an_extension_is_known_by_its_first_bytes(tmp_path):
+    rar, png_file = tmp_path / "vvmyv7pg3cc8aqj", tmp_path / "readme"
+    rar.write_bytes(b"Rar!\x1a\x07\x01\x00")
+    png_file.write_bytes(b"\x89PNG\r\n\x1a\n")
+    assert convert.is_archive(rar) and not convert.is_archive(png_file)
