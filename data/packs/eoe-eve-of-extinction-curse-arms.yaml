@@ -4,6 +4,8 @@ game:
   title: 'EOE: Eve of Extinction'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20270
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1RHoPP5hkMywQ3PZIpOfSF4hv2DXQk9D1&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/eoe-eve-of-extinction-curse-arms.tar.zst
+    sha256: 3fbc7c180851d58a6ab1a25646c3d5b81afb4ca92f39e8ddabeef26c9d6a9921
+    size_bytes: 378469424
+    decompressed_size_bytes: 512460800
+    file_count: 3212
+    created: '2026-10-27'
+    source:
+      sha256: 395456a288a6c2ec7802fcd72751beb3973e703afe7aaad0358f459d42ace19a
+      size_bytes: 1177982169
+      url: https://drive.usercontent.google.com/download?id=1RHoPP5hkMywQ3PZIpOfSF4hv2DXQk9D1&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

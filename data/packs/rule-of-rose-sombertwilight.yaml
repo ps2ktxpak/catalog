@@ -4,6 +4,8 @@ game:
   title: Rule Of Rose
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21448
 credits:
 - creator: sombertwilight
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/d2wcw3y2maan5m1/SLUS-21448.7z/file
@@ -23,3 +27,23 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/rule-of-rose-sombertwilight.tar.zst
+    sha256: 7f8977db8a885365f07311ad34fb8e4d18b23832e8656bbfa4d02c56d7e5753a
+    size_bytes: 2934242717
+    decompressed_size_bytes: 5024296960
+    file_count: 9533
+    created: '2026-10-28'
+    source:
+      sha256: 4ca20bdb43ebc37abb59b52c92f51cb6e9f8e3790fcdd6f5f39394a4cb90a16c
+      size_bytes: 2765120131
+      url: https://www.mediafire.com/file/d2wcw3y2maan5m1/SLUS-21448.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

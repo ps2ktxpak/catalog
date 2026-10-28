@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/joq592gm0ams275/MKSM_Matasiete.rar/file
@@ -21,3 +23,23 @@ download:
   kind: file
   confidence: high
   note: Creator posted MediaFire link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mortal-kombat-shaolin-monks-mata7777777.tar.zst
+    sha256: 92bab77b0c3bdaf2f7bcda713b443608de63add25fe1b88cf55f2229a8062dfe
+    size_bytes: 1635025596
+    decompressed_size_bytes: 2742784000
+    file_count: 4892
+    created: '2026-10-28'
+    source:
+      sha256: abe4bacfdd43e0c05a58348d061cfaf89b626406d60fe1d4d820f388146f212f
+      size_bytes: 2078240487
+      url: https://www.mediafire.com/file/joq592gm0ams275/MKSM_Matasiete.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

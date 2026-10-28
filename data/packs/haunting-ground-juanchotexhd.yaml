@@ -16,7 +16,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1W4lYofZT-kdAko7uQ_9UE1NA_wGa1U_0/view?usp=sharing
@@ -24,3 +26,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided Google Drive link in opening post and confirmed in video description.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/haunting-ground-juanchotexhd.tar.zst
+    sha256: 81b1b52d0220bf932d49548c72f8ebccb177b1e32cf23916b18baa095a24584a
+    size_bytes: 2204725478
+    decompressed_size_bytes: 3628103680
+    file_count: 2611
+    created: '2026-10-26'
+    source:
+      sha256: 6b30646da57ad466188c83ad4cec1dfc8bfde5f26f6371bfec709549da5789fb
+      size_bytes: 2331340730
+      url: https://drive.google.com/file/d/1W4lYofZT-kdAko7uQ_9UE1NA_wGa1U_0/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: Fate Unlimited Codes
   regions:
   - NTSC-J
+  serials:
+  - SLPM-55108
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/rnxr91a74w8uobh/Fate_Unlimited_Codes.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MediaFire link in video pinned comment (latest update).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/fate-unlimited-codes-mvp899.tar.zst
+    sha256: 2514ac5562e0dc38c059c9f9d0060e652e6a5ae1b7321312207464415818e077
+    size_bytes: 329240489
+    decompressed_size_bytes: 708782080
+    file_count: 1547
+    created: '2026-10-27'
+    source:
+      sha256: ee7f96893c68bb895760f2f184bccd281cbe5b4591bf855eb16cdbe736398a3c
+      size_bytes: 701014242
+      url: https://www.mediafire.com/file/rnxr91a74w8uobh/Fate_Unlimited_Codes.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Tomb Raider: Anniversary'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21555
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/yUUyADrD#K-mgK8C0xHR0wVwhprcDCLdqmawR_uQ113PqXf9TdMs
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: Creator provided MEGA link in followup; opening post indicates work in progress.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tomb-raider-anniversary-mvp899.tar.zst
+    sha256: 0191565b856dc06cce32a3a975954b5c7f2c911151299587ce128469fcc45871
+    size_bytes: 613983418
+    decompressed_size_bytes: 734095360
+    file_count: 1971
+    created: '2026-10-27'
+    source:
+      sha256: e43fdbb2ae8e8564b6c209850adb0ce9aaf0ea2e5bdbd2c9ea1ae5e10731262d
+      size_bytes: 1888092822
+      url: https://mega.nz/file/yUUyADrD#K-mgK8C0xHR0wVwhprcDCLdqmawR_uQ113PqXf9TdMs
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

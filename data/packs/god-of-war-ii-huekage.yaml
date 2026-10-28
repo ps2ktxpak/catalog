@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/7wp50r66xlu7jnq/PS2_HD_Textures_-_God_of_War_II_%28SCUS-97481%29_%28NTSC%29_%26_%28SCES-54206%29_%28PAL%29.zip/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator explicitly labels mediafire link as download in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/god-of-war-ii-huekage.tar.zst
+    sha256: 99decac46bbd4bc97e5ea91c67a0567359119fce17890aaa9b88269341c6f5ed
+    size_bytes: 605002254
+    decompressed_size_bytes: 808714240
+    file_count: 3189
+    created: '2026-10-28'
+    source:
+      sha256: 45ec96f93ee284d3a27a4fe7c0aca22a9c9c8588635341626fe62b048659e58d
+      size_bytes: 1324097767
+      url: https://www.mediafire.com/file/7wp50r66xlu7jnq/PS2_HD_Textures_-_God_of_War_II_%28SCUS-97481%29_%28NTSC%29_%26_%28SCES-54206%29_%28PAL%29.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

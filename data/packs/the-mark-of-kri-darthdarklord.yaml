@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://archive.org/details/replacements.7z
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/the-mark-of-kri-darthdarklord.tar.zst
+    sha256: c9cb27127ede8871d84469c105d4c330ec626a50fcd0f2e4aff28a5640e42ab5
+    size_bytes: 222697613
+    decompressed_size_bytes: 310251520
+    file_count: 4697
+    created: '2026-10-27'
+    source:
+      sha256: 414d408860b19d21a1999d05460dffcbe5853528cea759af2dcfe69634747389
+      size_bytes: 643150589
+      url: https://archive.org/details/replacements.7z
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

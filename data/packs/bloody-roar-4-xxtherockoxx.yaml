@@ -4,6 +4,8 @@ game:
   title: Bloody Roar 4
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20795
 credits:
 - creator: xxtherockoxx
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/h98esgu9klsmsxj/B.R.4.HD_Textures_xX.The.RockoXx.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator's pinned YouTube comment provides direct mediafire download link.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bloody-roar-4-xxtherockoxx.tar.zst
+    sha256: 5b1e3f0025b5bf9a4368dd55d3b53fca8c43009e3406eafec197700fb1b06e11
+    size_bytes: 751331283
+    decompressed_size_bytes: 964608000
+    file_count: 2756
+    created: '2026-10-28'
+    source:
+      sha256: da37969009cc4e87e56bf2087238a332ce3bd031782747493d6113d1a7de2575
+      size_bytes: 1078135845
+      url: https://www.mediafire.com/file/h98esgu9klsmsxj/B.R.4.HD_Textures_xX.The.RockoXx.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

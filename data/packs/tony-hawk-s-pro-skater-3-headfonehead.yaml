@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1RmN7erLbTJtjKMTwCe-i1vZNHza5t8ik/view
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tony-hawk-s-pro-skater-3-headfonehead.tar.zst
+    sha256: a7bb429d8296765d8f67a76837224a644c306f5034ef8cfb4972521039d28aa0
+    size_bytes: 101734345
+    decompressed_size_bytes: 152698880
+    file_count: 2557
+    created: '2026-10-26'
+    source:
+      sha256: acde04c9ac5502cdb887453ccf23fa3b355fb21c8d08c739b9516afd13735a15
+      size_bytes: 274501319
+      url: https://drive.google.com/file/d/1RmN7erLbTJtjKMTwCe-i1vZNHza5t8ik/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

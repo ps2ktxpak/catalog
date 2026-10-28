@@ -2,6 +2,8 @@ key: shrek-super-party-ironhulk33
 name: Shrek Super Party
 game:
   title: Shrek Super Party
+  serials:
+  - SLUS-20516
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/2ym3wu4fedipeho/Shrek_Super_Party.7z/file
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/shrek-super-party-ironhulk33.tar.zst
+    sha256: 79f9af01bbf41c85ad53725acae8d12deb37b54b94309ce0d0d60d68e17bd28a
+    size_bytes: 147478115
+    decompressed_size_bytes: 298250240
+    file_count: 4590
+    created: '2026-10-28'
+    source:
+      sha256: f9de6b6209acc9db00f2ed19049afa64e942a3f9a304287235fce96e48a9dd80
+      size_bytes: 302942592
+      url: https://www.mediafire.com/file_premium/2ym3wu4fedipeho/Shrek_Super_Party.7z/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

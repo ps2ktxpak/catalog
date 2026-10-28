@@ -4,6 +4,8 @@ game:
   title: Tony Hawk's Pro Skater 3
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20013
 credits:
 - creator: beto818
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/amo0wboyz1ag0pv/Tony_Hawks_Pro_Skater_3.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tony-hawk-s-pro-skater-3-beto818.tar.zst
+    sha256: a67092a08e5dfaadc6294f8a8e40c248d5125732b635237f818660e53b74e525
+    size_bytes: 176035163
+    decompressed_size_bytes: 225003520
+    file_count: 3862
+    created: '2026-10-27'
+    source:
+      sha256: 26d3e917994a02e17a8e99da2597286ac7e84f60842967b27bf90b6e7ac1c393
+      size_bytes: 306761745
+      url: https://www.mediafire.com/file/amo0wboyz1ag0pv/Tony_Hawks_Pro_Skater_3.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

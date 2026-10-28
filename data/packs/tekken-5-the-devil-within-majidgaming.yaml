@@ -4,6 +4,8 @@ game:
   title: 'Tekken 5: The Devil Within'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21059
 credits:
 - creator: majidgaming
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/rweoxsalupto7eo
@@ -23,3 +27,23 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tekken-5-the-devil-within-majidgaming.tar.zst
+    sha256: be3cd8f03cc884805aba7624f09e503e64d98cf68d497ef3acf351c6fe7fd5f5
+    size_bytes: 249964677
+    decompressed_size_bytes: 302295040
+    file_count: 467
+    created: '2026-10-28'
+    source:
+      sha256: 4019e64e0f4a702beb51771c1462cf2b48dde799aa868312740a66744916dcc5
+      size_bytes: 736169739
+      url: https://www.mediafire.com/file/rweoxsalupto7eo
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

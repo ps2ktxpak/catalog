@@ -4,6 +4,8 @@ game:
   title: 'Michigan: Report from Hell'
   regions:
   - PAL
+  serials:
+  - SLES-53073
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1R21woDExK_jIZP27ON1VQG-fFEdc-baE&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/michigan-report-from-hell-curse-arms.tar.zst
+    sha256: c760a72a26b0634b8d622c39c5745bd650c038791cc2b3626c7da62a0d435bcb
+    size_bytes: 237284033
+    decompressed_size_bytes: 366888960
+    file_count: 2756
+    created: '2026-10-26'
+    source:
+      sha256: aaa7b11504981dec30625b771bd26de2e85a1e7ef39ea47d5f9d423315548384
+      size_bytes: 765614091
+      url: https://drive.usercontent.google.com/download?id=1R21woDExK_jIZP27ON1VQG-fFEdc-baE&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

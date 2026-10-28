@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/keQ1STIC#6rQUIH4-9qUGKe1l83Y9nB5QysaUee6T04OrVx6mISI
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sengoku-basara-2-i-emu-play.tar.zst
+    sha256: 517e5872e48b9efe0dc7766e1e3e596b87487329bf88b30c7184cbdb9416ecca
+    size_bytes: 641743764
+    decompressed_size_bytes: 993802240
+    file_count: 3495
+    created: '2026-10-27'
+    source:
+      sha256: 5a8428d93649e79005f069cd14d5333df130edc660c87e359f5587e3b1f87066
+      size_bytes: 2275831934
+      url: https://mega.nz/file/keQ1STIC#6rQUIH4-9qUGKe1l83Y9nB5QysaUee6T04OrVx6mISI
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

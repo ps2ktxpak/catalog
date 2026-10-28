@@ -4,6 +4,8 @@ game:
   title: Digimon World Data Squad
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21598
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://1drv.ms/u/s!ApJOQlD7y1v-kQU8HEPKh60zfU84?e=fHqSO8
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening-post list puts this OneDrive link beside Digimon World Data Squad (US).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/digimon-world-data-squad-sombershroud.tar.zst
+    sha256: 867e98769e30293beb1cdbf8678efac0dd0064d3a7ebd08aa71132009b04c530
+    size_bytes: 295926940
+    decompressed_size_bytes: 763156480
+    file_count: 2345
+    created: '2026-10-26'
+    source:
+      sha256: 1ab7b0eff9a5049750d4d996753a6bc7360094ce074c5232f0cbaeb2820e41d0
+      size_bytes: 777204206
+      url: https://1drv.ms/u/s!ApJOQlD7y1v-kQU8HEPKh60zfU84?e=fHqSO8
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

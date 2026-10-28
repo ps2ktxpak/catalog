@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://github.com/CRASHARKI/saht-tp
   host: github
   kind: page
   confidence: high
-  note: Creator cites CRASHARKI's GitHub repository as the HD texture pack.
+  note: The host says this file is no longer there (checked 2026-10-27).

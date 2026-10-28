@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://drive.google.com/file/d/1DXdJDZwRKXvitLPpbha-KGA22Bbgw3pF/view?usp=drive_link
   host: gdrive
   kind: file
   confidence: high
-  note: Creator marked as Download Link in opening post; Google Drive is primary.
+  note: The host says this file is no longer there (checked 2026-10-26).

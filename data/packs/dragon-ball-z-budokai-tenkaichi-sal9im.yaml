@@ -4,6 +4,8 @@ game:
   title: 'Dragon Ball Z: Budokai Tenkaichi'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21227
 credits:
 - creator: sal9im
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1_fh9r6JRC3z8l98amFxXjZ21aGi4y0rP/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-budokai-tenkaichi-sal9im.tar.zst
+    sha256: be9ad884777c43cfc45068043a4a6c16c7fda4933c07f4eedd3154fa07af343f
+    size_bytes: 1363753197
+    decompressed_size_bytes: 4432814080
+    file_count: 8803
+    created: '2026-10-27'
+    source:
+      sha256: f392aa5113885dd1d5a732166c7491f2d74e9948ac5f768673a3ac5264101f58
+      size_bytes: 1631053174
+      url: https://drive.google.com/file/d/1_fh9r6JRC3z8l98amFxXjZ21aGi4y0rP/view?usp=sharing
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

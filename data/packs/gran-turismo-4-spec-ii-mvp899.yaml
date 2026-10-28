@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://mega.nz/folder/NglkFJxI#fGIYj0S7otRVNR61ju0Nxw
   host: mega
   kind: folder
   confidence: high
-  note: Creator's pinned YouTube comment provides MEGA folder link labeled as HD texture pack.
+  note: The host says this file is no longer there (checked 2026-10-27).

@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/yowt4jw5til51og/PS2_HD_Textures_-_Dragon_Ball_Z_-_Sagas_%2528SLUS-20874%2529_%2528NTSC%2529.zip/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MediaFire link labeled 'Link to download' in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-sagas-huekage.tar.zst
+    sha256: c20c0ce4d85fcdfddd485539deaf306d07495a39a5796523ff293a22d51f859d
+    size_bytes: 234795507
+    decompressed_size_bytes: 449771520
+    file_count: 2397
+    created: '2026-10-27'
+    source:
+      sha256: 2d9397a0e762b0cab44d865380a3360f115911d1cc89ba88dd128543072d3303
+      size_bytes: 550853079
+      url: https://www.mediafire.com/file/yowt4jw5til51og/PS2_HD_Textures_-_Dragon_Ball_Z_-_Sagas_%2528SLUS-20874%2529_%2528NTSC%2529.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

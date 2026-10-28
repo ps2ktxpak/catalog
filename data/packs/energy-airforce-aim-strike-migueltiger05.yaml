@@ -13,7 +13,9 @@ sources:
   url: https://gbatemp.net/threads/ps2-energy-airforce-aim-strike-pal-completed.681488/
   primary: true
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/cmay96dlmloddo6/replacements.rar/file
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/energy-airforce-aim-strike-migueltiger05.tar.zst
+    sha256: 788745ec48ae5eb16e043452ce70772b0f49c0a547ffa4ff72af29ae6f477702
+    size_bytes: 185363136
+    decompressed_size_bytes: 354549760
+    file_count: 1376
+    created: '2026-10-28'
+    source:
+      sha256: 9822e35026110fe72441c4707ba23bea998eacf56ff66e7dcc7dbb6835b30067
+      size_bytes: 611388319
+      url: https://www.mediafire.com/file/cmay96dlmloddo6/replacements.rar/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Valkyrie Profile 2: Silmeria'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21452
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1D9TOM4mEPld4FGlp2mUcY2igJ4iYip1v&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/valkyrie-profile-2-silmeria-curse-arms.tar.zst
+    sha256: a1451f2417c3c332126077ef1a6ff6c3c5250b22f82a1e3ae99798334334abf9
+    size_bytes: 1287088210
+    decompressed_size_bytes: 1712599040
+    file_count: 2867
+    created: '2026-10-27'
+    source:
+      sha256: db97c9ee2c2752210da0b57538381ba0f4cd091897ad68a2de0340238d3e74bd
+      size_bytes: 1093401381
+      url: https://drive.usercontent.google.com/download?id=1D9TOM4mEPld4FGlp2mUcY2igJ4iYip1v&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

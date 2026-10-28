@@ -2,6 +2,8 @@ key: manhunt-ironhulk33
 name: Manhunt
 game:
   title: Manhunt
+  serials:
+  - SLUS-20827
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MediaFire download link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/manhunt-ironhulk33.tar.zst
+    sha256: 0a2fe1dd5a0f6a42a859765632d25499f6698ad0bc2f6ca73ea2771a20102011
+    size_bytes: 382408900
+    decompressed_size_bytes: 557783040
+    file_count: 2812
+    created: '2026-10-28'
+    source:
+      sha256: be06e23605127486ea9dc376153f9f6f0214a854a22c5725eec1194cf5c8e52f
+      size_bytes: 668296159
+      url: https://www.mediafire.com/file_premium/c0c87ypx98u6eys/Manhunt_PCSX2_HD_Pack.7z/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

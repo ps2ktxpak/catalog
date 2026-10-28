@@ -4,6 +4,8 @@ game:
   title: Final Fantasy X-2
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20672
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1Mqy6UcoLNiLDTQ2cVzMJVuuZP1TPcKCh&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/final-fantasy-x-2-curse-arms.tar.zst
+    sha256: 4a2894cbd70fc7101877d5325617cef5aa02fff329efd5d43b86ba43a764ce23
+    size_bytes: 2411157767
+    decompressed_size_bytes: 3260928000
+    file_count: 10172
+    created: '2026-10-27'
+    source:
+      sha256: b12355b39b889d38d10788b173d4d4459a1cfee1efad696da6be58f2b893feae
+      size_bytes: 2171192007
+      url: https://drive.usercontent.google.com/download?id=1Mqy6UcoLNiLDTQ2cVzMJVuuZP1TPcKCh&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

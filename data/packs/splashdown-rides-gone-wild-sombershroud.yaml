@@ -4,6 +4,8 @@ game:
   title: 'Splashdown: Rides Gone Wild'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20686
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/h08pjvmu1uvwqnp/SLUS-20686.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: 'The creator''s opening-post list gives this MediaFire zip (SLUS-20686) for Splashdown: Rides Gone Wild (US).'
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/splashdown-rides-gone-wild-sombershroud.tar.zst
+    sha256: 07d6939c6b66b8f89bc2f133ef087d1846f5f35cd7374b2f706cdbb38858e547
+    size_bytes: 380497748
+    decompressed_size_bytes: 1033349120
+    file_count: 3637
+    created: '2026-10-27'
+    source:
+      sha256: 6f9e643cb2a0eb20cace27feafd6f0b14e3b9cac086b43e330c2f18878898141
+      size_bytes: 587347653
+      url: https://www.mediafire.com/file_premium/h08pjvmu1uvwqnp/SLUS-20686.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

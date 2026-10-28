@@ -4,6 +4,9 @@ game:
   title: 'Shadow Hearts: Covenant'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21041
+  - SLUS-21044
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +18,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/u/0/uc?id=11M6bDg1hopDkhpL9AsIb0R-8YV82ysiP&export=download
@@ -23,3 +28,24 @@ download:
   kind: file
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/shadow-hearts-covenant-curse-arms.tar.zst
+    sha256: 77aa8c947d5418c8b36a77db82f8547da480a2a596576e0de72e9e24dbf18b43
+    size_bytes: 3522053235
+    decompressed_size_bytes: 6318417920
+    file_count: 11185
+    created: '2026-10-27'
+    source:
+      sha256: fe87938e36ff2a9c1813b294c1de9bc1d86b4de08954cfb52be34819ae5544dd
+      size_bytes: 4103902748
+      url: https://drive.google.com/u/0/uc?id=11M6bDg1hopDkhpL9AsIb0R-8YV82ysiP&export=download
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: Ghost Rider
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21306
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/4B0GEJjK#83pIBaD2ahQBQdLVq6gswzIPtAhWr1DmB2Mi3bYNbv0
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening post lists this Mega file under the heading Ghost Rider.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ghost-rider-cckrizalid.tar.zst
+    sha256: 0faa881e4a804b2e9beb5e800bc4f97076b321e78944965992855893a6fd1aad
+    size_bytes: 1178335024
+    decompressed_size_bytes: 1518336000
+    file_count: 5266
+    created: '2026-10-27'
+    source:
+      sha256: a37236b9d035e340379ebd737ac86da43896bbb6c80dda8026233eea6821c7e8
+      size_bytes: 993043121
+      url: https://mega.nz/file/4B0GEJjK#83pIBaD2ahQBQdLVq6gswzIPtAhWr1DmB2Mi3bYNbv0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

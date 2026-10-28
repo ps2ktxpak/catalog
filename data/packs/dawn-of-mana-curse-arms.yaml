@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1nC6wwxRTAuV9QgCUaEibs1jHH0CzKaOJ/view
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dawn-of-mana-curse-arms.tar.zst
+    sha256: 7a4a64f5f7efa8d59224f40b66e18b892cc67daba714cfa263c2eab45bb8455e
+    size_bytes: 751025580
+    decompressed_size_bytes: 877660160
+    file_count: 1868
+    created: '2026-10-26'
+    source:
+      sha256: 5aef7596a266f99835f6877aa03e29492d17563e337f3ca164e3acc31078e8c2
+      size_bytes: 628058473
+      url: https://drive.google.com/file/d/1nC6wwxRTAuV9QgCUaEibs1jHH0CzKaOJ/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

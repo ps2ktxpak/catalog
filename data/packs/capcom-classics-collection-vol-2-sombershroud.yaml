@@ -4,6 +4,8 @@ game:
   title: Capcom Classics Collection Vol. 2
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21316
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/5n71mpci5q3lyf9/SLUS-21316.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/capcom-classics-collection-vol-2-sombershroud.tar.zst
+    sha256: 25a5aa18981940adebe1b92c04b0537482f69b38d3ea0a68f8499acb6bcb8bb7
+    size_bytes: 16379674
+    decompressed_size_bytes: 66652160
+    file_count: 264
+    created: '2026-10-27'
+    source:
+      sha256: 41ca465dbf617eecfe035d83163d2b312cd652ba9c32e996703ab8d31e9150a7
+      size_bytes: 118910302
+      url: https://www.mediafire.com/file/5n71mpci5q3lyf9/SLUS-21316.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

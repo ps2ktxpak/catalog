@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/IC8SyJ6J#h5QE3kvIcLtRGJnPYvxSeoeVNEO5vFavbJy-Wydcf5o
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: high
   note: The opening post's DOWNLOAD HERE block has a Mega link whose anchor text is FATAL SHADOWS.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tenchu-fatal-shadows-sombertwilight-2.tar.zst
+    sha256: 5242d8ca3f65d44ccb9f566b0585ab8f9d7d4381b1012f9d50c16fe61b42cace
+    size_bytes: 573121973
+    decompressed_size_bytes: 1276221440
+    file_count: 2444
+    created: '2026-10-27'
+    source:
+      sha256: ac6183ff70bc4e1d3cf2570e81a83f19b24d05be4c9c928325d4951647af4aeb
+      size_bytes: 2742863539
+      url: https://mega.nz/file/IC8SyJ6J#h5QE3kvIcLtRGJnPYvxSeoeVNEO5vFavbJy-Wydcf5o
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

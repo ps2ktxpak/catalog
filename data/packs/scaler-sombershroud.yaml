@@ -4,6 +4,8 @@ game:
   title: Scaler
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20957
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/p2gfm7ga54j9j31/SLUS-20957.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening-post list gives this MediaFire zip (SLUS-20957) for Scaler (US).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/scaler-sombershroud.tar.zst
+    sha256: ec08dcd239ffdca18a8b970bcb4da23ede1aac07aeb483f270a0e9377456a98c
+    size_bytes: 416777229
+    decompressed_size_bytes: 1391933440
+    file_count: 631
+    created: '2026-10-28'
+    source:
+      sha256: 5b1ee087e5c89ecf9c236652fdf68f371b6743a496bbf7f7fb1f623f968828d5
+      size_bytes: 645888143
+      url: https://www.mediafire.com/file_premium/p2gfm7ga54j9j31/SLUS-20957.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

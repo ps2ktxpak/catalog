@@ -4,6 +4,8 @@ game:
   title: Arthur & the Invisibles
   regions:
   - multi
+  serials:
+  - SLUS-21305
 credits:
 - creator: mironter
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://cloud.mail.ru/public/Z2rf/myhv2f5qE
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: high
   note: Creator provided Mail.ru cloud link labeled Download in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/arthur-the-invisibles-mironter.tar.zst
+    sha256: 2591659c14b0e37169c555842d3050af121b67c7091f4badf0e8650156e73e1c
+    size_bytes: 98735784
+    decompressed_size_bytes: 195502080
+    file_count: 930
+    created: '2026-10-26'
+    source:
+      sha256: e0e6e31389d99bc32ceba116ab11796fee48a777a8c5816b501b93f82453ecf8
+      size_bytes: 447941647
+      url: https://cloud.mail.ru/public/Z2rf/myhv2f5qE
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

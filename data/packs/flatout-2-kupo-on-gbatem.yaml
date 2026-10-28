@@ -4,6 +4,8 @@ game:
   title: FlatOut 2
   regions:
   - PAL
+  serials:
+  - SLES-54003
 credits:
 - creator: kupo-on-gbatem
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/drive/folders/1QuSlz5K6zatVDzX9QIbEHN_nz1xqXruV?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: folder
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/flatout-2-kupo-on-gbatem.tar.zst
+    sha256: b1f2315e59d9a2595b13c0ae89d375dcab6bb8934ea42d853ae4a8e54792b180
+    size_bytes: 1518162196
+    decompressed_size_bytes: 2124288000
+    file_count: 8720
+    created: '2026-10-26'
+    source:
+      sha256: 444c29e28f4c8edf44706239cfc7a41358a250baa3675957b24215e0887498cc
+      size_bytes: 2027498129
+      url: https://drive.google.com/drive/folders/1QuSlz5K6zatVDzX9QIbEHN_nz1xqXruV?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

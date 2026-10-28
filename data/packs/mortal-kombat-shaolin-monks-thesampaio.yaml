@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/oydiw7ziobx939q/Mortal_Kombat_Shaolin_Monks_%2528SLUS-21087%2529.zip/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MediaFire link in opening post as the main download for the texture pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mortal-kombat-shaolin-monks-thesampaio.tar.zst
+    sha256: 3dac964ec14c8cd6c26fc98c3f706d21f6e8b2976ec2a3e538ffe33a317849e0
+    size_bytes: 834124616
+    decompressed_size_bytes: 1224355840
+    file_count: 2886
+    created: '2026-10-28'
+    source:
+      sha256: 642c5848049d10b023038ee04c66d6002336bfbd6e470e01faa00bd4cdd3ec1d
+      size_bytes: 2498304681
+      url: https://www.mediafire.com/file/oydiw7ziobx939q/Mortal_Kombat_Shaolin_Monks_%2528SLUS-21087%2529.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

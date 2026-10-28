@@ -4,6 +4,8 @@ game:
   title: SSX 3
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20772
 credits:
 - creator: whitelightning76
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/11SmRcMvqJK24rC0Dey4bSuNArAjcVoDk/view
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ssx-3-whitelightning76.tar.zst
+    sha256: 5ff961a6328c5416acde54317cb93a5f63de8dec63283c856a17b91421aab057
+    size_bytes: 118923782
+    decompressed_size_bytes: 163799040
+    file_count: 545
+    created: '2026-10-26'
+    source:
+      sha256: 557c3c596e7f4abb3c9f501d5e98a9f74e5ccd21636ebb8523d42790eea88bc3
+      size_bytes: 350750373
+      url: https://drive.google.com/file/d/11SmRcMvqJK24rC0Dey4bSuNArAjcVoDk/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

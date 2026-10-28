@@ -4,6 +4,8 @@ game:
   title: 'Ys VI: The Ark Of Napishtim'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20980
 credits:
 - creator: teslax2105
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/kc4iq0zytzootdm/Ys_VI_-_The_Ark_of_Napishtim_PS2_HD_Texture_Pack.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator labeled explicitly as 'Download' in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ys-vi-the-ark-of-napishtim-teslax2105.tar.zst
+    sha256: d528ac1ff664c68b2944b0e569cdd585c09013c6c827497bb7403bb81cb82f74
+    size_bytes: 437076554
+    decompressed_size_bytes: 704020480
+    file_count: 2085
+    created: '2026-10-28'
+    source:
+      sha256: ccfde78795c2fc6a5555d47b5dca96dc7f8e50e8fda4c5b324f8cb9ca3bbf71e
+      size_bytes: 1788916308
+      url: https://www.mediafire.com/file/kc4iq0zytzootdm/Ys_VI_-_The_Ark_of_Napishtim_PS2_HD_Texture_Pack.rar/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

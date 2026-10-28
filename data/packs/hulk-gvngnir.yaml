@@ -2,6 +2,8 @@ key: hulk-gvngnir
 name: Hulk
 game:
   title: Hulk
+  serials:
+  - SLUS-20422
 credits:
 - creator: gvngnir
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1w4HS_2lKjxnSFsIwJ1RQgXJbWrfP42yJ/view
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/hulk-gvngnir.tar.zst
+    sha256: 233e8940a113f6f4033b0ea15d7938696e55a014fdf848a51e0754ed2645e98a
+    size_bytes: 1776047358
+    decompressed_size_bytes: 3223275520
+    file_count: 2214
+    created: '2026-10-26'
+    source:
+      sha256: dcc9c79a1224c819cbb57cce74f8b86ff539e54cac58b30b312875a1dbf1b00b
+      size_bytes: 1926279749
+      url: https://drive.google.com/file/d/1w4HS_2lKjxnSFsIwJ1RQgXJbWrfP42yJ/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

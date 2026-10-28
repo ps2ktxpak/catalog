@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/11DV2XuZ43ihJedkH8sbcQc4ybelbnkj5/view
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/kuon-curse-arms.tar.zst
+    sha256: b4f0d5f3be8f9d3dde5665f5dc56affa57942a196d5b01265c322a35fe868879
+    size_bytes: 324829248
+    decompressed_size_bytes: 413143040
+    file_count: 1115
+    created: '2026-10-26'
+    source:
+      sha256: ab6b0b0e0dbab424be5a7b8703a0f69309f2a0c2c2a28c61a4b409c026e5d28f
+      size_bytes: 272746997
+      url: https://drive.google.com/file/d/11DV2XuZ43ihJedkH8sbcQc4ybelbnkj5/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1kKKvGm_jFlIGbo3WGOdkKevrHjFCx4et/view?usp=sharing
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided Google Drive as primary download option in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/king-s-field-the-ancient-city-irvinsmith.tar.zst
+    sha256: 9cdaafa644c4c687accac2487d4d75fbbe98c86a2fe7b19662c95704d8a85951
+    size_bytes: 647368564
+    decompressed_size_bytes: 816424960
+    file_count: 794
+    created: '2026-10-27'
+    source:
+      sha256: b67c8a5259be22d15e9fe0cad6eca8b29aca84abb5d576c70dfdddd3f5408e00
+      size_bytes: 2480944595
+      url: https://drive.google.com/file/d/1kKKvGm_jFlIGbo3WGOdkKevrHjFCx4et/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

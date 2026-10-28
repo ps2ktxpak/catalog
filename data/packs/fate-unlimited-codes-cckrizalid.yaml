@@ -4,6 +4,8 @@ game:
   title: Fate/Unlimited Codes
   regions:
   - NTSC-J
+  serials:
+  - SLPM-55108
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/xB1iDArT#q4qnSMxLL5O9O2icX7S2VigJztU7G9mVOA0phCJ13eo
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening post lists this Mega file under the heading Fate - Unlimited Codes, and a follow-up post says it was added.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/fate-unlimited-codes-cckrizalid.tar.zst
+    sha256: 1e62bb49e145f0aa8ee5586ced5f27988439ce2167c2beccc90a2a960479b807
+    size_bytes: 399069428
+    decompressed_size_bytes: 829644800
+    file_count: 2149
+    created: '2026-10-27'
+    source:
+      sha256: 76684954c02b8356e648919450c1262b1d3ee44b865be374ebdfbcd664a9ccfb
+      size_bytes: 319357313
+      url: https://mega.nz/file/xB1iDArT#q4qnSMxLL5O9O2icX7S2VigJztU7G9mVOA0phCJ13eo
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

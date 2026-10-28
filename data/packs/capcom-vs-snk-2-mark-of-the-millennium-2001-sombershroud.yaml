@@ -4,6 +4,8 @@ game:
   title: 'Capcom vs. SNK 2: Mark of the Millennium 2001'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20246
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://1drv.ms/u/s!ApJOQlD7y1v-kHerIYC-c6gIc9yG?e=B4TJ0x
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening-post list puts this OneDrive link beside Capcom vs SNK 2 (US).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/capcom-vs-snk-2-mark-of-the-millennium-2001-sombershroud.tar.zst
+    sha256: 941a76818c7a5d5999f3cdca526add3f478f489d224355332709899b19500d81
+    size_bytes: 12513374
+    decompressed_size_bytes: 25640960
+    file_count: 268
+    created: '2026-10-27'
+    source:
+      sha256: 01e67410ac700e2d1a1323db5e42fae975bd9fa4863b5f862cc348f88f94582c
+      size_bytes: 31138920
+      url: https://1drv.ms/u/s!ApJOQlD7y1v-kHerIYC-c6gIc9yG?e=B4TJ0x
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

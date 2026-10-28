@@ -2,6 +2,8 @@ key: jak-2-renegade-marcelus
 name: 'Jak 2: Renegade'
 game:
   title: 'Jak 2: Renegade'
+  serials:
+  - SCUS-97265
 credits:
 - creator: marcelus
 type: unknown
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1zbCZofBzgUX1hTzvpC4ikZrTLnDsKPcG/view?pli=1
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/jak-2-renegade-marcelus.tar.zst
+    sha256: d2de7aec5b1c0fb1ca8459f33d165adedc1c5db513d06955db29ec448c3dbee2
+    size_bytes: 229353
+    decompressed_size_bytes: 757760
+    file_count: 23
+    created: '2026-10-27'
+    source:
+      sha256: 33b399a25bea8862005f51172151af8bf1bee1d19aa95372a0e962635772bbc7
+      size_bytes: 12090850
+      url: https://drive.google.com/file/d/1zbCZofBzgUX1hTzvpC4ikZrTLnDsKPcG/view?pli=1
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

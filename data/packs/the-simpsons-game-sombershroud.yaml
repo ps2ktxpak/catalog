@@ -4,6 +4,8 @@ game:
   title: The Simpsons Game
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21665
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening-post list gives this MediaFire zip (SLUS-21665) for The Simpsons Game (US).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/the-simpsons-game-sombershroud.tar.zst
+    sha256: dc7764573f7f7f141209621e4753e0c844cd2595972a17fc54fa3ef3e70283c9
+    size_bytes: 355811289
+    decompressed_size_bytes: 1165301760
+    file_count: 11281
+    created: '2026-10-28'
+    source:
+      sha256: f8aef60a0b32d6ac7e024487b66a243843559b2e082bc6391269ba8af6459b07
+      size_bytes: 1051444623
+      url: https://www.mediafire.com/file_premium/l3j7zmt7412syo4/SLUS-21665.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

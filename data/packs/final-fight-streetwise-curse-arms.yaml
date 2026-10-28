@@ -4,6 +4,8 @@ game:
   title: 'Final Fight: Streetwise'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21238
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1zKv5uQ8WOeKL2AZ-PhNLyiEdh2uW4syC&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/final-fight-streetwise-curse-arms.tar.zst
+    sha256: 9d2e01c52b266102ea776369af249ae42f7d7404087f7af3f7560b72d018a230
+    size_bytes: 370485278
+    decompressed_size_bytes: 536381440
+    file_count: 2908
+    created: '2026-10-27'
+    source:
+      sha256: fa2de000fe33171b9379652bc53d3934b6c2fe796a5b2eeb61828bda11712753
+      size_bytes: 277089860
+      url: https://drive.usercontent.google.com/download?id=1zKv5uQ8WOeKL2AZ-PhNLyiEdh2uW4syC&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

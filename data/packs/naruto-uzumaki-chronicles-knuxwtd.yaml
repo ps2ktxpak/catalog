@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/drive/folders/1bvMjL5gDF4pTI_7weqpj6oqyRkbnwJ1-?usp=sharing
@@ -23,3 +25,24 @@ download:
   kind: folder
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/naruto-uzumaki-chronicles-knuxwtd.tar.zst
+    sha256: 467636ee4c337c96740bfb83b7d17441ed0689b72e62ad3b2b85d3f800ced10d
+    size_bytes: 193849347
+    decompressed_size_bytes: 367175680
+    file_count: 1257
+    created: '2026-10-27'
+    source:
+      sha256: a02b821c2905a956e021b8b1fff4e6a0c291811ebd0747b5d757a0b6d84eb4b3
+      size_bytes: 7704039
+      url: https://drive.google.com/drive/folders/1bvMjL5gDF4pTI_7weqpj6oqyRkbnwJ1-?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

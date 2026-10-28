@@ -4,6 +4,8 @@ game:
   title: Ghost Rider
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21306
 credits:
 - creator: santins
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1xPBKtOBM-sUKgXR8USZ6ktZPTN_TUE86/view
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ghost-rider-santins.tar.zst
+    sha256: aecfd1415e2f3920c4c87b0ba55fa27f2c0c5929e05afda7f8ffb4e30ac9557a
+    size_bytes: 977697460
+    decompressed_size_bytes: 1275494400
+    file_count: 5057
+    created: '2026-10-26'
+    source:
+      sha256: 496f13a229717cb29fdca663f2fdcbcc9e58df04a93f0f6109bb220c39b5c30f
+      size_bytes: 4053317501
+      url: https://drive.google.com/file/d/1xPBKtOBM-sUKgXR8USZ6ktZPTN_TUE86/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

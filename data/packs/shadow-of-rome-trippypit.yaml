@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/0m6n8z1uxmieu3a/replacements.zip/file
@@ -23,3 +25,23 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/shadow-of-rome-trippypit.tar.zst
+    sha256: 35b79d133c0a3605a65c2021939db8353d18993189a18f34eed872963e2be182
+    size_bytes: 1184286072
+    decompressed_size_bytes: 1708216320
+    file_count: 4890
+    created: '2026-10-27'
+    source:
+      sha256: 0f14c870d1b9b2811c40dcae678695ad4505667ae233282b5b54d9e44091d94e
+      size_bytes: 5235384258
+      url: https://www.mediafire.com/file/0m6n8z1uxmieu3a/replacements.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

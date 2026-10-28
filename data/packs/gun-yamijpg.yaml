@@ -4,6 +4,8 @@ game:
   title: Gun
   regions:
   - PAL
+  serials:
+  - SLES-53523
 credits:
 - creator: yamijpg
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1JZHynyiNc9kpNBMYoMdS1HRH2wCr0t6F/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: 'Creator stated ''LINK: GOOGLE DRIVE'' in opening post; link confirmed in video description.'
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/gun-yamijpg.tar.zst
+    sha256: f11362ce84fd36d2b12c8141baecacd683d8e0fd1f40204ad0dbc195eefe08f4
+    size_bytes: 386969417
+    decompressed_size_bytes: 499046400
+    file_count: 5851
+    created: '2026-10-26'
+    source:
+      sha256: 2342198b7bc31413be5752ebe25a6d8cbe7f17fcc090b47f79310045f4ba4039
+      size_bytes: 1549988724
+      url: https://drive.google.com/file/d/1JZHynyiNc9kpNBMYoMdS1HRH2wCr0t6F/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

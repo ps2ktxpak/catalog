@@ -4,6 +4,8 @@ game:
   title: The Great Escape
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20670
 credits:
 - creator: pliskindev
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/lirgz0kr42mm6cr/The_Great_Escape.zip/file
@@ -23,3 +27,23 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/the-great-escape-pliskindev.tar.zst
+    sha256: 3ad90aa99659aef820e3bd0d7fa05f120c6f6938dc3c4d433b8381cd6252acf8
+    size_bytes: 859949216
+    decompressed_size_bytes: 1716224000
+    file_count: 4343
+    created: '2026-10-27'
+    source:
+      sha256: 975d59eed9217242c4ea6ec60b02c50ce6f5999a32a8232a6817205ff9ddfd4d
+      size_bytes: 926742850
+      url: https://www.mediafire.com/file/lirgz0kr42mm6cr/The_Great_Escape.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

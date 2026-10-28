@@ -4,6 +4,8 @@ game:
   title: Burnout Dominator
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21596
 credits:
 - creator: ml87
 type: button_replacement
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/ek77s1ybth8ln1d/SLUS-21596.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The opening post labels this Mediafire file Burnout Dominator; the zip is named for the NTSC-U serial SLUS-21596.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/burnout-dominator-ml87.tar.zst
+    sha256: e92b737074cc975d3d0a53da8bbd1dd73b097d3000edec725c38e0697f69b1a7
+    size_bytes: 3231
+    decompressed_size_bytes: 20480
+    file_count: 6
+    created: '2026-10-28'
+    source:
+      sha256: 36afa4785e8fb07d3ae6665aaacbfd8fd4b645523500091771fc98a50bd8660a
+      size_bytes: 10070
+      url: https://www.mediafire.com/file/ek77s1ybth8ln1d/SLUS-21596.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

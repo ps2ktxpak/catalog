@@ -4,6 +4,8 @@ game:
   title: Taito Legends 2
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21349
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/srrad3zmzouzq1m/SLUS-21349.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided mediafire download link for SLUS-21349 (Taito Legends 2) in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/taito-legends-2-sombershroud.tar.zst
+    sha256: f3d109c75927875ab91350d1af2114d4b4528449a46b223d8fa171ba349c040a
+    size_bytes: 177953
+    decompressed_size_bytes: 665600
+    file_count: 8
+    created: '2026-10-28'
+    source:
+      sha256: 598c4ef2a66726a19d58ccc00e47a61865594b7016b5d0023eb9b9378d2e8677
+      size_bytes: 307982
+      url: https://www.mediafire.com/file/srrad3zmzouzq1m/SLUS-21349.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

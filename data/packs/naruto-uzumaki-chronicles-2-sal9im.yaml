@@ -4,6 +4,8 @@ game:
   title: 'Naruto: Uzumaki Chronicles 2'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21594
 credits:
 - creator: sal9im
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1k13gL1V1Nl0sez5tiwSTfetTg-bhrTWn/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/naruto-uzumaki-chronicles-2-sal9im.tar.zst
+    sha256: a4869f712102e1dd73271810c2993f5d82864c1a2d306e53aa008f48d11ff3b4
+    size_bytes: 1239353931
+    decompressed_size_bytes: 2240614400
+    file_count: 5422
+    created: '2026-10-26'
+    source:
+      sha256: 278b5703350fa18be6843c82dc553570d71ce8b04b66a6066551ee5d272ecab3
+      size_bytes: 1240079430
+      url: https://drive.google.com/file/d/1k13gL1V1Nl0sez5tiwSTfetTg-bhrTWn/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

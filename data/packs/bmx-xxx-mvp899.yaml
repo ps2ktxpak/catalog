@@ -4,6 +4,8 @@ game:
   title: BMX XXX
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20415
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/lvo6ysmivj73nf8/BMX_XXX.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/bmx-xxx-mvp899.tar.zst
+    sha256: 172a52750511569ce46ba91a2d44fd7903ad97367cbed4c090dbdcff878b22d0
+    size_bytes: 180388371
+    decompressed_size_bytes: 295976960
+    file_count: 1843
+    created: '2026-10-28'
+    source:
+      sha256: 88e07603998522ade6d5bace05687291c0f8d0cc0b7e1321d4f1b74ae56f95fc
+      size_bytes: 658654448
+      url: https://www.mediafire.com/file/lvo6ysmivj73nf8/BMX_XXX.rar/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

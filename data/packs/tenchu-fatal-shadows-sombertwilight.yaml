@@ -4,6 +4,8 @@ game:
   title: 'Tenchu: Fatal Shadows'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21129
 credits:
 - creator: sombertwilight
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/VDtVHRLI#-rrnuOf3RiGlp_xDt2g1cEWQu3x0B1zJ-Gi3nZQVF6w
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator's video description explicitly labels MEGA link as main download pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tenchu-fatal-shadows-sombertwilight.tar.zst
+    sha256: 85dff36871b9c5d95f7c513b878fa068131e852e92da84fab11f0667f6e7b234
+    size_bytes: 345804353
+    decompressed_size_bytes: 756582400
+    file_count: 2390
+    created: '2026-10-27'
+    source:
+      sha256: fca9b8fb9a87936024c7fa7ca7b4b7a7ce65daa682a7db12705d124521fda827
+      size_bytes: 1347257299
+      url: https://mega.nz/file/VDtVHRLI#-rrnuOf3RiGlp_xDt2g1cEWQu3x0B1zJ-Gi3nZQVF6w
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

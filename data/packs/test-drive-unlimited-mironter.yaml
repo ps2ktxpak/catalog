@@ -4,6 +4,8 @@ game:
   title: Test Drive Unlimited
   regions:
   - multi
+  serials:
+  - SLES-54466
 credits:
 - creator: mironter
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://cloud.mail.ru/public/pRv5/Jv6AJ9QJd
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: high
   note: Creator provided Mail.ru cloud storage link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/test-drive-unlimited-mironter.tar.zst
+    sha256: 63152285638fb94ae1f7a80f110ea46ab41972e1d5395fe4f030a9fd367b163c
+    size_bytes: 487616330
+    decompressed_size_bytes: 659619840
+    file_count: 2323
+    created: '2026-10-26'
+    source:
+      sha256: 8daf19d30f265a7f761b9afa04dd4c69af2d979d4be2d279e270b0d77839648e
+      size_bytes: 1570468813
+      url: https://cloud.mail.ru/public/pRv5/Jv6AJ9QJd
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

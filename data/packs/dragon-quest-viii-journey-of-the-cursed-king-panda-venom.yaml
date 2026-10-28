@@ -4,6 +4,8 @@ game:
   title: Dragon Quest VIII - Journey of the Cursed King
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21207
 credits:
 - creator: panda-venom
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/wpmwpgniphmwmki/DQVIII_HD_SLUS-21207.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-quest-viii-journey-of-the-cursed-king-panda-venom.tar.zst
+    sha256: b7e2d88ccbf56977046509639d89671cb61afcbe65703c8510d69f7d6848dc02
+    size_bytes: 1588051282
+    decompressed_size_bytes: 2269480960
+    file_count: 7480
+    created: '2026-10-27'
+    source:
+      sha256: d7ed9aaa05ca0a12cfef56eccc3389f36daf0ad4aa1eafe82c1591d2d359ce58
+      size_bytes: 2200183364
+      url: https://www.mediafire.com/file_premium/wpmwpgniphmwmki/DQVIII_HD_SLUS-21207.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

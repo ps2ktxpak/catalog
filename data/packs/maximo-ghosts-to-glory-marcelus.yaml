@@ -4,6 +4,8 @@ game:
   title: 'Maximo: Ghosts to Glory'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20017
 credits:
 - creator: marcelus
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1epEe0dN1ucgU560SAQLYKW05t4g2xX21/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/maximo-ghosts-to-glory-marcelus.tar.zst
+    sha256: 0cf472e07602d297d9dcc3a7591ff996b1618d78f714ac0a7b95aa9bfa9d83f4
+    size_bytes: 786549
+    decompressed_size_bytes: 1884160
+    file_count: 8
+    created: '2026-10-26'
+    source:
+      sha256: eaa5d423b9c042b957a2c7cb5d643d2355ab177a75e248e53cabbfde6dddd494
+      size_bytes: 1940635
+      url: https://drive.google.com/file/d/1epEe0dN1ucgU560SAQLYKW05t4g2xX21/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Naruto Shippuden: Ultimate Ninja 5'
   regions:
   - PAL
+  serials:
+  - SLES-55605
 credits:
 - creator: yamijpg
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://pixeldrain.com/u/zwgbccxv
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/naruto-shippuden-ultimate-ninja-5-yamijpg.tar.zst
+    sha256: 218f9f38226b373862385b667e1662b1a1b69dd43a5e86e829844ab0ed1a5554
+    size_bytes: 1166703461
+    decompressed_size_bytes: 2499676160
+    file_count: 8197
+    created: '2026-10-27'
+    source:
+      sha256: 34d65ef56545624f63ed6fef77d66101e5576349f345fb0f7259a184ac5c40f4
+      size_bytes: 3978703249
+      url: https://pixeldrain.com/u/zwgbccxv
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

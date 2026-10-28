@@ -4,6 +4,8 @@ game:
   title: 'Burnout 2: Point of Impact'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20497
 credits:
 - creator: ml87
 type: button_replacement
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/exovkmj65di02pz/SLUS-20497.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The opening post labels this Mediafire file Burnout 2 - Point of Impact; the zip is named for the NTSC-U serial SLUS-20497.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/burnout-2-point-of-impact-ml87.tar.zst
+    sha256: 364ca6b77ef95db4c8bbfdd8eb4bfc103d0abe0aab8b9a7a2e839b87af2f29ab
+    size_bytes: 8146
+    decompressed_size_bytes: 30720
+    file_count: 1
+    created: '2026-10-27'
+    source:
+      sha256: c09fa9298cab2760107f90fc0ab4ec75eb57dee0bed64e5b95e6f9cdd432b0c4
+      size_bytes: 17687
+      url: https://www.mediafire.com/file/exovkmj65di02pz/SLUS-20497.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

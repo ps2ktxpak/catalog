@@ -4,6 +4,8 @@ game:
   title: '007: From Russia with Love'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21282
 credits:
 - creator: thomasweissenfluh
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://archive.org/details/007-from-russia-with-love-upscaled-enhanced-texture-pack
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/007-from-russia-with-love-thomasweissenfluh.tar.zst
+    sha256: 52ff89786b106b73e71aedfbb3b7a63bc2ea752deb745f225fa19c6f5ba92e0c
+    size_bytes: 714606000
+    decompressed_size_bytes: 1022924800
+    file_count: 10723
+    created: '2026-10-26'
+    source:
+      sha256: 16ce9168c6b2ca1341a3eb28a73f0d907cb617f4e71cc7574aa8fcb6341a3eaa
+      size_bytes: 1971133036
+      url: https://archive.org/details/007-from-russia-with-love-upscaled-enhanced-texture-pack
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

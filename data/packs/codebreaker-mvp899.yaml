@@ -2,6 +2,8 @@ key: codebreaker-mvp899
 name: CodeBreaker
 game:
   title: CodeBreaker
+  serials:
+  - SLUS-20344
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/sp1hh7tsoxhluac/CodeBreaker_v10.rar/file
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/codebreaker-mvp899.tar.zst
+    sha256: 7e218d6c351913f287a2d6332f25b8fe0f69ff597671a980c57a6cf9090c023d
+    size_bytes: 2303514
+    decompressed_size_bytes: 10649600
+    file_count: 10
+    created: '2026-10-27'
+    source:
+      sha256: ed9918a290f443c0ffaec8989d3dd6655a0be583aff065211574bdbdbaa8032e
+      size_bytes: 7414468
+      url: https://www.mediafire.com/file/sp1hh7tsoxhluac/CodeBreaker_v10.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

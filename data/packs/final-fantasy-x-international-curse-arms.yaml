@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1VU5CDcEZG4UHBeNOKSmGK_segZ12I7LS&export=download&authuser=0
@@ -21,3 +23,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/final-fantasy-x-international-curse-arms.tar.zst
+    sha256: 16d2d12560947824676cad8d6a2b691be5a36fa0979bdd3db28d9db74bedc733
+    size_bytes: 3858942667
+    decompressed_size_bytes: 5050726400
+    file_count: 14811
+    created: '2026-10-26'
+    source:
+      sha256: c0c6d2377dcc7f86d4a006d31eacbcaae771609a3f7209010253292cb7cea602
+      size_bytes: 3243605919
+      url: https://drive.usercontent.google.com/download?id=1VU5CDcEZG4UHBeNOKSmGK_segZ12I7LS&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

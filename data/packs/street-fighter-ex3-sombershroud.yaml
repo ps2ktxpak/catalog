@@ -4,6 +4,8 @@ game:
   title: Street Fighter EX3
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20130
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://1drv.ms/u/s!ApJOQlD7y1v-kQNglYuqcNA0YjBQ?e=OMDflX
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's list of upscaled requested games in the opening post puts this OneDrive link beside Street Fighter EX3 (US).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/street-fighter-ex3-sombershroud.tar.zst
+    sha256: 6ce0856c2349e37ac3c2cfeb66d10b6cc9175d648f00761fb9f83240be548523
+    size_bytes: 69520353
+    decompressed_size_bytes: 109240320
+    file_count: 350
+    created: '2026-10-27'
+    source:
+      sha256: 0e0b171de605b2fbbd71d051d90600b5186831064b7b4d527570560f0d1009fa
+      size_bytes: 151739959
+      url: https://1drv.ms/u/s!ApJOQlD7y1v-kQNglYuqcNA0YjBQ?e=OMDflX
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

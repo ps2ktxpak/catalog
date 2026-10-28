@@ -4,6 +4,8 @@ game:
   title: 'Dragon Ball Z: Budokai Tenkaichi 4'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21978
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1lXqLNVn1UqKiUPwUXhyaulEa5S9GtNdb/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-budokai-tenkaichi-4-mvp899.tar.zst
+    sha256: 787d4e6f78aa72ef2432bc6d4c2a0e3eb94b1e40cf5f2cb2c1b56dfc17f9f9a9
+    size_bytes: 1123591045
+    decompressed_size_bytes: 2519459840
+    file_count: 9534
+    created: '2026-10-26'
+    source:
+      sha256: 54669d7dc71eef23f20569370b9f3e999e4cc61cbf7637d2f7cee58a022c4fe1
+      size_bytes: 3604488172
+      url: https://drive.google.com/file/d/1lXqLNVn1UqKiUPwUXhyaulEa5S9GtNdb/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

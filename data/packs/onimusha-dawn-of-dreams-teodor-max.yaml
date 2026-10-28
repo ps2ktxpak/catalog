@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://drive.google.com/file/d/1rpLpPFopB5HuoGHINB7wxd9PTI36RE5D/view?usp=sharing
   host: gdrive
   kind: file
   confidence: high
-  note: Creator lists three download mirrors (Google Drive, MediaFire, Mega) in opening post.
+  note: The host says this file is no longer there (checked 2026-10-28).

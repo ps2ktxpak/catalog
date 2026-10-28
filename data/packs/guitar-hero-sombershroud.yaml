@@ -4,6 +4,8 @@ game:
   title: Guitar Hero
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21224
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/4u6blz921h6slsn/SLUS-21224.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator listed specific Guitar Hero file (SLUS-21224) in opening post megamix.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/guitar-hero-sombershroud.tar.zst
+    sha256: 6e3037c0075d9ec4bf7ba96421d513b27e2c75a77568bffa3690bb8b6cd30ef6
+    size_bytes: 118019637
+    decompressed_size_bytes: 219402240
+    file_count: 825
+    created: '2026-10-28'
+    source:
+      sha256: cacf85dd88dd57b22cb9cfebc5f0e9bc0d653c51116edc316ecbb39ab4b082b2
+      size_bytes: 276996060
+      url: https://www.mediafire.com/file_premium/4u6blz921h6slsn/SLUS-21224.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

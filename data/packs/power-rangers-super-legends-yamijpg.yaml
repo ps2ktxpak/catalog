@@ -4,6 +4,8 @@ game:
   title: 'Power Rangers: Super Legends'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21679
 credits:
 - creator: yamijpg
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1ZFdJm1u69us0mxntOsrfnq7dELK7ZRE-/view
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/power-rangers-super-legends-yamijpg.tar.zst
+    sha256: 60f40970be88b471d358b6401d7e3d4d2cf946e09cfdb4894374d36b773e6c9b
+    size_bytes: 137490931
+    decompressed_size_bytes: 182640640
+    file_count: 1188
+    created: '2026-10-27'
+    source:
+      sha256: 5a56d23cc8b8ac0cdddecc6428c9b54046cf46f34c8ade7df5ea9a90615d97cc
+      size_bytes: 359326663
+      url: https://drive.google.com/file/d/1ZFdJm1u69us0mxntOsrfnq7dELK7ZRE-/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,9 @@ game:
   title: 'Xenosaga Episode II: Jenseits von Gut und Bose'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20892
+  - SLUS-21133
 credits:
 - creator: panda-venom
 type: ai_upscale
@@ -15,7 +18,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/fNQl1BTa#Mrm01hjb_yvdMzvoG4IhSK9BuiAj6NSi00tBHgPCUrg
@@ -23,3 +28,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MEGA link labeled as updated Episode II download.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/xenosaga-episode-ii-jenseits-von-gut-und-bose-panda-venom.tar.zst
+    sha256: 73e272a6b425260a0c49bb0c3a9b12cc9f0ba768d8ac63fad4fe0f6af26de9eb
+    size_bytes: 1020978424
+    decompressed_size_bytes: 3520870400
+    file_count: 21593
+    created: '2026-10-27'
+    source:
+      sha256: 24f19a6d38dd63bad1d15e595fbb40963a31e97730b6f6465cc85298be31311f
+      size_bytes: 1134733562
+      url: https://mega.nz/file/fNQl1BTa#Mrm01hjb_yvdMzvoG4IhSK9BuiAj6NSi00tBHgPCUrg
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

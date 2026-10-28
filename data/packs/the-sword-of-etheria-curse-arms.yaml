@@ -4,6 +4,8 @@ game:
   title: The Sword of Etheria
   regions:
   - PAL
+  serials:
+  - SLES-53768
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=16x-lF6lEdf0-po6h3UxTPQmps8MCe7IQ&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/the-sword-of-etheria-curse-arms.tar.zst
+    sha256: 496480aa836f92f3dae9198c4cbfb8fd5694df7857b928130a118e40479e1e0b
+    size_bytes: 545089981
+    decompressed_size_bytes: 906516480
+    file_count: 1855
+    created: '2026-10-26'
+    source:
+      sha256: e273e1dfe5afcdc81b9c35161598e8625b0c0ffb04d07281ce88b82612d8d0f7
+      size_bytes: 437970780
+      url: https://drive.usercontent.google.com/download?id=16x-lF6lEdf0-po6h3UxTPQmps8MCe7IQ&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

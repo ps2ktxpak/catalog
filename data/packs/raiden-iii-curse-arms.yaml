@@ -4,6 +4,8 @@ game:
   title: Raiden III
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21465
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=10eW4XwCeVegm4MI6J0G-D5hdGyHJtfGF&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/raiden-iii-curse-arms.tar.zst
+    sha256: 5ca505aedba1d8c603df6f594383ec194db8d9ad9bfccb0b22af5cd59e99ddae
+    size_bytes: 196414278
+    decompressed_size_bytes: 333383680
+    file_count: 798
+    created: '2026-10-26'
+    source:
+      sha256: 8891b3df81f1ddfcc58473fcf347a494a29df606dc98a39d22dd305f58d9d0d7
+      size_bytes: 687583703
+      url: https://drive.usercontent.google.com/download?id=10eW4XwCeVegm4MI6J0G-D5hdGyHJtfGF&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Dragon Ball Z: Budokai Tenkaichi 2 DX'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21441
 credits:
 - creator: novapowers
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
   url: https://gbatemp.net/threads/dragon-ball-z-budokai-tenkaichi-2-dx-mod-slus-21441-ai-upscaled-texture-pack.679462/
   primary: true
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/7khrpvzlv1trwai/BT2_DX_HD_Textures.zip/file
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provides direct Mediafire download link (190MB) in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-budokai-tenkaichi-2-dx-novapowers.tar.zst
+    sha256: 41a441f7844425c58a4b5061bfa5edf7523b4d531fb99cbe5fc79b1abdbdc8d5
+    size_bytes: 53707604
+    decompressed_size_bytes: 153057280
+    file_count: 1244
+    created: '2026-10-27'
+    source:
+      sha256: 14186dabb8305f2bc1f152d15920e38d803c836e357db49022bbb0bfd7fb8206
+      size_bytes: 188773998
+      url: https://www.mediafire.com/file/7khrpvzlv1trwai/BT2_DX_HD_Textures.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

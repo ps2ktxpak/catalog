@@ -4,6 +4,8 @@ game:
   title: Chaos Wars
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21722
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: Primary link in the creator's opening-post list; the list also labels a mirror, and a later creator post gives a different OneDrive link, so which is newest is unclear.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/chaos-wars-sombershroud.tar.zst
+    sha256: 093b74a4b7597eec58f94b88328bbf4de06ce0af1eff1866109b80ac099aee00
+    size_bytes: 632071303
+    decompressed_size_bytes: 1448048640
+    file_count: 1956
+    created: '2026-10-26'
+    source:
+      sha256: da638953176287ff9c9732af879f74aaeaaa8879ca219ed0a5f818325c85f2ae
+      size_bytes: 1318842411
+      url: https://1drv.ms/u/c/f4ce8a5d6475446d/EckdwFfoBPpCiH0BtJwZPpUBOu7bcTLQNyJyEDusum1ORw?e=OjXr0m
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

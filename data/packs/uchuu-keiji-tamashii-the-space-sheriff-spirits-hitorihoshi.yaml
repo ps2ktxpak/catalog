@@ -4,6 +4,8 @@ game:
   title: 'Uchuu Keiji Tamashii: The Space Sheriff Spirits'
   regions:
   - NTSC-U
+  serials:
+  - SLPS-25649
 credits:
 - creator: hitorihoshi
 type: mixed
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1staLx6yPVvJuZbjp70lRqq8hJHW_y8TO/view?usp=sharing
@@ -24,3 +28,23 @@ download:
   confidence: high
   password: hitori_hoshi
   note: Creator provided Google Drive link for PCSX2 version in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/uchuu-keiji-tamashii-the-space-sheriff-spirits-hitorihoshi.tar.zst
+    sha256: 054c380e2dd92ddca281bdd1fa2535533fbe3df26f5ae5fa75e62a3974602eae
+    size_bytes: 229107467
+    decompressed_size_bytes: 487669760
+    file_count: 719
+    created: '2026-10-28'
+    source:
+      sha256: 4e43ad918e57d29541f10252d6758e10e6c1b0dde0c24103d16f73e3dd6a7f13
+      size_bytes: 614299901
+      url: https://drive.google.com/file/d/1staLx6yPVvJuZbjp70lRqq8hJHW_y8TO/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

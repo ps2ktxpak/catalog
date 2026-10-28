@@ -2,6 +2,8 @@ key: urban-reign-sombershroud
 name: Urban Reign
 game:
   title: Urban Reign
+  serials:
+  - SLUS-21209
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/q045y4vfjj696tp/SLUS-21209.zip/file
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening-post list gives this MediaFire zip (SLUS-21209) for Urban Reign, marked (US?) by the creator.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/urban-reign-sombershroud.tar.zst
+    sha256: 8146ea9e35eae2171c931d9dd17ebe902e11209123beba64dddaa8a48854d26f
+    size_bytes: 774999267
+    decompressed_size_bytes: 1174097920
+    file_count: 5186
+    created: '2026-10-27'
+    source:
+      sha256: 6f569c8f0c7fd2f8be8751ce9368fd83b59d1e29a19f9193e80e9ac57f80903a
+      size_bytes: 1868091919
+      url: https://www.mediafire.com/file/q045y4vfjj696tp/SLUS-21209.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

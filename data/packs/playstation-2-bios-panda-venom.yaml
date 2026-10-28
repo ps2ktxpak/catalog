@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/grz3hweqdqdcit2/20020207-164243.7z/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/playstation-2-bios-panda-venom.tar.zst
+    sha256: 73b2f80afb462d8b54db386e0b3929013f3d50d7379749ca06ea0808fcd5703a
+    size_bytes: 12809149
+    decompressed_size_bytes: 42567680
+    file_count: 217
+    created: '2026-10-27'
+    source:
+      sha256: 04236636940a3aba9013083c2500cd951a3b29554bcac219e98237e846775868
+      size_bytes: 24438105
+      url: https://www.mediafire.com/file_premium/grz3hweqdqdcit2/20020207-164243.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

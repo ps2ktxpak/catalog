@@ -4,6 +4,8 @@ game:
   title: Devil May Cry
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20216
 credits:
 - creator: xxtherockoxx
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/s7rytq7fm0yefvr/D.M.C_HD.Textures.v1.0xXThe.RockoXx.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator's opening post directly provides mediafire download link with pack filename.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/devil-may-cry-xxtherockoxx.tar.zst
+    sha256: d0048b1164bdda3a2ef6b50e2c6fec0d21815190b4b2c77b619a67e32ce01d35
+    size_bytes: 2647287826
+    decompressed_size_bytes: 3751362560
+    file_count: 3047
+    created: '2026-10-28'
+    source:
+      sha256: b2cb5f2f4c0b9e988bfb673a78b8dfd9bc0181f053e3a8d832bee4bcbf60f6a9
+      size_bytes: 3912038115
+      url: https://www.mediafire.com/file/s7rytq7fm0yefvr/D.M.C_HD.Textures.v1.0xXThe.RockoXx.rar/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

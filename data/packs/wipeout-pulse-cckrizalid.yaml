@@ -4,6 +4,8 @@ game:
   title: Wipeout Pulse
   regions:
   - PAL
+  serials:
+  - SCES-54748
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/sQFiGRJZ#EGRMD-TbT1-5DpasqPlbjeba2McPwdXCegiBwqonnHw
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening post lists this Mega file under the heading WipEout Pulse; the post gives one link and no region split.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/wipeout-pulse-cckrizalid.tar.zst
+    sha256: 3178a9865f86fe51f1b5d55ae7c5aa6b4b7b443a6d0323b8125cf079cabd9cd9
+    size_bytes: 366429250
+    decompressed_size_bytes: 464650240
+    file_count: 1883
+    created: '2026-10-27'
+    source:
+      sha256: fa2e8b213a38c7e6d7fdc7dbf1faa3cdef9a106cf0f4d4a69bdf10c39b6f38a7
+      size_bytes: 381837780
+      url: https://mega.nz/file/sQFiGRJZ#EGRMD-TbT1-5DpasqPlbjeba2McPwdXCegiBwqonnHw
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

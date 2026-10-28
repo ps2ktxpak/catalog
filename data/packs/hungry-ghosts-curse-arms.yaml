@@ -4,6 +4,8 @@ game:
   title: Hungry Ghosts
   regions:
   - NTSC-J
+  serials:
+  - SCPS-15046
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1CvknVvXlwZky70Vy1yQfXnOol5AktZvG&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/hungry-ghosts-curse-arms.tar.zst
+    sha256: 62134a280b222063d20f39cb823fb876ad1f5706ed784e640e99ddac9228ea97
+    size_bytes: 393821722
+    decompressed_size_bytes: 556615680
+    file_count: 2781
+    created: '2026-10-26'
+    source:
+      sha256: c054c4804660914f10daadde2a652172e10a56020579e553e2f1516fbd4e1c24
+      size_bytes: 1316728950
+      url: https://drive.usercontent.google.com/download?id=1CvknVvXlwZky70Vy1yQfXnOol5AktZvG&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

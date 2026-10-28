@@ -4,6 +4,8 @@ game:
   title: 'The Incredibles: Rise of the Underminer'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21217
 credits:
 - creator: santins
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1vs9C-uE9yuDuHs0oAPdu01SntmFoPtG9/view
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/the-incredibles-rise-of-the-underminer-santins.tar.zst
+    sha256: 5dde21c95d7d2dbd82ad4c32ae953b1e40c353ecc93fcf3f203e98fba8b5608e
+    size_bytes: 131166773
+    decompressed_size_bytes: 230594560
+    file_count: 2039
+    created: '2026-10-26'
+    source:
+      sha256: 518a49acd56c583c3aba0b69e1c7621445985f7d53f191cf7b78b2fb9f4f7756
+      size_bytes: 162923575
+      url: https://drive.google.com/file/d/1vs9C-uE9yuDuHs0oAPdu01SntmFoPtG9/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

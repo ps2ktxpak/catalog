@@ -4,6 +4,8 @@ game:
   title: 'Mana Khemia 2: Fall of Alchemy'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21890
 credits:
 - creator: hitorihoshi
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1yZlUuEKU7Y6Sf1xO4ZI-SnoT6XFIHnH-/view?usp=sharing
@@ -24,3 +28,23 @@ download:
   confidence: high
   password: Hitori
   note: Creator's primary download link in opening post; password-protected archive.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mana-khemia-2-fall-of-alchemy-hitorihoshi.tar.zst
+    sha256: 062e3eab7e5b770f41621bcc42e4188645c76d76258d392ecad96e4a53fa5807
+    size_bytes: 837802782
+    decompressed_size_bytes: 2862878720
+    file_count: 7159
+    created: '2026-10-28'
+    source:
+      sha256: d2e4e49e3c6ff18fb1432faee90aab5487d6d2c235c61007a48b56a22a237082
+      size_bytes: 2855982188
+      url: https://drive.google.com/file/d/1yZlUuEKU7Y6Sf1xO4ZI-SnoT6XFIHnH-/view?usp=sharing
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://mega.nz/file/chYkEZrJ#42zu1XR5njpKgMvJ3iyHzKPHwvNKOXlH0rOXzRGkEoI
   host: mega
   kind: file
   confidence: high
-  note: Creator posted Mega link in opening post.
+  note: The host says this file is no longer there (checked 2026-10-27).

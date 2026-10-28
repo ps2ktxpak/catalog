@@ -4,6 +4,8 @@ game:
   title: 'Metal Gear Solid 2: Substance'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20554
 credits:
 - creator: lunerus
 type: port
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://github.com/NathanHigley/MGS2-HD-UI/releases
@@ -23,3 +27,24 @@ download:
   kind: page
   confidence: high
   note: Creator linked to GitHub releases page where texture pack is distributed.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/metal-gear-solid-2-substance-lunerus.tar.zst
+    sha256: c13a9c5162b7ea6a8f8ed7c5088f16130dec611927c63f41fdfbd628a94b2921
+    size_bytes: 5090086
+    decompressed_size_bytes: 28897280
+    file_count: 847
+    created: '2026-10-27'
+    source:
+      sha256: a5254af6033e62ce3872bb3515833d3e1301900371d4d9b329fc050d7ce8d250
+      size_bytes: 14808012
+      url: https://github.com/NathanHigley/MGS2-HD-UI/releases
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

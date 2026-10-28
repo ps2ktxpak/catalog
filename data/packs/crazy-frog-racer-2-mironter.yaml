@@ -4,6 +4,8 @@ game:
   title: Crazy Frog Racer 2
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21634
 credits:
 - creator: mironter
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://cloud.mail.ru/public/JVrt/JopaYQCjS
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: high
   note: Creator provided Mail.ru cloud download link labeled Download in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/crazy-frog-racer-2-mironter.tar.zst
+    sha256: 13a89f3592a8d521e7c9390cd5cd762a032794eb06c58447a36c710945b0161f
+    size_bytes: 146625847
+    decompressed_size_bytes: 411494400
+    file_count: 2030
+    created: '2026-10-26'
+    source:
+      sha256: 3043e064ce7c0f80ffc992876fc6538546d1b1ea2ce19100e58967b20ca609d4
+      size_bytes: 302948028
+      url: https://cloud.mail.ru/public/JVrt/JopaYQCjS
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

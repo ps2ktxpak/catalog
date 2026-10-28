@@ -4,6 +4,8 @@ game:
   title: Burnout
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20307
 credits:
 - creator: ml87
 type: button_replacement
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/qbyx07daxy3jq85/SLUS-20307.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The opening post labels this Mediafire file Burnout 1; the zip is named for the NTSC-U serial SLUS-20307.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/burnout-ml87.tar.zst
+    sha256: 43346ef78586e1b3c59b58bf0ddf776c9d73ae0903c4c9c268e943128153b0a2
+    size_bytes: 6360
+    decompressed_size_bytes: 20480
+    file_count: 1
+    created: '2026-10-27'
+    source:
+      sha256: 5127733cbfbda43a63ca0f25ce69fd213d99ec2882956a573b391d0e0afdfb47
+      size_bytes: 15074
+      url: https://www.mediafire.com/file/qbyx07daxy3jq85/SLUS-20307.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

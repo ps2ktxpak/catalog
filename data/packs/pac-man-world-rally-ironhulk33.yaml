@@ -2,6 +2,8 @@ key: pac-man-world-rally-ironhulk33
 name: Pac-Man World Rally
 game:
   title: Pac-Man World Rally
+  serials:
+  - SLUS-21328
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -21,3 +25,24 @@ download:
   kind: folder
   confidence: medium
   note: Creator provided MediaFire folder and TeraBox as public download sources.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/pac-man-world-rally-ironhulk33.tar.zst
+    sha256: 82ef0e9e16aab315173d23b4355187791296f2483e622913bd7001f6f7c1d033
+    size_bytes: 153531182
+    decompressed_size_bytes: 308131840
+    file_count: 4247
+    created: '2026-10-28'
+    source:
+      sha256: ef8a57510b4aed4bde8c9ae635922444ebc1879484216ed658d1e094f4f3d53a
+      size_bytes: 503415363
+      url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

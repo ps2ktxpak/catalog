@@ -4,6 +4,8 @@ game:
   title: 'James Bond 007: Agent Under Fire'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20265
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/2k5ukbe621edbaw/SLUS-20265.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: 'The creator''s opening-post list gives this MediaFire zip (SLUS-20265) for James Bond 007: Agent Under Fire (US).'
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/james-bond-007-agent-under-fire-sombershroud.tar.zst
+    sha256: 43d2c245622c758bbbecace032f0e32a453debd7a8f9c2b8e231749899d4ff8a
+    size_bytes: 429058694
+    decompressed_size_bytes: 685004800
+    file_count: 9653
+    created: '2026-10-27'
+    source:
+      sha256: 28a5a5ba68e5be6d7d7ae93eade9a4d22542fa400515105df09899b53df295ba
+      size_bytes: 729262889
+      url: https://www.mediafire.com/file_premium/2k5ukbe621edbaw/SLUS-20265.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

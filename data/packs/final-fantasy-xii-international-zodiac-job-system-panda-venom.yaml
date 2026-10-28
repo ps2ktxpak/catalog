@@ -4,6 +4,8 @@ game:
   title: Final Fantasy XII International Zodiac Job System
   regions:
   - NTSC-J
+  serials:
+  - SLPM-66750
 credits:
 - creator: panda-venom
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/5hh0jfmqqd2ww8x/SLPM-66750_FF12_zodiac_v1.0.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/final-fantasy-xii-international-zodiac-job-system-panda-venom.tar.zst
+    sha256: de7009e8e313394e7c2696f31b7b3181e0f3ad8134ec471eb289450ed6e36435
+    size_bytes: 2914482439
+    decompressed_size_bytes: 4436930560
+    file_count: 15098
+    created: '2026-10-27'
+    source:
+      sha256: d886573877b885f7113a8a36ffbb20a7f4e736e5b7f0e07068428cd8fc655533
+      size_bytes: 1942941076
+      url: https://www.mediafire.com/file/5hh0jfmqqd2ww8x/SLPM-66750_FF12_zodiac_v1.0.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

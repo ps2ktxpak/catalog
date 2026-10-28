@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/yIVAGZKZ#o3tzyKaqa8N4mwCs3waK4DDR61vwK4WVYgZHYvYjqCQ
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/god-of-war-ii-mvp899.tar.zst
+    sha256: fbf76ce91110a5dd9e73640ca3410e6dace3ac0460654390b549ae749e95139b
+    size_bytes: 89032449
+    decompressed_size_bytes: 119449600
+    file_count: 3
+    created: '2026-10-27'
+    source:
+      sha256: c61bda2de9a0659ef8fdc110ec34798cc56584963067c8bdf9d98ec414fba701
+      size_bytes: 169024079
+      url: https://mega.nz/file/yIVAGZKZ#o3tzyKaqa8N4mwCs3waK4DDR61vwK4WVYgZHYvYjqCQ
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

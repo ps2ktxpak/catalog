@@ -4,6 +4,8 @@ game:
   title: Obscure
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20777
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1bPTqfBNBBdGmFQ_PZKAeuvLEnMsYkSYX&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/obscure-curse-arms.tar.zst
+    sha256: 08b52dd9f805d5a0c365e012612bc26740c5ed55c5b7be0f362dfdab3f5d20fd
+    size_bytes: 458967491
+    decompressed_size_bytes: 584437760
+    file_count: 2490
+    created: '2026-10-26'
+    source:
+      sha256: 56ff23f1da9b724a9b482e25171200bc80bcaffd960913dd910bf3abc36f733e
+      size_bytes: 1580102425
+      url: https://drive.usercontent.google.com/download?id=1bPTqfBNBBdGmFQ_PZKAeuvLEnMsYkSYX&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

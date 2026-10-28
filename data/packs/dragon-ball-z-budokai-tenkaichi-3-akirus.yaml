@@ -2,6 +2,8 @@ key: dragon-ball-z-budokai-tenkaichi-3-akirus
 name: 'Dragon Ball Z: Budokai Tenkaichi 3'
 game:
   title: 'Dragon Ball Z: Budokai Tenkaichi 3'
+  serials:
+  - SLUS-21678
 credits:
 - creator: akirus
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1MyUzpU7D_4HiP3szxK8YhkkF--YSGZnd/view
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator lists Google Drive link for 16:9 version in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-budokai-tenkaichi-3-akirus.tar.zst
+    sha256: 8b79b2c271fc7fe10cdd8ea9565beec0b0dca1282a749ae25409b926e1945e2e
+    size_bytes: 341847607
+    decompressed_size_bytes: 1067632640
+    file_count: 2223
+    created: '2026-10-26'
+    source:
+      sha256: 5b2f5f3fceaa1ee23155d1c35cf8399222c6e8864bac700cae960d57ed299e15
+      size_bytes: 219008991
+      url: https://drive.google.com/file/d/1MyUzpU7D_4HiP3szxK8YhkkF--YSGZnd/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

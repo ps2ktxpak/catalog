@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1Udmi3x-C0Fiir_e5cDj0j-ynJfXNaX-X/view?usp=share_link
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tom-clancy-s-splinter-cell-chaos-theory-curse-arms.tar.zst
+    sha256: 2f7d2e31d38cb402fcf39cb1ea58b36707f86e89b866d2a15e8b4a89ad497f0b
+    size_bytes: 640981221
+    decompressed_size_bytes: 909434880
+    file_count: 3543
+    created: '2026-10-27'
+    source:
+      sha256: 970b79ce52f218270043e15df9eb9fd6fc99342c6b0721ea3ab118309086d5da
+      size_bytes: 722803169
+      url: https://drive.google.com/file/d/1Udmi3x-C0Fiir_e5cDj0j-ynJfXNaX-X/view?usp=share_link
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

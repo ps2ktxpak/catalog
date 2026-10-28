@@ -4,6 +4,8 @@ game:
   title: 'Mobile Suit Gundam: Gundam vs. Zeta Gundam'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20821
 credits:
 - creator: raed-555
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/h73qm4iuyw7jrbl/SLUS-20821.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mobile-suit-gundam-gundam-vs-zeta-gundam-raed-555.tar.zst
+    sha256: 93ff93c93e82966d6ec4f82e4e5ab024342354d0551b08074a6daab084a7bb4a
+    size_bytes: 827867244
+    decompressed_size_bytes: 1815234560
+    file_count: 4834
+    created: '2026-10-27'
+    source:
+      sha256: c9dae1e6efd93a33f326cb819dc53f9ec80cd855a2e250957f8ea9df0c754ac0
+      size_bytes: 3041030613
+      url: https://www.mediafire.com/file/h73qm4iuyw7jrbl/SLUS-20821.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/y8zw7tg98m3t7zb/PS2_HD_Textures_-_Black_%2528SLUS-21376%2529_%2528NTSC%2529_%2526_%2528SLES-53886%2529_%2528PAL%2529.zip/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provides direct MediaFire link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/black-huekage.tar.zst
+    sha256: 5628364f6ff48bb1dd95e43399490a90f23356f2f2382353f8a3668acc02be14
+    size_bytes: 391490211
+    decompressed_size_bytes: 557987840
+    file_count: 2781
+    created: '2026-10-28'
+    source:
+      sha256: c7462763527a1d91c1d5be3359ac1788e329b85c9aa7fb9f615fc4da9d5654e8
+      size_bytes: 842337350
+      url: https://www.mediafire.com/file/y8zw7tg98m3t7zb/PS2_HD_Textures_-_Black_%2528SLUS-21376%2529_%2528NTSC%2529_%2526_%2528SLES-53886%2529_%2528PAL%2529.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

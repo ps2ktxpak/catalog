@@ -4,6 +4,8 @@ game:
   title: 'Legacy of Kain: Soul Reaver 2'
   regions:
   - PAL
+  serials:
+  - SLES-50196
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1tTEXV929ga_EMxTt1rFrRUfxM0GczpTH&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/legacy-of-kain-soul-reaver-2-curse-arms.tar.zst
+    sha256: 7e51ffe0c992870369fc4663bb3941f1965b293f9a780b1eb3b8e5cc5ac54e36
+    size_bytes: 1382994337
+    decompressed_size_bytes: 1635594240
+    file_count: 12907
+    created: '2026-10-27'
+    source:
+      sha256: b492c82075882dab4c3e21be98c4c90252363cfcd6348d17ac5cc3afa6b9a76f
+      size_bytes: 5055546926
+      url: https://drive.usercontent.google.com/download?id=1tTEXV929ga_EMxTt1rFrRUfxM0GczpTH&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

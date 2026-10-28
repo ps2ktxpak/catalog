@@ -4,6 +4,8 @@ game:
   title: Devil May Cry 2
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20484
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/8MFVVTDQ#K2VnsSy2u6mjtsP4T1n9rN_iYjuuF75zsbwjW12Hfhk
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: Chosen as the creator's combined Both Discs pack; a separate Disc 2 (Lucia) only link also exists, so the pick between the two is judgement.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/devil-may-cry-2-cckrizalid.tar.zst
+    sha256: a292b1179412f31cb00864fd53ddb824f3010989538131207111ba03c26d2d65
+    size_bytes: 1997113280
+    decompressed_size_bytes: 3498188800
+    file_count: 4802
+    created: '2026-10-27'
+    source:
+      sha256: 5c02f1a6096f7c9bec85d50a4b810e219f578a42b7f7cd2f4e532790c9c06d5d
+      size_bytes: 2304946249
+      url: https://mega.nz/file/8MFVVTDQ#K2VnsSy2u6mjtsP4T1n9rN_iYjuuF75zsbwjW12Hfhk
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

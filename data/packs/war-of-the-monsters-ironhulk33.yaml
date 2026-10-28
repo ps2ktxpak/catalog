@@ -2,6 +2,8 @@ key: war-of-the-monsters-ironhulk33
 name: War of the Monsters
 game:
   title: War of the Monsters
+  serials:
+  - SCUS-97197
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/73xmec7sd51n4i3/War_of_the_Monsters_HD_Pack.7z/file
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator's opening post provides MediaFire download link for texture pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/war-of-the-monsters-ironhulk33.tar.zst
+    sha256: 7f82ebeeed7cb78e11a8cd56d0a9c7636499a13ee59a388df1b0b01d7d302409
+    size_bytes: 166466462
+    decompressed_size_bytes: 252784640
+    file_count: 1967
+    created: '2026-10-27'
+    source:
+      sha256: 853cdb041fc66b8af2b17d5d186c124e23e6b044b6f45ef47783f518bbc827c6
+      size_bytes: 495991829
+      url: https://www.mediafire.com/file_premium/73xmec7sd51n4i3/War_of_the_Monsters_HD_Pack.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

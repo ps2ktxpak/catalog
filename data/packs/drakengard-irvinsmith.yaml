@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/18VhVbNaTIjzhckLnpBNuecB4NXHIyAA3/view?usp=sharing
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator posted Google Drive link in opening post for NTSC version.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/drakengard-irvinsmith.tar.zst
+    sha256: d02fc522f397f7b59bd06d208e475e95406184d4d5fbd87888676d69509be067
+    size_bytes: 204619876
+    decompressed_size_bytes: 331274240
+    file_count: 367
+    created: '2026-10-27'
+    source:
+      sha256: 977fe9cdff4dd467f481425c5c0c6c2e87926dc9fc7e13c1b35962a0f0fdeebf
+      size_bytes: 947837549
+      url: https://drive.google.com/file/d/18VhVbNaTIjzhckLnpBNuecB4NXHIyAA3/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

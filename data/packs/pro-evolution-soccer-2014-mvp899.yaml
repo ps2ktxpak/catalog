@@ -4,6 +4,8 @@ game:
   title: Pro Evolution Soccer 2014
   regions:
   - PAL
+  serials:
+  - SLES-55673
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/3erh23oq001cw4x/Pro_Evolution_Soccer_2014.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/pro-evolution-soccer-2014-mvp899.tar.zst
+    sha256: e318079d68e569bbfeb2dc88c2347d92d144e8b56236a93ae7f6d77aec99c939
+    size_bytes: 757150711
+    decompressed_size_bytes: 1519380480
+    file_count: 6570
+    created: '2026-10-27'
+    source:
+      sha256: fe2cfd9d9efc882c8c2db7fc01be9e076fc3a9ccd5d8f55d6a7aea575ce142a1
+      size_bytes: 2812460972
+      url: https://www.mediafire.com/file/3erh23oq001cw4x/Pro_Evolution_Soccer_2014.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Naruto Shippuden: Ultimate Ninja 5'
   regions:
   - PAL
+  serials:
+  - SLES-55605
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/RNEBiTZb#oiW4DHVO3ciysCVrXUCFOlZ-dafaKS1kJO4PJpSObp8
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening post lists this Mega file under the heading Naruto Shippuden Ultimate Ninja 5.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/naruto-shippuden-ultimate-ninja-5-cckrizalid.tar.zst
+    sha256: ecd21367b567b843b0737032122ff70d2db00e701478cd4784aa51df19d7374e
+    size_bytes: 964685191
+    decompressed_size_bytes: 2186659840
+    file_count: 8217
+    created: '2026-10-27'
+    source:
+      sha256: 677271af46dfa4e61d9bff9d86f0d7ac61b56ca5fdbd8f7d376465ea36740ce6
+      size_bytes: 1042489809
+      url: https://mega.nz/file/RNEBiTZb#oiW4DHVO3ciysCVrXUCFOlZ-dafaKS1kJO4PJpSObp8
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

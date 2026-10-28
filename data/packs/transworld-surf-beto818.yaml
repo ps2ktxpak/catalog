@@ -4,6 +4,8 @@ game:
   title: TransWorld Surf
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20356
 credits:
 - creator: beto818
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/8mxi0d9pht4oub0/Transworld_Surf.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/transworld-surf-beto818.tar.zst
+    sha256: 7d540b3c03f0e1eafa5b817b94c29eb01f2d208a5c5fafca650cd29d75b61b6e
+    size_bytes: 203206383
+    decompressed_size_bytes: 316108800
+    file_count: 2099
+    created: '2026-10-27'
+    source:
+      sha256: 7195dfee6d287a435bfa052eda8419d660785d20b861656dc496ea0fde580d02
+      size_bytes: 355401455
+      url: https://www.mediafire.com/file/8mxi0d9pht4oub0/Transworld_Surf.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

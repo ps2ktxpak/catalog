@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/cdcr1cvcr0zx3eb/20020207-164243.zip/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator explicitly labeled 'Main Bios' in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/playstation-2-bios-sombershroud.tar.zst
+    sha256: db6d30e6642f5f0076a4a1ba8cadf2c9d3cb0d2b493d0d2ee6cb4421191635e5
+    size_bytes: 4927617
+    decompressed_size_bytes: 28108800
+    file_count: 36
+    created: '2026-10-27'
+    source:
+      sha256: 6b4c205410ea557fbf07a5863e1244c85a2c3cbb25628ee8ef4b25b6aeac223a
+      size_bytes: 21691125
+      url: https://www.mediafire.com/file/cdcr1cvcr0zx3eb/20020207-164243.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

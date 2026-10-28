@@ -2,6 +2,8 @@ key: ratchet-clank-ironhulk33-2
 name: Ratchet & Clank
 game:
   title: Ratchet & Clank
+  serials:
+  - SCUS-97199
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -21,3 +25,24 @@ download:
   kind: folder
   confidence: high
   note: Creator provides direct MediaFire folder link as primary download location.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ratchet-clank-ironhulk33-2.tar.zst
+    sha256: 802a5813deb8ed286c81c883682932c8491cbed4e8d1ddbe230c7cd6d4cfe04a
+    size_bytes: 458651744
+    decompressed_size_bytes: 759859200
+    file_count: 11412
+    created: '2026-10-28'
+    source:
+      sha256: 691da8d2cf9e22fd654dc128d70f1f7dc847cdf5dfb5342aebb1c867cd0156ad
+      size_bytes: 691281026
+      url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

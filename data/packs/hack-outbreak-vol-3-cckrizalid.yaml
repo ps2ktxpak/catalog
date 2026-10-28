@@ -4,6 +4,8 @@ game:
   title: .hack//Outbreak Vol.3
   regions:
   - NTSC-U
+  serials:
+  - SLPS-25527
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/AJEWgT5C#jRvpYoSHh-31sH0Ik88JLFPtgjhcxuZdUZvGwr2UMaA
@@ -23,3 +27,24 @@ download:
   kind: folder
   confidence: high
   note: One collection link headed Dot Hack All Parts (Infection, Mutation, Outbreak, Quarantine) + Fragment; it covers Outbreak Vol.3 along with the other parts.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/hack-outbreak-vol-3-cckrizalid.tar.zst
+    sha256: 4da43f8fba9bc1a069cf1a0b0f5ed6955e926b43a331979f14ae9ae841d99dba
+    size_bytes: 1718918982
+    decompressed_size_bytes: 2527129600
+    file_count: 7230
+    created: '2026-10-27'
+    source:
+      sha256: ef58a884942600cf755ec36809bf862ca7dccde753d269149288bff7f7581122
+      size_bytes: 1830161955
+      url: https://mega.nz/file/AJEWgT5C#jRvpYoSHh-31sH0Ik88JLFPtgjhcxuZdUZvGwr2UMaA
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

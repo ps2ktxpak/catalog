@@ -4,6 +4,8 @@ game:
   title: Ratatouille
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21541
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -23,3 +27,24 @@ download:
   kind: folder
   confidence: high
   note: Creator explicitly listed downloads; MediaFire is primary source in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ratatouille-ironhulk33.tar.zst
+    sha256: 2fadb1d14558230ac995a071ed3bcaa4dcbbb653494bc9c5d311ae3d48213826
+    size_bytes: 365786804
+    decompressed_size_bytes: 556687360
+    file_count: 5615
+    created: '2026-10-28'
+    source:
+      sha256: 7fe3677a412e5562681d58fc01756bb4aba740904a5f2747f256e2c0019a99b4
+      size_bytes: 1130088442
+      url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

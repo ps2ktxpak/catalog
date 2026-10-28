@@ -4,6 +4,8 @@ game:
   title: Gregory Horror Show
   regions:
   - PAL
+  serials:
+  - SLES-51933
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1eVkyauicmtj4zdTRJOnbFCx8gYn1c43a&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/gregory-horror-show-curse-arms.tar.zst
+    sha256: 4f867d0cd37e1152392be2620c3c7d5b9be8c7c8a5e39fe79bf10537f621a4bf
+    size_bytes: 348218633
+    decompressed_size_bytes: 664043520
+    file_count: 2271
+    created: '2026-10-26'
+    source:
+      sha256: a2779035f5cb42c68fe069fa6719cf64ca3697c515e70f95561a5f6400811e25
+      size_bytes: 1184292631
+      url: https://drive.usercontent.google.com/download?id=1eVkyauicmtj4zdTRJOnbFCx8gYn1c43a&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

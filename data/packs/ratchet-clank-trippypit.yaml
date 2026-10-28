@@ -4,6 +4,8 @@ game:
   title: Ratchet & Clank
   regions:
   - NTSC-U
+  serials:
+  - SCUS-97199
 credits:
 - creator: trippypit
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1ambWzexqMfe3f8BT9LiS0Z4ENC_3E2A1/view?usp=drive_link
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ratchet-clank-trippypit.tar.zst
+    sha256: dd1a0dd538f078e437ac5d12bfc28f8117dee357defffa8602e2485362b80e56
+    size_bytes: 1726889855
+    decompressed_size_bytes: 2782371840
+    file_count: 18043
+    created: '2026-10-27'
+    source:
+      sha256: ab416e572ad4994866e2758adb9eddbaeaf98b822b88c82586369527a12fd0f0
+      size_bytes: 4710610328
+      url: https://drive.google.com/file/d/1ambWzexqMfe3f8BT9LiS0Z4ENC_3E2A1/view?usp=drive_link
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

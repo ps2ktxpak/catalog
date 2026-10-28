@@ -2,6 +2,8 @@ key: tsugunai-atonement-curse-arms
 name: 'Tsugunai: Atonement'
 game:
   title: 'Tsugunai: Atonement'
+  serials:
+  - SLUS-20292
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1TRufbnbKP4-jQRmIX03oDCFMtaN457DL&export=download&authuser=0
@@ -21,3 +25,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tsugunai-atonement-curse-arms.tar.zst
+    sha256: 4252e5742b29ab9e3deb8549fa7d46d8a983d5bdef9b0727ffdf5ea9abdf41d3
+    size_bytes: 461018875
+    decompressed_size_bytes: 625336320
+    file_count: 3575
+    created: '2026-10-27'
+    source:
+      sha256: a8f0f07c4faaaf0c41bfde7249eda5a4ee0863bbc8e39f1db8afaaabe3f2d82e
+      size_bytes: 1501465809
+      url: https://drive.usercontent.google.com/download?id=1TRufbnbKP4-jQRmIX03oDCFMtaN457DL&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

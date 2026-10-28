@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3BmHPPLTWcSIkbia8
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/samurai-warriors-2-xtreme-legends-empires-i-emu-play.tar.zst
+    sha256: 4332d1c73a52a268c747cae61965442add29bbce40bd547509e0f344f9a6d83b
+    size_bytes: 462201909
+    decompressed_size_bytes: 643532800
+    file_count: 2507
+    created: '2026-10-26'
+    source:
+      sha256: a4015655899614cda974d3670da31f504289a6828c46ae152c17b00d6bac04f6
+      size_bytes: 1756752496
+      url: https://mega.nz/file/cbIVDCrS#dAnBIb70GBsrFekZpjpLy97Y_-3BmHPPLTWcSIkbia8
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

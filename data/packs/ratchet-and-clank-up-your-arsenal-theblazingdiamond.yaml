@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1OJ2rD21wYS0lPcmeFck5DUgznQZBUhFn/view?usp=sharing
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator linked in opening post and confirmed in YouTube video description.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ratchet-and-clank-up-your-arsenal-theblazingdiamond.tar.zst
+    sha256: e7a356c4c8e812894cb66d49ff328639381fb305ef09bccbb378beac4aa28d72
+    size_bytes: 707384
+    decompressed_size_bytes: 7270400
+    file_count: 816
+    created: '2026-10-26'
+    source:
+      sha256: 84273bf19f1a65b74d02f85658b4b25714b7e4e1085bd579df41a6422b253f27
+      size_bytes: 7921219
+      url: https://drive.google.com/file/d/1OJ2rD21wYS0lPcmeFck5DUgznQZBUhFn/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

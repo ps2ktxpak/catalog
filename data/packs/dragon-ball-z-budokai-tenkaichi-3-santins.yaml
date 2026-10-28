@@ -4,6 +4,8 @@ game:
   title: 'Dragon Ball Z: Budokai Tenkaichi 3'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21678
 credits:
 - creator: santins
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1EdE-Epfh5s8BkcjIZ3IrHN8cf3Hlrkaq/view
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-budokai-tenkaichi-3-santins.tar.zst
+    sha256: bf37a210ba13de0735fe3a1c22205e4280e470a0e1084d4e43ffc9bb3799fcd9
+    size_bytes: 498573459
+    decompressed_size_bytes: 1499105280
+    file_count: 4360
+    created: '2026-10-26'
+    source:
+      sha256: 2dc43a7e6206cf01a26489769d79d912b1edf3bcf33e3322fdce5f121c5d5bad
+      size_bytes: 358881259
+      url: https://drive.google.com/file/d/1EdE-Epfh5s8BkcjIZ3IrHN8cf3Hlrkaq/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

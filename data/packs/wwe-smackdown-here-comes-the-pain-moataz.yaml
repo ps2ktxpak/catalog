@@ -4,6 +4,8 @@ game:
   title: WWE SmackDown! Here Comes the Pain
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20787
 credits:
 - creator: moataz
 - creator: paynexkiller
@@ -16,7 +18,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/ge2ody92sajn0d3/WWE_SmackDown%2521_Here_Comes_the_Pain_HD_2.1.7z/file
@@ -24,3 +28,24 @@ download:
   kind: file
   confidence: high
   note: Creator provides direct MediaFire download link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/wwe-smackdown-here-comes-the-pain-moataz.tar.zst
+    sha256: f927d0bcf2e95e2086d95b99cd8e63a680f80ef1f821917c0b9aa8f9c4067bb8
+    size_bytes: 855838727
+    decompressed_size_bytes: 1411799040
+    file_count: 7818
+    created: '2026-10-27'
+    source:
+      sha256: a7959f1c30d4b9af105e7da36df3c85804a2677f6f3dccfd455db18bd99bd86a
+      size_bytes: 904526922
+      url: https://www.mediafire.com/file/ge2ody92sajn0d3/WWE_SmackDown%2521_Here_Comes_the_Pain_HD_2.1.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

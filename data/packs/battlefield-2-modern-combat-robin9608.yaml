@@ -4,6 +4,8 @@ game:
   title: 'Battlefield 2: Modern Combat'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21026
 credits:
 - creator: robin9608
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/sr8nbh3oy44npm1/Texture_Pack_v0.8_WIP_Battlefield_2_Modern_Combat%2528SLUS-21026%2529.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/battlefield-2-modern-combat-robin9608.tar.zst
+    sha256: 5836a73add3667af976efe19c39318ef3371e02b849fe6c5c52d7a00c66fd2c2
+    size_bytes: 260444682
+    decompressed_size_bytes: 322682880
+    file_count: 1779
+    created: '2026-10-27'
+    source:
+      sha256: 2aa3eeb0e7b0c7ae451bf680605aca5738da198740a0fd1eb9bf556c4f14f1cb
+      size_bytes: 672275166
+      url: https://www.mediafire.com/file/sr8nbh3oy44npm1/Texture_Pack_v0.8_WIP_Battlefield_2_Modern_Combat%2528SLUS-21026%2529.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

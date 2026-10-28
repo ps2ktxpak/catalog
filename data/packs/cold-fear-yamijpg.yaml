@@ -4,6 +4,8 @@ game:
   title: Cold Fear
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21047
 credits:
 - creator: yamijpg
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://pixeldrain.com/u/AGSfUwQi
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/cold-fear-yamijpg.tar.zst
+    sha256: 88be8a1ec22a6197fd85dbebda38d7ebc442ec7199b06eca8143d12c033f0f9f
+    size_bytes: 761819545
+    decompressed_size_bytes: 1092904960
+    file_count: 3125
+    created: '2026-10-27'
+    source:
+      sha256: 9552a3c38e496337bb76f894698b57c45098c7f81b8dc96d95f574d4b65d234f
+      size_bytes: 3027775486
+      url: https://pixeldrain.com/u/AGSfUwQi
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

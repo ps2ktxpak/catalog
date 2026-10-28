@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/weJRHCBB#SWlEMnp0cO-ko6Ob6KqUA9cX5FEku-7ONPM62ATlgwo
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/devil-kings-i-emu-play.tar.zst
+    sha256: 71676c5de3ec6a13d5a023dea7f786bdc361a2bfa9f8a823b74abe163af1aef6
+    size_bytes: 262845855
+    decompressed_size_bytes: 541204480
+    file_count: 1654
+    created: '2026-10-27'
+    source:
+      sha256: bad98855e9dbafd0c96476ffbe28a7e137b307067b7892beca577d96b2b08013
+      size_bytes: 964065204
+      url: https://mega.nz/file/weJRHCBB#SWlEMnp0cO-ko6Ob6KqUA9cX5FEku-7ONPM62ATlgwo
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

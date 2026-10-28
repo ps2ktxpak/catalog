@@ -4,6 +4,8 @@ game:
   title: Shrek the Third
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21454
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/1xNBATiZ#hcepVfC96uknUt2V8BwWCn3l7XHMUx0awfOfVaNiHpM
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/shrek-the-third-mvp899.tar.zst
+    sha256: fb04e6e2319d2924c7342ab84f8792a150a15e3ed9a88016401db00226847e61
+    size_bytes: 161739045
+    decompressed_size_bytes: 238090240
+    file_count: 942
+    created: '2026-10-27'
+    source:
+      sha256: d3ec047b80f58ed9c74875dcd569aaa772cabba18af14981fa7017140cabd643
+      size_bytes: 573116897
+      url: https://mega.nz/file/1xNBATiZ#hcepVfC96uknUt2V8BwWCn3l7XHMUx0awfOfVaNiHpM
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

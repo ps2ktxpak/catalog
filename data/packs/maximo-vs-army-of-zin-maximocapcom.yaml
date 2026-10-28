@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/drive/folders/1f9t4hlVZwhAnGazJEZzVZgcGH085CC90
@@ -21,3 +23,24 @@ download:
   kind: folder
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/maximo-vs-army-of-zin-maximocapcom.tar.zst
+    sha256: cd9171033418632b8f60f1285a0552abfed4924e677617261e4e1840a10cbc18
+    size_bytes: 2569736140
+    decompressed_size_bytes: 3675627520
+    file_count: 1056
+    created: '2026-10-27'
+    source:
+      sha256: 5c76f5581876d58885199b488b670cea8beb0694cfabbb916d0d99042e337ff0
+      size_bytes: 19612635
+      url: https://drive.google.com/drive/folders/1f9t4hlVZwhAnGazJEZzVZgcGH085CC90
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

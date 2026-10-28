@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1rJxhQIS1DduZBmbAu-nsDVxoIktQR_NC&export=download&authuser=0
@@ -21,3 +23,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/star-wars-bounty-hunter-curse-arms.tar.zst
+    sha256: 3f2c8f9409a2a9332158fa235e6be3f88f227641f761112b69d6b4dbedf47213
+    size_bytes: 483245418
+    decompressed_size_bytes: 710471680
+    file_count: 3223
+    created: '2026-10-26'
+    source:
+      sha256: 19638f42dba067f13d7f8a0e5e5fe82463cd8051df64b0067645d988a9b884a9
+      size_bytes: 372048934
+      url: https://drive.usercontent.google.com/download?id=1rJxhQIS1DduZBmbAu-nsDVxoIktQR_NC&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

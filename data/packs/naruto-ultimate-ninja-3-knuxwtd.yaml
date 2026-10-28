@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/drive/folders/1ym7K7kK3oaNm1Nqr9K6Be75Ypqav27um?usp=share_link
@@ -23,3 +25,24 @@ download:
   kind: folder
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/naruto-ultimate-ninja-3-knuxwtd.tar.zst
+    sha256: b78fa7c7d0477538ac635df78ae72b40937fab432ce2bf991eb6815bae7f028b
+    size_bytes: 903604807
+    decompressed_size_bytes: 1572925440
+    file_count: 4940
+    created: '2026-10-26'
+    source:
+      sha256: 0a1eade230c7f7b1651d8b8f29604a0e22d15670d3528176722b049b7044d609
+      size_bytes: 14425901
+      url: https://drive.google.com/drive/folders/1ym7K7kK3oaNm1Nqr9K6Be75Ypqav27um?usp=share_link
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

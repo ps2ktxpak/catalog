@@ -4,6 +4,8 @@ game:
   title: 'Dynasty Warriors 4: Xtreme Legends'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20812
 credits:
 - creator: sombertwilight
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/bczawu96p2a3rlx/SLUS-20812.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator's explicit main 'DOWNLOAD' link for the texture pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dynasty-warriors-4-xtreme-legends-sombertwilight.tar.zst
+    sha256: fac3bf27e339f827507bb61779acba25c8bb47c47c060a8cf9e9e35f813bcb04
+    size_bytes: 885222771
+    decompressed_size_bytes: 1765980160
+    file_count: 4596
+    created: '2026-10-27'
+    source:
+      sha256: a308c867adf5c86ab30eaee149ef26e466d580ddde18219e536bb5103a89d9ad
+      size_bytes: 1011371140
+      url: https://www.mediafire.com/file/bczawu96p2a3rlx/SLUS-20812.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

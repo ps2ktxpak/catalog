@@ -4,6 +4,8 @@ game:
   title: Namco × Capcom
   regions:
   - NTSC-J
+  serials:
+  - SLPS-25505
 credits:
 - creator: behonart
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/qzlf1ny5gu3bar5/Namco_X_Capcom_HD_Textures_WIP.zip/file
@@ -23,3 +27,23 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/namco-capcom-behonart.tar.zst
+    sha256: 4cb7ee54be5e722aa5268badff792489b2c83fcb11625f9efac3538b3a50c881
+    size_bytes: 546474812
+    decompressed_size_bytes: 1029775360
+    file_count: 2851
+    created: '2026-10-27'
+    source:
+      sha256: b24c48826f412529e1e858a670202676c3181e734ab281382cb8def28d37cf27
+      size_bytes: 1609396702
+      url: https://www.mediafire.com/file/qzlf1ny5gu3bar5/Namco_X_Capcom_HD_Textures_WIP.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/d3ufb9m8kis4ron/Battlefield_2_Modern_Combat_Remastered_Texture_Pack.7z/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/battlefield-2-modern-combat-robin9608-2.tar.zst
+    sha256: 922931999a5d4bd3c11fb5ee85cd9daf75944879a2b0dd7c66040c90782e8c15
+    size_bytes: 84330134
+    decompressed_size_bytes: 118087680
+    file_count: 2296
+    created: '2026-10-27'
+    source:
+      sha256: d7988baca98e50b91c11e0f03673dc2b84482c8adbe7c5e0f5f33a43703020a0
+      size_bytes: 295393185
+      url: https://www.mediafire.com/file/d3ufb9m8kis4ron/Battlefield_2_Modern_Combat_Remastered_Texture_Pack.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

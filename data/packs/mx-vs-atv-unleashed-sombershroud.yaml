@@ -4,6 +4,8 @@ game:
   title: MX vs. ATV Unleashed
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21104
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1DeIYWIwgynK0kZdwh5MGL49FZI6WW5yi/view
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mx-vs-atv-unleashed-sombershroud.tar.zst
+    sha256: 057ab4651f860ad5a377b41eec7e7f242e096cf317acce20cd444eb5b8c168d7
+    size_bytes: 1669000546
+    decompressed_size_bytes: 2177105920
+    file_count: 5475
+    created: '2026-10-26'
+    source:
+      sha256: 30a06a4e3b14483d62bedc2fe699dfcf36e70e48f83ccb5dd9b3f770a0dda980
+      size_bytes: 3537178785
+      url: https://drive.google.com/file/d/1DeIYWIwgynK0kZdwh5MGL49FZI6WW5yi/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

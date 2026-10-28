@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3_HD_Remaster_1.0beta.7z/file
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator explicitly marked version 1.0 as latest; MediaFire link labeled 'Download 1.0beta'.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/star-ocean-till-the-end-of-time-panda-venom.tar.zst
+    sha256: 3a0c8cd3009f19ae23ff9400bd842f97196a628d11e42fcee2ad79e8c63d0e55
+    size_bytes: 2160644092
+    decompressed_size_bytes: 3605944320
+    file_count: 10296
+    created: '2026-10-27'
+    source:
+      sha256: 578c70a68d06f2b04dd35c82411a9b83fc524a000489d48e51293cc6ba1ae54c
+      size_bytes: 1489484079
+      url: https://www.mediafire.com/file/08mqupe5z0n2bkn/SO3_HD_Remaster_1.0beta.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

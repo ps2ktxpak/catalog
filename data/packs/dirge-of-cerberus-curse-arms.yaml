@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/u/0/uc?id=1gOwiXU97LuknWNuSg7CFZbMPpcrtxMz7&export=download
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dirge-of-cerberus-curse-arms.tar.zst
+    sha256: 06c90498a453a05a8be2e10aa0095acfff5b8003ee3b9d94de53ea6bf42f25b0
+    size_bytes: 1007193133
+    decompressed_size_bytes: 1284055040
+    file_count: 3023
+    created: '2026-10-26'
+    source:
+      sha256: 68816054e41ad65bc300c93e6b9f87ed629676d821306e7e2bc1363459ca1596
+      size_bytes: 988411842
+      url: https://drive.google.com/u/0/uc?id=1gOwiXU97LuknWNuSg7CFZbMPpcrtxMz7&export=download
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Metal Arms: Glitch in the System'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20786
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=15fj3tK9YfVtcB2brZ7k_rnuAC76hoi8O&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/metal-arms-glitch-in-the-system-curse-arms.tar.zst
+    sha256: 74880d08763709c599163f7a72bda85ae0a6aa255061bc1852a524caea6ae03f
+    size_bytes: 176653513
+    decompressed_size_bytes: 246661120
+    file_count: 1650
+    created: '2026-10-26'
+    source:
+      sha256: 310db3c39e27486045d38b1b89e0191bf0e4dec28441bab8a2655ea1bba06800
+      size_bytes: 206349876
+      url: https://drive.usercontent.google.com/download?id=15fj3tK9YfVtcB2brZ7k_rnuAC76hoi8O&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

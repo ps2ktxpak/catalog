@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://mega.nz/file/CeYzwIzD#DRpOk8mb5x7GiTyP69YAdeDf0ln55gq5Xs3te7spH8M
   host: mega
   kind: file
   confidence: medium
-  note: the only file-host link in op; not yet confirmed to be the pack itself
+  note: The host says this file is no longer there (checked 2026-10-26).

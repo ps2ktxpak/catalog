@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/drive/folders/1v6oMoulapjwOQrY9-oozmB5HKHzFNmsZ?usp=sharing
@@ -21,3 +23,24 @@ download:
   kind: folder
   confidence: high
   note: Creator provided latest character/boss texture pack link in follow-up post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mystic-heroes-freshie.tar.zst
+    sha256: 71f49281082ccd48a8936ee5de1210bd4875e6fc38d4e68d0065a8551ac052b3
+    size_bytes: 10050468
+    decompressed_size_bytes: 11161600
+    file_count: 23
+    created: '2026-10-26'
+    source:
+      sha256: 223bfa9bfc187935156b6a25a9c450ad3fbac5e99a1be2c47a2bfe21a9384beb
+      size_bytes: 2281651
+      url: https://drive.google.com/drive/folders/1v6oMoulapjwOQrY9-oozmB5HKHzFNmsZ?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

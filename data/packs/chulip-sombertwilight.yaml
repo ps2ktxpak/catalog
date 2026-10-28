@@ -4,6 +4,8 @@ game:
   title: Chulip
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20742
 credits:
 - creator: sombertwilight
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/kBciRAxD#TXEQPhtoe0RAH3-nWCDy1DCuV3k2wNVLmL6omcAL5hw
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/chulip-sombertwilight.tar.zst
+    sha256: 945654b921f6a829f16d7415d9d3c1f2d76c6ed80e4c2a8e0b391b7a05758ad1
+    size_bytes: 139854889
+    decompressed_size_bytes: 229048320
+    file_count: 1493
+    created: '2026-10-27'
+    source:
+      sha256: 9ffa319d6a4de309eeed80fceb967733f66f063c14c1adc1cf336359126f63de
+      size_bytes: 652355709
+      url: https://mega.nz/file/kBciRAxD#TXEQPhtoe0RAH3-nWCDy1DCuV3k2wNVLmL6omcAL5hw
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: Guitar Hero
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21224
 credits:
 - creator: lisao10
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/kh5ijb85rn7k4r1/Guitar+Hero+1+HD+Remaster.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MediaFire download link in followup post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/guitar-hero-lisao10.tar.zst
+    sha256: de3344e6b4fd7e16b3c106d70a3e00a230523349008b0e3454bef00306c95064
+    size_bytes: 61796550
+    decompressed_size_bytes: 106946560
+    file_count: 330
+    created: '2026-10-27'
+    source:
+      sha256: 12c0a05011b99d35424a1fd94c447ae4c44d631f7a07c17ca9786bd839cc4092
+      size_bytes: 149733150
+      url: https://www.mediafire.com/file/kh5ijb85rn7k4r1/Guitar+Hero+1+HD+Remaster.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

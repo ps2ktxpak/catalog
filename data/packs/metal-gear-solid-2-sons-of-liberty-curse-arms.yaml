@@ -4,6 +4,8 @@ game:
   title: 'Metal Gear Solid 2: Sons of Liberty'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20144
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1lMimK9Pb5tu5n9KC-qOCj9PYQtfxhKys&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/metal-gear-solid-2-sons-of-liberty-curse-arms.tar.zst
+    sha256: 0d06245e48f798626d7b898bad527b396945b9f36d91b2b2a4911297cfce5033
+    size_bytes: 1800311828
+    decompressed_size_bytes: 7443783680
+    file_count: 25498
+    created: '2026-10-27'
+    source:
+      sha256: b52766c1cc0496f0af682b1fe2746dc4b687c313392e6414bd343869cd17c66c
+      size_bytes: 5449245592
+      url: https://drive.usercontent.google.com/download?id=1lMimK9Pb5tu5n9KC-qOCj9PYQtfxhKys&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

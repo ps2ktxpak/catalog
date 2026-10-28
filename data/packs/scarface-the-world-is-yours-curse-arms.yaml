@@ -4,6 +4,8 @@ game:
   title: 'Scarface: The World Is Yours'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21111
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1qqhBKRLskT-3ySJ4QCUeJWFE9e_0MHVe&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/scarface-the-world-is-yours-curse-arms.tar.zst
+    sha256: 459c8a49c85974b71341bc297bcb082c6ff37d75ff9ea69fafcd33defe2ebc37
+    size_bytes: 506832669
+    decompressed_size_bytes: 757094400
+    file_count: 5547
+    created: '2026-10-26'
+    source:
+      sha256: e2f818564f63269201508edaa74ddf0668e4ff196dba3891f64191abb448138d
+      size_bytes: 1925048333
+      url: https://drive.usercontent.google.com/download?id=1qqhBKRLskT-3ySJ4QCUeJWFE9e_0MHVe&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

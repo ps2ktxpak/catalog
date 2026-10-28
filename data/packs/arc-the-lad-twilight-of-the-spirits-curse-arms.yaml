@@ -2,6 +2,8 @@ key: arc-the-lad-twilight-of-the-spirits-curse-arms
 name: 'Arc the Lad: Twilight of the Spirits'
 game:
   title: 'Arc the Lad: Twilight of the Spirits'
+  serials:
+  - SCUS-97231
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1HiYJOYZmw-AWjgw1Swt5QMKCkv8NKn6c&export=download&authuser=0
@@ -21,3 +25,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/arc-the-lad-twilight-of-the-spirits-curse-arms.tar.zst
+    sha256: 800aa01880bb43418a878c037aa0bdfe74cd750ec0610eb484ea0dfa5fa3a201
+    size_bytes: 771097801
+    decompressed_size_bytes: 950620160
+    file_count: 9596
+    created: '2026-10-26'
+    source:
+      sha256: 2811a8f730bb9a8a4f168eced4a2ae53ed5420dc9785eeeb84d84eb76441e61d
+      size_bytes: 2514820331
+      url: https://drive.usercontent.google.com/download?id=1HiYJOYZmw-AWjgw1Swt5QMKCkv8NKn6c&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

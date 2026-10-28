@@ -4,6 +4,8 @@ game:
   title: Warriors Orochi
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21662
 credits:
 - creator: sombertwilight
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/blhrqmstsm7zznz/SLUS-21662.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/warriors-orochi-sombertwilight.tar.zst
+    sha256: 75720b7759e093a2823fc11175d19b6625a4d5f6b4f87148df26648460216f51
+    size_bytes: 1071095123
+    decompressed_size_bytes: 1733888000
+    file_count: 4226
+    created: '2026-10-28'
+    source:
+      sha256: ee82c373fb39f14e7163090dc4770761dcf5c76152de8dbc5eb4624b183dedc2
+      size_bytes: 1028222228
+      url: https://www.mediafire.com/file/blhrqmstsm7zznz/SLUS-21662.7z/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

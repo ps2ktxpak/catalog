@@ -2,6 +2,8 @@ key: spongebob-squarepants-revenge-of-the-flying-dutchman-ironhulk33
 name: 'SpongeBob SquarePants: Revenge of the Flying Dutchman'
 game:
   title: 'SpongeBob SquarePants: Revenge of the Flying Dutchman'
+  serials:
+  - SLUS-20425
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -21,3 +25,24 @@ download:
   kind: folder
   confidence: high
   note: Public MediaFire folder listed in opening post and video description.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/spongebob-squarepants-revenge-of-the-flying-dutchman-ironhulk33.tar.zst
+    sha256: 0c640571220512d650d9685b887c148474bddba8a310fb47a5283c189279b8ec
+    size_bytes: 106016489
+    decompressed_size_bytes: 145408000
+    file_count: 1021
+    created: '2026-10-28'
+    source:
+      sha256: 7f4fe99ba3d7331750501b111d1f58f9d46fcb2c36d94742e75010a56fc878a9
+      size_bytes: 211815978
+      url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

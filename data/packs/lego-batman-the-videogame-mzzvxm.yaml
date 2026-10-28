@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1Ez-JzJuSiFGI3SlI5uVNh6Fq9j3pTqsv/view
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/lego-batman-the-videogame-mzzvxm.tar.zst
+    sha256: b95451ed23a6cad00b7b8710342345f5ca1c695a7c53d0ad951830467de2a134
+    size_bytes: 631196935
+    decompressed_size_bytes: 948756480
+    file_count: 3686
+    created: '2026-10-26'
+    source:
+      sha256: a36961d105a1080eaba9e7aeba7ca75456aa58c1ddb2b3bdc024eec5494c1d14
+      size_bytes: 1705258438
+      url: https://drive.google.com/file/d/1Ez-JzJuSiFGI3SlI5uVNh6Fq9j3pTqsv/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

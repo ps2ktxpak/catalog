@@ -4,6 +4,8 @@ game:
   title: Midnight Club II
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20209
 credits:
 - creator: mironter
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://cloud.mail.ru/public/T3eb/h4dMk7HgB
@@ -23,3 +27,24 @@ download:
   kind: folder
   confidence: medium
   note: Creator provides cloud.mail.ru public link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/midnight-club-ii-mironter.tar.zst
+    sha256: 3c7df6a41e2848ce41301b2056d9caf26f3f805518537b801c7fda72b78452f1
+    size_bytes: 303546438
+    decompressed_size_bytes: 819210240
+    file_count: 7219
+    created: '2026-10-26'
+    source:
+      sha256: 493c1b7739858aed04449737b1ee8da8d4eb889db4dfc207e25a65d0821e507f
+      size_bytes: 987035497
+      url: https://cloud.mail.ru/public/T3eb/h4dMk7HgB
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

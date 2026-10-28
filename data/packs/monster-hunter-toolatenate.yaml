@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/gr4EyQbD#mY_xLx-NpPcZfYkWq285GrGmRRhv4yzCpAUBDQhFvtY
@@ -23,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: Creator provided MEGA download links for texture pack versions in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/monster-hunter-toolatenate.tar.zst
+    sha256: 299b162177d6dbf5dcf09e89ba5609d636759dea79ece56066b356b1641d4f19
+    size_bytes: 131094943
+    decompressed_size_bytes: 311490560
+    file_count: 156
+    created: '2026-10-27'
+    source:
+      sha256: 532df52c2167cabd07ffcb6c7d19970b757e4b3ad2ac7d3511d67b937c7ce560
+      size_bytes: 536418216
+      url: https://mega.nz/file/gr4EyQbD#mY_xLx-NpPcZfYkWq285GrGmRRhv4yzCpAUBDQhFvtY
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

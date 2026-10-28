@@ -4,6 +4,8 @@ game:
   title: Police 24-7
   regions:
   - PAL
+  serials:
+  - SLES-50285
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/TLBGVbSB#L0cipsZ9woD2nxa8WDaj3fxiZVvBlWJh8zjUAendNgA
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/police-24-7-mvp899.tar.zst
+    sha256: 2e44141dd4ad50ed576c8524903afeff0278d02e3aabe7e3e1718b66584df766
+    size_bytes: 78484153
+    decompressed_size_bytes: 118568960
+    file_count: 1598
+    created: '2026-10-27'
+    source:
+      sha256: 47e99b55028bea5229456467f9ec5836ac110217ecca9b69763f1b1e8fb9ffb5
+      size_bytes: 268637900
+      url: https://mega.nz/file/TLBGVbSB#L0cipsZ9woD2nxa8WDaj3fxiZVvBlWJh8zjUAendNgA
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

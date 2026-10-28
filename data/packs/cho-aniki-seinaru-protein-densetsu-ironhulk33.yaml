@@ -2,6 +2,8 @@ key: cho-aniki-seinaru-protein-densetsu-ironhulk33
 name: 'Cho Aniki: Seinaru Protein Densetsu'
 game:
   title: 'Cho Aniki: Seinaru Protein Densetsu'
+  serials:
+  - SLPM-62403
 credits:
 - creator: ironhulk33
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
@@ -21,3 +25,24 @@ download:
   kind: folder
   confidence: high
   note: Creator explicitly listed under 'Where to Find the Downloads' in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/cho-aniki-seinaru-protein-densetsu-ironhulk33.tar.zst
+    sha256: 0de69f77c40b599956d51f027d794ab8877c4080051516b6a3ccae5f587c7226
+    size_bytes: 112677708
+    decompressed_size_bytes: 266393600
+    file_count: 435
+    created: '2026-10-28'
+    source:
+      sha256: 69eab805510aaf08637b4830b1fe41ddc7cc49807aa6eb912eaf4d93ea36feb4
+      size_bytes: 328977860
+      url: https://www.mediafire.com/folder/k8yncbpnlckw3/ironhulk33#2ie0qajlodjxz
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

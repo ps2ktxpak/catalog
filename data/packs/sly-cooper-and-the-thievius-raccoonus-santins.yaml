@@ -2,6 +2,8 @@ key: sly-cooper-and-the-thievius-raccoonus-santins
 name: Sly Cooper and the Thievius Raccoonus
 game:
   title: Sly Cooper and the Thievius Raccoonus
+  serials:
+  - SCUS-97198
 credits:
 - creator: santins
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1xeOCNvujREvFQQs7lydTKHWeC531iE3L/view
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sly-cooper-and-the-thievius-raccoonus-santins.tar.zst
+    sha256: 4b45d4a6443ee5c015732284a8f858cc5c33cd2ed1a76d8023401f6a8f805bfb
+    size_bytes: 1108138039
+    decompressed_size_bytes: 1656043520
+    file_count: 11644
+    created: '2026-10-26'
+    source:
+      sha256: f4192c5109f6d3fdce05b48e5383c8fa8312ad0892e19f3c80d3d64a0a7a2aa3
+      size_bytes: 3807969314
+      url: https://drive.google.com/file/d/1xeOCNvujREvFQQs7lydTKHWeC531iE3L/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

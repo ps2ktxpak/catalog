@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/fuxwb25ybvgvcbk/replacements.7z/file
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/grand-theft-auto-san-andreas-nunyaofc.tar.zst
+    sha256: c3621fc401137c430ee95e5dfadda4966d62a64d14d990677f5beaeb1d63b7dd
+    size_bytes: 625502034
+    decompressed_size_bytes: 792514560
+    file_count: 6950
+    created: '2026-10-27'
+    source:
+      sha256: d0c7a09b6c05ca1e3a0011f561cdc38dc4a304a19684ef04eb28d09de6422cd2
+      size_bytes: 538228262
+      url: https://www.mediafire.com/file/fuxwb25ybvgvcbk/replacements.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

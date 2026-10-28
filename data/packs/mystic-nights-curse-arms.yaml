@@ -4,6 +4,8 @@ game:
   title: Mystic Nights
   regions:
   - NTSC-K
+  serials:
+  - SCKA-20055
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1WLN-ViPi_wUZjIGHggZOQYfDwd9mP66J&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mystic-nights-curse-arms.tar.zst
+    sha256: d54f5f7d85af55d1c3665b7aa4b03b708aa5db6e4068ecd7905112c1d47c8e47
+    size_bytes: 2246951276
+    decompressed_size_bytes: 4421447680
+    file_count: 9207
+    created: '2026-10-27'
+    source:
+      sha256: b136ca060b4ce940043128326e481117e96833c3fab33932c7a83f2e26df6b09
+      size_bytes: 2435342743
+      url: https://drive.usercontent.google.com/download?id=1WLN-ViPi_wUZjIGHggZOQYfDwd9mP66J&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

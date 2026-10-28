@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://mega.nz/file/tEoQzRDB#NIIVx0aE1PeqrCQ1VDNaArgUw8rDcsx00VknaM7fN0A
   host: mega
   kind: file
   confidence: high
-  note: Creator lists Part 1 (7GB) on Mega as primary download in opening post.
+  note: The host says this file is no longer there (checked 2026-10-27).

@@ -4,6 +4,8 @@ game:
   title: RLH - Run Like Hell
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20037
 credits:
 - creator: evanft
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/0ksoky92nztxe6x/SLUS-20037.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/rlh-run-like-hell-evanft.tar.zst
+    sha256: 140d578f4afe13d0e4084375d476e489d662b15b46e5e852a43a9ada4daf34cd
+    size_bytes: 113977818
+    decompressed_size_bytes: 144035840
+    file_count: 1333
+    created: '2026-10-27'
+    source:
+      sha256: 6b9da64fda20c29fee5e96f99deb8763c2253f5b27060fffcbd88d62796f21c6
+      size_bytes: 294443029
+      url: https://www.mediafire.com/file/0ksoky92nztxe6x/SLUS-20037.7z/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

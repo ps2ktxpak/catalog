@@ -4,6 +4,8 @@ game:
   title: 'Need for Speed: Underground'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20811
 credits:
 - creator: cckrizalid
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/cYFHgYRB#wrGA6tTGYMOLTh2n7YGliz8XbjwkpaBUdQ8peFHKKxI
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening post lists this Mega file under the heading Need For Speed Underground.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/need-for-speed-underground-cckrizalid.tar.zst
+    sha256: e956450a10334caba16e1a8b29e112342a08d947f1aaa70e50cc780eb977dd4f
+    size_bytes: 303756188
+    decompressed_size_bytes: 752158720
+    file_count: 3018
+    created: '2026-10-27'
+    source:
+      sha256: 91372acd09db224c2bdaed305e459a15264bbd06e2cb422a1575595b9dd6e894
+      size_bytes: 333512034
+      url: https://mega.nz/file/cYFHgYRB#wrGA6tTGYMOLTh2n7YGliz8XbjwkpaBUdQ8peFHKKxI
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

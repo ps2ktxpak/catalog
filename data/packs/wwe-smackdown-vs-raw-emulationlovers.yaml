@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/14dLlinaNIZHUHaO4zjqi19e3Za35XUQZ/view
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: high
   note: Creator posted Google Drive link in follow-up post after re-uploading.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/wwe-smackdown-vs-raw-emulationlovers.tar.zst
+    sha256: c5c87597edabcebaddb45a10c17342b92b55d7e50a72b2e5c174180ebd754252
+    size_bytes: 196815358
+    decompressed_size_bytes: 285716480
+    file_count: 2493
+    created: '2026-10-26'
+    source:
+      sha256: 2b90c81f79f19c135b29a6c0b5185299fae3d5ad714aea927618046fb61c7fed
+      size_bytes: 509877379
+      url: https://drive.google.com/file/d/14dLlinaNIZHUHaO4zjqi19e3Za35XUQZ/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

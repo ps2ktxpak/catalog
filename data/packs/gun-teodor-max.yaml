@@ -17,9 +17,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://drive.google.com/drive/folders/1fuauuUbk2OhAibUrIg3Xr824G2wdSeId?usp=sharing
   host: gdrive
   kind: folder
   confidence: high
-  note: Creator provided Google Drive folder in opening post and YouTube video.
+  note: The host says this file is no longer there (checked 2026-10-26).

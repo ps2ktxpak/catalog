@@ -4,6 +4,8 @@ game:
   title: 'Metal Gear Solid 3: Subsistence'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21359
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1aJZlKwGuofgaQm-IY3JPHTNZc_6NEtWt&export=download
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/metal-gear-solid-3-subsistence-curse-arms.tar.zst
+    sha256: 1ff8ac334b53efeda27b6ea1999861de7fc589431bc8a463a09a07c27ec07f20
+    size_bytes: 1052886342
+    decompressed_size_bytes: 3029391360
+    file_count: 22937
+    created: '2026-10-27'
+    source:
+      sha256: b29cc85a9e98e2f2114d62ce874987ed16249b566d2caeca73aa0eea97682e41
+      size_bytes: 1408327391
+      url: https://drive.usercontent.google.com/download?id=1aJZlKwGuofgaQm-IY3JPHTNZc_6NEtWt&export=download
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

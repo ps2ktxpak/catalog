@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://disk.yandex.ru/d/3ipL6dszlVh-aA
@@ -23,3 +25,24 @@ download:
   kind: folder
   confidence: high
   note: Creator provides direct Yandex.disk link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/god-of-war-ewgeha.tar.zst
+    sha256: 67d830d6a76d5cf4abc247c3f18daee573b045e68f18893add53f2dd10b43ec8
+    size_bytes: 989750016
+    decompressed_size_bytes: 1208668160
+    file_count: 2103
+    created: '2026-10-26'
+    source:
+      sha256: b679c8b20db147d3995d504ed06c0d76d5872f3ca2e9b53fa572716d463edc7b
+      size_bytes: 3874895763
+      url: https://disk.yandex.ru/d/3ipL6dszlVh-aA
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

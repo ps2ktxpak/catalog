@@ -4,6 +4,8 @@ game:
   title: 'Tenchu: Wrath of Heaven'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20397
 credits:
 - creator: sombertwilight
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator's opening post explicitly labels V1.7 as primary download for texture pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tenchu-wrath-of-heaven-sombertwilight-2.tar.zst
+    sha256: d1ea5920927f26e3994e32f8442084df2eb3e825c85f57923913369d5f6189ce
+    size_bytes: 908987707
+    decompressed_size_bytes: 1560145920
+    file_count: 4645
+    created: '2026-10-28'
+    source:
+      sha256: 6db979ef9722b9f2c26db2faae6096b207fdf49f2f7f86b7833602d5d73fe71a
+      size_bytes: 840214715
+      url: https://www.mediafire.com/file/l3irashc4trv742/SLUS-20397.7z/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Sakura Wars: So Long, My Love'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21930
 credits:
 - creator: panda-venom
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/xktx4qfqgl36q5f/SLUS-21930_so_long_my_love.7z/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/sakura-wars-so-long-my-love-panda-venom.tar.zst
+    sha256: f1b6445895e33bf9342c1bf8888f4dfa67df4e3a22bfc7e58e5a56538b1c00c7
+    size_bytes: 1555606054
+    decompressed_size_bytes: 2867507200
+    file_count: 50461
+    created: '2026-10-28'
+    source:
+      sha256: 5c32cc6e7c4def02d49f3e5315a0c05fa1f7cf6ecd2ffc657b0f3d4a307cc291
+      size_bytes: 854245827
+      url: https://www.mediafire.com/file_premium/xktx4qfqgl36q5f/SLUS-21930_so_long_my_love.7z/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

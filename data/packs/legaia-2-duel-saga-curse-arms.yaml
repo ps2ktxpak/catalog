@@ -15,9 +15,9 @@ access:
 hosting:
   state: listed
 download:
-  status: resolved
+  status: dead
   url: https://drive.google.com/u/0/uc?id=1gsA57qsnO7EHRayNk8yiWiD3ooruHnZE&export=download
   host: gdrive
   kind: file
   confidence: medium
-  note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+  note: The host says this file is no longer there (checked 2026-10-26).

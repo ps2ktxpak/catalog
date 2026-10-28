@@ -4,6 +4,8 @@ game:
   title: 'Mobile Suit Gundam: Zeonic Front'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20233
 credits:
 - creator: callofcthuloo
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file/6g3f6cer4ick9xk/Mobile_Suit_Gundam_-_Zeonic_Front_%255BSLUS-20233%255D.zip/file
@@ -23,3 +27,23 @@ download:
   kind: file
   confidence: high
   note: Creator lists PCSX2 download link (4.67 GB) on Mediafire in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/mobile-suit-gundam-zeonic-front-callofcthuloo.tar.zst
+    sha256: 6970a224a9c0af7f7ba61b1214e3df888eda5d090e740fbdf81917a370ed7f12
+    size_bytes: 498037408
+    decompressed_size_bytes: 3122585600
+    file_count: 15320
+    created: '2026-10-28'
+    source:
+      sha256: 8339386b7483f106dd2b192e4825e778a60bdde5ef902183281d5c449b72ad68
+      size_bytes: 5015001035
+      url: https://www.mediafire.com/file/6g3f6cer4ick9xk/Mobile_Suit_Gundam_-_Zeonic_Front_%255BSLUS-20233%255D.zip/file
+      retrieved: '2026-10-28'
+    converter:
+      tool: kram
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

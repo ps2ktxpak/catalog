@@ -4,6 +4,8 @@ game:
   title: FlatOut
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20901
 credits:
 - creator: mironter
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://cloud.mail.ru/public/aehj/vmXrBkfr4
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: Creator provided Mail.ru cloud link in opening post.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/flatout-mironter.tar.zst
+    sha256: aabca2b3f1e8a56e7c00c1432fe6f86d7d061e513b1b65a4b3a009ff902bdbd8
+    size_bytes: 919136250
+    decompressed_size_bytes: 4419778560
+    file_count: 5997
+    created: '2026-10-27'
+    source:
+      sha256: 02e6b64bcf50890b283c8eca15b0b8e24b8aa013806ba219388ac123b70d5a64
+      size_bytes: 2970943499
+      url: https://cloud.mail.ru/public/aehj/vmXrBkfr4
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

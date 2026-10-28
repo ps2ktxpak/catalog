@@ -2,6 +2,8 @@ key: tenchu-wrath-of-heaven-sombertwilight
 name: 'Tenchu: Wrath of Heaven'
 game:
   title: 'Tenchu: Wrath of Heaven'
+  serials:
+  - SLUS-20397
 credits:
 - creator: sombertwilight
 type: mixed
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://mega.nz/file/UeE2lZ5Q#8cfwYSVugF-uKpDymen0ZWA4qE_F9tPmUxvugz1_ZmU
@@ -21,3 +25,24 @@ download:
   kind: file
   confidence: high
   note: The opening post's DOWNLOAD HERE block has a Mega link whose anchor text is Wrath of Heaven.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/tenchu-wrath-of-heaven-sombertwilight.tar.zst
+    sha256: dfbd58995bf41938015df43245179d3e68a2aa477777cd589c8d8977dec25bb6
+    size_bytes: 582655061
+    decompressed_size_bytes: 1697402880
+    file_count: 3521
+    created: '2026-10-27'
+    source:
+      sha256: 5d28ed70e94ddb979181fa10bc34300ae1189b0087c8936cf2b8463d00bc324b
+      size_bytes: 4454221666
+      url: https://mega.nz/file/UeE2lZ5Q#8cfwYSVugF-uKpDymen0ZWA4qE_F9tPmUxvugz1_ZmU
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -2,6 +2,8 @@ key: warhammer-40-000-fire-warrior-curse-arms
 name: 'Warhammer 40,000: Fire Warrior'
 game:
   title: 'Warhammer 40,000: Fire Warrior'
+  serials:
+  - SLUS-20597
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -13,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1qXfIGsevhYDD1LJqPE_UXhbEDFdred2s&export=download&authuser=0
@@ -21,3 +25,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/warhammer-40-000-fire-warrior-curse-arms.tar.zst
+    sha256: 35c23ef505dc09353d39f8dd9b1991911c794cb71602c7d61422100a5d47291a
+    size_bytes: 452757047
+    decompressed_size_bytes: 1092003840
+    file_count: 5849
+    created: '2026-10-26'
+    source:
+      sha256: 80d7bd186ce7f0d2dedfaefa2da596e5fe5821c14e077e4d8cf00d418486b59d
+      size_bytes: 1428969192
+      url: https://drive.usercontent.google.com/download?id=1qXfIGsevhYDD1LJqPE_UXhbEDFdred2s&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

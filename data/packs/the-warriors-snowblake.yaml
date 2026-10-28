@@ -4,6 +4,8 @@ game:
   title: The Warriors
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21215
 credits:
 - creator: snowblake
 type: port
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://github.com/Blakeline/XboxTexturePack.TheWarriors/releases/tag/release
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: 'Creator explicitly states ''Download: GitHub'' in opening post.'
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/the-warriors-snowblake.tar.zst
+    sha256: 7ea6954a044ee7fdc4e3accb939db29e954937f6bf1d4fb2290d517b86b3d621
+    size_bytes: 57312082
+    decompressed_size_bytes: 82882560
+    file_count: 4310
+    created: '2026-10-27'
+    source:
+      sha256: ef398c904ad159f352d7ccf466187bd5bae535059b0154d16cc4fc4aee4f5e13
+      size_bytes: 152878697
+      url: https://github.com/Blakeline/XboxTexturePack.TheWarriors/releases/tag/release
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

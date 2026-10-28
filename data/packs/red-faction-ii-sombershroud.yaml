@@ -4,6 +4,8 @@ game:
   title: Red Faction II
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20442
 credits:
 - creator: sombershroud
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-28'
 download:
   status: resolved
   url: https://www.mediafire.com/file_premium/12rgic4i7brhl3i/SLUS-20442.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: The creator's opening-post list gives this MediaFire zip (SLUS-20442) for Red Faction II (US).
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/red-faction-ii-sombershroud.tar.zst
+    sha256: 7811d2aff96cd784472ab67765f1c4ff388ec1573cdaddb29f9b5c766e8c3af9
+    size_bytes: 1858377401
+    decompressed_size_bytes: 4746782720
+    file_count: 31078
+    created: '2026-10-28'
+    source:
+      sha256: 5bb1710247f40c4748384f1fe434930278e8bb59fa9ef69f248fc17572aabed0
+      size_bytes: 3836363722
+      url: https://www.mediafire.com/file_premium/12rgic4i7brhl3i/SLUS-20442.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

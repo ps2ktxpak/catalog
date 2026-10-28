@@ -4,6 +4,8 @@ game:
   title: Ape Escape 2
   regions:
   - NTSC-U
+  serials:
+  - SLUS-20685
 credits:
 - creator: armm1998
 type: mixed
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1Jfo-W745jKzbrhp-yKBizBSUkAoLz7Xk/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator's opening post links to Google Drive file for the manually redrawn texture pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ape-escape-2-armm1998.tar.zst
+    sha256: b2846d68db6c11862222939613d91a4144716fa9b56bf6e92daa20c0e4ac1ab0
+    size_bytes: 17679779
+    decompressed_size_bytes: 84346880
+    file_count: 228
+    created: '2026-10-27'
+    source:
+      sha256: 9e36e1a5d4199fab56349738dd98098ad4cdf96391447cfe25ad462504cfb56d
+      size_bytes: 57326818
+      url: https://drive.google.com/file/d/1Jfo-W745jKzbrhp-yKBizBSUkAoLz7Xk/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -4,6 +4,8 @@ game:
   title: 'Guitar Hero Encore: Rocks the 80s'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21586
 credits:
 - creator: ops
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/e3hx2dft9fd5ghz/SLUS-21586.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/guitar-hero-encore-rocks-the-80s-ops.tar.zst
+    sha256: cee9c8744b05e6449ab6cfc76bf330c53f52ba96cf8a902a2b372347d2ae45d7
+    size_bytes: 120561680
+    decompressed_size_bytes: 167260160
+    file_count: 250
+    created: '2026-10-27'
+    source:
+      sha256: a0dbc5ca63f53d5d3b1016d051e5d542f87dc34ff9ede362d986e6a8fb94b2d8
+      size_bytes: 365495385
+      url: https://www.mediafire.com/file/e3hx2dft9fd5ghz/SLUS-21586.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

@@ -13,7 +13,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1vvQ83c9DnE3rqELVgiWG1eu-pW1-7PZX/view
@@ -21,3 +23,24 @@ download:
   kind: file
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/fatal-frame-iii-the-tormented-curse-arms.tar.zst
+    sha256: cb13804b8fc3bf45c7c53cb2541846cdc5afca94d2ca9154006ae7e71161b279
+    size_bytes: 908174753
+    decompressed_size_bytes: 1324226560
+    file_count: 3872
+    created: '2026-10-27'
+    source:
+      sha256: 105bf0fcbe70f949fc908f5eb34e13d1af65e13b83f7c802e54bf754db072fd5
+      size_bytes: 745177100
+      url: https://drive.google.com/file/d/1vvQ83c9DnE3rqELVgiWG1eu-pW1-7PZX/view
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

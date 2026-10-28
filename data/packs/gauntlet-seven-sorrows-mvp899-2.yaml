@@ -4,6 +4,8 @@ game:
   title: 'Gauntlet: Seven Sorrows'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21077
 credits:
 - creator: mvp899
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.google.com/file/d/11kcLOjlreYmRybd_xfCG9tcRIlKiHmIh/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in video pinned comment; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/gauntlet-seven-sorrows-mvp899-2.tar.zst
+    sha256: 0ab08e50d249ea68d0c7871cc0c7d713fdd8aa467ecb2481b0e732ad501a553b
+    size_bytes: 469258104
+    decompressed_size_bytes: 580956160
+    file_count: 1616
+    created: '2026-10-26'
+    source:
+      sha256: d6293f40d8daece29b543d3a4d66d068103c9c4f47295bb567ef6bc3f51dfaed
+      size_bytes: 1517110556
+      url: https://drive.google.com/file/d/11kcLOjlreYmRybd_xfCG9tcRIlKiHmIh/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

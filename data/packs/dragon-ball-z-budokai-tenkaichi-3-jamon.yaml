@@ -4,6 +4,8 @@ game:
   title: 'Dragon Ball Z: Budokai Tenkaichi 3'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21978
 credits:
 - creator: jamon
 type: unknown
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/17j1yktzouzi17g/textures.rar/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: high
   note: Creator provides direct MediaFire link in opening post for texture pack.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/dragon-ball-z-budokai-tenkaichi-3-jamon.tar.zst
+    sha256: be247209ee3e65c474002845d6afdeeb3e3df2432496f9078be8fa2f207d870d
+    size_bytes: 502331252
+    decompressed_size_bytes: 816230400
+    file_count: 1488
+    created: '2026-10-27'
+    source:
+      sha256: 2b95e22bb6ecf0edc3d6c82194c05b019c11ac69f8945f646ad2affeb5cce65c
+      size_bytes: 1149590283
+      url: https://www.mediafire.com/file/17j1yktzouzi17g/textures.rar/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

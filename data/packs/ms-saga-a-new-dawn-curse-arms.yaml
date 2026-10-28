@@ -4,6 +4,8 @@ game:
   title: 'MS Saga: A New Dawn'
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21270
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1la7LcGiPrwdEvF9xFzPkk9X2mSb32kWA&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/ms-saga-a-new-dawn-curse-arms.tar.zst
+    sha256: 664325cdf87ebcd1ba70fb102b6388efeb484f01d94486060ccbdaf40ad9e860
+    size_bytes: 1221545464
+    decompressed_size_bytes: 1611120640
+    file_count: 17259
+    created: '2026-10-26'
+    source:
+      sha256: cf1100c0a2ab292672c12473d9b6cac9b9b8842360eab1de1a94646f8b20cdfb
+      size_bytes: 3966706904
+      url: https://drive.usercontent.google.com/download?id=1la7LcGiPrwdEvF9xFzPkk9X2mSb32kWA&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

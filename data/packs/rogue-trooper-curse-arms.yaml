@@ -4,6 +4,8 @@ game:
   title: Rogue Trooper
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21320
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-26'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=10TTCQEWPlNFM7yDcFZVz_lO5yuUt6E7p&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file-host link in video description; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/rogue-trooper-curse-arms.tar.zst
+    sha256: 0127e0d1daa945b720171ec92055e8130726a0fb8edb62ff17f8be35e5baf0cc
+    size_bytes: 719192718
+    decompressed_size_bytes: 1009674240
+    file_count: 4877
+    created: '2026-10-26'
+    source:
+      sha256: 03ceb14ab2ed6442e9cf1d166fc796482cbc12744d1402c6a8c20206c67e6c1f
+      size_bytes: 2608910235
+      url: https://drive.usercontent.google.com/download?id=10TTCQEWPlNFM7yDcFZVz_lO5yuUt6E7p&export=download&authuser=0
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

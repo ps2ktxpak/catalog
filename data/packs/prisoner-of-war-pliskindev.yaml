@@ -4,6 +4,8 @@ game:
   title: Prisoner of War
   regions:
   - PAL
+  serials:
+  - SLES-50397
 credits:
 - creator: pliskindev
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://www.mediafire.com/file/0c9h7jx67ax4oa6/SLES-50397.zip/file
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/prisoner-of-war-pliskindev.tar.zst
+    sha256: 6171fa6178682d1352c301c23317594e3126d5979362713069a46d1338f1ee57
+    size_bytes: 658040497
+    decompressed_size_bytes: 2250588160
+    file_count: 946
+    created: '2026-10-27'
+    source:
+      sha256: 2b58d752de387fcdb8188cedc6a50cfc0f268f3d5b6d5373b8b3d23a37fab59f
+      size_bytes: 1171501747
+      url: https://www.mediafire.com/file/0c9h7jx67ax4oa6/SLES-50397.zip/file
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

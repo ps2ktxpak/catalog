@@ -4,6 +4,8 @@ game:
   title: T.M.N.T. - Teenage Mutant Ninjas
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21595
 credits:
 - creator: sal9im
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.google.com/file/d/1B3S0UEnPqN0RMSwGAyH0L6KUQi84T__L/view?usp=sharing
@@ -23,3 +27,24 @@ download:
   kind: file
   confidence: medium
   note: the only file-host link in op; not yet confirmed to be the pack itself
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/t-m-n-t-teenage-mutant-ninjas-sal9im.tar.zst
+    sha256: 5bce8b566095e0f4e60f4f5d92b343cbd31bf83ed5b73aaeccaff9caf44f90d7
+    size_bytes: 227697161
+    decompressed_size_bytes: 411709440
+    file_count: 1676
+    created: '2026-10-27'
+    source:
+      sha256: a321e85e32c3d9e41d2d5326b7f88a0d9ddefff8d3ead370c54d4243d25f9cc2
+      size_bytes: 848301834
+      url: https://drive.google.com/file/d/1B3S0UEnPqN0RMSwGAyH0L6KUQi84T__L/view?usp=sharing
+      retrieved: '2026-10-26'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

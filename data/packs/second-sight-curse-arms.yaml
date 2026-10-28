@@ -4,6 +4,8 @@ game:
   title: Second Sight
   regions:
   - NTSC-U
+  serials:
+  - SLUS-21033
 credits:
 - creator: curse-arms
 type: ai_upscale
@@ -15,7 +17,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withheld
+  reason: Downloaded and converted; not served until someone decides to host it.
+  since: '2026-10-27'
 download:
   status: resolved
   url: https://drive.usercontent.google.com/download?id=1xXI5PAYxZM18lFsfGeNObXr8S3ASQa5S&export=download&authuser=0
@@ -23,3 +27,24 @@ download:
   kind: unknown
   confidence: medium
   note: the only file link from the uploader of the video titled for this game; not yet confirmed to be the pack
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/second-sight-curse-arms.tar.zst
+    sha256: 6f967b2140686a05fb16fe26deb9fa0f5f25af2ca5639a4b1352d7bebcbed1d7
+    size_bytes: 444997409
+    decompressed_size_bytes: 598241280
+    file_count: 6910
+    created: '2026-10-27'
+    source:
+      sha256: 417de6dca2ee2bb08f06d61aaa2092e21624778451b713c0f531c12fccd6f84d
+      size_bytes: 1428778474
+      url: https://drive.usercontent.google.com/download?id=1xXI5PAYxZM18lFsfGeNObXr8S3ASQa5S&export=download&authuser=0
+      retrieved: '2026-10-27'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them
