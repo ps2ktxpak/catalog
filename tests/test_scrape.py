@@ -356,3 +356,29 @@ def test_the_mirror_copies_what_the_destination_lacks(tmp_path):
     assert mirror.main(["--src", str(src), "--dst", str(dst)]) == 0
     assert sorted(p.name for p in dst.iterdir()) == ["a.tar.zst", "b.tar.zst"]
     assert (dst / "b.tar.zst").read_bytes() == b"already there"
+
+
+def test_presigned_links_follow_the_aws_documentation_example():
+    import datetime as dt
+    from ps2ktxpak.scrape import index
+    query = index.presign("examplebucket.s3.amazonaws.com", "/test.txt", "AKIAIOSFODNN7EXAMPLE",
+                          "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY", "us-east-1",
+                          dt.datetime(2013, 5, 24, tzinfo=dt.timezone.utc), 86400)
+    assert query.endswith("X-Amz-Signature=aeeed9bbccd4d02ee5c0109b86d86835f995330da4c265957d157751f604d404")
+
+
+def test_the_raw_downloads_page_lists_each_download_once_under_all_its_packs():
+    import datetime as dt
+    from ps2ktxpak.scrape import index
+    pack = lambda name: {"name": name, "credits": [{"creator": "x"}], "game": {"serials": ["SLUS-20001"]},
+                         "download": {"url": "https://u.example/1", "host": "mediafire"}}
+    packs = {"alpha-x": pack("Alpha"), "beta-x": pack("Beta")}
+    shared = job.url_id("https://u.example/1")
+    files = {shared: [("Pack (v1).7z", 3 * 2**30)], "ffff": [("<b>.rar", 10)],
+             "eeee": [(f"t{i}.png", 1) for i in range(index.INLINE_FILES + 1)]}
+    out = index.page(files, packs, {"x": {"name": "Xavier"}}, lambda f, n: f"https://h/{f}/{n}?a=1&b=2",
+                     dt.datetime(2026, 11, 13, 12, 0, tzinfo=dt.timezone.utc))
+    assert out.count("<h2>") == 3 and "<h2>Alpha · Beta</h2>" in out and "Xavier" in out and "SLUS-20001" in out
+    assert 'href="https://h/ffff/&lt;b&gt;.rar?a=1&amp;b=2"' in out and "&lt;b&gt;.rar</a>" in out
+    assert "<h2>Download ffff</h2>" in out and "3.0 GiB" in out and "13 files" in out and "Copy all 13 links" in out
+    assert "Friday 13 November 2026, 12:00 UTC" in out

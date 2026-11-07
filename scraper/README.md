@@ -128,6 +128,20 @@ only the files B2 does not have yet, so the files go from Cloudflare to Backblaz
 It needs the secrets `B2_ACCOUNT_ID` and `B2_KEY` (a key that can write that bucket). `GET /status` shows its
 progress in the entry marked `mirror`; the cron keeps it awake and stops it when it has finished.
 
+## Giving someone the raw downloads
+
+`sources/` holds every download as the host served it. To let someone fetch them without opening the bucket:
+
+```sh
+# RCLONE_CONFIG_R2_ACCESS_KEY_ID, _SECRET_ACCESS_KEY and _ENDPOINT set, as entry.sh sets them
+ps2ktxpak scrape index              # writes dist/raw-downloads.html
+```
+
+The page lists each download once under every pack that shares it, with a search box. Each file link is
+signed, so the bucket stays private; the links work for seven days (R2's limit), and running the command
+again makes fresh ones. R2 does not charge for the downloads themselves. The page holds working links
+and the account's S3 host name: send it to the one person, never commit it (`dist/` is untracked).
+
 ## Running
 
 ```sh
