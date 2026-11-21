@@ -6,14 +6,15 @@ game:
   serials:
   - SCUS-97472
 credits:
-- creator: sad-origami
+- creator: curse-arms
+  note: The inherited record credited Sad Origami; its files are the same 1,748 textures as shadow-of-the-colossus-curse-arms.
 type: unknown
 completeness: unknown
 description: A North American high-resolution replacement pack prepared for current PCSX2 builds.
 version: Complete public source snapshot
 sources:
-- kind: creator_page
-  url: https://gbatemp.net/members/sadorigami.659683/
+- kind: forum_thread
+  url: https://gbatemp.net/threads/my-hd-remaster-pack.630347/
   primary: true
 - kind: mirror
   url: https://archive.org/details/pcsx2-hd-texture-packs
@@ -23,7 +24,9 @@ permission:
   kind: unknown
   note: Inherited from the EmuCoreX-Textures catalog; no permission was recorded.
 hosting:
-  state: published
+  state: withdrawn
+  reason: Duplicate of shadow-of-the-colossus-curse-arms, the same textures under the wrong credit.
+  since: '2026-11-21'
 archive:
   current: 1
   versions:
