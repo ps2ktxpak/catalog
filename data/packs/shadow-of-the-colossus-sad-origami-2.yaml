@@ -15,7 +15,9 @@ sources:
 access:
   cost: free
 hosting:
-  state: listed
+  state: withdrawn
+  reason: Duplicate of shadow-of-the-colossus-sad-origami, the record of this pack that is hosted.
+  since: '2026-11-21'
 download:
   status: resolved
   url: https://ko-fi.com/s/0e91535d6d
