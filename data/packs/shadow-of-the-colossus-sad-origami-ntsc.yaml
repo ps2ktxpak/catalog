@@ -1,0 +1,56 @@
+key: shadow-of-the-colossus-sad-origami-ntsc
+name: Shadow of the Colossus (NTSC-U)
+game:
+  title: Shadow of the Colossus
+  serials:
+  - SCUS-97472
+credits:
+- creator: sad-origami
+type: handcrafted
+completeness: incomplete
+description: Sad Origami's European pack on the North American release (SCUS-97472). The English text loads under its
+  US names, mapped by Txori's PS2TexRegionSwap. The US release was finished earlier and lays out its menus
+  differently, so the menus stay at native resolution, and it has no Bonus Material.
+sources:
+- kind: shop
+  url: https://ko-fi.com/s/0e91535d6d
+  primary: true
+- kind: forum_thread
+  url: https://gbatemp.net/threads/shadow-of-the-colossus-usa-eu-origami-remaster.641597/
+access:
+  cost: free
+permission:
+  kind: creator_approved
+  date: '2026-11-21'
+  note: The creator supplied this pack for hosting.
+hosting:
+  state: published
+  since: '2026-11-21'
+download:
+  status: resolved
+  url: https://ko-fi.com/s/0e91535d6d
+  host: kofi
+  kind: shop
+  confidence: high
+  note: The creator's own distribution page.
+archive:
+  current: 1
+  versions:
+  - revision: 1
+    container: tar+zstd
+    object: packs/shadow-of-the-colossus-sad-origami.tar.zst
+    sha256: f1e2e4b06a195541e962e9fd752d13adb30d014301d2fd0d42d4e28c378dd609
+    size_bytes: 1515141545
+    decompressed_size_bytes: 2341253120
+    file_count: 1437
+    created: '2026-11-21'
+    source:
+      sha256: cba4c72d54af947c5493e692b61eb3b57b3c92e7e202a7bfe3f04e407e37a4fe
+      size_bytes: 2109038422
+      url: https://ko-fi.com/s/0e91535d6d
+      retrieved: '2026-11-21'
+    converter:
+      tool: kram
+      version: 97c56df
+      pipeline: ps2ktxpak scrape convert, run locally on the creator's file
+      params: astc6x6 quality 98, up to 7 mip levels; tar --format=gnu | zstd -19 --long=27; only files named as the emulator loads them

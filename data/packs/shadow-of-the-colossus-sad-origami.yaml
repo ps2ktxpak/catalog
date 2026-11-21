@@ -1,17 +1,15 @@
 key: shadow-of-the-colossus-sad-origami
-name: Shadow of the Colossus
+name: Shadow of the Colossus (PAL)
 game:
   title: Shadow of the Colossus
   serials:
   - SCES-53326
-  - SCUS-97472
 credits:
 - creator: sad-origami
 type: handcrafted
 completeness: complete
-description: Handcrafted remaster made for the European release (SCES-53326). On the North American disc (SCUS-97472)
-  the English text textures load under their US names, mapped by Txori's PS2TexRegionSwap; the US release lays out
-  its menus differently, so they stay at native resolution there.
+description: Handcrafted remaster for the European release (SCES-53326), the version the pack was made for. The
+  North American release has its own entry.
 sources:
 - kind: shop
   url: https://ko-fi.com/s/0e91535d6d
